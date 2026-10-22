@@ -1,0 +1,4 @@
+﻿# WO: P-Konto, Inkasso & Verbraucherinsolvenz
+- P-Konto-Schutz nach § 850k ZPO: Erhöhung des Grundfreibetrags bei Unterhaltspflichten oder Einmalzahlungen.
+- Inkasso-Abwehr: Prüfung unberechtigter Forderungen und überhöhter Inkassogebühren nach Rechtsdienstleistungsgesetz (RDG).
+- Verbraucherinsolvenz: Ablauf des außergerichtlichen Einigungsversuchs und gerichtliches Verfahren.

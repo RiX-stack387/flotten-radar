@@ -1,0 +1,4 @@
+﻿# WO: Vorsorgevollmacht, Patientenverfügung & Pflege-Navigation
+- Vorsorgevollmachten und Betreuungsverfügungen nach BGB (§ 1827 BGB ff.).
+- Patientenverfügung: Konkrete Festlegungen medizinischer Behandlungen am Lebensende.
+- Betreuungsvermeidung durch Bevollmächtigte und Pflegestufen-Antragstellung im Nordschwarzwald.
