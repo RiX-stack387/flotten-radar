@@ -1,0 +1,3 @@
+ZEITPUNKT: 2026-10-18_09-58-08
+STATUS: Bewegung erkannt
+ANALYSE: Der Überwachungsbereich zeigt einen statischen Innenraum mit Wandbildern, einer Zimmerpflanze und einem geöffneten Durchgang. Es wurden keine Personen oder Bewegungsaktivitäten registriert.

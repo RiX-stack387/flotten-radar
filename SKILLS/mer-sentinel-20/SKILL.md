@@ -1,6 +1,6 @@
----
+﻿---
 name: mer-sentinel-20
-description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2.5) - MER-Sentinel 2.0 (Erweiterter Flotten- und System-Waechter, Integritaets-Scans, State-Sync, Radar-Sensorik und automatisierte Resilienz-Pfade).
+description: "MER-Sentinel 2.0 (Erweiterter Flotten- und System-Waechter, Integritaets-Scans, State-Sync und automatisierte Resilienz-Pfade)."
 ---
 # SKILL: 17_MER_Sentinel_20 (Status V23.4 / Upgrade V2.5)
 
@@ -12,6 +12,10 @@ description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2
 4. **Smartphone-Doktrin:** Uebersichtliche, direkt lesbare Struktur.
 
 ## Referenzen & Wissensdatenbank
-Werte fuer tagesaktuelle Aenderungen das GitHub-Repository RiX-stack387/flotten-radar aus:
+Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
+- Datei references/Front_Delta_Compact.md
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
+
+Prüfe für tagesaktuelle Live-Änderungen und Deltas ergänzend das GitHub-Repository RiX-stack387/flotten-radar:
 - Datei Front_Delta_Compact.md auf dem Branch main
 - Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main

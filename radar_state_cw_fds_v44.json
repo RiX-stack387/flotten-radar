@@ -1,0 +1,767 @@
+{
+    "cw_fds_slot_CW_Z1": {
+        "source_hash": "6fc5d761f5ac178d369072cfaddffaddb766bc861d08dac9dbd0520d788afd48",
+        "legal_hash": "df010539209ef22746d73e0eab92af6f2c1c2b137745979a3aae9fa5870175bb",
+        "claims": [
+            {
+                "norm": "SGB II / Jobcenter Landkreis Calw",
+                "extracted_value": "Das Grundsicherungsgeld hat das Bürgergeld ab 01.07.2026 abgelöst",
+                "value_type": "TEXT",
+                "context": "Einführung des Grundsicherungsgeldes und Ablösung des Bürgergeldes im Landkreis Calw ab dem 01.07.2026",
+                "evidence_location": "Das Grundsicherungsgeld hat das Bürgergeld ab 01.07.2026 abgelöst"
+            },
+            {
+                "norm": "SGB II",
+                "extracted_value": "Die angemessenen Unterkunftskosten beziehen sind auf die Kaltmiete. Bei Bedarf kommen die Betriebs- bzw. Heizkosten hinzu.",
+                "value_type": "TEXT",
+                "context": "Regelungen zu Mietobergrenzen (MOG) und Unterkunftskosten im Landkreis Calw",
+                "evidence_location": "Die angemessenen Unterkunftskosten beziehen sind auf die Kaltmiete. Bei Bedarf kommen die Betriebs- bzw. Heizkosten hinzu."
+            }
+        ],
+        "last_updated": "2026-10-18T03:15:34.710887+00:00"
+    },
+    "cw_fds_slot_CW_Z2": {
+        "source_hash": "964e24801c2d755cdfe16a820e9bb1c7ed16c0f52225b2b202911e4624d0b75a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_Z3": {
+        "source_hash": "6fc5d761f5ac178d369072cfaddffaddb766bc861d08dac9dbd0520d788afd48",
+        "legal_hash": "df010539209ef22746d73e0eab92af6f2c1c2b137745979a3aae9fa5870175bb",
+        "claims": [
+            {
+                "norm": "SGB II",
+                "extracted_value": "Das Grundsicherungsgeld hat das Bürgergeld ab 01.07.2026 abgelöst",
+                "value_type": "TEXT",
+                "context": "Einführung des Grundsicherungsgeldes und Ablösung des Bürgergeldes im Landkreis Calw ab dem 01.07.2026.",
+                "evidence_location": "Das Grundsicherungsgeld hat das Bürgergeld ab 01.07.2026 abgelöst"
+            },
+            {
+                "norm": "Jobcenter Landkreis Calw MOG",
+                "extracted_value": "Die angemessenen Unterkunftskosten beziehen sind auf die Kaltmiete. Bei Bedarf kommen die Betriebs- bzw. Heizkosten hinzu.",
+                "value_type": "TEXT",
+                "context": "Regelungen zu den Mietobergrenzen im Landkreis Calw (MOG) und den Unterkunftskosten.",
+                "evidence_location": "Die angemessenen Unterkunftskosten beziehen sind auf die Kaltmiete. Bei Bedarf kommen die Betriebs- bzw. Heizkosten hinzu."
+            }
+        ],
+        "last_updated": "2026-10-18T03:15:51.294801+00:00"
+    },
+    "cw_fds_slot_CW_Z4": {
+        "source_hash": "6e1c2c896d9f536c7d41e65ad7c9637db176eb02058c58ff62544638a59e40b9",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_Z5": {
+        "source_hash": "0e472e41fcae576f147321db6543e2c70d6f838e2424b49244a569804816835b",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_Z10": {
+        "source_hash": "c93702385b62c2fdb4a6ec26f0ee8af44082aa0b953298975c2de71814790e73",
+        "legal_hash": "143c262cacc35fc2eab8501dfa4285e1f4758d753662a310e4b5812a416a2595",
+        "claims": [
+            {
+                "norm": "Landratsamt Calw Online-Dienste",
+                "extracted_value": "Das Landratsamt Calw stellt Ihnen elektronische Verfahrensabwicklungen zur Verfügung, um Leistungserstellungsprozesse und Organisationsabläufe zu optimieren.",
+                "value_type": "TEXT",
+                "context": "Bereitstellung von Online-Diensten durch das Landratsamt Calw im Landkreis Calw.",
+                "evidence_location": "Das Landratsamt Calw stellt Ihnen elektronische Verfahrensabwicklungen zur Verfügung, um Leistungserstellungsprozesse und Organisationsabläufe zu optimieren."
+            }
+        ],
+        "last_updated": "2026-10-18T03:16:15.883515+00:00"
+    },
+    "cw_fds_slot_CW_Z11": {
+        "source_hash": "862d7c7492d06cd80188d5c80d8be93dc4177dfbf5c69d767d9e003544c78995",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_Z12": {
+        "source_hash": "e6afe59eb5e95a95fd48eefc5f9e19e394038b11ac50600b7786d2a5fde14f25",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landratsamt Calw Kontakt und Sprechzeiten",
+                "extracted_value": "Montag 8:00 – 13:00 Uhr und 14:00 – 16:00 Uhr Dienstag 8:00 – 12:00 Uhr Mittwoch 8:00 – 12:00 Uhr Donnerstag 8:00 – 12:00 Uhr und 13:30 – 18:00 Uhr Freitag 8:00 – 12:00 Uhr",
+                "value_type": "TEXT",
+                "context": "Allgemeine Sprechzeiten des Landratsamtes Calw",
+                "evidence_location": "Montag 8:00 – 13:00 Uhr und 14:00 – 16:00 Uhr Dienstag 8:00 – 12:00 Uhr Mittwoch 8:00 – 12:00 Uhr Donnerstag 8:00 – 12:00 Uhr und 13:30 – 18:00 Uhr Freitag 8:00 – 12:00 Uhr"
+            }
+        ],
+        "last_updated": "2026-10-18T03:16:32.159881+00:00"
+    },
+    "cw_fds_slot_CW_Z24": {
+        "source_hash": "e6afe59eb5e95a95fd48eefc5f9e19e394038b11ac50600b7786d2a5fde14f25",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landratsamt Calw Kontakt und Sprechzeiten",
+                "extracted_value": "Allgemeine Sprechzeiten Montag 8:00 – 13:00 Uhr und 14:00 – 16:00 Uhr Dienstag 8:00 – 12:00 Uhr Mittwoch 8:00 – 12:00 Uhr Donnerstag 8:00 – 12:00 Uhr und 13:30 – 18:00 Uhr Freitag 8:00 – 12:00 Uhr",
+                "value_type": "TEXT",
+                "context": "Öffnungszeiten und Erreichbarkeit des Landratsamtes Calw",
+                "evidence_location": "Allgemeine Sprechzeiten Montag 8:00 – 13:00 Uhr und 14:00 – 16:00 Uhr Dienstag 8:00 – 12:00 Uhr Mittwoch 8:00 – 12:00 Uhr Donnerstag 8:00 – 12:00 Uhr und 13:30 – 18:00 Uhr Freitag 8:00 – 12:00 Uhr"
+            }
+        ],
+        "last_updated": "2026-10-18T03:16:40.364243+00:00"
+    },
+    "cw_fds_slot_CW_Z27": {
+        "source_hash": "223421c827c54867b9dfdf701f32850984ef39df2d9e3af5f9fdba7c91d2c7a9",
+        "legal_hash": "d1e1d77ec17c3b55a3a1c4fd8458c91ece57671e1e49964e8549eb7d3f10e741",
+        "claims": [
+            {
+                "norm": "Landkreis Calw Pflegestützpunkt",
+                "extracted_value": "Der Pflegestützpunkt berät Pflegebedürftige und deren Angehörige kostenfrei und neutral.",
+                "value_type": "TEXT",
+                "context": "Kostenfreie und neutrale Beratung für Pflegebedürftige und deren Angehörige im Landkreis Calw.",
+                "evidence_location": "Der Pflegestützpunkt berät Pflegebedürftige und deren Angehörige kostenfrei und neutral."
+            }
+        ],
+        "last_updated": "2026-10-18T03:16:48.563504+00:00"
+    },
+    "cw_fds_slot_CW_Z28": {
+        "source_hash": "c93702385b62c2fdb4a6ec26f0ee8af44082aa0b953298975c2de71814790e73",
+        "legal_hash": "143c262cacc35fc2eab8501dfa4285e1f4758d753662a310e4b5812a416a2595",
+        "claims": [
+            {
+                "norm": "Landratsamt Calw Online-Dienste",
+                "extracted_value": "Das Landratsamt Calw stellt Ihnen elektronische Verfahrensabwicklungen zur Verfügung, um Leistungserstellungsprozesse und Organisationsabläufe zu optimieren.",
+                "value_type": "TEXT",
+                "context": "Bereitstellung von Online-Diensten durch das Landratsamt Calw für den Landkreis Calw.",
+                "evidence_location": "Das Landratsamt Calw stellt Ihnen elektronische Verfahrensabwicklungen zur Verfügung, um Leistungserstellungsprozesse und Organisationsabläufe zu optimieren."
+            }
+        ],
+        "last_updated": "2026-10-18T03:16:56.775645+00:00"
+    },
+    "cw_fds_slot_CW_ST_01": {
+        "source_hash": "d58d3ead315da661192d6c53a1ddb6b1d0100229efdb988c64b996c336a65b53",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_ST_02": {
+        "source_hash": "6dc85009db45044f6e21ac71a0ba24cdfd6bc5ea29129efabd50b27b931ddf7c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_ST_03": {
+        "source_hash": "d05f511a35d217dc642bcd7dc820dc99df7a6c913b1f522b0ec8ecf4bdef3b4d",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_ST_04": {
+        "source_hash": "9f92c51ec52d44ec883b1771556579398faaaa7b722f0b1486e9a2ba42cffb7a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_ST_05": {
+        "source_hash": "c868f5d745a1c63e620a79c4ae34801e891a938e354d4e201a6ba73d5211c469",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_ST_06": {
+        "source_hash": "837d3e787a33f008a2ec317956cfc4171817ca4e5e65c8fe5d2e977d6b26993a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_ST_07": {
+        "source_hash": "85ce0f430913c5dcb025c8535347fe4817371089ac2c4878ad485632ddaf7cb9",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_ST_08": {
+        "source_hash": "24aac504e7bee14d47e7bd11f6ae143a874a67b0529b3086bd5559078f2a7e2a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_ST_09": {
+        "source_hash": "0e84a8f642ea761d4ef44a4645b40b8b96fda0ed57547bc38f5fa0bb1bd53816",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landratsamt Calw",
+                "extracted_value": "31. Oktober",
+                "value_type": "DATE",
+                "context": "Verlängerung der Beschränkung der Wasserentnahme aus oberirdischen Gewässern im Kreis Calw",
+                "evidence_location": "Landratsamt Calw verlängert die Beschränkung der Wasserentnahme aus oberirdischen Gewässern bis 31. Oktober*"
+            },
+            {
+                "norm": "Stadtkasse Bad Herrenalb",
+                "extracted_value": "01.01.2027",
+                "value_type": "DATE",
+                "context": "Auflösung des Kontos bei der Postbank Karlsruhe durch die Stadtkasse Bad Herrenalb",
+                "evidence_location": "Die Stadtkasse Bad Herrenalb wird ihr Konto bei der Postbank Karlsruhe zum 01.01.2027 auflösen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:18:11.619943+00:00"
+    },
+    "cw_fds_slot_CW_ST_10": {
+        "source_hash": "017a9ec3f4dd8730fd28e93544764e4d7fd02d771f811ac23af1dd7e96708219",
+        "legal_hash": "aa9ffbdfea8f7c3afbbdabd5fda29f722701ab660601ea0da48bee6993d7f7eb",
+        "claims": [
+            {
+                "norm": "Art. 6 Abs. 1 s. 1 lit. e DSGVO",
+                "extracted_value": "Die Daten werden gelöscht, sobald die Sitzung beendet ist.",
+                "value_type": "TEXT",
+                "context": "Aufbewahrungsdauer der Daten für Online-Formulare auf der Website der Stadt Bad Teinach-Zavelstein",
+                "evidence_location": "Die Daten werden gelöscht, sobald die Sitzung beendet ist."
+            }
+        ],
+        "last_updated": "2026-10-18T03:18:21.192379+00:00"
+    },
+    "cw_fds_slot_CW_GM_01": {
+        "source_hash": "93a7026c8321bbf7d98d68f3bd484660d706e5c789fef0d993e7d454474b24d9",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Schließung Ortsverwaltung Ottenbronn",
+                "extracted_value": "Am Donnerstag, 22.10.2026, bleibt die Ortsverwaltung geschlossen.",
+                "value_type": "TEXT",
+                "context": "Schließung der Ortsverwaltung Ottenbronn am 22.10.2026 mit Verweis auf das Rathaus Althengstett",
+                "evidence_location": "Am Donnerstag, 22.10.2026, bleibt die Ortsverwaltung geschlossen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:18:29.893209+00:00"
+    },
+    "cw_fds_slot_CW_GM_02": {
+        "source_hash": "44f3ae148276599266c11e2cf16b16d558b65567bcd0bc81b63049f834e748df",
+        "legal_hash": "83a3228c36f3307dac43e4a43f99c6aad8163da41cb7eba575d01f294449628f"
+    },
+    "cw_fds_slot_CW_GM_03": {
+        "source_hash": "4234d2c4e638ec5cfe9e6112556ea2940a3b49bc9e14c49ca7b388fd89ae5967",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landratsamt Calw",
+                "extracted_value": "31. Oktober 2026",
+                "value_type": "DATE",
+                "context": "Verlängerung der Beschränkung der Wasserentnahme im Kreis Calw",
+                "evidence_location": "Das Landratsamt Calw verlängert die Beschränkung der Wasserentnahme aus den Flüssen und Bächen des Kreises Calw bis 31. Oktober 2026"
+            }
+        ],
+        "last_updated": "2026-10-18T03:18:48.079800+00:00"
+    },
+    "cw_fds_slot_CW_GM_04": {
+        "source_hash": "b0215ac446324fbfc8d0a255570765b2f79860f4a9eca47292f7f5735c5d8329",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_GM_05": {
+        "source_hash": "5090d6aa19249549fc8ff257aa9ba7fce9355d65a09527235800c88cfef81d24",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Bekanntmachung zur Durchführung der Wahl (Bürgermeisterwahl 2026)",
+                "extracted_value": "Freitag, 23. Oktober 2026 von 12.00 Uhr bis 15.00 Uhr",
+                "value_type": "DATE",
+                "context": "Ausschlussfrist für die reguläre Beantragung von Briefwahlunterlagen für die Bürgermeister-Stichwahl im Rathaus Gechingen, Bürgerbüro.",
+                "evidence_location": "Freitag, 23. Oktober 2026 von 12.00 Uhr bis 15.00 Uhr Letzte Möglichkeit zur Beantragung von Briefwahlunterlagen für die Bürgermeisterwahl im Rathaus, Zi. 1, Bürgerbüro."
+            },
+            {
+                "norm": "Bekanntmachung zur Durchführung der Wahl (Bürgermeisterwahl 2026)",
+                "extracted_value": "Samstag, den 24. Oktober 2026 von 11.00 Uhr bis 12.00 Uhr",
+                "value_type": "DATE",
+                "context": "Frist zur Neuausstellung eines Wahlscheines bei Nichtzugang oder Verlust nach Glaubhaftmachung.",
+                "evidence_location": "Samstag, den 24. Oktober 2026 von 11.00 Uhr bis 12.00 Uhr Letzte Möglichkeit zur Neuausstellung eines Wahlscheines für die Bürgermeisterwahl, im Rathaus, Zi. 1, Bürgerbüro, wenn der beantragte Wahlschein nicht zugegangen ist oder er ihn verloren hat."
+            },
+            {
+                "norm": "Bekanntmachung zur Durchführung der Wahl (Bürgermeisterwahl 2026)",
+                "extracted_value": "Wahlsonntag, den 25. Oktober 2026 von 08.00 Uhr bis 15.00 Uhr",
+                "value_type": "DATE",
+                "context": "Frist zur Beantragung von Briefwahlunterlagen bei nachgewiesener plötzlicher Erkrankung oder unverschuldetem Versäumnis im Wahllokal Wahlbezirk I (Gemeindehalle Gechingen).",
+                "evidence_location": "Wahlsonntag, den 25. Oktober 2026 von 08.00 Uhr bis 15.00 Uhr Im Falle nachgewiesener plötzlicher Erkrankung oder bei schuldlosem Versäumen der Antragsfrist für die Beantragung der Aufnahme in das Wählerverzeichnis besteht nochmals die Möglichkeit Briefwahlunterlagen für die Bürgermeisterwahl zu erhalten."
+            },
+            {
+                "norm": "Öffentliche Bekanntmachung über das Recht auf Einsicht in das Wählerverzeichnis und die Erteilung von Wahlscheinen",
+                "extracted_value": "11. Oktober 2026 und Stichwahl am 25. Oktober 2026",
+                "value_type": "DATE",
+                "context": "Termine für die Durchführung der Wahl des Bürgermeisters / der Bürgermeisterin sowie einer eventuellen Stichwahl in Gechingen.",
+                "evidence_location": "Öffentliche Bekanntmachung über das Recht auf Einsicht in das Wählerverzeichnis und die Erteilung von Wahlscheinen für die Wahl des Bürgermeisters / der Bürgermeisterin am 11. Oktober 2026 und eine etwa erforderlich werdende Stichwahl am 25. Oktober 2026"
+            }
+        ],
+        "last_updated": "2026-10-23T01:13:57.664871+00:00"
+    },
+    "cw_fds_slot_CW_GM_06": {
+        "source_hash": "d106f2ded4d95d6ef6931f8455222e9180732172ccc18d1040cd1f88dd742751",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_GM_07": {
+        "source_hash": "be9314aeed0417dec464ffec5bca3ba44e82c5c58ac866cab5b6a14ab6841c8f",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_GM_08": {
+        "source_hash": "e63f47d29a9b88d3f99f506e1f2218e2ecb8bdc0aabf379e38bbaaa0a605186d",
+        "legal_hash": "04574c6763c72d0b9769d1d6d521c3969c8e660dc0fbdf788e4b6ed61a3e9c94",
+        "claims": [
+            {
+                "norm": "Rechtsverordnung Wasserentnahmeverbot des Landratsamts Calw",
+                "extracted_value": "31. Oktober 2026",
+                "value_type": "DATE",
+                "context": "Verlängerung der Beschränkung der Wasserentnahme aus Flüssen und Bächen des Landkreises Calw (Einschränkung des Gemeingebrauchs).",
+                "evidence_location": "Einschränkung des Gemeingebrauchs bis zum 31. Oktober 2026 verlängert Die Wasserstände bzw. Abflüsse in den Flüssen und Bächen im Landkreis sind aufgrund der bisher trockenen und heißen Witterung auf kritische Werte gesunken. Rechtsverordnung Wasserentnahmeverbot Mehr erfahren"
+            },
+            {
+                "norm": "Stellenausschreibung Integrationskraft m/w/d",
+                "extracted_value": "25 %",
+                "value_type": "PERCENT",
+                "context": "Wöchentlicher Stellenumfang für die ausgeschriebene Stelle als Integrationskraft in den Kindergärten der Gemeinde Neuweiler.",
+                "evidence_location": "Die Gemeinde Neuweiler sucht zum nächstmöglichen Zeitpunkt eine Integrationskraft (m/w/d) für die Kindergärten in der Gemeinde Neuweiler, mit einem Stellenumfang von 25 % (10 Stunden/Woche)."
+            },
+            {
+                "norm": "Verkehrsrechtliche Anordnung zur Vollsperrung im Aichhalder Weg",
+                "extracted_value": "09.09.2026 bis voraussichtlich 18.12.2026",
+                "value_type": "DATE",
+                "context": "Vollsperrung des Aichhalder Wegs in Neuweiler auf rund 450 Metern wegen Erschließungsarbeiten für das Baugebiet Steigäcker.",
+                "evidence_location": "Aufgrund von Erschließungsarbeiten für das Baugebiet Steigäcker wird der Aichhalder Weg in Neuweiler vom 09.09.2026 bis voraussichtlich 18.12.2026 auf einer Länge von rund 450 Metern voll gesperrt."
+            },
+            {
+                "norm": "Verkehrsrechtliche Anordnung zur Vollsperrung der Gemeindeverbindungsstraße Dachshof - Glasmühle",
+                "extracted_value": "26.08.2026 bis voraussichtlich 18.10.2026",
+                "value_type": "DATE",
+                "context": "Vollsperrung der Gemeindeverbindungsstraße zwischen Dachshof und Glasmühle aufgrund von Fahrbahnsanierungsarbeiten.",
+                "evidence_location": "Aufgrund von Fahrbahnsanierungsarbeiten ist die Gemeindeverbindungsstraße zwischen Dachshof und Glasmühle vom 26.08.2026 bis voraussichtlich 18.10.2026 voll gesperrt."
+            }
+        ],
+        "last_updated": "2026-10-20T00:54:16.809468+00:00"
+    },
+    "cw_fds_slot_CW_GM_09": {
+        "source_hash": "816533b3391c0aec37a1415f56443046bd95d66b159826285ea0cd5033db106b",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_GM_11": {
+        "source_hash": "11246851d2c30306512dfeb5ae4155d073c6de0fceb931fdf9ef7653779fc9ac",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_GM_12": {
+        "source_hash": "29445e6ac9ac59892dfd93d6c5e2f4dac968dee56ee3cae891693ac9dc457b6d",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_GM_13": {
+        "source_hash": "b2cc60ed125c09c23d59d3b53662525d8ee081c00f4fb8291163b2389a4557b6",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_GM_14": {
+        "source_hash": "6e7c0f4e1fdc388dfd11d12ba49cc35898f80e865b422bc689a854c72643edff",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Gemeinde Unterreichenbach Bekanntmachung vom 20.11.2025",
+                "extracted_value": "Der Zutritt zum Rathaus ist auch ohne vorherige Terminvereinbarung möglich.",
+                "value_type": "TEXT",
+                "context": "Regelung zur Terminvereinbarung für den Rathausbesuch in Unterreichenbach",
+                "evidence_location": "Der Zutritt zum Rathaus ist auch ohne vorherige Terminvereinbarung möglich."
+            }
+        ],
+        "last_updated": "2026-10-18T03:20:12.198559+00:00"
+    },
+    "cw_fds_slot_CW_GM_15": {
+        "source_hash": "29976e953af41fdfa77f7a05e75eb2e62a74df23adebbe16c19383afa9e6222b",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_Z1": {
+        "source_hash": "9b2084a92c3339f5512849c9991d8bcba40edc42d4cfc0793878c698037a4270",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Jobcenter Landkreis Freudenstadt Online-Dienste",
+                "extracted_value": "Das Grundsicherungsgeld hat das Bürgergeld abgelöst. Die Änderungen gelten seit dem 01.07.2026.",
+                "value_type": "DATE",
+                "context": "Einführung des Grundsicherungsgeldes als Ablösung des Bürgergeldes im Landkreis Freudenstadt",
+                "evidence_location": "Das Grundsicherungsgeld hat das Bürgergeld abgelöst. Die Änderungen gelten seit dem 01.07.2026 ."
+            }
+        ],
+        "last_updated": "2026-10-18T03:20:28.144981+00:00"
+    },
+    "cw_fds_slot_FDS_Z2": {
+        "source_hash": "fa40ae84ed7ceb26e9732bbd5cf46b449987ff72c2400274b6ddbd498981c552",
+        "legal_hash": "d8f19789737a8cf2ce238b2ea7ec583ac4137e666b973e859ca422630dafb5d2",
+        "claims": [
+            {
+                "norm": "EnWG / MsbG",
+                "extracted_value": "Entgelte für den Messstellenbetrieb von modernen Messeinrichtungen (mME) und intelligenten Messsystemen (iMSys) gemäß Messstellenbetriebsgesetz ab 01.04.2025 (MsbG)",
+                "value_type": "DATE",
+                "context": "Geltungsbeginn der Entgelte für den Messstellenbetrieb nach MsbG bei den Stadtwerken Freudenstadt",
+                "evidence_location": "Entgelte für den Messstellenbetrieb von modernen Messeinrichtungen (mME) und intelligenten Messsystemen (iMSys) gemäß Messstellenbetriebsgesetz ab 01.04.2025 (MsbG)"
+            },
+            {
+                "norm": "NABEG 2.0 / EnWG",
+                "extracted_value": "Alle Erzeuger und Speicher mit einer installierten Leistung ab 100 kW sowie Anlagen, die jederzeit durch einen Netzbetreiber fernsteuerbar sind, werden zum 01.10.2021 in den Redispatch einbezogen (Redispatch 2.0 oder RD 2.0).",
+                "value_type": "TEXT",
+                "context": "Einbeziehung von Erzeugungsanlagen und Speichern in den Redispatch 2.0 ab dem 01.10.2021",
+                "evidence_location": "Im Rahmen des durch das am 13. Mai 2019 in Kraft getretenen Netzausbaubeschleunigungsgesetzes NABEG 2.0 werden alle Erzeuger (auch solche aus erneuerbaren Energien und KWK) und Speicher mit einer installierten Leistung ab 100 kW sowie Anlagen, die jederzeit durch einen Netzbetreiber fernsteuerbar sind, zum 01.10.2021 in den Redispatch einbezogen (Redispatch 2.0 oder RD 2.0)."
+            }
+        ],
+        "last_updated": "2026-10-18T03:20:37.160060+00:00"
+    },
+    "cw_fds_slot_FDS_Z3": {
+        "source_hash": "4c631f0f7eca23cacb7fdfe0ec26244fa9f8064e1944bf54780339144595a56f",
+        "legal_hash": "434f85b17a196318bdb6e8fb7d5ce1bc09e4ba62e4214b1b9599fc74fe5d75b4",
+        "claims": [
+            {
+                "norm": "SGB II § 28, SGB XII §§ 34, 34a, BKGG § 6b, AsylbLG § 3",
+                "extracted_value": "15 Euro pauschal monatlich für Aktivitäten in den Bereichen Sport und Kultur (z.B. Fußballverein), Unterricht in künstlerischen Fächern (z.B. Musikunterricht) und vergleichbare angelegte Aktivitäten der kulturellen Bildung und die Teilnahme an Freizeiten",
+                "value_type": "EURO",
+                "context": "Leistungen für Bildung und Teilhabe (Teilnahme an Sport-, Freizeit- und Kulturangeboten)",
+                "evidence_location": "Beitrag in Höhe von 15 Euro pauschal monatlich für Aktivitäten in den Bereichen Sport und Kultur (z.B. Fußballverein), Unterricht in künstlerischen Fächern (z.B. Musikunterricht) und vergleichbare angeleitete Aktivitäten der kulturellen Bildung und die Teilnahme an Freizeiten (z.B. Pfadfinder-Freizeit)"
+            },
+            {
+                "norm": "SGB II § 28",
+                "extracted_value": "Jobcenter Landkreis Freudenstadt für Empfänger von Grunsicherungsleistungen nach dem SGB II",
+                "value_type": "TEXT",
+                "context": "Zuständigkeit des Jobcenters für Grundsicherungsleistungen / Grundsicherungsgeld",
+                "evidence_location": "Jobcenter Landkreis Freudenstadt für Empfänger von Grunsicherungsleistungen nach dem SGB II"
+            }
+        ],
+        "last_updated": "2026-10-18T03:20:46.021633+00:00"
+    },
+    "cw_fds_slot_FDS_Z4": {
+        "source_hash": "7e41af60fbeeb97b4118f9632a812a525b4ae89749b0cd8b8609fa63bda1f195",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "VGF Tarifinfoheft",
+                "extracted_value": "gültig ab 14.12.2025",
+                "value_type": "DATE",
+                "context": "Gültigkeitsbeginn des Tarifinfohefts der Verkehrsgesellschaft Freudenstadt",
+                "evidence_location": "Unser Angebot im Überblick gültig ab 14.12.2025 Tarifinfoheft"
+            }
+        ],
+        "last_updated": "2026-10-18T03:20:55.559638+00:00"
+    },
+    "cw_fds_slot_FDS_Z5": {
+        "source_hash": "7553fd62d93daf7b23a0b21af5a47bdff256d9e408ceb1046ad947f4ff87aa7d",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_Z10": {
+        "source_hash": "5bf8ad32397fa7ab384cfa7cdef29a171bde2277f68abcd94e7de50dcb03f3ee",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Wohngeldgesetz (WoGG)",
+                "extracted_value": "Kein Wohngeld erhalten Empfängerinnen und Empfänger folgender Transferleistungen: Grundsicherungsgeld (früher Bürgergeld, Arbeitslosengeld II und Sozialgeld)",
+                "value_type": "TEXT",
+                "context": "Ausschluss vom Wohngeld bei gleichzeitigem Bezug von Grundsicherungsgeld im Landkreis Freudenstadt.",
+                "evidence_location": "Kein Wohngeld erhalten Empfängerinnen und Empfänger folgender Transferleistungen: Grundsicherungsgeld (früher Bürgergeld, Arbeitslosengeld II und Sozialgeld)"
+            },
+            {
+                "norm": "Wohngeldgesetz (WoGG)",
+                "extracted_value": "In der Regel für 12 Monate. Im Einzelfall kann dieser Zeitraum länger oder kürzer sein.",
+                "value_type": "TEXT",
+                "context": "Bewilligungsdauer für das Wohngeld.",
+                "evidence_location": "Dauer: In der Regel für 12 Monate. Im Einzelfall kann dieser Zeitraum länger oder kürzer sein."
+            }
+        ],
+        "last_updated": "2026-10-18T03:21:11.382150+00:00"
+    },
+    "cw_fds_slot_FDS_Z11": {
+        "source_hash": "35f5ebb30c543e0b3313cf31f0cf955143c893ab6f51f43920580cdadcf44105",
+        "legal_hash": "4f1ade0b5fb2960f27154107a0bb2015fabc9bd3f4ce6c7abe5f8649d6971095",
+        "claims": [
+            {
+                "norm": "Kreislaufwirtschaftsgesetz (KrWG) : § 20",
+                "extracted_value": "Pflichten der öffentlich-rechtlichen Entsorgungsträger",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlage für die Abfallentsorgung im Landkreis Freudenstadt",
+                "evidence_location": "Gesetz zur Förderung der Kreislaufwirtschaft und Sicherung der umweltverträglichen Bewirtschaftung von Abfällen - Kreislaufwirtschaftsgesetz (KrWG) : § 20 Pflichten der öffentlich-rechtlichen Entsorgungsträger"
+            }
+        ],
+        "last_updated": "2026-10-18T03:21:19.895444+00:00"
+    },
+    "cw_fds_slot_FDS_Z12": {
+        "source_hash": "ef073c8331227a40e1e4da95e24fed3de2eda80d7ff6a94e3e9f5fdd948da687",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landratsamt Freudenstadt Dezernat II Sozialamt",
+                "extracted_value": "Herrenfelder Straße 14, 72250 Freudenstadt",
+                "value_type": "TEXT",
+                "context": "Hausanschrift der Schuldner- und Insolvenzberatungsstelle im Landratsamt Freudenstadt",
+                "evidence_location": "Hausanschrift Herrenfelder Straße 14 72250 Freudenstadt"
+            }
+        ],
+        "last_updated": "2026-10-18T03:21:28.094611+00:00"
+    },
+    "cw_fds_slot_FDS_Z24": {
+        "source_hash": "ad9737281f2e643d4bb1f4e59d1a3369e00af0f2c3db1aa641f4f4e3b24bcd67",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_Z27": {
+        "source_hash": "1a87e3c54689a87cc79e6f231f29fbc87e8b181d0a3dbd55dd299925f0afc450",
+        "legal_hash": "eeb95637daf728bacb4829baa7dd5c58fa6b481ba5e5e4dbbb612644bb8d4b3a",
+        "claims": [
+            {
+                "norm": "SGB II",
+                "extracted_value": "Grundsicherung für Erwerbsfähige (Bürgergeld)",
+                "value_type": "TEXT",
+                "context": "Zuständigkeit bzw. Aufgabenbereich des Behördenwegweisers Sozialamt im Landkreis Freudenstadt für Leistungen der Grundsicherung für Arbeitsuchende.",
+                "evidence_location": "Grundsicherung für Erwerbsfähige (Bürgergeld)"
+            },
+            {
+                "norm": "§ 6b BKGG",
+                "extracted_value": "Sachgebiet Wohngeldbehörde, Blindenhilfe, BuT nach § 6b BKGG und Geschäftsstelle ESF",
+                "value_type": "TEXT",
+                "context": "Organisationseinheit des Sozialamts Freudenstadt zuständig für Leistungen für Bildung und Teilhabe nach dem Bundeskindergeldgesetz.",
+                "evidence_location": "Sachgebiet Wohngeldbehörde, Blindenhilfe, BuT nach § 6b BKGG und Geschäftsstelle ESF"
+            },
+            {
+                "norm": "SGB XII",
+                "extracted_value": "Sachgebiet Hilfen nach SGB XII inkl. Forderungsaltfälle",
+                "value_type": "TEXT",
+                "context": "Organisationseinheit des Sozialamts Freudenstadt für Sozialhilfeleistungen nach dem Zwölften Buch Sozialgesetzbuch.",
+                "evidence_location": "Sachgebiet Hilfen nach SGB XII inkl. Forderungsaltfälle"
+            },
+            {
+                "norm": "Öffnungszeiten Sozialamt Freudenstadt",
+                "extracted_value": "Dienstag 08:00 Uhr - 12:00 Uhr Donnerstag 08:00 Uhr - 12:00 Uhr und 14:00 Uhr - 17:30 Uhr Freitag 08:00 Uhr - 12:30 Uhr",
+                "value_type": "TEXT",
+                "context": "Allgemeine Dienst- und Öffnungszeiten des Sozialamts Freudenstadt.",
+                "evidence_location": "Allgemeine Öffnungszeit Dienstag 08:00 Uhr - 12:00 Uhr Donnerstag 08:00 Uhr - 12:00 Uhr und 14:00 Uhr - 17:30 Uhr Freitag 08:00 Uhr - 12:30 Uhr"
+            }
+        ],
+        "last_updated": "2026-10-19T00:31:25.441168+00:00"
+    },
+    "cw_fds_slot_FDS_Z28": {
+        "source_hash": "6b99d6e5499a909e85f42466f3be59f55e42d7f26932087c3dfc15e735364cc1",
+        "legal_hash": "98f71b698bd4c588513a1dbd74157d6ce0018aa09a85d35182af6ccc58a84386",
+        "claims": [
+            {
+                "norm": "§ 2 Unterhaltsvorschussgesetz (UVG)",
+                "extracted_value": "EUR 227,00",
+                "value_type": "EURO",
+                "context": "Monatlicher staatlicher Unterhaltsvorschuss für Kinder unter sechs Jahren ab dem 01.01.2025",
+                "evidence_location": "Er beträgt ab dem 01.01.2025 monatlich für Kinder unter sechs Jahren: EUR 227,00"
+            },
+            {
+                "norm": "§ 2 Unterhaltsvorschussgesetz (UVG)",
+                "extracted_value": "EUR 299,00",
+                "value_type": "EURO",
+                "context": "Monatlicher staatlicher Unterhaltsvorschuss für Kinder von sechs bis elf Jahren ab dem 01.01.2025",
+                "evidence_location": "für Kinder von sechs bis elf Jahren: EUR 299,00"
+            },
+            {
+                "norm": "§ 2 Unterhaltsvorschussgesetz (UVG)",
+                "extracted_value": "EUR 394,00",
+                "value_type": "EURO",
+                "context": "Monatlicher staatlicher Unterhaltsvorschuss für Kinder zwischen zwölf und siebzehn Jahren ab dem 01.01.2025",
+                "evidence_location": "für Kinder zwischen zwölf und siebzehn Jahren: EUR 394,00"
+            },
+            {
+                "norm": "Unterhaltsvorschussgesetz (UVG) i. V. m. SGB II",
+                "extracted_value": "EUR 600,00 brutto",
+                "value_type": "EURO",
+                "context": "Erforderliches monatliches Mindesteinkommen des alleinerziehenden Elternteils bei gleichzeitigem SGB-II-Leistungsbezug für Kinder ab zwölf Jahren",
+                "evidence_location": "oder der alleinerziehende Elternteil zwar Leistungen nach dem Sozialgesetzbuch (SGB ) II bezieht, aber ein monatliches Einkommen in Höhe von mindestens EUR 600,00 brutto erzielt."
+            },
+            {
+                "norm": "Gesetzlicher Mindestunterhalt (Landratsamt Freudenstadt)",
+                "extracted_value": "354,50 €, 426,50 € ab Vollendung des 6.Lj. und 521,50€ ab Vollendung des 12.Lj.",
+                "value_type": "EURO",
+                "context": "Höhe des Mindestunterhalts bei schriftlicher Zahlungsaufforderung an den unterhaltspflichtigen Elternteil",
+                "evidence_location": "schriftliche Zahlungsaufforderung an den anderen Elternteil in Höhe des Mindestunterhalts von derzeit 354,50 €, 426,50 € ab Vollendung des 6.Lj. und 521,50€ ab Vollendung des 12.Lj. - sofern kein Rechtsanwalt oder Beistand tätig ist"
+            }
+        ],
+        "last_updated": "2026-10-23T03:17:21.644617+00:00"
+    },
+    "cw_fds_slot_FDS_ST_01": {
+        "source_hash": "db831e23573a35583b38f9ed0b1586f57b23be300bb99bdce40319592f8f530f",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_ST_02": {
+        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Stadt Horb am Neckar Online-Bürgerservice",
+                "extracted_value": "Erledigen Sie viele Ihrer Behördengänge von zu Hause aus über unseren Online-Bürgerservice.",
+                "value_type": "TEXT",
+                "context": "Verfügbarkeit des Online-Bürgerservice der Stadt Horb am Neckar",
+                "evidence_location": "Erledigen Sie viele Ihrer Behördengänge von zu Hause aus über unseren Online-Bürgerservice."
+            }
+        ],
+        "last_updated": "2026-10-18T03:22:07.516275+00:00"
+    },
+    "cw_fds_slot_FDS_ST_03": {
+        "source_hash": "9ac22a1cc49f78c066f5d3995ad4093a0197e750011ab647d88b086ccb0dfa1b",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_ST_04": {
+        "source_hash": "1e1a3c0ac52e2a258a505c943f7db2babcaef13292d9423a68294f5525fac931",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_01": {
+        "source_hash": "e144f1b2dba5a395fbeb7ae2c58c02f39356cc0e32c96d376f88758b1ea78b01",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "HTTP 404",
+                "extracted_value": "Die von Ihnen aufgerufene Seite existiert leider nicht mehr.",
+                "value_type": "TEXT",
+                "context": "Die angeforderte Bürgerservice-Seite der Gemeinde Baiersbronn konnte nicht gefunden werden (404-Fehler).",
+                "evidence_location": "Die von Ihnen aufgerufene Seite existiert leider nicht mehr."
+            }
+        ],
+        "last_updated": "2026-10-18T03:22:31.820044+00:00"
+    },
+    "cw_fds_slot_FDS_GM_02": {
+        "source_hash": "37665544736b33d5bde1ef16e8391b20fcbdfc64692aaae70e7bd40fd4391287",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_03": {
+        "source_hash": "7a36fd6802441db094e0a78409ff6c94b1f46e21f1c92ec3acb1e0a1e8ee94a5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Bundesmeldegesetz",
+                "extracted_value": "Zuerst sollten Sie sich unter Vorlage des Personalausweises bzw. Reisepasses innerhalb von zwei Wochen beim Einwohnermeldeamt der Gemeinde polizeilich anmelden.",
+                "value_type": "TEXT",
+                "context": "Frist für die polizeiliche Anmeldung beim Einwohnermeldeamt nach dem Zuzug in die Gemeinde Pfalzgrafenweiler.",
+                "evidence_location": "Zuerst sollten Sie sich unter Vorlage des Personalausweises bzw. Reisepasses innerhalb von zwei Wochen beim Einwohnermeldeamt der Gemeinde (Bürger- und Gäste-Information im Erdgeschoss des Rathauses) polizeilich anmelden."
+            }
+        ],
+        "last_updated": "2026-10-18T03:22:48.876772+00:00"
+    },
+    "cw_fds_slot_FDS_GM_04": {
+        "source_hash": "71069765552b77b81832d6fd5b0dcc698fb14515dca6816bcc23f5e2ac053299",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_05": {
+        "source_hash": "9f0fb7c7fcdd5f35dced059b1ab1f578eddfa1a52c4866d256b1d9498157889a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_06": {
+        "source_hash": "5baac320c6e27f771e3ec7dcc40fe9fae63c9f6058cb55492eec60b37827b43c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_07": {
+        "source_hash": "52e4c610e632f38bba3146f0b0bcf076d85886ed63e7f5ddc7cfcd633a76abe7",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_09": {
+        "source_hash": "279c00f7f420f2ba02321384e77b5a1ea0d86ce2ddb93a6c35edfde74437bd5d",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_11": {
+        "source_hash": "d0570cc81323ecf215ec5837d3fa8e3fbaebe9612fa55bd4dc1aec927085cff9",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_12": {
+        "source_hash": "a824cbc34b3f0356b7530af8ac46909f6f1182e14e487d52b8c0f63def9afcb5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Gemeinde Wörnersberg News-Ticker",
+                "extracted_value": "17.10.2026",
+                "value_type": "DATE",
+                "context": "Datum der öffentlichen Infoveranstaltung zur Wärmeplanung durch die Fa. EGS",
+                "evidence_location": "17.​10.​2026 öffentliche Infoveranstaltung zur Wärmeplanung-Präsentation der Fa. EGS"
+            }
+        ],
+        "last_updated": "2026-10-18T03:23:48.898178+00:00"
+    },
+    "cw_fds_slot_FDS_GM_13": {
+        "source_hash": "5baac320c6e27f771e3ec7dcc40fe9fae63c9f6058cb55492eec60b37827b43c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_14": {
+        "source_hash": "5baac320c6e27f771e3ec7dcc40fe9fae63c9f6058cb55492eec60b37827b43c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_15": {
+        "source_hash": "5baac320c6e27f771e3ec7dcc40fe9fae63c9f6058cb55492eec60b37827b43c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_16": {
+        "source_hash": "5baac320c6e27f771e3ec7dcc40fe9fae63c9f6058cb55492eec60b37827b43c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_17": {
+        "source_hash": "5baac320c6e27f771e3ec7dcc40fe9fae63c9f6058cb55492eec60b37827b43c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_18": {
+        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_19": {
+        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_20": {
+        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_21": {
+        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_FDS_GM_22": {
+        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_FDS_K1_STROM": {
+        "source_hash": "b2da984276aba64431ab2ed95a33667fc2f7c7a81ab443e0d93ae51bc69169f5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_FDS_K2_APO": {
+        "source_hash": "5ba7c6214c4ac187ca7179782c2a408a2c7f7e51caf2e39f54df9c2bc6c79541",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_K5_WOHNBAU": {
+        "source_hash": "8995122cddd214e81ed4bb6b4b34e864a00883f9510bc9191ae43c60ad919d15",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Satzung der Kreisbaugenossenschaft Calw eG - Kündigungsfrist",
+                "extracted_value": "Frist von drei Monaten zum Jahresende",
+                "value_type": "TEXT",
+                "context": "Regelung der Kündigungsfrist für die Mitgliedschaft bei der Kreisbaugenossenschaft Calw eG sowie die nachfolgende Auszahlung des Geschäftsguthabens.",
+                "evidence_location": "Sie können mit einer Frist von drei Monaten zum Jahresende kündigen."
+            },
+            {
+                "norm": "Mietbestimmungen der Kreisbaugenossenschaft Calw eG - Kaution",
+                "extracted_value": "Keine Erhebung einer Mietkaution; stattdessen Erwerb von Mitgliedsanteilen/Geschäftsguthaben",
+                "value_type": "TEXT",
+                "context": "Bedingungen der Wohnungsanmietung bezüglich Sicherheitsleistungen bei der Kreisbaugenossenschaft Calw eG.",
+                "evidence_location": "Nein, bei der Kreisbau Calw gibt es keine Mietkaution. Mieter sind Mitglieder und erwerben Mitgliedsanteile, sie haben ein Geschäftsguthaben."
+            },
+            {
+                "norm": "Satzung der Kreisbaugenossenschaft Calw eG - Genossenschaftszweck",
+                "extracted_value": "Förderung ihrer Mitglieder vorrangig durch eine gute, sichere und sozial verantwortbare Wohnungsversorgung",
+                "value_type": "TEXT",
+                "context": "Festlegung des Förderzwecks der Kreisbaugenossenschaft Calw eG zur Wohnungsversorgung.",
+                "evidence_location": "Zweck der Genossenschaft ist die Förderung ihrer Mitglieder vorrangig durch eine gute, sichere und sozial verantwortbare Wohnungsversorgung."
+            }
+        ],
+        "last_updated": "2026-10-22T00:36:18.547282+00:00"
+    },
+    "cw_fds_slot_CW_FDS_K6_DWD": {
+        "source_hash": "8b1f92efd92371c670f8fa6212bb6255b86f1be59519dfea9a24a130f97f0ff6",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cw_fds_slot_CW_FDS_KRITIS_WASSER": {
+        "source_hash": "d266f6527ff2e6ced51ff99c8c840f56d872b36bdc70176ea1b3f9cb478bc49f",
+        "legal_hash": "626bd135a2186239ccdeaf336866c5451d8ea2246c72dbb78417ab4e56c44622",
+        "claims": [
+            {
+                "norm": "Preisblatt Wasser 2026 (Energie Calw GmbH)",
+                "extracted_value": "3,81 EUR",
+                "value_type": "EURO",
+                "context": "Endpreis brutto inklusive 7 % Mehrwertsteuer pro Kubikmeter Trinkwasser in Calw ab dem 01. Januar 2026.",
+                "evidence_location": "Wasser m3 3,56 EUR + 7% 3,81 EUR"
+            },
+            {
+                "norm": "Abwassergebühr der Stadt Calw (Gebührenstand Januar 2026)",
+                "extracted_value": "3,24 EUR",
+                "value_type": "EURO",
+                "context": "Abwassergebühr der Stadt Calw je Kubikmeter Abwasser ab dem 01. Januar 2026.",
+                "evidence_location": "Abwasser** m3 3,24 EUR"
+            },
+            {
+                "norm": "Niederschlagswassergebühr der Stadt Calw (Gebührenstand Januar 2026)",
+                "extracted_value": "0,60 EUR",
+                "value_type": "EURO",
+                "context": "Gebühr für Niederschlagswasser der Stadt Calw pro Quadratmeter versiegelter Fläche ab Januar 2026.",
+                "evidence_location": "Niederschlagswasser*** m2 (Fläche) 0,60 EUR"
+            },
+            {
+                "norm": "Regelungen zur Standrohrausleihe der Energie Calw GmbH",
+                "extracted_value": "500 €",
+                "value_type": "EURO",
+                "context": "Höhe der Sicherheitsleistung (Kaution) für die kurzfristige Leihe eines Standrohres.",
+                "evidence_location": "Wichtiger Hinweis: Die Ausgabe erfolgt erst nach Eingang einer Kaution von 500 €."
+            },
+            {
+                "norm": "Trinkwasserverordnung (TrinkwV)",
+                "extracted_value": "50 mg Nitrat pro Liter",
+                "value_type": "TEXT",
+                "context": "Festgesetzter gesetzlicher Grenzwert für Nitrat im Trinkwasser.",
+                "evidence_location": "In der Trinkwasserverordnung ist der Grenzwert von 50 mg Nitrat pro Liter festgesetzt."
+            }
+        ],
+        "last_updated": "2026-10-22T00:37:55.404748+00:00"
+    }
+}

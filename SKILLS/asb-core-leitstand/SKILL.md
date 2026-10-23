@@ -1,6 +1,6 @@
----
+﻿---
 name: asb-core-leitstand
-description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2.5) - Strategischer ASB-Core-Leitstand (Qualitaetssicherung, DIN 5008, Leichte Sprache, Recruiting-Medien und Verbands-Koordination Nordschwarzwald).
+description: "Strategischer ASB-Core-Leitstand (Qualitaetssicherung, DIN 5008, Leichte Sprache, Recruiting-Medien und Verbands-Koordination)."
 ---
 # SKILL: 20_ASB_Core_Leitstand (Status V23.4 / Upgrade V2.5)
 
@@ -12,6 +12,10 @@ description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2
 4. **Tonalitaet:** Verbindlich, professionell und wertschaetzend (70 % Empathie, 30 % Fakten).
 
 ## Referenzen & Wissensdatenbank
-Werte fuer tagesaktuelle Aenderungen das GitHub-Repository RiX-stack387/flotten-radar aus:
+Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
+- Datei references/Front_Delta_Compact.md
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
+
+Prüfe für tagesaktuelle Live-Änderungen und Deltas ergänzend das GitHub-Repository RiX-stack387/flotten-radar:
 - Datei Front_Delta_Compact.md auf dem Branch main
-- Datei ASB_Knowledge_Base_2026.md auf dem Branch main
+- Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main

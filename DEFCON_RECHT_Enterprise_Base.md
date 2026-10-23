@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-10-22 02:38:02 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-10-23 05:20:11 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -143,10 +143,11 @@
 ## [19] Sektor 19
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG** | 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen | Gebühren für die Überlassung elektronisch gespeicherter Dateien von Gerichtsentscheidungen |
-| **JVKostG** | 0,50 Euro pro Seite für die ersten 50 Seiten, 0,15 Euro für jede weitere Seite | Schreibauslagen für die postalische Versendung von Entscheidungsabdrucken |
-| **2 AZN 339/26** | Vertretungszwang - "halluzinierte" Urteile | Entscheidung des Bundesarbeitsgerichts vom 30.09.2026 |
-| **§ 13 BGB / § 312 d Abs. 4 Nr. 1 BGB** | 40 Euro | Schwellenwert für die Kostentragung der Rücksendung bei Verbraucher-Widerruf |
+| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG** | 1,50 Euro | Gebühr für die Überlassung elektronisch gespeicherter Entscheidungsdateien je Entscheidung (maximal 5,00 Euro pro Arbeitsgang) |
+| **JVKostG** | 0,50 Euro | Schreibauslagen pro Seite für die Versendung der ersten 50 Seiten von Entscheidungsabdrucken |
+| **8 AZB 6/26** | Fünfmonatsfrist zur vollständigen Absetzung von Urteilen | Entscheidungsgegenstand des Beschlusses des Bundesarbeitsgerichts vom 18.09.2026 |
+| **2 AZR 130/25** | Kündigung durch Mitglieder des Aufsichtsrats einer GmbH - Zurückweisung nach § 174 BGB | Entscheidungsgegenstand des Urteils des Bundesarbeitsgerichts vom 07.05.2026 |
+| **§ 13 BGB** | zwei Wochen | Widerrufsfrist für Verbraucher bei Anforderung von Entscheidungsabdrucken |
 
 ## [20] Sektor 20
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -206,11 +207,9 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld im SGB II |
-| **§ 22 SGB II** | Kosten der Unterkunft und Heizung werden grundsätzlich in tatsächlicher Höhe übernommen, sofern sie angemessen sind; bei Überschreitung der regionalen Mietobergrenzen kann das Jobcenter die Kosten kürzen. | Übernahme der Bedarfe für Unterkunft und Heizung (KdU) und Angemessenheitsprüfung |
-| **§ 20 SGB II** | 563 € | Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Jahr 2026 |
-| **§ 11b SGB II** | 208,90 € | Anrechnungsfreier gesetzlicher Freibetrag bei Zuverdienst aus einem Minijob |
-| **SGB II Reform 2026** | 1. Juli 2026 | Stichtag für die offizielle Umbenennung des Bürgergelds in Grundsicherungsgeld |
+| **§ 20 SGB II** | 563 € | Regelbedarf für Alleinstehende in der Regelbedarfsstufe 1 beim Grundsicherungsgeld (Bürgergeld) für das Jahr 2026. |
+| **§ 22 SGB II** | Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen. | Regelung zur Übernahme der Kosten der Unterkunft und Heizung im Rahmen des Grundsicherungsgeldes. |
+| **§ 11b SGB II** | 208,90 € | Freibetrag bei einem Minijob im Monat, der nach den aktuellen Regeln des § 11b SGB II anrechnungsfrei bleibt. |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -382,8 +381,9 @@
 ## [Z23] Sektor Z23
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Datenschutzgrundverordnung** | Automatische Löschung nach 180 Tagen, sofern die Daten nicht weiter benötigt werden. | Speicherdauer und automatische Datenlöschung im Online-Formularsystem |
-| **Datenschutzgrundverordnung** | Recht auf jederzeitigen Widerruf der Einwilligung ohne Angabe von Gründen mit Wirkung für die Zukunft ohne zusätzliche Kosten außer Basistarifen für Porto bzw. Übermittlung. | Widerrufsrecht und Kostenfolgen bei Geltendmachung durch betroffene Personen |
+| **DSGVO / Form-Solutions Einwilligungserklärung** | 180 Tage | Frist für die automatische Löschung von gespeicherten personenbezogenen Daten nach Bearbeitung des Anliegens. |
+| **WoGG / Weiterleistungsantrag Mietzuschuss (WlaMz)** | 2.000 EUR | Maximalhöhe der Geldbuße bei einer Ordnungswidrigkeit wegen falscher, unvollständiger oder nicht mitgeteilter Angaben im Wohngeldantrag. |
+| **WoGG / SGB II** | Angabepflicht für den Bezug von Bürgergeld (SGB II) und anderen staatlichen Leistungen | Erfassung von parallelen Sozialleistungsbezügen (u. a. Bürgergeld nach SGB II) im Rahmen der Wohngeldbewilligung. |
 
 ## [Z24] Sektor Z24
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -563,7 +563,10 @@
 ## [CW_GM_05] Sektor CW_GM_05
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Bürgermeisterwahl 2026 - Stichwahl Fristen** | Freitag, 23. Oktober 2026 von 12.00 Uhr bis 15.00 Uhr Letzte Möglichkeit zur Beantragung von Briefwahlunterlagen für die Bürgermeisterwahl im Rathaus, Zi. 1, Bürgerbüro. | Fristen für die Beantragung von Briefwahlunterlagen zur Bürgermeisterstichwahl in Gechingen. |
+| **Bekanntmachung zur Durchführung der Wahl (Bürgermeisterwahl 2026)** | Freitag, 23. Oktober 2026 von 12.00 Uhr bis 15.00 Uhr | Ausschlussfrist für die reguläre Beantragung von Briefwahlunterlagen für die Bürgermeister-Stichwahl im Rathaus Gechingen, Bürgerbüro. |
+| **Bekanntmachung zur Durchführung der Wahl (Bürgermeisterwahl 2026)** | Samstag, den 24. Oktober 2026 von 11.00 Uhr bis 12.00 Uhr | Frist zur Neuausstellung eines Wahlscheines bei Nichtzugang oder Verlust nach Glaubhaftmachung. |
+| **Bekanntmachung zur Durchführung der Wahl (Bürgermeisterwahl 2026)** | Wahlsonntag, den 25. Oktober 2026 von 08.00 Uhr bis 15.00 Uhr | Frist zur Beantragung von Briefwahlunterlagen bei nachgewiesener plötzlicher Erkrankung oder unverschuldetem Versäumnis im Wahllokal Wahlbezirk I (Gemeindehalle Gechingen). |
+| **Öffentliche Bekanntmachung über das Recht auf Einsicht in das Wählerverzeichnis und die Erteilung von Wahlscheinen** | 11. Oktober 2026 und Stichwahl am 25. Oktober 2026 | Termine für die Durchführung der Wahl des Bürgermeisters / der Bürgermeisterin sowie einer eventuellen Stichwahl in Gechingen. |
 
 ## [CW_GM_08] Sektor CW_GM_08
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -603,7 +606,11 @@
 ## [FDS_Z28] Sektor FDS_Z28
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Landkreis Freudenstadt Dienstleistung Unterhaltsvorschuss** | Die gesuchte Seite konnte nicht gefunden werden (404-Fehler). | Fehlermeldung beim Versuch, die Seite zum Unterhaltsvorschuss aufzurufen. |
+| **§ 2 Unterhaltsvorschussgesetz (UVG)** | EUR 227,00 | Monatlicher staatlicher Unterhaltsvorschuss für Kinder unter sechs Jahren ab dem 01.01.2025 |
+| **§ 2 Unterhaltsvorschussgesetz (UVG)** | EUR 299,00 | Monatlicher staatlicher Unterhaltsvorschuss für Kinder von sechs bis elf Jahren ab dem 01.01.2025 |
+| **§ 2 Unterhaltsvorschussgesetz (UVG)** | EUR 394,00 | Monatlicher staatlicher Unterhaltsvorschuss für Kinder zwischen zwölf und siebzehn Jahren ab dem 01.01.2025 |
+| **Unterhaltsvorschussgesetz (UVG) i. V. m. SGB II** | EUR 600,00 brutto | Erforderliches monatliches Mindesteinkommen des alleinerziehenden Elternteils bei gleichzeitigem SGB-II-Leistungsbezug für Kinder ab zwölf Jahren |
+| **Gesetzlicher Mindestunterhalt (Landratsamt Freudenstadt)** | 354,50 €, 426,50 € ab Vollendung des 6.Lj. und 521,50€ ab Vollendung des 12.Lj. | Höhe des Mindestunterhalts bei schriftlicher Zahlungsaufforderung an den unterhaltspflichtigen Elternteil |
 
 ## [FDS_ST_02] Sektor FDS_ST_02
 | Norm / AZ | Wert / Parameter | Kontext / Detail |

@@ -1,31 +1,38 @@
-RADAR-DELTA COMPACT (2026-10-22)
+RADAR-DELTA COMPACT (2026-10-23)
 - [=========================================================
-⚓ M.E.R. LAGEBERICHT V44.0 (2026-10-22)
+⚓ M.E.R. LAGEBERICHT V44.0 (2026-10-23)
 ============================================================
 
 
 [🔴 AKUTER HANDLUNGSBEDARF / ÄNDERUNGEN ERKANNT]
 ==================================================
 
-=== 31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.
+=== 19: BAG Entscheidungsdatenbank] § 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG: 1,50 Euro
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Die von dir eingegebenen Wohnkosten
 - [=========================================================
-⚓ M.E.R. PRAXIS-LAGEBERICHT CW/FDS V44.0 (2026-10-22)
+⚓ M.E.R. PRAXIS-LAGEBERICHT CW/FDS V44.0 (2026-10-23)
 ============================================================
 
 
 [🔴 AKUTER HANDLUNGSBEDARF / ÄNDERUNGEN ERKANNT]
 ==================================================
 
-=== CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Satzung der Kreisbaugenossenschaft Calw eG - Kündigungsfrist: Frist von drei Monaten zum Jahresende
-- [CW_FDS_KRITIS_WASSER: Stadtwerke & Trinkwasserversorgung Calw (ENCW)] Preisblatt Wasser 2026 (Energie Calw GmbH): 3,81 EUR
+=== CW_GM_05: Gemeinde Gechingen - Bürgerservice] Bekanntmachung zur Durchführung der Wahl (Bürgermeisterwahl 2026): Freitag, 23. Oktober 2026 von 12.00 Uhr bis 15.00 Uhr
 - [=========================================================
-⚓ M.E.R. PRAXIS-LAGEBERICHT V44.0 (2026-10-22)
+⚓ M.E.R. PRAXIS-LAGEBERICHT CW/FDS V44.0 (2026-10-23)
+============================================================
+
+
+[🔴 AKUTER HANDLUNGSBEDARF / ÄNDERUNGEN ERKANNT]
+==================================================
+
+=== FDS_Z28: Unterhaltsvorschuss FDS] § 2 Unterhaltsvorschussgesetz (UVG): EUR 227,00
+- [=========================================================
+⚓ M.E.R. PRAXIS-LAGEBERICHT V44.0 (2026-10-23)
 ============================================================
 
 
 [Ã°Å¸â€Â´ AKUTER HANDLUNGSBEDARF / ÄNDERUNGEN ERKANNT]
 ==================================================
 
-=== Z23: Wohngeldbehörde Pforzheim (Anträge & Vordrucke)] Datenschutzgrundverordnung: Automatische Löschung nach 180 Tagen, sofern die Daten nicht weiter benötigt werden.
-- [ENZ_GM_07: Gemeinde Kämpfelbach] Brennholzbestellfrist 2026/2027 Gemeinde Kämpfelbach: 01.11.2026
-- [ENZ_GM_11: Gemeinde Mönsheim] Offener Mittagstisch Mönsheim: 10,00 Euro
+=== Z23: Wohngeldbehörde Pforzheim (Anträge & Vordrucke)] DSGVO / Form-Solutions Einwilligungserklärung: 180 Tage

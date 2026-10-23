@@ -1,0 +1,267 @@
+============================================================
+⚓ M.E.R. LAGEBERICHT V44.0 (2026-10-22)
+============================================================
+
+
+[🔴 AKUTER HANDLUNGSBEDARF / ÄNDERUNGEN ERKANNT]
+==================================================
+
+=== 31: Bürgergeld.org - Richtwerte & Rechner ===
+Status: LEGAL_AND_EVIDENCE_CHANGED
+Quelle: https://www.buergergeld.org/sgb-ii/rechner/
+Diff-Log:
+[ZIEL-LINK]: https://www.buergergeld.org/sgb-ii/rechner/
+--- STATUS ALT (Vorheriger Scan) ---
+Norm/AZ: SGB II | Wert: Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt; beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. (TEXT)
+Kontext: Offizielle Umbenennung des Bürgergeldes im Rahmen der Reform 2026 zum Stichtag 01.07.2026.
+Beweis: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.
+
+Norm/AZ: § 22 SGB II | Wert: Kosten der Unterkunft (KdU) werden grundsätzlich in tatsächlicher Höhe übernommen, sofern sie angemessen sind; bei Überschreitung der regionalen Mietobergrenzen kann das Jobcenter die Kosten kürzen. (TEXT)
+Kontext: Regelungen zur Übernahme der Kosten für Unterkunft und Heizung sowie Prüfung regionaler Angemessenheitsgrenzen durch das Jobcenter.
+Beweis: Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen.
+
+Norm/AZ: § 20 SGB II | Wert: 563 € (EURO)
+Kontext: Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Jahr 2026.
+Beweis: In der Regelbedarfsstufe 1 beträgt er 563 Euro.
+
+Norm/AZ: § 11b SGB II | Wert: 208,90 € (EURO)
+Kontext: Maximaler anrechnungsfreier monatlicher Freibetrag bei Ausübung eines Minijobs.
+Beweis: Der Rechner zieht die gesetzlichen Freibeträge bei einem möglichen Zuverdienst automatisch ab – beim Minijob bleiben so beispielsweise bis zu 208,90 € im Monat anrechnungsfrei.
+
+Norm/AZ: § 21 SGB II | Wert: Pauschale Mehrbedarfe werden unter anderem für Alleinerziehende, Schwangerschaft (ab der 13. Woche), kostenaufwendige Ernährung sowie dezentrale Warmwasserbereitung gewährt. (TEXT)
+Kontext: Gesetzliche Mehrbedarfe zusätzlich zum Regelbedarf bei besonderen Lebenssachverhalten.
+Beweis: Ja, der Bürgergeld Rechner berechnet Mehrbedarfe nach § 21 SGB II automatisch mit ein. Das betrifft unter anderem Zuschüsse für Alleinerziehende, Schwangere oder die dezentrale Warmwasserbereitung.
+
+Norm/AZ: § 11 SGB II | Wert: Kindergeld und Unterhalt bzw. Unterhaltsvorschuss mindern als Einkommen des Kindes dessen individuellen Leistungsbedarf. (TEXT)
+Kontext: Anrechnung von Kindergeld und Unterhaltsleistungen auf den Bedarf des Kindes.
+Beweis: Ja, beide Leistungen zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf.
+
+--- STATUS NEU (Aktueller Scan) ---
+[GEÄNDERT/NEU] Norm/AZ: SGB II | Wert: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. (ValueType.TEXT)
+Kontext: Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld im SGB II
+Beweis: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.
+
+[GEÄNDERT/NEU] Norm/AZ: § 22 SGB II | Wert: Kosten der Unterkunft und Heizung werden grundsätzlich in tatsächlicher Höhe übernommen, sofern sie angemessen sind; bei Überschreitung der regionalen Mietobergrenzen kann das Jobcenter die Kosten kürzen. (ValueType.TEXT)
+Kontext: Übernahme der Bedarfe für Unterkunft und Heizung (KdU) und Angemessenheitsprüfung
+Beweis: Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen.
+
+[UNVERÄNDERT] Norm/AZ: § 20 SGB II | Wert: 563 € (ValueType.EURO)
+Kontext: Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Jahr 2026
+Beweis: Regelbedarfsstufe 1 Alleinstehende Erwachsene 563 €
+
+[UNVERÄNDERT] Norm/AZ: § 11b SGB II | Wert: 208,90 € (ValueType.EURO)
+Kontext: Anrechnungsfreier gesetzlicher Freibetrag bei Zuverdienst aus einem Minijob
+Beweis: Der Rechner zieht die gesetzlichen Freibeträge bei einem möglichen Zuverdienst automatisch ab – beim Minijob bleiben so beispielsweise bis zu 208,90 € im Monat anrechnungsfrei.
+
+[GEÄNDERT/NEU] Norm/AZ: SGB II Reform 2026 | Wert: 1. Juli 2026 (ValueType.DATE)
+Kontext: Stichtag für die offizielle Umbenennung des Bürgergelds in Grundsicherungsgeld
+Beweis: Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt.
+
+[🔒 BEWEIS GESICHERT]: C:\DefconRecht\Beweisarchiv\2026-10-22_31_Beweis.txt
+
+
+[🟢 SICHERER PERIMETER / UNVERÄNDERT]
+==================================================
+
+=== 1: SGB II - KdU & Karenzzeit ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 2: SGB II - Regelbedarf ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 3: SGB II - Mehrbedarfe ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 4: SGB XII - Grundsicherung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 5: SGB XII - KdU ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 6: SGB XI - Entlastungsbetrag ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 7: SGB XI - Pflegegeld ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 8: SGB XI - Pflegesachleistung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 9A: SGB XI - Verhinderungspflege ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 9B: SGB XI - Jahresbetrag ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 10A: WoGG - Zu berücksichtigende Miete und Belastung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 10B: WoGG - Höchstbeträge und Mietenstufen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 11A: Kinderzuschlag ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 11B: Kindergeld ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 12A: KdU-Richtlinie Pforzheim (Grundsicherungsgeld) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 12B: KdU-Enzkreis Info ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 13: SG Karlsruhe ===
+Status: SOURCE_NOT_VERIFIED
+Diff-Log:
+Keine Quelle erreichbar.
+
+
+=== 14: LSG Baden-Württemberg ===
+Status: SOURCE_NOT_VERIFIED
+Diff-Log:
+Keine Quelle erreichbar.
+
+
+=== 15: BA - SGB III & Sperrzeiten ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 16: BVerfG - Sozialrecht & Entscheidungsübersicht ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 17: Stadt Pforzheim - Stadtrecht ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 18: Landesrecht BW ===
+Status: SOURCE_NOT_VERIFIED
+Diff-Log:
+Keine Quelle erreichbar.
+
+
+=== 19: BAG Entscheidungsdatenbank ===
+Status: LEGAL_CHANGED_NO_CLAIMS
+Diff-Log:
+Rechts-Hash geändert, aber keine Claims belegbar.
+
+
+=== 20: Arbeitsrechte.de Ratgeber ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 21: DGB Ratgeber Arbeitsrecht ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 22: DRV - Erwerbsminderungsrente ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 23: BMAS - Soziales Entschädigungsrecht ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 24: Service-BW - Antrag Entschädigung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 25: UPD - Unabhängige Patientenberatung ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== 26: BMJ - Patientenverfügung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 27: BMJ - Vorsorgevollmacht ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 28: Zentrales Vorsorgeregister (ZVR) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 29: BA - Arbeitslosengeld (SGB III) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== 30: BA - Grundsicherungsgeld (SGB II) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.

@@ -1,6 +1,6 @@
----
+﻿---
 name: ch-flotte-safehaven
-description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2.5) - Safe-Haven- und Familien-Schutzschild (§ 6 RDG familiaere Rechtsfuersorge, DSGVO-Datenschutz, D.A.CH./Schweiz-Schnittstelle und Buergerbeistand).
+description: "Safe-Haven- und Familien-Schutzschild (familiaere Rechtsfuersorge, DSGVO-Datenschutz, D.A.CH.-Schnittstelle und Buergerbeistand)."
 ---
 # SKILL: 04_CH_Flotte_SafeHaven (Status V23.4 / Upgrade V2.5)
 
@@ -13,6 +13,10 @@ description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2
 5. **Smartphone-Doktrin:** Uebersichtliche, direkt lesbare Struktur.
 
 ## Referenzen & Wissensdatenbank
-Werte fuer tagesaktuelle Aenderungen das GitHub-Repository RiX-stack387/flotten-radar aus:
+Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
+- Datei references/Front_Delta_Compact.md
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
+
+Prüfe für tagesaktuelle Live-Änderungen und Deltas ergänzend das GitHub-Repository RiX-stack387/flotten-radar:
 - Datei Front_Delta_Compact.md auf dem Branch main
 - Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main

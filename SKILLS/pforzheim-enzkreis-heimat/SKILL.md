@@ -1,6 +1,6 @@
----
+﻿---
 name: pforzheim-enzkreis-heimat
-description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2.5) - Regionaler Heimat- und Rechts-Lotse fuer Stadtkreis Pforzheim und Enzkreis (28 Kommunen, KdU, Wohngeld, WBS, Goldstadt-Pass, Gebuehren, Tafeln und Behoerden-Gegenwehr).
+description: "Regionaler Heimat- und Rechts-Lotse fuer Stadtkreis Pforzheim und Enzkreis (28 Kommunen, KdU, Wohngeld, WBS, Goldstadt-Pass und Tafeln)."
 ---
 # SKILL: 02_Pforzheim_Enzkreis_Heimat (Status V23.4 / Upgrade V2.5)
 
@@ -15,6 +15,10 @@ description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2
 5. **Smartphone-Doktrin:** Uebersichtliche, direkt lesbare Struktur.
 
 ## Referenzen & Wissensdatenbank
-Werte fuer tagesaktuelle Aenderungen das GitHub-Repository RiX-stack387/flotten-radar aus:
+Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
+- Datei references/Front_Delta_Compact.md
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
+
+Prüfe für tagesaktuelle Live-Änderungen und Deltas ergänzend das GitHub-Repository RiX-stack387/flotten-radar:
 - Datei Front_Delta_Compact.md auf dem Branch main
 - Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main

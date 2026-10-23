@@ -1,0 +1,789 @@
+============================================================
+⚓ M.E.R. PRAXIS-LAGEBERICHT V44.0 (2026-10-23)
+============================================================
+
+
+[Ã°Å¸â€Â´ AKUTER HANDLUNGSBEDARF / ÄNDERUNGEN ERKANNT]
+==================================================
+
+=== Z23: Wohngeldbehörde Pforzheim (Anträge & Vordrucke) ===
+Status: LEGAL_AND_EVIDENCE_CHANGED
+Quelle: https://pdf.form-solutions.net/forms/frm/4dakhDtg1P7pF3HkmGQ4CCCjv98qkk3C
+Diff-Log:
+[ZIEL-LINK]: https://pdf.form-solutions.net/forms/frm/4dakhDtg1P7pF3HkmGQ4CCCjv98qkk3C
+--- STATUS ALT (Vorheriger Scan) ---
+Norm/AZ: Datenschutzgrundverordnung | Wert: Automatische Löschung nach 180 Tagen, sofern die Daten nicht weiter benötigt werden. (TEXT)
+Kontext: Speicherdauer und automatische Datenlöschung im Online-Formularsystem
+Beweis: Eine automatische Löschung erfolgt nach 180 Tagen, insofern entsprechende Daten nicht weiter benötigt werden.
+
+Norm/AZ: Datenschutzgrundverordnung | Wert: Recht auf jederzeitigen Widerruf der Einwilligung ohne Angabe von Gründen mit Wirkung für die Zukunft ohne zusätzliche Kosten außer Basistarifen für Porto bzw. Übermittlung. (TEXT)
+Kontext: Widerrufsrecht und Kostenfolgen bei Geltendmachung durch betroffene Personen
+Beweis: Sie haben das Recht, Ihre Einwilligung jederzeit ohne Angabe von Gründen mit Wirkung für die Zukunft abzuändern oder gänzlich zu widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt. Sie können den Widerruf entweder postalisch, per E-Mail oder per Fax an uns übermitteln. Es entstehen Ihnen dabei keine anderen Kosten als die Portokosten bzw. die Übermittlungskosten nach den bestehenden Basistarifen.
+
+--- STATUS NEU (Aktueller Scan) ---
+[GEÄNDERT/NEU] Norm/AZ: DSGVO / Form-Solutions Einwilligungserklärung | Wert: 180 Tage (ValueType.TEXT)
+Kontext: Frist für die automatische Löschung von gespeicherten personenbezogenen Daten nach Bearbeitung des Anliegens.
+Beweis: Eine automatische Löschung erfolgt nach 180 Tagen, insofern entsprechende Daten nicht weiter benötigt werden.
+
+[GEÄNDERT/NEU] Norm/AZ: WoGG / Weiterleistungsantrag Mietzuschuss (WlaMz) | Wert: 2.000 EUR (ValueType.EURO)
+Kontext: Maximalhöhe der Geldbuße bei einer Ordnungswidrigkeit wegen falscher, unvollständiger oder nicht mitgeteilter Angaben im Wohngeldantrag.
+Beweis: Wenn Ihre Angaben falsch sind, Angaben verschwiegen wurden oder Änderungen nicht mitgeteilt werden, können Sie damit eine Ordnungswidrigkeit (Geldbuße bis zu 2.000 EUR) oder sogar eine Straftat (z.B. Betrug) begehen.
+
+[GEÄNDERT/NEU] Norm/AZ: WoGG / SGB II | Wert: Angabepflicht für den Bezug von Bürgergeld (SGB II) und anderen staatlichen Leistungen (ValueType.TEXT)
+Kontext: Erfassung von parallelen Sozialleistungsbezügen (u. a. Bürgergeld nach SGB II) im Rahmen der Wohngeldbewilligung.
+Beweis: Beziehen Sie oder ein weiteres Haushaltsmitglied eine andere staatliche Leistung (z.B. Bürgergeld -SGB II, Hilfe zum Lebensunterhalt -SGB XII, Berufsausbildungsbeihilfe, BAföG, Unterhaltsvorschuss) oder ist eine solche Leistung beantragt?
+
+[Ã°Å¸â€â€™ BEWEIS GESICHERT]: C:\DefconRecht\Beweisarchiv\2026-10-23_Z23_Beweis.txt
+
+
+[🟢 SICHERER PERIMETER / UNVERÄNDERT]
+==================================================
+
+=== Z1: Mietspiegel Pforzheim ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z2: SWP Strom Grundversorgung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z3: Bildung & Teilhabe Pforzheim ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== Z4: VPE Ticket-Tarife ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z5: Pforzheimer Tafel (GBE Pforzheim) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z6: Auszahlungstermine Kindergeld ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z7: Finanzielle Hilfen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z8: Verbraucherzentrale Pforzheim ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z9: BuT Enzkreis (Jobcenter) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z10: Wohngeldbehörde Enzkreis ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z11: Müllgebühren Enzkreis ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z12: Schuldnerberatung Enzkreis ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z13: Tafelladen Enzkreis ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z14: Schuldnerberatung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z15: Finanzielle Hilfen für Eltern ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z16: Finanzielle Hilfen bei einer Behinderung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z17: Finanzielle Hilfen für Senioren ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z18: Finanzielle Hilfen für die Jugendarbeit ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z19: Goldstadt-Pass (Voraussetzungen & Antrag) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z20: Förderverein Pforzheimer Tafel e.V. ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z21: Mieterverein Pforzheim und Enzkreis e.V. ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z22: Finanzielle Hilfe für obdachlose Menschen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z24: Wohnberechtigungsschein (WBS) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z25: Abfallgebühren Pforzheim ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z26: Wirtschaftliche Jugendhilfe (Kita) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z27: Pflegestützpunkt Pforzheim ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z28: Unterhaltsvorschuss Pforzheim ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z29: LL: Arbeitnehmer ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z30: LL: Arbeitslos, Grundsicherungsgeld ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z31: LL: Berufsausbildung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z32: LL: Schule ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z33: LL: Studium ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z34: LL: Weiterbildung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z35: LL: Führerschein ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z36: LL: Personalausweis, Reisepass ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z37: LL: Tierhaltung, Tierschutz, Fischerei und Jagd ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z38: LL: Bauen und Modernisieren ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z39: LL: Grundstück ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z40: LL: Umzug ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z41: LL: Wohnen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z42: LL: Bürgerschaftliches Engagement ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z43: LL: Freiwilligendienste ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z44: LL: Wahlen und Bürgerbeteiligung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z45: LL: Adoption ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z46: LL: Der Bund fürs Leben ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z47: LL: Der Bund fürs Leben - Auflösung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z48: LL: Familie und Kinder ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z49: LL: Kinderbetreuung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z50: LL: Pflegeeltern ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z51: LL: Geburt ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z52: LL: Sterbefall ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z53: LL: Behinderung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z54: LL: Gesetzliche Unfallversicherung, Kinder und Schüler ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z55: LL: Gesundheit ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z56: LL: Gläubiger und Schuldner ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z57: LL: Notlagen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z58: LL: Opferschutz und Opferhilfe ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z59: LL: Stiftungen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z60: LL: Verbraucherschutz und Ernährung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z61: LL: Altersvorsorge und Ruhestand ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z62: LL: Erben und Vererben ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z63: LL: Vormundschaft und rechtliche Betreuung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z64: LL: Fahrzeuge ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z65: LL: Reisen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z66: LL: Vereine ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z67: LL: Verkehr und Verkehrswege ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z68: LL: Sicherheit und Gefahrenabwehr ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z69: LL: Umwelt ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z70: LL: Umwelt- und Naturgefahren ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z71: LL: Arbeitgeber ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z72: LL: Freiberufler ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z73: LL: Gewerbe ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z74: LL: Patente, Marken, Ideentransfer ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z75: LL: Unternehmen führen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z76: LL: Unternehmen gründen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z77: LL: Unternehmensnachfolge ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z78: LL: Vergabe öffentlicher Aufträge ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z79: LL: Deutsche Staatsangehörigkeit ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z80: LL: Spätaussiedler ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z81: LL: Zuwanderung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z82: LL: Tierhaltung, Tierschutz, Fischerei und Jagd (Duplikat-Sicherung) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z83: LL: Notlagen (Sicherheits-Check) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z84: LL: Gläubiger und Schuldner (Sicherheits-Check) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z85: LL: Wohnen (Sicherheits-Check) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z86: LL: Arbeitnehmer (Sicherheits-Check) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z87: Rente: Regelaltersrente beantragen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z88: Rente: Altersrente für schwerbehinderte Menschen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z89: Rente: Erwerbsminderungsrente beantragen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z90: Rente: Rentenauskunft und Kontenklärung ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z91: Rentenstelle Stadt Pforzheim ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z92: Deutsche Rentenversicherung Außenstelle Pforzheim ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== ENZ_ST_01: Stadt Heimsheim ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_ST_02: Stadt Knittlingen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== ENZ_ST_03: Stadt Maulbronn ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_ST_04: Stadt Mühlacker ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_ST_05: Stadt Neuenbürg ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_01: Gemeinde Birkenfeld ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_02: Gemeinde Eisingen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== ENZ_GM_03: Gemeinde Engelsbrand ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_04: Gemeinde Friolzheim ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_05: Gemeinde Illingen ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_06: Gemeinde Ispringen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== ENZ_GM_07: Gemeinde Kämpfelbach ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_08: Gemeinde Keltern ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_09: Gemeinde Kieselbronn ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_10: Gemeinde Königsbach-Stein ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_11: Gemeinde Mönsheim ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_12: Gemeinde Neuhausen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== ENZ_GM_13: Gemeinde Neulingen ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_14: Gemeinde Niefern-Öschelbronn ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== ENZ_GM_15: Gemeinde Ölbronn-Dürrn ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_16: Gemeinde Ötisheim ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_17: Gemeinde Remchingen ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_18: Gemeinde Sternenfels ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_19: Gemeinde Straubenhardt ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_20: Gemeinde Tiefenbronn ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_21: Gemeinde Wiernsheim ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_22: Gemeinde Wimsheim ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_23: Gemeinde Wurmberg ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== PF_ENZ_K1_STROM: Netze BW & SWP Störungsmelder (Strom/Gas) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== PF_ENZ_K2_APO: Apotheken-Notdienst Pforzheim & Enzkreis (LAK BW) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== BW_KRITIS_K3_CYBER: BSI & Cyberwehr BW (IT-Sicherheitslage & KRITIS-Ausfälle) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== BW_KRITIS_K4_LEBENSMITTEL: BVL Lebensmittelwarnungen & Produktrückrufe (BW) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== PF_K5_WOHNBAU: Bau und Heim eG Pforzheim (Sozialer Wohnraum & Bauprojekte) ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== PF_ENZ_K6_DWD: DWD Amtliche Warnungen (Stadtkreis Pforzheim & Enzkreis) ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.

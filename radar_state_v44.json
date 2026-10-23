@@ -1,0 +1,1140 @@
+{
+    "slot_1": {
+        "source_hash": "d530bc34a70627d1a8d6154c995ce864b49b1bad7632076013552d441d4906b5",
+        "legal_hash": "7fe051f7735b8c8c9c1c1ab5c6fb82234c7e7b3198e82325deb42be9c5ae5916",
+        "claims": [
+            {
+                "norm": "§ 22 Abs. 1 Satz 2 SGB II",
+                "extracted_value": "Karenzzeit von einem Jahr ab Beginn des Monats, für den erstmals Leistungen nach diesem Buch bezogen werden",
+                "value_type": "TEXT",
+                "context": "Regelung zur Dauer der Karenzzeit für die Anerkennung der tatsächlichen Bedarfe für Unterkunft",
+                "evidence_location": "Für die Anerkennung der Bedarfe für Unterkunft gilt eine Karenzzeit von einem Jahr ab Beginn des Monats, für den erstmals Leistungen nach diesem Buch bezogen werden."
+            },
+            {
+                "norm": "§ 22 Abs. 1 Satz 6 SGB II",
+                "extracted_value": "Tatsächliche Aufwendungen für die Unterkunft werden nicht als Bedarf anerkannt, soweit sie mehr als eineinhalbmal so hoch sind wie die abstrakt als angemessen geltenden Aufwendungen",
+                "value_type": "TEXT",
+                "context": "KdU-Obergrenze (Deckelung) der tatsächlichen Aufwendungen für die Unterkunft auch innerhalb der Karenzzeit",
+                "evidence_location": "Abweichend von den Sätzen 1 bis 3 werden tatsächliche Aufwendungen für die Unterkunft nicht als Bedarf anerkannt, soweit sie mehr als eineinhalbmal so hoch sind wie die abstrakt als angemessen geltenden Aufwendungen; nach einer Verminderung der Anzahl der Mitglieder der Bedarfsgemeinschaft ist Satz 9 anzuwenden."
+            },
+            {
+                "norm": "§ 22 Abs. 7 Satz 1 SGB II",
+                "extracted_value": "Soweit Grundsicherungsgeld für den Bedarf für Unterkunft und Heizung geleistet wird, ist es auf Antrag der leistungsberechtigten Person an den Vermieter oder andere Empfangsberechtigte zu zahlen.",
+                "value_type": "TEXT",
+                "context": "Auszahlung des Grundsicherungsgeldes für Bedarfe für Unterkunft und Heizung direkt an den Vermieter",
+                "evidence_location": "Soweit Grundsicherungsgeld für den Bedarf für Unterkunft und Heizung geleistet wird, ist es auf Antrag der leistungsberechtigten Person an den Vermieter oder andere Empfangsberechtigte zu zahlen."
+            },
+            {
+                "norm": "§ 22 Abs. 8 Satz 1 SGB II",
+                "extracted_value": "Sofern Grundsicherungsgeld für den Bedarf für Unterkunft und Heizung erbracht wird, können auch Schulden übernommen werden, soweit dies zur Sicherung der Unterkunft oder zur Behebung einer vergleichbaren Notlage gerechtfertigt ist.",
+                "value_type": "TEXT",
+                "context": "Übernahme von Schulden zur Sicherung der Unterkunft bei Bezug von Grundsicherungsgeld",
+                "evidence_location": "Sofern Grundsicherungsgeld für den Bedarf für Unterkunft und Heizung erbracht wird, können auch Schulden übernommen werden, soweit dies zur Sicherung der Unterkunft oder zur Behebung einer vergleichbaren Notlage gerechtfertigt ist."
+            }
+        ],
+        "last_updated": "2026-10-18T02:46:06.544653+00:00"
+    },
+    "slot_2": {
+        "source_hash": "15ce80dfef971222b925a7f4cba9813b8015889428e5c3575db9872d93beda61",
+        "legal_hash": "a6efd21079709308dc32e67b64320d39be957db9c437b7893ec812476a3aa932",
+        "claims": [
+            {
+                "norm": "§ 20 Abs. 1 SGB II",
+                "extracted_value": "Der Regelbedarf zur Sicherung des Lebensunterhalts umfasst insbesondere Ernährung, Kleidung, Körperpflege, Hausrat, Haushaltsenergie ohne die auf die Heizung und Erzeugung von Warmwasser entfallenden Anteile sowie persönliche Bedürfnisse des täglichen Lebens (einschließlich Teilhabe am sozialen und kulturellen Leben) und wird als monatlicher Pauschalbetrag berücksichtigt.",
+                "value_type": "TEXT",
+                "context": "Gesetzlicher Umfang und Ausgestaltung des monatlichen Regelbedarfs zur Sicherung des Lebensunterhalts bei der Grundsicherung für Arbeitsuchende.",
+                "evidence_location": "Der Regelbedarf zur Sicherung des Lebensunterhalts umfasst insbesondere Ernährung, Kleidung, Körperpflege, Hausrat, Haushaltsenergie ohne die auf die Heizung und Erzeugung von Warmwasser entfallenden Anteile sowie persönliche Bedürfnisse des täglichen Lebens. Zu den persönlichen Bedürfnissen des täglichen Lebens gehört in vertretbarem Umfang eine Teilhabe am sozialen und kulturellen Leben in der Gemeinschaft. Der Regelbedarf wird als monatlicher Pauschalbetrag berücksichtigt."
+            },
+            {
+                "norm": "§ 20 Abs. 2 Satz 1 SGB II",
+                "extracted_value": "Regelbedarfsstufe 1",
+                "value_type": "TEXT",
+                "context": "Monatlicher Regelbedarf für Personen, die alleinstehend oder alleinerziehend sind oder deren Partnerin oder Partner minderjährig ist.",
+                "evidence_location": "Als Regelbedarf wird bei Personen, die alleinstehend oder alleinerziehend sind oder deren Partnerin oder Partner minderjährig ist, monatlich ein Betrag in Höhe der Regelbedarfsstufe 1 anerkannt."
+            },
+            {
+                "norm": "§ 20 Abs. 3 SGB II",
+                "extracted_value": "Anerkennung des Betrags der Regelbedarfsstufe 3 bis zur Vollendung des 25. Lebensjahres bei Umzug ohne Zusicherung nach § 22 Absatz 5",
+                "value_type": "TEXT",
+                "context": "Sonderregelung für Personen unter 25 Jahren, die ohne vorherige Zusicherung des kommunalen Trägers umziehen.",
+                "evidence_location": "Abweichend von Absatz 2 Satz 1 ist bei Personen, die das 25. Lebensjahr noch nicht vollendet haben und ohne Zusicherung des zuständigen kommunalen Trägers nach § 22 Absatz 5 umziehen, bis zur Vollendung des 25. Lebensjahres der in Absatz 2 Satz 2 Nummer 2 genannte Betrag als Regelbedarf anzuerkennen."
+            },
+            {
+                "norm": "§ 20 Abs. 4 SGB II",
+                "extracted_value": "Regelbedarfsstufe 2 für jede Person",
+                "value_type": "TEXT",
+                "context": "Monatlicher Regelbedarf für zwei Partner einer Bedarfsgemeinschaft, sofern beide das 18. Lebensjahr vollendet haben.",
+                "evidence_location": "Haben zwei Partner der Bedarfsgemeinschaft das 18. Lebensjahr vollendet, ist als Regelbedarf für jede dieser Personen monatlich ein Betrag in Höhe der Regelbedarfsstufe 2 anzuerkennen."
+            }
+        ],
+        "last_updated": "2026-10-18T02:46:23.161117+00:00"
+    },
+    "slot_3": {
+        "source_hash": "de4e6225102b7755a95029d4f26e79eed7a0e832e635e9fda127dc51f65e4451",
+        "legal_hash": "c82cd9067fcad862ef93e20a7a3edf363135e017ae3f92707ccf5b7b83ebe229",
+        "claims": [
+            {
+                "norm": "§ 21 Abs. 2 SGB II",
+                "extracted_value": "17 Prozent des nach § 20 maßgebenden Regelbedarfs",
+                "value_type": "PERCENT",
+                "context": "Mehrbedarf bei Schwangerschaft nach der zwölften Schwangerschaftswoche bis zum Ende des Entbindungsmonats.",
+                "evidence_location": "Bei werdenden Müttern wird nach der zwölften Schwangerschaftswoche bis zum Ende des Monats, in welchen die Entbindung fällt, ein Mehrbedarf von 17 Prozent des nach § 20 maßgebenden Regelbedarfs anerkannt."
+            },
+            {
+                "norm": "§ 21 Abs. 3 Nr. 1 SGB II",
+                "extracted_value": "36 Prozent des nach § 20 Absatz 2 maßgebenden Bedarfs",
+                "value_type": "PERCENT",
+                "context": "Mehrbedarf für Alleinerziehende beim Zusammenleben mit einem Kind unter sieben Jahren oder mit zwei oder drei Kindern unter 16 Jahren.",
+                "evidence_location": "Bei Personen, die mit einem oder mehreren minderjährigen Kindern zusammenleben und allein für deren Pflege und Erziehung sorgen, ist ein Mehrbedarf anzuerkennen 1. in Höhe von 36 Prozent des nach § 20 Absatz 2 maßgebenden Bedarfs, wenn sie mit einem Kind unter sieben Jahren oder mit zwei oder drei Kindern unter 16 Jahren zusammenleben, oder"
+            },
+            {
+                "norm": "§ 21 Abs. 3 Nr. 2 SGB II",
+                "extracted_value": "12 Prozent des nach § 20 Absatz 2 maßgebenden Bedarfs für jedes Kind, höchstens jedoch 60 Prozent",
+                "value_type": "PERCENT",
+                "context": "Mehrbedarf für Alleinerziehende pro Kind, sofern dies günstiger ist als nach Nummer 1, maximal 60 Prozent.",
+                "evidence_location": "2. in Höhe von 12 Prozent des nach § 20 Absatz 2 maßgebenden Bedarfs für jedes Kind, wenn sich dadurch ein höherer Prozentsatz als nach der Nummer 1 ergibt, höchstens jedoch in Höhe von 60 Prozent des nach § 20 Absatz 2 maßgebenden Regelbedarfs."
+            },
+            {
+                "norm": "§ 21 Abs. 4 Satz 1 SGB II",
+                "extracted_value": "35 Prozent des nach § 20 maßgebenden Regelbedarfs",
+                "value_type": "PERCENT",
+                "context": "Mehrbedarf für erwerbsfähige Leistungsberechtigte mit Behinderungen bei Leistungen zur Teilhabe am Arbeitsleben.",
+                "evidence_location": "Bei erwerbsfähigen Leistungsberechtigten mit Behinderungen, denen Leistungen zur Teilhabe am Arbeitsleben nach § 49 des Neunten Buches mit Ausnahme der Leistungen nach § 49 Absatz 3 Nummer 2 und 5 des Neunten Buches sowie sonstige Hilfen zur Erlangung eines geeigneten Platzes im Arbeitsleben oder Eingliederungshilfen nach § 112 des Neunten Buches erbracht werden, wird ein Mehrbedarf von 35 Prozent des nach § 20 maßgebenden Regelbedarfs anerkannt."
+            },
+            {
+                "norm": "§ 21 Abs. 6a SGB II",
+                "extracted_value": "Aufwendungen zur Anschaffung oder Ausleihe von Schulbüchern oder gleichstehenden Arbeitsheften sind als Mehrbedarf anzuerkennen.",
+                "value_type": "TEXT",
+                "context": "Anerkennung von Aufwendungen für Schulbücher und Arbeitshefte als Mehrbedarf für Schülerinnen und Schüler.",
+                "evidence_location": "Soweit eine Schülerin oder ein Schüler aufgrund der jeweiligen schulrechtlichen Bestimmungen oder schulischen Vorgaben Aufwendungen zur Anschaffung oder Ausleihe von Schulbüchern oder gleichstehenden Arbeitsheften hat, sind sie als Mehrbedarf anzuerkennen."
+            },
+            {
+                "norm": "§ 21 Abs. 7 Satz 2 Nr. 1 SGB II",
+                "extracted_value": "2,3 Prozent des für sie geltenden Regelbedarfs",
+                "value_type": "PERCENT",
+                "context": "Mehrbedarf bei dezentraler Warmwassererzeugung für Leistungsberechtigte nach § 20 Absatz 2 Satz 1 oder Satz 2 Nummer 2, Absatz 3 oder 4.",
+                "evidence_location": "Der Mehrbedarf beträgt für jede im Haushalt lebende leistungsberechtigte Person jeweils 1. 2,3 Prozent des für sie geltenden Regelbedarfs nach § 20 Absatz 2 Satz 1 oder Satz 2 Nummer 2, Absatz 3 oder 4,"
+            },
+            {
+                "norm": "§ 21 Abs. 8 SGB II",
+                "extracted_value": "Die Summe des insgesamt anerkannten Mehrbedarfs nach den Absätzen 2 bis 5 darf die Höhe des für erwerbsfähige Leistungsberechtigte maßgebenden Regelbedarfs nicht übersteigen.",
+                "value_type": "TEXT",
+                "context": "Begrenzung der maximalen Höhe der kumulierten Mehrbedarfe auf den maßgebenden Regelbedarf.",
+                "evidence_location": "Die Summe des insgesamt anerkannten Mehrbedarfs nach den Absätzen 2 bis 5 darf die Höhe des für erwerbsfähige Leistungsberechtigte maßgebenden Regelbedarfs nicht übersteigen."
+            }
+        ],
+        "last_updated": "2026-10-18T02:46:39.303284+00:00"
+    },
+    "slot_4": {
+        "source_hash": "5bbb5628e2703d1ce18cb003812c0c9153f3686ea65f2e1737f102b3d58ebad3",
+        "legal_hash": "4eff4bc6b63dfb56daf9b3855c5424144bad21bfac066546f2cda081274faaf4",
+        "claims": [
+            {
+                "norm": "§ 41 Abs. 1 SGB XII",
+                "extracted_value": "Leistungsberechtigt nach diesem Kapitel sind Personen mit gewöhnlichem Aufenthalt im Inland, die ihren notwendigen Lebensunterhalt nicht oder nicht ausreichend aus Einkommen und Vermögen nach § 43 bestreiten können, wenn sie die Voraussetzungen nach Absatz 2, 3 oder 3a erfüllen.",
+                "value_type": "TEXT",
+                "context": "Allgemeine Grundvoraussetzungen für die Leistungsberechtigung bei Grundsicherung im Alter und bei Erwerbsminderung.",
+                "evidence_location": "(1) Leistungsberechtigt nach diesem Kapitel sind Personen mit gewöhnlichem Aufenthalt im Inland, die ihren notwendigen Lebensunterhalt nicht oder nicht ausreichend aus Einkommen und Vermögen nach § 43 bestreiten können, wenn sie die Voraussetzungen nach Absatz 2, 3 oder 3a erfüllen."
+            },
+            {
+                "norm": "§ 41 Abs. 3 SGB XII",
+                "extracted_value": "Leistungsberechtigung wegen dauerhafter voller Erwerbsminderung ab Vollendung des 18. Lebensjahres bei unwahrscheinlicher Behebung der Erwerbsminderung im Sinne des § 43 Abs. 2 SGB VI unabhängig von der Arbeitsmarktlage.",
+                "value_type": "TEXT",
+                "context": "Voraussetzungen für die Leistungsberechtigung bei dauerhafter voller Erwerbsminderung.",
+                "evidence_location": "(3) Leistungsberechtigt sind Personen nach Absatz 1 wegen einer dauerhaften vollen Erwerbsminderung, wenn sie das 18. Lebensjahr vollendet haben, unabhängig von der jeweiligen Arbeitsmarktlage voll erwerbsgemindert im Sinne des § 43 Absatz 2 des Sechsten Buches sind und bei denen unwahrscheinlich ist, dass die volle Erwerbsminderung behoben werden kann."
+            },
+            {
+                "norm": "§ 41 Abs. 3a SGB XII",
+                "extracted_value": "Leistungsberechtigung ab Vollendung des 18. Lebensjahres für den Zeitraum des Eingangsverfahrens und Berufsbildungsbereichs in einer WfbM bzw. bei anderen Leistungsanbietern oder bei Erhalt eines Budgets für Ausbildung.",
+                "value_type": "TEXT",
+                "context": "Leistungsberechtigung für Personen im Berufsbildungsbereich/Eingangsverfahren oder im Rahmen eines Budgets für Ausbildung.",
+                "evidence_location": "(3a) Leistungsberechtigt sind Personen nach Absatz 1, die das 18. Lebensjahr vollendet haben, für den Zeitraum, in dem sie 1. in einer Werkstatt für behinderte Menschen (§ 57 des Neunten Buches) oder bei einem anderen Leistungsanbieter (§ 60 des Neunten Buches) das Eingangsverfahren und den Berufsbildungsbereich durchlaufen oder 2. in einem Ausbildungsverhältnis stehen, für das sie ein Budget für Ausbildung (§ 61a des Neunten Buches) erhalten."
+            },
+            {
+                "norm": "§ 41 Abs. 4 SGB XII",
+                "extracted_value": "Ausschluss des Leistungsanspruchs bei vorsätzlicher oder grob fahrlässiger Herbeiführung der Hilfebedürftigkeit in den letzten zehn Jahren.",
+                "value_type": "TEXT",
+                "context": "Ausschlussgrund für Leistungen der Grundsicherung im Alter und bei Erwerbsminderung.",
+                "evidence_location": "(4) Keinen Anspruch auf Leistungen nach diesem Kapitel hat, wer in den letzten zehn Jahren die Hilfebedürftigkeit vorsätzlich oder grob fahrlässig herbeigeführt hat."
+            }
+        ],
+        "last_updated": "2026-10-18T02:46:50.931209+00:00"
+    },
+    "slot_5": {
+        "source_hash": "edfe99fb95d4f375f219dbe1961ded63d42199b2be42f2559f83f65caf86b986",
+        "legal_hash": "0a43222a2b1f6cb0b44119516aa27c11b4cd1bee140678afab753cba10c52508",
+        "claims": [
+            {
+                "norm": "§ 35 Abs. 1 Satz 2 SGB XII",
+                "extracted_value": "Für die Anerkennung der Bedarfe für Unterkunft gilt eine Karenzzeit von einem Jahr ab Beginn des Monats, für den erstmals Leistungen nach diesem Buch bezogen werden.",
+                "value_type": "TEXT",
+                "context": "Dauer und Beginn der gesetzlichen Karenzzeit für Unterkunftsbedarfe im SGB XII",
+                "evidence_location": "Für die Anerkennung der Bedarfe für Unterkunft gilt eine Karenzzeit von einem Jahr ab Beginn des Monats, für den erstmals Leistungen nach diesem Buch bezogen werden."
+            },
+            {
+                "norm": "§ 35 Abs. 1 Satz 7 SGB XII",
+                "extracted_value": "Abweichend von den Sätzen 1 bis 3 werden tatsächliche Aufwendungen für die Unterkunft nicht als Bedarf anerkannt, soweit sie mehr als eineinhalbmal so hoch sind wie die abstrakt als angemessen geltenden Aufwendungen; nach einer Verminderung der Anzahl der Mitglieder der Haushaltsgemeinschaft ist Absatz 3 Satz 2 anzuwenden.",
+                "value_type": "TEXT",
+                "context": "Obergrenze für die Übernahme von Unterkunftsaufwendungen während der Karenzzeit",
+                "evidence_location": "Abweichend von den Sätzen 1 bis 3 werden tatsächliche Aufwendungen für die Unterkunft nicht als Bedarf anerkannt, soweit sie mehr als eineinhalbmal so hoch sind wie die abstrakt als angemessen geltenden Aufwendungen; nach einer Verminderung der Anzahl der Mitglieder der Haushaltsgemeinschaft ist Absatz 3 Satz 2 anzuwenden."
+            },
+            {
+                "norm": "§ 35 Abs. 1 Satz 6 SGB XII",
+                "extracted_value": "Bei Leistungsberechtigten, die in den letzten zwei Jahren vor dem Bezug von Leistungen nach dem Dritten oder Vierten Kapitel Leistungen nach dem Zweiten Buch bezogen haben, wird die nach § 22 Absatz 1 Satz 2 bis 4 des Zweiten Buches bereits in Anspruch genommene Karenzzeit für die weitere Dauer der Karenzzeit nach den Sätzen 2 bis 5 berücksichtigt.",
+                "value_type": "TEXT",
+                "context": "Anrechnung von im SGB II bereits in Anspruch genommenen Karenzzeiten bei Wechsel in das SGB XII",
+                "evidence_location": "Bei Leistungsberechtigten, die in den letzten zwei Jahren vor dem Bezug von Leistungen nach dem Dritten oder Vierten Kapitel Leistungen nach dem Zweiten Buch bezogen haben, wird die nach § 22 Absatz 1 Satz 2 bis 4 des Zweiten Buches bereits in Anspruch genommene Karenzzeit für die weitere Dauer der Karenzzeit nach den Sätzen 2 bis 5 berücksichtigt."
+            },
+            {
+                "norm": "§ 35 Abs. 3 Satz 2 SGB XII",
+                "extracted_value": "Satz 1 gilt für die Aufwendungen für Heizung und nach Ablauf der Karenzzeit nach Absatz 1 Satz 2 bis 6 für die Aufwendungen für Unterkunft so lange, bis es diesen Personen möglich oder zuzumuten ist, durch einen Wohnungswechsel, durch Vermieten oder auf andere Weise die Aufwendungen zu senken, in der Regel jedoch längstens für sechs Monate.",
+                "value_type": "TEXT",
+                "context": "Reguläre Höchstdauer für das Kostensenkungsverfahren nach Ablauf der Karenzzeit",
+                "evidence_location": "Satz 1 gilt für die Aufwendungen für Heizung und nach Ablauf der Karenzzeit nach Absatz 1 Satz 2 bis 6 für die Aufwendungen für Unterkunft so lange, bis es diesen Personen möglich oder zuzumuten ist, durch einen Wohnungswechsel, durch Vermieten oder auf andere Weise die Aufwendungen zu senken, in der Regel jedoch längstens für sechs Monate."
+            },
+            {
+                "norm": "§ 35 Abs. 3 Satz 4 SGB XII",
+                "extracted_value": "Stirbt ein Mitglied der Haushaltsgemeinschaft und waren die Aufwendungen für Unterkunft und Heizung davor angemessen, ist die Senkung der Aufwendungen für die weiterhin bewohnte Unterkunft für die Dauer von mindestens zwölf Monaten nach dem Sterbemonat nicht zumutbar.",
+                "value_type": "TEXT",
+                "context": "Schutzfrist vor Kostensenkung bei Versterben eines Mitglieds der Haushaltsgemeinschaft",
+                "evidence_location": "Stirbt ein Mitglied der Haushaltsgemeinschaft und waren die Aufwendungen für Unterkunft und Heizung davor angemessen, ist die Senkung der Aufwendungen für die weiterhin bewohnte Unterkunft für die Dauer von mindestens zwölf Monaten nach dem Sterbemonat nicht zumutbar."
+            }
+        ],
+        "last_updated": "2026-10-18T02:47:02.559652+00:00"
+    },
+    "slot_6": {
+        "source_hash": "ca0230dc4fe0f561244b0d89b29d9b3ce1205ccdf15413f9628ca7bf6ffbc920",
+        "legal_hash": "ebcade4bb4810152139ddab4ea0788082c465b84a11eb06b3526ca46c170a181",
+        "claims": [
+            {
+                "norm": "§ 45b Abs. 1 Satz 1 SGB XI",
+                "extracted_value": "bis zu 131 Euro monatlich",
+                "value_type": "EURO",
+                "context": "Monatlicher Höchstanspruch auf einen Entlastungsbetrag für Pflegebedürftige in häuslicher Pflege zur Kostenerstattung qualitätsgesicherter Leistungen.",
+                "evidence_location": "Pflegebedürftige in häuslicher Pflege haben Anspruch auf einen Entlastungsbetrag in Höhe von bis zu 131 Euro monatlich."
+            },
+            {
+                "norm": "§ 45b Abs. 1 Satz 5 SGB XI",
+                "extracted_value": "Übertragbarkeit nicht verbrauchter Beträge in das folgende Kalenderhalbjahr",
+                "value_type": "TEXT",
+                "context": "Frist und Übertragungsregelung für den Verfall nicht ausgeschöpfter Mittel des Entlastungsbetrags.",
+                "evidence_location": "Die Leistung nach Satz 1 kann innerhalb des jeweiligen Kalenderjahres in Anspruch genommen werden; wird die Leistung in einem Kalenderjahr nicht ausgeschöpft, kann der nicht verbrauchte Betrag in das folgende Kalenderhalbjahr übertragen werden."
+            },
+            {
+                "norm": "§ 45b Abs. 2 Satz 1 SGB XI",
+                "extracted_value": "Entstehen des Anspruchs kraft Gesetzes ohne vorherige Antragstellung",
+                "value_type": "TEXT",
+                "context": "Voraussetzung für die Entstehung des Anspruchs auf den Entlastungsbetrag.",
+                "evidence_location": "Der Anspruch auf den Entlastungsbetrag entsteht, sobald die in Absatz 1 Satz 1 genannten Anspruchsvoraussetzungen vorliegen, ohne dass es einer vorherigen Antragstellung bedarf."
+            },
+            {
+                "norm": "§ 45b Abs. 4 Satz 1 SGB XI",
+                "extracted_value": "Vergütung darf die Preise für vergleichbare Sachleistungen von zugelassenen Pflegeeinrichtungen nicht übersteigen",
+                "value_type": "TEXT",
+                "context": "Obergrenze für die Abrechnung von Vergütungen für Entlastungsleistungen.",
+                "evidence_location": "Die für die Erbringung von Leistungen nach Absatz 1 Satz 3 Nummer 1 bis 4 verlangte Vergütung darf die Preise für vergleichbare Sachleistungen von zugelassenen Pflegeeinrichtungen nicht übersteigen."
+            }
+        ],
+        "last_updated": "2026-10-18T02:47:14.096269+00:00"
+    },
+    "slot_7": {
+        "source_hash": "d01e8df996abcedb5876721c8470418200deacf4ba03a6f6e02f08044f9ab474",
+        "legal_hash": "37d8bc569df391a8a55bf4c16298430f161b740bbec0ace4c53457c0fc24e67c",
+        "claims": [
+            {
+                "norm": "§ 37 Abs. 1 Satz 3 Nr. 1 SGB XI",
+                "extracted_value": "347 Euro",
+                "value_type": "EURO",
+                "context": "Höhe des monatlichen Pflegegeldes für Pflegebedürftige des Pflegegrades 2",
+                "evidence_location": "1. 347 Euro für Pflegebedürftige des Pflegegrades 2,"
+            },
+            {
+                "norm": "§ 37 Abs. 1 Satz 3 Nr. 2 SGB XI",
+                "extracted_value": "599 Euro",
+                "value_type": "EURO",
+                "context": "Höhe des monatlichen Pflegegeldes für Pflegebedürftige des Pflegegrades 3",
+                "evidence_location": "2. 599 Euro für Pflegebedürftige des Pflegegrades 3,"
+            },
+            {
+                "norm": "§ 37 Abs. 1 Satz 3 Nr. 3 SGB XI",
+                "extracted_value": "800 Euro",
+                "value_type": "EURO",
+                "context": "Höhe des monatlichen Pflegegeldes für Pflegebedürftige des Pflegegrades 4",
+                "evidence_location": "3. 800 Euro für Pflegebedürftige des Pflegegrades 4,"
+            },
+            {
+                "norm": "§ 37 Abs. 1 Satz 3 Nr. 4 SGB XI",
+                "extracted_value": "990 Euro",
+                "value_type": "EURO",
+                "context": "Höhe des monatlichen Pflegegeldes für Pflegebedürftige des Pflegegrades 5",
+                "evidence_location": "4. 990 Euro für Pflegebedürftige des Pflegegrades 5."
+            },
+            {
+                "norm": "§ 37 Abs. 2 Satz 2 SGB XI",
+                "extracted_value": "bis zu acht Wochen je Kalenderjahr",
+                "value_type": "TEXT",
+                "context": "Fortgewähr der Hälfte des Pflegegeldes während einer Kurzzeitpflege oder Verhinderungspflege",
+                "evidence_location": "Die Hälfte des bisher bezogenen Pflegegeldes wird während einer Kurzzeitpflege nach § 42 und während einer Verhinderungspflege nach § 39 jeweils für bis zu acht Wochen je Kalenderjahr fortgewährt."
+            },
+            {
+                "norm": "§ 37 Abs. 3 Satz 4 SGB XI",
+                "extracted_value": "1. Juli 2022 bis einschließlich 31. März 2027",
+                "value_type": "DATE",
+                "context": "Zeitraum, in dem auf Wunsch jede zweite Beratung per Videokonferenz erfolgen kann",
+                "evidence_location": "Auf Wunsch der pflegebedürftigen Person erfolgt im Zeitraum vom 1. Juli 2022 bis einschließlich 31. März 2027 jede zweite Beratung abweichend von den Sätzen 1 bis 3 per Videokonferenz."
+            },
+            {
+                "norm": "§ 37 Abs. 6 SGB XI",
+                "extracted_value": "das Pflegegeld angemessen zu kürzen und im Wiederholungsfall zu entziehen",
+                "value_type": "TEXT",
+                "context": "Rechtsfolgen bei Nichtabruf der vorgeschriebenen Beratung nach Absatz 3 Satz 1 durch die Pflegebedürftigen",
+                "evidence_location": "Rufen Pflegebedürftige die Beratung nach Absatz 3 Satz 1 nicht ab, hat die Pflegekasse oder das private Versicherungsunternehmen das Pflegegeld angemessen zu kürzen und im Wiederholungsfall zu entziehen."
+            }
+        ],
+        "last_updated": "2026-10-18T02:47:24.860379+00:00"
+    },
+    "slot_8": {
+        "source_hash": "45ba91a51a3a976acd7b562ce844145750487a7c0f09b7ee0ee279e64f3fd05a",
+        "legal_hash": "537882be38dc1f70f79c8fddb022bc556e0fb02695e729b1c5cc04d180cddb56",
+        "claims": [
+            {
+                "norm": "§ 36 Abs. 1 Satz 1 SGB XI",
+                "extracted_value": "Pflegebedürftige der Pflegegrade 2 bis 5 haben bei häuslicher Pflege Anspruch auf körperbezogene Pflegemaßnahmen und pflegerische Betreuungsmaßnahmen sowie auf Hilfen bei der Haushaltsführung als Sachleistung (häusliche Pflegehilfe).",
+                "value_type": "TEXT",
+                "context": "Voraussetzung und Umfang des gesetzlichen Anspruchs auf Pflegesachleistung bei häuslicher Pflege.",
+                "evidence_location": "Pflegebedürftige der Pflegegrade 2 bis 5 haben bei häuslicher Pflege Anspruch auf körperbezogene Pflegemaßnahmen und pflegerische Betreuungsmaßnahmen sowie auf Hilfen bei der Haushaltsführung als Sachleistung (häusliche Pflegehilfe)."
+            },
+            {
+                "norm": "§ 36 Abs. 3 Nr. 1 SGB XI",
+                "extracted_value": "796 Euro",
+                "value_type": "EURO",
+                "context": "Höchstanspruch je Kalendermonat auf häusliche Pflegehilfe für Personen mit Pflegegrad 2.",
+                "evidence_location": "1. für Pflegebedürftige des Pflegegrades 2 Leistungen bis zu einem Gesamtwert von 796 Euro,"
+            },
+            {
+                "norm": "§ 36 Abs. 3 Nr. 2 SGB XI",
+                "extracted_value": "1 497 Euro",
+                "value_type": "EURO",
+                "context": "Höchstanspruch je Kalendermonat auf häusliche Pflegehilfe für Personen mit Pflegegrad 3.",
+                "evidence_location": "2. für Pflegebedürftige des Pflegegrades 3 Leistungen bis zu einem Gesamtwert von 1 497 Euro,"
+            },
+            {
+                "norm": "§ 36 Abs. 3 Nr. 3 SGB XI",
+                "extracted_value": "1 859 Euro",
+                "value_type": "EURO",
+                "context": "Höchstanspruch je Kalendermonat auf häusliche Pflegehilfe für Personen mit Pflegegrad 4.",
+                "evidence_location": "3. für Pflegebedürftige des Pflegegrades 4 Leistungen bis zu einem Gesamtwert von 1 859 Euro,"
+            },
+            {
+                "norm": "§ 36 Abs. 3 Nr. 4 SGB XI",
+                "extracted_value": "2 299 Euro",
+                "value_type": "EURO",
+                "context": "Höchstanspruch je Kalendermonat auf häusliche Pflegehilfe für Personen mit Pflegegrad 5.",
+                "evidence_location": "4. für Pflegebedürftige des Pflegegrades 5 Leistungen bis zu einem Gesamtwert von 2 299 Euro."
+            }
+        ],
+        "last_updated": "2026-10-18T02:47:37.819989+00:00"
+    },
+    "slot_9A": {
+        "source_hash": "a731f1f4e294e3d048f6c8632ebe6f93554ccd49ae2aa640ce07d3432afd1ae6",
+        "legal_hash": "1500c17af4fcd168c25a5daf85d2bd91e2c1037c8711d40aeae54e9c70d8bdd2",
+        "claims": [
+            {
+                "norm": "§ 39 Abs. 1 Satz 1 SGB XI",
+                "extracted_value": "längstens acht Wochen je Kalenderjahr für Pflegebedürftige mit mindestens Pflegegrad 2",
+                "value_type": "TEXT",
+                "context": "Voraussetzungen und maximale jährliche Dauer der Ersatzpflege (Verhinderungspflege) bei Ausfall der Pflegeperson",
+                "evidence_location": "Ist eine Pflegeperson, die einen Pflegebedürftigen mit mindestens Pflegegrad 2 in seiner häuslichen Umgebung pflegt, wegen Erholungsurlaubs, Krankheit oder aus anderen Gründen an der Pflege gehindert, übernimmt die Pflegekasse die nachgewiesenen Kosten einer notwendigen Ersatzpflege für den Pflegebedürftigen für längstens acht Wochen je Kalenderjahr; § 34 Absatz 2 Satz 1 gilt nicht."
+            },
+            {
+                "norm": "§ 39 Abs. 1 Satz 2 SGB XI",
+                "extracted_value": "bis zum Ablauf des Kalenderjahres, das auf die jeweilige Durchführung der Ersatzpflege folgt",
+                "value_type": "DATE",
+                "context": "Ausschluss- bzw. Antragsfrist zur Geltendmachung der Erstattung von Ersatzpflegekosten",
+                "evidence_location": "Eine vorherige Antragstellung vor Durchführung der Ersatzpflege ist nicht erforderlich; die Übernahme der Ersatzpflegekosten setzt voraus, dass ein Antrag auf Erstattung unter Nachweis der Kosten bis zum Ablauf des Kalenderjahres gestellt wird, das auf die jeweilige Durchführung der Ersatzpflege folgt."
+            },
+            {
+                "norm": "§ 39 Abs. 2 SGB XI",
+                "extracted_value": "höchstens bis auf die Höhe des Gemeinsamen Jahresbetrags nach § 42a",
+                "value_type": "TEXT",
+                "context": "Höchstgrenze der Aufwendungen für Verhinderungspflege durch sonstige Personen (weder bis zum 2. Grad verwandt/verschwägert noch in häuslicher Gemeinschaft lebend)",
+                "evidence_location": "Wird die Ersatzpflege durch andere Personen sichergestellt als solche, die mit dem Pflegebedürftigen bis zum zweiten Grade verwandt oder verschwägert sind oder die mit ihm in häuslicher Gemeinschaft leben, dürfen sich die Aufwendungen der Pflegekasse für die Ersatzpflegekosten je Kalenderjahr höchstens bis auf die Höhe des Gemeinsamen Jahresbetrags nach § 42a belaufen."
+            },
+            {
+                "norm": "§ 39 Abs. 3 Satz 2 SGB XI",
+                "extracted_value": "regelmäßig den für den Pflegegrad des Pflegebedürftigen geltenden Betrag des Pflegegeldes nach § 37 Absatz 1 Satz 3 für bis zu zwei Monate nicht überschreiten",
+                "value_type": "TEXT",
+                "context": "Begrenzung der Kostenerstattung bei nicht erwerbsmäßiger Ersatzpflege durch nahe Angehörige oder Mitbewohner",
+                "evidence_location": "Wird die Ersatzpflege von diesen Personen nicht erwerbsmäßig ausgeübt, dürfen die Aufwendungen der Pflegekasse im Kalenderjahr regelmäßig den für den Pflegegrad des Pflegebedürftigen geltenden Betrag des Pflegegeldes nach § 37 Absatz 1 Satz 3 für bis zu zwei Monate nicht überschreiten."
+            }
+        ],
+        "last_updated": "2026-10-18T02:48:09.045615+00:00"
+    },
+    "slot_9B": {
+        "source_hash": "7ffd5fca54c76c8ffa37616da76633080c15980ea74c5970d67a9e6a7fe2a908",
+        "legal_hash": "b1acad2e282209a3c57a151722072ec2fbec8533b1ba542f52c842c9cee6c04d",
+        "claims": [
+            {
+                "norm": "§ 42a Abs. 1 SGB XI",
+                "extracted_value": "3 539 Euro",
+                "value_type": "EURO",
+                "context": "Höchstbetrag des Gemeinsamen Jahresbetrages je Kalenderjahr für Verhinderungspflege und Kurzzeitpflege für Pflegebedürftige ab Pflegegrad 2",
+                "evidence_location": "Pflegebedürftige mit mindestens Pflegegrad 2 haben Anspruch auf Leistungen der Verhinderungspflege nach Maßgabe des § 39 sowie Leistungen der Kurzzeitpflege nach Maßgabe des § 42 in Höhe eines Gesamtleistungsbetrages von insgesamt bis zu 3 539 Euro je Kalenderjahr (Gemeinsamer Jahresbetrag)."
+            },
+            {
+                "norm": "§ 42a Abs. 2 SGB XI",
+                "extracted_value": "Anzeige der Leistungserbringung spätestens bis zum Ende des auf den Monat der Leistungserbringung folgenden Kalendermonats",
+                "value_type": "TEXT",
+                "context": "Frist für Pflegeeinrichtungen zur Anzeige der Erbringung von Verhinderungspflegeleistungen gegenüber der Pflegekasse",
+                "evidence_location": "Werden Leistungen der Verhinderungspflege durch Pflegeeinrichtungen erbracht, haben diese der Pflegekasse des Pflegebedürftigen die Leistungserbringung und deren Umfang spätestens bis zum Ende des auf den Monat der Leistungserbringung folgenden Kalendermonats anzuzeigen."
+            },
+            {
+                "norm": "§ 42a Abs. 3 SGB XI",
+                "extracted_value": "Unverzügliche Übermittlung oder Aushändigung einer schriftlichen Übersicht über die angefallenen Aufwendungen nach Leistungserbringung",
+                "value_type": "TEXT",
+                "context": "Informationspflicht der Pflegeeinrichtung gegenüber Pflegebedürftigen bei Erbringung von Leistungen der Verhinderungs- oder Kurzzeitpflege",
+                "evidence_location": "Erbringen Pflegeeinrichtungen Leistungen im Rahmen der Verhinderungspflege oder der Kurzzeitpflege, haben die Pflegeeinrichtungen den Pflegebedürftigen im Anschluss an die Leistungserbringung unverzüglich eine schriftliche Übersicht über die dafür angefallenen Aufwendungen zu übermitteln oder auszuhändigen; auf der Übersicht ist deutlich erkennbar auszuweisen, welcher Betrag davon zur Abrechnung über den Gemeinsamen Jahresbetrag vorgesehen ist."
+            }
+        ],
+        "last_updated": "2026-10-18T02:48:23.060384+00:00"
+    },
+    "slot_10A": {
+        "source_hash": "f96b0bcda092d6658d6a097212d64d5359bf223e3a0590d181b38bddc4bc69cc",
+        "legal_hash": "cc5dceccf61c0d09621b31694ac81b5561dffaf134d783e4c7ae97e48a7634cf",
+        "claims": [
+            {
+                "norm": "§ 11 Abs. 1 WoGG",
+                "extracted_value": "Die bei der Berechnung des Wohngeldes zu berücksichtigende Miete oder Belastung ist die Summe aus der Miete oder Belastung nach § 9 oder § 10 (gedeckelt auf Höchstbetrag nach § 12 Abs. 1 plus Klimakomponente nach § 12 Abs. 7) und dem Gesamtbetrag zur Entlastung bei den Heizkosten nach § 12 Abs. 6.",
+                "value_type": "TEXT",
+                "context": "Zusammensetzung und Höchstbetragsbegrenzung der im Wohngeld zu berücksichtigenden Miete oder Belastung",
+                "evidence_location": "Die bei der Berechnung des Wohngeldes zu berücksichtigende Miete oder Belastung ist die Summe aus 1. der Miete oder Belastung, die sich nach § 9 oder § 10 ergibt, soweit sie nicht nach Absatz 2 oder Absatz 3 in dieser Berechnungsreihenfolge außer Betracht bleibt, jedoch nur bis zur Höhe der Summe, die sich aus dem Höchstbetrag nach § 12 Absatz 1 und der Klimakomponente nach § 12 Absatz 7 ergibt, und 2. dem Gesamtbetrag zur Entlastung bei den Heizkosten nach § 12 Absatz 6."
+            },
+            {
+                "norm": "§ 11 Abs. 2 WoGG",
+                "extracted_value": "Anteile der Miete oder Belastung bleiben in festgelegter Reihenfolge außer Betracht, wenn sie auf ausschließlich gewerblich/beruflich genutzte Teile, Gebrauchsüberlassung an Nicht-Haushaltsmitglieder, mitbewohnende Nicht-Haushaltsmitglieder, öffentliche Wohnkostenentlastungsleistungen oder Leistungen Verpflichteter nach § 68 AufenthG entfallen.",
+                "value_type": "TEXT",
+                "context": "Katalog und Reihenfolge der Abzugstatbestände von der Miete oder Belastung vor der Wohngeldberechnung",
+                "evidence_location": "Die Miete oder Belastung, die sich nach § 9 oder § 10 ergibt, bleibt in folgender Berechnungsreihenfolge und zu dem Anteil außer Betracht, 1. der auf den Teil des Wohnraums entfällt, der ausschließlich gewerblich oder beruflich genutzt wird; 2. der auf den Teil des Wohnraums entfällt, der einer Person, die kein Haushaltsmitglied ist, entgeltlich oder unentgeltlich zum Gebrauch überlassen ist; übersteigt das Entgelt für die Gebrauchsüberlassung die auf diesen Teil des Wohnraums entfallende Miete oder Belastung, ist das Entgelt in voller Höhe abzuziehen; 3. der dem Anteil einer entgeltlich oder unentgeltlich mitbewohnenden Person, die kein Haushaltsmitglied ist, aber deren Mittelpunkt der Lebensbeziehungen der Wohnraum ist und die nicht selbst die Voraussetzungen des § 3 Abs. 1 oder Abs. 2 erfüllt, an der Gesamtzahl der Bewohner und Bewohnerinnen entspricht; übersteigt das Entgelt der mitbewohnenden Person die auf diese entfallende Miete oder Belastung, ist das Entgelt in voller Höhe abzuziehen; 4. der durch Leistungen aus öffentlichen Haushalten oder Zweckvermögen, insbesondere Leistungen zur Wohnkostenentlastung nach dem Zweiten Wohnungsbaugesetz, dem Wohnraumförderungsgesetz oder entsprechenden Gesetzen der Länder, an den Mieter oder den selbst nutzenden Eigentümer zur Senkung der Miete oder Belastung gedeckt wird, soweit die Leistungen nicht von § 14 Abs. 2 Nr. 30 erfasst sind; 5. der durch Leistungen einer nach § 68 des Aufenthaltsgesetzes verpflichteten Person gedeckt wird, die ein zu berücksichtigendes Haushaltsmitglied zur Bezahlung der Miete oder Aufbringung der Belastung erhält."
+            },
+            {
+                "norm": "§ 11 Abs. 3 WoGG",
+                "extracted_value": "Ist mindestens ein Haushaltsmitglied vom Wohngeld ausgeschlossen, werden Miete, Belastung, Höchstbetrag, Heizkostenentlastungsbetrag und Klimakomponente nur anteilig nach dem Verhältnis der berücksichtigten Haushaltsmitglieder zur Gesamtzahl berücksichtigt.",
+                "value_type": "TEXT",
+                "context": "Berechnung der berücksichtigungsfähigen Miete und Höchstbeträge bei Vorliegen ausgeschlossener Haushaltsmitglieder",
+                "evidence_location": "Ist mindestens ein Haushaltsmitglied vom Wohngeld ausgeschlossen, ist nur der Anteil der Miete oder Belastung zu berücksichtigen, der dem Anteil der zu berücksichtigenden Haushaltsmitglieder an der Gesamtzahl der Haushaltsmitglieder entspricht. In diesem Fall sind nur der Anteil des Höchstbetrages nach § 12 Absatz 1, der Anteil des Gesamtbetrages zur Entlastung bei den Heizkosten nach § 12 Absatz 6 und der Anteil des Betrages der Klimakomponente nach § 12 Absatz 7 zu berücksichtigen, der jeweils dem Anteil der zu berücksichtigenden Haushaltsmitglieder an der Gesamtzahl der Haushaltsmitglieder entspricht."
+            }
+        ],
+        "last_updated": "2026-10-18T02:48:35.166348+00:00"
+    },
+    "slot_10B": {
+        "source_hash": "e675587d4a8f2894e6092ebafc735743505edf5008f0e666ab9563ba3d5b631f",
+        "legal_hash": "14aca4fb3d918a830cf9aa92147a1049103f22e91afcd7692f75021d922574ad",
+        "claims": [
+            {
+                "norm": "§ 12 Abs. 6 WoGG",
+                "extracted_value": "110,40",
+                "value_type": "EURO",
+                "context": "Monatlicher Gesamtbetrag zur Entlastung bei den Heizkosten (CO2-Bepreisung und dauerhafte Heizkostenkomponente) für ein zu berücksichtigendes Haushaltsmitglied",
+                "evidence_location": "1 14,40 96 110,40"
+            },
+            {
+                "norm": "§ 12 Abs. 6 WoGG",
+                "extracted_value": "27,60",
+                "value_type": "EURO",
+                "context": "Monatlicher Mehrbetrag zur Entlastung bei den Heizkosten für jedes weitere zu berücksichtigende Haushaltsmitglied",
+                "evidence_location": "Mehrbetrag für jedes weitere zu berücksichtigende Haushaltsmitglied 3,60 24 27,60"
+            },
+            {
+                "norm": "§ 12 Abs. 7 WoGG",
+                "extracted_value": "4,80",
+                "value_type": "EURO",
+                "context": "Monatlicher Mehrbetrag als Klimakomponente für jedes weitere zu berücksichtigende Haushaltsmitglied",
+                "evidence_location": "Mehrbetrag für jedes weitere zu berücksichtigende Haushaltsmitglied 4,80"
+            },
+            {
+                "norm": "§ 12 Abs. 5 WoGG",
+                "extracted_value": "niedriger als minus 15 Prozent",
+                "value_type": "PERCENT",
+                "context": "Zuordnung des Mietenniveaus zur Mietenstufe I",
+                "evidence_location": "Mietenstufe Mietenniveau I niedriger als minus 15 Prozent"
+            }
+        ],
+        "last_updated": "2026-10-18T02:48:46.475663+00:00"
+    },
+    "slot_11A": {
+        "source_hash": "e341c8e5c61d5dfc5d7e76b2a30abd6692adbc6fe15889577b5940d96db579b8",
+        "legal_hash": "06e1a397d78c36cae8c54ec733f1e0d297bee3134301ed6be2859462bdd1d968",
+        "claims": [
+            {
+                "norm": "§ 6a Abs. 1 Nr. 2 BKGG",
+                "extracted_value": "900 Euro bzw. 600 Euro für Alleinerziehende",
+                "value_type": "EURO",
+                "context": "Mindesteinkommensgrenze für den Anspruch auf Kinderzuschlag",
+                "evidence_location": "sie mit Ausnahme des Wohngeldes, des Kindergeldes und des Kinderzuschlags über Einkommen im Sinne des § 11 Absatz 1 Satz 1 und 2 des Zweiten Buches Sozialgesetzbuch in Höhe von mindestens 900 Euro oder, wenn sie alleinerziehend sind, in Höhe von mindestens 600 Euro verfügen, wobei Beträge nach § 11b des Zweiten Buches Sozialgesetzbuch nicht abzusetzen sind, und"
+            },
+            {
+                "norm": "§ 6a Abs. 2 Satz 4 BKGG",
+                "extracted_value": "25 Euro",
+                "value_type": "EURO",
+                "context": "Höhe des monatlichen Sofortzuschlags zum Kinderzuschlag",
+                "evidence_location": "Der Betrag nach Satz 3 erhöht sich um einen Sofortzuschlag in Höhe von 25 Euro."
+            },
+            {
+                "norm": "§ 6a Abs. 3 Satz 3 BKGG",
+                "extracted_value": "45 Prozent",
+                "value_type": "PERCENT",
+                "context": "Minderung des Kinderzuschlags durch zu berücksichtigendes Einkommen des Kindes",
+                "evidence_location": "Der Kinderzuschlag wird um 45 Prozent des zu berücksichtigenden Einkommens des Kindes monatlich gemindert."
+            },
+            {
+                "norm": "§ 6a Abs. 3 Satz 5 BKGG",
+                "extracted_value": "40 000 Euro für die berechtigte Person und 15 000 Euro für jedes weitere Mitglied der Bedarfsgemeinschaft",
+                "value_type": "EURO",
+                "context": "Vermögensfreibetrag beim Kinderzuschlag",
+                "evidence_location": "Abweichend von § 12 Absatz 2 Satz 1 des Zweiten Buches Sozialgesetzbuch wird Vermögen nur berücksichtigt, wenn es 40 000 Euro für die berechtigte Person und 15 000 Euro für jedes weitere Mitglied der Bedarfsgemeinschaft übersteigt."
+            },
+            {
+                "norm": "§ 6a Abs. 5 Satz 1 BKGG",
+                "extracted_value": "Gewährung des Gesamtkinderzuschlags in voller Höhe bei Nichtüberschreitung der bei der Berechnung des Grundsicherungsgeldes nach dem SGB II zu berücksichtigenden Bedarfe der Eltern",
+                "value_type": "TEXT",
+                "context": "Voraussetzung für die ungekürzte Gewährung des Gesamtkinderzuschlags unter Bezugnahme auf das Grundsicherungsgeld",
+                "evidence_location": "Der Gesamtkinderzuschlag wird in voller Höhe gewährt, wenn das nach den §§ 11 bis 11b des Zweiten Buches Sozialgesetzbuch mit Ausnahme des Wohngeldes und des Kinderzuschlags zu berücksichtigende Einkommen der Eltern einen Betrag in Höhe der bei der Berechnung des Grundsicherungsgeldes nach dem Zweiten Buch Sozialgesetzbuch zu berücksichtigenden Bedarfe der Eltern (Gesamtbedarf der Eltern) nicht übersteigt und kein zu berücksichtigendes Vermögen der Eltern nach § 12 des Zweiten Buches Sozialgesetzbuch vorhanden ist."
+            }
+        ],
+        "last_updated": "2026-10-18T02:48:57.532524+00:00"
+    },
+    "slot_11B": {
+        "source_hash": "4abf01f91924420d825c87356659fc37917d9567476ea62232475ad76c8c03ed",
+        "legal_hash": "42f648e186849a5939396644a01ad0e718b3b60f185e547c9b4767a52050646f",
+        "claims": [
+            {
+                "norm": "§ 66 Abs. 1 EStG",
+                "extracted_value": "259 Euro",
+                "value_type": "EURO",
+                "context": "Höhe des monatlichen Kindergeldes für jedes Kind",
+                "evidence_location": "Das Kindergeld beträgt monatlich für jedes Kind 259 Euro."
+            },
+            {
+                "norm": "§ 66 Abs. 2 EStG",
+                "extracted_value": "monatlich vom Beginn des Monats an gezahlt, in dem die Anspruchsvoraussetzungen erfüllt sind, bis zum Ende des Monats, in dem die Anspruchsvoraussetzungen wegfallen",
+                "value_type": "TEXT",
+                "context": "Festlegung des Zahlungszeitraums für das Kindergeld",
+                "evidence_location": "Das Kindergeld wird monatlich vom Beginn des Monats an gezahlt, in dem die Anspruchsvoraussetzungen erfüllt sind, bis zum Ende des Monats, in dem die Anspruchsvoraussetzungen wegfallen."
+            },
+            {
+                "norm": "§ 66 Abs. 3 EStG",
+                "extracted_value": "Werden die Freibeträge für Kinder nach § 31 Satz 1 in Verbindung mit § 32 Absatz 6 Satz 1 angehoben, wird das Kindergeld entsprechend erhöht. Das Kindergeld ist dabei auf volle Euro kaufmännisch zu runden.",
+                "value_type": "TEXT",
+                "context": "Dynamische Anpassung und kaufmännische Rundung des Kindergeldes bei Anhebung der Kinderfreibeträge",
+                "evidence_location": "Werden die Freibeträge für Kinder nach § 31 Satz 1 in Verbindung mit § 32 Absatz 6 Satz 1 angehoben, wird das Kindergeld entsprechend erhöht. Das Kindergeld ist dabei auf volle Euro kaufmännisch zu runden."
+            }
+        ],
+        "last_updated": "2026-10-18T02:49:10.901306+00:00"
+    },
+    "slot_12A": {
+        "source_hash": "9a3cb21a100fbb6c5a31c33cf9fb669f702fd5024213f878aef6d1cdea7bb42b",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "§ 22 SGB II",
+                "extracted_value": "Beantragen Sie erstmalig Bürgergeld gilt für das erste Jahr im Leistungsbezug eine Karrenzzeit von einem Jahr. Über diesen Zeitraum kommt es zu keiner Prüfung der Angemessenheit beim Wohnraum.",
+                "value_type": "TEXT",
+                "context": "Karenzzeitregelung für Kosten der Unterkunft bei erstmaligem Bezug von Bürgergeld im Stadtkreis Pforzheim",
+                "evidence_location": "Beantragen Sie erstmalig Bürgergeld gilt für das erste Jahr im Leistungsbezug eine Karrenzzeit von einem Jahr. Über diesen Zeitraum kommt es zu keiner Prüfung der Angemessenheit beim Wohnraum."
+            },
+            {
+                "norm": "§ 22 Abs. 1 SGB II",
+                "extracted_value": "Heizungs- und Warmwasserkosten werden gesondert berücksichtigt. Vor Anmietung einer neuen Wohnung ist immer die Angemessenheit durch das Jobcenter bestätigen zu lassen.",
+                "value_type": "TEXT",
+                "context": "Gesonderte Berücksichtigung der Heiz- und Warmwasserkosten sowie Erfordernis der vorherigen Angemessenheitsprüfung",
+                "evidence_location": "Heizungs- und Warmwasserkosten werden gesondert berücksichtigt. Vor Anmietung einer neuen Wohnung ist immer die Angemessenheit durch das Jobcenter bestätigen zu lassen."
+            },
+            {
+                "norm": "§ 22 Abs. 4 SGB II",
+                "extracted_value": "Während des Leistungsbezugs sind Sie verpflichtet, jeden geplanten Wohnungswechsel unverzüglich vor Abschluss eines Mietvertrages mitzuteilen , da das Jobcenter dem Umzug vorab zustimmen muss .",
+                "value_type": "TEXT",
+                "context": "Mitteilungs- und Zustimmungspflicht vor Unterzeichnung eines Mietvertrags bei geplantem Wohnungswechsel",
+                "evidence_location": "Während des Leistungsbezugs sind Sie verpflichtet, jeden geplanten Wohnungswechsel unverzüglich vor Abschluss eines Mietvertrages mitzuteilen , da das Jobcenter dem Umzug vorab zustimmen muss ."
+            }
+        ],
+        "last_updated": "2026-10-18T02:49:35.429757+00:00"
+    },
+    "slot_12B": {
+        "source_hash": "fa24a2706a512fd9d76f9fdca655b0c51e51f46106472a36c01e1ca9c222209a",
+        "legal_hash": "c0966d02aef28c72141b2b9432ee2579ce78b76dc3f5d01535586bc50a2c3f07",
+        "claims": [
+            {
+                "norm": "SGB II",
+                "extracted_value": "Das Grundsicherungsgeld besteht aus folgenden Komponenten: Regelbedarf Mehrbedarfe Leistungen für Unterkunft und Heizung Die Leistungshöhe richtet sich nach der individuellen Bedürftigkeit der Antragstellerin/des Antragsstellers.",
+                "value_type": "TEXT",
+                "context": "Komponenten und Bemessungsgrundlage der Leistungen zur Sicherung des Lebensunterhalts (Grundsicherungsgeld) durch das Jobcenter Enzkreis",
+                "evidence_location": "Leistungen zur Sicherung des Lebensunterhalts (Grundsicherungsgeld) Das Grundsicherungsgeld besteht aus folgenden Komponenten: Regelbedarf Mehrbedarfe Leistungen für Unterkunft und Heizung Die Leistungshöhe richtet sich nach der individuellen Bedürftigkeit der Antragstellerin/des Antragsstellers."
+            },
+            {
+                "norm": "SGB II / SGB XII",
+                "extracted_value": "Das Bildungspaket unterstützt Kinder und Jugendliche, die bei der Bewilligung von Leistungen nach dem SGB II bzw. SGB XII, Wohngeld oder Kinderzuschlag als Haushaltsmitglieder berücksichtigt werden, und eröffnet ihnen so bessere Lebens- und Entwicklungschancen.",
+                "value_type": "TEXT",
+                "context": "Voraussetzungen für die Gewährung von Leistungen aus dem Bildungs- und Teilhabepaket",
+                "evidence_location": "Das Bildungspaket unterstützt Kinder und Jugendliche, die bei der Bewilligung von Leistungen nach dem SGB II bzw. SGB XII, Wohngeld oder Kinderzuschlag als Haushaltsmitglieder berücksichtigt werden, und eröffnet ihnen so bessere Lebens- und Entwicklungschancen."
+            },
+            {
+                "norm": "SGB II",
+                "extracted_value": "Im Rahmen der Hilfegewährung nach SGB II überprüfen wir die Unterhaltsansprüche der Leistungsempfänger/-innen gegenüber Dritten und setzen diese gegebenenfalls durch.",
+                "value_type": "TEXT",
+                "context": "Prüfung und Durchsetzung von gesetzlichen Unterhaltsansprüchen im Rahmen von SGB II",
+                "evidence_location": "Im Rahmen der Hilfegewährung nach SGB II überprüfen wir die Unterhaltsansprüche der Leistungsempfänger/-innen gegenüber Dritten und setzen diese gegebenenfalls durch."
+            },
+            {
+                "norm": "§ 6a SGB II",
+                "extracted_value": "01.01.2012",
+                "value_type": "DATE",
+                "context": "Beginn der Aufgabenwahrnehmung durch das Jobcenter Enzkreis in Eigenregie (Optionskommune)",
+                "evidence_location": "Wir sind seit dem 1. Januar 2012 für die Betreuung und Vermittlung von langzeitarbeitslosen Menschen in Eigenregie zuständig."
+            },
+            {
+                "norm": "ESF Plus Förderperiode 2021 - 2027",
+                "extracted_value": "165.000 Euro",
+                "value_type": "EURO",
+                "context": "Jährliches Fördervolumen für regionale ESF-Projekte im Enzkreis für die Förderjahre 2026 und 2027",
+                "evidence_location": "Für die beiden kommenden Jahre stehen dem Enzkreis jeweils 165.000 Euro für die regionalen Projekte zur Verfügung."
+            },
+            {
+                "norm": "Aufruf vom 03.04.2025 des regionalen ESF-Arbeitskreises Enzkreis",
+                "extracted_value": "31.05.2025",
+                "value_type": "DATE",
+                "context": "Ausschluss- bzw. Antragsfrist zur Einreichung von regionalen Projektanträgen bei der L-Bank",
+                "evidence_location": "Anträge müssen bis spätestens 31. Mai 2025 bei der L-Bank eingegangen sein!"
+            }
+        ],
+        "last_updated": "2026-10-18T02:49:48.467768+00:00"
+    },
+    "slot_13": {
+        "source_hash": "77880d1bd38a62468df4e3a4ecb60988f65f2b6076617f6046f81cc59d25d615",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "B 4 AS 20/25 R",
+                "extracted_value": "Urteil des Bundessozialgerichts vom 08.09.2026 im Sachgebiet Grundsicherung für Arbeitsuchende (Aktenzeichen: B 4 AS 20/25 R)",
+                "value_type": "URTEIL_TEXT",
+                "context": "Entscheidung des Bundessozialgerichts zur Grundsicherung für Arbeitsuchende",
+                "evidence_location": "III B 4 AS 20/25 R 08.09.2026 Bundessozialgericht Grundsicherung für Arbeitsuchende Urteil 16.10.2026"
+            },
+            {
+                "norm": "B 7 AS 2/25 R",
+                "extracted_value": "Urteil des Bundessozialgerichts vom 03.06.2026 im Sachgebiet Grundsicherung für Arbeitsuchende (Aktenzeichen: B 7 AS 2/25 R)",
+                "value_type": "URTEIL_TEXT",
+                "context": "Entscheidung des Bundessozialgerichts zur Grundsicherung für Arbeitsuchende",
+                "evidence_location": "III B 7 AS 2/25 R 03.06.2026 Bundessozialgericht Grundsicherung für Arbeitsuchende Urteil 16.10.2026"
+            },
+            {
+                "norm": "L 19 AS 1127/25",
+                "extracted_value": "Urteil des Landessozialgerichts Nordrhein-Westfalen vom 26.02.2026 im Sachgebiet Grundsicherung für Arbeitsuchende (Aktenzeichen: L 19 AS 1127/25)",
+                "value_type": "URTEIL_TEXT",
+                "context": "Entscheidung des Landessozialgerichts Nordrhein-Westfalen zur Grundsicherung für Arbeitsuchende",
+                "evidence_location": "II L 19 AS 1127/25 26.02.2026 Landessozialgericht Nordrhein-Westfalen Grundsicherung für Arbeitsuchende Urteil 17.10.2026"
+            },
+            {
+                "norm": "L 6 AS 457/24",
+                "extracted_value": "Urteil des Hessischen Landessozialgerichts vom 16.09.2026 im Sachgebiet Grundsicherung für Arbeitsuchende (Aktenzeichen: L 6 AS 457/24)",
+                "value_type": "URTEIL_TEXT",
+                "context": "Entscheidung des Hessischen Landessozialgerichts zur Grundsicherung für Arbeitsuchende",
+                "evidence_location": "II L 6 AS 457/24 16.09.2026 Hessisches Landessozialgericht Grundsicherung für Arbeitsuchende Urteil 15.10.2026"
+            },
+            {
+                "norm": "L 7 AS 436/24",
+                "extracted_value": "Urteil des Hessischen Landessozialgerichts vom 21.11.2025 im Sachgebiet Grundsicherung für Arbeitsuchende (Aktenzeichen: L 7 AS 436/24)",
+                "value_type": "URTEIL_TEXT",
+                "context": "Entscheidung des Hessischen Landessozialgerichts zur Grundsicherung für Arbeitsuchende",
+                "evidence_location": "II L 7 AS 436/24 21.11.2025 Hessisches Landessozialgericht Grundsicherung für Arbeitsuchende Urteil 15.10.2026"
+            }
+        ],
+        "last_updated": "2026-10-18T02:50:02.298451+00:00"
+    },
+    "slot_14": {
+        "source_hash": "77880d1bd38a62468df4e3a4ecb60988f65f2b6076617f6046f81cc59d25d615",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "II L 10 U 924/24",
+                "extracted_value": "Landessozialgericht Baden-Württemberg Urteil vom 23.07.2026 im Sachgebiet Unfallversicherung",
+                "value_type": "TEXT",
+                "context": "Gerichtsentscheidung des Landessozialgerichts Baden-Württemberg im Bereich der Unfallversicherung",
+                "evidence_location": "II L 10 U 924/24 23.07.2026 Landessozialgericht Baden-Württemberg Unfallversicherung Urteil 16.10.2026"
+            },
+            {
+                "norm": "II L 11 KR 2622/25",
+                "extracted_value": "Landessozialgericht Baden-Württemberg Urteil vom 21.04.2026 im Sachgebiet Krankenversicherung",
+                "value_type": "TEXT",
+                "context": "Gerichtsentscheidung des Landessozialgerichts Baden-Württemberg im Bereich der Krankenversicherung",
+                "evidence_location": "II L 11 KR 2622/25 21.04.2026 Landessozialgericht Baden-Württemberg Krankenversicherung Urteil 16.10.2026"
+            }
+        ],
+        "last_updated": "2026-10-18T02:50:17.631800+00:00"
+    },
+    "slot_15": {
+        "source_hash": "5a6eca2e65bd1d449533376c14155622ae757caa8261ed232432b8deeea2b79e",
+        "legal_hash": "0774586a5ccd8a0d2397a30680871b8846c4d18b0a0cad1f9cdf692ca562a722",
+        "claims": [
+            {
+                "norm": "§ 159 Abs. 1 Satz 1 SGB III",
+                "extracted_value": "Ruhen des Anspruchs für die Dauer einer Sperrzeit bei versicherungswidrigem Verhalten ohne wichtigen Grund.",
+                "value_type": "TEXT",
+                "context": "Voraussetzung und Rechtsfolge einer Sperrzeit bei versicherungswidrigem Verhalten des Arbeitnehmers.",
+                "evidence_location": "Hat die Arbeitnehmerin oder der Arbeitnehmer sich versicherungswidrig verhalten, ohne dafür einen wichtigen Grund zu haben, ruht der Anspruch für die Dauer einer Sperrzeit."
+            },
+            {
+                "norm": "§ 159 Abs. 3 Satz 1 SGB III",
+                "extracted_value": "zwölf Wochen",
+                "value_type": "TEXT",
+                "context": "Regeldauer der Sperrzeit bei Arbeitsaufgabe.",
+                "evidence_location": "Die Dauer der Sperrzeit bei Arbeitsaufgabe beträgt zwölf Wochen."
+            },
+            {
+                "norm": "§ 159 Abs. 3 Satz 2 Nr. 1 SGB III",
+                "extracted_value": "drei Wochen",
+                "value_type": "TEXT",
+                "context": "Verkürzung der Sperrzeit bei Arbeitsaufgabe, wenn das Arbeitsverhältnis ohnehin innerhalb von sechs Wochen geendet hätte.",
+                "evidence_location": "Sie verkürzt sich 1. auf drei Wochen, wenn das Arbeitsverhältnis innerhalb von sechs Wochen nach dem Ereignis, das die Sperrzeit begründet, ohne eine Sperrzeit geendet hätte,"
+            },
+            {
+                "norm": "§ 159 Abs. 3 Satz 2 Nr. 2 Buchst. a und b SGB III",
+                "extracted_value": "sechs Wochen",
+                "value_type": "TEXT",
+                "context": "Verkürzung der Sperrzeit bei Arbeitsaufgabe bei drohendem Ende innerhalb von zwölf Wochen oder bei Vorliegen einer besonderen Härte.",
+                "evidence_location": "2. auf sechs Wochen, wenn a) das Arbeitsverhältnis innerhalb von zwölf Wochen nach dem Ereignis, das die Sperrzeit begründet, ohne eine Sperrzeit geendet hätte oder b) eine Sperrzeit von zwölf Wochen für die arbeitslose Person nach den für den Eintritt der Sperrzeit maßgebenden Tatsachen eine besondere Härte bedeuten würde."
+            },
+            {
+                "norm": "§ 159 Abs. 4 Satz 1 SGB III",
+                "extracted_value": "drei Wochen bei erstmaligem, sechs Wochen bei zweitem, zwölf Wochen in den übrigen Fällen",
+                "value_type": "TEXT",
+                "context": "Staffelung der Dauer der Sperrzeit bei Arbeitsablehnung, Ablehnung oder Abbruch von beruflichen Eingliederungsmaßnahmen oder Integrationskursen.",
+                "evidence_location": "Die Dauer der Sperrzeit bei Arbeitsablehnung, bei Ablehnung einer beruflichen Eingliederungsmaßnahme, bei Abbruch einer beruflichen Eingliederungsmaßnahme, bei Ablehnung eines Integrationskurses oder einer berufsbezogenen Deutschsprachförderung oder bei Abbruch eines Integrationskurses oder einer berufsbezogenen Deutschsprachförderung beträgt 1. im Fall des erstmaligen versicherungswidrigen Verhaltens dieser Art drei Wochen, 2. im Fall des zweiten versicherungswidrigen Verhaltens dieser Art sechs Wochen, 3. in den übrigen Fällen zwölf Wochen."
+            },
+            {
+                "norm": "§ 159 Abs. 5 SGB III",
+                "extracted_value": "zwei Wochen",
+                "value_type": "TEXT",
+                "context": "Dauer der Sperrzeit bei unzureichenden Eigenbemühungen.",
+                "evidence_location": "Die Dauer einer Sperrzeit bei unzureichenden Eigenbemühungen beträgt zwei Wochen."
+            },
+            {
+                "norm": "§ 159 Abs. 6 SGB III",
+                "extracted_value": "eine Woche",
+                "value_type": "TEXT",
+                "context": "Dauer der Sperrzeit bei Meldeversäumnis oder verspäteter Arbeitsuchendmeldung.",
+                "evidence_location": "Die Dauer einer Sperrzeit bei Meldeversäumnis oder bei verspäteter Arbeitsuchendmeldung beträgt eine Woche."
+            }
+        ],
+        "last_updated": "2026-10-18T02:50:27.552648+00:00"
+    },
+    "slot_16": {
+        "source_hash": "1e21f07a578793c0979648bc34b1990ece92be40d16e420c1e3cb4e6b7453448",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Wirkung der Entscheidungen des Bundesverfassungsgerichts (§ 31 BVerfGG)",
+                "extracted_value": "Die Entscheidungen des Bundesverfassungsgerichts sind für alle staatlichen Organe verbindlich. In bestimmten Fällen entfalten sie Gesetzeskraft.",
+                "value_type": "TEXT",
+                "context": "Bindungswirkung und potenzielle Gesetzeskraft von Entscheidungen des Bundesverfassungsgerichts gegenüber staatlichen Organen.",
+                "evidence_location": "Die Entscheidungen des Bundesverfassungsgerichts sind für alle staatlichen Organe verbindlich. In bestimmten Fällen entfalten sie Gesetzeskraft."
+            },
+            {
+                "norm": "BVerfGE (Amtliche Sammlung)",
+                "extracted_value": "Die Entscheidungen des Bundesverfassungsgerichts (BVerfGE) sind eine autorisierte Sammlung der wichtigen Entscheidungen des Bundesverfassungsgerichts.",
+                "value_type": "TEXT",
+                "context": "Definition und Rechtsnatur der amtlichen Mustersammlung BVerfGE.",
+                "evidence_location": "Die Entscheidungen des Bundesverfassungsgerichts (BVerfGE) sind eine autorisierte Sammlung der wichtigen Entscheidungen des Bundesverfassungsgerichts."
+            },
+            {
+                "norm": "Entscheidungsveröffentlichung BVerfG",
+                "extracted_value": "Das Bundesverfassungsgericht veröffentlicht auf seinen Internetseiten alle wesentlichen Entscheidungen ab 1998 und einige ältere Entscheidungen.",
+                "value_type": "TEXT",
+                "context": "Zeitlicher und sachlicher Umfang der öffentlich zugänglichen Entscheidungsdatenbank des Gerichts.",
+                "evidence_location": "Das Bundesverfassungsgericht veröffentlicht auf seinen Internetseiten alle wesentlichen Entscheidungen ab 1998 und einige ältere Entscheidungen."
+            }
+        ],
+        "last_updated": "2026-10-18T02:50:38.015412+00:00"
+    },
+    "slot_17": {
+        "source_hash": "e30e6a2a66b8223985c08ff1953049b627786dfe8add28265f68f3c70206e275",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Stadtrecht Pforzheim 4.1 (SGB VIII)",
+                "extracted_value": "Änderungsdatum: 08.08.2020",
+                "value_type": "DATE",
+                "context": "Satzung für das Jugendamt im Sinne des SGB VIII der Stadt Pforzheim",
+                "evidence_location": "Satzung für das Jugendamt i. S. d. SGB VIII der Stadt Pforzheim (4.1) 110 KB Änderungsdatum: 08.08.2020"
+            },
+            {
+                "norm": "Stadtrecht Pforzheim 4.2",
+                "extracted_value": "Änderungsdatum: 20.01.2021",
+                "value_type": "DATE",
+                "context": "Satzung über die Einrichtung eines Jugendgemeinderats",
+                "evidence_location": "Satzung über die Einrichtung eines Jugendgemeinderats (4.2) 141 KB Änderungsdatum: 20.01.2021"
+            },
+            {
+                "norm": "Stadtrecht Pforzheim 4.3",
+                "extracted_value": "Änderungsdatum: 12.06.2022",
+                "value_type": "DATE",
+                "context": "Satzung über die Wahl des Jugendgemeinderats",
+                "evidence_location": "Satzung über die Wahl des Jugendgemeinderats (4.3) 252 KB Änderungsdatum: 12.06.2022"
+            },
+            {
+                "norm": "Stadtrecht Pforzheim 4.4",
+                "extracted_value": "Änderungsdatum: 01.07.2025",
+                "value_type": "DATE",
+                "context": "Satzung der Stadt Pforzheim über die Benutzung von Notunterkünften und für Unterkünfte der Anschlussunterbringung für Flüchtlinge",
+                "evidence_location": "Satzung der Stadt Pforzheim über die Benutzung von Notunterkünften und für Unterkünfte der Anschlussunterbringung für Flüchtlinge (4.4) 101 KB Änderungsdatum: 01.07.2025"
+            },
+            {
+                "norm": "Stadtrecht Pforzheim 4.5",
+                "extracted_value": "Änderungsdatum: 01.07.2025",
+                "value_type": "DATE",
+                "context": "Gebührensatzung der Stadt Pforzheim für die Benutzung der Notunterkünfte und für die Unterkünfte der Anschlussunterbringung für Flüchtlinge",
+                "evidence_location": "Gebührensatzung der Stadt Pforzheim für die Benutzung der Notunterkünfte und für die Unterkünfte der Anschlussunterbringung für Flüchtlinge (4.5) 83 KB Änderungsdatum: 01.07.2025"
+            },
+            {
+                "norm": "Stadtrecht Pforzheim 4.6",
+                "extracted_value": "Änderungsdatum: 13.08.2022",
+                "value_type": "DATE",
+                "context": "Satzung über die Erhebung von Kostenbeiträgen in städtischen Kindertageseinrichtungen und in der Kindertagespflege",
+                "evidence_location": "Satzung über die Erhebung von Kostenbeiträgen in städtischen Kindertageseinrichtungen und in der Kindertagespflege (4.6) 142 KB Änderungsdatum: 13.08.2022"
+            }
+        ],
+        "last_updated": "2026-10-18T02:50:49.992888+00:00"
+    },
+    "slot_19": {
+        "source_hash": "67c34b103c124fd10bae40de0ef7076cc7606868204e249002305a14a82430eb",
+        "legal_hash": "bb84d839e2154a7a244c88a2c975c90fecfd92dff654e543de8cdb54ee063aad",
+        "claims": [
+            {
+                "norm": "§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG",
+                "extracted_value": "1,50 Euro",
+                "value_type": "EURO",
+                "context": "Gebühr für die Überlassung elektronisch gespeicherter Entscheidungsdateien je Entscheidung (maximal 5,00 Euro pro Arbeitsgang)",
+                "evidence_location": "Für die Überlassung elektronisch gespeicherter Dateien werden 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen erhoben (§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG])."
+            },
+            {
+                "norm": "JVKostG",
+                "extracted_value": "0,50 Euro",
+                "value_type": "EURO",
+                "context": "Schreibauslagen pro Seite für die Versendung der ersten 50 Seiten von Entscheidungsabdrucken",
+                "evidence_location": "Für die Versendung der Entscheidungsabdrucke werden Schreibauslagen in Höhe von 0,50 Euro pro Seite für die ersten 50 Seiten erhoben, für jede weitere Seite werden 0,15 Euro erhoben."
+            },
+            {
+                "norm": "8 AZB 6/26",
+                "extracted_value": "Fünfmonatsfrist zur vollständigen Absetzung von Urteilen",
+                "value_type": "URTEIL_TEXT",
+                "context": "Entscheidungsgegenstand des Beschlusses des Bundesarbeitsgerichts vom 18.09.2026",
+                "evidence_location": "8 AZB 6/26 18.09.2026 Fünfmonatsfrist zur vollständigen Absetzung von Urteilen 29.09.2026"
+            },
+            {
+                "norm": "2 AZR 130/25",
+                "extracted_value": "Kündigung durch Mitglieder des Aufsichtsrats einer GmbH - Zurückweisung nach § 174 BGB",
+                "value_type": "URTEIL_TEXT",
+                "context": "Entscheidungsgegenstand des Urteils des Bundesarbeitsgerichts vom 07.05.2026",
+                "evidence_location": "2 AZR 130/25 07.05.2026 Kündigung durch Mitglieder des Aufsichtsrats einer GmbH - Zurückweisung nach § 174 BGB 03.09.2026"
+            },
+            {
+                "norm": "§ 13 BGB",
+                "extracted_value": "zwei Wochen",
+                "value_type": "TEXT",
+                "context": "Widerrufsfrist für Verbraucher bei Anforderung von Entscheidungsabdrucken",
+                "evidence_location": "Sie können Ihre Vertragserklärung innerhalb von zwei Wochen ohne Angabe von Gründen in Textform (z.B. Brief, Fax, E-Mail) oder durch Rücksendung der Sache widerrufen."
+            }
+        ],
+        "last_updated": "2026-10-23T00:58:40.594490+00:00"
+    },
+    "slot_20": {
+        "source_hash": "c8387b0d1d10af196eac59a7244320aa292e97066fcf2ff22f3887a66e6f88b7",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Betriebsverfassungsgesetz (BetrVG)",
+                "extracted_value": "Das Betriebsverfassungsgesetz (BetrVG) gewährt Arbeitgebern keinen Genehmigungsvorbehalt bezüglich der Teilnahme an Betriebsratsschulungen.",
+                "value_type": "TEXT",
+                "context": "Entsendung von Betriebsratsmitgliedern zu Schulungen bei Uneinigkeit mit dem Arbeitgeber",
+                "evidence_location": "Denn so gewährt das Betriebsverfassungsgesetz (BetrVG) Arbeitgebern keinen Genehmigungsvorbehalt."
+            },
+            {
+                "norm": "Grundgesetz (GG)",
+                "extracted_value": "Der im Grundgesetz verankerte Gleichbehandlungsgrundsatz spielt auch im Arbeitsrecht eine maßgebliche Rolle.",
+                "value_type": "TEXT",
+                "context": "Gleichbehandlungsgrundsatz im Arbeitsrecht, etwa bei Gehalt oder Sonderzahlungen",
+                "evidence_location": "Der im Grundgesetz verankerte Gleichbehandlungsgrundsatz spielt auch im Arbeitsrecht eine große Rolle."
+            }
+        ],
+        "last_updated": "2026-10-18T02:52:07.832230+00:00"
+    },
+    "slot_21": {
+        "source_hash": "3c5504f61dce94745caed391ec50e9f235668cf43627212b45ec77696baf7553",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "BUrlG",
+                "extracted_value": "Urlaub muss am Stück gewährt werden. Eine betriebliche Regelung, die nicht mehr als 2 Wochen zusammenhängenden Urlaub bewilligt, verstößt gegen das Bundesurlaubsgesetz.",
+                "value_type": "URTEIL_TEXT",
+                "context": "Beschäftigte haben Anspruch auf zusammenhängenden Urlaub",
+                "evidence_location": "Urlaub muss am Stück gewährt werden. Eine betriebliche Regelung, die nicht mehr als 2 Wochen zusammenhängenden Urlaub bewilligt, verstößt gegen das Bundesurlaubsgesetz."
+            },
+            {
+                "norm": "BEEG",
+                "extracted_value": "Das Gesetz über Elternzeit gewährt denjenigen Arbeitnehmern, die von ihrem Arbeitgeber Elternzeit verlangen, einen besonderen Kündigungsschutz.",
+                "value_type": "URTEIL_TEXT",
+                "context": "Besonderer Kündigungsschutz in Elternzeit",
+                "evidence_location": "Das Gesetz über Elternzeit gewährt denjenigen Arbeitnehmern, die von ihrem Arbeitgeber Elternzeit verlangen, einen besonderen Kündigungsschutz."
+            },
+            {
+                "norm": "Bundesarbeitsgericht",
+                "extracted_value": "Ein Unternehmen muss Massenentlassungen bei der Bundesagentur anzeigen, bevor es den Mitarbeiter*innen kündigt. Ansonsten sind die Kündigungen unwirksam, urteilt das Bundesarbeitsgericht.",
+                "value_type": "URTEIL_TEXT",
+                "context": "Massenentlassung – Rechtsfolge von Fehlern im Anzeigeverfahren",
+                "evidence_location": "Ein Unternehmen muss Massenentlassungen bei der Bundesagentur anzeigen, bevor es den Mitarbeiter*innen kündigt. Ansonsten sind die Kündigungen unwirksam, urteilt das Bundesarbeitsgericht."
+            }
+        ],
+        "last_updated": "2026-10-18T02:52:31.903505+00:00"
+    },
+    "slot_22": {
+        "source_hash": "98854804a3d090cda93d647b5491a2edebd044cadae3bd8f144d3a9acd772d5b",
+        "legal_hash": "b9040be4c663f8b3b3e05649218a100b534bdd1d832415e5dcf57f5fb3c4fde2",
+        "claims": [
+            {
+                "norm": "DRV-Information / Hinzuverdienstgrenze",
+                "extracted_value": "41.527,50 Euro",
+                "value_type": "EURO",
+                "context": "Mindesthinzuverdienstgrenze bei einer Rente wegen teilweiser Erwerbsminderung ab dem 01.01.2026",
+                "evidence_location": "Beim Bezug einer Rente wegen teilweiser Erwerbsminderung ergibt sich seit 01.01.2026 eine Hinzuverdienstgrenze von mindestens 41.527,50 Euro, bei Renten wegen voller Erwerbsminderung von 20.763,75 Euro."
+            },
+            {
+                "norm": "DRV-Information / Hinzuverdienstgrenze",
+                "extracted_value": "20.763,75 Euro",
+                "value_type": "EURO",
+                "context": "Hinzuverdienstgrenze bei einer Rente wegen voller Erwerbsminderung ab dem 01.01.2026",
+                "evidence_location": "Beim Bezug einer Rente wegen teilweiser Erwerbsminderung ergibt sich seit 01.01.2026 eine Hinzuverdienstgrenze von mindestens 41.527,50 Euro, bei Renten wegen voller Erwerbsminderung von 20.763,75 Euro."
+            },
+            {
+                "norm": "DRV-Information / Rente wegen voller Erwerbsminderung",
+                "extracted_value": "weniger als drei Stunden täglich",
+                "value_type": "TEXT",
+                "context": "Maximales tägliches Arbeitsvermögen für den Erhalt einer Rente wegen voller Erwerbsminderung",
+                "evidence_location": "Sie erhalten eine Rente wegen voller Erwerbsminderung, wenn Sie wegen Krankheit oder Behinderung weniger als drei Stunden täglich arbeiten können."
+            },
+            {
+                "norm": "DRV-Information / Rente wegen teilweiser Erwerbsminderung",
+                "extracted_value": "mindestens drei, aber weniger als sechs Stunden täglich",
+                "value_type": "TEXT",
+                "context": "Tägliches Arbeitsvermögen für den Erhalt einer Rente wegen teilweiser Erwerbsminderung",
+                "evidence_location": "Sie erhalten eine Rente wegen teilweiser Erwerbsminderung, wenn Sie wegen Krankheit oder Behinderung noch mindestens drei, aber weniger als sechs Stunden täglich arbeiten können."
+            },
+            {
+                "norm": "DRV-Information / Wartezeit",
+                "extracted_value": "mindestens fünf Jahre",
+                "value_type": "TEXT",
+                "context": "Allgemeine Wartezeit vor Eintritt der Erwerbsminderung in der Deutschen Rentenversicherung",
+                "evidence_location": "Sie müssen mindestens fünf Jahre vor Eintritt der Erwerbsminderung in der Deutschen Rentenversicherung versichert sein (die sogenannte allgemeine Wartezeit)"
+            }
+        ],
+        "last_updated": "2026-10-18T02:52:47.561496+00:00"
+    },
+    "slot_23": {
+        "source_hash": "1762744b620834574309da7e55a976f415cad58ce965a0a9a037879d5c39d646",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "SGB XIV",
+                "extracted_value": "1. Januar 2024",
+                "value_type": "DATE",
+                "context": "Inkrafttreten des neuen Sozialen Entschädigungsrechts unter Ablösung des bisherigen Systems des Bundesversorgungsgesetzes.",
+                "evidence_location": "Neues Soziales Entschädigungsrecht ab 1. Januar 2024 Mit dem SGB XIV hat sich der Gesetzgeber von dem System des Bundesversorgungsgesetzes gelöst, das noch sehr auf die Bedürfnisse der Kriegsopfer zugeschnitten und in seinen Leistungen nicht mehr zeitgemäß war."
+            },
+            {
+                "norm": "SGB XIV",
+                "extracted_value": "Voraussetzung für Leistungen nach dem SGB XIV ist ein schädigendes Ereignis (z.B. Raubüberfall), das zu einem gesundheitlichen Schaden (z.B. Beinbruch) führt, oder gesundheitliche (Gehbehinderung) und/oder wirtschaftliche (z.B. Einkommenseinbuße) Folgen verursacht.",
+                "value_type": "TEXT",
+                "context": "Gesetzliche Voraussetzungen für die Gewährung von Entschädigungsleistungen nach dem SGB XIV.",
+                "evidence_location": "Voraussetzung für Leistungen nach dem SGB XIV ist ein schädigendes Ereignis (z.B. Raubüberfall), das zu einem gesundheitlichen Schaden (z.B. Beinbruch) führt, oder gesundheitliche (Gehbehinderung) und/oder wirtschaftliche (z.B. Einkommenseinbuße) Folgen verursacht."
+            }
+        ],
+        "last_updated": "2026-10-18T02:53:11.800146+00:00"
+    },
+    "slot_24": {
+        "source_hash": "34d9ea1c7c2825d7837f8ddf33fc69f18e0806df32ce809f3bd914e534830e38",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "slot_25": {
+        "source_hash": "0e49723a39eb840cca34436e771f72e2f5cfa06ef3afe230fc75e0271e3134f6",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Stiftung UPD",
+                "extracted_value": "0800 011 77 22",
+                "value_type": "TEXT",
+                "context": "Kostenfreies Beratungstelefon der Stiftung Unabhängige Patientenberatung Deutschland",
+                "evidence_location": "Kostenfreies Beratungstelefon: 0800 011 77 22"
+            }
+        ],
+        "last_updated": "2026-10-18T02:53:49.451948+00:00"
+    },
+    "slot_26": {
+        "source_hash": "2a06f58ec523e17559ff2390426f9c16b32e9c2e24fceea81c7f2290f9cd55d6",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "BGH Beschlüsse vom 06.07.2016, 08.02.2017 und 14.11.2018",
+                "extracted_value": "Hinweis auf die Beschlüsse des BGH vom 6. Juli 2016, 8. Februar 2017 und 14. November 2018.",
+                "value_type": "URTEIL_TEXT",
+                "context": "Rechtsprechung des Bundesgerichtshofs zu den inhaltlichen Bestimmtheitsanforderungen einer Patientenverfügung",
+                "evidence_location": "Hinweis auf die Beschlüsse des BGH vom 6. Juli 2016, 8. Februar 2017 und 14. November 2018."
+            },
+            {
+                "norm": "Patientenverfügung",
+                "extracted_value": "In der Patientenverfügung kann man vorab über das Ob und Wie medizinischer Maßnahmen entscheiden. Wer nicht möchte, dass andere über die medizinische Behandlung entscheiden, wenn man selbst dazu nicht mehr in der Lage ist, kann durch Patientenverfügung festlegen, ob bei konkret beschriebenen Krankheitszuständen bestimmte medizinische Maßnahmen gewünscht oder nicht gewünscht sind.",
+                "value_type": "TEXT",
+                "context": "Zweck und Regelungsumfang der Festlegungen in einer Patientenverfügung",
+                "evidence_location": "In der Patientenverfügung kann man vorab über das Ob und Wie medizinischer Maßnahmen entscheiden. Wer nicht möchte, dass andere über die medizinische Behandlung entscheiden, wenn man selbst dazu nicht mehr in der Lage ist, kann durch Patientenverfügung festlegen, ob bei konkret beschriebenen Krankheitszuständen bestimmte medizinische Maßnahmen gewünscht oder nicht gewünscht sind."
+            }
+        ],
+        "last_updated": "2026-10-18T02:54:00.126220+00:00"
+    },
+    "slot_27": {
+        "source_hash": "69c021ad729cd1cad877c993a0463235a10d4c58a0394e89e305ac4447673168",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Bürgerliches Gesetzbuch (BGB)",
+                "extracted_value": "Das Betreuungsrecht ist im Bürgerlichen Gesetzbuch geregelt. Von ihm sind erwachsene Menschen betroffen, die wegen einer psychischen Krankheit oder einer körperlichen, geistigen oder seelischen Behinderung ihre Angelegenheiten ganz oder teilweise nicht mehr selbst besorgen können.",
+                "value_type": "TEXT",
+                "context": "Gesetzliche Verankerung und persönlicher Anwendungsbereich des Betreuungsrechts für volljährige hilfebedürftige Personen.",
+                "evidence_location": "Das Betreuungsrecht ist im Bürgerlichen Gesetzbuch geregelt. Von ihm sind erwachsene Menschen betroffen, die wegen einer psychischen Krankheit oder einer körperlichen, geistigen oder seelischen Behinderung ihre Angelegenheiten ganz oder teilweise nicht mehr selbst besorgen können."
+            },
+            {
+                "norm": "Bürgerliches Gesetzbuch (BGB)",
+                "extracted_value": "Das Betreuungsrecht gewährt den Betroffenen den notwendigen Schutz und die erforderliche Fürsorge und erhält ihnen zugleich ein größtmögliches Maß an Selbstbestimmung.",
+                "value_type": "TEXT",
+                "context": "Zweckbestimmung und Schutzfunktion des Betreuungsrechts unter Wahrung der Selbstbestimmung Betroffener.",
+                "evidence_location": "Das Betreuungsrecht gewährt den Betroffenen den notwendigen Schutz und die erforderliche Fürsorge und erhält ihnen zugleich ein größtmögliches Maß an Selbstbestimmung."
+            }
+        ],
+        "last_updated": "2026-10-18T02:54:27.728042+00:00"
+    },
+    "slot_28": {
+        "source_hash": "ae861ce4c9b6c96d6a81242d3bd3f9ac12d96388bc0d2b10f9eb3969621482cf",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Zentrales Vorsorgeregister / Einsichtsrechte",
+                "extracted_value": "Seit dem 1. Januar 2023 können neben Betreuungsgerichten auch Ärzte Einsicht in das Zentrale Vorsorgeregister nehmen.",
+                "value_type": "DATE",
+                "context": "Erweiterung der Abfragebefugnis auf behandelnde Ärzte zum 1. Januar 2023",
+                "evidence_location": "Seit dem 1. Januar 2023 können neben Betreuungsgerichten auch Ärzte Einsicht in das Zentrale Vorsorgeregister nehmen."
+            },
+            {
+                "norm": "Zentrales Vorsorgeregister / Registerinhalt",
+                "extracted_value": "Im Zentralen Vorsorgeregister können Vorsorgevollmachten, Betreuungsverfügungen, Patientenverfügungen und Widersprüche gegen das Ehegattennotvertretungsrecht registriert werden.",
+                "value_type": "TEXT",
+                "context": "Umfang der registrierbaren Vorsorgeverfügungen und Widersprüche",
+                "evidence_location": "Im Zentralen Vorsorgeregister können Vorsorgevollmachten, Betreuungsverfügungen, Patientenverfügungen und Widersprüche gegen das Ehegattennotvertretungsrecht registriert werden."
+            },
+            {
+                "norm": "Bundesnotarkammer / Gesetzlicher Auftrag",
+                "extracted_value": "Der Gesetzgeber hat die Bundesnotarkammer 2004 beauftragt, das Zentrale Vorsorgeregister zu führen.",
+                "value_type": "TEXT",
+                "context": "Beauftragung der Bundesnotarkammer mit der Führung des Zentralen Vorsorgeregisters im Jahr 2004",
+                "evidence_location": "Der Gesetzgeber hat die Bundesnotarkammer 2004 beauftragt, das Zentrale Vorsorgeregister zu führen."
+            }
+        ],
+        "last_updated": "2026-10-18T02:54:44.679041+00:00"
+    },
+    "slot_29": {
+        "source_hash": "5a963755a2a48ecc10b65f34f07d9301f9bcbc7958a28069e3cc3846f12f142c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "SGB II",
+                "extracted_value": "Wenn der Anspruch auf Arbeitslosengeld endet und weiterhin Hilfebedarf besteht, kommt der Übergang zu Grundsicherungsgeld in Betracht.",
+                "value_type": "TEXT",
+                "context": "Anschlussleistung bei Beendigung des Anspruchs auf Arbeitslosengeld",
+                "evidence_location": "Übergang von Arbeitslosengeld zu Grundsicherungsgeld Wenn Ihr Anspruch auf Arbeitslosengeld endet und Sie Grundsicherungsgeld brauchen."
+            },
+            {
+                "norm": "§ 141 SGB III",
+                "extracted_value": "Die Meldung zur Arbeitslosigkeit muss spätestens am ersten Tag der Arbeitslosigkeit erfolgen.",
+                "value_type": "TEXT",
+                "context": "Gesetzliche Frist zur persönlichen oder formellen Arbeitslosmeldung",
+                "evidence_location": "Schnelleinstieg Arbeitslos melden Melden Sie sich spätestens am ersten Tag Ihrer Arbeitslosigkeit arbeitslos."
+            },
+            {
+                "norm": "§ 38 Abs. 1 SGB III",
+                "extracted_value": "Personen, deren Arbeitsverhältnis bald endet, müssen sich umgehend arbeitsuchend melden.",
+                "value_type": "TEXT",
+                "context": "Pflicht zur frühzeitigen Arbeitsuchendmeldung vor dem tatsächlichen Eintritt der Arbeitslosigkeit",
+                "evidence_location": "Schnelleinstieg Arbeitsuchend melden Informieren Sie uns umgehend, wenn Ihr Arbeitsverhältnis bald endet."
+            },
+            {
+                "norm": "§ 137 SGB III",
+                "extracted_value": "Der Antrag auf Arbeitslosengeld ist zu stellen, nachdem die Arbeitslosmeldung erfolgt ist.",
+                "value_type": "TEXT",
+                "context": "Reihenfolge von Arbeitslosmeldung und Antragstellung auf Arbeitslosengeld",
+                "evidence_location": "Schnelleinstieg Arbeitslosengeld beantragen Stellen Sie den Antrag, nachdem Sie sich arbeitslos gemeldet haben."
+            }
+        ],
+        "last_updated": "2026-10-18T02:54:57.051132+00:00"
+    },
+    "slot_30": {
+        "source_hash": "1f43136d137b7d69e6edf47b7387fce1de8e929807964f0ed552a327a33813ee",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "SGB II (Einführung des Grundsicherungsgeldes)",
+                "extracted_value": "01.07.2026",
+                "value_type": "DATE",
+                "context": "Das Grundsicherungsgeld löst das Bürgergeld mit Wirkung ab dem 01.07.2026 ab.",
+                "evidence_location": "Einführung des Grundsicherungsgeldes Das Grundsicherungsgeld löst das Bürgergeld ab. Die Änderungen gelten ab dem 01.07.2026 ."
+            },
+            {
+                "norm": "SGB II (Übergangsregelung zur Gültigkeit von Verwaltungsakten)",
+                "extracted_value": "Bisher erlassene Bescheide bleiben inhaltlich weiter gültig.",
+                "value_type": "TEXT",
+                "context": "Bereits vor der Umstellung auf das Grundsicherungsgeld ergangene Bescheide behalten ihre inhaltliche Gültigkeit.",
+                "evidence_location": "Bisher erlassene Bescheide bleiben inhaltlich weiter gültig ."
+            },
+            {
+                "norm": "§ 22 SGB II i.V.m. § 11 SGB II (Nachweispflicht für Kosten der Unterkunft und Einkommen)",
+                "extracted_value": "Bestimmte Angaben müssen durch Nachweise belegt werden, darunter Mietkosten und Einkommen.",
+                "value_type": "TEXT",
+                "context": "Bei der Beantragung von Grundsicherungsgeld müssen Kosten der Unterkunft (Mietkosten) sowie Einkommensverhältnisse nachgewiesen werden.",
+                "evidence_location": "Bestimmte Angaben müssen Sie durch Nachweise belegen, zum Beispiel Ihre Mietkosten oder Ihr Einkommen."
+            }
+        ],
+        "last_updated": "2026-10-18T02:55:09.121721+00:00"
+    },
+    "slot_31": {
+        "source_hash": "a4a6705cf1c75c273be5ace9620180dc4d16cea070a0b5cea8c5b0bac4d9a104",
+        "legal_hash": "0656ce76d403ae967502731b007f648c107a1bdd2a746da81a937ce3660411bd",
+        "claims": [
+            {
+                "norm": "§ 20 SGB II",
+                "extracted_value": "563 €",
+                "value_type": "EURO",
+                "context": "Regelbedarf für Alleinstehende in der Regelbedarfsstufe 1 beim Grundsicherungsgeld (Bürgergeld) für das Jahr 2026.",
+                "evidence_location": "In der Regelbedarfsstufe 1 beträgt er 563 Euro."
+            },
+            {
+                "norm": "§ 22 SGB II",
+                "extracted_value": "Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen.",
+                "value_type": "TEXT",
+                "context": "Regelung zur Übernahme der Kosten der Unterkunft und Heizung im Rahmen des Grundsicherungsgeldes.",
+                "evidence_location": "Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein."
+            },
+            {
+                "norm": "§ 11b SGB II",
+                "extracted_value": "208,90 €",
+                "value_type": "EURO",
+                "context": "Freibetrag bei einem Minijob im Monat, der nach den aktuellen Regeln des § 11b SGB II anrechnungsfrei bleibt.",
+                "evidence_location": "Der Rechner zieht die gesetzlichen Freibeträge bei einem möglichen Zuverdienst automatisch ab – beim Minijob bleiben so beispielsweise bis zu 208,90 € im Monat anrechnungsfrei."
+            }
+        ],
+        "last_updated": "2026-10-23T01:00:17.431008+00:00"
+    }
+}

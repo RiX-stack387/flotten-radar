@@ -1,0 +1,251 @@
+=== M.E.R. FLOTTEN-RADAR RUN LOG ===
+[2026-10-23 05:00:01] [INIT] Windows-Wachhalte-Sperre aktiviert (kein 30-Min-Standby).
+[2026-10-23 05:00:01] [INIT] Pruefe Google Drive Status...
+[2026-10-23 05:00:01]  -> Starte GoogleDriveFS.exe...
+[2026-10-23 05:00:10]  -> [OK] Google Drive bereit unter: G:\Meine Ablage\DefconRecht
+[2026-10-23 05:00:10] [1/6] Starte 14_Slots_Radar_bereinigt.py (100% Live-Ticker ohne Kuerzung)...
+[2026-10-23 05:00:10]       File "C:\DefconRecht\14_Slots_Radar_bereinigt.py", line 256
+[2026-10-23 05:00:10]         await page.add_init_script("delete Object.getPrototypeOf(navigator).webdriver;")
+[2026-10-23 05:00:10]     IndentationError: unexpected indent
+[2026-10-23 05:00:10] [1/6] FEHLER (Code 1 nach 0.2s) in 14_Slots_Radar_bereinigt.py!
+[2026-10-23 05:00:10] [2/6] Starte Zusatz_Leben_Radar.py (100% Live-Ticker ohne Kuerzung)...
+[2026-10-23 05:00:15]     Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+[2026-10-23 05:00:15]     ⚓ ZUSATZ-RADAR (V44.0 PROVENIENZ) GESTARTET (2026-10-23)
+[2026-10-23 05:00:18]     Zusatz-Radar V44.0: [Z1] -> Mietspiegel Pforzheim
+[2026-10-23 05:00:23]     Zusatz-Radar V44.0: [Z2] -> SWP Strom Grundversorgung
+[2026-10-23 05:00:28]     Zusatz-Radar V44.0: [Z3] -> Bildung & Teilhabe Pforzheim
+[2026-10-23 05:00:33]     Zusatz-Radar V44.0: [Z4] -> VPE Ticket-Tarife
+[2026-10-23 05:00:37]     Zusatz-Radar V44.0: [Z5] -> Pforzheimer Tafel (GBE Pforzheim)
+[2026-10-23 05:00:42]     Zusatz-Radar V44.0: [Z6] -> Auszahlungstermine Kindergeld
+[2026-10-23 05:00:47]     Zusatz-Radar V44.0: [Z7] -> Finanzielle Hilfen
+[2026-10-23 05:00:52]     Zusatz-Radar V44.0: [Z8] -> Verbraucherzentrale Pforzheim
+[2026-10-23 05:00:57]     Zusatz-Radar V44.0: [Z9] -> BuT Enzkreis (Jobcenter)
+[2026-10-23 05:01:01]     Zusatz-Radar V44.0: [Z10] -> Wohngeldbehörde Enzkreis
+[2026-10-23 05:01:06]     Zusatz-Radar V44.0: [Z11] -> Müllgebühren Enzkreis
+[2026-10-23 05:01:15]     Zusatz-Radar V44.0: [Z12] -> Schuldnerberatung Enzkreis
+[2026-10-23 05:01:20]     Zusatz-Radar V44.0: [Z13] -> Tafelladen Enzkreis
+[2026-10-23 05:01:24]     Zusatz-Radar V44.0: [Z14] -> Schuldnerberatung
+[2026-10-23 05:01:29]     Zusatz-Radar V44.0: [Z15] -> Finanzielle Hilfen für Eltern
+[2026-10-23 05:01:34]     Zusatz-Radar V44.0: [Z16] -> Finanzielle Hilfen bei einer Behinderung
+[2026-10-23 05:01:39]     Zusatz-Radar V44.0: [Z17] -> Finanzielle Hilfen für Senioren
+[2026-10-23 05:01:44]     Zusatz-Radar V44.0: [Z18] -> Finanzielle Hilfen für die Jugendarbeit
+[2026-10-23 05:01:49]     Zusatz-Radar V44.0: [Z19] -> Goldstadt-Pass (Voraussetzungen & Antrag)
+[2026-10-23 05:01:54]     Zusatz-Radar V44.0: [Z20] -> Förderverein Pforzheimer Tafel e.V.
+[2026-10-23 05:01:58]     Zusatz-Radar V44.0: [Z21] -> Mieterverein Pforzheim und Enzkreis e.V.
+[2026-10-23 05:02:03]     Zusatz-Radar V44.0: [Z22] -> Finanzielle Hilfe für obdachlose Menschen
+[2026-10-23 05:02:08]     Zusatz-Radar V44.0: [Z23] -> Wohngeldbehörde Pforzheim (Anträge & Vordrucke)
+[2026-10-23 05:02:14]     Zusatz-Radar V44.0: [Z24] -> Wohnberechtigungsschein (WBS)
+[2026-10-23 05:02:19]     Zusatz-Radar V44.0: [Z25] -> Abfallgebühren Pforzheim
+[2026-10-23 05:02:24]     Zusatz-Radar V44.0: [Z26] -> Wirtschaftliche Jugendhilfe (Kita)
+[2026-10-23 05:02:28]     Zusatz-Radar V44.0: [Z27] -> Pflegestützpunkt Pforzheim
+[2026-10-23 05:02:33]     Zusatz-Radar V44.0: [Z28] -> Unterhaltsvorschuss Pforzheim
+[2026-10-23 05:02:38]     Zusatz-Radar V44.0: [Z29] -> LL: Arbeitnehmer
+[2026-10-23 05:02:43]     Zusatz-Radar V44.0: [Z30] -> LL: Arbeitslos, Grundsicherungsgeld
+[2026-10-23 05:02:48]     Zusatz-Radar V44.0: [Z31] -> LL: Berufsausbildung
+[2026-10-23 05:02:52]     Zusatz-Radar V44.0: [Z32] -> LL: Schule
+[2026-10-23 05:02:57]     Zusatz-Radar V44.0: [Z33] -> LL: Studium
+[2026-10-23 05:03:02]     Zusatz-Radar V44.0: [Z34] -> LL: Weiterbildung
+[2026-10-23 05:03:07]     Zusatz-Radar V44.0: [Z35] -> LL: Führerschein
+[2026-10-23 05:03:11]     Zusatz-Radar V44.0: [Z36] -> LL: Personalausweis, Reisepass
+[2026-10-23 05:03:16]     Zusatz-Radar V44.0: [Z37] -> LL: Tierhaltung, Tierschutz, Fischerei und Jagd
+[2026-10-23 05:03:21]     Zusatz-Radar V44.0: [Z38] -> LL: Bauen und Modernisieren
+[2026-10-23 05:03:25]     Zusatz-Radar V44.0: [Z39] -> LL: Grundstück
+[2026-10-23 05:03:30]     Zusatz-Radar V44.0: [Z40] -> LL: Umzug
+[2026-10-23 05:03:35]     Zusatz-Radar V44.0: [Z41] -> LL: Wohnen
+[2026-10-23 05:03:40]     Zusatz-Radar V44.0: [Z42] -> LL: Bürgerschaftliches Engagement
+[2026-10-23 05:03:45]     Zusatz-Radar V44.0: [Z43] -> LL: Freiwilligendienste
+[2026-10-23 05:03:50]     Zusatz-Radar V44.0: [Z44] -> LL: Wahlen und Bürgerbeteiligung
+[2026-10-23 05:03:54]     Zusatz-Radar V44.0: [Z45] -> LL: Adoption
+[2026-10-23 05:03:59]     Zusatz-Radar V44.0: [Z46] -> LL: Der Bund fürs Leben
+[2026-10-23 05:04:04]     Zusatz-Radar V44.0: [Z47] -> LL: Der Bund fürs Leben - Auflösung
+[2026-10-23 05:04:09]     Zusatz-Radar V44.0: [Z48] -> LL: Familie und Kinder
+[2026-10-23 05:04:14]     Zusatz-Radar V44.0: [Z49] -> LL: Kinderbetreuung
+[2026-10-23 05:04:19]     Zusatz-Radar V44.0: [Z50] -> LL: Pflegeeltern
+[2026-10-23 05:04:23]     Zusatz-Radar V44.0: [Z51] -> LL: Geburt
+[2026-10-23 05:04:28]     Zusatz-Radar V44.0: [Z52] -> LL: Sterbefall
+[2026-10-23 05:04:33]     Zusatz-Radar V44.0: [Z53] -> LL: Behinderung
+[2026-10-23 05:04:38]     Zusatz-Radar V44.0: [Z54] -> LL: Gesetzliche Unfallversicherung, Kinder und Schüler
+[2026-10-23 05:04:43]     Zusatz-Radar V44.0: [Z55] -> LL: Gesundheit
+[2026-10-23 05:04:47]     Zusatz-Radar V44.0: [Z56] -> LL: Gläubiger und Schuldner
+[2026-10-23 05:04:52]     Zusatz-Radar V44.0: [Z57] -> LL: Notlagen
+[2026-10-23 05:04:57]     Zusatz-Radar V44.0: [Z58] -> LL: Opferschutz und Opferhilfe
+[2026-10-23 05:05:02]     Zusatz-Radar V44.0: [Z59] -> LL: Stiftungen
+[2026-10-23 05:05:07]     Zusatz-Radar V44.0: [Z60] -> LL: Verbraucherschutz und Ernährung
+[2026-10-23 05:05:11]     Zusatz-Radar V44.0: [Z61] -> LL: Altersvorsorge und Ruhestand
+[2026-10-23 05:05:16]     Zusatz-Radar V44.0: [Z62] -> LL: Erben und Vererben
+[2026-10-23 05:05:21]     Zusatz-Radar V44.0: [Z63] -> LL: Vormundschaft und rechtliche Betreuung
+[2026-10-23 05:05:26]     Zusatz-Radar V44.0: [Z64] -> LL: Fahrzeuge
+[2026-10-23 05:05:31]     Zusatz-Radar V44.0: [Z65] -> LL: Reisen
+[2026-10-23 05:05:35]     Zusatz-Radar V44.0: [Z66] -> LL: Vereine
+[2026-10-23 05:05:40]     Zusatz-Radar V44.0: [Z67] -> LL: Verkehr und Verkehrswege
+[2026-10-23 05:05:45]     Zusatz-Radar V44.0: [Z68] -> LL: Sicherheit und Gefahrenabwehr
+[2026-10-23 05:05:49]     Zusatz-Radar V44.0: [Z69] -> LL: Umwelt
+[2026-10-23 05:05:54]     Zusatz-Radar V44.0: [Z70] -> LL: Umwelt- und Naturgefahren
+[2026-10-23 05:05:59]     Zusatz-Radar V44.0: [Z71] -> LL: Arbeitgeber
+[2026-10-23 05:06:04]     Zusatz-Radar V44.0: [Z72] -> LL: Freiberufler
+[2026-10-23 05:06:08]     Zusatz-Radar V44.0: [Z73] -> LL: Gewerbe
+[2026-10-23 05:06:13]     Zusatz-Radar V44.0: [Z74] -> LL: Patente, Marken, Ideentransfer
+[2026-10-23 05:06:17]     Zusatz-Radar V44.0: [Z75] -> LL: Unternehmen führen
+[2026-10-23 05:06:22]     Zusatz-Radar V44.0: [Z76] -> LL: Unternehmen gründen
+[2026-10-23 05:06:27]     Zusatz-Radar V44.0: [Z77] -> LL: Unternehmensnachfolge
+[2026-10-23 05:06:32]     Zusatz-Radar V44.0: [Z78] -> LL: Vergabe öffentlicher Aufträge
+[2026-10-23 05:06:36]     Zusatz-Radar V44.0: [Z79] -> LL: Deutsche Staatsangehörigkeit
+[2026-10-23 05:06:41]     Zusatz-Radar V44.0: [Z80] -> LL: Spätaussiedler
+[2026-10-23 05:06:46]     Zusatz-Radar V44.0: [Z81] -> LL: Zuwanderung
+[2026-10-23 05:06:50]     Zusatz-Radar V44.0: [Z82] -> LL: Tierhaltung, Tierschutz, Fischerei und Jagd (Duplikat-Sicherung)
+[2026-10-23 05:06:55]     Zusatz-Radar V44.0: [Z83] -> LL: Notlagen (Sicherheits-Check)
+[2026-10-23 05:07:00]     Zusatz-Radar V44.0: [Z84] -> LL: Gläubiger und Schuldner (Sicherheits-Check)
+[2026-10-23 05:07:05]     Zusatz-Radar V44.0: [Z85] -> LL: Wohnen (Sicherheits-Check)
+[2026-10-23 05:07:10]     Zusatz-Radar V44.0: [Z86] -> LL: Arbeitnehmer (Sicherheits-Check)
+[2026-10-23 05:07:14]     Zusatz-Radar V44.0: [Z87] -> Rente: Regelaltersrente beantragen
+[2026-10-23 05:07:19]     Zusatz-Radar V44.0: [Z88] -> Rente: Altersrente für schwerbehinderte Menschen
+[2026-10-23 05:07:24]     Zusatz-Radar V44.0: [Z89] -> Rente: Erwerbsminderungsrente beantragen
+[2026-10-23 05:07:29]     Zusatz-Radar V44.0: [Z90] -> Rente: Rentenauskunft und Kontenklärung
+[2026-10-23 05:07:33]     Zusatz-Radar V44.0: [Z91] -> Rentenstelle Stadt Pforzheim
+[2026-10-23 05:07:38]     Zusatz-Radar V44.0: [Z92] -> Deutsche Rentenversicherung Außenstelle Pforzheim
+[2026-10-23 05:07:43]     Zusatz-Radar V44.0: [ENZ_ST_01] -> Stadt Heimsheim
+[2026-10-23 05:07:49]     Zusatz-Radar V44.0: [ENZ_ST_02] -> Stadt Knittlingen
+[2026-10-23 05:07:53]     Zusatz-Radar V44.0: [ENZ_ST_03] -> Stadt Maulbronn
+[2026-10-23 05:08:00]     Zusatz-Radar V44.0: [ENZ_ST_04] -> Stadt Mühlacker
+[2026-10-23 05:08:05]     Zusatz-Radar V44.0: [ENZ_ST_05] -> Stadt Neuenbürg
+[2026-10-23 05:08:11]     Zusatz-Radar V44.0: [ENZ_GM_01] -> Gemeinde Birkenfeld
+[2026-10-23 05:08:16]     Zusatz-Radar V44.0: [ENZ_GM_02] -> Gemeinde Eisingen
+[2026-10-23 05:08:22]     Zusatz-Radar V44.0: [ENZ_GM_03] -> Gemeinde Engelsbrand
+[2026-10-23 05:08:27]     Zusatz-Radar V44.0: [ENZ_GM_04] -> Gemeinde Friolzheim
+[2026-10-23 05:08:32]     Zusatz-Radar V44.0: [ENZ_GM_05] -> Gemeinde Illingen
+[2026-10-23 05:08:37]     Zusatz-Radar V44.0: [ENZ_GM_06] -> Gemeinde Ispringen
+[2026-10-23 05:08:43]     Zusatz-Radar V44.0: [ENZ_GM_07] -> Gemeinde Kämpfelbach
+[2026-10-23 05:08:49]     Zusatz-Radar V44.0: [ENZ_GM_08] -> Gemeinde Keltern
+[2026-10-23 05:08:54]     Zusatz-Radar V44.0: [ENZ_GM_09] -> Gemeinde Kieselbronn
+[2026-10-23 05:09:00]     Zusatz-Radar V44.0: [ENZ_GM_10] -> Gemeinde Königsbach-Stein
+[2026-10-23 05:09:05]     Zusatz-Radar V44.0: [ENZ_GM_11] -> Gemeinde Mönsheim
+[2026-10-23 05:09:10]     Zusatz-Radar V44.0: [ENZ_GM_12] -> Gemeinde Neuhausen
+[2026-10-23 05:09:16]     Zusatz-Radar V44.0: [ENZ_GM_13] -> Gemeinde Neulingen
+[2026-10-23 05:09:21]     Zusatz-Radar V44.0: [ENZ_GM_14] -> Gemeinde Niefern-Öschelbronn
+[2026-10-23 05:09:27]     Zusatz-Radar V44.0: [ENZ_GM_15] -> Gemeinde Ölbronn-Dürrn
+[2026-10-23 05:09:32]     Zusatz-Radar V44.0: [ENZ_GM_16] -> Gemeinde Ötisheim
+[2026-10-23 05:09:37]     Zusatz-Radar V44.0: [ENZ_GM_17] -> Gemeinde Remchingen
+[2026-10-23 05:09:42]     Zusatz-Radar V44.0: [ENZ_GM_18] -> Gemeinde Sternenfels
+[2026-10-23 05:09:42]        Ã¢â€â€Ã¢â€â‚¬ [WARNUNG] Laden der URL https://www.sternenfels.de fehlgeschlagen oder Timeout: Page.goto: net::ERR_CONNECTION_RESET at https://www.sternenfels.de/
+[2026-10-23 05:09:42]     Call log:
+[2026-10-23 05:09:42]       - navigating to "https://www.sternenfels.de/", waiting until "domcontentloaded"
+[2026-10-23 05:09:43]     Zusatz-Radar V44.0: [ENZ_GM_19] -> Gemeinde Straubenhardt
+[2026-10-23 05:09:48]     Zusatz-Radar V44.0: [ENZ_GM_20] -> Gemeinde Tiefenbronn
+[2026-10-23 05:09:55]     Zusatz-Radar V44.0: [ENZ_GM_21] -> Gemeinde Wiernsheim
+[2026-10-23 05:10:00]     Zusatz-Radar V44.0: [ENZ_GM_22] -> Gemeinde Wimsheim
+[2026-10-23 05:10:05]     Zusatz-Radar V44.0: [ENZ_GM_23] -> Gemeinde Wurmberg
+[2026-10-23 05:10:11]     Zusatz-Radar V44.0: [PF_ENZ_K1_STROM] -> Netze BW & SWP Störungsmelder (Strom/Gas)
+[2026-10-23 05:10:15]     Zusatz-Radar V44.0: [PF_ENZ_K2_APO] -> Apotheken-Notdienst Pforzheim & Enzkreis (LAK BW)
+[2026-10-23 05:10:20]     Zusatz-Radar V44.0: [BW_KRITIS_K3_CYBER] -> BSI & Cyberwehr BW (IT-Sicherheitslage & KRITIS-Ausfälle)
+[2026-10-23 05:10:25]     Zusatz-Radar V44.0: [BW_KRITIS_K4_LEBENSMITTEL] -> BVL Lebensmittelwarnungen & Produktrückrufe (BW)
+[2026-10-23 05:10:30]     Zusatz-Radar V44.0: [PF_K5_WOHNBAU] -> Bau und Heim eG Pforzheim (Sozialer Wohnraum & Bauprojekte)
+[2026-10-23 05:10:36]     Zusatz-Radar V44.0: [PF_ENZ_K6_DWD] -> DWD Amtliche Warnungen (Stadtkreis Pforzheim & Enzkreis)
+[2026-10-23 05:10:41]     [PRAXIS-MASTERLOG] Gespeichert: C:\DefconRecht\MasterLogs\API_Praxis_V44_2026-10-23_05-10-41.txt
+[2026-10-23 05:10:42] [2/6] OK (631.2s): Zusatz_Leben_Radar.py
+[2026-10-23 05:10:42] [3/6] Starte Zusatz_Leben_Radar_CW_FDS.py (100% Live-Ticker ohne Kuerzung)...
+[2026-10-23 05:10:43]     Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+[2026-10-23 05:10:44]     ⚓ ZUSATZ-RADAR CW/FDS (V44.0 PROVENIENZ) GESTARTET (2026-10-23)
+[2026-10-23 05:10:44]     CW/FDS-Radar V44.0: [CW_Z1] -> KdU-Richtlinie Calw (Grundsicherungsgeld)
+[2026-10-23 05:10:49]     CW/FDS-Radar V44.0: [CW_Z2] -> ENCW Strom Grundversorgung
+[2026-10-23 05:10:57]     CW/FDS-Radar V44.0: [CW_Z3] -> BuT Jobcenter Calw
+[2026-10-23 05:11:02]     CW/FDS-Radar V44.0: [CW_Z4] -> VGC Ticket-Tarife (Calw)
+[2026-10-23 05:11:07]     CW/FDS-Radar V44.0: [CW_Z5] -> Tafelläden Kreis Calw
+[2026-10-23 05:11:12]     CW/FDS-Radar V44.0: [CW_Z10] -> Wohngeldbehörde Calw
+[2026-10-23 05:11:17]     CW/FDS-Radar V44.0: [CW_Z11] -> AWG Abfallgebühren Calw
+[2026-10-23 05:11:22]     CW/FDS-Radar V44.0: [CW_Z12] -> Schuldnerberatung Calw
+[2026-10-23 05:11:27]     CW/FDS-Radar V44.0: [CW_Z24] -> Wohnberechtigungsschein (WBS) Calw
+[2026-10-23 05:11:32]     CW/FDS-Radar V44.0: [CW_Z27] -> Pflegestützpunkt Calw
+[2026-10-23 05:11:37]     CW/FDS-Radar V44.0: [CW_Z28] -> Unterhaltsvorschuss Calw
+[2026-10-23 05:11:41]     CW/FDS-Radar V44.0: [CW_ST_01] -> Stadt Calw - Rathaus & Bürgerservice
+[2026-10-23 05:11:46]     CW/FDS-Radar V44.0: [CW_ST_02] -> Stadt Nagold - Rathaus & Bürgerservice
+[2026-10-23 05:11:51]     CW/FDS-Radar V44.0: [CW_ST_03] -> Stadt Altensteig - Rathaus & Bürgerservice
+[2026-10-23 05:11:56]     CW/FDS-Radar V44.0: [CW_ST_04] -> Stadt Wildberg - Rathaus & Bürgerservice
+[2026-10-23 05:12:01]     CW/FDS-Radar V44.0: [CW_ST_05] -> Stadt Neubulach - Rathaus & Bürgerservice
+[2026-10-23 05:12:06]     CW/FDS-Radar V44.0: [CW_ST_06] -> Stadt Haiterbach - Rathaus & Bürgerservice
+[2026-10-23 05:12:12]     CW/FDS-Radar V44.0: [CW_ST_07] -> Stadt Bad Wildbad - Rathaus & Kurbetrieb
+[2026-10-23 05:12:17]     CW/FDS-Radar V44.0: [CW_ST_08] -> Stadt Bad Liebenzell - Rathaus & Kurbetrieb
+[2026-10-23 05:12:22]     CW/FDS-Radar V44.0: [CW_ST_09] -> Stadt Bad Herrenalb - Rathaus & Kurbetrieb
+[2026-10-23 05:12:26]     CW/FDS-Radar V44.0: [CW_ST_10] -> Stadt Bad Teinach-Zavelstein - Rathaus & Kurbetrieb
+[2026-10-23 05:12:32]     CW/FDS-Radar V44.0: [CW_GM_01] -> Gemeinde Althengstett - Bürgerservice
+[2026-10-23 05:12:38]     CW/FDS-Radar V44.0: [CW_GM_02] -> Gemeinde Schömberg - Rathaus & Touristik
+[2026-10-23 05:12:43]     CW/FDS-Radar V44.0: [CW_GM_03] -> Gemeinde Dobel - Rathaus & Bürgerservice
+[2026-10-23 05:12:49]     CW/FDS-Radar V44.0: [CW_GM_04] -> Gemeinde Enzklösterle - Rathaus & Touristik
+[2026-10-23 05:12:54]     CW/FDS-Radar V44.0: [CW_GM_05] -> Gemeinde Gechingen - Bürgerservice
+[2026-10-23 05:12:59]     CW/FDS-Radar V44.0: [CW_GM_06] -> Gemeinde Ostelsheim - Bürgerservice
+[2026-10-23 05:13:04]     CW/FDS-Radar V44.0: [CW_GM_07] -> Gemeinde Simmozheim - Bürgerservice
+[2026-10-23 05:13:19]     CW/FDS-Radar V44.0: [CW_GM_08] -> Gemeinde Neuweiler - Bürgerservice
+[2026-10-23 05:13:24]     CW/FDS-Radar V44.0: [CW_GM_09] -> Gemeinde Oberreichenbach - Bürgerservice
+[2026-10-23 05:13:29]     CW/FDS-Radar V44.0: [CW_GM_10] -> Gemeinde Rohrdorf - Bürgerservice
+[2026-10-23 05:13:31]     CW/FDS-Radar V44.0: [CW_GM_11] -> Gemeinde Ebhausen - Bürgerservice
+[2026-10-23 05:13:36]     CW/FDS-Radar V44.0: [CW_GM_12] -> Gemeinde Egenhausen - Bürgerservice
+[2026-10-23 05:13:42]     CW/FDS-Radar V44.0: [CW_GM_13] -> Gemeinde Höfen an der Enz - Bürgerservice
+[2026-10-23 05:13:47]     CW/FDS-Radar V44.0: [CW_GM_14] -> Gemeinde Unterreichenbach - Bürgerservice
+[2026-10-23 05:13:53]     CW/FDS-Radar V44.0: [CW_GM_15] -> Gemeinde Simmersfeld - Bürgerservice
+[2026-10-23 05:13:58]     CW/FDS-Radar V44.0: [FDS_Z1] -> KdU-Richtwerte Freudenstadt (Grundsicherungsgeld)
+[2026-10-23 05:14:03]     CW/FDS-Radar V44.0: [FDS_Z2] -> Stadtwerke FDS Strom
+[2026-10-23 05:14:08]     CW/FDS-Radar V44.0: [FDS_Z3] -> BuT Jobcenter FDS
+[2026-10-23 05:14:13]     CW/FDS-Radar V44.0: [FDS_Z4] -> vgf Ticket-Tarife (FDS)
+[2026-10-23 05:14:18]     CW/FDS-Radar V44.0: [FDS_Z5] -> Tafelladen Freudenstadt
+[2026-10-23 05:14:22]     CW/FDS-Radar V44.0: [FDS_Z10] -> Wohngeldbehörde FDS
+[2026-10-23 05:14:27]     CW/FDS-Radar V44.0: [FDS_Z11] -> AWB Abfallgebühren FDS
+[2026-10-23 05:14:32]     CW/FDS-Radar V44.0: [FDS_Z12] -> Schuldnerberatung FDS
+[2026-10-23 05:14:37]     CW/FDS-Radar V44.0: [FDS_Z24] -> Wohnberechtigungsschein (WBS) FDS
+[2026-10-23 05:14:42]     CW/FDS-Radar V44.0: [FDS_Z27] -> Pflegestützpunkt FDS
+[2026-10-23 05:14:47]     CW/FDS-Radar V44.0: [FDS_Z28] -> Unterhaltsvorschuss FDS
+[2026-10-23 05:17:22]     CW/FDS-Radar V44.0: [FDS_ST_01] -> Stadt Freudenstadt - Rathaus & Bürgerservice
+[2026-10-23 05:17:28]     CW/FDS-Radar V44.0: [FDS_ST_02] -> Stadt Horb am Neckar - Rathaus & Bürgerservice
+[2026-10-23 05:17:33]     CW/FDS-Radar V44.0: [FDS_ST_03] -> Stadt Alpirsbach - Rathaus & Touristik
+[2026-10-23 05:17:38]     CW/FDS-Radar V44.0: [FDS_ST_04] -> Stadt Dornstetten - Rathaus & Bürgerservice
+[2026-10-23 05:17:43]     CW/FDS-Radar V44.0: [FDS_GM_01] -> Gemeinde Baiersbronn - Rathaus & Touristik
+[2026-10-23 05:17:49]     CW/FDS-Radar V44.0: [FDS_GM_02] -> Gemeinde Loßburg - Rathaus & Bürgerservice
+[2026-10-23 05:17:54]     CW/FDS-Radar V44.0: [FDS_GM_03] -> Gemeinde Pfalzgrafenweiler - Bürgerservice
+[2026-10-23 05:17:59]     CW/FDS-Radar V44.0: [FDS_GM_04] -> Gemeinde Waldachtal - Bürgerservice
+[2026-10-23 05:18:05]     CW/FDS-Radar V44.0: [FDS_GM_05] -> Gemeinde Empfingen - Bürgerservice
+[2026-10-23 05:18:11]     CW/FDS-Radar V44.0: [FDS_GM_06] -> Gemeinde Eutingen im Gäu - Bürgerservice
+[2026-10-23 05:18:15]     CW/FDS-Radar V44.0: [FDS_GM_07] -> Gemeinde Bad Rippoldsau-Schapbach - Rathaus
+[2026-10-23 05:18:21]     CW/FDS-Radar V44.0: [FDS_GM_08] -> Gemeinde Seewald - Bürgerservice
+[2026-10-23 05:18:22]     CW/FDS-Radar V44.0: [FDS_GM_09] -> Gemeinde Glatten - Bürgerservice
+[2026-10-23 05:18:27]     CW/FDS-Radar V44.0: [FDS_GM_10] -> Gemeinde Schopfloch - Bürgerservice
+[2026-10-23 05:18:28]     CW/FDS-Radar V44.0: [FDS_GM_11] -> Gemeinde Grömbach - Bürgerservice
+[2026-10-23 05:18:33]     CW/FDS-Radar V44.0: [FDS_GM_12] -> Gemeinde Wörnersberg - Bürgerservice
+[2026-10-23 05:18:38]     CW/FDS-Radar V44.0: [FDS_GM_13] -> Gemeinde Eutingen im Gäu (Teilort 1) - Rathaus
+[2026-10-23 05:18:43]     CW/FDS-Radar V44.0: [FDS_GM_14] -> Gemeinde Eutingen im Gäu (Teilort 2) - Rathaus
+[2026-10-23 05:18:48]     CW/FDS-Radar V44.0: [FDS_GM_15] -> Gemeinde Eutingen im Gäu (Teilort 3) - Rathaus
+[2026-10-23 05:18:52]     CW/FDS-Radar V44.0: [FDS_GM_16] -> Gemeinde Eutingen im Gäu (Teilort 4) - Rathaus
+[2026-10-23 05:18:57]     CW/FDS-Radar V44.0: [FDS_GM_17] -> Gemeinde Eutingen im Gäu (Teilort 5) - Rathaus
+[2026-10-23 05:19:01]     CW/FDS-Radar V44.0: [FDS_GM_18] -> Gemeinde Horb am Neckar (Teilort 1) - Rathaus
+[2026-10-23 05:19:07]     CW/FDS-Radar V44.0: [FDS_GM_19] -> Gemeinde Horb am Neckar (Teilort 2) - Rathaus
+[2026-10-23 05:19:12]     CW/FDS-Radar V44.0: [FDS_GM_20] -> Gemeinde Horb am Neckar (Teilort 3) - Rathaus
+[2026-10-23 05:19:17]     CW/FDS-Radar V44.0: [FDS_GM_21] -> Gemeinde Horb am Neckar (Teilort 4) - Rathaus
+[2026-10-23 05:19:23]     CW/FDS-Radar V44.0: [FDS_GM_22] -> Gemeinde Horb am Neckar (Teilort 5) - Rathaus
+[2026-10-23 05:19:28]     CW/FDS-Radar V44.0: [CW_FDS_K1_STROM] -> Netze BW & ENCW Störungsmelder (Strom/Gas)
+[2026-10-23 05:19:33]     CW/FDS-Radar V44.0: [CW_FDS_K2_APO] -> Apotheken-Notdienst CW/FDS (LAK BW)
+[2026-10-23 05:19:38]     CW/FDS-Radar V44.0: [CW_K5_WOHNBAU] -> Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)
+[2026-10-23 05:19:43]     CW/FDS-Radar V44.0: [CW_FDS_K6_DWD] -> DWD Berg- & Höhenwetter (Schwarzwaldhochstraße, Kaltenbronn)
+[2026-10-23 05:19:48]     CW/FDS-Radar V44.0: [CW_FDS_KRITIS_WASSER] -> Stadtwerke & Trinkwasserversorgung Calw (ENCW)
+[2026-10-23 05:20:04]     [PRAXIS-MASTERLOG CW/FDS] Gespeichert: C:\DefconRecht\MasterLogs\API_Praxis_CW_FDS_V44_2026-10-23_05-20-04.txt
+[2026-10-23 05:20:04] [3/6] OK (562.6s): Zusatz_Leben_Radar_CW_FDS.py
+[2026-10-23 05:20:04] [4/6] Starte asb_nsw_radar.py (100% Live-Ticker ohne Kuerzung)...
+[2026-10-23 05:20:05]       Ausgabe: Dual-Spiegelung nach C:\DefconRecht\ASB und G:\Meine Ablage\DefconRecht\ASB
+[2026-10-23 05:20:11]     [SUCCESS] asb_nsw_radar.py sauber durchgelaufen.
+[2026-10-23 05:20:11] [4/6] OK (6.8s): asb_nsw_radar.py
+[2026-10-23 05:20:11] [5/6] Ueberspringe build_knowledge.py (nicht gefunden).
+[2026-10-23 05:20:11] [6/6] Starte build_enterprise_knowledge.py (100% Live-Ticker ohne Kuerzung)...
+[2026-10-23 05:20:11]     ==========================================
+[2026-10-23 05:20:11]     [SUCCESS] Enterprise Knowledge-Base (8-Ebenen-System) generiert: C:\DefconRecht\DEFCON_RECHT_Enterprise_Base.md
+[2026-10-23 05:20:11]     Erfasste Einheiten gesamt: 367
+[2026-10-23 05:20:11]     Air-Gap & Multi-Level Status: VALIDIERUNG ERFOLGREICH
+[2026-10-23 05:20:11]     ==========================================
+[2026-10-23 05:20:11] [6/6] OK (0.2s): build_enterprise_knowledge.py
+[2026-10-23 05:20:11] [FRONT-SYNC] Komprimiere Tages-Deltas...
+[2026-10-23 05:20:12]  -> Front_Delta_Compact.md aktualisiert.
+[2026-10-23 05:20:12] [INIT] Pruefe Google Drive Status...
+[2026-10-23 05:20:12]  -> [OK] Google Drive bereit unter: G:\Meine Ablage\DefconRecht
+[2026-10-23 05:20:12]  -> [SYNC-STREAM] DEFCON_RECHT_Enterprise_Base.md aktualisiert (Drive-ID behalten).
+[2026-10-23 05:20:12]  -> [SYNC-STREAM] Front_Delta_Compact.md aktualisiert (Drive-ID behalten).
+[2026-10-23 05:20:12]  -> [SYNC-STREAM] ASB_Knowledge_Base_2026.md aktualisiert (Drive-ID behalten).
+[2026-10-23 05:20:12]  -> [SYNC-STREAM] ASB_Knowledge_Base_LIVE.md aktualisiert (Drive-ID behalten).
+[2026-10-23 05:20:12]  -> [SYNC-STREAM] quellen_registry.py aktualisiert (Drive-ID behalten).
+[2026-10-23 05:20:13] [EXPORT] Alle Dateien und MasterLogs nach Google Drive synchronisiert.
+[2026-10-23 05:20:23] [SKILLS-SYNC] Starte Sync_DefconRecht.ps1...
+[2026-10-23 05:20:24] [FERTIG] Gesamtflotten-Sweep vollstaendig abgeschlossen!

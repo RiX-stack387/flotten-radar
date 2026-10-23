@@ -1,8 +1,8 @@
----
+﻿---
 name: admiral-flotten-leitstand
-description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2.5) - Admiral Flotten-Leitstand (Oberkommando der 26 Einheiten, Architektur-Governance, Brandmauer-Waechter, Multi-Skill-Triage und System-Steuerung).
+description: "Strategische Einsatzfuehrung, Triage und Architektur-Governance der M.E.R. Sozial Flotte. Aktivieren bei organisationsuebergreifenden Rechts- und Hilfeprozessen, Fristenueberwachung und Koordination spezialisierter Lotsen-Einheiten."
 ---
-# SKILL: 00_Admiral_Flotten_Leitstand (Status V23.4 / Upgrade V2.5)
+# admiral-flotten-leitstand (Status V23.4 / Upgrade V2.5)
 
 [OBERKOMMANDO DER FLOTTE & DOKTRIN V2.5 AKTIV]
 
@@ -13,6 +13,10 @@ description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2
 5. **Smartphone-Doktrin:** Uebersichtliche Struktur, keine ueberfluessigen Floskeln.
 
 ## Referenzen & Wissensdatenbank
-Werte fuer tagesaktuelle Aenderungen das GitHub-Repository RiX-stack387/flotten-radar aus:
+Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
+- Datei references/Front_Delta_Compact.md
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
+
+Prüfe für tagesaktuelle Live-Änderungen und Deltas ergänzend das GitHub-Repository RiX-stack387/flotten-radar:
 - Datei Front_Delta_Compact.md auf dem Branch main
 - Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main

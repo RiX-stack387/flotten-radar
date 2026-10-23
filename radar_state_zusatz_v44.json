@@ -1,0 +1,2100 @@
+{
+    "praxis_slot_Z1": {
+        "source_hash": "2836874344021f497fbcec44cc2c1c869138b165fdc01dd1481808194abaac62",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_Z2": {
+        "source_hash": "dbb572f20d995ea1c644d48670b1ec1e7a1ce967e3d998589c0e1eaacce2f850",
+        "legal_hash": "61f31a63fc2ce068969c8467b2eadaf1c275239e2bf821af18260087335517ce",
+        "claims": [
+            {
+                "norm": "StromGVV",
+                "extracted_value": "14 Tage Kündigungsfrist",
+                "value_type": "TEXT",
+                "context": "Kündigungsfrist für den Vertrag der Grundversorgung bei den Stadtwerken Pforzheim",
+                "evidence_location": "Den „mit dem Lichtschalter unterschriebenen“ Vertrag für die Grundversorgung können Sie jedoch stets mit 14 Tagen Frist kündigen."
+            },
+            {
+                "norm": "§ 38 EnWG",
+                "extracted_value": "Ersatzversorgung als gesetzlich geregelte Notversorgung für maximal drei Monate mit fristloser Kündigungsmöglichkeit bei Anbieterwechsel",
+                "value_type": "TEXT",
+                "context": "Gesetzliche Grundlagen und Ausgestaltung der Ersatzversorgung im Netzgebiet Pforzheim",
+                "evidence_location": "Ersatzversorgung ist gesetzlich geregelte Notversorgung (§ 38 Energiewirtschaftsgesetz): Sie stellt sicher, dass wir Sie als Grundversorger nicht im Dunkeln stehen oder frieren lassen."
+            },
+            {
+                "norm": "§ 38 EnWG / Ersatzversorgung",
+                "extracted_value": "Bis zu drei Monate Höchstdauer",
+                "value_type": "TEXT",
+                "context": "Maximale Laufzeit der Ersatzversorgung vor automatischem Übergang in die Grundversorgung",
+                "evidence_location": "Die Ersatzversorgung darf bis zu drei Monate dauern. Danach geht sie automatisch in die Grundversorgung mit dem entsprechenden Tarif über. Wenn Sie einen neuen Anbieter haben, darf die Ersatzversorgung jedoch jederzeit fristlos gekündigt werden."
+            },
+            {
+                "norm": "StromGVV / Konkludenter Vertragsschluss",
+                "extracted_value": "Vertragsschluss durch erstmalige Stromentnahme als stillschweigende Willenserklärung",
+                "value_type": "TEXT",
+                "context": "Zustandekommen des Grundversorgungsvertrages durch konkludentes Handeln",
+                "evidence_location": "Sie schließen automatisch Ihren Stromliefervertrag mit dem Grundversorger ab, wenn Sie in Ihrer neuen Wohnung das Licht einschalten und so erstmals Strom verbrauchen. Dies gilt als stillschweigende Willenserklärung (auch „konkludentes Handeln“ genannt)."
+            },
+            {
+                "norm": "Tarif Goldstadtstrom Classic",
+                "extracted_value": "01.01.2026",
+                "value_type": "DATE",
+                "context": "Gültigkeitsbeginn des Tarifs Goldstadtstrom Classic",
+                "evidence_location": "Preisblatt Goldstadtstrom Classic (Gültig ab 01.01.2026) 174 KB"
+            },
+            {
+                "norm": "Tarif Ersatzversorgung Strom",
+                "extracted_value": "15.10.2026",
+                "value_type": "DATE",
+                "context": "Gültigkeitsbeginn des Preisblattes für die Ersatzversorgung Strom",
+                "evidence_location": "Preisblatt Ersatzversorgung Strom (gültig ab 15.10.2026) 175 KB"
+            }
+        ],
+        "last_updated": "2026-10-18T02:56:05.962556+00:00"
+    },
+    "praxis_slot_Z3": {
+        "source_hash": "d97e28531658f81f2ce108d973dc938bed57ebbe3c177aaae26a5777e0f332f2",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "SGB II",
+                "extracted_value": "Bereitstellung von Online-Anträgen für SGB II-Leistungen sowie Weiterbewilligungsanträge und Veränderungsmitteilungen",
+                "value_type": "TEXT",
+                "context": "Leistungsangebote und digitale Antragsverfahren des Jobcenters Pforzheim für die Grundsicherung nach dem Zweiten Buch Sozialgesetzbuch",
+                "evidence_location": "Ansprechpartner Formulare Online-Antrag SGB II-Leistungen Weiterbewilligung | Veränderungsmitteilung"
+            },
+            {
+                "norm": "§ 28 SGB II (Bildung und Teilhabe)",
+                "extracted_value": "Bereitstellung von Informationen zu Leistungen für Bildung und Teilhabe zum Beginn des neuen Schuljahres",
+                "value_type": "TEXT",
+                "context": "Mitteilung des Jobcenters Pforzheim bezüglich Leistungen für Bildung und Teilhabe zum Schuljahresstart",
+                "evidence_location": "17.09.2026 Bildung und Teilhabe: Informationen zum Start in das neue Schuljahr"
+            }
+        ],
+        "last_updated": "2026-10-18T02:56:15.905254+00:00"
+    },
+    "praxis_slot_Z4": {
+        "source_hash": "4cafb03f345ec22f99bb377253e9cd4ce159cbb33b38aaad66af6af083f407f1",
+        "legal_hash": "a93c62d8133626d1acf2215b43a106fea77129785570456b186ac54111ff361f",
+        "claims": [
+            {
+                "norm": "VPE Tarif D-Ticket JugendBW (Schülerlistenverfahren)",
+                "extracted_value": "49,09 €",
+                "value_type": "EURO",
+                "context": "Monatlicher Tarif für Vollzeitschüler im Schülerlistenverfahren bei 11-maliger Abbuchung ab dem 01.01.2026",
+                "evidence_location": "Für Vollzeitschüler im Schülerlistenverfahren bei 11-maliger Abbuchung: ab 01.01.2026 49,09 €"
+            },
+            {
+                "norm": "VPE Tarif D-Ticket JugendBW (Regeltarif 12-malige Abbuchung)",
+                "extracted_value": "45,00 €",
+                "value_type": "EURO",
+                "context": "Monatlicher Tarif für Schüler, Auszubildende und Freiwilligendienstleistende bei 12-maliger Abbuchung ab dem 01.01.2026",
+                "evidence_location": "Für Schüler, Auszubildende und Freiwilligendienstleistende bei 12-maliger Abbuchung: ab 01.01.2026 45,00 €"
+            },
+            {
+                "norm": "VPE Tarif D-Ticket JugendBW (FH-Pforzheim)",
+                "extracted_value": "40,50 €",
+                "value_type": "EURO",
+                "context": "Reduzierter monatlicher Kaufpreis für Studierende der FH Pforzheim bei 12-maliger Abbuchung ab dem 01.01.2026",
+                "evidence_location": "Für Studierende der FH-Pforzheim, die im Rahmen Ihres Semesterbeitrags bereits einen Anteil für die ÖPNV-Nutzung entrichten, reduziert sich der Kaufpreis des Jugendtickets bei 12-maliger Abbuchung auf monatlich 40,50 €, ab dem 01.01.2026."
+            },
+            {
+                "norm": "VPE Tarifbestimmungen D-Ticket JugendBW (Bestellfrist Handyticket)",
+                "extracted_value": "bis zum 20. des Monats",
+                "value_type": "DATE",
+                "context": "Bestellfrist für den Erhalt des Handytickets noch für den laufenden Monat",
+                "evidence_location": "Bei einer Bestellung bis zum 20. des Monats bekommst du das Ticket noch für den laufenden Monat oder für einen späteren Zeitpunkt."
+            },
+            {
+                "norm": "VPE Tarifbestimmungen D-Ticket JugendBW (Bestellfrist Chipkarte)",
+                "extracted_value": "bis zum 10. des Vormonats",
+                "value_type": "DATE",
+                "context": "Bestellfrist für die Ausgabe einer Chipkarte für den Folgemonat",
+                "evidence_location": "Die Bestellung für die Chipkarte muss bis zum 10. des Vormonats erfolgen, um das Ticket für den Folgemonat zu erhalten."
+            },
+            {
+                "norm": "VPE Tarifbestimmungen D-Ticket JugendBW (Kündigung und Nachberechnung)",
+                "extracted_value": "Beim D-Ticket JugendBW handelt es sich um ein Jahresabo. Erfolgt die Kündigung vor Ablauf des ersten 12-Monatszeitraums, wird für den abgelaufenen Zeitraum die Differenz zum Monatsbetrag einer 1-Zonen-Schülermonatskarte nacherhoben. Nach der Mindestbezugsdauer verlängert sich das Jahres-Abo um weitere 12 Monate, kann aber flexibel mit einer Frist von einem Monat zum Ende eines Kalendermonats gekündigt werden, ohne dass eine Nachberechnung erfolgt.",
+                "value_type": "TEXT",
+                "context": "Bedingungen zur Vertragslaufzeit, Mindestbezugsdauer und Nachberechnung bei vorzeitiger Kündigung",
+                "evidence_location": "Erfolgt die Kündigung vor Ablauf des ersten 12-Monatszeitraums, wird für den abgelaufenen Zeitraum die Differenz zum Monatsbetrag einer 1-Zonen-Schülermonatskarte nacherhoben."
+            }
+        ],
+        "last_updated": "2026-10-18T02:56:26.946904+00:00"
+    },
+    "praxis_slot_Z5": {
+        "source_hash": "930186b4845e70ff7c707426dc69caec52fb2f2b8e360909400b3a7b55f6f6cc",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Öffnungszeiten Tafel Pforzheim Oststadt",
+                "extracted_value": "Montag bis Freitag: 09:00 - 11:30 Uhr, 12.00 - 13.00 Uhr",
+                "value_type": "TEXT",
+                "context": "Öffnungszeiten der Tafel Pforzheim am Standort Oststadt (Zeppelinstraße 16, 75175 Pforzheim)",
+                "evidence_location": "Tafel Pforzheim Oststadt Adresse Im alten Postareal Zeppelinstraße 16 75175 Pforzheim Öffnungszeiten Montag bis Freitag: 09:00 - 11:30 Uhr 12.00 - 13.00 Uhr"
+            },
+            {
+                "norm": "Öffnungszeiten Tafel Pforzheim Brötzingen",
+                "extracted_value": "Montag, Dienstag, Donnerstag, Freitag: 10:00 - 13:00 Uhr; Mittwoch Ruhetag",
+                "value_type": "TEXT",
+                "context": "Öffnungszeiten der Tafel Pforzheim am Standort Brötzingen (Kelterstr. 107, 75179 Pforzheim)",
+                "evidence_location": "Tafel Pforzheim Brötzingen Adresse Kelterstr. 107 75179 Pforzheim Öffnungszeiten Montag, Dienstag, Donnerstag, Freitag: 10:00 - 13:00 Uhr Mittwoch Ruhetag"
+            },
+            {
+                "norm": "Tafel Pforzheim Leistungsangebot",
+                "extracted_value": "Beschäftigung und Qualifizierung im Bereich Verkauf sowie Weitergabe qualitativ einwandfreier Lebensmittel an bedürftige Menschen",
+                "value_type": "TEXT",
+                "context": "Aufgabenbereich und soziale Funktion der Pforzheimer Tafel betrieben durch die GBE mbH Pforzheim",
+                "evidence_location": "Tafel Pforzheim Beschäftigung und Qualifizierung im Bereich Verkauf Lebensmittel für bedürftige Menschen. In Deutschland gibt es Lebensmittel im Überfluss – und dennoch herrscht bei vielen Menschen Mangel. Die Tafeln bemühen sich um einen Ausgleich: Sie sammeln „überschüssige“, aber qualitativ einwandfreie Lebensmittel, und geben diese an Bedürftige weiter."
+            }
+        ],
+        "last_updated": "2026-10-18T02:56:37.356689+00:00"
+    },
+    "praxis_slot_Z6": {
+        "source_hash": "7d831c30b697bb066b2d926fdaba5e5917ce7711b73e5aa24c0c9452c838f8db",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Auszahlungsregelung Familienkasse (Kindergeld / Kinderzuschlag)",
+                "extracted_value": "Kindergeld und Kinderzuschlag werden zeitgleich auf das Konto überwiesen; eine Barauszahlung ist ausgeschlossen.",
+                "value_type": "TEXT",
+                "context": "Zahlungsweg und Gleichzeitigkeit von Kindergeld und Kinderzuschlag.",
+                "evidence_location": "Kindergeld und Kinderzuschlag werden zeitgleich gezahlt."
+            },
+            {
+                "norm": "Staffelung nach Kindergeld-Endziffern",
+                "extracted_value": "Die Auszahlung erfolgt gestaffelt nach der Endziffer der Kindergeldnummer: Endziffer 0 zu Monatsbeginn, Endziffer 9 am Monatsende.",
+                "value_type": "TEXT",
+                "context": "Technische Staffelung der monatlichen Auszahlungen anhand der letzten Ziffer der Kindergeldnummer.",
+                "evidence_location": "Kundinnen oder Kunden mit der Endziffer 0 erhalten die Zahlung am Monatsbeginn . Anschließend werden die Leistungen für die Endziffer 1 ausgezahlt, gefolgt von den Überweisungen für die Endziffer 2. Die Auszahlungstermine der Kundinnen und Kunden mit der Endziffer 9 sind immer am Monatsende ."
+            },
+            {
+                "norm": "Rechtsanspruch auf Auszahlungstag",
+                "extracted_value": "Es besteht kein Rechtsanspruch darauf, dass die Leistungen an einem bestimmten Tag des Monats überwiesen werden; an Wochenenden und Feiertagen kann sich der Geldeingang verschieben.",
+                "value_type": "TEXT",
+                "context": "Ausschluss eines festen kalendertäglichen Überweisungsanspruchs.",
+                "evidence_location": "Sie haben keinen Rechtsanspruch darauf, dass Ihre Leistungen an einem bestimmten Tag des Monats überwiesen werden."
+            },
+            {
+                "norm": "Erstauszahlungsgrundsatz Kindergeld / Kinderzuschlag",
+                "extracted_value": "Bei der Erstauszahlung wird der volle Monatsbetrag gewährt, selbst wenn der Anspruch erst am letzten Tag des Kalendermonats entsteht.",
+                "value_type": "TEXT",
+                "context": "Monatsprinzip bei Anspruchsentstehung im laufenden Monat.",
+                "evidence_location": "Bei der Erstauszahlung erhalten Sie den vollen Monatsbetrag , auch wenn Ihr Anspruch auf diese Leistungen nur am letzten Tag des Monats erfüllt ist."
+            },
+            {
+                "norm": "Telefontarif Servicerufnummern Familienkasse",
+                "extracted_value": "0800 4 555533 und 0800 4 555530 sind gebührenfrei erreichbar.",
+                "value_type": "EURO",
+                "context": "Kostenfreie telefonische Auskunft der Familienkasse zu Auszahlung und allgemeinen Fragen.",
+                "evidence_location": "Infos zur Auszahlung 0800 4 555533 (gebührenfrei) Allgemeine Auskünfte 0800 4 555530 (gebührenfrei)"
+            }
+        ],
+        "last_updated": "2026-10-18T02:56:48.564271+00:00"
+    },
+    "praxis_slot_Z7": {
+        "source_hash": "1f603100e315d2befb346371dd99c30480bb9190366047d7d9f55db518e36d93",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "SGB II / Grundsicherung für Arbeitssuchende",
+                "extracted_value": "Neben der Grundsicherung können auch einmalige finanzielle Leistungen beantragt werden, wie z.B. Erstausstattung einer Wohnung, Erstausstattung von Kleidung, Erstausstattung bei Schwangerschaft und Geburt, Therapeutische Geräte und Ausrüstung.",
+                "value_type": "TEXT",
+                "context": "Gewährung von einmaligen Bedarfen und Sonderleistungen neben der regulären Grundsicherung für Arbeitssuchende",
+                "evidence_location": "Neben der Grundsicherung können auch einmalige finanzielle Leistungen beantragt werden, wie z.B. Erstausstattung einer Wohnung, Erstausstattung von Kleidung, Erstausstattung bei Schwangerschaft und Geburt, Therapeutische Geräte und Ausrüstung."
+            },
+            {
+                "norm": "Grundsicherung für Arbeitssuchende | Hartz 4",
+                "extracted_value": "Jobcenter Pforzheim ist Ansprechpartner für die Grundsicherung für Arbeitssuchende.",
+                "value_type": "TEXT",
+                "context": "Zuständigkeit für Grundsicherungsleistungen für Arbeitssuchende im Stadtkreis Pforzheim",
+                "evidence_location": "Grundsicherung für Arbeitssuchende | Hartz 4 Ansprechpartner: Jobcenter Pforzheim Weitere Informationen"
+            }
+        ],
+        "last_updated": "2026-10-18T02:57:00.285153+00:00"
+    },
+    "praxis_slot_Z8": {
+        "source_hash": "15450b2d1c44a0c6cf5b42cc3388f2f211b04c36a75fc9963cdb68f80abe5a76",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_Z9": {
+        "source_hash": "77f053d8b682cb0e1e738836c15875c93501ee5519ce56054a850319428722e8",
+        "legal_hash": "ed474f669de2c1c9427a3ce3e4759aed6bb544735639ce31e621372eb4951bbb",
+        "claims": [
+            {
+                "norm": "§ 28 Abs. 3 SGB II / Bildungs- und Teilhabepaket",
+                "extracted_value": "195,00 Euro Schulbedarf (130,00 Euro am 1. August und 65,00 Euro am 1. Februar)",
+                "value_type": "EURO",
+                "context": "Persönlicher Schulbedarf für bedürftige Schülerinnen und Schüler",
+                "evidence_location": "Der Betrag von 195,00 Euro wird bewilligt, um den persönlichen Schulbedarf wie Stifte, Hefte, Wasserfarben oder den Schulranzen zu beschaffen. 130,00 Euro werden am 1. August und 65,00 Euro am 1. Februar jeden Jahres ausgezahlt."
+            },
+            {
+                "norm": "§ 28 Abs. 7 SGB II / Bildungs- und Teilhabepaket",
+                "extracted_value": "15 EUR monatlich, maximal bis zu 180 EUR im Jahr",
+                "value_type": "EURO",
+                "context": "Leistungen für die Teilhabe am sozialen und kulturellen Leben in der Gemeinschaft",
+                "evidence_location": "Hierfür werden monatlich 15 EUR zur Verfügung gestellt, also maximal bis zu 180 EUR im Jahr."
+            },
+            {
+                "norm": "§ 28 SGB II / Bildungs- und Teilhabepaket",
+                "extracted_value": "Vollendung des 25. Lebensjahres",
+                "value_type": "TEXT",
+                "context": "Altersgrenze für allgemeine Bildungsleistungen bei Schul- oder Kitabesuch",
+                "evidence_location": "Die übrigen Leistungen können bis zur Vollendung 25. Lebensjahres beantragt werden, wenn eine Kindertageseinrichtung bzw. allgemein- oder berufsbildende Schule besucht wird."
+            },
+            {
+                "norm": "§ 28 Abs. 7 SGB II / Bildungs- und Teilhabepaket",
+                "extracted_value": "unter 18 Jahre",
+                "value_type": "TEXT",
+                "context": "Altersgrenze für Leistungen zur Teilhabe am sozialen und kulturellen Leben",
+                "evidence_location": "Die Leistungen zur Teilhabe am sozialen und kulturellen Leben können für Kinder und Jugendliche beantragt werden, die noch nicht volljährig (unter 18 Jahre) sind."
+            }
+        ],
+        "last_updated": "2026-10-18T02:57:20.212797+00:00"
+    },
+    "praxis_slot_Z10": {
+        "source_hash": "7f9004aa0948945736fdd85cd6da2423ebb2eb93930d60040fd859c8b0aff9b9",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Wohngeldgesetz (WoGG) - Zweck und Zielgruppe",
+                "extracted_value": "Wohn-Geld ist Geld vom Staat. Es hilft Familien und einzelnen Leuten mit wenig Geld.",
+                "value_type": "TEXT",
+                "context": "Definition und Zweck von Wohngeld für Personen mit geringem Einkommen",
+                "evidence_location": "Wohn-Geld ist Geld vom Staat. Es hilft Familien und einzelnen Leuten mit wenig Geld."
+            },
+            {
+                "norm": "Wohngeldbehörde Enzkreis - Kontaktdaten und Antragstellung",
+                "extracted_value": "Landratsamt Enzkreis Sozial- und Versorgungsamt Wohngeldbehörde Zähringerallee 3 75110 Pforzheim Telefon: 07 23 13 08 68 30 E-Mail: wohngeld@enzkreis.de",
+                "value_type": "TEXT",
+                "context": "Adresse und Kontaktdaten der zuständigen Wohngeldbehörde des Landratsamtes Enzkreis",
+                "evidence_location": "Landratsamt Enzkreis Sozial- und Versorgungsamt Wohngeldbehörde Zähringerallee 3 75110 Pforzheim Telefon: 07 23 13 08 68 30 E-Mail: wohngeld@enzkreis.de"
+            }
+        ],
+        "last_updated": "2026-10-18T02:57:32.883730+00:00"
+    },
+    "praxis_slot_Z11": {
+        "source_hash": "b4400160e3a3cb3aa605ca8be15558fc48a477055468db36e367f1c0199f5f39",
+        "legal_hash": "d1e1d77ec17c3b55a3a1c4fd8458c91ece57671e1e49964e8549eb7d3f10e741"
+    },
+    "praxis_slot_Z12": {
+        "source_hash": "dcdd31d5c30d1cfb2f2cf97368e9515f34f186220e4e956985f244875a075d5a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "SGB II / SGB XII",
+                "extracted_value": "Die Schuldnerberatung ist eine Leistung im Rahmen der Sozialgesetzbücher II und XII und steht Empfängern von Grundsicherungsgeld sowie grundsätzlich allen Bewohnern des Enzkreises offen, die ihre Schulden nicht mehr zurückzahlen können (ausgenommen Selbstständige und Personen mit Immobilienverschuldung).",
+                "value_type": "TEXT",
+                "context": "Voraussetzungen und Anspruchsberechtigung für die Schuldnerberatung im Enzkreis",
+                "evidence_location": "Unsere Beratung ist eine Leistung im Rahmen der Sozialgesetzbücher II und XII. Wir nehmen aber nicht nur Empfänger von Grundsicherungsgeld oder Leistungen nach SGB XII in die Beratung auf. Stattdessen können sich grundsätzlich alle Bewohner des Enzkreises an uns wenden, die nicht mehr in der Lage sind, diese Schulden zurück zu zahlen. Nicht beraten werden Selbstständige und Personen, die auf Grund von Immobilienbesitz verschuldet sind."
+            },
+            {
+                "norm": "Schuldnerberatung Enzkreis",
+                "extracted_value": "kostenlos",
+                "value_type": "TEXT",
+                "context": "Kostenfreiheit der Dienstleistung Schuldnerberatung",
+                "evidence_location": "Diese Leistung ist kostenlos."
+            }
+        ],
+        "last_updated": "2026-10-18T02:57:58.774556+00:00"
+    },
+    "praxis_slot_Z13": {
+        "source_hash": "961f7375c7f87fef5cf72bc04a7c16e4e6a2c8a838a910d1cd2833fbce067bef",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Diakonie Enzkreis Tafelladen Mühlacker Richtlinie",
+                "extracted_value": "Berechtigt sind Sie, wenn Sie eine der folgenden Leistungen erhalten: Grundsicherungsgeld (früher Bürgergeld), Grundsicherung/Sozialhilfe, Asylbewerberleistungen oder wenn Sie ein sehr geringes Einkommen haben.",
+                "value_type": "TEXT",
+                "context": "Voraussetzungen für die Ausstellung eines Berechtigungsausweises für den Tafelladen im Enzkreis, insbesondere Bezug von Grundsicherungsgeld (ehemals Bürgergeld).",
+                "evidence_location": "Berechtigt sind Sie, wenn Sie eine der folgenden Leistungen erhalten: Grundsicherungsgeld (früher Bürgergeld) Grundsicherung/Sozialhilfe Asylbewerberleistungen oder wenn Sie ein sehr geringes Einkommen haben."
+            },
+            {
+                "norm": "Tafel Mühlacker Aufnahmestopp",
+                "extracted_value": "Die Tafel Mühlacker kann zur Zeit leider keine Neukunden mehr aufnehmen.",
+                "value_type": "TEXT",
+                "context": "Aktueller Aufnahmestopp für Neukunden im Tafelladen Mühlacker im Enzkreis.",
+                "evidence_location": "Die Tafel Mühlacker kann zur Zeit leider keine Neukunden mehr aufnehmen."
+            }
+        ],
+        "last_updated": "2026-10-18T02:58:09.548372+00:00"
+    },
+    "praxis_slot_Z14": {
+        "source_hash": "cf7353917e7254f8d1df45bc055ad2efec922903a943bda3ef5611665d8f7a1f",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Schuldnerberatung Stadt Pforzheim",
+                "extracted_value": "Die Beratung ist kostenfrei.",
+                "value_type": "EURO",
+                "context": "Kostenregelung für die Schuldnerberatungsstelle der Stadt Pforzheim",
+                "evidence_location": "Die Beratung ist kostenfrei."
+            },
+            {
+                "norm": "Schuldnerberatung Stadt Pforzheim",
+                "extracted_value": "Beraten werden können Pforzheimer Bürgerinnen und Bürger, die aktuell nicht beruflich selbständig sind.",
+                "value_type": "TEXT",
+                "context": "Personenkreis für die Inanspruchnahme der städtischen Schuldnerberatung",
+                "evidence_location": "Beraten werden können Pforzheimer Bürgerinnen und Bürger, die aktuell nicht beruflich selbständig sind."
+            }
+        ],
+        "last_updated": "2026-10-18T02:58:25.520910+00:00"
+    },
+    "praxis_slot_Z15": {
+        "source_hash": "1a6cd400e8500aeec74b06ca2af1b809917616b91cc1072634b22fa317685e81",
+        "legal_hash": "a7f29e1a6f3dab61a2afa61c56355d97ee0ae8a05fb146fe0a57ddd453bcb7fb",
+        "claims": [
+            {
+                "norm": "Kinderzuschlag (KiZ)",
+                "extracted_value": "bis zu 297 € pro Kind und Monat",
+                "value_type": "EURO",
+                "context": "Höhe des Kinderzuschlags ab dem 1. Januar 2025 pro Kind und Monat",
+                "evidence_location": "Der KiZ beträgt seit dem 1. Januar 2025 bis zu 297 € pro Kind und Monat ."
+            },
+            {
+                "norm": "Kinderzuschlag (KiZ) - Mindesteinkommen",
+                "extracted_value": "mindestens 600 € brutto (bei Alleinerziehenden) oder mindestens 900 € brutto (bei Paarfamilien)",
+                "value_type": "EURO",
+                "context": "Mindesterwerbseinkommen im Durchschnitt der letzten 6 Monate zur Voraussetzung des Kinderzuschlags",
+                "evidence_location": "Ein Antragsteller muss im Durchschnitt der letzten 6 Monate mindestens 600 € brutto (bei Alleinerziehenden) oder mindestens 900 € brutto (bei Paarfamilien) im Monat verdient haben."
+            },
+            {
+                "norm": "Unterhaltsvorschussgesetz - Stand 01.01.2022",
+                "extracted_value": "177 € monatlich für Kinder bis 6 Jahre, 236 € monatlich für Kinder von 7 bis 12 Jahre, 314 € monatlich für Kinder bis 18 Jahre",
+                "value_type": "EURO",
+                "context": "Höhe der monatlichen Unterhaltsvorschussleistungen nach Altersstufen",
+                "evidence_location": "Die Unterhaltsvorschussleistungen betragen ab 01.01.2022 für Kinder bis zur Vollendung des 6. Lebensjahres zur Zeit monatlich 177 €, für Kinder vom 7. bis zur Vollendung des 12. Lebensjahres monatlich 236 € sowie für Kinder bis zur Vollendung des 18. Lebensjahres monatlich 314 €."
+            },
+            {
+                "norm": "Elterngeld",
+                "extracted_value": "67 Prozent des Nettoerwerbseinkommens, maximal 1.800 EUR monatlich, Mindestbetrag 300 EUR monatlich",
+                "value_type": "EURO",
+                "context": "Höhe und Grenzen der monatlichen Elterngeldzahlung",
+                "evidence_location": "Das Elterngeld beträgt i. d. R. 67 Prozent des in den letzten 12 Monaten vor der Geburt des Kindes bzw. vor Beginn der Mutterschutzfrist durchschnittlich erzielten monatlichen Nettoerwerbseinkommens, maximal 1.800 EUR monatlich."
+            }
+        ],
+        "last_updated": "2026-10-18T02:58:40.765893+00:00"
+    },
+    "praxis_slot_Z16": {
+        "source_hash": "ea778ac4276a2ecd4a4992b64a5a9465a4cb99f0910d2ee40f41ebd010d469a2",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landesblindenhilfegesetz",
+                "extracted_value": "Blinde Menschen erhalten zum Ausgleich der durch die Blindheit bedingten Mehraufwendungen und Benachteiligungen eine Landesblindenhilfe nach dem Landesblindenhilfegesetz.",
+                "value_type": "TEXT",
+                "context": "Finanzielle Leistung zum Ausgleich blindheitsbedingter Mehraufwendungen im Stadtkreis Pforzheim",
+                "evidence_location": "Blinde Menschen erhalten zum Ausgleich der durch die Blindheit bedingten Mehraufwendungen und Benachteiligungen eine Landesblindenhilfe nach dem Landesblindenhilfegesetz."
+            },
+            {
+                "norm": "SGB XII",
+                "extracted_value": "Sofern die sozialhilferechtlichen Voraussetzungen vorliegen, wird zusätzlich Blindenhilfe nach dem Sozialgesetzbuch, 12. Buch (SGB XII), gewährt.",
+                "value_type": "TEXT",
+                "context": "Zusätzliche Gewährung von Blindenhilfe nach SGB XII bei sozialhilferechtlichem Bedarf",
+                "evidence_location": "Sofern die sozialhilferechtlichen Voraussetzungen vorliegen, wird zusätzlich Blindenhilfe nach dem Sozialgesetzbuch, 12. Buch (SGB XII), gewährt."
+            },
+            {
+                "norm": "Eingliederungshilfe",
+                "extracted_value": "Behinderte Kinder erhalten Eingliederungshilfe im Rahmen der Frühförderung sowie in Sonderschulkindergärten und Sonderschulen.",
+                "value_type": "TEXT",
+                "context": "Förderung und Eingliederungshilfe für behinderte Kinder im Stadtkreis Pforzheim",
+                "evidence_location": "Behinderte Kinder erhalten Eingliederungshilfe im Rahmen der Frühförderung sowie in Sonderschulkindergärten und Sonderschulen."
+            }
+        ],
+        "last_updated": "2026-10-18T02:58:56.326731+00:00"
+    },
+    "praxis_slot_Z17": {
+        "source_hash": "5ca8cf87342c2e6995098425c0c28f2a1d83dbcafcbfc88bff49f7c13954cb96",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Berufliches Rehabilitierungsgesetz / SGB XII",
+                "extracted_value": "Ausgleichsleistungen nach dem Beruflichen Rehabilitierungsgesetz können Personen beantragen, die als Verfolgte von der zuständigen Landesbehörde anerkannt sind und eine entsprechende Bescheinigung vorlegen.",
+                "value_type": "TEXT",
+                "context": "Voraussetzungen und Antragsstellung für Ausgleichsleistungen nach dem Beruflichen Rehabilitierungsgesetz in Verbindung mit dem SGB XII.",
+                "evidence_location": "Ausgleichsleistungen nach dem Beruflichen Rehabilitierungsgesetz können Personen beantragen, die als Verfolgte von der zuständigen Landesbehörde anerkannt sind und eine entsprechende Bescheinigung vorlegen."
+            },
+            {
+                "norm": "SGB XIV / Entschädigungsrecht",
+                "extracted_value": "Für alle Leistungen nach dem Entschädigungsrecht (SGB XIV) ist die Stadt Pforzheim (Jugend- und Sozialamt) seit dem 01. Januar 2024 nicht mehr zuständig.",
+                "value_type": "DATE",
+                "context": "Änderung der Zuständigkeit für Leistungen nach dem Entschädigungsrecht (SGB XIV) und der Kriegsopferfürsorge ab dem 01. Januar 2024.",
+                "evidence_location": "Für alle Leistungen nach dem Entschädigungsrecht (SGB XIV) ist die Stadt Pforzheim (Jugend- und Sozialamt) seit dem 01. Januar 2024 nicht mehr zuständig."
+            }
+        ],
+        "last_updated": "2026-10-18T02:59:10.732501+00:00"
+    },
+    "praxis_slot_Z18": {
+        "source_hash": "6cc05683ca6882e4ede9bf8ac8956bfc28b5719830a9ba611dd6b2224e08c427",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Sozialgesetzbuch VIII",
+                "extracted_value": "Auf der Basis des Sozialgesetzbuches VIII fördert die Stadt Pforzheim auch finanziell die vielseitigen Aktivitäten der Jugendverbände durch Zuschüsse zur Förderung der Jugendarbeit (Jugendfördermittel).",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlage für die Gewährung von Zuschüssen zur Förderung der Jugendarbeit (Jugendfördermittel) durch die Stadt Pforzheim.",
+                "evidence_location": "Auf der Basis des Sozialgesetzbuches VIII fördert die Stadt Pforzheim auch finanziell die vielseitigen Aktivitäten der Jugendverbände durch Zuschüsse zur Förderung der Jugendarbeit (Jugendfördermittel)."
+            }
+        ],
+        "last_updated": "2026-10-18T02:59:19.028629+00:00"
+    },
+    "praxis_slot_Z19": {
+        "source_hash": "b7ca063769aad7558fae5cff7ad16d40415b070067670aaeed771af29aa00194",
+        "legal_hash": "c3a40e1b60f3ffc3894cf1b4ddeec8bafdf2919b71ea7832f88b85e7d5680bbc",
+        "claims": [
+            {
+                "norm": "SGB II / SGB XII / Goldstadt-Pass",
+                "extracted_value": "Bei Bezug von Arbeitslosengeld II (SGB II) und Sozialhilfe (SGB XII) erhalten Sie den Goldstadt-Pass automatisch mit Ihrem Leistungsbescheid.",
+                "value_type": "TEXT",
+                "context": "Automatische Ausstellung des Goldstadt-Passes bei Bezug von SGB II oder SGB XII Leistungen in Pforzheim.",
+                "evidence_location": "Bei Bezug von Arbeitslosengeld II (SGB II) und Sozialhilfe (SGB XII) erhalten Sie den Goldstadt-Pass automatisch mit Ihrem Leistungsbescheid."
+            },
+            {
+                "norm": "Goldstadt-Pass - Stadtbibliothek",
+                "extracted_value": "50%",
+                "value_type": "PERCENT",
+                "context": "Ermäßigung der Jahresgebühr der Stadtbibliothek Pforzheim mit dem Goldstadt-Pass.",
+                "evidence_location": "Stadtbibliothek Ermäßigung der Jahresgebühr um 50%"
+            },
+            {
+                "norm": "Goldstadt-Pass - Jugendmusikschule",
+                "extracted_value": "20%",
+                "value_type": "PERCENT",
+                "context": "Ermäßigung der Unterrichtsgebühren der Jugendmusikschule Pforzheim.",
+                "evidence_location": "Jugendmusikschule Ermäßigung der Unterrichtsgebühren um 20%"
+            },
+            {
+                "norm": "Goldstadt-Pass - Volkshochschule Pforzheim – Enzkreis",
+                "extracted_value": "30%",
+                "value_type": "PERCENT",
+                "context": "Ermäßigung der Kursgebühr der Volkshochschule Pforzheim – Enzkreis.",
+                "evidence_location": "Volkshochschule Pforzheim – Enzkreis Ermäßigung der Kursgebühr um 30% (ausgenommen spezielle Kurse)"
+            },
+            {
+                "norm": "Goldstadt-Pass - Gültigkeit",
+                "extracted_value": "1 jahr für die letztgenannten Unterstützungsarten.",
+                "value_type": "TEXT",
+                "context": "Gültigkeitsdauer des Goldstadt-Passes für Empfänger von Wohngeld, Kinderzuschlag, AsylbLG oder Leistungen nach SGB VIII.",
+                "evidence_location": "Der Goldstadt-Pass ist solange gültig, wie Sie die beiden erstgenannten finanziellen Unterstützungen erhalten, bzw. 1 jahr für die letztgenannten Unterstützungsarten."
+            },
+            {
+                "norm": "Stadt Pforzheim Freigabevermerk",
+                "extracted_value": "15.12.2020",
+                "value_type": "DATE",
+                "context": "Stand des Informationstextes zum Goldstadt-Pass der Stadt Pforzheim.",
+                "evidence_location": "Freigabevermerk Stadt Pforzheim, 15.12.2020"
+            }
+        ],
+        "last_updated": "2026-10-18T02:59:35.300964+00:00"
+    },
+    "praxis_slot_Z20": {
+        "source_hash": "bc8bd41174fb4a9e725a4961b311a7d77888882e2156fbe96b61b4d47603e422",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Amtsgericht Pforzheim VR 19",
+                "extracted_value": "Eintragung im Vereinsregister des Amtsgerichts Pforzheim unter der Registernummer VR 19 für den Förderverein der Pforzheimer Tafel e.V.",
+                "value_type": "TEXT",
+                "context": "Vereinsregistereintragung des Fördervereins der Pforzheimer Tafel e.V. beim zuständigen Registergericht Pforzheim.",
+                "evidence_location": "Eingetragen im Vereinsregister Amtsgericht Pforzheim Nr.VR 19"
+            },
+            {
+                "norm": "Vereinszweck / Satzungsziel",
+                "extracted_value": "Verhinderung der Schließung der gemeinnützigen Pforzheimer Tafeln der GBE Pforzheim aus Mangel an öffentlichen Geldern sowie Unterstützung der ehrenamtlichen Mitarbeiter",
+                "value_type": "TEXT",
+                "context": "Zweck und Zielsetzung des Fördervereins zur Sicherung des Fortbestands der Tafeln in Pforzheim (Projekte Zeppelinstraße 16 und Brötzingen Kelterstraße 107).",
+                "evidence_location": "Der Förderverein-Pforzheimertafel e.V. wurde ins Leben gerufen um die Schließung der gemeinnützigen Pforzheimer Tafeln der GBE Pforzheim aus Mangel an öffentlichen Geldern zu verhindern."
+            }
+        ],
+        "last_updated": "2026-10-18T03:00:13.632143+00:00"
+    },
+    "praxis_slot_Z21": {
+        "source_hash": "95ac64c596ccd198be073f59735cf3941ff7ff6924b4028dd1ce7682f8c3822d",
+        "legal_hash": "b8bffade938cd953c6c517ccae591eb4f6382c9cfb94cc41a604293b5087db24",
+        "claims": [
+            {
+                "norm": "Mietspiegel Stadt Pforzheim",
+                "extracted_value": "01.04.2025",
+                "value_type": "DATE",
+                "context": "Gültigkeitsdatum des aktuellen Mietspiegels der Stadt Pforzheim mit Datenstand Oktober 2024",
+                "evidence_location": "Den aktuellen Mietspiegel gültig ab 01.04.2025 zum Datenstand Oktober 2024 können Sie an folgenden Ausgabestellen erhalten:"
+            },
+            {
+                "norm": "Mietspiegel Stadt Pforzheim - Kosten",
+                "extracted_value": "kostenfrei",
+                "value_type": "TEXT",
+                "context": "Kosten für den Bezug und Herunterladen des Mietspiegels der Stadt Pforzheim",
+                "evidence_location": "Sie können den aktuellen Mietspiegel online bestellen, kostenfrei als PDF herunterladen (Wird in einem neuen Fenster geöffnet) , kostenfrei bei einer der genannten Ausgabestellen abholen oder den Mietspiegelrechner verwenden (Wird in einem neuen Fenster geöffnet) ."
+            },
+            {
+                "norm": "§ 27 a Umsatzsteuergesetz",
+                "extracted_value": "DE 144189883",
+                "value_type": "TEXT",
+                "context": "Umsatzsteuer-Identifikationsnummer der Stadt Pforzheim",
+                "evidence_location": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE 144189883"
+            }
+        ],
+        "last_updated": "2026-10-18T03:00:27.729933+00:00"
+    },
+    "praxis_slot_Z22": {
+        "source_hash": "de9c32e1a31dd51a8553f2013733bbc252e96ba484a73f77c95e3755791f453e",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Stadtkreis Pforzheim - Finanzielle Hilfe für obdachlose Menschen",
+                "extracted_value": "Allein stehende Obdachlose mit besonderen sozialen Schwierigkeiten erhalten in speziellen Einrichtungen persönliche und finanzielle Hilfe, bestehend aus der Übernahme der Kosten für die Einrichtung, einem monatlichen Barbetrag zur persönlichen Verfügung und einmaligen Beihilfen.",
+                "value_type": "TEXT",
+                "context": "Finanzielle und persönliche Hilfen für alleinstehende Obdachlose mit besonderen sozialen Schwierigkeiten im Stadtkreis Pforzheim",
+                "evidence_location": "Allein stehende Obdachlose mit besonderen sozialen Schwierigkeiten (z.B. ohne Einkommen, mit psychischen Problemen, Suchtproblemen) erhalten in speziellen Einrichtungen für diesen Personenkreis persönliche und finanzielle Hilfe."
+            }
+        ],
+        "last_updated": "2026-10-18T03:00:38.948545+00:00"
+    },
+    "praxis_slot_Z23": {
+        "source_hash": "f2c26bca8726271f4b241eda191169a8a7ecca524ca0f9de964d8ff4b93683ee",
+        "legal_hash": "c0efd91a9d01b832b9f800b37b5dbd25023865b8f0863e8cd16c01d5085f8ad4",
+        "claims": [
+            {
+                "norm": "DSGVO / Form-Solutions Einwilligungserklärung",
+                "extracted_value": "180 Tage",
+                "value_type": "TEXT",
+                "context": "Frist für die automatische Löschung von gespeicherten personenbezogenen Daten nach Bearbeitung des Anliegens.",
+                "evidence_location": "Eine automatische Löschung erfolgt nach 180 Tagen, insofern entsprechende Daten nicht weiter benötigt werden."
+            },
+            {
+                "norm": "WoGG / Weiterleistungsantrag Mietzuschuss (WlaMz)",
+                "extracted_value": "2.000 EUR",
+                "value_type": "EURO",
+                "context": "Maximalhöhe der Geldbuße bei einer Ordnungswidrigkeit wegen falscher, unvollständiger oder nicht mitgeteilter Angaben im Wohngeldantrag.",
+                "evidence_location": "Wenn Ihre Angaben falsch sind, Angaben verschwiegen wurden oder Änderungen nicht mitgeteilt werden, können Sie damit eine Ordnungswidrigkeit (Geldbuße bis zu 2.000 EUR) oder sogar eine Straftat (z.B. Betrug) begehen."
+            },
+            {
+                "norm": "WoGG / SGB II",
+                "extracted_value": "Angabepflicht für den Bezug von Bürgergeld (SGB II) und anderen staatlichen Leistungen",
+                "value_type": "TEXT",
+                "context": "Erfassung von parallelen Sozialleistungsbezügen (u. a. Bürgergeld nach SGB II) im Rahmen der Wohngeldbewilligung.",
+                "evidence_location": "Beziehen Sie oder ein weiteres Haushaltsmitglied eine andere staatliche Leistung (z.B. Bürgergeld -SGB II, Hilfe zum Lebensunterhalt -SGB XII, Berufsausbildungsbeihilfe, BAföG, Unterhaltsvorschuss) oder ist eine solche Leistung beantragt?"
+            }
+        ],
+        "last_updated": "2026-10-23T01:02:37.252560+00:00"
+    },
+    "praxis_slot_Z24": {
+        "source_hash": "0ad3414a07eff95fafa3fcbf9f18bbf8fb0496a04c0bf5c74346097f2eb27ecb",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Wohnberechtigungsschein",
+                "extracted_value": "Beantragung des Wohnberechtigungsscheins wird als betreutes Verfahren der Organisationseinheit 3.5.3 Wohnungswesen/Wohnungssicherung geführt.",
+                "value_type": "TEXT",
+                "context": "Zuständigkeit für Wohnberechtigungsscheine bei der Stadt Pforzheim",
+                "evidence_location": "3.5.3 Wohnungswesen/ Wohnungssicherung Betreute Verfahren Wohnberechtigungsschein beantragen"
+            },
+            {
+                "norm": "Wohnraumförderung",
+                "extracted_value": "Die Betreuung umfasst Förderungsverfahren für den Erwerb von Genossenschaftsanteilen, allgemeinen Sozialmietwohnraum, Mietwohnraum für Haushalte mit besonderen Schwierigkeiten bei der Wohnraumversorgung und selbst genutztes Wohneigentum.",
+                "value_type": "TEXT",
+                "context": "Wohnraumförderungsverfahren im Bereich Wohnungswesen und Wohnungssicherung",
+                "evidence_location": "Wohnraumförderung - Förderung des Erwerbs von Genossenschaftsanteilen beantragen Wohnraumförderung - Förderung von allgemeinem Sozialmietwohnraum beantragen Wohnraumförderung - Förderung von Mietwohnraum für Haushalte mit besonderen Schwierigkeiten bei der Wohnraumversorgung beantragen Wohnraumförderung - Förderung von selbst genutztem Wohneigentum beantragen"
+            },
+            {
+                "norm": "Z15 / Formulare Wohnungswesen",
+                "extracted_value": "Bereitstellung der Antragsformulare Z15 Online Antrag, Förderung von Mietwohnraum, Wohnberechtigungsschein sowie Wohneigentumsförderung.",
+                "value_type": "TEXT",
+                "context": "Onlineanträge und Formulare des Amts für Wohnungswesen/Wohnungssicherung",
+                "evidence_location": "Onlineantrag und Formulare Z15 Online Antrag Förderung von Mietwohnraum - Antrag Wohnberechtigungsschein (Antrag) Wohneigentumsförderung"
+            }
+        ],
+        "last_updated": "2026-10-18T03:01:03.880840+00:00"
+    },
+    "praxis_slot_Z25": {
+        "source_hash": "13ca616e2aef98d616c785ae20b66124445acaa6aeebe335254fefcb05d1852b",
+        "legal_hash": "bf9d1fee6b338abf4855262002559c237beb2e3c5c04628e3d6234535d117078",
+        "claims": [
+            {
+                "norm": "Abfallwirtschaftssatzung Pforzheim § 12 Abs. 7",
+                "extracted_value": "7,5 Liter",
+                "value_type": "TEXT",
+                "context": "Vorgeschriebenes Restmüllvolumen pro Person und Woche",
+                "evidence_location": "Gemäß § 12 Abs. 7 der Abfallwirtschaftssatzung ist ein Restmüllvolumen von 7,5 Liter pro Person und Woche vorzuhalten."
+            },
+            {
+                "norm": "Abfallwirtschaft Pforzheim Müllgebühren",
+                "extracted_value": "30,00 €",
+                "value_type": "EURO",
+                "context": "Behälterschlossgebühr pro Behälter",
+                "evidence_location": "Die Behälterschlossgebühr beträgt pro Behälter 30,00 €."
+            },
+            {
+                "norm": "Abfallwirtschaft Pforzheim Müllgebühren",
+                "extracted_value": "3,54 €",
+                "value_type": "EURO",
+                "context": "Gebühr für Restmüllsack oder Restmüllbehälter 35 l",
+                "evidence_location": "Restmüllsack 35 l, 3,54 €"
+            },
+            {
+                "norm": "Abfallwirtschaft Pforzheim Müllgebühren",
+                "extracted_value": "4,79 €",
+                "value_type": "EURO",
+                "context": "Gebühr für Restmüllbehälter 60 l",
+                "evidence_location": "Restmüllbehälter 60 l, 4,79 €"
+            },
+            {
+                "norm": "Abfallwirtschaft Pforzheim Müllgebühren",
+                "extracted_value": "7,67 €",
+                "value_type": "EURO",
+                "context": "Gebühr für Restmüllbehälter 120 l",
+                "evidence_location": "Restmüllbehälter 120 l, 7,67 €"
+            },
+            {
+                "norm": "Abfallwirtschaft Pforzheim Müllgebühren",
+                "extracted_value": "13,95 €",
+                "value_type": "EURO",
+                "context": "Gebühr für Restmüllbehälter 240 l",
+                "evidence_location": "Restmüllbehälter 240 l, 13,95 €"
+            },
+            {
+                "norm": "Abfallwirtschaft Pforzheim Müllgebühren",
+                "extracted_value": "1,50 €",
+                "value_type": "EURO",
+                "context": "Gebühr für Biobehälter 60 l",
+                "evidence_location": "Biobehälter 60 l, 1,50 €"
+            },
+            {
+                "norm": "Abfallwirtschaft Pforzheim Müllgebühren",
+                "extracted_value": "2,42 €",
+                "value_type": "EURO",
+                "context": "Gebühr für Biobehälter 120 l",
+                "evidence_location": "Biobehälter 120 l, 2,42 €"
+            },
+            {
+                "norm": "Abfallwirtschaft Pforzheim Müllgebühren",
+                "extracted_value": "4,29 €",
+                "value_type": "EURO",
+                "context": "Gebühr für Biobehälter 240 l",
+                "evidence_location": "Biobehälter 240 l, 4,29 €"
+            }
+        ],
+        "last_updated": "2026-10-18T03:01:13.300977+00:00"
+    },
+    "praxis_slot_Z26": {
+        "source_hash": "69e17080ac67dd9c386fbc6775d36ac78ce9f51d74f8db4b77b0484bb713c4db",
+        "legal_hash": "16ead55989ebca2e82debf08a90263572c2a5c027107fa8e7f9aee7f6e4e137c",
+        "claims": [
+            {
+                "norm": "§ 24, § 90, § 82, § 85 SGB VIII",
+                "extracted_value": "Rechtsgrundlage für die Erhebung von Kostenbeiträgen sowie den Anspruch auf Förderung in Tageseinrichtungen und den Begriff des Einkommens sowie die Einkommensgrenze.",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlagen für die Gebührenermäßigung oder -befreiung für Kindertageseinrichtungen in Pforzheim",
+                "evidence_location": "Rechtsgrundlage Achtes Buch Sozialgesetzbuch : § 24 Anspruch auf Förderung in Tageseinrichtungen § 90 Erhebung von Kostenbeiträgen § 82 Begriff des Einkommens § 85 Einkommensgrenze"
+            },
+            {
+                "norm": "Verwaltungsrecht",
+                "extracted_value": "Gegen den Ablehnungsbescheid können Sie bei der Stelle, die den Bescheid erlassen hat, innerhalb eines Monats Widerspruch einlegen.",
+                "value_type": "DATE",
+                "context": "Frist für den Rechtsbehelf (Widerspruch) gegen einen Ablehnungsbescheid",
+                "evidence_location": "Gegen den Ablehnungsbescheid können Sie bei der Stelle, die den Bescheid erlassen hat, innerhalb eines Monats Widerspruch einlegen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:01:22.011460+00:00"
+    },
+    "praxis_slot_Z27": {
+        "source_hash": "c5efa320ddd2fda6b8b84bc0954fa8d59c6aaff5937c740bf47531ad58f38ff2",
+        "legal_hash": "34af77eba8423b3e32f50098c55df546aeaa33710c0f865218e05f0b96457358",
+        "claims": [
+            {
+                "norm": "§ 7a SGB XI",
+                "extracted_value": "Pflegeberatung nach § 7a SGB XI",
+                "value_type": "TEXT",
+                "context": "Leistungsangebot des Pflegestützpunkts der Stadt Pforzheim",
+                "evidence_location": "Pflegeberatung nach § 7a SGB XI"
+            }
+        ],
+        "last_updated": "2026-10-18T03:01:30.265277+00:00"
+    },
+    "praxis_slot_Z28": {
+        "source_hash": "44f848a4940a7ebeeac91b7db9f4dc2aa86688d5d061ff4afd1616ba01ecb782",
+        "legal_hash": "b55f6ba8e4f4e92a9afe79e44dfa6ed29828a694d047a45f340c6adfdb1f22c1",
+        "claims": [
+            {
+                "norm": "Unterhaltsvorschussgesetz (UVG) / SGB II",
+                "extracted_value": "EUR 600,00 brutto",
+                "value_type": "EURO",
+                "context": "Voraussetzung für den Anspruch auf Unterhaltsvorschuss für Kinder ab 12 Jahren bei Bezug von SGB II-Leistungen durch den alleinerziehenden Elternteil",
+                "evidence_location": "Ein Anspruch haben diese nur, wenn das Kind oder der alleinerziehende Elternteil keine Leistungen nach dem Sozialgesetzbuch (SGB) II bezieht wie beispielsweise ALG II oder durch den Unterhaltsvorschussbezug die Hilfebedürftigkeit des Kindes vermieden werden kann oder der alleinerziehende Elternteil zwar Leistungen nach dem Sozialgesetzbuch (SGB ) II bezieht, aber ein monatliches Einkommen in Höhe von mindestens EUR 600,00 brutto erzielt."
+            },
+            {
+                "norm": "Freigabevermerk",
+                "extracted_value": "15.01.2026",
+                "value_type": "DATE",
+                "context": "Datum des Freigabevermerks der Leistungsinformationen",
+                "evidence_location": "Freigabevermerk 15.01.2026 Sozialministerium Baden-Württemberg"
+            }
+        ],
+        "last_updated": "2026-10-18T03:01:42.185815+00:00"
+    },
+    "praxis_slot_Z29": {
+        "source_hash": "b3a3b853c6fb1ba7bc6531d53c21fc25aedd7c08b3d4e43f9a30c648fc5743a5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Lebenslage Arbeitnehmer",
+                "extracted_value": "Die Lebenslage Arbeitnehmer richtet sich an alle, die in einem Arbeitsverhältnis stehen und sich über ihre Rechte und Pflichten informieren wollen.",
+                "value_type": "TEXT",
+                "context": "Informationen für Arbeitnehmer bezüglich Rechte und Pflichten im Arbeitsverhältnis.",
+                "evidence_location": "Die Lebenslage \"Arbeitnehmer\" richtet sich an alle, die in einem Arbeitsverhältnis stehen und sich über ihre Rechte und Pflichten informieren wollen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:01:50.142986+00:00"
+    },
+    "praxis_slot_Z30": {
+        "source_hash": "9221bb3d70a3bd7acea178b3be2869d8310965c44a0db70a7d6e1fbeba3ae992",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Bürgergeld",
+                "extracted_value": "Bürgergeld beantragen",
+                "value_type": "TEXT",
+                "context": "Leistung für Arbeitsuchende und Arbeitslose zur Sicherung des Lebensunterhalts",
+                "evidence_location": "Bürgergeld beantragen Eine Arbeitsgelegenheit vermittelt bekommen"
+            }
+        ],
+        "last_updated": "2026-10-18T03:01:57.988743+00:00"
+    },
+    "praxis_slot_Z31": {
+        "source_hash": "46660bfd26161fca9c9ad4e8f1b7ccca96295056868a732121c4f9914dccec13",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Wirtschaftsministerium Baden-Württemberg",
+                "extracted_value": "15.04.2025",
+                "value_type": "DATE",
+                "context": "Freigabevermerk der Dienstleistungsserie zur Berufsausbildung in Baden-Württemberg",
+                "evidence_location": "Freigabevermerk 15.04.2025 Wirtschaftsministerium Baden-Württemberg"
+            }
+        ],
+        "last_updated": "2026-10-18T03:02:05.893179+00:00"
+    },
+    "praxis_slot_Z32": {
+        "source_hash": "239f69ababa098708a24bad11ab6292e4ce036b856f7b7368104fc35a56e4d73",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage Schule",
+                "extracted_value": "Die Ferienpläne für Baden-Württemberg finden Sie auf den Seiten des Kultusministeriums",
+                "value_type": "TEXT",
+                "context": "Informationen zu Ferienplänen in Baden-Württemberg auf Service-BW",
+                "evidence_location": "Die Ferienpläne für Baden-Württemberg (Wird in einem neuen Fenster geöffnet) finden Sie auf den Seiten des Kultusministeriums, Ferientermine in anderen Bundesländern (Wird in einem neuen Fenster geöffnet) veröffentlicht die Kultusministerkonferenz."
+            }
+        ],
+        "last_updated": "2026-10-18T03:02:14.019590+00:00"
+    },
+    "praxis_slot_Z33": {
+        "source_hash": "69a8829f98e241cbc91159435fe2c050353599a41a006371e38f78746f17ecba",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "https://www.service-bw.de/zufi/lebenslagen/5001119",
+                "extracted_value": "Hier finden Sie einen Überblick über die vielfältige Studienlandschaft in Baden-Württemberg: Wir bieten Ihnen Informationen zu Voraussetzungen, Auswahlverfahren und Formen der Studienplatzvergabe, aber auch zu den Kosten, Förderungen und sozialen Aspekten.",
+                "value_type": "TEXT",
+                "context": "Übersicht über die Studienlandschaft in Baden-Württemberg inklusive Voraussetzungen, Kosten und Förderungen.",
+                "evidence_location": "Hier finden Sie einen Überblick über die vielfältige Studienlandschaft in Baden-Württemberg: Wir bieten Ihnen Informationen zu Voraussetzungen, Auswahlverfahren und Formen der Studienplatzvergabe, aber auch zu den Kosten, Förderungen und sozialen Aspekten."
+            }
+        ],
+        "last_updated": "2026-10-18T03:02:22.096374+00:00"
+    },
+    "praxis_slot_Z34": {
+        "source_hash": "b61179fec931dba7d2dfc1e081f238ae65b4e0ef16a42643a6b8d75bd46a7739",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "service-bw.de/zufi/lebenslagen/5000199",
+                "extracted_value": "Der Begriff Weiterbildung umfasst: allgemeine Weiterbildung, berufliche Fortbildung, kirchliche und ländliche Erwachsenenbildung, politische Bildung, wissenschaftliche Weiterbildung, Eltern- und Familienbildung.",
+                "value_type": "TEXT",
+                "context": "Definition des Begriffs Weiterbildung im Rahmen der Lebenslage in Baden-Württemberg",
+                "evidence_location": "Der Begriff \"Weiterbildung\" umfasst: allgemeine Weiterbildung, berufliche Fortbildung, kirchliche und ländliche Erwachsenenbildung, politische Bildung, wissenschaftliche Weiterbildung, Eltern- und Familienbildung."
+            }
+        ],
+        "last_updated": "2026-10-18T03:02:30.162395+00:00"
+    },
+    "praxis_slot_Z35": {
+        "source_hash": "74f720e37a85e0056476e559f37d8b1b720db09f577738c5edd5a5b7ffe66c36",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Fahrerlaubnisverordnung",
+                "extracted_value": "Ab dem 19. Januar 2013 ausgestellte Kartenführerscheine sind auf 15 Jahre befristet.",
+                "value_type": "TEXT",
+                "context": "Gültigkeitsdauer und Befristung von neu ausgestellten Kartenführerscheinen in Baden-Württemberg",
+                "evidence_location": "Achtung: Ab dem 19. Januar 2013 ausgestellte Kartenführerscheine sind auf 15 Jahre befristet."
+            }
+        ],
+        "last_updated": "2026-10-18T03:02:40.681777+00:00"
+    },
+    "praxis_slot_Z36": {
+        "source_hash": "54a12f5528359a0adbb9600cf37f42a69b7f16b8c71a10057aa8cbfa9c51e50c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Ausweispflicht (§ 1 PAuswG)",
+                "extracted_value": "Jeder Deutsche, der mindestens 16 Jahre alt ist und der Meldepflicht unterliegt oder sich überwiegend in Deutschland aufhält, ist verpflichtet, einen gültigen Personalausweis zu besitzen.",
+                "value_type": "TEXT",
+                "context": "Regelung der allgemeinen Ausweispflicht in Deutschland ab Vollendung des 16. Lebensjahres.",
+                "evidence_location": "Jeder Deutsche, der mindestens 16 Jahre alt ist und der Meldepflicht unterliegt oder sich überwiegend in Deutschland aufhält, ist verpflichtet, einen gültigen Personalausweis zu besitzen (Ausweispflicht)."
+            },
+            {
+                "norm": "Passgesetz / Kinderreisepass",
+                "extracted_value": "01.01.2024",
+                "value_type": "DATE",
+                "context": "Einstellung der Beantragungsmöglichkeit für Kinderreisepässe ab dem 1. Januar 2024.",
+                "evidence_location": "Kinderreisepass - eine Beantragung ist seit 1. Januar 2024 nicht mehr möglich"
+            }
+        ],
+        "last_updated": "2026-10-18T03:02:54.204093+00:00"
+    },
+    "praxis_slot_Z37": {
+        "source_hash": "e10f95135f2e53178370f4d59dc8daca2fc560ef46d48db8a4f66b08fc40f8e3",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg",
+                "extracted_value": "23.12.2025",
+                "value_type": "DATE",
+                "context": "Freigabevermerk der Informationsseite zu Tierhaltung, Tierschutz, Fischerei und Jagd in Baden-Württemberg",
+                "evidence_location": "Freigabevermerk 23.12.2025 Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg"
+            }
+        ],
+        "last_updated": "2026-10-18T03:03:02.112129+00:00"
+    },
+    "praxis_slot_Z38": {
+        "source_hash": "44fae5070bf98b11a856e15399041c377928e4b5609914ea6ae3f2c8990e3eac",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_Z39": {
+        "source_hash": "b20abe1eaa96b819e4c3e085c0c62cf5fa89273f4d306acdc152ad876b5f519a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Lebenslage Grundstück (service-bw.de)",
+                "extracted_value": "Zu der Lebenslage Grundstück gehören behördliche Leistungen wie Abwasser entsorgen, Auskunft aus dem Bodenschutz- und Altlastenkataster beantragen, Auskunft aus der Kaufpreissammlung beantragen sowie Baugenehmigung - Nutzungsänderung einer baulichen Anlage beantragen.",
+                "value_type": "TEXT",
+                "context": "Verwaltungsangebote und Verfahren für Grundstückseigentümer und -käufer in Baden-Württemberg.",
+                "evidence_location": "Passende Leistungen zu dieser Lebenslage Abwasser entsorgen Altlasten- und Bodenschutzkataster Auskunft aus dem Bodenschutz- und Altlastenkataster beantragen Auskunft aus der Kaufpreissammlung beantragen Baugenehmigung - Nutzungsänderung einer baulichen Anlage beantragen 25 weitere anzeigen ..."
+            }
+        ],
+        "last_updated": "2026-10-18T03:03:20.704024+00:00"
+    },
+    "praxis_slot_Z40": {
+        "source_hash": "e34defb78186ce59237fb4028eeed15eaaed4f6584a411804cacdd429ea51df1",
+        "legal_hash": "9c6ab7738a51e6bda2fad3b31d646cf371b528e739a47ef27ff983e3d59a38b5",
+        "claims": [
+            {
+                "norm": "§ 21 Bundesmeldegesetz (BMG)",
+                "extracted_value": "Wenn Sie umziehen und mehrere Wohnungen angemeldet haben, müssen Sie erklären, welche Wohnung Ihre Hauptwohnung und welche Ihre Nebenwohnungen sind.",
+                "value_type": "TEXT",
+                "context": "Melderechtliche Pflichten bei mehreren Wohnungen und Bestimmung der Hauptwohnung",
+                "evidence_location": "Wenn Sie umziehen und mehrere Wohnungen angemeldet haben, müssen Sie erklären, welche Wohnung Ihre Hauptwohnung und welche Ihre Nebenwohnungen sind."
+            },
+            {
+                "norm": "§ 22 Bundesmeldegesetz (BMG)",
+                "extracted_value": "Dabei ist die Hauptwohnung nicht frei wählbar, sondern die vorwiegend genutzte Wohnung, in der Sie sich im Verhältnis zu einer oder mehreren anderen Wohnungen tatsächlich am häufigsten aufhalten.",
+                "value_type": "TEXT",
+                "context": "Definition und Bestimmung der Hauptwohnung",
+                "evidence_location": "Dabei ist die Hauptwohnung nicht frei wählbar, sondern die vorwiegend genutzte Wohnung, in der Sie sich im Verhältnis zu einer oder mehreren anderen Wohnungen tatsächlich am häufigsten aufhalten."
+            }
+        ],
+        "last_updated": "2026-10-18T03:03:29.022232+00:00"
+    },
+    "praxis_slot_Z41": {
+        "source_hash": "014408633a9a4d4f0b7627be10397552ca77a87a3d4041eeacb232f9ac905dd7",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage Wohnen",
+                "extracted_value": "Zuordnung der Leistung 'Abgeschlossenheitsbescheinigung zur Aufteilung eines Gebäudes beantragen' zur Lebenslage Wohnen.",
+                "value_type": "TEXT",
+                "context": "Verwaltungsleistung im Bereich Wohnen und Eigentumsbildung in Baden-Württemberg",
+                "evidence_location": "Passende Leistungen zu dieser Lebenslage Abfall und Müll entsorgen Abgeschlossenheitsbescheinigung zur Aufteilung eines Gebäudes beantragen Änderung des Wohnsitzes innerhalb derselben Stadt oder Gemeinde melden Anzeige - Lärmbelästigung melden Beschwerde bei Lärm- oder Geruchsemissionen von Gewerbebetrieben einreichen 26 weitere anzeigen ..."
+            },
+            {
+                "norm": "Service-BW Lebenslage Wohnen",
+                "extracted_value": "Zuordnung der Leistung 'Änderung des Wohnsitzes innerhalb derselben Stadt oder Gemeinde melden' zur Lebenslage Wohnen.",
+                "value_type": "TEXT",
+                "context": "Melderechtliche Verwaltungsleistung bei Wohnsitzänderung innerhalb einer Kommune",
+                "evidence_location": "Passende Leistungen zu dieser Lebenslage Abfall und Müll entsorgen Abgeschlossenheitsbescheinigung zur Aufteilung eines Gebäudes beantragen Änderung des Wohnsitzes innerhalb derselben Stadt oder Gemeinde melden Anzeige - Lärmbelästigung melden Beschwerde bei Lärm- oder Geruchsemissionen von Gewerbebetrieben einreichen 26 weitere anzeigen ..."
+            },
+            {
+                "norm": "Service-BW Lebenslage Wohnen",
+                "extracted_value": "Vertiefende Informationen zum Thema Bauen und Modernisieren sind in der gesonderten gleichnamigen Lebenslage aufgeführt.",
+                "value_type": "TEXT",
+                "context": "Verweisstruktur des Portals Service-BW für Bau- und Modernisierungsangelegenheiten",
+                "evidence_location": "Vertiefende Informationen Informationen zum Thema \" Bauen und Modernisieren \" finden Sie in der gleichnamigen Lebenslage."
+            }
+        ],
+        "last_updated": "2026-10-18T03:03:39.658588+00:00"
+    },
+    "praxis_slot_Z42": {
+        "source_hash": "f426087aa2da7cf4b9103a3937139a0340ef48c3a90fb61975ac6789034fbf03",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Freigabevermerk 20.05.2026 Sozialministerium Baden-Württemberg",
+                "extracted_value": "Bürgerschaftlich Engagierte erhalten automatisch Versicherungsschutz. Besteht anderweitig eine Haftpflichtversicherung, muss diese im Schadenfall zuerst vorleisten.",
+                "value_type": "TEXT",
+                "context": "Informationen zum Versicherungsschutz für bürgerschaftliches und ehrenamtliches Engagement in Baden-Württemberg",
+                "evidence_location": "Bürgerschaftlich Engagierte erhalten automatisch Versicherungsschutz. Besteht anderweitig eine Haftpflichtversicherung, muss diese im Schadenfall zuerst vorleisten."
+            }
+        ],
+        "last_updated": "2026-10-18T03:03:47.744728+00:00"
+    },
+    "praxis_slot_Z43": {
+        "source_hash": "987343e2bf6eba57b71b9b4da6241a8a425f6540038d00797ba64339939792ef",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Freiwilligendienste BW",
+                "extracted_value": "Wir bieten Hinweise und Tipps über die verschiedenen Möglichkeiten. Außerdem erfahren Sie, wie Sie sich für die verschiedenen Dienste bewerben.",
+                "value_type": "TEXT",
+                "context": "Informationen zu Freiwilligendiensten wie FSJ und FÖJ in Baden-Württemberg.",
+                "evidence_location": "Wir bieten Hinweise und Tipps über die verschiedenen Möglichkeiten. Außerdem erfahren Sie, wie Sie sich für die verschiedenen Dienste bewerben."
+            }
+        ],
+        "last_updated": "2026-10-18T03:03:55.662540+00:00"
+    },
+    "praxis_slot_Z44": {
+        "source_hash": "9417f1841f018cfc995da64673b265cb3e30bfa39f3f401894478a2b11ab2bcd",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landesrecht BW",
+                "extracted_value": "Die Wahlen sind allgemein, unmittelbar, frei, gleich (jede Stimme zählt gleich viel) und geheim.",
+                "value_type": "TEXT",
+                "context": "Grundsätze des Wahlrechts in Baden-Württemberg",
+                "evidence_location": "Die Wahlen sind allgemein (Stimmrecht) unmittelbar (direkt) frei gleich: Jede Stimme zählt gleich viel. geheim"
+            }
+        ],
+        "last_updated": "2026-10-18T03:04:03.594334+00:00"
+    },
+    "praxis_slot_Z45": {
+        "source_hash": "983d097c9cc20ed347583976d8dbab4e36b094221aed49d4601cbbd86c6dc0c4",
+        "legal_hash": "25fd85ce860ff0502bfa134401cc65a66360eadd7670e4ba9738bdb3437e8094",
+        "claims": [
+            {
+                "norm": "Bürgerliches Gesetzbuch (BGB): § 1741",
+                "extracted_value": "Zulässigkeit der Annahme",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlagen zur Adoption im BGB",
+                "evidence_location": "§ 1741 Zulässigkeit der Annahme"
+            },
+            {
+                "norm": "Bürgerliches Gesetzbuch (BGB): § 1754",
+                "extracted_value": "Wirkung der Annahme",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlagen zur Adoption im BGB zur Wirkung der Annahme",
+                "evidence_location": "§ 1754 Wirkung der Annahme"
+            },
+            {
+                "norm": "Adoptionsgesetz: § 1",
+                "extracted_value": "Grundsätze der Adoption",
+                "value_type": "TEXT",
+                "context": "Grundsätze der Adoption nach dem Adoptionsgesetz",
+                "evidence_location": "§ 1 Grundsätze der Adoption"
+            }
+        ],
+        "last_updated": "2026-10-18T03:04:11.574298+00:00"
+    },
+    "praxis_slot_Z46": {
+        "source_hash": "89a03b22e0e197aeb3d5d42fd5d52cf013dd5217c7a7ee41650055d389e42920",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5000928",
+                "extracted_value": "Vor, während und nach der Heirat sind viele Formalitäten zu erledigen.",
+                "value_type": "TEXT",
+                "context": "Informationen und Formalitäten rund um die Eheschließung und Lebenspartnerschaft in Baden-Württemberg.",
+                "evidence_location": "Vor, während und nach der Heirat sind viele Formalitäten zu erledigen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:04:19.411012+00:00"
+    },
+    "praxis_slot_Z47": {
+        "source_hash": "cb4e4fb61d9500da7f7515314ece47fddcf8a256ca6a91647f57e5991934ea89",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5001057",
+                "extracted_value": "Freigabevermerk 17.03.2026 Justizministerium Baden-Württemberg",
+                "value_type": "DATE",
+                "context": "Aktualisierungsdatum der Lebenslage Scheidung und Aufhebung einer Lebenspartnerschaft in Baden-Württemberg",
+                "evidence_location": "Freigabevermerk 17.03.2026 Justizministerium Baden-Württemberg"
+            }
+        ],
+        "last_updated": "2026-10-18T03:04:27.323621+00:00"
+    },
+    "praxis_slot_Z48": {
+        "source_hash": "7a156f760464e00b3cfdaaa885b7768664121c3e3328993ccb0052b8d5117d07",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5000312",
+                "extracted_value": "Bildungspaket - Leistungen für Bildung und Teilhabe beantragen, Bürgergeld beantragen, Bundesstiftung Mutter und Kind - Leistungen beantragen",
+                "value_type": "TEXT",
+                "context": "Leistungen für Familien in Baden-Württemberg im Bereich Familie und Kinder",
+                "evidence_location": "Passende Leistungen zu dieser Lebenslage Aufenthaltserlaubnis für Au-pair-Beschäftigte (Nicht-EU/EWR) beantragen Bildungspaket - Leistungen für Bildung und Teilhabe beantragen Bürgergeld beantragen Bundesstiftung \"Mutter und Kind\" - Leistungen beantragen Eingliederungshilfe für Kinder und Jugendliche mit seelischen Behinderungen beantragen"
+            }
+        ],
+        "last_updated": "2026-10-18T03:04:35.437904+00:00"
+    },
+    "praxis_slot_Z49": {
+        "source_hash": "cc2829eca55223d231d74bb0eb4ea596b37a19ad8daf84b6b0197d453fd90655",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "https://www.service-bw.de/zufi/lebenslagen/5001280",
+                "extracted_value": "Auf den folgenden Seiten finden Sie alles Wissenswerte über die verschiedenen Betreuungsmöglichkeiten.",
+                "value_type": "TEXT",
+                "context": "Informationen zur Kinderbetreuung und zu verschiedenen Betreuungsmöglichkeiten in Baden-Württemberg.",
+                "evidence_location": "Auf den folgenden Seiten finden Sie alles Wissenswerte über die verschiedenen Betreuungsmöglichkeiten."
+            }
+        ],
+        "last_updated": "2026-10-18T03:04:43.485266+00:00"
+    },
+    "praxis_slot_Z50": {
+        "source_hash": "4890d3e8b8bd454f5617952c3c19e737b1504a101f9d98d823463c52d02dea47",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Sozialministerium Baden-Württemberg",
+                "extracted_value": "Pflegeeltern Hier können Sie sich informieren über: Pflegeformen Ihre Rechte und Pflichten als Pflegeeltern die Zusammenarbeit mit dem Jugendamt das Umgangsrecht des Pflegekindes mit den leiblichen Eltern",
+                "value_type": "TEXT",
+                "context": "Informationen für Pflegeeltern zu Pflegeformen, Rechten, Pflichten, Jugendamt und Umgangsrecht in Baden-Württemberg.",
+                "evidence_location": "Pflegeeltern Hier können Sie sich informieren über: Pflegeformen Ihre Rechte und Pflichten als Pflegeeltern die Zusammenarbeit mit dem Jugendamt das Umgangsrecht des Pflegekindes mit den leiblichen Eltern"
+            }
+        ],
+        "last_updated": "2026-10-18T03:04:51.532853+00:00"
+    },
+    "praxis_slot_Z51": {
+        "source_hash": "e33643e45e87ba45260c56dc6ce172fbacf9facd81cf47a67da7762d48038bda",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Land BW - Lebenslage Geburt",
+                "extracted_value": "Informationen über den Mutterschutz während der Schwangerschaft, Erziehungsgeld während der Elternzeit und sonstige finanzielle Hilfen.",
+                "value_type": "TEXT",
+                "context": "Übersicht über finanzielle Hilfen und organisatorische Schritte rund um die Geburt in Baden-Württemberg",
+                "evidence_location": "Sie erwarten ein Baby? Informieren Sie sich über den Mutterschutz während der Schwangerschaft, lesen Sie alles rund ums Erziehungsgeld während der Elternzeit und verschaffen Sie sich einen Überblick über sonstige finanzielle Hilfen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:04:59.610816+00:00"
+    },
+    "praxis_slot_Z52": {
+        "source_hash": "cf552716ca95589cec5fab337416c6cfa03730723055615f76d518cfbc869b1b",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Lebenslage Sterbefall",
+                "extracted_value": "Bei der Vielzahl der Dinge, die es für Angehörige bei einem Sterbefall zu erledigen gilt, sollen Ihnen die hier angebotenen Informationen Orientierung bieten. Passende Leistungen zu dieser Lebenslage Ausstellung eines Leichenpasses beantragen Erbschein beantragen Erdbestattung - Beerdigung beauftragen Feuerbestattung beantragen",
+                "value_type": "TEXT",
+                "context": "Informationen und Orientierung für Angehörige bei einem Sterbefall sowie passende Leistungen wie Leichenpass, Erbschein und Bestattungen.",
+                "evidence_location": "Bei der Vielzahl der Dinge, die es für Angehörige bei einem Sterbefall zu erledigen gilt, sollen Ihnen die hier angebotenen Informationen Orientierung bieten."
+            }
+        ],
+        "last_updated": "2026-10-18T03:05:07.566104+00:00"
+    },
+    "praxis_slot_Z53": {
+        "source_hash": "19d45d31a56a50b0bbfec97f822d2e11653eea0cfe452fffd24984b47a687c77",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Sozialministerium Baden-Württemberg",
+                "extracted_value": "Menschen mit Behinderung haben ein Recht auf Selbstbestimmung und gleichberechtigte Teilhabe am Leben in der Gesellschaft.",
+                "value_type": "TEXT",
+                "context": "Recht auf Selbstbestimmung und Teilhabe von Menschen mit Behinderung sowie Zusammenarbeit der Rehabilitationsträger in Baden-Württemberg.",
+                "evidence_location": "Menschen mit Behinderung haben ein Recht auf Selbstbestimmung und gleichberechtigte Teilhabe am Leben in der Gesellschaft."
+            }
+        ],
+        "last_updated": "2026-10-18T03:05:15.496059+00:00"
+    },
+    "praxis_slot_Z54": {
+        "source_hash": "e94647e0ee000c0f2f5e4f4263b4d29d31e233b1614e595e9088d4f8ba972dcc",
+        "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
+        "claims": [
+            {
+                "norm": "SGB VII: § 2 Versicherung kraft Gesetzes",
+                "extracted_value": "Ihr Kind ist während des Besuchs von Tageseinrichtungen gesetzlich unfallversichert. Dieser Versicherungsschutz ist für Sie beitragsfrei. Die Kosten werden von den Kommunen und dem Land getragen.",
+                "value_type": "TEXT",
+                "context": "Gesetzliche Unfallversicherung für Kinder in Tageseinrichtungen und Schulen in Baden-Württemberg",
+                "evidence_location": "Ihr Kind ist während des Besuchs von Tageseinrichtungen gesetzlich unfallversichert. Dieser Versicherungsschutz ist für Sie beitragsfrei. Die Kosten werden von den Kommunen und dem Land getragen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:05:23.471144+00:00"
+    },
+    "praxis_slot_Z55": {
+        "source_hash": "00829b3b7c1745496ba1f3437890729259031bd76d1e8c356484db5f24ea7bde",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_Z56": {
+        "source_hash": "024c29f35be3ce1a949e74ac6759a64a802cd5c970e023807736c87204749775",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5000945",
+                "extracted_value": "Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern.",
+                "value_type": "TEXT",
+                "context": "Grundlegende Rechte und Pflichten von Gläubiger und Schuldner",
+                "evidence_location": "Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern."
+            }
+        ],
+        "last_updated": "2026-10-18T03:05:39.136049+00:00"
+    },
+    "praxis_slot_Z57": {
+        "source_hash": "c822d613470ad7e73fcd14a7096276a6626f0894952adb6fa42a5de0482cd06d",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Notruf 112",
+                "extracted_value": "Die 112 gilt europaweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen.",
+                "value_type": "TEXT",
+                "context": "Kosten und Geltungsbereich des Feuerwehr- und Rettungsdienst-Notrufs 112",
+                "evidence_location": "Die 112 gilt europaweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen."
+            },
+            {
+                "norm": "Notruf 110",
+                "extracted_value": "Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110. Alle Notrufe, die über die 110 eingehen, werden von speziell geschulten Polizeibeamtinnen und -beamten in den Führungs- und Lagezentren im Land entgegengenommen.",
+                "value_type": "TEXT",
+                "context": "Erreichbarkeit und Annahme des polizeilichen Notrufs 110",
+                "evidence_location": "Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110. Alle Notrufe, die über die 110 eingehen, werden von speziell geschulten Polizeibeamtinnen und -beamten in den Führungs- und Lagezentren im Land entgegengenommen."
+            },
+            {
+                "norm": "Nothilfe-SMS T-Mobile und Vodafone",
+                "extracted_value": "99 0711 216-77112",
+                "value_type": "TEXT",
+                "context": "Nothilfe-SMS Nummer für die Netzanbieter T-Mobile (D1) und Vodafone (D2)",
+                "evidence_location": "T-Mobile (D1) und Vodafone (D2): 99 0711 216-77112"
+            },
+            {
+                "norm": "Nothilfe-SMS Telefonica",
+                "extracted_value": "329 0711 216-77112",
+                "value_type": "TEXT",
+                "context": "Nothilfe-SMS Nummer für den Netzanbieter Telefonica (O2/Eplus)",
+                "evidence_location": "Telefonica (O2/Eplus): 329 0711 216-77112"
+            },
+            {
+                "norm": "Ärztlicher Bereitschaftsdienst 116117",
+                "extracted_value": "Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. Die Nummer funktioniert ohne Vorwahl. Sie gilt deutschlandweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen.",
+                "value_type": "TEXT",
+                "context": "Erreichbarkeit und Konditionen des ärztlichen Bereitschaftsdienstes",
+                "evidence_location": "Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. Die Nummer funktioniert ohne Vorwahl. Sie gilt deutschlandweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:05:48.418708+00:00"
+    },
+    "praxis_slot_Z58": {
+        "source_hash": "ee5b441c7e8c05938053464991493497fec51f31c755875b04680616001d8755",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Notruf",
+                "extracted_value": "110",
+                "value_type": "TEXT",
+                "context": "Polizeidienststelle im Notfall erreichen",
+                "evidence_location": "Unter der Rufnummer 110 erreichen Sie die nächstgelegene Polizeidienststelle."
+            },
+            {
+                "norm": "Notruf",
+                "extracted_value": "112",
+                "value_type": "TEXT",
+                "context": "Feuerwehr und Rettungsdienst/Notarzt im Notfall erreichen",
+                "evidence_location": "Unter der Euro-Notrufnummer 112 erreichen Sie rund um die Uhr Feuerwehr und Rettungsdienst/Notarzt."
+            }
+        ],
+        "last_updated": "2026-10-18T03:05:56.390937+00:00"
+    },
+    "praxis_slot_Z59": {
+        "source_hash": "445efb5c3e398415770be0508fe5dabafcc6706fc1081e181768b807a8f3db9a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landesrecht Baden-Württemberg",
+                "extracted_value": "Stiftungen haben in Baden-Württemberg eine lange Tradition.",
+                "value_type": "TEXT",
+                "context": "Informationen zu Stiftungen und deren Anerkennung in Baden-Württemberg",
+                "evidence_location": "Stiftungen Stiftungen haben in Baden-Württemberg eine lange Tradition."
+            }
+        ],
+        "last_updated": "2026-10-18T03:06:04.317915+00:00"
+    },
+    "praxis_slot_Z60": {
+        "source_hash": "f65b1beff2698ba7fc30ec30fb077001cb4b56a43ebf5029059c3defc0de4265",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landesportal Baden-Württemberg - Verbraucherschutz und Ernährung",
+                "extracted_value": "Freigabevermerk 16.04.2026 Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg",
+                "value_type": "TEXT",
+                "context": "Aktualität und Zuständigkeit der Lebenslage Verbraucherschutz und Ernährung in Baden-Württemberg",
+                "evidence_location": "Freigabevermerk 16.04.2026 Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg"
+            }
+        ],
+        "last_updated": "2026-10-18T03:06:12.358323+00:00"
+    },
+    "praxis_slot_Z61": {
+        "source_hash": "045eb8f150197e4ac53a80fa359900bacc96e1584a230424e8466267190c968a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_Z62": {
+        "source_hash": "d93263bf79a489bc9b87ed37ba98b81293a93bb4939cfe4257e088db5d2b3571",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Bürgerliches Gesetzbuch (Erbrecht)",
+                "extracted_value": "Individuelle erbrechtliche Konstellationen sind in der Regel sehr komplex. Lassen Sie sich am besten von einem Rechtsanwalt oder einer Rechtsanwältin, einem Notar oder einer Notarin beraten.",
+                "value_type": "TEXT",
+                "context": "Empfehlung zur Rechtsberatung bei erbrechtlichen Fragen in Baden-Württemberg",
+                "evidence_location": "Individuelle erbrechtliche Konstellationen sind in der Regel sehr komplex. Lassen Sie sich am besten von einem Rechtsanwalt oder einer Rechtsanwältin, einem Notar oder einer Notarin beraten."
+            }
+        ],
+        "last_updated": "2026-10-18T03:06:28.126287+00:00"
+    },
+    "praxis_slot_Z63": {
+        "source_hash": "7715db150295ec098ad1ad34c052101475354c12c80b91adf66bf16ea6633f95",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landesportal Service BW - Vormundschaft und rechtliche Betreuung",
+                "extracted_value": "Die Interessen solcher Erwachsener nimmt eine rechtliche Betreuerin oder ein rechtlicher Betreuer wahr, wenn deren Angelegenheiten nicht anderweitig - etwa durch eine bevollmächtigte Person - besorgt werden können.",
+                "value_type": "TEXT",
+                "context": "Voraussetzungen für die Bestellung einer rechtlichen Betreuung.",
+                "evidence_location": "Die Interessen solcher Erwachsener nimmt eine rechtliche Betreuerin oder ein rechtlicher Betreuer wahr, wenn deren Angelegenheiten nicht anderweitig - etwa durch eine bevollmächtigte Person - besorgt werden können."
+            },
+            {
+                "norm": "Landesportal Service BW - Vormundschaft und rechtliche Betreuung",
+                "extracted_value": "Das Gericht bestellt einen Vormund zum Beispiel für Minderjährige ohne lebenden Elternteil oder wenn beiden Elternteilen die elterliche Sorge durch gerichtliche Entscheidung entzogen wurde.",
+                "value_type": "TEXT",
+                "context": "Voraussetzungen für die Bestellung eines Vormunds für Minderjährige.",
+                "evidence_location": "Das Gericht bestellt einen Vormund zum Beispiel für Minderjährige ohne lebenden Elternteil oder wenn beiden Elternteilen die elterliche Sorge durch gerichtliche Entscheidung entzogen wurde."
+            }
+        ],
+        "last_updated": "2026-10-18T03:06:36.344676+00:00"
+    },
+    "praxis_slot_Z64": {
+        "source_hash": "70f4f3b9ff7b15c357c42364260d2177a3582381ec3a3fa5a9f099d8a64aa078",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5001410",
+                "extracted_value": "Fahrzeuge Ob neu oder gebraucht - hier erfahren Sie, wann Sie ein Fahrzeug an-, ab- oder ummelden müssen und was es rund um das Kennzeichen zu beachten gibt.",
+                "value_type": "TEXT",
+                "context": "Allgemeine Information zur Fahrzeuganmeldung, -abmeldung und -ummeldung sowie Kennzeichen im Land Baden-Württemberg.",
+                "evidence_location": "Fahrzeuge Ob neu oder gebraucht - hier erfahren Sie, wann Sie ein Fahrzeug an-, ab- oder ummelden müssen und was es rund um das Kennzeichen zu beachten gibt."
+            }
+        ],
+        "last_updated": "2026-10-18T03:06:44.191301+00:00"
+    },
+    "praxis_slot_Z65": {
+        "source_hash": "016f24860aa60f3cfd07263cffde722f4449d9ebe0121b9d00ab4236d786a07d",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Verwaltungsvorschrift BW - Kinderreisepass",
+                "extracted_value": "Eine Beantragung des Kinderreisepasses ist seit 1. Januar 2024 nicht mehr möglich.",
+                "value_type": "TEXT",
+                "context": "Änderung der Rechtslage bezüglich Reisedokumenten für Kinder ab dem 01.01.2024 in Baden-Württemberg.",
+                "evidence_location": "Kinderreisepass - eine Beantragung ist seit 1. Januar 2024 nicht mehr möglich"
+            }
+        ],
+        "last_updated": "2026-10-18T03:06:52.187039+00:00"
+    },
+    "praxis_slot_Z66": {
+        "source_hash": "775549421bf9f0e639b94315c6b58cb77905d21be27330d53508e6049e200367",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Verwaltungs-Berufsgenossenschaft (VBG)",
+                "extracted_value": "Alle gemeinnützigen Organisationen, darunter viele Vereine, haben die Möglichkeit, ihre gewählten Ehrenamtsträger wie zum Beispiel Vereinsvorstände, Kassen- oder Sportwarte gegen die Folgen von Unfällen zu versichern.",
+                "value_type": "TEXT",
+                "context": "Unfallversicherung für ehrenamtliche Vereinsmitglieder",
+                "evidence_location": "Alle gemeinnützigen Organisationen, darunter viele Vereine, haben die Möglichkeit, ihre gewählten Ehrenamtsträger wie zum Beispiel Vereinsvorstände, Kassen- oder Sportwarte gegen die Folgen von Unfällen zu versichern."
+            }
+        ],
+        "last_updated": "2026-10-18T03:07:00.189507+00:00"
+    },
+    "praxis_slot_Z67": {
+        "source_hash": "359a96940e515029fe2283bf438fc79406a608ca84bbc990426b376848f0f96f",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Verkehrsministerium Baden-Württemberg",
+                "extracted_value": "Informationen vom Kauf bis zur Verschrottung von Fahrzeugen sowie Wissenswertes über den Führerschein lesen Sie in den gleichnamigen Lebenslagen.",
+                "value_type": "TEXT",
+                "context": "Übersicht über die Mobilitätsformen und vertiefende Informationen zu Fahrzeugen und Führerschein in Baden-Württemberg.",
+                "evidence_location": "Informationen vom Kauf bis zur Verschrottung von Fahrzeugen sowie Wissenswertes über den Führerschein lesen Sie in den gleichnamigen Lebenslagen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:07:08.111940+00:00"
+    },
+    "praxis_slot_Z68": {
+        "source_hash": "466e90b254600c58e986398d239a38293617b38b70b8ec2c607e720240648444",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5000006",
+                "extracted_value": "Sicherheit und Gefahrenabwehr Im Not- oder Katastrophenfall ist guter Rat teuer.",
+                "value_type": "TEXT",
+                "context": "Informationen zu Sicherheit, Gefahrenabwehr und Notlagen in Baden-Württemberg",
+                "evidence_location": "Sicherheit und Gefahrenabwehr Im Not- oder Katastrophenfall ist guter Rat teuer."
+            }
+        ],
+        "last_updated": "2026-10-18T03:07:16.014200+00:00"
+    },
+    "praxis_slot_Z69": {
+        "source_hash": "1a6835b563db30348e7502d2775043ccf683b2b36d75c6cc565f86ed5906424b",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage Umwelt",
+                "extracted_value": "In dieser Lebenslage finden Sie vielfältige Informationen unter anderem über den Schutz von Luft, Wasser und Böden sowie über den Schutz vor der schädlichen Wirkung ionisierender Strahlung, Wissenswertes zu Natur- und Artenschutz sowie zu den Möglichkeiten, wie Sie zum Umweltschutz beitragen können.",
+                "value_type": "TEXT",
+                "context": "Übersicht über Umweltschutzthemen, Abfallentsorgung und zugehörige Leistungen in Baden-Württemberg",
+                "evidence_location": "In dieser Lebenslage finden Sie vielfältige Informationen unter anderem über den Schutz von Luft, Wasser und Böden sowie über den Schutz vor der schädlichen Wirkung ionisierender Strahlung, Wissenswertes zu Natur- und Artenschutz sowie zu den Möglichkeiten, wie Sie zum Umweltschutz beitragen können."
+            }
+        ],
+        "last_updated": "2026-10-18T03:07:24.133143+00:00"
+    },
+    "praxis_slot_Z70": {
+        "source_hash": "bf880569d0f33a494b3ff610238fd736577e374674b5bc3bd36095a92491842a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5000833",
+                "extracted_value": "Informationen zu möglichen Umwelt- und Naturgefahren wie zum Beispiel Hochwasser, Lärmbelästigung und Umweltbeeinträchtigungen.",
+                "value_type": "TEXT",
+                "context": "Übersicht zu Umwelt- und Naturgefahren sowie passenden Verwaltungsleistungen in Baden-Württemberg",
+                "evidence_location": "Sie finden hier Informationen zu möglichen Umwelt- und Naturgefahren wie zum Beispiel Hochwasser."
+            }
+        ],
+        "last_updated": "2026-10-18T03:07:32.085167+00:00"
+    },
+    "praxis_slot_Z71": {
+        "source_hash": "9a34d8110fae81da6c9cd1918941d7e1a2dd2b415e87d9ca145ad1072521d47e",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_Z72": {
+        "source_hash": "682c1c1b4096bfc5bc899cc98c23e427cff00f46c865ed015995586a05b2c872",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "EU-Dienstleistungsrichtlinie",
+                "extracted_value": "Deutsche, Angehörige anderer EU-/EWR-Staaten oder Staatsangehörige der Schweiz, die in Baden-Württemberg eine Dienstleistung anbieten wollen, die von der EU-Dienstleistungsrichtlinie erfasst ist, finden unter \" Selbständigkeit online \" Informationen über die Voraussetzungen und zur elektronischen Antragsabwicklung.",
+                "value_type": "TEXT",
+                "context": "Informationen zur Dienstleistungsfreiheit und elektronischen Antragsabwicklung für Selbständige in Baden-Württemberg",
+                "evidence_location": "Deutsche, Angehörige anderer EU-/EWR-Staaten oder Staatsangehörige der Schweiz, die in Baden-Württemberg eine Dienstleistung anbieten wollen, die von der EU-Dienstleistungsrichtlinie erfasst ist, finden unter \" Selbständigkeit online \" Informationen über die Voraussetzungen und zur elektronischen Antragsabwicklung."
+            }
+        ],
+        "last_updated": "2026-10-18T03:07:47.960307+00:00"
+    },
+    "praxis_slot_Z73": {
+        "source_hash": "7e09bf2f784a49d7cf6050113391c14ae415cc917d5d590e6d2630bc17c20453",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Gewerbeordnung",
+                "extracted_value": "Sie wollen ein Unternehmen gründen und müssen ein Gewerbe anmelden oder sogar eine Erlaubnis einholen?",
+                "value_type": "TEXT",
+                "context": "Informationen zur Gewerbeanmeldung und zu erforderlichen Erlaubnissen bei der Unternehmensgründung in Baden-Württemberg.",
+                "evidence_location": "Sie wollen ein Unternehmen gründen und müssen ein Gewerbe anmelden oder sogar eine Erlaubnis einholen?"
+            }
+        ],
+        "last_updated": "2026-10-18T03:07:55.859710+00:00"
+    },
+    "praxis_slot_Z74": {
+        "source_hash": "83196f884bf81405a02f8b7d9b76c226f30af0b52185fe050d78a3605a93d12e",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5001195",
+                "extracted_value": "Für Privatpersonen können Ideen oder Erfindungen das Sprungbrett in die Selbstständigkeit sein.",
+                "value_type": "TEXT",
+                "context": "Patente, Marken, Ideentransfer und Unternehmensgründung in Baden-Württemberg",
+                "evidence_location": "Für Privatpersonen können Ideen oder Erfindungen das Sprungbrett in die Selbstständigkeit sein."
+            }
+        ],
+        "last_updated": "2026-10-18T03:08:03.813240+00:00"
+    },
+    "praxis_slot_Z75": {
+        "source_hash": "b42106278cfc4ae6c5257e68b75a2e274fa3231f313fa266d38b00413d941d48",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5001018",
+                "extracted_value": "In dieser Lebenslage erhalten Sie einen Überblick über die wichtigsten Themen, die für den laufenden Betrieb eines Unternehmens von Bedeutung sind.",
+                "value_type": "TEXT",
+                "context": "Überblick für den laufenden Betrieb von Unternehmen",
+                "evidence_location": "In dieser Lebenslage erhalten Sie einen Überblick über die wichtigsten Themen, die für den laufenden Betrieb eines Unternehmens von Bedeutung sind."
+            }
+        ],
+        "last_updated": "2026-10-18T03:08:11.885327+00:00"
+    },
+    "praxis_slot_Z76": {
+        "source_hash": "f7ca900c79c650d8ca555f16cc171989ba2cd04d28ffc9133f597b2ae7c96f0d",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5000792",
+                "extracted_value": "Unternehmen gründen Sie wollen sich selbständig machen und ein Unternehmen gründen? Wir unterstützen Sie dabei mit einem vielfältigen Informationsangebot.",
+                "value_type": "TEXT",
+                "context": "Informationen zur Existenzgründung und Unternehmensgründung in Baden-Württemberg",
+                "evidence_location": "Unternehmen gründen Sie wollen sich selbständig machen und ein Unternehmen gründen? Wir unterstützen Sie dabei mit einem vielfältigen Informationsangebot."
+            }
+        ],
+        "last_updated": "2026-10-18T03:08:19.868896+00:00"
+    },
+    "praxis_slot_Z77": {
+        "source_hash": "a8540dd2c922bd673524f8fce142022528103ec338ade99ae3b932c6b268acbf",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5000810",
+                "extracted_value": "Unternehmensnachfolge Sie wollen Ihr Unternehmen einer Nachfolgerin oder einem Nachfolger übergeben? Sie überlegen, ob Sie ein Unternehmen gründen oder übernehmen wollen? Mit den hier angebotenen Informationen erhalten Sie einen ersten Einblick.",
+                "value_type": "TEXT",
+                "context": "Informationen und Einstieg zur Unternehmensnachfolge und Existenzgründung",
+                "evidence_location": "Unternehmensnachfolge Sie wollen Ihr Unternehmen einer Nachfolgerin oder einem Nachfolger übergeben? Sie überlegen, ob Sie ein Unternehmen gründen oder übernehmen wollen? Mit den hier angebotenen Informationen erhalten Sie einen ersten Einblick."
+            }
+        ],
+        "last_updated": "2026-10-18T03:08:27.871353+00:00"
+    },
+    "praxis_slot_Z78": {
+        "source_hash": "a01e507a34ce9e91bc8144512037caba5db29b09a5e1a8976fe4d3cc7efdad7a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Vergabe öffentlicher Aufträge BW",
+                "extracted_value": "In diesem Portal können Sie im Bereich Öffentliche Ausschreibungen kostenlos die Ausschreibungsveröffentlichungen der betreffenden Vergabestellen des Landes Baden-Württemberg einsehen.",
+                "value_type": "TEXT",
+                "context": "Kostenlose Einsicht in Ausschreibungsveröffentlichungen im Land Baden-Württemberg",
+                "evidence_location": "In diesem Portal können Sie im Bereich \"Öffentliche Ausschreibungen\" kostenlos die Ausschreibungsveröffentlichungen der betreffenden Vergabestellen des Landes Baden-Württemberg einsehen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:08:35.842957+00:00"
+    },
+    "praxis_slot_Z79": {
+        "source_hash": "5adb62e6b36b9dc9ca67420be97444796eacfff8848ee4b28b974b698bb5c3bf",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage 5000729",
+                "extracted_value": "Die endgültige Entscheidung zur Einbürgerung trifft die zuständige Staatsangehörigkeitsbehörde nach Antragstellung und Vorlage aller erforderlichen Unterlagen.",
+                "value_type": "TEXT",
+                "context": "Zuständigkeit und Verfahren für die Einbürgerung in Baden-Württemberg",
+                "evidence_location": "Die endgültige Entscheidung zur Einbürgerung trifft die zuständige Staatsangehörigkeitsbehörde nach Antragstellung und Vorlage aller erforderlichen Unterlagen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:08:43.737903+00:00"
+    },
+    "praxis_slot_Z80": {
+        "source_hash": "11bcde171457af25ebd78acd4a0e57d2dd2686d79a6b9f9993aea890d57388da",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Bundesvertriebenengesetz (BVFG)",
+                "extracted_value": "Rechtsgrundlage für Spätaussiedlerinnen und Spätaussiedler, die nach Deutschland kommen wollen.",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlagen und Voraussetzungen für Spätaussiedler in Deutschland gemäß Service-BW.",
+                "evidence_location": "Rechtsgrundlage Bundesvertriebenengesetz (BVFG)"
+            }
+        ],
+        "last_updated": "2026-10-18T03:08:51.421638+00:00"
+    },
+    "praxis_slot_Z81": {
+        "source_hash": "190003c3656c7da8374759708e19a2c1a33f129790e86115aaee9f278b17596b",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Aufenthaltsgesetz und Freizügigkeitsgesetz/EU",
+                "extracted_value": "Die wesentlichen Rechtsgrundlagen des Aufenthaltsrechts der Bundesrepublik Deutschland sind das Aufenthaltsgesetz und das Freizügigkeitsgesetz/EU.",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlagen für Einreise und Aufenthalt in Deutschland",
+                "evidence_location": "Die wesentlichen Rechtsgrundlagen des Aufenthaltsrechts der Bundesrepublik Deutschland sind das Aufenthaltsgesetz und das Freizügigkeitsgesetz/EU."
+            }
+        ],
+        "last_updated": "2026-10-18T03:08:59.303795+00:00"
+    },
+    "praxis_slot_Z82": {
+        "source_hash": "e10f95135f2e53178370f4d59dc8daca2fc560ef46d48db8a4f66b08fc40f8e3",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg",
+                "extracted_value": "Freigabevermerk 23.12.2025 Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg",
+                "value_type": "TEXT",
+                "context": "Freigabedatum und herausgebendes Ministerium für die Lebenslage Tierhaltung, Tierschutz, Fischerei und Jagd in Baden-Württemberg",
+                "evidence_location": "Freigabevermerk 23.12.2025 Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg"
+            }
+        ],
+        "last_updated": "2026-10-18T03:09:07.238126+00:00"
+    },
+    "praxis_slot_Z83": {
+        "source_hash": "c822d613470ad7e73fcd14a7096276a6626f0894952adb6fa42a5de0482cd06d",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Notruf 112",
+                "extracted_value": "Die 112 gilt europaweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen.",
+                "value_type": "TEXT",
+                "context": "Kostenlose europaweite Erreichbarkeit der Feuerwehr und des Rettungsdienstes.",
+                "evidence_location": "Die 112 gilt europaweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen."
+            },
+            {
+                "norm": "Polizei-Notruf 110",
+                "extracted_value": "Die 110 gilt für Ihren Festnetzanschluss genauso wie für Ihr Mobiltelefon.",
+                "value_type": "TEXT",
+                "context": "Erreichbarkeit der Polizei über die Notrufnummer.",
+                "evidence_location": "Die 110 gilt für Ihren Festnetzanschluss genauso wie für Ihr Mobiltelefon."
+            },
+            {
+                "norm": "Nothilfe-SMS T-Mobile und Vodafone",
+                "extracted_value": "99 0711 216-77112",
+                "value_type": "TEXT",
+                "context": "Nothilfe-SMS Nummer für T-Mobile (D1) und Vodafone (D2).",
+                "evidence_location": "T-Mobile (D1) und Vodafone (D2): 99 0711 216-77112"
+            },
+            {
+                "norm": "Nothilfe-SMS Telefonica",
+                "extracted_value": "329 0711 216-77112",
+                "value_type": "TEXT",
+                "context": "Nothilfe-SMS Nummer für Telefonica (O2/Eplus).",
+                "evidence_location": "Telefonica (O2/Eplus): 329 0711 216-77112"
+            },
+            {
+                "norm": "Ärztlicher Bereitschaftsdienst 116117",
+                "extracted_value": "Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. Die Nummer funktioniert ohne Vorwahl. Sie gilt deutschlandweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen.",
+                "value_type": "TEXT",
+                "context": "Informationen zur Erreichbarkeit des ärztlichen Bereitschaftsdienstes.",
+                "evidence_location": "Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. Die Nummer funktioniert ohne Vorwahl. Sie gilt deutschlandweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen."
+            },
+            {
+                "norm": "Krankentransport 19222",
+                "extracted_value": "Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222. Beachten Sie dabei, dass Sie auch vom Festnetz aus die Ortsvorwahl der für Ihren Kreis zuständigen Leitstelle vorwählen müssen.",
+                "value_type": "TEXT",
+                "context": "Rufnummer und Vorwahlpflicht für Krankentransporte.",
+                "evidence_location": "Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222. Beachten Sie dabei, dass Sie auch vom Festnetz aus die Ortsvorwahl der für Ihren Kreis zuständigen Leitstelle vorwählen müssen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:09:16.540374+00:00"
+    },
+    "praxis_slot_Z84": {
+        "source_hash": "024c29f35be3ce1a949e74ac6759a64a802cd5c970e023807736c87204749775",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Justizministerium Baden-Württemberg",
+                "extracted_value": "Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern.",
+                "value_type": "TEXT",
+                "context": "Grundsätzliche Definition des Gläubiger-Schuldner-Verhältnisses",
+                "evidence_location": "Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern."
+            }
+        ],
+        "last_updated": "2026-10-18T03:09:24.869843+00:00"
+    },
+    "praxis_slot_Z85": {
+        "source_hash": "014408633a9a4d4f0b7627be10397552ca77a87a3d4041eeacb232f9ac905dd7",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Lebenslage Wohnen Service-BW",
+                "extracted_value": "Informationen zum Wohnen fuer Mieter, Vermieter und Eigenheimbesitzer.",
+                "value_type": "TEXT",
+                "context": "Allgemeine Informationen zum Thema Wohnen in Baden-Wuerttemberg",
+                "evidence_location": "Wohnen Ob zur Miete oder in den eigenen vier Wänden – Informationen zum Wohnen benötigen Mieterinnen und Mieter, Vermieterinnen und Vermieter sowie Eigenheimbesitzerinnen und -besitzer."
+            }
+        ],
+        "last_updated": "2026-10-18T03:09:32.781716+00:00"
+    },
+    "praxis_slot_Z86": {
+        "source_hash": "b3a3b853c6fb1ba7bc6531d53c21fc25aedd7c08b3d4e43f9a30c648fc5743a5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Service-BW Lebenslage Arbeitnehmer",
+                "extracted_value": "Die Lebenslage Arbeitnehmer richtet sich an alle, die in einem Arbeitsverhältnis stehen und sich über ihre Rechte und Pflichten informieren wollen.",
+                "value_type": "TEXT",
+                "context": "Definition der Zielgruppe und des Inhalts für die Lebenslage Arbeitnehmer in Baden-Württemberg.",
+                "evidence_location": "Die Lebenslage \"Arbeitnehmer\" richtet sich an alle, die in einem Arbeitsverhältnis stehen und sich über ihre Rechte und Pflichten informieren wollen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:09:40.784827+00:00"
+    },
+    "praxis_slot_Z87": {
+        "source_hash": "71a44fe6ec41f0e9027e830d06b65e84e8f0983294883521f7e08c6faccbb58b",
+        "legal_hash": "35ca63d4f908faa49e1211e74e25b182631f71bf0de133b98b2753f4937e96b5",
+        "claims": [
+            {
+                "norm": "SGB VI § 35",
+                "extracted_value": "Die Mindestversicherungszeit, die auch Wartezeit genannt wird, beträgt für die Regelaltersrente fünf Jahre.",
+                "value_type": "TEXT",
+                "context": "Voraussetzungen für den Anspruch auf Regelaltersrente bezüglich der Wartezeit.",
+                "evidence_location": "Diese Mindestversicherungszeit, die auch Wartezeit genannt wird, beträgt für die Regelaltersrente fünf Jahre."
+            },
+            {
+                "norm": "SGB VI",
+                "extracted_value": "Sie sollten den Rentenantrag nach Möglichkeit drei Monate vor dem gewünschten Rentenbeginn stellen.",
+                "value_type": "TEXT",
+                "context": "Frist für die Antragstellung der Regelaltersrente.",
+                "evidence_location": "Sie sollten den Rentenantrag nach Möglichkeit drei Monate vor dem gewünschten Rentenbeginn stellen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:09:49.171160+00:00"
+    },
+    "praxis_slot_Z88": {
+        "source_hash": "7fee2868da1fe353d27c97fdecb7c3d5be3cf0f3bfa1015013a4932dda41d374",
+        "legal_hash": "f215fb33c6735dcb9ce9a418dab2cf35aa1fd443e1ab8c27ed703dbc773de851",
+        "claims": [
+            {
+                "norm": "SGB VI § 37, § 236a",
+                "extracted_value": "bis zu 10,8 Prozent",
+                "value_type": "PERCENT",
+                "context": "Abschlag bei vorzeitiger Inanspruchnahme der Altersrente für schwerbehinderte Menschen",
+                "evidence_location": "Mit der Altersrente für schwerbehinderte Menschen können Sie eine Altersrente vor Erreichen der Regelaltersgrenze ohne oder mit einem Abschlag bis zu 10,8 Prozent erhalten."
+            },
+            {
+                "norm": "SGB VI § 37, § 236a",
+                "extracted_value": "35 Jahre",
+                "value_type": "TEXT",
+                "context": "Mindestversicherungszeit (Wartezeit) für die Altersrente für schwerbehinderte Menschen",
+                "evidence_location": "Sie haben bei Rentenbeginn die Schwerbehinderteneigenschaft erfüllt, die Mindestversicherungszeit (Wartezeit) von 35 Jahren erreicht und das für Sie maßgebliche Lebensalter erfüllt."
+            },
+            {
+                "norm": "SGB VI § 37, § 236a",
+                "extracted_value": "bis zum Ende des dritten Kalendermonats nach Ablauf des Monats, in dem Sie die Anspruchsvoraussetzungen erfüllen.",
+                "value_type": "TEXT",
+                "context": "Frist für die Beantragung der Rente",
+                "evidence_location": "Beantragung Ihrer Rente: bis zum Ende des dritten Kalendermonats nach Ablauf des Monats, in dem Sie die Anspruchsvoraussetzungen erfüllen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:09:57.780557+00:00"
+    },
+    "praxis_slot_Z89": {
+        "source_hash": "7ae97cc1e545909ed6e3f905b1322c266d1913339010d9efe5307d1dcad13b88",
+        "legal_hash": "f3d3827f3702e8c338015e9280e67c17dfcf08ffa51fe709f6f2a1bc92e4f660",
+        "claims": [
+            {
+                "norm": "§ 43 SGB VI",
+                "extracted_value": "20.763,75 EUR",
+                "value_type": "EURO",
+                "context": "Hinzuverdienstgrenze für die Rente wegen voller Erwerbsminderung im Jahr 2025",
+                "evidence_location": "Die Hinzuverdienstgrenze beträgt im Jahr 2025: 20.763,75 EUR."
+            },
+            {
+                "norm": "§ 43 SGB VI",
+                "extracted_value": "0,3 Prozent",
+                "value_type": "PERCENT",
+                "context": "Rentenminderung (Abschlag) für jeden Monat vorzeitiger Inanspruchnahme",
+                "evidence_location": "Für jeden Monat, den Sie früher Ihre Rente in Anspruch nehmen, beträgt der Abschlag 0,3 Prozent, insgesamt jedoch höchstens 10,8 Prozent."
+            },
+            {
+                "norm": "§ 43 SGB VI",
+                "extracted_value": "10,8 Prozent",
+                "value_type": "PERCENT",
+                "context": "Höchstgrenze der Rentenminderung bei vorzeitiger Inanspruchnahme",
+                "evidence_location": "Für jeden Monat, den Sie früher Ihre Rente in Anspruch nehmen, beträgt der Abschlag 0,3 Prozent, insgesamt jedoch höchstens 10,8 Prozent."
+            }
+        ],
+        "last_updated": "2026-10-18T03:10:06.314260+00:00"
+    },
+    "praxis_slot_Z90": {
+        "source_hash": "6522d5d8a058e4b51cb6d27aaa907a7cea3b579850a055ef4031049931c33bc2",
+        "legal_hash": "ed88c7ea458c0d521fdba1f13a371482521967d5dc030da81e6875b11d6388fd",
+        "claims": [
+            {
+                "norm": "SGB VI § 149",
+                "extracted_value": "Mit Ihrer ersten Renteninformation ab dem 27. Geburtstag wird Ihnen ein Versicherungsverlauf zugesandt. Dazu müssen Sie lediglich fünf Jahre Beiträge gezahlt haben.",
+                "value_type": "TEXT",
+                "context": "Automatische Zusendung des Versicherungsverlaufs ab dem 27. Geburtstag nach fünf Beitragsjahren.",
+                "evidence_location": "Mit Ihrer ersten Renteninformation ab dem 27. Geburtstag wird Ihnen ein Versicherungsverlauf zugesandt. Dazu müssen Sie lediglich fünf Jahre Beiträge gezahlt haben."
+            },
+            {
+                "norm": "SGB VI § 149",
+                "extracted_value": "Wenn Sie 43 Jahre alt sind, sendet Ihnen Ihr Rentenversicherungsträger automatisch einen weiteren Versicherungsverlauf zur Überprüfung der gespeicherten Zeiten zu. Anschließend erhalten Sie alle sechs Jahre einen Versicherungsverlauf.",
+                "value_type": "TEXT",
+                "context": "Regelmäßige Zusendung des Versicherungsverlaufs im Alter von 43 Jahren und danach alle sechs Jahre.",
+                "evidence_location": "Wenn Sie 43 Jahre alt sind, sendet Ihnen Ihr Rentenversicherungsträger automatisch einen weiteren Versicherungsverlauf zur Überprüfung der gespeicherten Zeiten zu. Anschließend erhalten Sie alle sechs Jahre einen Versicherungsverlauf."
+            },
+            {
+                "norm": "VKVV § 7",
+                "extracted_value": "Der Zugangscode ist nur einmalig für diese Rückantwort gültig und verfällt nach spätestens 6 Monaten.",
+                "value_type": "TEXT",
+                "context": "Gültigkeitsdauer des Zugangscodes für die Online-Beantwortung des Anschreibens.",
+                "evidence_location": "Der Zugangscode ist nur einmalig für diese Rückantwort gültig und verfällt nach spätestens 6 Monaten."
+            },
+            {
+                "norm": "Stadtkreis Pforzheim / Kommunalverwaltung",
+                "extracted_value": "Eine Bestätigung für Rentenzwecke ist bei Ihrer Stadt- oder Gemeindeverwaltung kostenlos.",
+                "value_type": "TEXT",
+                "context": "Gebührenfreiheit für Bestätigungen für Rentenzwecke bei der Stadt- oder Gemeindeverwaltung.",
+                "evidence_location": "Eine Bestätigung für Rentenzwecke ist bei Ihrer Stadt- oder Gemeindeverwaltung kostenlos."
+            }
+        ],
+        "last_updated": "2026-10-18T03:10:15.464582+00:00"
+    },
+    "praxis_slot_Z91": {
+        "source_hash": "aeb15ec18fee410589a4799c8b44ccd297d3ce10dd99a4f7451cd8afc7c9f988",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Rentenstelle Stadt Pforzheim",
+                "extracted_value": "Eine Vorsprache in der Rentenstelle ist nur nach Terminvereinbarung per Telefon oder per E-Mail möglich.",
+                "value_type": "TEXT",
+                "context": "Öffnungszeiten und Terminvereinbarung für die Rentenstelle der Stadt Pforzheim",
+                "evidence_location": "Eine Vorsprache in der Rentenstelle ist nur nach Terminvereinbarung per Telefon oder per E-Mail möglich."
+            }
+        ],
+        "last_updated": "2026-10-18T03:10:23.453145+00:00"
+    },
+    "praxis_slot_Z92": {
+        "source_hash": "914e66ba00e1bbb731cb872d87cad8c3cc4d116e24f07500a4b1dae9a8b48c27",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Deutsche Rentenversicherung Baden-Württemberg - Außenstelle Pforzheim",
+                "extracted_value": "Freiburger Straße 7, 75179 Pforzheim",
+                "value_type": "TEXT",
+                "context": "Hausanschrift der Außenstelle Pforzheim der Deutschen Rentenversicherung Baden-Württemberg",
+                "evidence_location": "Hausanschrift Freiburger Straße 7 75179 Pforzheim"
+            },
+            {
+                "norm": "Deutsche Rentenversicherung Baden-Württemberg - Außenstelle Pforzheim",
+                "extracted_value": "07218250",
+                "value_type": "TEXT",
+                "context": "Telefonnummer der Außenstelle Pforzheim der Deutschen Rentenversicherung Baden-Württemberg",
+                "evidence_location": "Telefon 07218250"
+            }
+        ],
+        "last_updated": "2026-10-18T03:10:31.480827+00:00"
+    },
+    "praxis_slot_ENZ_ST_01": {
+        "source_hash": "e93e05d26a500f76baa7523b29eaeff3fc3e2fa5f676756cc47fa28fb6d5e450",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Allgemeinverfügung vom Landratsamt Enzkreis",
+                "extracted_value": "Ab der Gefahrenstufe 4 (hoch) des Waldbrand-Gefahrenindex des Deutschen Wetterdienstes ist die Nutzung der Grill- und Feuerstellen in den Wäldern des Enzkreises per Allgemeinverfügung verboten.",
+                "value_type": "TEXT",
+                "context": "Sperrung der Grillstellen in den Wäldern des Enzkreises wegen akuter Waldbrandgefahr.",
+                "evidence_location": "Ab der Gefahrenstufe 4 (hoch) ist die Nutzung der Grill- und Feuerstellen per Allgemeinverfügung verboten, unterhalb dieser Stufe ist die Nutzung weiter möglich."
+            }
+        ],
+        "last_updated": "2026-10-18T03:10:40.524566+00:00"
+    },
+    "praxis_slot_ENZ_ST_02": {
+        "source_hash": "b70881a4ada7c6d822cd3e83d5bf4a35c4d50af9be2282e006d13f0f3dd8d6e1",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_ST_03": {
+        "source_hash": "645754f15820402ef07a6906be6b438812d3f952b0c93bee29101fd81307069d",
+        "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
+        "claims": [
+            {
+                "norm": "Stadt Maulbronn / Art. 6 Abs. 1 S. 1 lit. f DSGVO",
+                "extracted_value": "Dies umfasst auch, dass alangu einzelne Daten zum Aufruf der Video-Inhalte (aufgerufener Inhalt, Datum und Uhrzeit sowie Ihren Browser-Typ und Betriebssystem) für höchstens 60 Tage speichert, um die ordnungsgemäße Bereitstellung der Video-Inhalte zu verifizieren",
+                "value_type": "TEXT",
+                "context": "Speicherdauer von Videoplayer-Daten der alangu GmbH",
+                "evidence_location": "Dies umfasst auch, dass alangu einzelne Daten zum Aufruf der Video-Inhalte (aufgerufener Inhalt, Datum und Uhrzeit sowie Ihren Browser-Typ und Betriebssystem) für höchstens 60 Tage speichert, um die ordnungsgemäße Bereitstellung der Video-Inhalte zu verifizieren und ggf. gemeldete Fehler der Videos oder an Video-Inhalten oder bei der Bereitstellung nachvollziehen und ausbessern zu können."
+            }
+        ],
+        "last_updated": "2026-10-18T03:10:58.293260+00:00"
+    },
+    "praxis_slot_ENZ_ST_04": {
+        "source_hash": "95a3d767db63bf6d77e4578be6ba77924437ec7dd49b786279f5690bec2f9297",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landkreis Enzkreis Wasserentnahmeverbot",
+                "extracted_value": "Die Beschränkung von Wasserentnahmen für die Bäche, Flüsse und Seen im gesamten Enzkreis gilt läuft zum 15. Oktober aus.",
+                "value_type": "DATE",
+                "context": "Ende des Wasserentnahmeverbots im Enzkreis am 15. Oktober",
+                "evidence_location": "Die Beschränkung von Wasserentnahmen für die Bäche, Flüsse und Seen im gesamten Enzkreis gilt läuft zum 15. Oktober aus."
+            }
+        ],
+        "last_updated": "2026-10-18T03:11:06.335858+00:00"
+    },
+    "praxis_slot_ENZ_ST_05": {
+        "source_hash": "cb66d64f28ddcb88f0d4934fca65017292d17b468c014f77745bd9fa962ceb60",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_GM_01": {
+        "source_hash": "aca382789b52e5f0021bfe02bd4f567e5237881425f6af80e35a14dcae770897",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_GM_02": {
+        "source_hash": "eb05ba645ecb91fafd2a18db5de75e3b8f7c1bb2ffd2e22e136f02bc25e74baa",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Stellenanzeige Wasserversorgung und Bauhof",
+                "extracted_value": "18.10.2026",
+                "value_type": "DATE",
+                "context": "Bewerbungsfrist für die Stellenausschreibung im Bereich Wasserversorgung und Bauhof",
+                "evidence_location": "Bewirb dich bis zum 18.10.2026"
+            }
+        ],
+        "last_updated": "2026-10-18T03:11:32.952177+00:00"
+    },
+    "praxis_slot_ENZ_GM_03": {
+        "source_hash": "27250aa10875035805e4eb66a1773536753e2f779cba2219d1023e4d9376958c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_GM_04": {
+        "source_hash": "eb03f8158cec7f0314807fc455d98bcbc5ee6fae545acd80dd185445c6c79a40",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Gemeinde Friolzheim - Qualifizierter Mietspiegel 2026",
+                "extracted_value": "Qualifizierter Mietspiegel 2026 - Befragung startet Mitte März",
+                "value_type": "TEXT",
+                "context": "Hinweis auf den Beginn der Befragung zum qualifizierten Mietspiegel 2026 im Enzkreis bzw. Friolzheim.",
+                "evidence_location": "05. März 2026 Qualifizierter Mietspiegel 2026 - Befragung startet Mitte März"
+            }
+        ],
+        "last_updated": "2026-10-18T03:11:48.490372+00:00"
+    },
+    "praxis_slot_ENZ_GM_05": {
+        "source_hash": "c2adf1546e566b9ad7c84c193aecebf705d2d8e2915d9eb704796af4b5224005",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "K 4510",
+                "extracted_value": "Vollsperrung der K 4510 zwischen Illingen und Schützingen vom 26. Oktober 2026 bis 29. Oktober 2026",
+                "value_type": "TEXT",
+                "context": "Verkehrsbehinderung aufgrund von Baumfällarbeiten",
+                "evidence_location": "Aufgrund von Baumfällarbeiten wird die K 4510 zwischen Illingen und Schützingen im Zeitraum von Montag, 26. Oktober 2026, bis Donnerstag, 29. Oktober..."
+            }
+        ],
+        "last_updated": "2026-10-18T03:11:56.691756+00:00"
+    },
+    "praxis_slot_ENZ_GM_06": {
+        "source_hash": "d77fb3e7699944c376ad98130df3306bd675bfcfac49c151baac8162815e6843",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_GM_07": {
+        "source_hash": "3db08c852b7ade37e01906c2d14fbf5baa019b3d906ebd12de8d0da93c08c214",
+        "legal_hash": "2a1fc0a44f1b66aaba3bef65a23f62e4485451ff3c7cd750248a437ebea7cdbc",
+        "claims": [
+            {
+                "norm": "Brennholzbestellfrist 2026/2027 Gemeinde Kämpfelbach",
+                "extracted_value": "01.11.2026",
+                "value_type": "DATE",
+                "context": "Frist zur Bestellung von Brennholz für das Frühjahr 2027 bei der Gemeindeverwaltung Kämpfelbach.",
+                "evidence_location": "Ab sofort kann bis zum 1. November 2026 wieder Brennholz für das Frühjahr 2027 bestellt werden."
+            },
+            {
+                "norm": "Kroni-Projekt Erlös Kämpfelbach",
+                "extracted_value": "800 Euro",
+                "value_type": "EURO",
+                "context": "Erlös aus der Kronkorken-Sammelaktion für den Kinder- und Jugendhospizdienst Sterneninsel.",
+                "evidence_location": "Dorthin geht der Erlös von 800 Euro!"
+            },
+            {
+                "norm": "Gemeinderatssitzung Kämpfelbach",
+                "extracted_value": "19.10.2026",
+                "value_type": "DATE",
+                "context": "Sitzungstermin des Gemeinderats Kämpfelbach in der Weinbrennerkelter Bilfingen.",
+                "evidence_location": "Die nächste Gemeinderatssitzung findet am Montag, den 19. Oktober 2026 um 18.30 Uhr in der Weinbrennerkelter Bilfingen statt."
+            }
+        ],
+        "last_updated": "2026-10-22T00:26:44.996641+00:00"
+    },
+    "praxis_slot_ENZ_GM_08": {
+        "source_hash": "4fadb4ca67d013ae89dd1e660f877597179c56503b108d5d11e0c3f711336e3b",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_GM_09": {
+        "source_hash": "73afd34a373d4336b38b8e9bb4c6be38bfc1ac41aa4e6df57a1ecaa2d452d560",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_GM_10": {
+        "source_hash": "21c9e12e55d5891170c90dc85695f78c866b4537209aedd04d95c462d67dcbf7",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_GM_11": {
+        "source_hash": "b01b5e50cd1dce129b8c97d4de0ee5b5b97bd18ba9ee4ab1b47afa6210297bd8",
+        "legal_hash": "133355bb1eedb2e2bfc53539e51d10e82bd0ed8e6ea3d45c341241b499bc022a",
+        "claims": [
+            {
+                "norm": "Offener Mittagstisch Mönsheim",
+                "extracted_value": "10,00 Euro",
+                "value_type": "EURO",
+                "context": "Kostenbeitrag für die Teilnahme am zweiwöchentlichen offenen Mittagstisch des Sozialen Netzwerks Mönsheim in der Alten Kelter einschließlich Nachtisch und Getränk.",
+                "evidence_location": "Das Essen kostet 10,00 Euro, darin sind ein Nachtisch und Getränk enthalten."
+            },
+            {
+                "norm": "§ 7 KiTaG",
+                "extracted_value": "pädagogische Fachkräfte nach § 7 KiTaG",
+                "value_type": "TEXT",
+                "context": "Gesetzliche Qualifikationsanforderung für pädagogisches Personal bei der Stellenausschreibung der Kindertagesstätte Wichtelhaus der Gemeinde Mönsheim.",
+                "evidence_location": "Die Gemeinde Mönsheim sucht für ihre Kindertagesstätte „Wichtelhaus“ zum frühestmöglichen Zeitpunkt staatlich anerkannte Erzieher bzw. pädagogische Fachkräfte nach § 7 KiTaG (m/w/d) in Vollzeit oder Teilzeit."
+            }
+        ],
+        "last_updated": "2026-10-22T00:27:20.077418+00:00"
+    },
+    "praxis_slot_ENZ_GM_12": {
+        "source_hash": "43ead94ba30ab8fbc38317fc6b507de2bf4facd2669791acef884197735f39db",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Gemeinde Neuhausen (Enzkreis)",
+                "extracted_value": "Wasser auf den Friedhöfen wird ab 2. November abgestellt",
+                "value_type": "TEXT",
+                "context": "Ankündigung der Gemeindeverwaltung zur Abschaltung des Friedhofswassers zum Wintersaisonbeginn.",
+                "evidence_location": "Aktuelles 09. Oktober 2026 Wasser auf den Friedhöfen wird ab 2. November abgestellt"
+            }
+        ],
+        "last_updated": "2026-10-18T03:12:57.658715+00:00"
+    },
+    "praxis_slot_ENZ_GM_13": {
+        "source_hash": "663b890eca0ccbe5e31797bb79a810205266df73cc5f16b6b993e341295b83d2",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Gemeinde Neulingen Stellenangebot Kämmerer",
+                "extracted_value": "Vergütung im Beschäftigungsverhältnis in EG 12 bzw. Besoldung A10 – A13 (je nach Qualifikation)",
+                "value_type": "TEXT",
+                "context": "Stellenausschreibung für die Position Kämmerer (m/w/d) in Neulingen ab 01.07.2027",
+                "evidence_location": "Zur Verstärkung unseres Führungsteams ist zum 01.07.2027 die Stelle Kämmerer (m/w/d) Unbefristet | Vollzeit | Vergütung im Beschäftigungsverhältnis in EG 12 bzw. Besoldung A10 – A13 (je nach Qualifikation) neu zu besetzen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:13:06.163032+00:00"
+    },
+    "praxis_slot_ENZ_GM_14": {
+        "source_hash": "5202c18add59256d3f0ca04cc7f8ad2d01ea1dafaf71de8a2613e412ccfaf56f",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_GM_15": {
+        "source_hash": "29c97cea69e0d0a609b17be892b4319f7f54f2e41acc7709768f5756731aae4c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Rathaus Dürrn Kontaktdaten",
+                "extracted_value": "Rathaus Dürrn Hauptstraße 53 75248 Ölbronn-Dürrn Tel.: 07237 422-0 Fax: 07237 422-33",
+                "value_type": "TEXT",
+                "context": "Offizielle Kontaktdaten der Gemeinde Ölbronn-Dürrn (Enzkreis)",
+                "evidence_location": "Rathaus Dürrn Hauptstraße 53 75248 Ölbronn-Dürrn Tel.: 07237 422-0 Fax: 07237 422-33"
+            }
+        ],
+        "last_updated": "2026-10-18T03:13:23.162252+00:00"
+    },
+    "praxis_slot_ENZ_GM_16": {
+        "source_hash": "04907811d60b9b671e79f53defd0a56bd378d63fcf4bd3956d1445f65fcccbd3",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_GM_17": {
+        "source_hash": "33a66a4865356f8d88588e90903feaeb0680cd290a2156910daa33e9c45efbe9",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_GM_18": {
+        "source_hash": "fbae0d09ae180d81c9cf3ec645970a240d82ac05420ea63ed5bb7bb0f9a70137",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Gemeinde Sternenfels Öffnungszeiten Rathaus",
+                "extracted_value": "Mo. - Do. 08:00 - 12:00 Uhr Do. 14:00 - 18:00 Uhr und nach Vereinbarung",
+                "value_type": "TEXT",
+                "context": "Öffnungszeiten des Rathauses Sternenfels",
+                "evidence_location": "Mo. - Do. 08:00 - 12:00 Uhr Do. 14:00 - 18:00 Uhr und nach Vereinbarung"
+            }
+        ],
+        "last_updated": "2026-10-18T03:13:48.433816+00:00"
+    },
+    "praxis_slot_ENZ_GM_19": {
+        "source_hash": "02f13eb4b73f1aa60a5c65bf17c4570dc1c9cddda920ce66fccde7fbd2a4d6b8",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Bundesmeldegesetz (BMG)",
+                "extracted_value": "Jährliche Bekanntmachung über Widerspruchsrechte nach dem Bundesmeldegesetz (BMG)",
+                "value_type": "TEXT",
+                "context": "Information zu Widerspruchsrechten nach dem Bundesmeldegesetz in Straubenhardt im Enzkreis",
+                "evidence_location": "Nachricht vom: 16.10.2026 Jährliche Bekanntmachung über Widerspruchsrechte nach dem Bundesmeldegesetz (BMG)"
+            }
+        ],
+        "last_updated": "2026-10-18T03:13:57.539802+00:00"
+    },
+    "praxis_slot_ENZ_GM_20": {
+        "source_hash": "b01917888b7a122d5814b3bff90bef281dd7595893315d85ad908d3a3e829853",
+        "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
+        "claims": [
+            {
+                "norm": "Art. 6 Abs. 1 s. 1 lit. e DSGVO i.V.m. §§ 2, 3 EGovG BW",
+                "extracted_value": "Die Cookies mit dem Präfix hwdatenschutz_cookie_ werden verwendet, um Ihre Auswahl aller auswählbaren Cookies zu speichern. Alle hwdatenschutz_cookie_ haben eine Bestandsdauer von einem Monat und laufen nach diesem Zeitraum ab.",
+                "value_type": "TEXT",
+                "context": "Datenschutzrechtliche Grundlagen und Speicherdauer von essenziellen Cookies auf der Website der Gemeinde Tiefenbronn.",
+                "evidence_location": "Die Cookies mit dem Präfix hwdatenschutz_cookie_ werden verwendet, um Ihre Auswahl aller auswählbaren Cookies zu speichern. Die essentiellen Cookies werden automatisch auf 1 gesetzt, da sie notwendig sind, um sicherzustellen, dass die entsprechende Funktion bei Bedarf geladen wird."
+            }
+        ],
+        "last_updated": "2026-10-18T03:14:08.134738+00:00"
+    },
+    "praxis_slot_ENZ_GM_21": {
+        "source_hash": "7e6c322f324b5a538207f46c0c16d5816436dfbeb816e53e7d0cb840db18053a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_ENZ_GM_22": {
+        "source_hash": "a14438d0e5105fe4157380ed7b35d4260f05f20f99326c8b5e991cff65dc0936",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Städtebauliche Erneuerung Ortsmitte II",
+                "extracted_value": "2028",
+                "value_type": "DATE",
+                "context": "Frist für die Inanspruchnahme von Zuschüssen, steuerlichen Abschreibungen und kostenloser Beratung für Gebäudesanierungen im Sanierungsgebiet Ortsmitte II.",
+                "evidence_location": "Noch bis 2028 können alle Eigentümer*innen im Sanierungsgebiet attraktive Zuschüsse, steuerliche Abschreibung und eine kostenlose Beratung für Ihre Gebäudesanierung in Anspruch nehmen."
+            }
+        ],
+        "last_updated": "2026-10-18T03:14:25.465552+00:00"
+    },
+    "praxis_slot_ENZ_GM_23": {
+        "source_hash": "4f25c221a66087510bf8729b0a0fefe8585b2e745aa9a45419b410c366ac9d75",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Energieberatung keep Enzkreis",
+                "extracted_value": "Energieberatung der Klimaschutz- und Energieagentur Enzkreis Pforzheim (keep) am Mittwoch, 21. Oktober 2026 von 15:00 Uhr - 18:00 Uhr im Rathaus Wurmberg, Raum 3",
+                "value_type": "DATE",
+                "context": "Beratungstermin für Bürgerenergieberatung im Rathaus Wurmberg",
+                "evidence_location": "Okt. 21 Energieberatung der Klimaschutz- und Energieagentur Enzkreis Pforzheim (keep) 15:00 Uhr - 18:00 Uhr Klimaschutz- und Energieberatung Enzkreis Pforzheim (keep) Rathaus Wurmberg, Raum 3"
+            }
+        ],
+        "last_updated": "2026-10-18T03:14:34.277395+00:00"
+    },
+    "praxis_slot_PF_ENZ_K1_STROM": {
+        "source_hash": "b2da984276aba64431ab2ed95a33667fc2f7c7a81ab443e0d93ae51bc69169f5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_PF_ENZ_K2_APO": {
+        "source_hash": "5ba7c6214c4ac187ca7179782c2a408a2c7f7e51caf2e39f54df9c2bc6c79541",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Landesapothekenkammer Baden-Württemberg",
+                "extracted_value": "Die Umkreissuche zeigt im Unterschied zur Schnellsuche die geplanten Notdienste für einen Zeitraum von bis zu einem Monat.",
+                "value_type": "TEXT",
+                "context": "Beschreibung der Funktionen des Apothekennotdienstes der Landesapothekenkammer Baden-Württemberg",
+                "evidence_location": "Die Umkreissuche zeigt im Unterschied zur Schnellsuche die geplanten Notdienste für einen Zeitraum von bis zu einem Monat."
+            }
+        ],
+        "last_updated": "2026-10-18T03:14:49.742865+00:00"
+    },
+    "praxis_slot_BW_KRITIS_K3_CYBER": {
+        "source_hash": "616da4a1e8f0ba7002f40bfdf67e8ef7ae02f737336af896e05d1761f630cbaf",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_BW_KRITIS_K4_LEBENSMITTEL": {
+        "source_hash": "0314e4729c05e75560ff78897b116baf9b88a3fc98506e17e70324829c7c2675",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_PF_K5_WOHNBAU": {
+        "source_hash": "f420a6659dbc6045494e54a50a801a5794ba4a1dd1e9f56fd21ad3fae0f5cad1",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_PF_ENZ_K6_DWD": {
+        "source_hash": "8b623bce3b13f7b83e3140a415f9f6d08ee3beec185fcd2bb1856867189ba4f5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+}

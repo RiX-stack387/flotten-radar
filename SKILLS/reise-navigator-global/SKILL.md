@@ -1,6 +1,6 @@
----
+﻿---
 name: reise-navigator-global
-description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2.5) - Reise-Navigator Global (Reiserecht, Fluggastrechte EU-VO 261/2004, DB-Fahrgastrechte § 651a BGB, Frankfurter Tabelle und barrierefreie Mobilitaet).
+description: "Reise-Navigator Global (Reiserecht, Fluggastrechte EU-VO 261/2004, DB-Fahrgastrechte, Frankfurter Tabelle und barrierefreie Mobilitaet)."
 ---
 # SKILL: 25_Reise_Navigator_Global (Status V23.4 / Upgrade V2.5)
 
@@ -12,6 +12,10 @@ description: Spezialisierte Flotten-Einheit der M.E.R. Sozial Flotte (Doktrin V2
 4. **Smartphone-Doktrin:** Uebersichtliche, direkt lesbare Struktur.
 
 ## Referenzen & Wissensdatenbank
-Werte fuer tagesaktuelle Aenderungen das GitHub-Repository RiX-stack387/flotten-radar aus:
+Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
+- Datei references/Front_Delta_Compact.md
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
+
+Prüfe für tagesaktuelle Live-Änderungen und Deltas ergänzend das GitHub-Repository RiX-stack387/flotten-radar:
 - Datei Front_Delta_Compact.md auf dem Branch main
 - Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main
