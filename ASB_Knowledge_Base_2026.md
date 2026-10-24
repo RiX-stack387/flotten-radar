@@ -1,4 +1,4 @@
-# ASB BW e.V. Region Nordschwarzwald – Live Wissensbasis (V23.4)
+﻿# ASB BW e.V. Region Nordschwarzwald – Live Wissensbasis (V23.4)
 **Zuletzt aktualisiert:** 2026-10-15 04:56:25 CEST | **Geprüfte Seiten:** 22 von 22
 **Offizielle Domain:** https://www.asb-nsw.de/ | **Pipeline:** `asb_nsw_radar.py`
 
@@ -19,7 +19,7 @@
 * **Online-Karriereportal:** https://www.asb-nsw.de/stellenangebote
 * **Telefon Zentrale Bewerbung:** 07083 92350
 * **Feste Standorte & Vakanz-Profile:**
-  * **Bad Herrenalb:** Ergänzende Hilfe ambulante Pflege | Minijobber Fahrdienst | (Sozial)pädagogische Fachkraft / Erzieher
+  * **Bad Herrenalb:** (Sozial)pädagogische Fachkraft / Erzieher (m/w/d, Teilzeit 50-75% nachmittags) - JETZT BEWERBEN!
   * **Bad Liebenzell / Calw:** Pflegefachkräfte & Hilfskräfte stationär/ambulant | Mentoren
   * **Dobel:** Pflegefachkräfte & Hilfskräfte Seniorenzentrum
   * **Freudenstadt:** Ambulante Pflegepool-Initiativbewerbungen
@@ -174,11 +174,9 @@ Nicht bewerben
 
 Schnellbewerbung Freudenstadt
 
-#### Bad Herrenalb
-
-* aktuell sind alle Stellen besetzt
-
-Nicht bewerben
+#### Bad Herrenalb / Kindertagesbetreuung
+* (Sozial)pädagogische Fachkraft / Erzieher (m/w/d) in Teilzeit (50–75 % nachmittags)
+Schnellbewerbung: https://www.asb-nsw.de/stellenangebote/schnellbewerbung-erzieher-paedagoge
 
 #### Wir freuen uns auf Sie!
 
