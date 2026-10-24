@@ -1,85 +1,11 @@
 ============================================================
-⚓ M.E.R. PRAXIS-LAGEBERICHT V44.0 (2026-10-22)
+⚓ M.E.R. PRAXIS-LAGEBERICHT V44.0 (2026-10-24)
 ============================================================
 
 
 [Ã°Å¸â€Â´ AKUTER HANDLUNGSBEDARF / ÄNDERUNGEN ERKANNT]
 ==================================================
-
-=== Z23: Wohngeldbehörde Pforzheim (Anträge & Vordrucke) ===
-Status: LEGAL_AND_EVIDENCE_CHANGED
-Quelle: https://pdf.form-solutions.net/forms/frm/4dakhDtg1P7pF3HkmGQ4CCCjv98qkk3C
-Diff-Log:
-[ZIEL-LINK]: https://pdf.form-solutions.net/forms/frm/4dakhDtg1P7pF3HkmGQ4CCCjv98qkk3C
---- STATUS ALT (Vorheriger Scan) ---
-Norm/AZ: Datenschutzgrundverordnung und Einwilligungserklärung | Wert: Eine automatische Löschung erfolgt nach 180 Tagen, insofern entsprechende Daten nicht weiter benötigt werden. (TEXT)
-Kontext: Automatische Löschung von personenbezogenen Daten bei Nichtbedarf nach 180 Tagen
-Beweis: Eine automatische Löschung erfolgt nach 180 Tagen, insofern entsprechende Daten nicht weiter benötigt werden.
-
-Norm/AZ: Wohngeldgesetz - Falschangaben und Ordnungswidrigkeiten | Wert: 2000 EUR (EURO)
-Kontext: Maximale Geldbuße bei einer Ordnungswidrigkeit aufgrund falscher oder verschwiegener Angaben im Wohngeldantrag
-Beweis: Wenn Ihre Angaben falsch sind, Angaben verschwiegen wurden oder Änderungen nicht mitgeteilt werden, können Sie damit eine Ordnungswidrigkeit (Geldbuße bis zu 2.000 EUR) oder sogar eine Straftat (z.B. Betrug) begehen.
-
-Norm/AZ: Wohngeldgesetz - Bürgergeld und andere staatliche Leistungen | Wert: Beziehen Sie oder ein weiteres Haushaltsmitglied eine andere staatliche Leistung (z.B. Bürgergeld -SGB II, Hilfe zum Lebensunterhalt -SGB XII, Berufsausbildungsbeihilfe, BAföG, Unterhaltsvorschuss) oder ist eine solche Leistung beantragt? (TEXT)
-Kontext: Abfrage des Bezugs von Grundsicherungsgeld (Bürgergeld) und weiteren Sozialleistungen im Rahmen des Wohngeldantrags
-Beweis: Beziehen Sie oder ein weiteres Haushaltsmitglied eine andere staatliche Leistung (z.B. Bürgergeld -SGB II, Hilfe zum Lebensunterhalt -SGB XII, Berufsausbildungsbeihilfe, BAföG, Unterhaltsvorschuss) oder ist eine solche Leistung beantragt?
-
---- STATUS NEU (Aktueller Scan) ---
-[GEÄNDERT/NEU] Norm/AZ: Datenschutzgrundverordnung | Wert: Automatische Löschung nach 180 Tagen, sofern die Daten nicht weiter benötigt werden. (ValueType.TEXT)
-Kontext: Speicherdauer und automatische Datenlöschung im Online-Formularsystem
-Beweis: Eine automatische Löschung erfolgt nach 180 Tagen, insofern entsprechende Daten nicht weiter benötigt werden.
-
-[GEÄNDERT/NEU] Norm/AZ: Datenschutzgrundverordnung | Wert: Recht auf jederzeitigen Widerruf der Einwilligung ohne Angabe von Gründen mit Wirkung für die Zukunft ohne zusätzliche Kosten außer Basistarifen für Porto bzw. Übermittlung. (ValueType.TEXT)
-Kontext: Widerrufsrecht und Kostenfolgen bei Geltendmachung durch betroffene Personen
-Beweis: Sie haben das Recht, Ihre Einwilligung jederzeit ohne Angabe von Gründen mit Wirkung für die Zukunft abzuändern oder gänzlich zu widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt. Sie können den Widerruf entweder postalisch, per E-Mail oder per Fax an uns übermitteln. Es entstehen Ihnen dabei keine anderen Kosten als die Portokosten bzw. die Übermittlungskosten nach den bestehenden Basistarifen.
-
-[Ã°Å¸â€â€™ BEWEIS GESICHERT]: C:\DefconRecht\Beweisarchiv\2026-10-22_Z23_Beweis.txt
-
-
-=== ENZ_GM_07: Gemeinde Kämpfelbach ===
-Status: LEGAL_AND_EVIDENCE_CHANGED
-Quelle: https://www.kaempfelbach.de/
-Diff-Log:
-[ZIEL-LINK]: https://www.kaempfelbach.de/
---- STATUS ALT (Vorheriger Scan) ---
-Keine historischen Daten erfasst (Erster Scan oder leer).
---- STATUS NEU (Aktueller Scan) ---
-[GEÄNDERT/NEU] Norm/AZ: Brennholzbestellfrist 2026/2027 Gemeinde Kämpfelbach | Wert: 01.11.2026 (ValueType.DATE)
-Kontext: Frist zur Bestellung von Brennholz für das Frühjahr 2027 bei der Gemeindeverwaltung Kämpfelbach.
-Beweis: Ab sofort kann bis zum 1. November 2026 wieder Brennholz für das Frühjahr 2027 bestellt werden.
-
-[GEÄNDERT/NEU] Norm/AZ: Kroni-Projekt Erlös Kämpfelbach | Wert: 800 Euro (ValueType.EURO)
-Kontext: Erlös aus der Kronkorken-Sammelaktion für den Kinder- und Jugendhospizdienst Sterneninsel.
-Beweis: Dorthin geht der Erlös von 800 Euro!
-
-[GEÄNDERT/NEU] Norm/AZ: Gemeinderatssitzung Kämpfelbach | Wert: 19.10.2026 (ValueType.DATE)
-Kontext: Sitzungstermin des Gemeinderats Kämpfelbach in der Weinbrennerkelter Bilfingen.
-Beweis: Die nächste Gemeinderatssitzung findet am Montag, den 19. Oktober 2026 um 18.30 Uhr in der Weinbrennerkelter Bilfingen statt.
-
-[Ã°Å¸â€â€™ BEWEIS GESICHERT]: C:\DefconRecht\Beweisarchiv\2026-10-22_ENZ_GM_07_Beweis.txt
-
-
-=== ENZ_GM_11: Gemeinde Mönsheim ===
-Status: LEGAL_AND_EVIDENCE_CHANGED
-Quelle: https://www.moensheim.de/
-Diff-Log:
-[ZIEL-LINK]: https://www.moensheim.de/
---- STATUS ALT (Vorheriger Scan) ---
-Norm/AZ: Offener Mittagstisch | Wert: 10,00 Euro (EURO)
-Kontext: Kosten für den offenen Mittagstisch in der Alten Kelter inklusive Nachtisch und Getränk
-Beweis: Das Essen kostet 10,00 Euro, darin sind ein Nachtisch und Getränk enthalten.
-
---- STATUS NEU (Aktueller Scan) ---
-[GEÄNDERT/NEU] Norm/AZ: Offener Mittagstisch Mönsheim | Wert: 10,00 Euro (ValueType.EURO)
-Kontext: Kostenbeitrag für die Teilnahme am zweiwöchentlichen offenen Mittagstisch des Sozialen Netzwerks Mönsheim in der Alten Kelter einschließlich Nachtisch und Getränk.
-Beweis: Das Essen kostet 10,00 Euro, darin sind ein Nachtisch und Getränk enthalten.
-
-[GEÄNDERT/NEU] Norm/AZ: § 7 KiTaG | Wert: pädagogische Fachkräfte nach § 7 KiTaG (ValueType.TEXT)
-Kontext: Gesetzliche Qualifikationsanforderung für pädagogisches Personal bei der Stellenausschreibung der Kindertagesstätte Wichtelhaus der Gemeinde Mönsheim.
-Beweis: Die Gemeinde Mönsheim sucht für ihre Kindertagesstätte „Wichtelhaus“ zum frühestmöglichen Zeitpunkt staatlich anerkannte Erzieher bzw. pädagogische Fachkräfte nach § 7 KiTaG (m/w/d) in Vollzeit oder Teilzeit.
-
-[Ã°Å¸â€â€™ BEWEIS GESICHERT]: C:\DefconRecht\Beweisarchiv\2026-10-22_ENZ_GM_11_Beweis.txt
-
+Keine kritischen Veränderungen im Sektor.
 
 [🟢 SICHERER PERIMETER / UNVERÄNDERT]
 ==================================================
@@ -211,6 +137,12 @@ Quelle bitgenau identisch.
 
 
 === Z22: Finanzielle Hilfe für obdachlose Menschen ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== Z23: Wohngeldbehörde Pforzheim (Anträge & Vordrucke) ===
 Status: SOURCE_UNCHANGED
 Diff-Log:
 Quelle bitgenau identisch.
@@ -661,9 +593,9 @@ Nur kosmetische HTML-Änderungen.
 
 
 === ENZ_GM_01: Gemeinde Birkenfeld ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === ENZ_GM_02: Gemeinde Eisingen ===
@@ -673,9 +605,9 @@ Quelle bitgenau identisch.
 
 
 === ENZ_GM_03: Gemeinde Engelsbrand ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === ENZ_GM_04: Gemeinde Friolzheim ===
@@ -685,9 +617,9 @@ Nur kosmetische HTML-Änderungen.
 
 
 === ENZ_GM_05: Gemeinde Illingen ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === ENZ_GM_06: Gemeinde Ispringen ===
@@ -696,10 +628,16 @@ Diff-Log:
 Nur kosmetische HTML-Änderungen.
 
 
-=== ENZ_GM_08: Gemeinde Keltern ===
-Status: SOURCE_UNCHANGED
+=== ENZ_GM_07: Gemeinde Kämpfelbach ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
 Diff-Log:
-Quelle bitgenau identisch.
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_08: Gemeinde Keltern ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
 
 
 === ENZ_GM_09: Gemeinde Kieselbronn ===
@@ -709,6 +647,12 @@ Quelle bitgenau identisch.
 
 
 === ENZ_GM_10: Gemeinde Königsbach-Stein ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
+=== ENZ_GM_11: Gemeinde Mönsheim ===
 Status: SOURCE_CHANGED_LEGAL_UNCHANGED
 Diff-Log:
 Nur kosmetische HTML-Änderungen.
@@ -739,9 +683,9 @@ Quelle bitgenau identisch.
 
 
 === ENZ_GM_16: Gemeinde Ötisheim ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === ENZ_GM_17: Gemeinde Remchingen ===
@@ -811,9 +755,9 @@ Quelle bitgenau identisch.
 
 
 === PF_K5_WOHNBAU: Bau und Heim eG Pforzheim (Sozialer Wohnraum & Bauprojekte) ===
-Status: SOURCE_UNCHANGED
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
 Diff-Log:
-Quelle bitgenau identisch.
+Nur kosmetische HTML-Änderungen.
 
 
 === PF_ENZ_K6_DWD: DWD Amtliche Warnungen (Stadtkreis Pforzheim & Enzkreis) ===

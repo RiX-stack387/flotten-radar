@@ -1,82 +1,11 @@
 ============================================================
-⚓ M.E.R. PRAXIS-LAGEBERICHT CW/FDS V44.0 (2026-10-22)
+⚓ M.E.R. PRAXIS-LAGEBERICHT CW/FDS V44.0 (2026-10-24)
 ============================================================
 
 
 [🔴 AKUTER HANDLUNGSBEDARF / ÄNDERUNGEN ERKANNT]
 ==================================================
-
-=== CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum) ===
-Status: LEGAL_AND_EVIDENCE_CHANGED
-Quelle: https://www.kreisbau-calw.de/
-Diff-Log:
-[ZIEL-LINK]: https://www.kreisbau-calw.de/
---- STATUS ALT ---
-Norm/AZ: Kreisbaugenossenschaft Calw eG Satzung / Mietbedingungen | Wert: Nein, bei der Kreisbau Calw gibt es keine Mietkaution. Mieter sind Mitglieder und erwerben Mitgliedsanteile, sie haben ein Geschäftsguthaben. (TEXT)
-Kontext: Information zur Kaution bei der Anmietung von Genossenschaftswohnungen
-Beweis: Nein, bei der Kreisbau Calw gibt es keine Mietkaution. Mieter sind Mitglieder und erwerben Mitgliedsanteile, sie haben ein Geschäftsguthaben.
-
-Norm/AZ: Kreisbaugenossenschaft Calw eG Kündigungsfrist | Wert: Sie können mit einer Frist von drei Monaten zum Jahresende kündigen. (TEXT)
-Kontext: Kündigungsfrist für die Mitgliedschaft in der Genossenschaft
-Beweis: Sie können mit einer Frist von drei Monaten zum Jahresende kündigen.
-
---- STATUS NEU ---
-[GEÄNDERT/NEU] Norm/AZ: Satzung der Kreisbaugenossenschaft Calw eG - Kündigungsfrist | Wert: Frist von drei Monaten zum Jahresende (ValueType.TEXT)
-Kontext: Regelung der Kündigungsfrist für die Mitgliedschaft bei der Kreisbaugenossenschaft Calw eG sowie die nachfolgende Auszahlung des Geschäftsguthabens.
-Beweis: Sie können mit einer Frist von drei Monaten zum Jahresende kündigen.
-
-[GEÄNDERT/NEU] Norm/AZ: Mietbestimmungen der Kreisbaugenossenschaft Calw eG - Kaution | Wert: Keine Erhebung einer Mietkaution; stattdessen Erwerb von Mitgliedsanteilen/Geschäftsguthaben (ValueType.TEXT)
-Kontext: Bedingungen der Wohnungsanmietung bezüglich Sicherheitsleistungen bei der Kreisbaugenossenschaft Calw eG.
-Beweis: Nein, bei der Kreisbau Calw gibt es keine Mietkaution. Mieter sind Mitglieder und erwerben Mitgliedsanteile, sie haben ein Geschäftsguthaben.
-
-[GEÄNDERT/NEU] Norm/AZ: Satzung der Kreisbaugenossenschaft Calw eG - Genossenschaftszweck | Wert: Förderung ihrer Mitglieder vorrangig durch eine gute, sichere und sozial verantwortbare Wohnungsversorgung (ValueType.TEXT)
-Kontext: Festlegung des Förderzwecks der Kreisbaugenossenschaft Calw eG zur Wohnungsversorgung.
-Beweis: Zweck der Genossenschaft ist die Förderung ihrer Mitglieder vorrangig durch eine gute, sichere und sozial verantwortbare Wohnungsversorgung.
-
-[🔒 BEWEIS GESICHERT]: C:\DefconRecht\Beweisarchiv\2026-10-22_CWFDS_CW_K5_WOHNBAU_Beweis.txt
-
-
-=== CW_FDS_KRITIS_WASSER: Stadtwerke & Trinkwasserversorgung Calw (ENCW) ===
-Status: LEGAL_AND_EVIDENCE_CHANGED
-Quelle: https://www.encw.de/wasser/
-Diff-Log:
-[ZIEL-LINK]: https://www.encw.de/wasser/
---- STATUS ALT ---
-Norm/AZ: Preisblatt Wasser 2026 | Wert: Grundpreis monatlich 5,05 EUR netto (5,40 EUR brutto), Wasser m3 3,56 EUR netto (3,81 EUR brutto) (EURO)
-Kontext: Wasserpreise und Gebühren der Energie Calw GmbH ab dem 01. Januar 2026
-Beweis: Grundpreis monatlich 5,05 EUR + 7% 5,40 EUR
-
-Norm/AZ: Preisblatt Wasser 2025 | Wert: Grundpreis monatlich 4,94 EUR netto (5,29 EUR brutto), Wasser m3 3,47 EUR netto (3,71 EUR brutto) (EURO)
-Kontext: Wasserpreise und Gebühren der Energie Calw GmbH ab dem 01. Januar 2025
-Beweis: Grundpreis monatlich 4,94 EUR + 7% 5,29 EUR
-
-Norm/AZ: Standrohrausleihe ENCW | Wert: 500 EUR Kaution (EURO)
-Kontext: Hinterlegung einer Kaution für die Ausleihe eines Standrohres ab dem 01.01.2022
-Beweis: Wichtiger Hinweis: Die Ausgabe erfolgt erst nach Eingang einer Kaution von 500 €.
-
---- STATUS NEU ---
-[GEÄNDERT/NEU] Norm/AZ: Preisblatt Wasser 2026 (Energie Calw GmbH) | Wert: 3,81 EUR (ValueType.EURO)
-Kontext: Endpreis brutto inklusive 7 % Mehrwertsteuer pro Kubikmeter Trinkwasser in Calw ab dem 01. Januar 2026.
-Beweis: Wasser m3 3,56 EUR + 7% 3,81 EUR
-
-[GEÄNDERT/NEU] Norm/AZ: Abwassergebühr der Stadt Calw (Gebührenstand Januar 2026) | Wert: 3,24 EUR (ValueType.EURO)
-Kontext: Abwassergebühr der Stadt Calw je Kubikmeter Abwasser ab dem 01. Januar 2026.
-Beweis: Abwasser** m3 3,24 EUR
-
-[GEÄNDERT/NEU] Norm/AZ: Niederschlagswassergebühr der Stadt Calw (Gebührenstand Januar 2026) | Wert: 0,60 EUR (ValueType.EURO)
-Kontext: Gebühr für Niederschlagswasser der Stadt Calw pro Quadratmeter versiegelter Fläche ab Januar 2026.
-Beweis: Niederschlagswasser*** m2 (Fläche) 0,60 EUR
-
-[GEÄNDERT/NEU] Norm/AZ: Regelungen zur Standrohrausleihe der Energie Calw GmbH | Wert: 500 € (ValueType.EURO)
-Kontext: Höhe der Sicherheitsleistung (Kaution) für die kurzfristige Leihe eines Standrohres.
-Beweis: Wichtiger Hinweis: Die Ausgabe erfolgt erst nach Eingang einer Kaution von 500 €.
-
-[GEÄNDERT/NEU] Norm/AZ: Trinkwasserverordnung (TrinkwV) | Wert: 50 mg Nitrat pro Liter (ValueType.TEXT)
-Kontext: Festgesetzter gesetzlicher Grenzwert für Nitrat im Trinkwasser.
-Beweis: In der Trinkwasserverordnung ist der Grenzwert von 50 mg Nitrat pro Liter festgesetzt.
-
-[🔒 BEWEIS GESICHERT]: C:\DefconRecht\Beweisarchiv\2026-10-22_CWFDS_CW_FDS_KRITIS_WASSER_Beweis.txt
-
+Keine kritischen Veränderungen im Sektor.
 
 [🟢 SICHERER PERIMETER / UNVERÄNDERT]
 ==================================================
@@ -172,9 +101,9 @@ Nur kosmetische HTML-Änderungen.
 
 
 === CW_ST_05: Stadt Neubulach - Rathaus & Bürgerservice ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === CW_ST_06: Stadt Haiterbach - Rathaus & Bürgerservice ===
@@ -196,9 +125,9 @@ Quelle bitgenau identisch.
 
 
 === CW_ST_09: Stadt Bad Herrenalb - Rathaus & Kurbetrieb ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === CW_ST_10: Stadt Bad Teinach-Zavelstein - Rathaus & Kurbetrieb ===
@@ -226,21 +155,21 @@ Nur kosmetische HTML-Änderungen.
 
 
 === CW_GM_04: Gemeinde Enzklösterle - Rathaus & Touristik ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
-Diff-Log:
-Nur kosmetische HTML-Änderungen.
-
-
-=== CW_GM_05: Gemeinde Gechingen - Bürgerservice ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
-Diff-Log:
-Nur kosmetische HTML-Änderungen.
-
-
-=== CW_GM_06: Gemeinde Ostelsheim - Bürgerservice ===
 Status: SOURCE_UNCHANGED
 Diff-Log:
 Quelle bitgenau identisch.
+
+
+=== CW_GM_05: Gemeinde Gechingen - Bürgerservice ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== CW_GM_06: Gemeinde Ostelsheim - Bürgerservice ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
 
 
 === CW_GM_07: Gemeinde Simmozheim - Bürgerservice ===
@@ -256,9 +185,9 @@ Quelle bitgenau identisch.
 
 
 === CW_GM_09: Gemeinde Oberreichenbach - Bürgerservice ===
-Status: SOURCE_UNCHANGED
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
 Diff-Log:
-Quelle bitgenau identisch.
+Nur kosmetische HTML-Änderungen.
 
 
 === CW_GM_10: Gemeinde Rohrdorf - Bürgerservice ===
@@ -268,9 +197,9 @@ Keine Quelle erreichbar.
 
 
 === CW_GM_11: Gemeinde Ebhausen - Bürgerservice ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === CW_GM_12: Gemeinde Egenhausen - Bürgerservice ===
@@ -280,21 +209,21 @@ Quelle bitgenau identisch.
 
 
 === CW_GM_13: Gemeinde Höfen an der Enz - Bürgerservice ===
-Status: SOURCE_UNCHANGED
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
 Diff-Log:
-Quelle bitgenau identisch.
+Nur kosmetische HTML-Änderungen.
 
 
 === CW_GM_14: Gemeinde Unterreichenbach - Bürgerservice ===
-Status: SOURCE_UNCHANGED
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
 Diff-Log:
-Quelle bitgenau identisch.
+Nur kosmetische HTML-Änderungen.
 
 
 === CW_GM_15: Gemeinde Simmersfeld - Bürgerservice ===
-Status: SOURCE_UNCHANGED
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
 Diff-Log:
-Quelle bitgenau identisch.
+Nur kosmetische HTML-Änderungen.
 
 
 === FDS_Z1: KdU-Richtwerte Freudenstadt (Grundsicherungsgeld) ===
@@ -310,9 +239,9 @@ Quelle bitgenau identisch.
 
 
 === FDS_Z3: BuT Jobcenter FDS ===
-Status: SOURCE_NOT_VERIFIED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Keine Quelle erreichbar.
+Quelle bitgenau identisch.
 
 
 === FDS_Z4: vgf Ticket-Tarife (FDS) ===
@@ -328,39 +257,39 @@ Quelle bitgenau identisch.
 
 
 === FDS_Z10: Wohngeldbehörde FDS ===
-Status: SOURCE_NOT_VERIFIED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Keine Quelle erreichbar.
+Quelle bitgenau identisch.
 
 
 === FDS_Z11: AWB Abfallgebühren FDS ===
-Status: SOURCE_NOT_VERIFIED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Keine Quelle erreichbar.
+Quelle bitgenau identisch.
 
 
 === FDS_Z12: Schuldnerberatung FDS ===
-Status: SOURCE_NOT_VERIFIED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Keine Quelle erreichbar.
+Quelle bitgenau identisch.
 
 
 === FDS_Z24: Wohnberechtigungsschein (WBS) FDS ===
-Status: SOURCE_NOT_VERIFIED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Keine Quelle erreichbar.
+Quelle bitgenau identisch.
 
 
 === FDS_Z27: Pflegestützpunkt FDS ===
-Status: SOURCE_NOT_VERIFIED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Keine Quelle erreichbar.
+Quelle bitgenau identisch.
 
 
 === FDS_Z28: Unterhaltsvorschuss FDS ===
-Status: SOURCE_NOT_VERIFIED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Keine Quelle erreichbar.
+Quelle bitgenau identisch.
 
 
 === FDS_ST_01: Stadt Freudenstadt - Rathaus & Bürgerservice ===
@@ -376,15 +305,15 @@ Nur kosmetische HTML-Änderungen.
 
 
 === FDS_ST_03: Stadt Alpirsbach - Rathaus & Touristik ===
-Status: SOURCE_UNCHANGED
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
 Diff-Log:
-Quelle bitgenau identisch.
+Nur kosmetische HTML-Änderungen.
 
 
 === FDS_ST_04: Stadt Dornstetten - Rathaus & Bürgerservice ===
-Status: SOURCE_UNCHANGED
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
 Diff-Log:
-Quelle bitgenau identisch.
+Nur kosmetische HTML-Änderungen.
 
 
 === FDS_GM_01: Gemeinde Baiersbronn - Rathaus & Touristik ===
@@ -394,9 +323,9 @@ Nur kosmetische HTML-Änderungen.
 
 
 === FDS_GM_02: Gemeinde Loßburg - Rathaus & Bürgerservice ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === FDS_GM_03: Gemeinde Pfalzgrafenweiler - Bürgerservice ===
@@ -412,21 +341,21 @@ Nur kosmetische HTML-Änderungen.
 
 
 === FDS_GM_05: Gemeinde Empfingen - Bürgerservice ===
-Status: SOURCE_UNCHANGED
-Diff-Log:
-Quelle bitgenau identisch.
-
-
-=== FDS_GM_06: Gemeinde Eutingen im Gäu - Bürgerservice ===
 Status: SOURCE_CHANGED_LEGAL_UNCHANGED
 Diff-Log:
 Nur kosmetische HTML-Änderungen.
 
 
-=== FDS_GM_07: Gemeinde Bad Rippoldsau-Schapbach - Rathaus ===
+=== FDS_GM_06: Gemeinde Eutingen im Gäu - Bürgerservice ===
 Status: SOURCE_UNCHANGED
 Diff-Log:
 Quelle bitgenau identisch.
+
+
+=== FDS_GM_07: Gemeinde Bad Rippoldsau-Schapbach - Rathaus ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
 
 
 === FDS_GM_08: Gemeinde Seewald - Bürgerservice ===
@@ -460,33 +389,33 @@ Quelle bitgenau identisch.
 
 
 === FDS_GM_13: Gemeinde Eutingen im Gäu (Teilort 1) - Rathaus ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === FDS_GM_14: Gemeinde Eutingen im Gäu (Teilort 2) - Rathaus ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === FDS_GM_15: Gemeinde Eutingen im Gäu (Teilort 3) - Rathaus ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === FDS_GM_16: Gemeinde Eutingen im Gäu (Teilort 4) - Rathaus ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === FDS_GM_17: Gemeinde Eutingen im Gäu (Teilort 5) - Rathaus ===
-Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Status: SOURCE_UNCHANGED
 Diff-Log:
-Nur kosmetische HTML-Änderungen.
+Quelle bitgenau identisch.
 
 
 === FDS_GM_18: Gemeinde Horb am Neckar (Teilort 1) - Rathaus ===
@@ -520,9 +449,9 @@ Nur kosmetische HTML-Änderungen.
 
 
 === CW_FDS_K1_STROM: Netze BW & ENCW Störungsmelder (Strom/Gas) ===
-Status: SOURCE_UNCHANGED
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
 Diff-Log:
-Quelle bitgenau identisch.
+Nur kosmetische HTML-Änderungen.
 
 
 === CW_FDS_K2_APO: Apotheken-Notdienst CW/FDS (LAK BW) ===
@@ -531,7 +460,19 @@ Diff-Log:
 Quelle bitgenau identisch.
 
 
+=== CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum) ===
+Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+Diff-Log:
+Nur kosmetische HTML-Änderungen.
+
+
 === CW_FDS_K6_DWD: DWD Berg- & Höhenwetter (Schwarzwaldhochstraße, Kaltenbronn) ===
+Status: SOURCE_UNCHANGED
+Diff-Log:
+Quelle bitgenau identisch.
+
+
+=== CW_FDS_KRITIS_WASSER: Stadtwerke & Trinkwasserversorgung Calw (ENCW) ===
 Status: SOURCE_UNCHANGED
 Diff-Log:
 Quelle bitgenau identisch.
