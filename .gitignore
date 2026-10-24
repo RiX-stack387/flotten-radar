@@ -1,0 +1,24 @@
+﻿# Lokale Archive & Werkstatt-Ordner
+DEPLOY_ZIPS/
+SKILLS_Archiv_Temp/
+.backup/
+Backup_ASB_Ref/
+DeepResearch_Input/
+Wachposten/
+ASB/
+
+# Lokale Logs & Beweise (bleiben auf SSD C:\)
+MasterLogs/
+Beweisarchiv/
+*.log
+Nightly_Run_Log.txt
+
+# Python & System-Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+
+# Lokale Zustands-Caches
+*.sqlite
+*.cache

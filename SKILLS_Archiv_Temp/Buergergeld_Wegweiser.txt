@@ -1,6 +1,0 @@
-﻿# WO: Bürgergeld & Grundsicherung (SGB II)
-- Zuständig: Jobcenter Pforzheim / Landkreis Enzkreis
-- Kernnormen: SGB II, SGB X (§ 37 Antragstellung, § 44 Rücknahme rechtswidriger bescheide)
-- Wichtige Fristen: Widerspruchsfrist 1 Monat (§ 84 SGG), Klagefrist 1 Monat (§ 87 SGG)
-- Aktuelle Regelsätze & KdU-Richtlinien: Automatischer Abgleich über ASB_Knowledge_Base_2026.md und lokale Satzungen.
-- Maßnahme bei Sperrzeiten / Sanktionen: Sofortige Akteneinsicht anfordern, Härtefallprüfung nach § 31a Abs. 3 SGB II.

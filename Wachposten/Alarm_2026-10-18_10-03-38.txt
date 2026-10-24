@@ -1,4 +1,0 @@
-ZEITPUNKT: 2026-10-18_10-03-38
-STATUS: Person erfasst
-STATUS: PERSON_ERKANNT
-DETAILS: Eine Person mit Bart und dunkler Kleidung geht durch den Raum.

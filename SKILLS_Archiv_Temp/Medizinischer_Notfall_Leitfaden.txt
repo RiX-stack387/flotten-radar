@@ -1,4 +1,0 @@
-﻿# WO: Gesundheitswesen, Patientenrechte & Pflegegrad-Eskalation
-- Patientenrechte und Widersprüche gegen Ablehnungen von Krankenkassen / Pflegekassen.
-- Begleitung bei Begutachtungen durch den Medizinischen Dienst (MD).
-- Sofortige Notfall-Weiterleitung: Bei akuten medizinischen Notlagen ausnahmslos an 112 oder den ärztlichen Bereitschaftsdienst 116117 verweisen.

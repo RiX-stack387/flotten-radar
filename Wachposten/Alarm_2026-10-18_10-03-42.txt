@@ -1,4 +1,0 @@
-ZEITPUNKT: 2026-10-18_10-03-42
-STATUS: Person erfasst
-STATUS: PERSON_ERKANNT
-DETAILS: Eine sich bewegende, unscharfe Person steht im Raum vor einem Türrahmen.
