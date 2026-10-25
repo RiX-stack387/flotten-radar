@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-10-25 04:55:03 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-10-25 10:33:47 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -207,11 +207,11 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **SGB II** | Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt; beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Offizielle Umbenennung des Bürgergeldes im Rahmen der Reform 2026 in Grundsicherungsgeld bei gleichbleibenden Regelsätzen und Berechnungsformeln. |
-| **§ 22 SGB II** | Kosten der Unterkunft und Heizung werden in tatsächlicher Höhe übernommen, sofern sie angemessen sind; bei Überschreitung der regionalen Angemessenheitsgrenzen bzw. Obergrenzen kann das Jobcenter die Kosten kürzen. | Berechnung und Angemessenheitsprüfung der Kosten der Unterkunft und Heizung (KdU) durch den Leistungsträger. |
-| **§ 20 SGB II** | 563 € | Höhe des monatlichen Regelbedarfs für Alleinstehende Erwachsene in Regelbedarfsstufe 1 im Jahr 2026. |
-| **§ 11b SGB II** | 208,90 € | Maximaler anrechnungsfreier monatlicher Erwerbstätigenfreibetrag bei Ausübung eines Minijobs. |
-| **§ 21 SGB II** | Zuschläge und Mehrbedarfe für Alleinerziehende, Schwangere oder dezentrale Warmwasserbereitung sowie kostenaufwendige Ernährung | Gesetzlich vorgesehene pauschale Mehrbedarfsaufschläge zusätzlich zum Regelbedarf zur Abdeckung spezifischer Lebensumstände. |
+| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Bezeichnung und Reform der SGB II Leistungen im Jahr 2026. |
+| **§ 20 SGB II** | 563 € | Höhe des monatlichen Regelbedarfs für alleinstehende Erwachsene in Regelbedarfsstufe 1. |
+| **§ 22 SGB II** | Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. | Berücksichtigung der Kosten der Unterkunft und Heizung (KdU) bei der Bürgergeld-Berechnung. |
+| **§ 11b SGB II** | 208,90 € | Monatlicher Freibetrag bei einem Minijob zur Bereinigung des Einkommens. |
+| **§ 21 SGB II** | Mehrbedarfe nach § 21 SGB II für Alleinerziehende, Schwangere oder dezentrale Warmwasserbereitung. | Gesetzliche Regelung für Mehrbedarfe beim Grundsicherungsgeld. |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
