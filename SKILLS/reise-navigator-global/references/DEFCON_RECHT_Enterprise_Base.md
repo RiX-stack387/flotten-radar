@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-10-24 05:17:22 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-10-25 04:55:03 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -207,9 +207,11 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 20 SGB II** | 563 € | Regelbedarf für Alleinstehende in der Regelbedarfsstufe 1 beim Grundsicherungsgeld (Bürgergeld) für das Jahr 2026. |
-| **§ 22 SGB II** | Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen. | Regelung zur Übernahme der Kosten der Unterkunft und Heizung im Rahmen des Grundsicherungsgeldes. |
-| **§ 11b SGB II** | 208,90 € | Freibetrag bei einem Minijob im Monat, der nach den aktuellen Regeln des § 11b SGB II anrechnungsfrei bleibt. |
+| **SGB II** | Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt; beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Offizielle Umbenennung des Bürgergeldes im Rahmen der Reform 2026 in Grundsicherungsgeld bei gleichbleibenden Regelsätzen und Berechnungsformeln. |
+| **§ 22 SGB II** | Kosten der Unterkunft und Heizung werden in tatsächlicher Höhe übernommen, sofern sie angemessen sind; bei Überschreitung der regionalen Angemessenheitsgrenzen bzw. Obergrenzen kann das Jobcenter die Kosten kürzen. | Berechnung und Angemessenheitsprüfung der Kosten der Unterkunft und Heizung (KdU) durch den Leistungsträger. |
+| **§ 20 SGB II** | 563 € | Höhe des monatlichen Regelbedarfs für Alleinstehende Erwachsene in Regelbedarfsstufe 1 im Jahr 2026. |
+| **§ 11b SGB II** | 208,90 € | Maximaler anrechnungsfreier monatlicher Erwerbstätigenfreibetrag bei Ausübung eines Minijobs. |
+| **§ 21 SGB II** | Zuschläge und Mehrbedarfe für Alleinerziehende, Schwangere oder dezentrale Warmwasserbereitung sowie kostenaufwendige Ernährung | Gesetzlich vorgesehene pauschale Mehrbedarfsaufschläge zusätzlich zum Regelbedarf zur Abdeckung spezifischer Lebensumstände. |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -218,6 +220,13 @@
 | :--- | :--- | :--- |
 | **II L 10 U 924/24** | Landessozialgericht Baden-Württemberg Urteil vom 23.07.2026 im Sachgebiet Unfallversicherung | Gerichtsentscheidung des Landessozialgerichts Baden-Württemberg im Bereich der Unfallversicherung |
 | **II L 11 KR 2622/25** | Landessozialgericht Baden-Württemberg Urteil vom 21.04.2026 im Sachgebiet Krankenversicherung | Gerichtsentscheidung des Landessozialgerichts Baden-Württemberg im Bereich der Krankenversicherung |
+
+## [18] Sektor 18
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Hinweis / Nutzungsbedingungen** | Es erfolgt keine Rechtsberatung. | Ausschluss einer individuellen Rechtsberatung durch das Land Baden-Württemberg und juris GmbH auf Landesrecht BW. |
+| **Supportzeiten juris** | montags bis freitags von 08:00 Uhr – 17:00 Uhr | Zeitliche Erreichbarkeit des juris Service-Teams für technischen und inhaltlichen Nutzersupport. |
+| **Bekanntmachungsverzeichnis Baden-Württemberg** | 2012 | Zeitlicher Beginn des Zugriffs auf die Jahresausgaben des baden-württembergischen Bekanntmachungsverzeichnisses. |
 
 ## [Z16] Sektor Z16
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
