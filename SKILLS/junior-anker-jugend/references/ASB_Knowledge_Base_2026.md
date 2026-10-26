@@ -147,3 +147,73 @@
 ### 5. Kostenträger-Trennung beim ASB-Fahrdienst (Krankenkasse vs. Pflegekasse):
 * **Medizinische Fahrten (SGB V / Gesetzliche Krankenkasse):** Fahrten zur Arztpraxis, Dialyse, Onkologie oder Reha bedürfen einer ärztlichen Verordnung (Muster 4). Bei Pflegegrad 4/5 oder Pflegegrad 3 mit dauerhafter Mobilitätsbeeinträchtigung sowie den Merkzeichen aG/Bl/H gelten ambulante Fahrten als genehmigt. Gesetzliche Zuzahlung: 10 % (mind. 5 €, max. 10 € je Fahrt), sofern keine Befreiung vorliegt.
 * **Alltags- & Entlastungsfahrten (SGB XI / Pflegekasse):** Private Fahrten (Einkaufen, Besuche, Kultur) zahlt die Krankenkasse nicht; diese können jedoch über den monatlichen Entlastungsbetrag von 131 € (§ 45b SGB XI) oder privat finanziert werden.
+
+# ==============================================================================
+# WISSENS-UPDATE 2026-10: MEDIZIN, KRITIS, LEUCHTTÜRME & SENIOREN (PF/ENZ/CW/FDS)
+# ==============================================================================
+
+## 1. Katastrophenschutz, Hilfsorganisationen & Notfallmeldestellen (Leuchttürme Pforzheim)
+Bei flächendeckendem Strom- und Mobilfunkausfall (Ausfall 110/112) dienen folgende Standorte in Pforzheim als **Notfallmeldestellen (Leuchttürme)** zur Absetzung von Notrufen:
+- **Hauptfeuerwache Pforzheim:** Habermehlstraße 77, 75172 Pforzheim
+- **Polizeirevier Pforzheim-Nord:** Bahnhofstraße 13, 75172 Pforzheim
+- **Polizeirevier Pforzheim-Süd:** Schwebelstraße 10, 75172 Pforzheim
+- **ASB Pforzheim-Enz:** Heinrich-Witzenmann-Straße 10, 75179 Pforzheim
+- **DRK Ortsverein Pforzheim:** Carl-Hölzle-Straße 1, 75179 Pforzheim
+- **Feuerwehrhaus Büchenbronn:** Am Feuerwehrhaus 11, 75180 Pforzheim
+- **Feuerwehr Pforzheim Abt. Huchenfeld:** Grohwiesenweg 1, 75181 Pforzheim
+- **Interaktive Karte der Stadt Pforzheim:** https://buergergis.pforzheim.de/portal/apps/experiencebuilder/experience/?id=1d7ea87ec5b843be96b2f1868a34c57e
+- **BBK-Ratgeber Katastrophenleuchttürme:** https://www.bbk.bund.de/SharedDocs/Downloads/DE/Mediathek/Publikationen/Krisenmanagement/katastrophenleuchttuerme_download.pdf?__blob=publicationFile&v=4
+
+### Technisches Hilfswerk (THW) – Ortsverband Pforzheim & Bundesstruktur
+- **THW OV Pforzheim:** Platz des THW 1, 75179 Pforzheim (ältere Navis: Villinger Str. 12) | Tel.: 07231 42646-0 | Fax: 07231 42646-18 | E-Mail: [ov-pforzheim@thw.de](mailto:ov-pforzheim@thw.de) | Web: https://ov-pforzheim.thw.de/
+- **Einheiten OV Pforzheim:** Technischer Zug (Zugtrupp, Bergungsgruppe, Fachgruppe Notversorgung/Notinstandsetzung), Fachgruppe Räumen (Typ A, Kettenbagger), Fachgruppe Schwere Bergung (Typ A), Fachzug Führung/Kommunikation (FK), Einsatz-Gerüst-System (EGS). Dienstzeiten: Mo 19:00-22:00 Uhr (THW-Jugend: Fr 17:30-20:00 Uhr).
+- **THW Landesverband BW:** König-Karl-Straße 5, 70372 Stuttgart | **THW-Leitung Bonn:** Provinzialstraße 93, 53127 Bonn (Tel. 0228 940-0, [poststelle@thw.de](mailto:poststelle@thw.de)).
+- **Anerkannte Hilfsorganisationen:** ASB (https://www.asb.de), DRK (https://www.drk.de), Johanniter JUH (https://www.johanniter.de), Malteser MHD (https://www.malteser.de), DLRG (https://www.dlrg.de), Bergwacht Schwarzwald (https://www.bergwacht-schwarzwald.de), @fire (https://www.at-fire.de).
+
+## 2. Medizinische Versorgung, Kliniken & Notfallpraxen (WICHTIGES UPDATE 2026!)
+- **ACHTUNG – SCHLIESSUNG RKH KRANKENHAUS NEUENBÜRG:** Das RKH Krankenhaus Neuenbürg (Marxzeller Str. 46) hat zum **30. September 2026** seinen stationären Betrieb und die Notaufnahme endgültig eingestellt! Die allgemeine Notfallpraxis dort wurde bereits 2025 geschlossen. Vor Ort verbleibt nur ein ambulantes MVZ. Bei Notfällen niemals nach Neuenbürg verweisen!
+- **Aktive Zentrale Notaufnahmen (24/7 geöffnet):**
+  1. **Helios Klinikum Pforzheim:** Kanzlerstraße 2-6, 75175 Pforzheim (ZNA Erwachsene + Kindernotaufnahme NOKI).
+  2. **Siloah St. Trudpert Klinikum:** Wilferdinger Str. 67, 75179 Pforzheim (Interdisziplinäre ZNA + HNO-Notfallambulanz).
+  3. **RKH Krankenhaus Mühlacker:** Hermann-Hesse-Straße 34, 75417 Mühlacker (Zentrale Anlaufstelle östlicher Enzkreis).
+  4. **Kliniken Calw (ZNA):** Mildred-Scheel-Straße 1, 75365 Calw, Tel. 07051 14-0 (24/7 besetzt).
+- **Ärztlicher Bereitschaftsdienst (Tel. 116 117):**
+  - **Notfallpraxis Pforzheim (Erwachsene):** Im Siloah Klinikum (Wilferdinger Str. 67, UG) | Mo/Di/Do 19:00-22:00 Uhr, Mi/Fr 16:00-22:00 Uhr, Sa/So/Feiertag 08:00-22:00 Uhr (https://www.notfallpraxis-pforzheim.de/).
+  - **Kindernotfallpraxis Pforzheim (NOKI):** Im Helios Klinikum (Kanzlerstr. 2-6) | Mi 15:00-20:00 Uhr, Fr 16:00-20:00 Uhr, Sa/So/Feiertag 08:00-20:00 Uhr (https://www.kinderaerzte-am-leo.de/noki/).
+  - **Zentrale Notfallpraxis Mühlacker:** Hermann-Hesse-Str. 34, 75417 Mühlacker | Sa/So/Feiertag 10:00-16:00 Uhr.
+  - **Allgemeine Notfallpraxis Calw:** Im Krankenhaus Calw (Mildred-Scheel-Str. 1) | Sa/So/Feiertag 09:00-19:00 Uhr (werktags geschlossen, dann 116 117). Kinderärztlicher Notdienst CW: 01805 19292-160; Augenärztlicher Notdienst: 01805 19292-123.
+- **Medizinische Versorgungszentren (MVZ) & Netzwerke:**
+  - **Siloah MVZ:** Waisenhausplatz, Bahnhofstraße, Wilferdinger Straße (https://mvz.siloah.de/).
+  - **Helios MVZ:** Habermehlstraße, Pforzheim.
+  - **ARCUS MVZ:** Rastatter Straße, Pforzheim (Orthopädie/Unfallchirurgie).
+  - **AnthroMed Centrum:** Niefern-Öschelbronn | **BubeckPraxen:** Industriestr. 55, Mühlacker | **Family Doc Pforzheim:** https://familydoc-pforzheim.com/ | **Docs4Pfenz:** https://www.docs4pfenz.de/ | **KVBW Arztsuche:** https://www.arztsuche-bw.de/
+
+## 3. Tierärztlicher Notdienst & Veterinärmedizin (Pforzheim & Enzkreis)
+- **Zentraler Tierärztlicher Notdienst (PF & Enzkreis):** Tel. **07231 1332966** (vorab telefonisch anmelden!).
+- **Ausgewählte Praxen:** Tiergesundheitszentrum Obere Hard – Dr. Andreas Kirsch (Huchenfeld, Kardiologie/Innere, https://www.tierarztpraxis-kirsch.de/notfall.html), Dr. Dan Tapalaga (Alter Göbricher Weg, PF), Dr. Wolfgang Swidersky (Schellingstr., PF), Tierarztpraxis Wurmberg, Dr. Jan Schraishuhn (Mühlacker).
+- **Großtiere / Pferde (24/7):** Pferdeklinik Salzhofen in Bretten (https://www.salzhofen.de/).
+- **Behörde:** Verbraucherschutz- und Veterinäramt Enzkreis (Stuttgarter Str., Pforzheim).
+
+## 4. Psychosoziale Krisenintervention & Seelsorge (PF / ENZ / CW / FDS)
+- **Telefonseelsorge (24/7, kostenfrei):** 0800 111 0 111 oder 0800 111 0 222 (Telefonseelsorge Nordschwarzwald).
+- **Akut-Kliniken (24/7):**
+  - **ZfP Calw – Klinikum Nordschwarzwald:** Lützenhardter Hof 1, 75365 Calw-Hirsau, Tel. **07051 586-0** (Primäre psychiatrische Akutklinik für PF, Enzkreis und CW).
+  - **Psychiatrische Tagesklinik & Ambulanz Pforzheim:** Ludwig-Wolf-Str. 1, 75181 Pforzheim-Eutingen, Tel. **07231 5660200**.
+  - **Klinikum Freudenstadt:** Karl-von-Hahn-Str. 100, 72250 Freudenstadt, Tel. **07441 540**.
+- **Sozialpsychiatrische Dienste (SpDi) & Kinder/Jugend:**
+  - **SpDi Pforzheim & südl. Enzkreis:** Dillsteiner Str. 3, 75173 Pforzheim, Tel. **07231 128 112** | **Diakonie Enzkreis:** Tel. **07231 9170-0**.
+  - **SpDi Landkreis Calw (BruderhausDiakonie):** Badstraße 41, 75365 Calw, Tel. **07051 929011**.
+  - **SpDi Landkreis Freudenstadt (Die Treppe e.V.):** Wallstraße 7, 72250 Freudenstadt, Tel. **07441 924671**.
+  - **Notfallseelsorge (PSNV) Calw:** 24/7 über ILS Calw unter **07051 19222** (http://www.notfallseelsorge-cw.de/).
+  - **InTaKt gGmbH (Kinder- & Jugendpsychiatrie PF):** Ostendstr. 12/1, 75175 Pforzheim, Tel. **07231 7784040** | **Nummer gegen Kummer:** **116 111**.
+  - **IBB-Stelle:** Pforzheim/Enzkreis Tel. 07231 39-1086 ([ibb-enzkreis@pforzheim.de](mailto:ibb-enzkreis@pforzheim.de)) | Calw Tel. 0172 6157580.
+
+## 5. Events, Kultur, Senioren & Barrierefreiheit (Landkreise Calw & Freudenstadt)
+- **Landkreis Calw:**
+  - Veranstaltungskalender Stadt Calw (https://www.calw.de/veranstaltungskalender) & Kreis Calw (https://www.kreis-calw.de/Freizeit-Kultur/Aktuelle-Veranstaltungen/).
+  - Senioren: Kreisseniorenrat Calw e.V. (https://www.kreisseniorenratcalw.de/), Stadtseniorenrat Calw, DRK-Seniorenausflüge (https://www.drk-kv-calw.de/angebote/wohnen-und-betreuung/seniorenausfluege.html), Soziale Angebotskarte (https://www.kreis-calw.de/soziale-angebotskarte).
+  - Barrierefreiheit: Barrierefreie Führungen Calw & Hirsau.
+- **Landkreis Freudenstadt:**
+  - Veranstaltungskalender Stadt FDS (https://www.freudenstadt.de/de/Tourismus/Veranstaltungen/Veranstaltungskalender) & Kreis FDS (https://www.kreis-fds.de/aktuelles/veranstaltungen).
+  - Senioren & Barrierefreiheit: Kreisseniorenrat Freudenstadt (https://ksr-freudenstadt.de/), Barrierefreie Spaziergänge (https://ksr-freudenstadt.de/serien/barrierefreie-gefuehrte-spaziergaenge/), Wohnberatung LRA FDS, Sozialamt FDS (https://www.kreis-fds.de/-/behoerdenwegweiser/sozialamt/oe6004188).
+- **Übergreifend:** Kultursommer Nordschwarzwald (https://kultursommer.nordschwarzwald.de/) | Schwarzwaldführer (https://www.schwarzwaldfuehrer.de/nordschwarzwald/index.html).

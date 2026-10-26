@@ -1109,3 +1109,37 @@
 | **Niederschlagswassergebühr der Stadt Calw (Gebührenstand Januar 2026)** | 0,60 EUR | Gebühr für Niederschlagswasser der Stadt Calw pro Quadratmeter versiegelter Fläche ab Januar 2026. |
 | **Regelungen zur Standrohrausleihe der Energie Calw GmbH** | 500 € | Höhe der Sicherheitsleistung (Kaution) für die kurzfristige Leihe eines Standrohres. |
 | **Trinkwasserverordnung (TrinkwV)** | 50 mg Nitrat pro Liter | Festgesetzter gesetzlicher Grenzwert für Nitrat im Trinkwasser. |
+
+# ==============================================================================
+# WISSENS-UPDATE 2026-10: SGB I-XIV & LANDESRECHT BADEN-WÜRTTEMBERG
+# ==============================================================================
+
+## 1. Sozialgesetzbuch (SGB I bis XIV) & Nebengesetze (Volltext-Referenzen)
+- **SGB I (Allgemeiner Teil):** Aufgaben des SGB, soziale Rechte, Aufklärung (§ 13), Beratung (§ 14), Auskunft (§ 15) -> https://www.sozialgesetzbuch-sgb.de/sgbi/1.html
+- **SGB II (Bürgergeld / Grundsicherung für Arbeitsuchende):** Fördern und Fordern, Anspruchsvoraussetzungen (§ 7), Regelbedarf, KdU -> https://www.sozialgesetzbuch-sgb.de/sgbii/1.html
+- **SGB III (Arbeitsförderung):** Aktive Arbeitsförderung, Arbeitslosengeld (ALG I), Insolvenzgeld, Nahtlosigkeit -> https://www.sozialgesetzbuch-sgb.de/sgbiii/1.html
+- **SGB IV (Gemeinsame Vorschriften für die Sozialversicherung):** Geltungsbereich KV, UV, RV, ALG, PflegeV; § 7 Beschäftigung -> https://www.sozialgesetzbuch-sgb.de/sgbiv/1.html
+- **SGB V (Gesetzliche Krankenversicherung):** Versicherter Personenkreis, Leistungen, Hilfsmittel, Kassenbeziehungen -> https://www.sozialgesetzbuch-sgb.de/sgbv/1.html
+- **SGB VI (Gesetzliche Rentenversicherung):** Altersrenten, Erwerbsminderungsrenten, Reha, Hinzuverdienst -> https://www.sozialgesetzbuch-sgb.de/sgbvi/1.html
+- **SGB VII (Gesetzliche Unfallversicherung):** Arbeitsunfälle, Wegeunfälle, Berufskrankheiten, Prävention -> https://www.sozialgesetzbuch-sgb.de/sgbvii/1.html
+- **SGB VIII (Kinder- und Jugendhilfe):** Leistungen für Kinder, Jugendliche und junge Volljährige (bis 27 J.), Hilfe zur Erziehung -> https://www.sozialgesetzbuch-sgb.de/sgbviii/1.html
+- **SGB IX (Rehabilitation und Teilhabe von Menschen mit Behinderungen):** Med. Reha, Teilhabe am Arbeitsleben, soziale Teilhabe, Schwerbehindertenrecht (GdB/Merkzeichen) -> https://www.sozialgesetzbuch-sgb.de/sgbix/1.html
+- **SGB X (Sozialverwaltungsverfahren und Sozialdatenschutz):** Untersuchungsgrundsatz, Anhörung (§ 24), Akteneinsicht (§ 25), Bekanntgabe/3-Tages-Fiktion (§ 37), Rücknahme/Überprüfung (§ 44) -> https://www.sozialgesetzbuch-sgb.de/sgbx/1.html
+- **SGB XI (Soziale Pflegeversicherung):** Pflegebedürftigkeit, Pflegegrade 1-5, Pflegegeld, Sachleistungen, Entlastungsbetrag -> https://www.sozialgesetzbuch-sgb.de/sgbxi/1.html
+- **SGB XII (Sozialhilfe):** Hilfe zum Lebensunterhalt, Grundsicherung im Alter und bei Erwerbsminderung, Hilfe zur Pflege -> http://www.sozialgesetzbuch-sgb.de/sgbxii/1.html
+- **SGB XIV (Soziale Entschädigung):** Entschädigungsrecht für Opfer von Gewalttaten, Terrorismus und Impfschäden (Nachfolge BVG/OEG) -> https://www.sozialgesetzbuch-sgb.de/sgbxiv/1.html
+
+### Wichtige sozialrechtliche Nebengesetze & Verfahrensrecht
+- **SGG (Sozialgerichtsgesetz):** https://www.sozialgesetzbuch-sgb.de/sgg/1.html
+- **WoGG (Wohngeldgesetz):** https://www.sozialgesetzbuch-sgb.de/wogg/1.html
+- **BAföG:** https://www.sozialgesetzbuch-sgb.de/bafoeg/1.html
+- **BEEG (Bundeselterngeld- und Elternzeitgesetz):** https://www.sozialgesetzbuch-sgb.de/beeg/1.html
+- **BKGG (Bundeskindergeldgesetz / Kinderzuschlag):** https://www.sozialgesetzbuch-sgb.de/bkgg/1.html
+- **AsylbLG:** https://www.sozialgesetzbuch-sgb.de/asylblg/1.html | **AsylG:** https://www.sozialgesetzbuch-sgb.de/asylg/1.html | **AufenthG:** https://www.sozialgesetzbuch-sgb.de/aufenthg/1.html
+- **IfSG (Infektionsschutzgesetz):** https://www.sozialgesetzbuch-sgb.de/ifsg/1.html
+- **Versicherungsrecht:** VVG (https://www.sozialgesetzbuch-sgb.de/vvg/1.html) | VAG (https://www.sozialgesetzbuch-sgb.de/vag/1.html)
+
+## 2. Landesrecht Baden-Württemberg & Verwaltungsvorschriften
+- **Landesrecht BW Bürgerservice (Offizielle Datenbank):** https://www.landesrecht-bw.de/bsbw/search (Gesetze, Rechtsverordnungen, Verwaltungsvorschriften BW sowie Rechtsprechung von LSG Baden-Württemberg, VG und VGH).
+- **Gesetzblatt für Baden-Württemberg:** https://www.baden-wuerttemberg.de/gesetzblatt/
+- **Allgemeine Verwaltungsvorschriften zur Landeshaushaltsordnung (VV-LHO BW):** https://www.landesrecht-bw.de/bsbw/document/VB-BW-AD-GABl2025-12-905 (S. 905-1036 GABl.).
