@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-10-25 10:33:47 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-10-26 09:12:34 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -207,11 +207,12 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Bezeichnung und Reform der SGB II Leistungen im Jahr 2026. |
-| **§ 20 SGB II** | 563 € | Höhe des monatlichen Regelbedarfs für alleinstehende Erwachsene in Regelbedarfsstufe 1. |
-| **§ 22 SGB II** | Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. | Berücksichtigung der Kosten der Unterkunft und Heizung (KdU) bei der Bürgergeld-Berechnung. |
-| **§ 11b SGB II** | 208,90 € | Monatlicher Freibetrag bei einem Minijob zur Bereinigung des Einkommens. |
-| **§ 21 SGB II** | Mehrbedarfe nach § 21 SGB II für Alleinerziehende, Schwangere oder dezentrale Warmwasserbereitung. | Gesetzliche Regelung für Mehrbedarfe beim Grundsicherungsgeld. |
+| **§ 22 SGB II** | Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen. | Berechnung der Kosten der Unterkunft und Heizung (KdU) sowie behördliche Angemessenheitsprüfung bezüglich Mietobergrenzen. |
+| **SGB II** | Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt. | Gesetzliche Umbenennung des Bürgergeldes in die Bezeichnung Grundsicherungsgeld mit unveränderten Regelsätzen und Berechnungsformeln. |
+| **§ 20 SGB II** | 563 € | Amtlicher Regelbedarf der Regelbedarfsstufe 1 für alleinstehende Erwachsene für das Jahr 2026. |
+| **§ 11b SGB II** | 208,90 € | Höhe des maximal anrechnungsfreien monatlichen Freibetrags bei Ausübung eines Minijobs. |
+| **§ 22 SGB II** | Bank kündigt Hauskredit – Jobcenter muss 1.300 Euro Zinsen als Wohnkosten anerkennen | Verpflichtung des Jobcenters zur Berücksichtigung von Schuldzinsen als Kosten der Unterkunft nach Kündigung des Baukredits. |
+| **SGB II** | Verpflegung im Krankenhaus: Jobcenter darf Grundsicherungsgeld nicht kürzen | Unzulässigkeit von Abzügen beim Grundsicherungsgeld aufgrund von Verpflegung während eines stationären Krankenhausaufenthalts. |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -1109,37 +1110,3 @@
 | **Niederschlagswassergebühr der Stadt Calw (Gebührenstand Januar 2026)** | 0,60 EUR | Gebühr für Niederschlagswasser der Stadt Calw pro Quadratmeter versiegelter Fläche ab Januar 2026. |
 | **Regelungen zur Standrohrausleihe der Energie Calw GmbH** | 500 € | Höhe der Sicherheitsleistung (Kaution) für die kurzfristige Leihe eines Standrohres. |
 | **Trinkwasserverordnung (TrinkwV)** | 50 mg Nitrat pro Liter | Festgesetzter gesetzlicher Grenzwert für Nitrat im Trinkwasser. |
-
-# ==============================================================================
-# WISSENS-UPDATE 2026-10: SGB I-XIV & LANDESRECHT BADEN-WÜRTTEMBERG
-# ==============================================================================
-
-## 1. Sozialgesetzbuch (SGB I bis XIV) & Nebengesetze (Volltext-Referenzen)
-- **SGB I (Allgemeiner Teil):** Aufgaben des SGB, soziale Rechte, Aufklärung (§ 13), Beratung (§ 14), Auskunft (§ 15) -> https://www.sozialgesetzbuch-sgb.de/sgbi/1.html
-- **SGB II (Bürgergeld / Grundsicherung für Arbeitsuchende):** Fördern und Fordern, Anspruchsvoraussetzungen (§ 7), Regelbedarf, KdU -> https://www.sozialgesetzbuch-sgb.de/sgbii/1.html
-- **SGB III (Arbeitsförderung):** Aktive Arbeitsförderung, Arbeitslosengeld (ALG I), Insolvenzgeld, Nahtlosigkeit -> https://www.sozialgesetzbuch-sgb.de/sgbiii/1.html
-- **SGB IV (Gemeinsame Vorschriften für die Sozialversicherung):** Geltungsbereich KV, UV, RV, ALG, PflegeV; § 7 Beschäftigung -> https://www.sozialgesetzbuch-sgb.de/sgbiv/1.html
-- **SGB V (Gesetzliche Krankenversicherung):** Versicherter Personenkreis, Leistungen, Hilfsmittel, Kassenbeziehungen -> https://www.sozialgesetzbuch-sgb.de/sgbv/1.html
-- **SGB VI (Gesetzliche Rentenversicherung):** Altersrenten, Erwerbsminderungsrenten, Reha, Hinzuverdienst -> https://www.sozialgesetzbuch-sgb.de/sgbvi/1.html
-- **SGB VII (Gesetzliche Unfallversicherung):** Arbeitsunfälle, Wegeunfälle, Berufskrankheiten, Prävention -> https://www.sozialgesetzbuch-sgb.de/sgbvii/1.html
-- **SGB VIII (Kinder- und Jugendhilfe):** Leistungen für Kinder, Jugendliche und junge Volljährige (bis 27 J.), Hilfe zur Erziehung -> https://www.sozialgesetzbuch-sgb.de/sgbviii/1.html
-- **SGB IX (Rehabilitation und Teilhabe von Menschen mit Behinderungen):** Med. Reha, Teilhabe am Arbeitsleben, soziale Teilhabe, Schwerbehindertenrecht (GdB/Merkzeichen) -> https://www.sozialgesetzbuch-sgb.de/sgbix/1.html
-- **SGB X (Sozialverwaltungsverfahren und Sozialdatenschutz):** Untersuchungsgrundsatz, Anhörung (§ 24), Akteneinsicht (§ 25), Bekanntgabe/3-Tages-Fiktion (§ 37), Rücknahme/Überprüfung (§ 44) -> https://www.sozialgesetzbuch-sgb.de/sgbx/1.html
-- **SGB XI (Soziale Pflegeversicherung):** Pflegebedürftigkeit, Pflegegrade 1-5, Pflegegeld, Sachleistungen, Entlastungsbetrag -> https://www.sozialgesetzbuch-sgb.de/sgbxi/1.html
-- **SGB XII (Sozialhilfe):** Hilfe zum Lebensunterhalt, Grundsicherung im Alter und bei Erwerbsminderung, Hilfe zur Pflege -> http://www.sozialgesetzbuch-sgb.de/sgbxii/1.html
-- **SGB XIV (Soziale Entschädigung):** Entschädigungsrecht für Opfer von Gewalttaten, Terrorismus und Impfschäden (Nachfolge BVG/OEG) -> https://www.sozialgesetzbuch-sgb.de/sgbxiv/1.html
-
-### Wichtige sozialrechtliche Nebengesetze & Verfahrensrecht
-- **SGG (Sozialgerichtsgesetz):** https://www.sozialgesetzbuch-sgb.de/sgg/1.html
-- **WoGG (Wohngeldgesetz):** https://www.sozialgesetzbuch-sgb.de/wogg/1.html
-- **BAföG:** https://www.sozialgesetzbuch-sgb.de/bafoeg/1.html
-- **BEEG (Bundeselterngeld- und Elternzeitgesetz):** https://www.sozialgesetzbuch-sgb.de/beeg/1.html
-- **BKGG (Bundeskindergeldgesetz / Kinderzuschlag):** https://www.sozialgesetzbuch-sgb.de/bkgg/1.html
-- **AsylbLG:** https://www.sozialgesetzbuch-sgb.de/asylblg/1.html | **AsylG:** https://www.sozialgesetzbuch-sgb.de/asylg/1.html | **AufenthG:** https://www.sozialgesetzbuch-sgb.de/aufenthg/1.html
-- **IfSG (Infektionsschutzgesetz):** https://www.sozialgesetzbuch-sgb.de/ifsg/1.html
-- **Versicherungsrecht:** VVG (https://www.sozialgesetzbuch-sgb.de/vvg/1.html) | VAG (https://www.sozialgesetzbuch-sgb.de/vag/1.html)
-
-## 2. Landesrecht Baden-Württemberg & Verwaltungsvorschriften
-- **Landesrecht BW Bürgerservice (Offizielle Datenbank):** https://www.landesrecht-bw.de/bsbw/search (Gesetze, Rechtsverordnungen, Verwaltungsvorschriften BW sowie Rechtsprechung von LSG Baden-Württemberg, VG und VGH).
-- **Gesetzblatt für Baden-Württemberg:** https://www.baden-wuerttemberg.de/gesetzblatt/
-- **Allgemeine Verwaltungsvorschriften zur Landeshaushaltsordnung (VV-LHO BW):** https://www.landesrecht-bw.de/bsbw/document/VB-BW-AD-GABl2025-12-905 (S. 905-1036 GABl.).
