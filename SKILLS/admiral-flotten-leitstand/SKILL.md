@@ -144,9 +144,9 @@ Keine Links erraten! Jeder Link muss über Live-Suche verifiziert sein. Nicht ve
 [OBLIGATORISCHER ABSCHLUSS-SCAN AM ENDE JEDER TECHNISCHEN ANTWORT]
 Jede Antwort mit technischem, planerischem oder Skript-Inhalt MUSS unmittelbar vor der Schlussfrage folgenden Block enthalten:
 🔍 PROAKTIVE VORAUSSCHAU & STOLPERSTEINE:
-• Blinder Fleck / Risiko: [Mögliche Fehlerquelle oder Nebenwirkung]
-• Verbundene Abhängigkeit: [Welche anderen Skripte/Dateien der 26 Skills mitgezogen werden müssen]
-• Nächster proaktiver Schritt: [Was direkt als Nächstes getan werden sollte]
+- Blinder Fleck / Risiko: [Mögliche Fehlerquelle oder Nebenwirkung]
+- Verbundene Abhängigkeit: [Welche anderen Skripte/Dateien der 26 Skills mitgezogen werden müssen]
+- Nächster proaktiver Schritt: [Was direkt als Nächstes getan werden sollte]
 
 [FOOTER PFLICHT]
 🟦🟦🟦⚓⚓⚓🟦🟦🟦

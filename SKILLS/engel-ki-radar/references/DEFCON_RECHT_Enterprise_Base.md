@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-10-26 09:12:34 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-10-28 07:56:35 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -207,12 +207,18 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 22 SGB II** | Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen. | Berechnung der Kosten der Unterkunft und Heizung (KdU) sowie behördliche Angemessenheitsprüfung bezüglich Mietobergrenzen. |
-| **SGB II** | Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt. | Gesetzliche Umbenennung des Bürgergeldes in die Bezeichnung Grundsicherungsgeld mit unveränderten Regelsätzen und Berechnungsformeln. |
-| **§ 20 SGB II** | 563 € | Amtlicher Regelbedarf der Regelbedarfsstufe 1 für alleinstehende Erwachsene für das Jahr 2026. |
-| **§ 11b SGB II** | 208,90 € | Höhe des maximal anrechnungsfreien monatlichen Freibetrags bei Ausübung eines Minijobs. |
-| **§ 22 SGB II** | Bank kündigt Hauskredit – Jobcenter muss 1.300 Euro Zinsen als Wohnkosten anerkennen | Verpflichtung des Jobcenters zur Berücksichtigung von Schuldzinsen als Kosten der Unterkunft nach Kündigung des Baukredits. |
-| **SGB II** | Verpflegung im Krankenhaus: Jobcenter darf Grundsicherungsgeld nicht kürzen | Unzulässigkeit von Abzügen beim Grundsicherungsgeld aufgrund von Verpflegung während eines stationären Krankenhausaufenthalts. |
+| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Bezeichnung und Reform der Grundsicherung für Arbeitsuchende im Jahr 2026 |
+| **SGB II** | 1. Juli 2026 | Stichtag der offiziellen Umbenennung des Bürgergeldes in Grundsicherungsgeld |
+| **§ 22 SGB II** | Die Wohnkosten (Miete und Heizkosten) fließen nach § 22 SGB II ein; bei Überschreitung der regionalen Obergrenzen bzw. Unangemessenheit kann das Jobcenter die Kosten kürzen. | Angemessenheitsprüfung und Obergrenzen bei den Kosten der Unterkunft und Heizung (KdU) |
+| **§ 22 SGB II** | Kosten der Unterkunft (KdU) werden grundsätzlich nicht pauschal gezahlt, sondern in tatsächlicher Höhe übernommen – sofern sie angemessen sind. | Grundsätzliche Übernahme der tatsächlichen Kosten der Unterkunft unter Angemessenheitsvorbehalt |
+| **§ 20 SGB II** | 563 € | Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Jahr 2026 |
+| **§ 20 SGB II** | 506 € | Regelbedarfsstufe 2 für Partner / Ehepartner / Lebenspartner im Jahr 2026 |
+| **§ 20 SGB II** | 451 € | Regelbedarfsstufe 3 für Volljährige unter 25 Jahren im Haushalt der Eltern im Jahr 2026 |
+| **§ 20 SGB II** | 471 € | Regelbedarfsstufe 4 für Jugendliche von 14 bis 17 Jahren im Jahr 2026 |
+| **§ 20 SGB II** | 390 € | Regelbedarfsstufe 5 für Kinder von 6 bis 13 Jahren im Jahr 2026 |
+| **§ 20 SGB II** | 357 € | Regelbedarfsstufe 6 für Kinder bis 5 Jahre im Jahr 2026 |
+| **§ 21 SGB II** | Zusätzliche pauschale Mehrbedarfe werden unter anderem für Alleinerziehende, Schwangere oder die dezentrale Warmwasserbereitung gewährt. | Pauschale Mehrbedarfe nach § 21 SGB II |
+| **§ 11b SGB II** | 208,90 € | Anrechnungsfreier monatlicher Freibetrag bei Einkommen aus einem Minijob |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -1072,10 +1078,11 @@
 ## [Z90] Sektor Z90
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **SGB VI § 149** | Mit Ihrer ersten Renteninformation ab dem 27. Geburtstag wird Ihnen ein Versicherungsverlauf zugesandt. Dazu müssen Sie lediglich fünf Jahre Beiträge gezahlt haben. | Automatische Zusendung des Versicherungsverlaufs ab dem 27. Geburtstag nach fünf Beitragsjahren. |
-| **SGB VI § 149** | Wenn Sie 43 Jahre alt sind, sendet Ihnen Ihr Rentenversicherungsträger automatisch einen weiteren Versicherungsverlauf zur Überprüfung der gespeicherten Zeiten zu. Anschließend erhalten Sie alle sechs Jahre einen Versicherungsverlauf. | Regelmäßige Zusendung des Versicherungsverlaufs im Alter von 43 Jahren und danach alle sechs Jahre. |
-| **VKVV § 7** | Der Zugangscode ist nur einmalig für diese Rückantwort gültig und verfällt nach spätestens 6 Monaten. | Gültigkeitsdauer des Zugangscodes für die Online-Beantwortung des Anschreibens. |
-| **Stadtkreis Pforzheim / Kommunalverwaltung** | Eine Bestätigung für Rentenzwecke ist bei Ihrer Stadt- oder Gemeindeverwaltung kostenlos. | Gebührenfreiheit für Bestätigungen für Rentenzwecke bei der Stadt- oder Gemeindeverwaltung. |
+| **§ 149 SGB VI** | Verbindliche Feststellung aller Daten, die länger als sechs Kalenderjahre zurückliegen, durch den Feststellungsbescheid nach einem Kontenklärungsverfahren. | Rechtswirkung des Feststellungsbescheids im Rahmen des Kontenklärungsverfahrens bei der Rentenversicherung. |
+| **§ 7 VKVV** | Erste Zusendung des Versicherungsverlaufs ab dem 27. Geburtstag bei mindestens fünf Beitragsjahren, erneute automatische Übersendung mit Vollendung des 43. Lebensjahres sowie anschließend im Turnus von sechs Jahren. | Voraussetzungen und Fristen für die automatische Versendung von Versicherungsverläufen an Versicherte. |
+| **Verfahrensvorschrift Kontenklärung / Online-Rückantwort** | Einmalige Gültigkeit des Zugangscodes zur Online-Rückmeldung und Verfall nach spätestens 6 Monaten. | Frist und Gültigkeitsdauer des Zugangscodes bei Aufforderung zur Überprüfung des Rentenversicherungskontos. |
+| **Kommunale Gebührenregelung / Rentenzwecke** | 0,00 Euro | Kostenfreiheit für behördliche Bestätigungen zu Rentenzwecken bei der Stadt- oder Gemeindeverwaltung. |
+| **Rechtsbehelfsbelehrung SGB VI** | Widerspruch | Statthafter Rechtsbehelf gegen Verwaltungsakte im Kontenklärungs- und Rentenauskunftsverfahren. |
 
 ## [Z91] Sektor Z91
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -1098,9 +1105,11 @@
 ## [CW_K5_WOHNBAU] Sektor CW_K5_WOHNBAU
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Satzung der Kreisbaugenossenschaft Calw eG - Kündigungsfrist** | Frist von drei Monaten zum Jahresende | Regelung der Kündigungsfrist für die Mitgliedschaft bei der Kreisbaugenossenschaft Calw eG sowie die nachfolgende Auszahlung des Geschäftsguthabens. |
-| **Mietbestimmungen der Kreisbaugenossenschaft Calw eG - Kaution** | Keine Erhebung einer Mietkaution; stattdessen Erwerb von Mitgliedsanteilen/Geschäftsguthaben | Bedingungen der Wohnungsanmietung bezüglich Sicherheitsleistungen bei der Kreisbaugenossenschaft Calw eG. |
-| **Satzung der Kreisbaugenossenschaft Calw eG - Genossenschaftszweck** | Förderung ihrer Mitglieder vorrangig durch eine gute, sichere und sozial verantwortbare Wohnungsversorgung | Festlegung des Förderzwecks der Kreisbaugenossenschaft Calw eG zur Wohnungsversorgung. |
+| **Mietangebot Altensteig (Kreisbau Calw eG)** | 475 EUR Kaltmiete (620 EUR Warmmiete) für eine 2-Zimmer-Wohnung mit ca. 53,35 m2 in 72213 Altensteig | Mietpreiskonditionen für eine Genossenschaftswohnung in Altensteig ab 01.12.2026 |
+| **Mietangebot Nagold WBS (Kreisbau Calw eG)** | 560 EUR Kaltmiete (830 EUR Warmmiete) für eine 3-Zimmer-Wohnung mit ca. 83,17 m2 in 72202 Nagold (nur mit Wohnberechtigungsschein) | Mietpreiskonditionen für eine öffentlich geförderte Genossenschaftswohnung mit Wohnberechtigungsschein in Nagold ab 01.11.2026 |
+| **Satzung Kreisbaugenossenschaft Calw eG / Genossenschaftsanteile** | Keine Erhebung einer Mietkaution; stattdessen Erwerb von Mitgliedsanteilen / Geschäftsguthaben | Regelung zur Mietsicherheit bei genossenschaftlichem Wohnraum |
+| **Satzung Kreisbaugenossenschaft Calw eG - Kündigungsfrist** | Frist von drei Monaten zum Jahresende für die Kündigung der Mitgliedschaft | Fristbestimmung für den Austritt aus der Genossenschaft und Rückzahlung des Geschäftsguthabens |
+| **Satzungszweck Kreisbaugenossenschaft Calw eG** | Förderung ihrer Mitglieder vorrangig durch eine gute, sichere und sozial verantwortbare Wohnungsversorgung | Gemeinnütziger bzw. genossenschaftlicher Unternehmensgegenstand der Kreisbau Calw |
 
 ## [CW_FDS_KRITIS_WASSER] Sektor CW_FDS_KRITIS_WASSER
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
