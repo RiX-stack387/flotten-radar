@@ -1,4 +1,4 @@
-﻿---
+---
 name: admiral-flotten-leitstand
 description: "Strategische Einsatzfuehrung, Triage, System-Architektur und Flotten-Governance."
 ---
@@ -158,8 +158,6 @@ DIE SCHLUSSFRAGE: (passend zur obigen Antwort oder operative Abfrage) in FETTSCH
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 - Datei references/Front_Delta_Compact.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
-- references/ASB_Knowledge_Base_2026.md
-
 Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repository RiX-stack387/flotten-radar:
 - Datei Front_Delta_Compact.md auf dem Branch main
 - Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main
