@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-10-28 07:56:35 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-10-30 06:53:16 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -207,18 +207,12 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Bezeichnung und Reform der Grundsicherung für Arbeitsuchende im Jahr 2026 |
-| **SGB II** | 1. Juli 2026 | Stichtag der offiziellen Umbenennung des Bürgergeldes in Grundsicherungsgeld |
-| **§ 22 SGB II** | Die Wohnkosten (Miete und Heizkosten) fließen nach § 22 SGB II ein; bei Überschreitung der regionalen Obergrenzen bzw. Unangemessenheit kann das Jobcenter die Kosten kürzen. | Angemessenheitsprüfung und Obergrenzen bei den Kosten der Unterkunft und Heizung (KdU) |
-| **§ 22 SGB II** | Kosten der Unterkunft (KdU) werden grundsätzlich nicht pauschal gezahlt, sondern in tatsächlicher Höhe übernommen – sofern sie angemessen sind. | Grundsätzliche Übernahme der tatsächlichen Kosten der Unterkunft unter Angemessenheitsvorbehalt |
-| **§ 20 SGB II** | 563 € | Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Jahr 2026 |
-| **§ 20 SGB II** | 506 € | Regelbedarfsstufe 2 für Partner / Ehepartner / Lebenspartner im Jahr 2026 |
-| **§ 20 SGB II** | 451 € | Regelbedarfsstufe 3 für Volljährige unter 25 Jahren im Haushalt der Eltern im Jahr 2026 |
-| **§ 20 SGB II** | 471 € | Regelbedarfsstufe 4 für Jugendliche von 14 bis 17 Jahren im Jahr 2026 |
-| **§ 20 SGB II** | 390 € | Regelbedarfsstufe 5 für Kinder von 6 bis 13 Jahren im Jahr 2026 |
-| **§ 20 SGB II** | 357 € | Regelbedarfsstufe 6 für Kinder bis 5 Jahre im Jahr 2026 |
-| **§ 21 SGB II** | Zusätzliche pauschale Mehrbedarfe werden unter anderem für Alleinerziehende, Schwangere oder die dezentrale Warmwasserbereitung gewährt. | Pauschale Mehrbedarfe nach § 21 SGB II |
-| **§ 11b SGB II** | 208,90 € | Anrechnungsfreier monatlicher Freibetrag bei Einkommen aus einem Minijob |
+| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt. | Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld im Rahmen der Reform 2026 zum 1. Juli 2026. |
+| **§ 22 SGB II** | Die tatsächlichen Kosten der Unterkunft und Heizung fließen gemäß § 22 SGB II ein; das Jobcenter kann die Kosten bei Überschreitung der regionalen Angemessenheits-Obergrenzen kürzen. | Berücksichtigung der Kosten der Unterkunft und Heizung (KdU) sowie Kürzungsbefugnis des Jobcenters bei Überschreitung regionaler Angemessenheitsgrenzen. |
+| **§ 20 SGB II** | 563 € | Monatlicher Regelbedarf für Alleinstehende Erwachsene (Regelbedarfsstufe 1) im Jahr 2026. |
+| **§ 21 SGB II** | Mehrbedarfe nach § 21 SGB II umfassen unter anderem pauschale Zuschüsse für Alleinerziehende, Schwangere oder die dezentrale Warmwasserbereitung. | Gewährung gesetzlicher Mehrbedarfe neben dem Regelbedarf nach § 21 SGB II. |
+| **§ 11b SGB II** | 208,90 € | Höhe des monatlich anrechnungsfreien gesetzlichen Freibetrags bei einem Zuverdienst durch einen Minijob. |
+| **§ 11 SGB II** | Kindergeld und Unterhalt zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf. | Anrechnung von Kindergeld und Unterhaltsleistungen als Einkommen des Kindes gem. § 11 SGB II. |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -503,6 +497,13 @@
 | :--- | :--- | :--- |
 | **Rathaus Dürrn Kontaktdaten** | Rathaus Dürrn Hauptstraße 53 75248 Ölbronn-Dürrn Tel.: 07237 422-0 Fax: 07237 422-33 | Offizielle Kontaktdaten der Gemeinde Ölbronn-Dürrn (Enzkreis) |
 
+## [ENZ_GM_16] Sektor ENZ_GM_16
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **§ 7 KiTaG** | Teil- oder Vollzeit (39 Std. Woche) | Stellenausschreibung der Gemeinde Ötisheim für Erzieher oder pädagogische Fachkräfte im Bereich der Kinderbetreuung. |
+| **Art. 6 Abs. 1 f) DSGVO** | Löschung bzw. Anonymisierung nach spätestens 7 Tagen | Frist zur Löschung und Speicherdauer von IP-Adressen bei Nutzung des Netze BW GmbH NETZMonitors auf der Gemeindewebsite. |
+| **Art. 6 Abs. 1 S. 1 lit. f DSGVO** | Sicherstellung der Stabilität, Funktionalität und Sicherheit unserer Website | Rechtsgrundlage und berechtigtes Interesse für die Erhebung technisch notwendiger Server-Log-Daten bei der Webseitennutzung. |
+
 ## [ENZ_GM_18] Sektor ENZ_GM_18
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
@@ -564,7 +565,11 @@
 ## [CW_ST_10] Sektor CW_ST_10
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Art. 6 Abs. 1 s. 1 lit. e DSGVO** | Die Daten werden gelöscht, sobald die Sitzung beendet ist. | Aufbewahrungsdauer der Daten für Online-Formulare auf der Website der Stadt Bad Teinach-Zavelstein |
+| **Art. 6 Abs. 1 s. 1 lit. e DSGVO** | Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten im Rahmen der Online-Formulare ist Art. 6 Abs. 1 s. 1 lit. e DSGVO. | Datenschutzrechtliche Rechtsgrundlage für die Datenverarbeitung bei Nutzung von Online-Formularen auf der Webseite der Stadt Bad Teinach-Zavelstein. |
+| **Art. 6 Abs. 1 f) DSGVO** | Die Rechtsgrundlage für die Verarbeitung von Energiedaten und Störungsinformationen über Netze BW GmbH ist Art. 6 Abs. 1 f) DSGVO; die Löschung bzw. Anonymisierung einer IP-Adresse erfolgt spätestens nach 7 Tagen. | Rechtsgrundlage und Löschungsfrist für IP-Adressdaten beim NETZMonitor der Netze BW GmbH. |
+| **Verkehrsrechtliche Anordnung / Straßenbaumaßnahme Zavelstein - Station Teinach** | 14.11.2026 | Verlängerung der Vollsperrung der Straße zwischen Zavelstein und Station Teinach. |
+| **VOB/A** | Alle Öffentlichen Ausschreibungen der Stadt Bad Teinach-Zavelstein erfolgen gemäß VOB/A. | Vergaberechtliche Vorschrift für kommunale Bauausschreibungen. |
+| **Art. 6 Abs. 1 s. 1 lit. a DSGVO** | Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei der Nutzung des Kartendienstes Google Maps ist Art. 6 Abs. 1 s. 1 lit. a DSGVO. | Rechtsgrundlage und Einwilligungserfordernis für externe Kartendienste auf der Website. |
 
 ## [CW_GM_01] Sektor CW_GM_01
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -574,7 +579,10 @@
 ## [CW_GM_03] Sektor CW_GM_03
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Landratsamt Calw** | 31. Oktober 2026 | Verlängerung der Beschränkung der Wasserentnahme im Kreis Calw |
+| **Kurverwaltung Dobel Verkaufstarif** | 9,00 € | Verkaufspreis des PLAYMOBIL-Schwarzwaldpaars Marie und Hannes in bar bei der Kurverwaltung Dobel ab dem 9.11. |
+| **Allgemeinverfügung Landratsamt Calw zur Wasserentnahme** | 31. Oktober 2026 | Verlängerung der Beschränkung der Entnahme von Wasser aus Flüssen und Bächen im Landkreis Calw |
+| **Verkehrsrechtliche Anordnung Eyachtalstraße** | 12.10.2026 bis 31.10.2026 | Vollsperrung der Eyachtalstraße zwischen Fischzucht Zordel und Gasthaus Eyachmühle aufgrund von Baumfäll- und Gehölzarbeiten |
+| **Datenschutz-Speicherfrist Gemeinde Dobel** | ein Monat | Bestandsdauer und Gültigkeitsfrist der essentiellen Einwilligungs-Cookies auf dem Webportal der Gemeinde Dobel |
 
 ## [CW_GM_05] Sektor CW_GM_05
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -1105,11 +1113,11 @@
 ## [CW_K5_WOHNBAU] Sektor CW_K5_WOHNBAU
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Mietangebot Altensteig (Kreisbau Calw eG)** | 475 EUR Kaltmiete (620 EUR Warmmiete) für eine 2-Zimmer-Wohnung mit ca. 53,35 m2 in 72213 Altensteig | Mietpreiskonditionen für eine Genossenschaftswohnung in Altensteig ab 01.12.2026 |
-| **Mietangebot Nagold WBS (Kreisbau Calw eG)** | 560 EUR Kaltmiete (830 EUR Warmmiete) für eine 3-Zimmer-Wohnung mit ca. 83,17 m2 in 72202 Nagold (nur mit Wohnberechtigungsschein) | Mietpreiskonditionen für eine öffentlich geförderte Genossenschaftswohnung mit Wohnberechtigungsschein in Nagold ab 01.11.2026 |
-| **Satzung Kreisbaugenossenschaft Calw eG / Genossenschaftsanteile** | Keine Erhebung einer Mietkaution; stattdessen Erwerb von Mitgliedsanteilen / Geschäftsguthaben | Regelung zur Mietsicherheit bei genossenschaftlichem Wohnraum |
-| **Satzung Kreisbaugenossenschaft Calw eG - Kündigungsfrist** | Frist von drei Monaten zum Jahresende für die Kündigung der Mitgliedschaft | Fristbestimmung für den Austritt aus der Genossenschaft und Rückzahlung des Geschäftsguthabens |
-| **Satzungszweck Kreisbaugenossenschaft Calw eG** | Förderung ihrer Mitglieder vorrangig durch eine gute, sichere und sozial verantwortbare Wohnungsversorgung | Gemeinnütziger bzw. genossenschaftlicher Unternehmensgegenstand der Kreisbau Calw |
+| **Satzung Kreisbaugenossenschaft Calw eG - Kündigungsfrist der Mitgliedschaft** | Drei Monate zum Jahresende | Regelung zur Beendigung der genossenschaftlichen Mitgliedschaft und Rückzahlung des Geschäftsguthabens. |
+| **Mietkonditionen Kreisbaugenossenschaft Calw eG - Kaution** | Keine Mietkaution erforderlich; Erwerb von Mitgliedsanteilen/Geschäftsguthaben | Bedingungen für die Anmietung von Genossenschaftswohnungen bei der Kreisbau Calw eG. |
+| **Mietangebot 72202 Nagold (mit WBS)** | Kaltmiete: 560 EUR, Warmmiete: 830 EUR | Mietpreis für eine geförderte 3-Zimmer-Etagenwohnung mit 83,17 m2 Wohnfläche in Nagold (nur mit Wohnberechtigungsschein). |
+| **Mietangebot 72213 Altensteig** | Kaltmiete: 475 EUR, Warmmiete: 620 EUR | Mietpreis für eine 2-Zimmer-Wohnung mit Balkon und ca. 53,35 m2 Wohnfläche in Altensteig. |
+| **Mietangebot 72202 Nagold (Dachgeschoss)** | Kaltmiete: 915 EUR, Warmmiete: 1095 EUR | Mietpreis für eine neu ausgebaute 3,5-Zimmer-Dachgeschosswohnung mit ca. 70,41 m2 Wohnfläche in Nagold. |
 
 ## [CW_FDS_KRITIS_WASSER] Sektor CW_FDS_KRITIS_WASSER
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
