@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-10-30 06:53:16 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-10-30 07:38:06 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -640,6 +640,11 @@
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
 | **Stadt Horb am Neckar Online-Bürgerservice** | Erledigen Sie viele Ihrer Behördengänge von zu Hause aus über unseren Online-Bürgerservice. | Verfügbarkeit des Online-Bürgerservice der Stadt Horb am Neckar |
+
+## [FDS_GM_01] Sektor FDS_GM_01
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **HTTP 404** | Die von Ihnen aufgerufene Seite existiert leider nicht mehr. | Die angeforderte Bürgerservice-Seite der Gemeinde Baiersbronn konnte nicht gefunden werden (404-Fehler). |
 
 ## [FDS_GM_03] Sektor FDS_GM_03
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
