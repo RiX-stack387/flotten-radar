@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-10-31 02:51:10 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-10-31 02:54:14 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -1091,6 +1091,14 @@
 | **Verfahrensvorschrift Kontenklärung / Online-Rückantwort** | Einmalige Gültigkeit des Zugangscodes zur Online-Rückmeldung und Verfall nach spätestens 6 Monaten. | Frist und Gültigkeitsdauer des Zugangscodes bei Aufforderung zur Überprüfung des Rentenversicherungskontos. |
 | **Kommunale Gebührenregelung / Rentenzwecke** | 0,00 Euro | Kostenfreiheit für behördliche Bestätigungen zu Rentenzwecken bei der Stadt- oder Gemeindeverwaltung. |
 | **Rechtsbehelfsbelehrung SGB VI** | Widerspruch | Statthafter Rechtsbehelf gegen Verwaltungsakte im Kontenklärungs- und Rentenauskunftsverfahren. |
+
+## [Z90_DRV_2026] Sektor Z90_DRV_2026
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **DRV-Pressemitteilung 07.10.2026 / § 109 SGB VI** | Ab dem 55. Lebensjahr alle 3 Jahre (sowie jederzeit auf Antrag) | Automatischer Versand der grundlegend überarbeiteten neuen Rentenauskunft mit tabellarischer Übersicht zum regulären und vorgezogenen Rentenbeginn sowie zur Erfüllung der Mindestversicherungszeiten. |
+| **Netto-Renten-Transparenz (KVdR / PVdR)** | Ausweisung der Kranken- und Pflegeversicherungsbeiträge | Direkte Berechnung der auf die Rente anfallenden Beiträge zur Kranken- und Pflegeversicherung zur realistischen Einschätzung des monatlichen Netto-Auszahlungsbetrags. |
+| **Kontenklärungs-Wächter (§ 149 SGB VI)** | Markierung ungeklärter Lücken im Versicherungsverlauf | Konkreter Hinweis auf ungeklärte Zeiträume im Versicherungskonto mit Aufruf zur Kontenklärung für eine korrekte und schnelle Rentenberechnung. |
+| **Kostenfreiheit & Verbraucherschutz** | 0,00 Euro (kostenlos über DRV-Online-Services / 0800 1000 4800) | Kostenlose Anforderung unabhängig vom Lebensalter über das DRV-Kundenportal, elektronische Zustellung und Digitale Rentenübersicht; keine kostenpflichtigen Dienstleister erforderlich. |
 
 ## [Z91] Sektor Z91
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
