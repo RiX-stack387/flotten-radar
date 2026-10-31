@@ -1,22 +1,2 @@
-RADAR-DELTA COMPACT (2026-10-30)
-- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt.
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Die tatsächlichen Kosten der Unterkunft und Heizung fließen gemäß § 22 SGB II ein; das Jobcenter kann die Kosten bei Überschreitung der regionalen Angemessenheits-Obergrenzen kürzen.
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 21 SGB II: Mehrbedarfe nach § 21 SGB II umfassen unter anderem pauschale Zuschüsse für Alleinerziehende, Schwangere oder die dezentrale Warmwasserbereitung.
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 11 SGB II: Kindergeld und Unterhalt zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf.
-- [CW_ST_10: Stadt Bad Teinach-Zavelstein - Rathaus & Kurbetrieb] Art. 6 Abs. 1 s. 1 lit. e DSGVO: Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten im Rahmen der Online-Formulare ist Art. 6 Abs. 1 s. 1 lit. e DSGVO.
-- [CW_ST_10: Stadt Bad Teinach-Zavelstein - Rathaus & Kurbetrieb] Art. 6 Abs. 1 f) DSGVO: Die Rechtsgrundlage für die Verarbeitung von Energiedaten und Störungsinformationen über Netze BW GmbH ist Art. 6 Abs. 1 f) DSGVO; die Löschung bzw. Anonymisierung einer IP-Adresse erfolgt spätestens nach 7 Tagen.
-- [CW_ST_10: Stadt Bad Teinach-Zavelstein - Rathaus & Kurbetrieb] Verkehrsrechtliche Anordnung / Straßenbaumaßnahme Zavelstein - Station Teinach: 14.11.2026
-- [CW_ST_10: Stadt Bad Teinach-Zavelstein - Rathaus & Kurbetrieb] VOB/A: Alle Öffentlichen Ausschreibungen der Stadt Bad Teinach-Zavelstein erfolgen gemäß VOB/A.
-- [CW_ST_10: Stadt Bad Teinach-Zavelstein - Rathaus & Kurbetrieb] Art. 6 Abs. 1 s. 1 lit. a DSGVO: Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei der Nutzung des Kartendienstes Google Maps ist Art. 6 Abs. 1 s. 1 lit. a DSGVO.
-- [CW_GM_03: Gemeinde Dobel - Rathaus & Bürgerservice] Kurverwaltung Dobel Verkaufstarif: 9,00 €
-- [CW_GM_03: Gemeinde Dobel - Rathaus & Bürgerservice] Allgemeinverfügung Landratsamt Calw zur Wasserentnahme: 31. Oktober 2026
-- [CW_GM_03: Gemeinde Dobel - Rathaus & Bürgerservice] Verkehrsrechtliche Anordnung Eyachtalstraße: 12.10.2026 bis 31.10.2026
-- [CW_GM_03: Gemeinde Dobel - Rathaus & Bürgerservice] Datenschutz-Speicherfrist Gemeinde Dobel: ein Monat
-- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Satzung Kreisbaugenossenschaft Calw eG - Kündigungsfrist der Mitgliedschaft: Drei Monate zum Jahresende
-- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Mietkonditionen Kreisbaugenossenschaft Calw eG - Kaution: Keine Mietkaution erforderlich; Erwerb von Mitgliedsanteilen/Geschäftsguthaben
-- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Mietangebot 72202 Nagold (mit WBS): Kaltmiete: 560 EUR, Warmmiete: 830 EUR
-- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Mietangebot 72213 Altensteig: Kaltmiete: 475 EUR, Warmmiete: 620 EUR
-- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Mietangebot 72202 Nagold (Dachgeschoss): Kaltmiete: 915 EUR, Warmmiete: 1095 EUR
-- [ENZ_GM_16: Gemeinde Ötisheim] § 7 KiTaG: Teil- oder Vollzeit
-- [ENZ_GM_16: Gemeinde Ötisheim] Art. 6 Abs. 1 f) DSGVO: Löschung bzw. Anonymisierung nach spätestens 7 Tagen
-- [ENZ_GM_16: Gemeinde Ötisheim] Art. 6 Abs. 1 S. 1 lit. f DSGVO: Sicherstellung der Stabilität, Funktionalität und Sicherheit unserer Website
+RADAR-DELTA COMPACT (2026-10-31)
+- Keine kritischen Rechtsaenderungen erfasst. Perimeter stabil.
