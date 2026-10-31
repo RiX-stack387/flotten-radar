@@ -1,2 +1,20 @@
 RADAR-DELTA COMPACT (2026-10-31)
-- Keine kritischen Rechtsaenderungen erfasst. Perimeter stabil.
+- [19: BAG Entscheidungsdatenbank] § 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG: 1,50 Euro je Entscheidung, höchstens 5,00 Euro
+- [19: BAG Entscheidungsdatenbank] JVKostG: 0,50 Euro pro Seite für die ersten 50 Seiten, 0,15 Euro für jede weitere Seite
+- [19: BAG Entscheidungsdatenbank] § 312 d Abs. 4 Nr. 1 BGB: Widerruf ausgeschlossen
+- [19: BAG Entscheidungsdatenbank] BAG, 8 AZB 6/26: Fünfmonatsfrist zur vollständigen Absetzung von Urteilen
+- [19: BAG Entscheidungsdatenbank] BAG, 5 AZR 122/25: Mehrarbeitszuschläge - Teilzeitbeschäftigte - Benachteiligung
+- [19: BAG Entscheidungsdatenbank] BAG, 2 AZN 339/26: Vertretungszwang - "halluzinierte" Urteile
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Wohnkosten
+- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.
+- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: 01.07.2026
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 20 SGB II: 506 €
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 21 SGB II: Berechnung gesetzlicher Mehrbedarfe, unter anderem Zuschüsse für Alleinerziehende, Schwangere oder dezentrale Warmwasserbereitung.
+- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Wohnungsangebot Kreisbau Calw eG (Objekt 72202 Nagold - WBS): 560 EUR Kaltmiete
+- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Wohnungsangebot Kreisbau Calw eG (Objekt 72213 Altensteig): 475 EUR Kaltmiete
+- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Wohnungsangebot Kreisbau Calw eG (Objekt 72202 Nagold - DG): 610 EUR Kaltmiete
+- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Satzung / Genossenschaftsbestimmungen Kreisbau Genossenschaft Calw eG: Drei Monate zum Jahresende
+- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Miet- und Geschäftsbedingungen Kreisbau Genossenschaft Calw eG: Keine Mietkaution; Erwerb von Mitgliedsanteilen
+- [ENZ_GM_14: Gemeinde Niefern-Öschelbronn] § 3 Abs. 2 BauGB: Öffentliche Bekanntmachung - Beteiligung der Öffentlichkeit gemäß § 3 Abs. 2 BauGB des ...
+- [ENZ_GM_14: Gemeinde Niefern-Öschelbronn] Art. 6 Abs. 1 s. 1 lit. a DSGVO: Einwilligung als Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei Webanalysediensten und externen Medieninhalten.
+- [ENZ_GM_14: Gemeinde Niefern-Öschelbronn] Art. 6 Abs. 1 s. 1 lit. e DSGVO: Wahrnehmung einer Aufgabe im öffentlichen Interesse als Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei Webseiten-Login und Medienbannern.

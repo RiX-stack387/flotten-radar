@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-10-31 02:54:14 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-10-31 04:37:37 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -143,11 +143,13 @@
 ## [19] Sektor 19
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG** | 1,50 Euro | Gebühr für die Überlassung elektronisch gespeicherter Entscheidungsdateien je Entscheidung (maximal 5,00 Euro pro Arbeitsgang) |
-| **JVKostG** | 0,50 Euro | Schreibauslagen pro Seite für die Versendung der ersten 50 Seiten von Entscheidungsabdrucken |
-| **8 AZB 6/26** | Fünfmonatsfrist zur vollständigen Absetzung von Urteilen | Entscheidungsgegenstand des Beschlusses des Bundesarbeitsgerichts vom 18.09.2026 |
-| **2 AZR 130/25** | Kündigung durch Mitglieder des Aufsichtsrats einer GmbH - Zurückweisung nach § 174 BGB | Entscheidungsgegenstand des Urteils des Bundesarbeitsgerichts vom 07.05.2026 |
-| **§ 13 BGB** | zwei Wochen | Widerrufsfrist für Verbraucher bei Anforderung von Entscheidungsabdrucken |
+| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG** | 1,50 Euro je Entscheidung, höchstens 5,00 Euro | Kosten für die Überlassung von Entscheidungen als elektronisch gespeicherte Dateien durch das Bundesarbeitsgericht |
+| **JVKostG** | 0,50 Euro pro Seite für die ersten 50 Seiten, 0,15 Euro für jede weitere Seite | Schreibauslagen für die postalische Versendung von Entscheidungsabdrucken durch das Bundesarbeitsgericht |
+| **§ 13 BGB** | zwei Wochen | Frist für den Widerruf der Vertragserklärung für Verbraucher bei Anforderung von Entscheidungsabdrucken |
+| **§ 312 d Abs. 4 Nr. 1 BGB** | Widerruf ausgeschlossen | Ausschluss des Widerrufsrechts bei elektronischem Versand von Entscheidungstexten |
+| **BAG, 8 AZB 6/26** | Fünfmonatsfrist zur vollständigen Absetzung von Urteilen | Entscheidungsgegenstand des Beschlusses vom 18.09.2026 |
+| **BAG, 5 AZR 122/25** | Mehrarbeitszuschläge - Teilzeitbeschäftigte - Benachteiligung | Gegenstand der Entscheidung des BAG vom 26.08.2026 |
+| **BAG, 2 AZN 339/26** | Vertretungszwang - "halluzinierte" Urteile | Gegenstand der Entscheidung des BAG vom 30.09.2026 |
 
 ## [20] Sektor 20
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -207,12 +209,13 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt. | Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld im Rahmen der Reform 2026 zum 1. Juli 2026. |
-| **§ 22 SGB II** | Die tatsächlichen Kosten der Unterkunft und Heizung fließen gemäß § 22 SGB II ein; das Jobcenter kann die Kosten bei Überschreitung der regionalen Angemessenheits-Obergrenzen kürzen. | Berücksichtigung der Kosten der Unterkunft und Heizung (KdU) sowie Kürzungsbefugnis des Jobcenters bei Überschreitung regionaler Angemessenheitsgrenzen. |
-| **§ 20 SGB II** | 563 € | Monatlicher Regelbedarf für Alleinstehende Erwachsene (Regelbedarfsstufe 1) im Jahr 2026. |
-| **§ 21 SGB II** | Mehrbedarfe nach § 21 SGB II umfassen unter anderem pauschale Zuschüsse für Alleinerziehende, Schwangere oder die dezentrale Warmwasserbereitung. | Gewährung gesetzlicher Mehrbedarfe neben dem Regelbedarf nach § 21 SGB II. |
-| **§ 11b SGB II** | 208,90 € | Höhe des monatlich anrechnungsfreien gesetzlichen Freibetrags bei einem Zuverdienst durch einen Minijob. |
-| **§ 11 SGB II** | Kindergeld und Unterhalt zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf. | Anrechnung von Kindergeld und Unterhaltsleistungen als Einkommen des Kindes gem. § 11 SGB II. |
+| **§ 22 SGB II** | Wohnkosten (Miete und Heizkosten) fließen in die Bedarfsberechnung ein; Jobcenter können die Kosten bei Überschreitung der regionalen Mietobergrenzen / Angemessenheit kürzen. | Kosten der Unterkunft und Heizung (KdU) sowie regionale Angemessenheitsprüfung und Obergrenzen nach § 22 SGB II |
+| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Gesetzliche Terminologie und Umbenennung von Bürgergeld in Grundsicherungsgeld |
+| **SGB II** | 01.07.2026 | Stichtag für die offizielle Umbenennung von Bürgergeld in Grundsicherungsgeld |
+| **§ 20 SGB II** | 563 € | Regelbedarf 2026 in Regelbedarfsstufe 1 für Alleinstehende Erwachsene |
+| **§ 20 SGB II** | 506 € | Regelbedarf 2026 in Regelbedarfsstufe 2 für Partner, Ehepartner oder Lebenspartner |
+| **§ 11b SGB II** | 208,90 € | Maximaler monatlicher anrechnungsfreier Freibetrag bei Ausübung eines Minijobs |
+| **§ 21 SGB II** | Berechnung gesetzlicher Mehrbedarfe, unter anderem Zuschüsse für Alleinerziehende, Schwangere oder dezentrale Warmwasserbereitung. | Pauschale Aufschläge auf den Regelbedarf bei Vorliegen besonderer Lebensumstände nach § 21 SGB II |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -491,6 +494,13 @@
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
 | **Gemeinde Neulingen Stellenangebot Kämmerer** | Vergütung im Beschäftigungsverhältnis in EG 12 bzw. Besoldung A10 – A13 (je nach Qualifikation) | Stellenausschreibung für die Position Kämmerer (m/w/d) in Neulingen ab 01.07.2027 |
+
+## [ENZ_GM_14] Sektor ENZ_GM_14
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **§ 3 Abs. 2 BauGB** | Öffentliche Bekanntmachung - Beteiligung der Öffentlichkeit gemäß § 3 Abs. 2 BauGB des ... | Beteiligung der Öffentlichkeit an der Bauleitplanung 'Waldhorn' in der Gemeinde Niefern-Öschelbronn. |
+| **Art. 6 Abs. 1 s. 1 lit. a DSGVO** | Einwilligung als Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei Webanalysediensten und externen Medieninhalten. | Verarbeitung von Nutzerdaten im Rahmen der Dienste Google Analytics und YouTube. |
+| **Art. 6 Abs. 1 s. 1 lit. e DSGVO** | Wahrnehmung einer Aufgabe im öffentlichen Interesse als Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei Webseiten-Login und Medienbannern. | Bereitstellung essenzieller technischer Funktionalitäten und Benutzeranmeldungen auf der Webpräsenz der Gemeinde Niefern-Öschelbronn. |
 
 ## [ENZ_GM_15] Sektor ENZ_GM_15
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -1121,11 +1131,11 @@
 ## [CW_K5_WOHNBAU] Sektor CW_K5_WOHNBAU
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Satzung Kreisbaugenossenschaft Calw eG - Kündigungsfrist der Mitgliedschaft** | Drei Monate zum Jahresende | Regelung zur Beendigung der genossenschaftlichen Mitgliedschaft und Rückzahlung des Geschäftsguthabens. |
-| **Mietkonditionen Kreisbaugenossenschaft Calw eG - Kaution** | Keine Mietkaution erforderlich; Erwerb von Mitgliedsanteilen/Geschäftsguthaben | Bedingungen für die Anmietung von Genossenschaftswohnungen bei der Kreisbau Calw eG. |
-| **Mietangebot 72202 Nagold (mit WBS)** | Kaltmiete: 560 EUR, Warmmiete: 830 EUR | Mietpreis für eine geförderte 3-Zimmer-Etagenwohnung mit 83,17 m2 Wohnfläche in Nagold (nur mit Wohnberechtigungsschein). |
-| **Mietangebot 72213 Altensteig** | Kaltmiete: 475 EUR, Warmmiete: 620 EUR | Mietpreis für eine 2-Zimmer-Wohnung mit Balkon und ca. 53,35 m2 Wohnfläche in Altensteig. |
-| **Mietangebot 72202 Nagold (Dachgeschoss)** | Kaltmiete: 915 EUR, Warmmiete: 1095 EUR | Mietpreis für eine neu ausgebaute 3,5-Zimmer-Dachgeschosswohnung mit ca. 70,41 m2 Wohnfläche in Nagold. |
+| **Wohnungsangebot Kreisbau Calw eG (Objekt 72202 Nagold - WBS)** | 560 EUR Kaltmiete (830 EUR Warmmiete) | Mietpreis für eine 3-Zimmer-Wohnung mit Wohnberechtigungsschein (WBS) in Nagold mit ca. 83,17 m² Wohnfläche |
+| **Wohnungsangebot Kreisbau Calw eG (Objekt 72213 Altensteig)** | 475 EUR Kaltmiete (620 EUR Warmmiete) | Mietpreis für eine 2-Zimmer-Etagenwohnung mit Balkon in Altensteig mit ca. 53,35 m² Wohnfläche |
+| **Wohnungsangebot Kreisbau Calw eG (Objekt 72202 Nagold - DG)** | 610 EUR Kaltmiete (725 EUR Warmmiete) | Mietpreis für eine 2-Zimmer-Dachgeschosswohnung in Nagold mit ca. 45,59 m² Wohnfläche |
+| **Satzung / Genossenschaftsbestimmungen Kreisbau Genossenschaft Calw eG** | Drei Monate zum Jahresende | Kündigungsfrist für die Mitgliedschaft bei der Kreisbaugenossenschaft Calw eG |
+| **Miet- und Geschäftsbedingungen Kreisbau Genossenschaft Calw eG** | Keine Mietkaution; Erwerb von Mitgliedsanteilen (Geschäftsguthaben) | Befreiung von einer Mietkautionspflicht zugunsten von Genossenschaftsanteilen |
 
 ## [CW_FDS_KRITIS_WASSER] Sektor CW_FDS_KRITIS_WASSER
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
