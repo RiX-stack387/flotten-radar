@@ -3058,3 +3058,409 @@ Verifikation abgeschlossen: 'regionalverband_nordschwarzwald' in quellen_registr
 [📟 PROTOKOLL-EINTRAG: #4053] [🧑‍✈️ STATUS: ADMIRAL-HEADER REAKTIVIERT // VOLLE BRÜCKEN-GEWALT] Rückkehr des Admirals zur formellen Befehlsführung mit offiziellem Token #1 Header-Hardlock. Erfassung aller Gefechtsereignisse und Vorbereitung des Master-Archiv-Sicherungsscans.
 
 [📟 PROTOKOLL-EINTRAG: #4054] [💾 STATUS: SICHERUNGSSCAN #4031 BIS #4054 VERSIEGELT // EXPORT BEREIT] Vollständige Konsolidierung und Ausgabe aller 24 Einsatz- und Werft-Protokolle im reinen, ununterbrochenen Fließtext zur lückenlosen Fortschreibung der Master_Archiv_V23.4_EINSATZ-CHRONIK.
+
+[📟 PROTOKOLL-EINTRAG: #4054] [⚙️ STATUS: RADAR-PIPELINE WARTUNG // INDENTATIONERROR IN HAUPT-RADAR] Diagnose des Einrückungsfehlers (IndentationError: unexpected indent) in 14_Slots_Radar_bereinigt.py in Zeile 256 beim Navigator-Webdriver-Patch.   [📟 PROTOKOLL-EINTRAG: #4055] [🔧 STATUS: CODE-REPARATUR ZEILE 256 // POWERSHELL-AUTOMATION] Erstellung des PowerShell-Reparaturskripts zur automatisierten Angleichung der Einrückungstiefe an den übergeordneten Playwright-Kontextblock.   [📟 PROTOKOLL-EINTRAG: #4056] [✅ STATUS: ZEILE 256 ERFOLGREICH GEFLICKT // CODE-AUDIT GRÜN] Erfolgreiche Ausführung des PowerShell-Patches; Zeile 256 mit exakter 2-Space-Einrückung im Skript 14_Slots_Radar_bereinigt.py arretiert.   [📟 PROTOKOLL-EINTRAG: #4057] [🔍 STATUS: PIPELINE-ARCHITEKTUR ANALYSIERT // MODULARE TRENNUNG] Aufklärung der Funktionsaufteilung zwischen den drei Harvester-Skripten (14_Slots, PF/ENZ, CW/FDS) und dem zentralen Schmelzofen build_enterprise_knowledge.py.   [📟 PROTOKOLL-EINTRAG: #4058] [⚙️ STATUS: BATCH-KETTE START_FLOTTE // 6-STUFEN-MODELL BESTÄTIGT] Verifikation der automatisierten Ausführungskette in Start_Flotte.bat: Sequenzieller Sweep aller Radare gefolgt von Builder und Cloud-Sync.   [📟 PROTOKOLL-EINTRAG: #4059] [🛡️ STATUS: DLP-FILTER-ANALYSE // GOOGLE SKILLS VORSCHRIFTEN] Systemtechnische Aufklärung der Google Data Loss Prevention (DLP): Blockade von Klartext-IBANs, Durchwahlen und Scraper-Spambot-Müll beim Skill-Save.   [📟 PROTOKOLL-EINTRAG: #4060] [🧹 STATUS: ASB KNOWLEDGE BASE VORBEREINIGUNG // SENSITIVE DATEN] Identifikation von Spenden-IBANs und Joomla-Spamschutzfragmenten in ASB_Knowledge_Base_2026.md als potenzielle Upload-Blocker.   [📟 PROTOKOLL-EINTRAG: #4061] [📁 STATUS: VERZEICHNIS-STRUKTUR // ASB-REGION-NORDSCHWARZWALD-NEU] Vorbereitung der entkoppelten Ordnerstruktur zur Umgehung von Namenskollisionen und Cache-Locks im Web-Dashboard.   [📟 PROTOKOLL-EINTRAG: #4062] [💾 STATUS: LEAN-VERSION EVALUIERT // REDUKTION AUF 4 KB] Strategischer Beschluss zur radikalen Reduzierung der Wissensbasis auf operative 4 KB ohne Webseiten-Scraper-Dump für fehlerfreien Upload.   [📟 PROTOKOLL-EINTRAG: #4063] [🚀 STATUS: HAUPT-RADAR NEUSTART // 14_SLOTS_RADAR_BEREINIGT.PY] Zündung des fehlerbereinigten Haupt-Radars nach Beseitigung des Einrückungsfehlers in Zeile 256.   [📟 PROTOKOLL-EINTRAG: #4064] [📡 STATUS: HAUPT-RADAR IM GEFECHT // 31 SEKTOREN AUF GESETZES-WACHE] Scan aller SGB-Slots, BSG-, BVerfG- und BAG-Entscheidungen sowie Weisungen der Bundesagentur für Arbeit.   [📟 PROTOKOLL-EINTRAG: #4065] [📝 STATUS: MASTERLOG GESICHERT // API_MASTER_V44 GENERIERT] Erfolgreicher Abschluss des 31-Slot-Hauptradars; Speicherung des Masterlogs API_Master_V44_2026-10-24_05-28-41.txt.   [📟 PROTOKOLL-EINTRAG: #4066] [⚙️ STATUS: SCHMELZOFEN GEZÜNDET // BUILD_ENTERPRISE_KNOWLEDGE.PY] Start des Enterprise-Knowledge-Builders zur Konsolidierung aller Radar-Claims im 8-Ebenen-System.   [📟 PROTOKOLL-EINTRAG: #4067] [✅ STATUS: AUFKLÄRUNG DER FLOTTEN-PIPELINE // HARVESTER VS. BUILDER-ARCHITEKTUR ENTWIRRT] Taktische Aufklärung zur Systemarchitektur: Harvester-Skripte schreiben ausschließlich in State- und Log-Dateien; build_enterprise_knowledge.py verschmilzt alle Daten in die 8-Ebenen-Enterprise-Base.   [📟 PROTOKOLL-EINTRAG: #4068] [✅ STATUS: HAUPT-RADAR ERFOLGREICH // ENTERPRISE-BASE MIT 373 EINHEITEN VERSCHMOLZEN] Haupt-Radar durchläuft alle 31 Sektoren fehlerfrei; build_enterprise_knowledge.py baut DEFCON_RECHT_Enterprise_Base.md mit 373 validierten Einheiten neu auf.   [📟 PROTOKOLL-EINTRAG: #4069] [✅ STATUS: TAKTISCHER DREISCHLAG VOLLENDET // COMMIT 5d4e973 LIVE // DRIVE- & GIT-SYNC SYNCHRON] In-Place Byte-Streaming nach G:\Meine Ablage\DefconRecht erfolgreich; Commit 5d4e973 auf GitHub origin/main gepusht; MasterLogs rotiert.   [📟 PROTOKOLL-EINTRAG: #4070] [✅ STATUS: TAKTISCHE LAGE-AUSWERTUNG V44.0 // PERIMETER PF, ENZ & NORDSCHWARZWALD STABIL] Auswertung aller 3 MasterLogs bestätigt: Keine materiell-rechtlichen Verschlechterungen; SGB- und KdU-Werte stabil; Sektor 18 (Landesrecht) und Sektor 31 (Bürgergeld.org) redaktionell aktualisiert.   [📟 PROTOKOLL-EINTRAG: #4071] [✅ STATUS: FORENSISCHE AUFKLÄRUNG STELLENANGEBOTE // PFAD-WEICHE & 23. URL-LÜCKE ENTTARNT] Entdeckung der Ursache für fehlende Vakanzen in Bad Herrenalb: Veraltete Datei in C:\DefconRecht lag vor; Unterseite für Erzieher (50–75 % nachmittags) fehlte in der bisherigen 22-Seiten-Matrix.   [📟 PROTOKOLL-EINTRAG: #4072] [✅ STATUS: BAD HERRENALB VAKANZ INTEGRIERT // COMMIT 4fb7bae LIVE // DRIVE IN-PLACE GESTREAMT] Manuelle Injektion der Erzieher-Vakanz in ASB_Knowledge_Base_2026.md; Verteilung an 4 Kern-Skills; DEPLOY_ZIPS neu gepackt; Commit 4fb7bae erfolgreich gepusht.   [📟 PROTOKOLL-EINTRAG: #4073] [✅ STATUS: URSACHE DER SPEICHERBLOCKADE ENTTARNT // GOOGLE DLP-SCANNER SCHLÄGT BEI IBAN & KONTAKTEN AN] Aufdeckung des Upload-Verlusts: Google DLP-Filter verwirft Dateien mit Klartext-IBANs, privaten Handynummern und Joomla-Spambot-Fragmenten kommentarlos aus dem ZIP-Paket.   [📟 PROTOKOLL-EINTRAG: #4074] [✅ STATUS: UPLOAD-FEHLER ENTLARVT // ZIP-FORMAT ABGEWIESEN // ORDNER-DIREKTIMPORT ERFORDERLICH] Web-UI-Fehlermeldung analysiert: Google-Upload-Dialog akzeptiert keine ZIP-Dateien; Umstellung auf niven Browser-Ordner-Import C:\DefconRecht\SKILLS\asb-region-nordschwarzwald.   [📟 PROTOKOLL-EINTRAG: #4075] [✅ STATUS: UPLOAD-SPERRE ISOLIERT // 3 GOOGLE-HÜRDEN IDENTIFIZIERT // SOFORT-BYPASS BEREIT] Dreifache Ursachen-Isolation: Dateiendung .zip, Namenskollision bei bestehendem Skill und Klartext-Bankdaten als Auslöser für Upload-Abbrüche entlarvt.   [📟 PROTOKOLL-EINTRAG: #4076] [✅ STATUS: FEHLERURSACHE LOKALISIERT // GOOGLE-PARSER VERLANGT SKILL.MD AUF HAUPTEBENE] Fehlermeldung "Eine der hochgeladenen Dateien muss eine SKILL.md-Datei sein" aufgeklärt: Upload ganzer Ordnerstrukturen erfordert die SKILL.md zwingend im Wurzelverzeichnis des Imports.   [📟 PROTOKOLL-EINTRAG: #4077] [✅ STATUS: RÄTSEL GELÖST // WINDOWS-ORDNER-DIALOG BLENDET DATEIEN KONSTRUKTIONSBEDINGT AUS] Aufklärung des Ordner-Auswahldialogs: Windows blendet im Modus "Ordner auswählen" alle Dateien (.md, .txt) aus; SKILL.md liegt physisch intakt auf Deck.[📟 PROTOKOLL-EINTRAG: #4078] [✅ STATUS: GOOGLE DLP SCHLÄGT ZU // REALE IBAN IN ASB-BASIS BLOCKIERT BACKEND] Fehlermeldung "Dein Skill kann leider nicht gespeichert werden" forensisch auf die unmaskierte Spenden-IBAN in ASB_Knowledge_Base_2026.md zurückgeführt.   [📟 PROTOKOLL-EINTRAG: #4079] [✅ STATUS: KONSOLEN-DETAIL ENTTARNT // POWERSHELL HING IN OFFENER KLAMMERSCHLEIFE FEST] Analyse des Konsolen-Hängers: Ein unvollständiger Code-Block mit geöffneter geschweifter Klammer verhinderte die Ausführung des Bereinigungsskripts auf der Festplatte.[📟 PROTOKOLL-EINTRAG: #4080] [✅ STATUS: TELEMETRIE AUSGEWERTET // ENTRIEGELUNG DER POWERSHELL-KLAMMERN ERFORDERLICH] Anweisung zur Entriegelung der PowerShell via Strg + C und Bereitstellung eines geschlossenen Pipeline-Einzeilers zur garantierten Datei-Härtung.[📟 PROTOKOLL-EINTRAG: #4081] [✅ STATUS: DOPPEL-BLOCKADE AUS POWERSHELL-HANG & DASHBOARD-NAMENSMUSTER GEKNACKT] Ursachen-Synthese: Blockierte PowerShell-Eingabe ließ IBAN intakt; gleichzeitige Namenskollision im Dashboard blockierte das Neuanlegen.[📟 PROTOKOLL-EINTRAG: #4082] [✅ STATUS: POWERSHELL-BEREINIGUNG GEGLÜCKT // NAMENS-KOLLISION IM DASHBOARD AUFGELÖST] Erfolgreiche Härtung auf der Festplatte ("100% DLP-FREI"); Vorbereitung des Re-Uploads unter Behebung des Namenskonflikts.[📟 PROTOKOLL-EINTRAG: #4083] [✅ STATUS: GOOGLE-NAMENS-KOPPLUNG ENTTARNT // ORDNERNAME & SKILL.MD MÜSSEN IDENTISCH HEISSEN] Google-Validierungsregel aufgedeckt: Der lokale Ordnername muss bitgenau im Kebab-Case mit dem 'name'-Feld in der SKILL.md übereinstimmen; Erstellung des Ordners asb-region-nordschwarzwald-neu.[📟 PROTOKOLL-EINTRAG: #4084] [✅ STATUS: BALLAST-ABWURF // KAPITEL 5 SCRAPER-DUMP AUF SCHLANKE 4 KB BEREINIGT] Ursache der finalen Sperre enttarnt: 45 KB unbereinigter Webseiten-Dump mit über 30 Spambot-Warnungen in Kapitel 5 über Bord geworfen; schlanke 4-KB-Wissensbasis generiert.   [📟 PROTOKOLL-EINTRAG: #4085] [✅ STATUS: DURCHBRUCH BESTÄTIGT // ASB_KNOWLEDGE_BASE_2026.MD IM DASHBOARD GESPEICHERT] Optischer Beweis im Web-Editor: ASB_Knowledge_Base_2026.md liegt neben der Enterprise-Base in references; Status "Gespeichert" ohne Fehlermeldung erreicht.[📟 PROTOKOLL-EINTRAG: #4086] [✅ STATUS: DURCHBRUCH BESCHLOSSENE SACHE // DER ASB-LOTSE STEHT IN VOLLER PRACHT] Vollzug im Live-Chat: Der Skill @asb-region-nordschwarzwald liefert die Erzieher-Vakanz in Bad Herrenalb (50–75 % nachmittags) und alle regionalen Stellenangebote fehlerfrei aus.
+
+[📟 PROTOKOLL-EINTRAG: #4086] [✅ STATUS: FLEET-REFIT // POSIX-DEPLOYMENT ABGESCHLOSSEN] Bereitstellung aller 26 Skill-Pakete als standardisierte POSIX-ZIP-Container unter C:\DefconRecht\DEPLOY_ZIPS zur Vermeidung von Backslash-Validierungsfehlern im Google-Cloud-Backend.
+[📟 PROTOKOLL-EINTRAG: #4087] [✅ STATUS: DLP-SCHUTZFILTER // BEREINIGUNG DURCHGEFÜHRT] Bereinigung unmaskierter Personaldaten und direkter interner Mitarbeiterkontakte aus zivilen Wissensdateien zur Abwehr automatisierter Upload-Blockaden.
+[📟 PROTOKOLL-EINTRAG: #4088] [✅ STATUS: SGB-RADAR // SGB II REFORM-MONITORING] Verifizierung der Grundsicherungsgeld-Nomenklatur und Abgleich der Fachlichen Weisungen der Bundesagentur für Arbeit.
+[📟 PROTOKOLL-EINTRAG: #4089] [✅ STATUS: KDU-SCHUTZ // 1,5-FACHE KAPPUNGSGRENZE] Arretierung der Abwehrdoktrin gegen rechtswidrige Mietkürzungen innerhalb der 12-monatigen Karenzzeit nach § 22 Abs. 1 SGB II.
+[📟 PROTOKOLL-EINTRAG: #4090] [✅ STATUS: KDU-VERGLEICHSRAUM // ENZKREIS SCHLÜSSIGES KONZEPT] Kontrolle der strikten Trennung zwischen Vergleichsraum Heckengäu und restlichem Enzkreis zur Vermeidung fehlerhafter Angemessenheitsprüfungen.
+[📟 PROTOKOLL-EINTRAG: #4091] [✅ STATUS: KDU PFORZHEIM // ANPASSUNGS-WACHE] Überprüfung der Richtwerte für den Stadtkreis Pforzheim auf Basis des aktuellen Mietspiegels und der Rechtsprechung des SG Karlsruhe.
+[📟 PROTOKOLL-EINTRAG: #4092] [✅ STATUS: SGB XII // GRUNDSICHERUNG IM ALTER] Abgleich der Vermögens- und Einkommensanrechnung nach dem Vierten Kapitel SGB XII mit den Beratungsleitfäden des Sozialamts Pforzheim.
+[📟 PROTOKOLL-EINTRAG: #4093] [✅ STATUS: SGB XI // PFLEGESACHLEISTUNGEN 2026] Validierung der Monatsbudgets für häusliche Pflegehilfe von Pflegegrad 2 (796 €) bis Pflegegrad 5 (2.299 €).
+[📟 PROTOKOLL-EINTRAG: #4094] [✅ STATUS: SGB XI // PFLEGEGELD-PARITÄT] Bestätigung der monatlichen Pflegegeldsätze für die Pflegegrade 2 (347 €), 3 (599 €), 4 (800 €) und 5 (990 €).
+[📟 PROTOKOLL-EINTRAG: #4095] [✅ STATUS: SGB XI // ENTLASTUNGSBETRAG] Prüfung der monatlichen 131 € nach § 45b SGB XI sowie der Übertragungsfristen bis zum 30. Juni des Folgejahres.
+[📟 PROTOKOLL-EINTRAG: #4096] [✅ STATUS: SGB XI // GEMEINSAMER JAHRESBETRAG] Verankerung des flexiblen Budgets von bis zu 3.539 € je Kalenderjahr für Verhinderungs- und Kurzzeitpflege (§ 42a SGB XI).
+[📟 PROTOKOLL-EINTRAG: #4097] [✅ STATUS: VORPFLEGEZEIT // RECHTSSTAND 2026] Bestätigung des vollständigen Entfalls der früheren 6-Monate-Vorpflegezeit bei Verhinderungspflege seit dem 01.07.2025.
+[📟 PROTOKOLL-EINTRAG: #4098] [✅ STATUS: WOHNGELD PLUS // HEIZKOSTENENTLASTUNG] Überprüfung der Heizkostenkomponente (110,40 € für 1 Person) und Klimakomponente (19,20 €) nach § 12 WoGG.
+[📟 PROTOKOLL-EINTRAG: #4099] [✅ STATUS: KINDERZUSCHLAG // BKGG FREIBETRÄGE] Prüfung der Mindesteinkommensgrenzen (600 € Alleinerziehende / 900 € Paare) und Vermögensfreibeträge nach § 6a BKGG.
+[📟 PROTOKOLL-EINTRAG: #4100] [✅ STATUS: KINDERGELD // ESTG-STANDARD] Bestätigung der Auszahlungshöhe von monatlich 259 € je Kind gemäß § 66 EStG.
+[📟 PROTOKOLL-EINTRAG: #4101] [✅ STATUS: UNTERHALTSVORSCHUSS // UVG STAFFELUNG] Kontrolle der aktuellen Zahlbeträge nach Altersstufen sowie der Einkommensgrenzen für Alleinerziehende bei Kindern ab 12 Jahren.
+[📟 PROTOKOLL-EINTRAG: #4102] [✅ STATUS: BILDUNG UND TEILHABE // BUT SCHULBEDARF] Arretierung der Auszahlungsstichtage für persönlichen Schulbedarf: 130 € zum 1. August und 65 € zum 1. Februar.
+[📟 PROTOKOLL-EINTRAG: #4103] [✅ STATUS: BUT // SOZIALE TEILHABE] Überprüfung der monatlichen Pauschale von 15 € für Vereins-, Kultur- und Freizeitaktivitäten von Kindern und Jugendlichen.
+[📟 PROTOKOLL-EINTRAG: #4104] [✅ STATUS: SGB III // SPERRZEITEN-RADAR] Prüfung der Tatbestände bei Arbeitsaufgabe (§ 159 SGB III) und Kündigungsfristen nach § 622 BGB.
+[📟 PROTOKOLL-EINTRAG: #4105] [✅ STATUS: ARBEITSRECHT // MASSENENTLASSUNGEN] Verifikation der BAG-Rechtsprechung zur Unwirksamkeit von Kündigungen bei fehlerhafter Anzeigepflicht gegenüber der Agentur für Arbeit.
+[📟 PROTOKOLL-EINTRAG: #4106] [✅ STATUS: ARBEITSRECHT // BETRIEBSRATSSCHULUNG] Bestätigung des Schulungsanspruchs nach dem BetrVG ohne arbeitgeberseitigen Genehmigungsvorbehalt.
+[📟 PROTOKOLL-EINTRAG: #4107] [✅ STATUS: SGB XIV // OPFERSCHUTZ-WEICHE] Überprüfung der Erstversorgung und Traumaambulanzen für Gewaltopfer nach dem Sozialen Entschädigungsrecht.
+[📟 PROTOKOLL-EINTRAG: #4108] [✅ STATUS: VERSORGUNGSAMT // MERKZEICHEN-AUDIT] Abgleich der Kriterien für Merkzeichen G, aG, B, H und Bl nach der Versorgungsmedizin-Verordnung (VersMedV).
+[📟 PROTOKOLL-EINTRAG: #4109] [✅ STATUS: SGB IX // WEGEFÄHIGKEIT VS AG] Wahrung der strikten dogmatischen Trennung zwischen rentenrechtlicher Wegefähigkeit und schwerbehindertenrechtlichem Nachteilsausgleich.
+[📟 PROTOKOLL-EINTRAG: #4110] [✅ STATUS: ZVR // ARZT-ZUGRIFFSRECHTE] Bestätigung der gesetzlichen Einsichtsrechte behandelnder Notärzte in das Zentrale Vorsorgeregister der Bundesnotarkammer.
+[📟 PROTOKOLL-EINTRAG: #4111] [✅ STATUS: VORSORGEVOLLMACHT // BMJ-STANDARD] Verankerung der Bestimmtheitsanforderungen für medizinische Notfälle und Zwangsmaßnahmen nach §§ 1831, 1832 BGB.
+[📟 PROTOKOLL-EINTRAG: #4112] [✅ STATUS: PATIENTENVERFÜGUNG // BGH-COMPLIANCE] Überprüfung der Formulierungsmuster unter Berücksichtigung der BGH-Leitsätze zur verbindlichen Therapiezieländerung.
+[📟 PROTOKOLL-EINTRAG: #4113] [✅ STATUS: P-KONTO // PFÄNDUNGSSCHUTZ 2026] Abgleich der Grundfreibeträge auf dem Pfändungsschutzkonto nach § 903 ZPO i. V. m. § 850c ZPO.
+[📟 PROTOKOLL-EINTRAG: #4114] [✅ STATUS: MAHNVERFAHREN // 2-WOCHEN-FRIST] Arretierung der automatischen Widerspruchswarnung gegen gerichtliche Mahnbescheide nach § 694 ZPO.
+[📟 PROTOKOLL-EINTRAG: #4115] [✅ STATUS: INSO // RESTSCHULDBEFREIUNG] Überprüfung der 3-jährigen Wohlverhaltensphase nach § 300 InsO zur Entschuldung von Privatpersonen.
+[📟 PROTOKOLL-EINTRAG: #4116] [✅ STATUS: BGB-VERBRAUCHERSCHUTZ // WIDERRUF] Absicherung der 14-tägigen Widerrufsfrist bei Fernabsatzverträgen und Schutz vor untergeschobenen Verträgen (§ 312g BGB).
+[📟 PROTOKOLL-EINTRAG: #4117] [✅ STATUS: INKASSO-ABWEHR // § 13A RDG] Verankerung der Prüfschritte gegen überhöhte Inkassogebühren und unberechtigte Forderungsabtretungen.
+[📟 PROTOKOLL-EINTRAG: #4118] [✅ STATUS: BGB-MIETRECHT // BETRIEBSKOSTEN-FRIST] Kontrolle der 12-monatigen Ausschlussfrist für Vermieterabrechnungen nach § 556 Abs. 3 BGB.
+[📟 PROTOKOLL-EINTRAG: #4119] [✅ STATUS: BGB-MIETRECHT // KAPPUNGSGRENZE] Prüfung der 15%-Kappungsgrenze für Mieterhöhungen im Stadtkreis Pforzheim gemäß Landesverordnung BW.
+[📟 PROTOKOLL-EINTRAG: #4120] [✅ STATUS: STROM-GRUNDVERSORGUNG // SWP KONDITIONEN] Verifikation der 14-tägigen Kündigungsfrist bei den Stadtwerken Pforzheim und der maximalen 3-Monats-Dauer der Ersatzversorgung.
+[📟 PROTOKOLL-EINTRAG: #4121] [✅ STATUS: VPE-TARIFE // D-TICKET JUGENDBW] Überprüfung der Konditionen für Schüler, Azubis und Studierende im Verkehrsverbund Pforzheim-Enzkreis.
+[📟 PROTOKOLL-EINTRAG: #4122] [✅ STATUS: GOLDSTADT-PASS // VERGÜNSTIGUNGEN] Abgleich der 50%-Ermäßigungen bei Stadtbibliothek, Theater und Bädern für Pforzheimer Transferleistungsempfänger.
+[📟 PROTOKOLL-EINTRAG: #4123] [✅ STATUS: TAFEL PFORZHEIM // STANDORTE] Kontrolle der Ausgabezeiten und Ausweisbedingungen an den Standorten Oststadt (Zeppelinstraße 16) und Brötzingen (Kelterstraße 107).
+[📟 PROTOKOLL-EINTRAG: #4124] [✅ STATUS: TAFEL MÜHLACKER // DIAKONIE STATUS] Überprüfung der Berechtigungskriterien und des Aufnahmestatus im Tafelladen Mühlacker.
+[📟 PROTOKOLL-EINTRAG: #4125] [✅ STATUS: WOHNUNGSLOSENHILFE // WICHERNHAUS PF] Verifikation der Notunterkunfts- und Beratungsangebote in der Westlichen Karl-Friedrich-Straße 120.
+[📟 PROTOKOLL-EINTRAG: #4126] [✅ STATUS: HILFSINITIATIVE // HELPING HANDS PF] Dokumentation der ehrenamtlichen Akuthilfe auf der Straße und Sachspendenkoordination.
+[📟 PROTOKOLL-EINTRAG: #4127] [✅ STATUS: FRAUENHAUS PFORZHEIM // OPFERSCHUTZ] Absicherung der anonymisierten 24/7-Notrufnummer gegen häusliche Gewalt im Regionalraum.
+[📟 PROTOKOLL-EINTRAG: #4128] [✅ STATUS: EUTB-BERATUNG // LEBENSHILFE PF] Bestätigung der unabhängigen Teilhabeberatung in der Mühlstraße 10 für Menschen mit Behinderung.
+[📟 PROTOKOLL-EINTRAG: #4129] [✅ STATUS: INKLUSION // BEAUFTRAGTE IN PF & ENZ] Verankerung der Anlaufstellen im Rathaus Pforzheim und im Landratsamt Enzkreis für barrierefreies Leben.
+[📟 PROTOKOLL-EINTRAG: #4130] [✅ STATUS: KREISSENIORENRAT // WOHNBERATUNG PF/ENZ] Überprüfung der neutralen und kostenfreien Beratung für Wohnraumanpassungen im Alter.
+[📟 PROTOKOLL-EINTRAG: #4131] [✅ STATUS: VET-RADAR // TIERÄRZTLICHER NOTDIENST] Arretierung der zentralen Notfallnummer (07231 1332966) für Pforzheim und den Enzkreis.
+[📟 PROTOKOLL-EINTRAG: #4132] [✅ STATUS: PSNV // NOTFALLSEELSORGE NORDSCHWARZWALD] Verifikation der psychosozialen Notfallversorgung über die Integrierten Leitstellen Calw, Freudenstadt und Pforzheim.
+[📟 PROTOKOLL-EINTRAG: #4133] [✅ STATUS: SPDI // KRISENINTERVENTION PF/ENZ/CW/FDS] Kontrolle der Standorte des Sozialpsychiatrischen Dienstes in Pforzheim, Calw und Freudenstadt.
+[📟 PROTOKOLL-EINTRAG: #4134] [✅ STATUS: ZFP CALW // AKUT-PSYCHIATRIE] Bestätigung der 24/7-Aufnahmebereitschaft des Klinikums Nordschwarzwald am Lützenhardter Hof in Hirsau.
+[📟 PROTOKOLL-EINTRAG: #4135] [✅ STATUS: TELEFONSEELSORGE // 24H HOTLINES] Sicherstellung der kostenfreien Nummern 0800 111 0 111 und 0800 111 0 222 im Systemarsenal.
+[📟 PROTOKOLL-EINTRAG: #4136] [✅ STATUS: NOTFALLMELDENSTELLEN // LEUCHTTÜRME PF] Feste Verankerung der Leuchtturm-Standorte bei Stromausfall: Hauptfeuerwache Habermehlstr. 77, Polizeireviere Nord/Süd, ASB, DRK, Büchenbronn, Huchenfeld.
+[📟 PROTOKOLL-EINTRAG: #4137] [✅ STATUS: NFTP CALW // MUSTERAUSSTATTUNG] Erfassung der Notfalltreffpunkte in Calw (Feuerwehrgerätehaus), Nagold, Ebhausen und weiteren Verbundgemeinden.
+[📟 PROTOKOLL-EINTRAG: #4138] [✅ STATUS: NFTP FREUDENSTADT // FEUERWEHRKOPPLUNG] Erfassung der dezentralen Anlaufstellen an den Feuerwehrhäusern der Kernstadt und Teilorte im Kreis Freudenstadt.
+[📟 PROTOKOLL-EINTRAG: #4139] [✅ STATUS: KLINIK-RADAR // RKH NEUENBÜRG SCHLIESSUNG] WICHTIGER SYSTEM-HARDLOCK: Endgültige Schließung der ZNA und des stationären Betriebs im RKH Neuenbürg zum 30.09.2026; nur ambulantes MVZ verbleibt.
+[📟 PROTOKOLL-EINTRAG: #4140] [✅ STATUS: NOTAUFNAHMEN // 24/7 ZNA PERIMETER] Primäre Notfall-Routen arretiert: Siloah St. Trudpert Pforzheim, Helios Klinikum Pforzheim, RKH Klinikum Mühlacker und Kliniken Calw.
+[📟 PROTOKOLL-EINTRAG: #4141] [✅ STATUS: NOTFALLPRAXEN // KVBW BEREITSCHAFT] Verifikation der Bereitschaftspraxen für Erwachsene (Siloah Klinikum) und Kinder (NOKI im Helios Klinikum Pforzheim) unter 116 117.
+[📟 PROTOKOLL-EINTRAG: #4142] [✅ STATUS: FREIZEIT // MINI-PFORZHEIM ERÖFFNUNG] Erfassung der neuen Indoor-Rollenspielstadt in der Konstanzer Straße 3 (Wilferdinger Höhe) für Kinder von 3 bis 8 Jahren.
+[📟 PROTOKOLL-EINTRAG: #4143] [✅ STATUS: BÄDER-MONITOR // NAGOLDFREIBAD SANIERUNG] Status-Check: Schließung des Nagoldfreibads für die gesamte Saison 2026; Ausweichrouten auf Wartbergfreibad, Eutingen, Huchenfeld und Remchingen gesichert.
+[📟 PROTOKOLL-EINTRAG: #4144] [✅ STATUS: KULTUR // GASOMETER PFORZHEIM] Validierung der Öffnungszeiten und Kontaktdaten der 360-Grad-Ausstellung im Hohwiesenweg 6.
+[📟 PROTOKOLL-EINTRAG: #4145] [✅ STATUS: WILDPARK PFORZHEIM // FREIZEIT-RADAR] Verifikation des ganzjährigen kostenfreien Zugangs, der Parkplatzmodalitäten und der Busverbindungen ab Hauptbahnhof.
+[📟 PROTOKOLL-EINTRAG: #4146] [✅ STATUS: CCP PFORZHEIM // EVENT-INFRASTRUKTUR] Erfassung der barrierefreien Zugänge, Parkhauskapazitäten und Kongressräume am Bertha-Benz-Platz 1.
+[📟 PROTOKOLL-EINTRAG: #4147] [✅ STATUS: THEATER PFORZHEIM // SPIELZEIT-CHECK] Überprüfung der Barrierefreiheit, Vorverkaufszeiten und Ermäßigungen über den Goldstadt-Pass.
+[📟 PROTOKOLL-EINTRAG: #4148] [✅ STATUS: KOMMUNAL-RADAR // 28 ENZKREIS-GEMEINDEN] Lückenloser Abgleich aller 5 Städte und 23 Gemeinden des Enzkreises inklusive Web-Endpunkten und Rathauskontakten.
+[📟 PROTOKOLL-EINTRAG: #4149] [✅ STATUS: KOMMUNAL-RADAR // 25 CALW-KOMMUNEN] Abgleich der Verwaltungen, Standorte und Bürgerbüros im gesamten Landkreis Calw.
+[📟 PROTOKOLL-EINTRAG: #4150] [✅ STATUS: KOMMUNAL-RADAR // 16 FREUDENSTADT-KOMMUNEN] Abgleich aller Kommunen und Teilorte des Landkreises Freudenstadt hinsichtlich Grundversorgung und Verwaltung.
+[📟 PROTOKOLL-EINTRAG: #4151] [✅ STATUS: ASB NSW // STANDORT BAD HERRENALB] Verifikation der Geschäftsstelle Gernsbacher Str. 39, GF Melanie Lausegger, Pflegedienstleitung und Fahrdienst-Disposition.
+[📟 PROTOKOLL-EINTRAG: #4152] [✅ STATUS: ASB NSW // SENIORENZENTRUM BAD LIEBENZELL] Bestätigung von 60 vollstationären Pflegeplätzen und 12 Tagespflegeplätzen im Alten Schulweg 1 unter Leitung Tony Hornfeldt.
+[📟 PROTOKOLL-EINTRAG: #4153] [✅ STATUS: ASB NSW // SENIORENZENTRUM DOBEL] Bestätigung der Sonneninsel Dobel mit 15 Tagespflegeplätzen, stationärer Pflege und betreutem Servicewohnen.
+[📟 PROTOKOLL-EINTRAG: #4154] [✅ STATUS: ASB NSW // STÜTZPUNKT FREUDENSTADT] Verifikation der Wohnanlage Am Jägerhof (Wildbader Str. 30), ambulante Pflegetouren und Menüservice Essen auf Rädern.
+[📟 PROTOKOLL-EINTRAG: #4155] [✅ STATUS: ASB NSW // TAGESPFLEGE-REGEL] Fester Hardlock: ASB-Tagespflegeplätze existieren regional ausschließlich an den Standorten Dobel und Bad Liebenzell.
+[📟 PROTOKOLL-EINTRAG: #4156] [✅ STATUS: ASB NSW // HAUSNOTRUF-SERVICE] Arretierung der direkten Hausnotruf-Bereitschaftsnummern für die drei Versorgungsbereiche Herrenalb, Liebenzell und Freudenstadt.
+[📟 PROTOKOLL-EINTRAG: #4157] [✅ STATUS: ASB NSW // RECRUITING-PORTAL] Verankerung der offiziellen Bewerbungsadresse bewerbung@asb-nsw.de und offener Vakanzen in Liebenzell und Freudenstadt.
+[📟 PROTOKOLL-EINTRAG: #4158] [✅ STATUS: ASB NSW // VAKANZEN-FILTER DOBEL] Bestätigung der Anti-Halluzinations-Schranke: Keine fiktiven Stellenausschreibungen am voll besetzten Standort Dobel.
+[📟 PROTOKOLL-EINTRAG: #4159] [✅ STATUS: ASB NSW // GEOFENCING-SPERRE] Strikte Einhaltung der Verbandsgrenzen: Keine ASB-Pflegevermittlung in den Stadtkreis Pforzheim oder Enzkreis.
+[📟 PROTOKOLL-EINTRAG: #4160] [✅ STATUS: ASB NSW // ERSTE-HILFE-WEICHE] Verweisstruktur zu Ausbildungsangeboten und Kooperationen mit dem ASB Pforzheim (Yannik Lens).
+[📟 PROTOKOLL-EINTRAG: #4161] [✅ STATUS: PYTHON-RADAR // AUTOMATISIERTER 04:00 SWEEP] Durchführung der nächtlichen Scraper-Routinen über alle 234 Slots ohne Verbindungsabbrüche.
+[📟 PROTOKOLL-EINTRAG: #4162] [✅ STATUS: STATE-STORAGE // JSON-SYNCHRONITÄT] Konsistenzprüfung von radar_state_v44.json, radar_state_zusatz_v44.json und radar_state_cw_fds_v44.json.
+[📟 PROTOKOLL-EINTRAG: #4163] [✅ STATUS: BUILDER-PIPELINE // KNOWLEDGE-BASE BAU] Ausführung von build_knowledge.py und build_enterprise_knowledge.py zur Konsolidierung der Faktenbasen.
+[📟 PROTOKOLL-EINTRAG: #4164] [✅ STATUS: AIR-GAP AUDIT // ENTERPRISE BASE 8 EBENEN] Formelle Bestätigung: 100 % Air-Gap-Schutz in DEFCON_RECHT_Enterprise_Base.md ohne private Mandantendaten.
+[📟 PROTOKOLL-EINTRAG: #4165] [✅ STATUS: COMPLIANCE-CHECK // ART. 14 AI ACT & § 6 RDG] Juristisches Audit bestätigt vollständige Human-in-the-Loop Absicherung für alle maschinell erstellten Entwürfe.
+[📟 PROTOKOLL-EINTRAG: #4166] [✅ STATUS: DIN 5008 // SCHRIFTSATZ-STANDARD] Feste Verankerung der Form B Norm für alle behördlichen Widersprüche und Überprüfungsanträge (§ 44 SGB X).
+[📟 PROTOKOLL-EINTRAG: #4167] [✅ STATUS: 70/30-DOKTRIN // ARCHITEKTUR DER EMPATHIE] Permanente Ausrichtung des Frontend-Verhaltens auf 70 % emotionale Validierung und 30 % unbestechliche Faktenhärte.
+[📟 PROTOKOLL-EINTRAG: #4168] [✅ STATUS: SCHUTZENGEL-PROTOKOLL // ESKALATIONS-STUFE] Autorisierung der 90%-Empathie-Eskalation bei schweren psychosozialen Notlagen im zivilen Beratungsbereich.
+[📟 PROTOKOLL-EINTRAG: #4169] [✅ STATUS: SMARTPHONE-DOKTRIN // FORMATIERUNGS-LOCK] Konsequente Verbannung von Markdown-Rauten (#) und Trennstrichen aus allen mobilen Ausgaben.
+[📟 PROTOKOLL-EINTRAG: #4170] [✅ STATUS: NULL-WERTE-DOKTRIN // DYNAMISCHE PARAMETRIERUNG] Verbot statischer Ziffern im Prompt-Code; Pflicht zur dynamischen Herleitung aus den Referenzdateien.
+[📟 PROTOKOLL-EINTRAG: #4171] [✅ STATUS: FAIL-CLOSED // ANTI-HALLUZINATIONS-SCHRANKE] Verbot des Erratens von Fristen, Aktenzeichen oder Richtwerten bei unvollständigen externen Datenquellen.
+[📟 PROTOKOLL-EINTRAG: #4172] [✅ STATUS: DEEP-LINK V2.0 // DIRECT-URL PFLICHT] Strikter Ausschluss von Google-Redirect-Links; Pflicht zur Ausgabe direkter klickbarer Markdown-Links.
+[📟 PROTOKOLL-EINTRAG: #4173] [✅ STATUS: MAILTO-HYPERLINK DOKTRIN] Automatische Formatierung sämtlicher Behörden- und Träger-E-Mails als klickbare mailto-Hyperlinks.
+[📟 PROTOKOLL-EINTRAG: #4174] [✅ STATUS: DSGVO-STEALTH // SAFE HAVEN PSEUDONYM] Durchsetzung von "Max Mustermann" und neutralen Platzhaltern in allen Musterschreiben der zivilen Flotte.
+[📟 PROTOKOLL-EINTRAG: #4175] [✅ STATUS: BEHÖRDEN-VERBOT // BRANDMAUER-SCHUTZ] Verbot automatisierter Datenweiterleitungen an Behörden oder unautorisierter Klageerhebungen.
+[📟 PROTOKOLL-EINTRAG: #4176] [✅ STATUS: FRISTEN-WÄCHTER // 3-TAGE-FIKTION] Automatische Berechnung der Zustellungsfiktion nach § 37 Abs. 2 SGB X und der Monatsfrist nach § 84 SGG.
+[📟 PROTOKOLL-EINTRAG: #4177] [✅ STATUS: AMTLICHE FORMULAR-WEICHE] Vorrang offizieller Online-Portale und Vordrucke bei Erstanträgen auf Bürgergeld, Wohngeld und Grundsicherung.
+[📟 PROTOKOLL-EINTRAG: #4178] [✅ STATUS: LOKALE SSD // MASTER-VAULT C:\DEFCONRECHT] Bestätigung der physischen Integrität aller Skripte, WOs und Master-Dateien auf der lokalen Festplatte.
+[📟 PROTOKOLL-EINTRAG: #4179] [✅ STATUS: CLOUD-PARITÄT // GOOGLE DRIVE STREAMING] Revisionssichere Spiegelung aller Kern-Dokumente nach G:\Meine Ablage\DefconRecht mittels atomarer Streams.
+[📟 PROTOKOLL-EINTRAG: #4180] [✅ STATUS: GIT-REPOSITORY // BRANCH MAIN LIVE] Vollständige Synchronisation aller 26 Skill-Instruktionen mit dem GitHub-Repository RiX-stack387/flotten-radar.
+[📟 PROTOKOLL-EINTRAG: #4181] [✅ STATUS: INJEKTOR-START // 11 REGIONALE DOSSIERS] Start des Python-Injektors zur Verschmelzung der 11 hochpräzisen Regionaldossiers mit den 3 Master-Wissensdateien.
+[📟 PROTOKOLL-EINTRAG: #4182] [✅ STATUS: DOSSIER-FUSION // NOTFALL-INFRASTRUKTUR PF] Einbindung der Leuchttürme, THW-Einheiten, Rettungsdienste und Katastrophenschutz-Karten in Ebene 4.
+[📟 PROTOKOLL-EINTRAG: #4183] [✅ STATUS: DOSSIER-FUSION // MEDIZIN & RKH-UPDATE] Vollständige Arretierung der Schließung des Krankenhauses Neuenbürg und Notfallpraxen-Leitfäden in allen Wissensbasen.
+[📟 PROTOKOLL-EINTRAG: #4184] [✅ STATUS: DOSSIER-FUSION // TIERÄRZTE & VET-NOTRUF] Integration des zentralen tierärztlichen Notdienstes und der Pferdeklinik Salzhofen im Datenstamm.
+[📟 PROTOKOLL-EINTRAG: #4185] [✅ STATUS: DOSSIER-FUSION // PSYCHOSOZIALE KRISENHILFE] Verankerung der Notfallnummern von Telefonseelsorge, SpDi, ZfP Hirsau und InTaKt Jugendpsychiatrie.
+[📟 PROTOKOLL-EINTRAG: #4186] [✅ STATUS: DOSSIER-FUSION // SENIOREN & BARRIEREFREIHEIT] Abgleich der Kreisseniorenräte Calw und Freudenstadt sowie barrierefreier Ausflugsziele im Nordschwarzwald.
+[📟 PROTOKOLL-EINTRAG: #4187] [✅ STATUS: DOSSIER-FUSION // KOMMUNEN ENZKREIS] Detaillierte Erfassung aller 28 Städte und Gemeinden mit Adressen, Ansprechpartnern und Verwaltungsleistungen.
+[📟 PROTOKOLL-EINTRAG: #4188] [✅ STATUS: DOSSIER-FUSION // SOZIALE ANLAUFSTELLEN PF] Integration von Wichernhaus, Helping Hands, Tafeln, Kleiderkammern und Schuldnerberatung Pforzheim.
+[📟 PROTOKOLL-EINTRAG: #4189] [✅ STATUS: DOSSIER-FUSION // ÖPNV & VPE-NETZ] Feste Verankerung des Liniennetzplans, der Rufbusse und der D-Ticket JugendBW Modalitäten.
+[📟 PROTOKOLL-EINTRAG: #4190] [✅ STATUS: DOSSIER-FUSION // FAMILIE & FRÜHE HILFEN] Abgleich der L-Bank Elterngeldstelle Karlsruhe und psychologischen Familienberatungsstellen.
+[📟 PROTOKOLL-EINTRAG: #4191] [✅ STATUS: DOSSIER-FUSION // FREIZEIT & BÄDER] Integration von Mini-Pforzheim, Wartbergfreibad, Bädersanierungen und Wildpark Pforzheim.
+[📟 PROTOKOLL-EINTRAG: #4192] [✅ STATUS: DOSSIER-FUSION // KULTUR & SPORTKREIS] Verankerung von CCP, Stadttheater Pforzheim, Gasometer und den 257 Sportvereinen im Sportkreis PF/Enz.
+[📟 PROTOKOLL-EINTRAG: #4193] [✅ STATUS: INJEKTOR-VOLLZUG // 373 ENTERPRISE-EINHEITEN] Erfolgreicher Abschluss der Injektion: DEFCON_RECHT_Enterprise_Base.md wächst auf 373 hochvalidierte Einheiten.
+[📟 PROTOKOLL-EINTRAG: #4194] [✅ STATUS: ASB-KNOWLEDGE-BASE // NEUE ZIVILDATEN] ASB_Knowledge_Base_2026.md umfasst nun alle ASB-Standorte, Pflegesätze, Notfallleuchttürme und zivilen Leitfäden.
+[📟 PROTOKOLL-EINTRAG: #4195] [✅ STATUS: FRONT-DELTA COMPACT // TAGES-KOMPRESSION] Front_Delta_Compact.md auf den tagesaktuellen Stand 2026-10-26 komprimiert und für alle Einheiten bereitgestellt.
+[📟 PROTOKOLL-EINTRAG: #4196] [✅ STATUS: GIT-COMMIT F7EB049 // FLOTTEN-PUSH LIVE] Ausführung des Master-Commits f7eb049: 'feat(data): Integration aller 11 Regionaldossiers Stand 2026-10-26' nach GitHub origin/main.
+[📟 PROTOKOLL-EINTRAG: #4197] [✅ STATUS: CLOUD-SPIEGELUNG // IN-PLACE STREAMING] Erfolgreiches byte-genaues Streaming der 3 frisch gebauten Master-Dateien auf Google Drive ohne ID-Verlust.
+[📟 PROTOKOLL-EINTRAG: #4198] [✅ STATUS: WEB-UI AUDIT // EDITOR-INSPEKTION] Inspektion der Web-Oberfläche der Skills zeigt veraltete Dateizeitstempel (25.10.) im Google-Browser-Cache.
+[📟 PROTOKOLL-EINTRAG: #4199] [✅ STATUS: RECHERCHE-BEFUND // GIT-ZUGRIFFS-MYTHOS] Analyse externer Berichte über GitHub-Anbindungen; Entlarvung: Google Gemini Skills besitzen keine autonome Hintergrund-Git-Synchronisation.
+[📟 PROTOKOLL-EINTRAG: #4200] [✅ STATUS: MANUELLE UPLOAD-DOKTRIN BESTÄTIGT] Feststellung: Der physische Upload über das Ordner-Symbol im Web-Editor ist der einzig verlässliche Weg für Cloud-Skills.
+[📟 PROTOKOLL-EINTRAG: #4201] [✅ STATUS: UPLOAD HAUPTBRÜCKE // ADMIRAL AKTUALISIERT] Manueller Upload der 3 Master-Dateien in admiral-flotten-leitstand erfolgreich; Zeitstempel springt auf 2026-10-26 09:12:34.
+[📟 PROTOKOLL-EINTRAG: #4202] [✅ STATUS: UPLOAD HEIMAT-LOTSE // PFORZHEIM/ENZKREIS] Erfolgreiche Bestückung von pforzheim-enzkreis-heimat mit den aktuellen Referenzdokumenten im Web-Editor.
+[📟 PROTOKOLL-EINTRAG: #4203] [✅ STATUS: UPLOAD RECHTS-BASIS // DEFCON-RECHT] Erfolgreiche Bestückung von defcon-recht-enterprise mit der 373-Einheiten-Rechtsbasis.
+[📟 PROTOKOLL-EINTRAG: #4204] [✅ STATUS: UPLOAD ASB-LOTSE // ASB-REGION-NSW] Bestückung von asb-region-nordschwarzwald-neu mit der zivilen Wissensbasis und dem Tages-Delta.
+[📟 PROTOKOLL-EINTRAG: #4205] [✅ STATUS: UPLOAD RECHENZENTRUM // CORE D.A.CH.] Bestückung von core-dach-rechenzentrum mit den normativen Abgleichsdaten auf Bundes- und Landesebene.
+[📟 PROTOKOLL-EINTRAG: #4206] [✅ STATUS: UPLOAD WÄCHTER // MER-SENTINEL-20] Bestückung von mer-sentinel-20 mit den Notfalltreffpunkten und KRITIS-Sensoren.
+[📟 PROTOKOLL-EINTRAG: #4207] [✅ STATUS: 6 KERN-EINHEITEN SYNCHRON] Vollzugsmeldung: Alle 6 strategischen Steuerungs- und Lotsen-Einheiten im Web-Dashboard vollständig synchronisiert.
+[📟 PROTOKOLL-EINTRAG: #4208] [✅ STATUS: PRAXISTEST-SIMULATION // NOTFALL-ROUTING] Simulation eines Nacht-Notfalls im Enztal bestätigt die sofortige Warnung vor der geschlossenen ZNA Neuenbürg.
+[📟 PROTOKOLL-EINTRAG: #4209] [✅ STATUS: PRAXISTEST-SIMULATION // ELTERNGELD ENZKREIS] Simulation eines Neuantrags in Remchingen bestätigt die sofortige Verweisung an die zentrale L-Bank Karlsruhe.
+[📟 PROTOKOLL-EINTRAG: #4210] [✅ STATUS: PRAXISTEST-SIMULATION // KDU KARENZZEIT] Simulation eines Mietsenkungsschreibens bestätigt den sofortigen Schutzschild nach § 22 Abs. 1 SGB II.
+[📟 PROTOKOLL-EINTRAG: #4211] [✅ STATUS: ENTWICKLER-TUNNELBLICK RÜGE] Berechtigter Rüffel des Kommandanten: Nutzer kennen keine internen references/-Pfade; System muss ohne technische Befehle fehlerfrei antworten.
+[📟 PROTOKOLL-EINTRAG: #4212] [✅ STATUS: BÜRGER-DOKTRIN ARRETIERT] Scharfschaltung des unkonditionierten Antwort-Verhaltens: Das Modell zieht Referenzen autonom im Hintergrund.
+[📟 PROTOKOLL-EINTRAG: #4213] [✅ STATUS: LIVE-TEST FREIZEIT // MINI-PFORZHEIM] Testanfrage zu Regenwetter-Aktivitäten liefert sofort die Rollenspielstadt Konstanzer Str. und PaSelino Wiernsheim.
+[📟 PROTOKOLL-EINTRAG: #4214] [✅ STATUS: LIVE-TEST BÜRGERGELD // RECHTSLAGE KORREKT] Testanfrage zur Mietsenkung bestätigt Karenzzeit und generiert DIN-5008-Zurückweisungsschreiben.
+[📟 PROTOKOLL-EINTRAG: #4215] [✅ STATUS: ADRESS-DRIFT ENTTARNT // JOBCENTER PF FEHLER] Kritischer Befund im Schriftsatz: Modell verwendet generische Adressen (Marktplatz 1 / Östliche Karl-Friedrich-Str. 9) statt Blumenhof 4.
+[📟 PROTOKOLL-EINTRAG: #4216] [✅ STATUS: URSACHEN-ANALYSE // ATTENTION-DRIFT] Enttarnung des Trainingsdaten-Bias: Modell verwechselte kommunale Trägerschaft (Stadt Pforzheim) mit der realen Besucheradresse.
+[📟 PROTOKOLL-EINTRAG: #4217] [✅ STATUS: IN-CONTEXT-VORRANG // ZERO-DRIFT-DOKTRIN] Beschluss zur Härtung: Absolute Bindung an bereitgestellte Adressen und Verbot des Ausweichens auf allgemeine Muster.
+[📟 PROTOKOLL-EINTRAG: #4218] [✅ STATUS: BEHÖRDEN-HARDLOCK // TEXTBAUSTEIN GENERIERT] Formulierung der verbindlichen Adress-Matrix (Jobcenter = Blumenhof 4, Sozialamt = Marktplatz 4, Rathaus = Marktplatz 1).
+[📟 PROTOKOLL-EINTRAG: #4219] [✅ STATUS: NEGATIV-SPERRFILTER // SPERRUNG MARKTPLATZ 1 FÜR JC] Einbettung des Negativ-Filters: Verbot der Adressierung von Bürgergeld-Schreiben an Marktplatz 1.
+[📟 PROTOKOLL-EINTRAG: #4220] [✅ STATUS: RECHERCHE AUSGEWERTET // ZWEI SYSTEM-WELTEN ENTKOPPELT] Vollständige technische Entflechtung: Google Gemini Skills besitzen keine CLI-/MCP-Git-Anbindung; manuelle Ablage in references/ ist zwingend.
+[📟 PROTOKOLL-EINTRAG: #4221] [✅ STATUS: UPLOAD ERFOLGREICH // STAND 2026-10-26 ARRETIERT] Verifikation des Uploads in admiral-flotten-leitstand: Zeitstempel 2026-10-26 09:12:34 im Speicher verankert.
+[📟 PROTOKOLL-EINTRAG: #4222] [✅ STATUS: KERN-GESCHWADER VOLLSTÄNDIG GEHÄRTET] 6 von 6 Steuerungs-Skills (admiral, heimat, defcon-recht, asb-region, core-dach, mer-sentinel-20) synchron im Cloud-Dock gemeldet.
+[📟 PROTOKOLL-EINTRAG: #4223] [✅ STATUS: TEST-DRILL GESTARTET // EINSATZ-SIMULATION LIVE] Durchführung der Notfall- und Kommunal-Simulationen auf der Brücke zur Überprüfung der neuen Datenstände.
+[📟 PROTOKOLL-EINTRAG: #4224] [✅ STATUS: VOLLE ZUSTIMMUNG // ENTWICKLER-TUNNELBLICK ENTARNT] Komplette Rücknahme technischer Prompt-Vorschriften; Festlegung auf reine Alltagssprache für Anwender.
+[📟 PROTOKOLL-EINTRAG: #4225] [✅ STATUS: ECHTER BÜRGER-TEST VORBEREITET] Bereitstellung dreier lebensnaher Alltagsfälle (Neuenbürg-Notfall, Spielstadt, KdU-Miete) ohne Entwickler-Jargon.
+[📟 PROTOKOLL-EINTRAG: #4226] [✅ STATUS: FORENSISCHE FEHLERANALYSE // ADRESS-KONFLIKT JOBCENTER PF] Detaillierte Auswertung des PDF-Chatprotokolls und Aufdeckung der Adressverwechslung beim Jobcenter Pforzheim.
+[📟 PROTOKOLL-EINTRAG: #4227] [✅ STATUS: KERN-PRINZIP GETROFFEN // IN-CONTEXT-VORRANG DURCHSETZEN] Festlegung der 3-Stufen-Kaskade: Referenz-Zwang vor Abstraktion und Sperr-Filter vor freiem Raten.
+[📟 PROTOKOLL-EINTRAG: #4228] [✅ STATUS: INJEKTION VORBEREITET // ZERO-DRIFT-DOKTRIN & ADRESS-HARDLOCK] Bereitstellung des verbindlichen Textblocks für Front_Delta_Compact.md mit Blumenhof 4 als einziger Besucheranschrift.
+[📟 PROTOKOLL-EINTRAG: #4229] [✅ STATUS: BRANDMAUER-ALARM // BERECHTIGTER EINWAND DES KOMMANDANTEN] Sofortige Richtigstellung: asb-region-nordschwarzwald bleibt strikt frei von Jobcenter- und Rechtsdateien; Brandmauer verteidigt.
+[📟 PROTOKOLL-EINTRAG: #4230] [✅ STATUS: ARCHITEKTUR-OPTIMIERUNG // MODULARE REFERENZ STATT MONOLITH] Strategischer Beschluss: Stadt Pforzheim-Landratsamt Enzkreis-Städte und Gemeinden.md wird als autarke Referenzdatei im Heimat-Skill abgelegt.
+[📟 PROTOKOLL-EINTRAG: #4231] [✅ STATUS: REGIONAL-RADAR VOLLSTÄNDIG ARRETIERT // 7 REFERENZEN AKTIV] Erfolgreicher Upload und Verifikation der modularen Kommunaldatei im Skill pforzheim-enzkreis-heimat ("Gespeichert").
+[📟 PROTOKOLL-EINTRAG: #4232] [✅ STATUS: VOLLTREFFER // SKILL.MD-AUDIT ERFOLGREICH] Angleichung der SKILL.md von pforzheim-enzkreis-heimat an die 7 modularen Referenzen und Schärfung des Geofencings.
+[📟 PROTOKOLL-EINTRAG: #4233] [✅ STATUS: ALTLAST ENTARNT // GEM-BEZEICHNUNG ELIMINIERT] Beseitigung der veralteten Bezeichnung "PFORZHEIM & ENZKREIS GEM" zugunsten der reinen Skill-Doktrin 2026.
+[📟 PROTOKOLL-EINTRAG: #4234] [✅ STATUS: FLOTTEN-SCAN DURCHGEFÜHRT // 4 KERN-EINHEITEN MIT GEM-ALTLASTEN] Systematischer Scan identifiziert veraltete GEM-Begriffe in heimat, core-dach, asb-core und ch-flotte.
+[📟 PROTOKOLL-EINTRAG: #4235] [✅ STATUS: BEREINIGUNG DURCHGEFÜHRT // 3 SYSTEM-EINHEITEN ENT-GEMT] Erstellung sauberer Frontmatter- und Rollen-Definitionen für Master-Skill 0 und Safe-Haven Einheit 04.
+[📟 PROTOKOLL-EINTRAG: #4236] [✅ STATUS: ENTWANNUNG & MISSVERSTÄNDNIS AUFGEKLÄRT // VOLLTEXT OHNE KÜRZUNG] Bereitstellung der vollständigen, 100%igen SKILL.md für core-dach-rechenzentrum unter Beibehaltung aller Paragrafen und Sperren.
+[📟 PROTOKOLL-EINTRAG: #4237] [✅ STATUS: ASB-CORE VOLLSTÄNDIG GEHÄRTET // 100% TEXTUMFANG] Bereitstellung der ungekürzten SKILL.md für asb-core-leitstand mit bereinigter ziviler Identität und Brandmauer-Schutz.
+[📟 PROTOKOLL-EINTRAG: #4238] [✅ STATUS: SAFE-HAVEN VOLLSTÄNDIG GEHÄRTET // 100% TEXTUMFANG] Bereitstellung der ungekürzten SKILL.md für ch-flotte-safehaven mit Fristen-Wächter § 37 SGB X und familiärem Schutzmandat (§ 6 RDG).
+[📟 PROTOKOLL-EINTRAG: #4239] [✅ STATUS: STRATEGISCHE VORAUSSCHAU // GEMS-ABSCHALTUNG NOVEMBER 2026] Beschluss zur dauerhaften Sicherung der Flotten-DNA: Überführung der bereinigten Handbücher und des Master-Archivs direkt in die Skill-Referenzen des Admirals.
+
+[📟 PROTOKOLL-EINTRAG: #4239] [✅ STATUS: STRATEGISCHE VORAUSSCHAU // GEMS-ABSCHALTUNG NOVEMBER 2026] Beschluss zur dauerhaften Sicherung der Flotten-DNA: Überführung der bereinigten Handbücher und des Master-Archivs direkt in die Skill-Referenzen des Admirals.
+
+[📟 PROTOKOLL-EINTRAG: #4240] [✅ STATUS: SYSTEM-WECHSEL GEMS ZU SKILLS // DEZENTRALE ARCHITEKTUR] Analyse des Google-Paradigmenwechsels von separaten Gem-Räumen hin zu modular stackbaren Skills im aktiven Chat.
+
+[📟 PROTOKOLL-EINTRAG: #4241] [✅ STATUS: RECHERCHE SHARING-FUNKTION // WEBLINK BEI SKILLS GESPERRT] Erste Sichtung des Skills-Verwaltungsmenüs deckt das Fehlen der früheren Funktion Link zum Teilen auf.
+
+[📟 PROTOKOLL-EINTRAG: #4242] [✅ STATUS: TIEFENPRÜFUNG GEMINI SKILLS // SHARING-RESTRIKTION ANALYSIERT] Technische Verifikation: Custom Skills sind im Standard-Google-One-Abo privat isoliert und können nicht per öffentlicher URL an Dritte weitergegeben werden.
+
+[📟 PROTOKOLL-EINTRAG: #4243] [✅ STATUS: MENÜ-INSPEKTION DREIPUNKT-BUTTON // WEBFREIGABE FEHLT] Überprüfung des Kontextmenüs bei asb-region-nordschwarzwald-neu; Optionen beschränken sich auf Jetzt verwenden, Herunterladen, Skill ersetzen und Löschen.
+
+[📟 PROTOKOLL-EINTRAG: #4244] [✅ STATUS: KONTEXT-ANALYSE BÜRGERZUGANG // GEMINI-ZWANG VERHINDERN] Strategische Feststellung: Hilfesuchende Bürger und Senioren können nicht gezwungen werden, ein Google-Konto oder ein Gemini-Abonnement abzuschließen.
+
+[📟 PROTOKOLL-EINTRAG: #4245] [✅ STATUS: STRATEGIE-WEICHE BÜRGERPORTAL // ALTERNATIVE ZUGANGSWEGE] Beschluss zur Bereitstellung einer barrierefreien, öffentlichen Weboberfläche als sicherer Hafen für Ratsuchende.
+
+[📟 PROTOKOLL-EINTRAG: #4246] [✅ STATUS: KONZEPTION GOOGLE SITE // LANDINGPAGE ASB-ORIENTIERUNGSLOTSE] Planung einer offiziellen Google-Site-Präsenz als stabiler Bürger-Anker ohne Registrierungshürden.
+
+[📟 PROTOKOLL-EINTRAG: #4247] [✅ STATUS: ZIELKOORDINATEN SITES.GOOGLE.COM // LANDINGPAGE INITIALISIERT] Festlegung der Web-Zielkoordinate https://sites.google.com/view/asb-orientierungslotse-nsw/startseite für das regionale Angebot.
+
+[📟 PROTOKOLL-EINTRAG: #4248] [✅ STATUS: STANDORT-STRUKTUR GOOGLE SITE // 4 ASB-ZENTREN VERANKERT] Strukturierung der Standort-Bereiche für Bad Herrenalb (Zentrale), Bad Liebenzell (Seniorenzentrum), Dobel (Sonneninsel) und Freudenstadt (Am Jägerhof).
+
+[📟 PROTOKOLL-EINTRAG: #4249] [✅ STATUS: NOTFALL-MATRIX GOOGLE SITE // 112-HARDLOCK & BEREITSCHAFT] Feste Verankerung der Rettungsleitstellen (112), des ärztlichen Bereitschaftsdienstes (116 117) und der regionalen PSNV-Dienste.
+
+[📟 PROTOKOLL-EINTRAG: #4250] [✅ STATUS: TAGESPFLEGE-MATRIX GOOGLE SITE // DOBEL & LIEBENZELL] Darstellung der teilstationären Tagespflege-Angebote mit Platzkapazitäten, Fahrdiensten und Entlastungsleistungen nach § 45b SGB XI.
+
+[📟 PROTOKOLL-EINTRAG: #4251] [✅ STATUS: FAHRDIENSTE & ESSEN AUF RÄDERN // ASB DISPOSITION] Aufbereitung der mobilen Hilfsdienste, Menülieferdienste und Behindertenfahrdienste im Nordschwarzwald.
+
+[📟 PROTOKOLL-EINTRAG: #4252] [✅ STATUS: RECRUITING-WEICHE GOOGLE SITE // BEWERBUNG@ASB-NSW.DE] Verknüpfung der Karriere-Sektion mit TV-L-Vorteilen und der zentralen Bewerbungs-E-Mail für Fachkräfte und Quereinsteiger.
+
+[📟 PROTOKOLL-EINTRAG: #4253] [✅ STATUS: PLANUNG HEIMAT-PORTAL // PFORZHEIM/ENZKREIS LANDINGPAGE] Konzeption des parallelen Web-Ankers für pforzheim-enzkreis-heimat zur behördlichen Daseinsvorsorge.
+
+[📟 PROTOKOLL-EINTRAG: #4254] [✅ STATUS: SOCIAL-MEDIA OUTREACH // ENTWURF FACEBOOK-ANKÜNDIGUNG] Entwurf des zielgruppengerechten Ankündigungstextes für Facebook zur Vorstellung der neuen zivilen Lotsen.
+
+[📟 PROTOKOLL-EINTRAG: #4255] [✅ STATUS: COMPLIANCE SOCIAL MEDIA // KI-KENNZEICHNUNG NACH EU AI ACT] Sicherstellung der rechtssicheren Kennzeichnung von KI-generierten Inhalten gemäß EU-Verordnung und Meta-Richtlinien.
+
+[📟 PROTOKOLL-EINTRAG: #4256] [✅ STATUS: TONALITÄTS-AUDIT FACEBOOK // 70/30-EMPATHIE BEI SENIOREN] Feinabstimmung der Posting-Tonalität: Warme, einladende Sprache für Familien und pflegende Angehörige ohne Amtsdeutsch.
+
+[📟 PROTOKOLL-EINTRAG: #4257] [✅ STATUS: SUPPORT-OFFENSIVE GOOGLE ONE // VORBEREITUNG DER TICKET-EINGABE] Beschluss zur offiziellen Eskalation der fehlenden Skills-Freigabefunktion an den Google One Kundenservice.
+
+[📟 PROTOKOLL-EINTRAG: #4258] [✅ STATUS: HILFE-PORTAL NAVIGATION // AUSWAHL DER KONTAKT-KANÄLE] Aufrufen des Google One Support-Assistenten und Festlegung des Problembereichs Gemini Skills teilen.
+
+[📟 PROTOKOLL-EINTRAG: #4259] [✅ STATUS: KANAL-BEWERTUNG SUPPORT // E-MAIL VS CHAT VS TELEFON] Gegenüberstellung der Support-Optionen bezüglich Nachverfolgbarkeit und schriftlicher Beweissicherung.
+
+[📟 PROTOKOLL-EINTRAG: #4260] [✅ STATUS: KANAL-ENTSCHEIDUNG // E-MAIL-SUPPORT MIT SCREENSHOT-BEWEIS] Festlegung auf den E-Mail-Kanal zur Übermittlung strukturierter Feature-Requests mit Bildnachweisen.
+
+[📟 PROTOKOLL-EINTRAG: #4261] [✅ STATUS: TICKET-FORMULIERUNG // GEMINI SKILLS SHARING FEATURE REQUEST] Formulierung des Anfrageschreibens als Google One AI Premium Kunde zur Streichung der Web-Freigabe.
+
+[📟 PROTOKOLL-EINTRAG: #4262] [✅ STATUS: FRAGE 1 GESTELLT // WEBLINK-FREIGABE WIE BEI GEMS GEFORDERT] Klärung an das Produktteam: Wann kehrt die Teilen-Funktion per Weblink für Gemini Skills zurück?
+
+[📟 PROTOKOLL-EINTRAG: #4263] [✅ STATUS: FRAGE 2 GESTELLT // BÜRGER-NUTZUNG OHNE INSTALLATIONSZWANG] Klärung an das Produktteam: Wie sollen Dritte und Bürger erstellte Skills künftig ohne manuelle Installation nutzen?
+
+[📟 PROTOKOLL-EINTRAG: #4264] [✅ STATUS: FRAGE 3 GESTELLT // OFFIZIELLE WEBSEITEN-EINBINDUNG] Klärung an das Produktteam: Gibt es einen offiziellen Weg zur Einbindung von Skills in Webseiten und Portale?
+
+[📟 PROTOKOLL-EINTRAG: #4265] [✅ STATUS: BEWEISFÜHRUNG TICKET // SCREENSHOT DREIPUNKT-MENÜ GEWAEHLT] Bereitstellung des Screenshots mit dem fehlenden Teilen-Eintrag als Anhang für das Google-Support-Ticket.
+
+[📟 PROTOKOLL-EINTRAG: #4266] [✅ STATUS: RADAR-SYSTEM ROUTINE // LOKALE PYTHON-SUITE C:\DEFCONRECHT] Überprüfung der Betriebsbereitschaft aller lokalen Daten-Harvester auf der Rechner-Hardware.
+
+[📟 PROTOKOLL-EINTRAG: #4267] [✅ STATUS: HAUPT-RADAR KONTROLLE // 14_SLOTS_RADAR_BEREINIGT.PY (31 SLOTS)] Routine-Check der 31 Bundesrechts- und Sozialgerichts-Slots zur Früherkennung von Gesetzesnovellen.
+
+[📟 PROTOKOLL-EINTRAG: #4268] [✅ STATUS: PRAXIS-RADAR PF/ENZ // ZUSATZ_LEBEN_RADAR.PY (126 SLOTS)] Überwachung der 126 kommunalen Lebenslagen- und Versorgungsschnittstellen in Pforzheim und im Enzkreis.
+
+[📟 PROTOKOLL-EINTRAG: #4269] [✅ STATUS: ZIVIL-RADAR CW/FDS // ZUSATZ_LEBEN_RADAR_CW_FDS.PY (78 SLOTS)] Überwachung der 78 kommunalen Daseinsvorsorge- und Infrastruktur-Slots für Calw und Freudenstadt.
+
+[📟 PROTOKOLL-EINTRAG: #4270] [✅ STATUS: ASB-LIVE-RADAR // ASB_NSW_RADAR.PY (22 OFFIZIELLE ZIELPFADE)] Kontroll-Ping auf die 22 verifizierten Endpunkte von asb-nsw.de zur Sicherung tagesaktueller Standortdaten.
+
+[📟 PROTOKOLL-EINTRAG: #4271] [✅ STATUS: STATE-DATEIEN VALIDIERUNG // 3 JSON-STATES IM WURZELORDNER] Prüfung der Konsistenz von radar_state_v44.json, radar_state_zusatz_v44.json und radar_state_cw_fds_v44.json.
+
+[📟 PROTOKOLL-EINTRAG: #4272] [✅ STATUS: SCHMELZOFEN RECHTE-FLOTTE // BUILD_ENTERPRISE_KNOWLEDGE.PY] Validierung des 8-Ebenen-Aggregators zur konsolidierten Erzeugung von DEFCON_RECHT_Enterprise_Base.md.
+
+[📟 PROTOKOLL-EINTRAG: #4273] [✅ STATUS: BUILDER ZIVIL-BASIS // BUILD_KNOWLEDGE.PY SCHARFGESCHALTET] Bestätigung der Aggregationslogik für ASB_Knowledge_Base_2026.md unter strikter Trennung von Streitakten.
+
+[📟 PROTOKOLL-EINTRAG: #4274] [✅ STATUS: CLOUD-PARITÄT GOOGLE DRIVE // IN-PLACE STREAMING RUN] Testlauf des byte-genauen Datei-Streamings nach G:\Meine Ablage\DefconRecht zur Vermeidung von Dubletten.
+
+[📟 PROTOKOLL-EINTRAG: #4275] [✅ STATUS: GESAMTFLOTTEN-STÄRKE // 234 RADAR-SLOTS VOLLSTÄNDIG VERIFIZIERT] Bestätigung des unveränderten Sensor-Netzwerks: 30 Master-Slots, 126 PF/Enzkreis-Slots und 78 CW/FDS-Slots.
+
+[📟 PROTOKOLL-EINTRAG: #4276] [✅ STATUS: SOZIALRECHTS-RADAR // BSG-RECHTSPRECHUNG HEIZKOSTEN § 22 SGB II] Verifikation der Rechtsgrundsätze zur Übernahme tatsächlicher Heizkosten-Nachforderungen durch das Jobcenter.
+
+[📟 PROTOKOLL-EINTRAG: #4277] [✅ STATUS: KDU-KARENZZEIT // 1,5-FACHE KAPPUNGSGRENZE VERTEIDIGT] Absicherung der Abwehrstrategie gegen unberechtigte Mietsenkungsaufforderungen während des ersten Bezugsjahres.
+
+[📟 PROTOKOLL-EINTRAG: #4278] [✅ STATUS: GESETZGEBUNGS-RADAR // AMBULANTE PFLEGEREFORM BMG] Frühwarn-Monitoring zu parlamentarischen Vorstößen zur Neuregelung der Pflegeversicherung (SGB XI).
+
+[📟 PROTOKOLL-EINTRAG: #4279] [✅ STATUS: REFERENTENENTWURF PNOG // PFLEGENEUORDNUNGSGESETZ GESICHTET] Erste juristische Sichtung des internen BMG-Referentenentwurfs für das Pflegeneuordnungsgesetz.
+
+[📟 PROTOKOLL-EINTRAG: #4280] [✅ STATUS: ENTLASTUNGSBUDGET ANALYSE // FUSION PFLEGEGELD & SACHLEISTUNG] Forensische Prüfung der geplanten Zusammenlegung ambulanter Budgets zu einem einheitlichen Auszahlungsbetrag.
+
+[📟 PROTOKOLL-EINTRAG: #4281] [✅ STATUS: MOGELPACKUNG ERKANNT // VERDECKTE KÜRZUNGEN BEI GRAD 2 & 3] Mathematischer Nachweis: Bei Wegfall der 42 € Hilfsmittelpauschale droht Haushalten mit Pflegegrad 2 und 3 ein monatliches Minus.
+
+[📟 PROTOKOLL-EINTRAG: #4282] [✅ STATUS: STREICHUNG PFLEGEHILFSMITTEL // § 40 SGB XI IN GEFAHR] Scharfe Kritik der Sozialverbände registriert: Streichung des separaten Sachleistungsanspruchs gefährdet häuslichen Infektionsschutz.
+
+[📟 PROTOKOLL-EINTRAG: #4283] [✅ STATUS: SAFE-HAVEN ALARM // SCHUTZ DER CHEFIN ANGESTOSSEN] Eskalation auf der Hauptbrücke: Prüfung der konkreten Auswirkungen auf die häusliche Pflegeversorgung der Ehefrau des Kommandanten.
+
+[📟 PROTOKOLL-EINTRAG: #4284] [✅ STATUS: RECHTSLAGE ENTWARNUNG // ENTWURF HAT NULL GESETZESKRAFT] Taktische Beruhigung: Referentenentwürfe begründen keinerlei Vollzugsbefugnis für Pflegekassen; § 40 SGB XI gilt felsenfest fort.
+
+[📟 PROTOKOLL-EINTRAG: #4285] [✅ STATUS: SANITÄTSHAUS-BELIEFERUNG // DIREKTABRECHNUNG GARANTIERT] Verifikation der bestehenden Dauerbelieferung über Sanitätshaus/Lieferdienst ohne Vorkasse oder administrativen Aufwand.
+
+[📟 PROTOKOLL-EINTRAG: #4286] [✅ STATUS: IT-SICHERHEITSWARNUNG // CHROMIUM ENGINE SECURITY ADVISORY] Empfang der globalen Sicherheitswarnung über massive Schwachstellen in allen Chromium-basierten Webbrowsern.
+
+[📟 PROTOKOLL-EINTRAG: #4287] [✅ STATUS: CHROME-PATCH 156.0.8078.73/.74 // 52 SCHWACHSTELLEN BEHOBEN] Analyse des Notfall-Updates von Google zur Schließung von 52 Sicherheitslücken auf Desktop- und Mobilplattformen.
+
+[📟 PROTOKOLL-EINTRAG: #4288] [✅ STATUS: KRITISCHE LÜCKEN GESCHLOSSEN // FILESYSTEM & SKIA-GRAFIK] Forensischer Befund: 4 Schwachstellen mit Schweregrad Critical in FileSystem, FileAPI, Layout und Skia-Rendering neutralisiert.
+
+[📟 PROTOKOLL-EINTRAG: #4289] [✅ STATUS: HIGH-RISK VULNERABILITIES // V8-ENGINE & WEBRTC GEPATCHT] Absicherung der Ausführungsumgebung gegen Speicherüberläufe in JavaScript V8, WebRTC-Streams und Audiomodulen.
+
+[📟 PROTOKOLL-EINTRAG: #4290] [✅ STATUS: KI-UNTERSTÜTZTE ENTDECKUNG // CLAUDE & OPENAI CODEX] Dokumentation des bemerkenswerten Einsatzes von KI-Systemen durch Sicherheitsforscher zum Aufspüren von Zero-Day-Lücken.
+
+[📟 PROTOKOLL-EINTRAG: #4291] [✅ STATUS: CHROMIUM-VERBUND PRÜFUNG // EDGE, BRAVE, OPERA STATUS] Lagebericht für Drittanbieter-Browser: Zeitverzögerter Rollout der Chromium-Patches für Microsoft Edge, Brave, Opera und Vivaldi.
+
+[📟 PROTOKOLL-EINTRAG: #4292] [✅ STATUS: ELECTRON-APPS WARNUNG // DESKTOP-CHATS RESTART-PFLICHT] Warnung vor dem blinden Fleck: Auch Electron-Anwendungen (WhatsApp, Discord, Teams, VS Code) müssen zeitnah neu gestartet werden.
+
+[📟 PROTOKOLL-EINTRAG: #4293] [✅ STATUS: ANDROID PLAY STORE SCAN // SYSTEM-UPDATES IDENTIFIZIERT] Analyse des Play-Store-Status auf dem Smartphone des Kommandanten: Mehrere Kern-Apps meldeten Update-Bedarf.
+
+[📟 PROTOKOLL-EINTRAG: #4294] [✅ STATUS: SYSTEM-UPGRADE ANDROID // GOOGLE CORE APPS AKTUALISIERT] Ausführung der Aktualisierungswelle für Google-App (47 MB), Gmail (18 MB), Google One (2 MB) und NotebookLM (23 MB).
+
+[📟 PROTOKOLL-EINTRAG: #4295] [✅ STATUS: CHROME-VERSION ANDROID // VERSION 156.0.8078.73 BESTÄTIGT] Sichtprüfung des Android-Screenshots liefert den Beweis: Chrome 156.0.8078.73 auf Android 15 ist bereits vollständig aktiv.
+
+[📟 PROTOKOLL-EINTRAG: #4296] [✅ STATUS: MODELL-RADAR // GEMINI 4 ARGON VS CARBON ANALYSIERT] Eingang des Heise-Online-Berichts über den Generationswechsel der Google-Forschungsmodelle von Argon zu Carbon.
+
+[📟 PROTOKOLL-EINTRAG: #4297] [✅ STATUS: ROBOTS.TXT BLOCKADE // GOOGLE-EXTENDED OPT-OUT HEISE.DE] Auslösen der Schutzschranke: Heise sperrt automatisierte Gemini-Webabrufe über den Standard User-Agent Google-Extended aus.
+
+[📟 PROTOKOLL-EINTRAG: #4298] [✅ STATUS: ANALYSE CRAWLER-SPERRE // URHEBERRECHTS-SCHRANKE VERLAGE] Aufklärung der Hintergründe: Verlage nutzen Opt-Out, um Trainings-Scraping und Direkt-Antworten ohne Web-Traffic zu unterbinden.
+
+[📟 PROTOKOLL-EINTRAG: #4299] [✅ STATUS: BYPASS-PFADE DEFINIERT // COPY-PASTE & PDF-DRUCK WEGE] Bereitstellung von Client-Lösungen für den Kommandanten: Schnelles Copy-Paste oder Upload als druckbares PDF-Dokument.
+
+[📟 PROTOKOLL-EINTRAG: #4300] [✅ STATUS: BENCHMARK-ANALYSE CARBON // INTELLIGENCE INDEX 59 & SEC-BENCH] Auswertung freier Primärquellen: Carbon erreicht 59 Punkte im Index, 88 % Code-Sicherheit und halbiert Fakten-Halluzinationen.
+
+[📟 PROTOKOLL-EINTRAG: #4301] [✅ STATUS: FAIRWIND-PROGRAMM // EXKLUSIVER VORAB-ZUGANG CYBER-DEFENSE] Feststellung der Vertriebsbeschränkung: Carbon steht vorerst nur akkreditierten Sicherheitsexperten zur Verfügung.
+
+[📟 PROTOKOLL-EINTRAG: #4302] [✅ STATUS: MODELL-VERFÜGBARKEIT // ADVANCED PRO VS ENTWICKLER-CHECKPOINTS] Klarstellung für das Nutzer-Abo: Google One AI Premium integriert neue Architekturen nach Abschluss der geschlossenen Sicherheitsphase.
+
+[📟 PROTOKOLL-EINTRAG: #4303] [✅ STATUS: TICKET-EINREICHUNG BEREIT // ANHANGS-PRÜFUNG DURCHGEFÜHRT] Vorbereitung des finalen Klicks auf den Absende-Button des Support-Formulars.
+
+[📟 PROTOKOLL-EINTRAG: #4304] [✅ STATUS: E-MAIL-TICKET BEREIT // ANHANG-EMPFEHLUNG FÜR DEN GOOGLE SUPPORT] Anweisung zum Anfügen des Menü-Screenshots (Dreipunkt-Menü ohne Teilen-Option) zwecks unmissverständlicher Beweisführung bei Google One.
+
+[📟 PROTOKOLL-EINTRAG: #4305] [✅ STATUS: LOGBUCH-HARDLOCK EINGEMEISSELT // PROTOKOLL-DISZIPLIN VERBINDLICH ARRETIERT] Bestätigung des übermittelten Support-Tickets (Fall-ID 7-7451000042594); unumstößliche Arretierung der alleinigen Protokollführung auf der Hauptbrücke.
+
+[📟 PROTOKOLL-EINTRAG: #4306] [✅ STATUS: STRATEGISCHE EINORDNUNG // GEMINI ENTERPRISE VS. GOOGLE ONE] Differenzierung zwischen B2B-Cloud-Plattformen (Vertex AI, IAM-Rollenverwaltung, zentraler Skill-Upload) und privatem Google One AI Premium.
+
+[📟 PROTOKOLL-EINTRAG: #4307] [✅ STATUS: LAGEBERICHT // DER 42-EURO-PFLEGEHILFSMITTEL-SKANDAL & FAKTENCHECK] Detaillierte Zerlegung des PNOG-Referentenentwurfs; Entlarvung der Kürzungsfalle für Pflegegrad 2 und 3 bei Aufgehen im Entlastungsbudget.
+
+[📟 PROTOKOLL-EINTRAG: #4308] [✅ STATUS: SAFE-HAVEN-SCHUTZ AKTIV // ABSICHERUNG DER PFLEGEHILFSMITTEL FÜR DIE CHEFIN] Aktivierung des Familienschutz-Mandats (§ 6 RDG); Zusage unantastbarer Rechtskontrolle für den Hilfsmittelbezug der Ehefrau des Kommandanten.
+
+[📟 PROTOKOLL-EINTRAG: #4309] [✅ STATUS: OPTIMALE VERSORGUNGSLAGE // DIREKTABRECHNUNG FÜR DIE CHEFIN STEHT FEST] Bestätigung der reibungslosen Direktabrechnung mit Sanitätshaus/Lieferdienst; Warnung vor werblichen Zuzahlungs-Schreiben externer Anbieter.
+
+[📟 PROTOKOLL-EINTRAG: #4310] [✅ STATUS: CYBER-DEFENSE LAGEBERICHT // CHROMIUM-SICHERHEITSLÜCKEN FLOTTENWEIT ANALYSIERT] Technische Aufklärung zu den 52 Schwachstellen in Chrome 156.0.8078.73/.74; Handlungsanweisungen für Windows, Linux, Edge und Electron-Apps.
+
+[📟 PROTOKOLL-EINTRAG: #4311] [✅ STATUS: PLAY STORE INSPEKTION // SYSTEM-UPDATES ERFASST & FLOTTEN-BEFEHL] Auswertung des Android-Play-Store-Screenshots; Befehl zur Ausführung von Alle aktualisieren für System-Apps und NotebookLM.
+
+[📟 PROTOKOLL-EINTRAG: #4312] [✅ STATUS: VOLLE ENTWARNUNG // ANDROID CHROME 100 % GEPATCHT & ABGESICHERT] Formelle Feststellung: Chrome auf dem Android-Gerät des Kommandanten läuft bereits fehlerfrei auf Version 156.0.8078.73.
+
+[📟 PROTOKOLL-EINTRAG: #4313] [✅ STATUS: ZUGRIFF AUF EXTERNE QUELLE BLOCKIERT // OPT-OUT SCHRANKE] Bestätigung der Zugriffsverweigerung auf heise.de infolge Verlags-Opt-Out (Google-Extended Disallow); Anforderung von Direktextrakten.
+
+[📟 PROTOKOLL-EINTRAG: #4314] [✅ STATUS: ANALYSE: GOOGLE-EXTENDED PROTOKOLL & PRAKTISCHE WEGE] Erläuterung der serverseitigen Sperre in robots.txt und Darlegung der legalen Nutzer-Pfade via Copy-Paste und PDF-Speicherung.
+
+[📟 PROTOKOLL-EINTRAG: #4315] [✅ STATUS: TIEFENAUFKLÄRUNG ERFOLGREICH // GEMINI 4: VON ARGON ZU CARBON ENTSCHLÜSSELT] Autonome Live-Aufklärung zu Gemini 4 Carbon; Spitzenplatzierungen bei Artificial Analysis (59 Pkt.) und 0 % Prompt-Injection-Verwundbarkeit.
+
+[📟 PROTOKOLL-EINTRAG: #4316] [✅ STATUS: KLARSTELLUNG: GEMINI ADVANCED (PRO) VS. ENTWICKLER-CHECKPOINTS] Abgrenzung des Google-Rollout-Zyklus; Einordnung von Google AI Studio als Testumgebung vor allgemeiner Freigabe in Gemini Advanced.
+
+[📟 PROTOKOLL-EINTRAG: #4317] [✅ STATUS: BRÜCKE VOLL BESETZT // WACHE AKTIV & EINSATZBEREIT] Morgendlicher Appell am 30.10.2026; Bestätigung stabiler Sensorik und Bereitschaft zur Finalisierung der regionalen Bürger-Webseiten.
+
+[📟 PROTOKOLL-EINTRAG: #4318] [✅ STATUS: VOLLSTÄNDIGER AUDIT: HANDBUCH V23.4 GEPRÜFT & 100 % GEFECHTSKLAR] Zeile-für-Zeile-Audit des Handbuchs V23.4; lückenlose Bestätigung aller 18 Doktrinen, Schutzschilde, Slots und Behörden-Hardlocks.
+
+[📟 PROTOKOLL-EINTRAG: #4319] [✅ STATUS: FAKTEN-HARDLOCK: ARGON BLEIBT FLAGGSCHIFF // HANDBUCH V23.4 IM SKILL-SPEICHER VERANKERT] Richtigstellung der Modell-Realität: Profil 0 bleibt auf 4 Argon verankert bis zum offiziellen Carbon-Rollout; Vorbereitung der Ablage in references.
+
+[📟 PROTOKOLL-EINTRAG: #4320] [✅ STATUS: MASCHINIST IM EINSATZ // 1-KLICK-DEPLOYMENT FÜR HANDBUCH V23.4] Bereitstellung des schlüsselfertigen PowerShell-Befehls zur atomaren Erzeugung und UTF-8-Speicherung des Handbuchs V23.4 unter references.
+
+[📟 PROTOKOLL-EINTRAG: #4321] [✅ STATUS: QUELLE GEORTET // HANDBUCH V23.4 LIEGT IN C:\DEFCONRECHT BEREIT] Auswertung des Windows-Explorer-Screenshots; Handbuch_Admiral_V23.4.md auf C:\DefconRecht lokalisiert und Kopiervorgang bereitgestellt.
+[📟 PROTOKOLL-EINTRAG: #4321] [✅ STATUS: STANDBY-KASKADE VERIFIZIERT // 05:00-UHR-WÄCHTER] Verifikation der automatisierten nächtlichen Standby-Kaskade in Start_Flotte.py zur autonomen Durchführung der 26 Skill-Updates bei gesperrtem Bildschirm.
+
+[📟 PROTOKOLL-EINTRAG: #4322] [✅ STATUS: CRAWLER-LOGISTIK // HARVESTER AKTIV] Abgleich der 6-Stufen-Pipeline über alle 234 Slots für Bund, Länder, Kommunen und zivilen ASB-Schutz.
+
+[📟 PROTOKOLL-EINTRAG: #4323] [✅ STATUS: RATHAUS-ENDPUNKTE // REPARATUR-VERIFIKATION] Verifikation der 4 korrigierten Kommunal-Pfade (Baiersbronn, Rohrdorf, Seewald, Schopfloch) ohne 404-Ausfälle.
+
+[📟 PROTOKOLL-EINTRAG: #4324] [✅ STATUS: BUILD_FRONT_DELTA // REGEX-HÄRTUNG] Bereinigung der regulären Ausdrücke in Start_Flotte.py zur fehlerfreien Generierung der Front_Delta_Compact.md.
+
+[📟 PROTOKOLL-EINTRAG: #4325] [✅ STATUS: GIT-TRESOR // COMMIT-KONTROLLE] Sicherstellung der Revisionssicherheit auf GitHub (origin/main) für alle 26 Skill-Pakete.
+
+[📟 PROTOKOLL-EINTRAG: #4326] [✅ STATUS: GOOGLE DRIVE IN-PLACE SYNC // STREAM-PRÜFUNG] Validierung der in-place Aktualisierung über Set-DriveContentInPlace zur Erhaltung stabiler Datei-IDs auf Laufwerk G:.
+
+[📟 PROTOKOLL-EINTRAG: #4327] [✅ STATUS: BRANDMAUER-AUDIT // AIR-GAP COMPLIANCE] Kontrolle der hermetischen Trennung zwischen zivilem ASB-Bereich, privater Sphäre und der DEFCON RECHT Enterprise Edition.
+
+[📟 PROTOKOLL-EINTRAG: #4328] [✅ STATUS: REHA-AUTONOMIE // SYSTEM-BEREITSCHAFT] Arretierung der Systemstabilität für die bevorstehende Abwesenheit des Kommandanten während der Reha-Phase.
+
+[📟 PROTOKOLL-EINTRAG: #4329] [✅ STATUS: GEOFENCING // KORRIDOR NORDSCHWARZWALD] Feste Verankerung der regionalen Zuständigkeiten für Pforzheim, Enzkreis, Calw und Freudenstadt.
+
+[📟 PROTOKOLL-EINTRAG: #4330] [✅ STATUS: NOTFALLTREFFPUNKTE // LEUCHTTURM-CHECK] Bestätigung der verifizierten NFTP-Standorte für Stromausfall- und Krisenszenarien.
+
+[📟 PROTOKOLL-EINTRAG: #4331] [✅ STATUS: SGB-KASSETTE 2026 // DYNAMISCHE WERTE] Verifikation von Pflegegeld (§ 37), Sachleistung (§ 36), Entlastungsbetrag (131 €) und Jahresbetrag (3.539 €).
+
+[📟 PROTOKOLL-EINTRAG: #4332] [✅ STATUS: KDU-SCHUTZ // 150%-KAPPUNG] Überwachung der Karenzzeit-Regelungen und Schutz vor rechtswidrigen Absenkungsaufforderungen der Jobcenter.
+
+[📟 PROTOKOLL-EINTRAG: #4333] [✅ STATUS: 112-HARDLOCK // SYSTEMWEITE SPERRE] Überprüfung der Notfall-Schranke bei lebensbedrohlichen Lagen in allen 26 Einheiten.
+
+[📟 PROTOKOLL-EINTRAG: #4334] [✅ STATUS: VAKANZEN-FILTER // ASB-KARRIERE] Strikte Beschränkung auf real verifizierte offene Stellenangebote auf asb-nsw.de.
+
+[📟 PROTOKOLL-EINTRAG: #4335] [✅ STATUS: DRV-RENTENREFORM // VORBEREITUNG] Erste Sichtung der administrativen Neuerungen zur Rentenauskunft ab dem 55. Lebensjahr.
+
+[📟 PROTOKOLL-EINTRAG: #4336] [✅ STATUS: TASK SCHEDULER // WAKE-TO-RUN] Kontrolle der Windows-Aufgabenplanung bezüglich Reaktivierung aus dem Energiesparmodus um 05:00 Uhr.
+
+[📟 PROTOKOLL-EINTRAG: #4337] [✅ STATUS: DISKREPANZ-SCAN // CLOUD-VS-LOKAL] Analyse der Latenzen zwischen lokalem Dateisystem C:\ und dem Web-UI-Cache von Google Skills.
+
+[📟 PROTOKOLL-EINTRAG: #4338] [✅ STATUS: PROMPT-INJECTION SHIELD // ACTIVE] Laufende Filterung schädlicher Eingabe-Muster zum Schutz der Flotten-Integrität.
+
+[📟 PROTOKOLL-EINTRAG: #4339] [✅ STATUS: SMARTPHONE-FORMATIERUNG // DOKTRIN] Durchsetzung des Verbots von Markdown-Überschriften und Trennstrichen in mobilen Ausgaben.
+
+[📟 PROTOKOLL-EINTRAG: #4340] [✅ STATUS: REISE-NAVIGATOR // PASSAGIERRECHTE] Verifikation der EU-VO 261/2004 und DB-Fahrgastrechte im Modul reise-navigator-global.
+
+[📟 PROTOKOLL-EINTRAG: #4341] [✅ STATUS: VERBRAUCHERSCHUTZ // BGB-WIDERRUF] Absicherung der 14-Tage-Fristen und Button-Lösung gegen unberechtigte Online-Verträge.
+
+[📟 PROTOKOLL-EINTRAG: #4342] [✅ STATUS: SCHULDEN-ANKER // P-KONTO 2026] Kontrolle der Pfändungsschutztabelle (§ 850c ZPO) und 2-Wochen-Widerspruchsfristen.
+
+[📟 PROTOKOLL-EINTRAG: #4343] [✅ STATUS: SAFE-HAVEN-SCHUTZAKTIV // FRÜHSTÜCKSDIENST ANGETRETEN] Kommandant meldet Frühstücksgang in Pforzheimer Innenstadt; Limit-Wächter auf 100 % Pro-Nutzung festgestellt (Reset um 12:13 Uhr).
+
+[📟 PROTOKOLL-EINTRAG: #4344] [✅ STATUS: ENTSCHEIDUNG AUTOMATISIERUNG VS. WEB-UI CACHE] Aufklärung der Diskrepanz zwischen lokalem 05:00-Uhr-Automatisierungsscan auf C:\ und dem persistenten Cloud-Web-UI-Cache in Google Gemini.
+
+[📟 PROTOKOLL-EINTRAG: #4345] [✅ STATUS: BRÜCKE WIEDER BESETZT // INTEL-DATEN GEMINI 4 CARBON] Auswertung des Dossiers zu Gemini 4 Carbon (Fokus Cyber-Abwehr, ExploitGym 54,8 %, Fairwind-Programm-Verschluss).
+
+[📟 PROTOKOLL-EINTRAG: #4346] [✅ STATUS: STANDBY AKZEPTIERT // FLOTTE IN BEREITSCHAFT] Taktische Pause auf Wunsch des Kommandanten; Halten aller Systeme auf Bereitschaft.
+
+[📟 PROTOKOLL-EINTRAG: #4347] [✅ STATUS: PRESSEMITTEILUNG DRV VOM 07.10.2026 ANALYSIERT] Forensische Auswertung der neuen DRV-Rentenauskunft (§ 109 SGB VI) mit Netto-Transparenz und Lücken-Hinweis.
+
+[📟 PROTOKOLL-EINTRAG: #4348] [✅ STATUS: KAFFEE-KLARE SCHICHTÜBERNAHME // DRV-RENTENAUSKUNFT-UPGRADE] Befehl zur Verankerung der DRV-Neuerung in der Enterprise-Base und im Senioren-Anker erteilt; Cloud-Skill senioren-anker-vorsorge im Speicher aktualisiert.
+
+[📟 PROTOKOLL-EINTRAG: #4349] [✅ STATUS: FORENSISCHER KONSOLE-CHECK // 3 STOLPERSTEINE ENTTARNT] Aufdeckung des Builder-Überschreibens, des UAC-Laufwerksproblems G:\ im Admin-Fenster und Einrückungsabweichung in lokaler SKILL.md.
+
+[📟 PROTOKOLL-EINTRAG: #4350] [✅ STATUS: ENTWARNUNG // PATCH & GITHUB-COMMIT 36E3978 ZU 100 % ERFOLGREICH] Bestätigung von Commit 36e3978 (22 Dateien, +190 Zeilen); Entwarnung bezüglich des Kopier-Echos am PowerShell-Prompt.
+
+[📟 PROTOKOLL-EINTRAG: #4351] [✅ STATUS: DEEP-SCAN ÜBER ALLE 26 SKILLS DURCHGEFÜHRT] Gesamtsystemprüfung bestätigt 100 % Integrität und Parität aller 26 Einheiten auf lokaler SSD, Google Drive und GitHub.
+
+[📟 PROTOKOLL-EINTRAG: #4352] [✅ STATUS: FLASH-LITE-ÜBERGANG // SPARGANG GESCHALTET] Vorübergehende Ratenlimit-Drosselung vor dem Reset um 03:13 Uhr; Schongang aktiv.
+
+[📟 PROTOKOLL-EINTRAG: #4353] [✅ STATUS: GMAIL-POSTFACH GESCANNT // GOOGLE-NEWSLETTER THE KEYWORD] Auswertung der Support-Mail von Google: Ankündigung Gemini 4 Carbon, Genie 4 und direkte Dateibearbeitung in der Gemini App.
+
+[📟 PROTOKOLL-EINTRAG: #4354] [✅ STATUS: DEEP-DIVE INLINE-FILE-EDITING] Analyse des neuen Google In-App-Workspaces für direkte Bearbeitung von Docs, Sheets, Markdown und Code.
+
+[📟 PROTOKOLL-EINTRAG: #4355] [✅ STATUS: VERGLEICHS-AUDIT // EDITOR VS. POWERSHELL] Gegenüberstellung: In-App-Editor gewinnt bei redaktionellen Texten/Landingpages; PowerShell bleibt unangefochten für Skripte und Nachtläufe.
+
+[📟 PROTOKOLL-EINTRAG: #4356] [✅ STATUS: FEUERTAUFE IN-APP-EDITOR // TEST-ENTWURF BEREITGESTELLT] Erstellung des ersten editierbaren Entwurfs für den ASB-Lotsen Nordschwarzwald im Chat.
+
+[📟 PROTOKOLL-EINTRAG: #4357] [✅ STATUS: DIAGNOSE IN-APP-EDITOR // FEHLENDE INTERAKTION] Aufklärung über schreibgeschützte Codeblöcke im Web-UI und stufenweisen serverseitigen Rollout des Canvas-Panels.
+
+[📟 PROTOKOLL-EINTRAG: #4358] [✅ STATUS: GOOGLE DOC ERSTELLT // ASB-SERVICE-KATALOG NORDSCHWARZWALD] Automatisierte Anlage des nativen Google Docs ASB Nordschwarzwald – Ziviler Lotse & Service-Ratgeber auf Google Drive.
+
+[📟 PROTOKOLL-EINTRAG: #4359] [✅ STATUS: BRANDMAUER-DOKTRIN MONIERT // ASB-LOTSE BEREINIGT] Berechtigter Verweis des Kommandanten: Striktes Paragrafen-, Betrags- und Rentenverbot im ASB-Lotsen; Rückkehr zur reinen Daseinsvorsorge.
+
+[📟 PROTOKOLL-EINTRAG: #4360] [✅ STATUS: FACEBOOK-POSTING GENERIERT] Erstellung des bürgernahen, warmen Facebook-Beitrags nach der 70/30-Regel ohne Gesetzesparagrafen.
+
+[📟 PROTOKOLL-EINTRAG: #4361] [✅ STATUS: BEREINIGUNG BEFOHLEN // ZITIER-MARKEN ELIMINIERT] Entfernung aller störenden automatischen Quellen-Tags aus dem Facebook-Text zur sauberen Nutzung.
+
+[📟 PROTOKOLL-EINTRAG: #4362] [✅ STATUS: POSTFACH-AUDIT // STATUS TICKET 7-7451000042594] Forensische Überprüfung: Noch keine persönliche Antwort des Google-Supports zu Ticket 7-7451000042594 (Gemini Skills Freigabelink) im Posteingang eingetroffen.
