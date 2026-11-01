@@ -253,7 +253,7 @@ async def fetch_provenance_source(
       ),
   )
   page = await context.new_page()
-    await page.add_init_script("delete Object.getPrototypeOf(navigator).webdriver;")
+  await page.add_init_script("delete Object.getPrototypeOf(navigator).webdriver;")
   try:
     response = await page.goto(url, wait_until="domcontentloaded", timeout=15000)
     if not response:

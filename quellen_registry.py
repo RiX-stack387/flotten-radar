@@ -57,4 +57,14 @@ QUELLEN_REGISTRY = {
     "enzkreis_vet": "https://www.enzkreis.de/Landratsamt/%C3%84mter-Dezernate/Dezernat-3-Landwirtschaft-Forsten-%C3%B6ffentliche-Ordnung/Verbraucherschutz-und-Veterin%C3%A4ramt/",
     "calw_vet": "https://www.kreis-calw.de/Service-Verwaltung/Verwaltung/Dezernate-und-Abteilungen/Dezernat-2-Umwelt-Bauen-Naturschutz-Land-und-Forstwirtschaft/Verbraucherschutz-und-Veterin%C3%A4rdienst/",
     "notfallseelsorge_bw": "https://www.nfs-bw.de/landkreise/calw/"
+    
+    # Bundesgesundheitsministerium (BMG) - Pflege, Krankenversicherung & Praevention
+    # Buergertelefone: Pflege 030/3406066-02 | KV 030/3406066-01 | Praevention 030/3406066-03
+    "bmg_portal": "https://www.bundesgesundheitsministerium.de/",
+    "bmg_gesetze": "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen",
+    "bmg_publikationen": "https://www.bundesgesundheitsministerium.de/service/publikationen",
+    "bmg_pflege": "https://www.bundesgesundheitsministerium.de/#",
+    "bmg_krankenversicherung": "https://www.bundesgesundheitsministerium.de/#",
+    "bmg_praevention": "https://www.bundesgesundheitsministerium.de/#",
+    "bmg_kontakt": "https://www.bundesgesundheitsministerium.de/service/kontakt"
 }

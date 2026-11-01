@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import os
 import re
@@ -107,24 +107,38 @@ def build_front_delta():
     delta_file = os.path.join(BASE_DIR, "Front_Delta_Compact.md")
     lines = [f"RADAR-DELTA COMPACT ({today_str})"]
     log_dir = os.path.join(BASE_DIR, "MasterLogs")
-    pattern = re.compile(r"===\s*([^:]+:\s*[^=\r\n]+)\s*===.*?\[GE(?:Ä|Ä)NDERT/NEU\]\s*Norm/AZ:\s*([^|\r\n]+)\|\s*Wert:\s*([^(\r\n]+)", re.DOTALL)
-    for lf in glob.glob(os.path.join(log_dir, f"*{today_str}*.txt")):
+    sec_pattern = re.compile(r"^===\s*([^=\r\n]+?)\s*===\s*$", re.MULTILINE)
+    claim_pattern = re.compile(r"\[GE(?:Ä|A|Ã„)NDERT/NEU\]\s*Norm/AZ:\s*([^|\r\n]+)\|\s*Wert:\s*([^\r\n(]+)")
+
+    for lf in sorted(glob.glob(os.path.join(log_dir, f"*{today_str}*.txt"))):
         try:
             with open(lf, "r", encoding="utf-8", errors="replace") as f:
                 raw = f.read()
-            if "AKUTER HANDLUNGSBEDARF" in raw:
-                for m in pattern.finditer(raw):
-                    lines.append(f"- [{m.group(1).strip()}] {m.group(2).strip()}: {m.group(3).strip()}")
+            active_part = raw.split("[🟢 SICHERER PERIMETER")[0]
+            matches = list(sec_pattern.finditer(active_part))
+            for i, m in enumerate(matches):
+                sec_title = m.group(1).strip()
+                start_pos = m.end()
+                end_pos = matches[i + 1].start() if i + 1 < len(matches) else len(active_part)
+                block = active_part[start_pos:end_pos]
+                for cm in claim_pattern.finditer(block):
+                    norm = cm.group(1).strip()
+                    val = cm.group(2).strip()
+                    lines.append(f"- [{sec_title}] {norm}: {val}")
         except Exception as e:
             log(f" -> Fehler beim Lesen von {lf}: {e}")
     if len(lines) == 1:
         lines.append("- Keine kritischen Rechtsaenderungen erfasst. Perimeter stabil.")
     with open(delta_file, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
-    log(" -> Front_Delta_Compact.md aktualisiert.")
+    log(f" -> Front_Delta_Compact.md sauber aktualisiert ({len(lines)-1} Eintraege).")
 
 def sync_in_place(src, dst):
     if not os.path.exists(src):
+        return
+    drive_root = os.path.splitdrive(dst)[0]
+    if drive_root and not os.path.exists(drive_root + '\\'):
+        log(f' -> [INFO] {drive_root} im aktuellen Kontext nicht gemountet (ueberspringe Stream fuer {os.path.basename(dst)}).')
         return
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     with open(src, "rb") as fsrc:
@@ -149,18 +163,17 @@ def main():
         ensure_google_drive()
         rotate_logs(os.path.join(BASE_DIR, "MasterLogs"), 2)
 
-        run_script("1/6", "14_Slots_Radar_bereinigt.py")
-        run_script("2/6", "Zusatz_Leben_Radar.py")
-        run_script("3/6", "Zusatz_Leben_Radar_CW_FDS.py")
-        run_script("4/6", "asb_nsw_radar.py")
+        run_script("1/5", "14_Slots_Radar_bereinigt.py")
+        run_script("2/5", "Zusatz_Leben_Radar.py")
+        run_script("3/5", "Zusatz_Leben_Radar_CW_FDS.py")
+        run_script("4/5", "asb_nsw_radar.py")
 
         live_asb = os.path.join(BASE_DIR, "ASB", "ASB_Knowledge_Base_LIVE.md")
         legacy_asb = os.path.join(BASE_DIR, "ASB_Knowledge_Base_2026.md")
         if os.path.exists(live_asb):
             shutil.copy2(live_asb, legacy_asb)
 
-        run_script("5/6", "build_knowledge.py")
-        run_script("6/6", "build_enterprise_knowledge.py")
+        run_script("5/5", "build_enterprise_knowledge.py")
 
         build_front_delta()
 

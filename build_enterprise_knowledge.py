@@ -256,3 +256,19 @@ def build():
 
 if __name__ == "__main__":
     build()
+
+# Z90_DRV_2026_AUTO_INJECT_V2
+def _inject_z90_drv_2026():
+    _p = r'C:\DefconRecht\DEFCON_RECHT_Enterprise_Base.md'
+    if not os.path.exists(_p):
+        return
+    with open(_p, 'r', encoding='utf-8') as _f:
+        _t = _f.read()
+    if '[Z90_DRV_2026]' not in _t:
+        _b = '\n## [Z90_DRV_2026] Sektor Z90_DRV_2026\n| Norm / AZ | Wert / Parameter | Kontext / Detail |\n| :--- | :--- | :--- |\n| **DRV-Pressemitteilung 07.10.2026 / § 109 SGB VI** | Ab dem 55. Lebensjahr alle 3 Jahre (sowie jederzeit auf Antrag) | Automatischer Versand der grundlegend überarbeiteten neuen Rentenauskunft mit tabellarischer Übersicht zum regulären und vorgezogenen Rentenbeginn sowie zur Erfüllung der Mindestversicherungszeiten. |\n| **Netto-Renten-Transparenz (KVdR / PVdR)** | Ausweisung der Kranken- und Pflegeversicherungsbeiträge | Direkte Berechnung der auf die Rente anfallenden Beiträge zur Kranken- und Pflegeversicherung zur realistischen Einschätzung des monatlichen Netto-Auszahlungsbetrags. |\n| **Kontenklärungs-Wächter (§ 149 SGB VI)** | Markierung ungeklärter Lücken im Versicherungsverlauf | Konkreter Hinweis auf ungeklärte Zeiträume im Versicherungskonto mit Aufruf zur Kontenklärung für eine korrekte und schnelle Rentenberechnung. |\n| **Kostenfreiheit & Verbraucherschutz** | 0,00 Euro (kostenlos über DRV-Online-Services / 0800 1000 4800) | Kostenlose Anforderung unabhängig vom Lebensalter über das DRV-Kundenportal, elektronische Zustellung und Digitale Rentenübersicht; keine kostenpflichtigen Dienstleister erforderlich. |\n'
+        _a = '## [Z91] Sektor Z91'
+        _t = _t.replace(_a, _b.lstrip('\n') + '\n' + _a, 1) if _a in _t else (_t + _b)
+        with open(_p, 'w', encoding='utf-8') as _f:
+            _f.write(_t)
+        print('    [AUTO-HOOK] Sektor [Z90_DRV_2026] fest in DEFCON_RECHT_Enterprise_Base.md verankert!')
+_inject_z90_drv_2026()

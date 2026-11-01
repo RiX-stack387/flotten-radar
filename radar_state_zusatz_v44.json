@@ -1701,39 +1701,46 @@
         "last_updated": "2026-10-18T03:10:06.314260+00:00"
     },
     "praxis_slot_Z90": {
-        "source_hash": "6522d5d8a058e4b51cb6d27aaa907a7cea3b579850a055ef4031049931c33bc2",
-        "legal_hash": "ed88c7ea458c0d521fdba1f13a371482521967d5dc030da81e6875b11d6388fd",
+        "source_hash": "36a018fd7f0571f8dcaf82669946b52a1fe6a47faf6c4bcff1ea2e2dd7675942",
+        "legal_hash": "a9a8100be1c4aee84a52497eae2ba068f37d2f3c1bfeb0b47814e95916b94cdb",
         "claims": [
             {
-                "norm": "SGB VI § 149",
-                "extracted_value": "Mit Ihrer ersten Renteninformation ab dem 27. Geburtstag wird Ihnen ein Versicherungsverlauf zugesandt. Dazu müssen Sie lediglich fünf Jahre Beiträge gezahlt haben.",
+                "norm": "§ 149 SGB VI",
+                "extracted_value": "Verbindliche Feststellung aller Daten, die länger als sechs Kalenderjahre zurückliegen, durch den Feststellungsbescheid nach einem Kontenklärungsverfahren.",
                 "value_type": "TEXT",
-                "context": "Automatische Zusendung des Versicherungsverlaufs ab dem 27. Geburtstag nach fünf Beitragsjahren.",
-                "evidence_location": "Mit Ihrer ersten Renteninformation ab dem 27. Geburtstag wird Ihnen ein Versicherungsverlauf zugesandt. Dazu müssen Sie lediglich fünf Jahre Beiträge gezahlt haben."
+                "context": "Rechtswirkung des Feststellungsbescheids im Rahmen des Kontenklärungsverfahrens bei der Rentenversicherung.",
+                "evidence_location": "Durch den Feststellungsbescheid werden alle Daten, die länger als sechs Kalenderjahre zurückliegen, verbindlich festgestellt."
             },
             {
-                "norm": "SGB VI § 149",
-                "extracted_value": "Wenn Sie 43 Jahre alt sind, sendet Ihnen Ihr Rentenversicherungsträger automatisch einen weiteren Versicherungsverlauf zur Überprüfung der gespeicherten Zeiten zu. Anschließend erhalten Sie alle sechs Jahre einen Versicherungsverlauf.",
+                "norm": "§ 7 VKVV",
+                "extracted_value": "Erste Zusendung des Versicherungsverlaufs ab dem 27. Geburtstag bei mindestens fünf Beitragsjahren, erneute automatische Übersendung mit Vollendung des 43. Lebensjahres sowie anschließend im Turnus von sechs Jahren.",
                 "value_type": "TEXT",
-                "context": "Regelmäßige Zusendung des Versicherungsverlaufs im Alter von 43 Jahren und danach alle sechs Jahre.",
-                "evidence_location": "Wenn Sie 43 Jahre alt sind, sendet Ihnen Ihr Rentenversicherungsträger automatisch einen weiteren Versicherungsverlauf zur Überprüfung der gespeicherten Zeiten zu. Anschließend erhalten Sie alle sechs Jahre einen Versicherungsverlauf."
+                "context": "Voraussetzungen und Fristen für die automatische Versendung von Versicherungsverläufen an Versicherte.",
+                "evidence_location": "Mit Ihrer ersten Renteninformation ab dem 27. Geburtstag wird Ihnen ein Versicherungsverlauf zugesandt. Dazu müssen lediglich fünf Beitragsjahre vorhanden sein. Wenn Sie das 43. Lebensjahr vollendet haben, sendet Ihnen Ihr Rentenversicherungsträger automatisch einen weiteren Versicherungsverlauf zur Überprüfung der gespeicherten Zeiten zu. Anschließend erhalten Sie alle sechs Jahre einen Versicherungsverlauf."
             },
             {
-                "norm": "VKVV § 7",
-                "extracted_value": "Der Zugangscode ist nur einmalig für diese Rückantwort gültig und verfällt nach spätestens 6 Monaten.",
+                "norm": "Verfahrensvorschrift Kontenklärung / Online-Rückantwort",
+                "extracted_value": "Einmalige Gültigkeit des Zugangscodes zur Online-Rückmeldung und Verfall nach spätestens 6 Monaten.",
                 "value_type": "TEXT",
-                "context": "Gültigkeitsdauer des Zugangscodes für die Online-Beantwortung des Anschreibens.",
+                "context": "Frist und Gültigkeitsdauer des Zugangscodes bei Aufforderung zur Überprüfung des Rentenversicherungskontos.",
                 "evidence_location": "Der Zugangscode ist nur einmalig für diese Rückantwort gültig und verfällt nach spätestens 6 Monaten."
             },
             {
-                "norm": "Stadtkreis Pforzheim / Kommunalverwaltung",
-                "extracted_value": "Eine Bestätigung für Rentenzwecke ist bei Ihrer Stadt- oder Gemeindeverwaltung kostenlos.",
-                "value_type": "TEXT",
-                "context": "Gebührenfreiheit für Bestätigungen für Rentenzwecke bei der Stadt- oder Gemeindeverwaltung.",
+                "norm": "Kommunale Gebührenregelung / Rentenzwecke",
+                "extracted_value": "0,00 Euro",
+                "value_type": "EURO",
+                "context": "Kostenfreiheit für behördliche Bestätigungen zu Rentenzwecken bei der Stadt- oder Gemeindeverwaltung.",
                 "evidence_location": "Eine Bestätigung für Rentenzwecke ist bei Ihrer Stadt- oder Gemeindeverwaltung kostenlos."
+            },
+            {
+                "norm": "Rechtsbehelfsbelehrung SGB VI",
+                "extracted_value": "Widerspruch",
+                "value_type": "TEXT",
+                "context": "Statthafter Rechtsbehelf gegen Verwaltungsakte im Kontenklärungs- und Rentenauskunftsverfahren.",
+                "evidence_location": "Rechtsbehelf Widerspruch"
             }
         ],
-        "last_updated": "2026-10-18T03:10:15.464582+00:00"
+        "last_updated": "2026-10-28T06:40:50.754891+00:00"
     },
     "praxis_slot_Z91": {
         "source_hash": "aeb15ec18fee410589a4799c8b44ccd297d3ce10dd99a4f7451cd8afc7c9f988",
@@ -1750,7 +1757,7 @@
         "last_updated": "2026-10-18T03:10:23.453145+00:00"
     },
     "praxis_slot_Z92": {
-        "source_hash": "914e66ba00e1bbb731cb872d87cad8c3cc4d116e24f07500a4b1dae9a8b48c27",
+        "source_hash": "d60f13cee5dcd01d634d666d8597a9cdae90ff87cd9dda62ba7c29b04ee5b00d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1771,7 +1778,7 @@
         "last_updated": "2026-10-18T03:10:31.480827+00:00"
     },
     "praxis_slot_ENZ_ST_01": {
-        "source_hash": "e93e05d26a500f76baa7523b29eaeff3fc3e2fa5f676756cc47fa28fb6d5e450",
+        "source_hash": "17293307e6ae78ec7d6148f05886938bd2e26a52fb5bcff4bd198c215f3be8d6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1789,7 +1796,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_ST_03": {
-        "source_hash": "645754f15820402ef07a6906be6b438812d3f952b0c93bee29101fd81307069d",
+        "source_hash": "d5fe99fd356280c295f06ecbe0f39e6ac7d27fa0a606b56f7acbc7cd980711b3",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -1803,7 +1810,7 @@
         "last_updated": "2026-10-18T03:10:58.293260+00:00"
     },
     "praxis_slot_ENZ_ST_04": {
-        "source_hash": "95a3d767db63bf6d77e4578be6ba77924437ec7dd49b786279f5690bec2f9297",
+        "source_hash": "9d4f48d6fc59af52c40fc11c0670591ce76ba270be5370af16b4dcdc071761f1",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1817,15 +1824,15 @@
         "last_updated": "2026-10-18T03:11:06.335858+00:00"
     },
     "praxis_slot_ENZ_ST_05": {
-        "source_hash": "cb66d64f28ddcb88f0d4934fca65017292d17b468c014f77745bd9fa962ceb60",
+        "source_hash": "8cf239c798becc70a20b166efb2c0cb673de0d082ab178b7217c35d0bfacab01",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_01": {
-        "source_hash": "aca382789b52e5f0021bfe02bd4f567e5237881425f6af80e35a14dcae770897",
+        "source_hash": "945198602a6bf8897231572309717e00a59541fa828f58d6272c83af0081afc4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_02": {
-        "source_hash": "eb05ba645ecb91fafd2a18db5de75e3b8f7c1bb2ffd2e22e136f02bc25e74baa",
+        "source_hash": "63273fb65f390eb8c836b0fb864017d4f8316d5029023455beb760cf8d5785b3",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1839,11 +1846,11 @@
         "last_updated": "2026-10-18T03:11:32.952177+00:00"
     },
     "praxis_slot_ENZ_GM_03": {
-        "source_hash": "27250aa10875035805e4eb66a1773536753e2f779cba2219d1023e4d9376958c",
+        "source_hash": "4313d2e567173acfd9f4d2f67b64d1f615a5812ed7ab836709f412effe1e709a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_04": {
-        "source_hash": "eb03f8158cec7f0314807fc455d98bcbc5ee6fae545acd80dd185445c6c79a40",
+        "source_hash": "910b239b3994c4fbf9bbfc0fe8b3b00a248dda379339d8f57e2cbd5ed889fbb1",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1857,7 +1864,7 @@
         "last_updated": "2026-10-18T03:11:48.490372+00:00"
     },
     "praxis_slot_ENZ_GM_05": {
-        "source_hash": "c2adf1546e566b9ad7c84c193aecebf705d2d8e2915d9eb704796af4b5224005",
+        "source_hash": "7c130d45f7e2f40b57ebc5777bbe535c1975c4338356ea5190a5c9e6705dd6ab",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1871,11 +1878,11 @@
         "last_updated": "2026-10-18T03:11:56.691756+00:00"
     },
     "praxis_slot_ENZ_GM_06": {
-        "source_hash": "d77fb3e7699944c376ad98130df3306bd675bfcfac49c151baac8162815e6843",
+        "source_hash": "44a1925420623b1ee73432ece605b41e964342080785648fa9dd0a072c7a8c45",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_07": {
-        "source_hash": "3db08c852b7ade37e01906c2d14fbf5baa019b3d906ebd12de8d0da93c08c214",
+        "source_hash": "1ac791c4865e420aa38fa77a6e944f649d40d4af2c6c174efdd2b3dda424d452",
         "legal_hash": "2a1fc0a44f1b66aaba3bef65a23f62e4485451ff3c7cd750248a437ebea7cdbc",
         "claims": [
             {
@@ -1903,19 +1910,19 @@
         "last_updated": "2026-10-22T00:26:44.996641+00:00"
     },
     "praxis_slot_ENZ_GM_08": {
-        "source_hash": "4fadb4ca67d013ae89dd1e660f877597179c56503b108d5d11e0c3f711336e3b",
+        "source_hash": "675ff2a1d842a0f623301ca89d51ab315ba6dbec27272f495bdbf379ab572301",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_09": {
-        "source_hash": "73afd34a373d4336b38b8e9bb4c6be38bfc1ac41aa4e6df57a1ecaa2d452d560",
+        "source_hash": "68cbb152cb1b0a411859ba75e7683d039466a2870173bc54031858f6686ba621",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_10": {
-        "source_hash": "21c9e12e55d5891170c90dc85695f78c866b4537209aedd04d95c462d67dcbf7",
+        "source_hash": "e3971f3067da90eb5fbb7e329a98ca0c9e01641967a57d32c9b94373c92772d1",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_11": {
-        "source_hash": "b01b5e50cd1dce129b8c97d4de0ee5b5b97bd18ba9ee4ab1b47afa6210297bd8",
+        "source_hash": "d646c70a080df9a90f910f5cb3eebe6d209ddcc06e9865249dbab65acb0a18e5",
         "legal_hash": "133355bb1eedb2e2bfc53539e51d10e82bd0ed8e6ea3d45c341241b499bc022a",
         "claims": [
             {
@@ -1936,7 +1943,7 @@
         "last_updated": "2026-10-22T00:27:20.077418+00:00"
     },
     "praxis_slot_ENZ_GM_12": {
-        "source_hash": "43ead94ba30ab8fbc38317fc6b507de2bf4facd2669791acef884197735f39db",
+        "source_hash": "a98a92e9b49296e4227dbde33b24b9ec91ee219b00838bd1ce0b4c44f5243794",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1950,7 +1957,7 @@
         "last_updated": "2026-10-18T03:12:57.658715+00:00"
     },
     "praxis_slot_ENZ_GM_13": {
-        "source_hash": "663b890eca0ccbe5e31797bb79a810205266df73cc5f16b6b993e341295b83d2",
+        "source_hash": "ffe24bb89184aabecfb9547cda5ee6766a0f5af7ba3d5945ff9570c88126bdef",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1964,11 +1971,35 @@
         "last_updated": "2026-10-18T03:13:06.163032+00:00"
     },
     "praxis_slot_ENZ_GM_14": {
-        "source_hash": "5202c18add59256d3f0ca04cc7f8ad2d01ea1dafaf71de8a2613e412ccfaf56f",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "source_hash": "d07e883f890581e8f55f9ab3dc99fab3c80eda0de55020c9e602203160f0dad9",
+        "legal_hash": "6ced100935b0b1e855c33431f03a97a5810270b350680d1e7ed9162734e1be9d",
+        "claims": [
+            {
+                "norm": "§ 3 Abs. 2 BauGB",
+                "extracted_value": "Öffentliche Bekanntmachung - Beteiligung der Öffentlichkeit gemäß § 3 Abs. 2 BauGB des ...",
+                "value_type": "TEXT",
+                "context": "Beteiligung der Öffentlichkeit an der Bauleitplanung 'Waldhorn' in der Gemeinde Niefern-Öschelbronn.",
+                "evidence_location": "Öffentliche Bekanntmachung - Beteiligung der Öffentlichkeit gemäß § 3 Abs. 2 BauGB des ..."
+            },
+            {
+                "norm": "Art. 6 Abs. 1 s. 1 lit. a DSGVO",
+                "extracted_value": "Einwilligung als Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei Webanalysediensten und externen Medieninhalten.",
+                "value_type": "TEXT",
+                "context": "Verarbeitung von Nutzerdaten im Rahmen der Dienste Google Analytics und YouTube.",
+                "evidence_location": "Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt. Art. 6 Abs. 1 s. 1 lit. a DSGVO"
+            },
+            {
+                "norm": "Art. 6 Abs. 1 s. 1 lit. e DSGVO",
+                "extracted_value": "Wahrnehmung einer Aufgabe im öffentlichen Interesse als Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei Webseiten-Login und Medienbannern.",
+                "value_type": "TEXT",
+                "context": "Bereitstellung essenzieller technischer Funktionalitäten und Benutzeranmeldungen auf der Webpräsenz der Gemeinde Niefern-Öschelbronn.",
+                "evidence_location": "Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt. Art. 6 Abs. 1 s. 1 lit. e DSGVO"
+            }
+        ],
+        "last_updated": "2026-10-31T03:23:58.863277+00:00"
     },
     "praxis_slot_ENZ_GM_15": {
-        "source_hash": "29c97cea69e0d0a609b17be892b4319f7f54f2e41acc7709768f5756731aae4c",
+        "source_hash": "fbd9ec8d3207c3e49b6ef8aba8d29aee7d9eae5113acb3436b1dd344cfca4a18",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1982,15 +2013,39 @@
         "last_updated": "2026-10-18T03:13:23.162252+00:00"
     },
     "praxis_slot_ENZ_GM_16": {
-        "source_hash": "04907811d60b9b671e79f53defd0a56bd378d63fcf4bd3956d1445f65fcccbd3",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "source_hash": "8c8bb4f177c028c1ab290bfada61420715758745bfb4ee6c44360c354d0e3184",
+        "legal_hash": "2dbe1a2f9d343b69d4e5bbb0050e09301c3c6af2a24e5dddd95ce502b09869a1",
+        "claims": [
+            {
+                "norm": "§ 7 KiTaG",
+                "extracted_value": "Teil- oder Vollzeit (39 Std. Woche)",
+                "value_type": "TEXT",
+                "context": "Stellenausschreibung der Gemeinde Ötisheim für Erzieher oder pädagogische Fachkräfte im Bereich der Kinderbetreuung.",
+                "evidence_location": "Initiativbewerbung - Erzieher oder pädagogische Fachkraft nach § 7 KiTaG (m/w/d) Die Gemeinde Ötisheim sucht Erzieher oder pädagogische Fachkräfte. Über Ihre Initiativbewerbung würden wir uns sehr freuen. Teil- oder Vollzeit (39 Std. Woche)"
+            },
+            {
+                "norm": "Art. 6 Abs. 1 f) DSGVO",
+                "extracted_value": "Löschung bzw. Anonymisierung nach spätestens 7 Tagen",
+                "value_type": "TEXT",
+                "context": "Frist zur Löschung und Speicherdauer von IP-Adressen bei Nutzung des Netze BW GmbH NETZMonitors auf der Gemeindewebsite.",
+                "evidence_location": "Im Falle der Speicherung einer IP-Adresse erfolgt eine Löschung bzw. Anonymisierung nach spätestens 7 Tagen."
+            },
+            {
+                "norm": "Art. 6 Abs. 1 S. 1 lit. f DSGVO",
+                "extracted_value": "Sicherstellung der Stabilität, Funktionalität und Sicherheit unserer Website",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlage und berechtigtes Interesse für die Erhebung technisch notwendiger Server-Log-Daten bei der Webseitennutzung.",
+                "evidence_location": "Rechtsgrundlage für die Datenerhebung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO. Zweck und berechtigtes Interesse sind die Sicherstellung der Stabilität, Funktionalität und Sicherheit unserer Website."
+            }
+        ],
+        "last_updated": "2026-10-30T05:42:04.013512+00:00"
     },
     "praxis_slot_ENZ_GM_17": {
-        "source_hash": "33a66a4865356f8d88588e90903feaeb0680cd290a2156910daa33e9c45efbe9",
+        "source_hash": "1be4dcfd12bd1f50d7c533762b7a5265cb9c918743b9f284abf02c28716d91c5",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_18": {
-        "source_hash": "fbae0d09ae180d81c9cf3ec645970a240d82ac05420ea63ed5bb7bb0f9a70137",
+        "source_hash": "cdeb9a1600d37268258c35e877000ce13ea34e3a2cec7145e13c0991f55581d7",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2004,7 +2059,7 @@
         "last_updated": "2026-10-18T03:13:48.433816+00:00"
     },
     "praxis_slot_ENZ_GM_19": {
-        "source_hash": "02f13eb4b73f1aa60a5c65bf17c4570dc1c9cddda920ce66fccde7fbd2a4d6b8",
+        "source_hash": "102e6122491b3408ff1f370fc7fd0c1fe26b0f03960cef218c28de8bacc7dba5",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2018,7 +2073,7 @@
         "last_updated": "2026-10-18T03:13:57.539802+00:00"
     },
     "praxis_slot_ENZ_GM_20": {
-        "source_hash": "b01917888b7a122d5814b3bff90bef281dd7595893315d85ad908d3a3e829853",
+        "source_hash": "571d8198fee0c9d0b9d6403c365945daab8d766a2c99055d5b42c1a02454e1f1",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -2032,11 +2087,11 @@
         "last_updated": "2026-10-18T03:14:08.134738+00:00"
     },
     "praxis_slot_ENZ_GM_21": {
-        "source_hash": "7e6c322f324b5a538207f46c0c16d5816436dfbeb816e53e7d0cb840db18053a",
+        "source_hash": "f729870d5dadea4bbefc38b9caec93672902763be07b0751799a9c76f80d9598",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_22": {
-        "source_hash": "a14438d0e5105fe4157380ed7b35d4260f05f20f99326c8b5e991cff65dc0936",
+        "source_hash": "ab9e07c4bfbfea7baddbf55383ed2bcddfdbe63f729e23cc9b36f4c52f25a1cc",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2050,7 +2105,7 @@
         "last_updated": "2026-10-18T03:14:25.465552+00:00"
     },
     "praxis_slot_ENZ_GM_23": {
-        "source_hash": "4f25c221a66087510bf8729b0a0fefe8585b2e745aa9a45419b410c366ac9d75",
+        "source_hash": "5a5c770eeb4978c38cdcecc54f9ee59c3d8d5cf00f17332193f7352ed7eba2c2",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2064,7 +2119,7 @@
         "last_updated": "2026-10-18T03:14:34.277395+00:00"
     },
     "praxis_slot_PF_ENZ_K1_STROM": {
-        "source_hash": "b2da984276aba64431ab2ed95a33667fc2f7c7a81ab443e0d93ae51bc69169f5",
+        "source_hash": "4f1213e739dcfbceb62f9cdba4dde6226cfc4af68b6c372357754d4af6c5e5e0",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K2_APO": {
@@ -2090,11 +2145,11 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_K5_WOHNBAU": {
-        "source_hash": "f420a6659dbc6045494e54a50a801a5794ba4a1dd1e9f56fd21ad3fae0f5cad1",
+        "source_hash": "aedc751903c8c11d303b27b86814f297d6fd4c2c507192fcb8ddd136fc387ea9",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K6_DWD": {
-        "source_hash": "8b623bce3b13f7b83e3140a415f9f6d08ee3beec185fcd2bb1856867189ba4f5",
+        "source_hash": "f14c88b4f9debbe0ee875df1e5cc1d3c2d7d398e6db19333e6df76b7df83eadc",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     }
 }

@@ -609,7 +609,7 @@
         "last_updated": "2026-10-18T02:49:48.467768+00:00"
     },
     "slot_13": {
-        "source_hash": "77880d1bd38a62468df4e3a4ecb60988f65f2b6076617f6046f81cc59d25d615",
+        "source_hash": "ad6536330c1b1bba450e13195ffd4c1785e71ec5bb0f574639e5019dcf9145c1",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -651,7 +651,7 @@
         "last_updated": "2026-10-18T02:50:02.298451+00:00"
     },
     "slot_14": {
-        "source_hash": "77880d1bd38a62468df4e3a4ecb60988f65f2b6076617f6046f81cc59d25d615",
+        "source_hash": "ad6536330c1b1bba450e13195ffd4c1785e71ec5bb0f574639e5019dcf9145c1",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -805,46 +805,25 @@
         "last_updated": "2026-10-18T02:50:49.992888+00:00"
     },
     "slot_19": {
-        "source_hash": "67c34b103c124fd10bae40de0ef7076cc7606868204e249002305a14a82430eb",
-        "legal_hash": "bb84d839e2154a7a244c88a2c975c90fecfd92dff654e543de8cdb54ee063aad",
+        "source_hash": "4fe1f89051439c72d80a33de7b905c5e1bd56f704d0fb3140713304d89fe3f6a",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
-                "norm": "§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG",
-                "extracted_value": "1,50 Euro",
+                "norm": "§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz (JVKostG)",
+                "extracted_value": "1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen",
                 "value_type": "EURO",
-                "context": "Gebühr für die Überlassung elektronisch gespeicherter Entscheidungsdateien je Entscheidung (maximal 5,00 Euro pro Arbeitsgang)",
+                "context": "Kosten für die Überlassung elektronisch gespeicherter Entscheidungsdateien des Bundesarbeitsgerichts",
                 "evidence_location": "Für die Überlassung elektronisch gespeicherter Dateien werden 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen erhoben (§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG])."
             },
             {
-                "norm": "JVKostG",
-                "extracted_value": "0,50 Euro",
+                "norm": "Justizverwaltungskostengesetz (JVKostG)",
+                "extracted_value": "0,50 Euro pro Seite für die ersten 50 Seiten, für jede weitere Seite 0,15 Euro",
                 "value_type": "EURO",
-                "context": "Schreibauslagen pro Seite für die Versendung der ersten 50 Seiten von Entscheidungsabdrucken",
+                "context": "Schreibauslagen für die Versendung von Entscheidungsabdrucken",
                 "evidence_location": "Für die Versendung der Entscheidungsabdrucke werden Schreibauslagen in Höhe von 0,50 Euro pro Seite für die ersten 50 Seiten erhoben, für jede weitere Seite werden 0,15 Euro erhoben."
-            },
-            {
-                "norm": "8 AZB 6/26",
-                "extracted_value": "Fünfmonatsfrist zur vollständigen Absetzung von Urteilen",
-                "value_type": "URTEIL_TEXT",
-                "context": "Entscheidungsgegenstand des Beschlusses des Bundesarbeitsgerichts vom 18.09.2026",
-                "evidence_location": "8 AZB 6/26 18.09.2026 Fünfmonatsfrist zur vollständigen Absetzung von Urteilen 29.09.2026"
-            },
-            {
-                "norm": "2 AZR 130/25",
-                "extracted_value": "Kündigung durch Mitglieder des Aufsichtsrats einer GmbH - Zurückweisung nach § 174 BGB",
-                "value_type": "URTEIL_TEXT",
-                "context": "Entscheidungsgegenstand des Urteils des Bundesarbeitsgerichts vom 07.05.2026",
-                "evidence_location": "2 AZR 130/25 07.05.2026 Kündigung durch Mitglieder des Aufsichtsrats einer GmbH - Zurückweisung nach § 174 BGB 03.09.2026"
-            },
-            {
-                "norm": "§ 13 BGB",
-                "extracted_value": "zwei Wochen",
-                "value_type": "TEXT",
-                "context": "Widerrufsfrist für Verbraucher bei Anforderung von Entscheidungsabdrucken",
-                "evidence_location": "Sie können Ihre Vertragserklärung innerhalb von zwei Wochen ohne Angabe von Gründen in Textform (z.B. Brief, Fax, E-Mail) oder durch Rücksendung der Sache widerrufen."
             }
         ],
-        "last_updated": "2026-10-23T00:58:40.594490+00:00"
+        "last_updated": "2026-11-01T06:56:19.934792+00:00"
     },
     "slot_20": {
         "source_hash": "c8387b0d1d10af196eac59a7244320aa292e97066fcf2ff22f3887a66e6f88b7",
@@ -938,7 +917,7 @@
         "last_updated": "2026-10-18T02:52:47.561496+00:00"
     },
     "slot_23": {
-        "source_hash": "1762744b620834574309da7e55a976f415cad58ce965a0a9a037879d5c39d646",
+        "source_hash": "8b8a34823bde7518ff18b5449a2f652c8acf44fcdc69a58fa65787551695af77",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -963,7 +942,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "slot_25": {
-        "source_hash": "0e49723a39eb840cca34436e771f72e2f5cfa06ef3afe230fc75e0271e3134f6",
+        "source_hash": "5b626a2a3b7cb0a19be14f4c0487ca4e1eb3be528130eac5f260a9839bbc664a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1110,31 +1089,80 @@
         "last_updated": "2026-10-18T02:55:09.121721+00:00"
     },
     "slot_31": {
-        "source_hash": "a4a6705cf1c75c273be5ace9620180dc4d16cea070a0b5cea8c5b0bac4d9a104",
-        "legal_hash": "0656ce76d403ae967502731b007f648c107a1bdd2a746da81a937ce3660411bd",
+        "source_hash": "9be6e8e033205c20565e0473dfe0dc8b8ad5c2efe94df90791e6659dfdf5c669",
+        "legal_hash": "078548ae1791829b4041da576b7f0d648d1e3b794c30f78e244df4025b07d721",
         "claims": [
+            {
+                "norm": "SGB II",
+                "extracted_value": "Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.",
+                "value_type": "TEXT",
+                "context": "Terminologieänderung des Bürgergeldes in Grundsicherungsgeld ab der Reform 2026",
+                "evidence_location": "Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II."
+            },
+            {
+                "norm": "SGB II",
+                "extracted_value": "01.07.2026",
+                "value_type": "DATE",
+                "context": "Stichtag der offiziellen Umbenennung von Bürgergeld in Grundsicherungsgeld",
+                "evidence_location": "Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt."
+            },
             {
                 "norm": "§ 20 SGB II",
                 "extracted_value": "563 €",
                 "value_type": "EURO",
-                "context": "Regelbedarf für Alleinstehende in der Regelbedarfsstufe 1 beim Grundsicherungsgeld (Bürgergeld) für das Jahr 2026.",
+                "context": "Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Jahr 2026",
                 "evidence_location": "In der Regelbedarfsstufe 1 beträgt er 563 Euro."
             },
             {
                 "norm": "§ 22 SGB II",
                 "extracted_value": "Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen.",
                 "value_type": "TEXT",
-                "context": "Regelung zur Übernahme der Kosten der Unterkunft und Heizung im Rahmen des Grundsicherungsgeldes.",
-                "evidence_location": "Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein."
+                "context": "Kosten der Unterkunft und Heizung (KdU) und Begrenzung bei Überschreitung der Angemessenheitsobergrenzen",
+                "evidence_location": "Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen."
             },
             {
                 "norm": "§ 11b SGB II",
                 "extracted_value": "208,90 €",
                 "value_type": "EURO",
-                "context": "Freibetrag bei einem Minijob im Monat, der nach den aktuellen Regeln des § 11b SGB II anrechnungsfrei bleibt.",
+                "context": "Monatlicher anrechnungsfreier Freibetrag bei Einkommen aus einem Minijob",
                 "evidence_location": "Der Rechner zieht die gesetzlichen Freibeträge bei einem möglichen Zuverdienst automatisch ab – beim Minijob bleiben so beispielsweise bis zu 208,90 € im Monat anrechnungsfrei."
+            },
+            {
+                "norm": "§ 22 SGB II",
+                "extracted_value": "416 Euro",
+                "value_type": "EURO",
+                "context": "Gerichtliche Bestätigung der Begrenzung der Mietkosten (KdU-Obergrenze) durch das Jobcenter",
+                "evidence_location": "Bürgergeld: Jobcenter darf Miete doch auf 416 Euro begrenzen 31.10.2026"
             }
         ],
-        "last_updated": "2026-10-23T01:00:17.431008+00:00"
+        "last_updated": "2026-11-01T03:06:06.532408+00:00"
+    },
+    "slot_18": {
+        "source_hash": "7ebfe140a40eb865d0777795c735724103f9fa53be53c7104c39291d1b540257",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Hinweis / Nutzungsbedingungen",
+                "extracted_value": "Es erfolgt keine Rechtsberatung.",
+                "value_type": "TEXT",
+                "context": "Ausschluss einer individuellen Rechtsberatung durch das Land Baden-Württemberg und juris GmbH auf Landesrecht BW.",
+                "evidence_location": "Das Land Baden-Württemberg und die juris GmbH nehmen keine Beratung zur Interpretation oder Verwendung der in diesem Dienst verfügbaren Informationen vor. Es erfolgt keine Rechtsberatung."
+            },
+            {
+                "norm": "Supportzeiten juris",
+                "extracted_value": "montags bis freitags von 08:00 Uhr – 17:00 Uhr",
+                "value_type": "TEXT",
+                "context": "Zeitliche Erreichbarkeit des juris Service-Teams für technischen und inhaltlichen Nutzersupport.",
+                "evidence_location": "Bei Fragen steht Ihnen das juris Service-Team montags bis freitags von 08:00 Uhr – 17:00 Uhr per E-Mail an service@juris.de zur Verfügung."
+            },
+            {
+                "norm": "Bekanntmachungsverzeichnis Baden-Württemberg",
+                "extracted_value": "2012",
+                "value_type": "DATE",
+                "context": "Zeitlicher Beginn des Zugriffs auf die Jahresausgaben des baden-württembergischen Bekanntmachungsverzeichnisses.",
+                "evidence_location": "Darüber hinaus haben Sie Zugriff auf die Jahresausgaben des baden-württembergischen Bekanntmachungsverzeichnisses ab 2012, die Bundesgesetzblätter, die Gesetzessammlung des Bundes und die EU-Rechtsdatenbank."
+            }
+        ],
+        "last_updated": "2026-10-24T03:26:12.011115+00:00"
     }
 }

@@ -1,0 +1,11 @@
+﻿==========================================================
+M.E.R. SOZIAL- & RECHTSFLOTTE - BACKUP-MANIFEST
+==========================================================
+Zeitstempel       : 26.10.2026 06:34:22
+Archiv-Datei      : M.E.R._Flotte_Skills_Backup_2026-10-26_0634.zip
+Pfad              : C:\DefconRecht\BACKUPS\M.E.R._Flotte_Skills_Backup_2026-10-26_0634.zip
+Groesse           : 971.57 KB (994886 Bytes)
+Gesicherte Ordner : 26
+Gesicherte Skills : 26
+SHA-256 Hash      : C5BCA369C70898539A67022AA31BE2C27175C3CBE7EC3F3A3D2884E7C1C64AA0
+==========================================================

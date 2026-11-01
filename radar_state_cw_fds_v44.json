@@ -72,7 +72,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_Z12": {
-        "source_hash": "e6afe59eb5e95a95fd48eefc5f9e19e394038b11ac50600b7786d2a5fde14f25",
+        "source_hash": "879b71047374da2fb70e6c1a776ce715c887f56fa2712dd053adba835f239015",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -86,7 +86,7 @@
         "last_updated": "2026-10-18T03:16:32.159881+00:00"
     },
     "cw_fds_slot_CW_Z24": {
-        "source_hash": "e6afe59eb5e95a95fd48eefc5f9e19e394038b11ac50600b7786d2a5fde14f25",
+        "source_hash": "879b71047374da2fb70e6c1a776ce715c887f56fa2712dd053adba835f239015",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -132,27 +132,27 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_02": {
-        "source_hash": "6dc85009db45044f6e21ac71a0ba24cdfd6bc5ea29129efabd50b27b931ddf7c",
+        "source_hash": "bc9b4c0ee92ad5b5dbba421387a6b1936da12b2f1c6c03037e6a0631cbc938ab",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_03": {
-        "source_hash": "d05f511a35d217dc642bcd7dc820dc99df7a6c913b1f522b0ec8ecf4bdef3b4d",
+        "source_hash": "7e5f7c88d5cefccdf599d975220db2ff698d7d599e2167dc391c3b4bb031ca13",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_04": {
-        "source_hash": "9f92c51ec52d44ec883b1771556579398faaaa7b722f0b1486e9a2ba42cffb7a",
+        "source_hash": "2daf6ef37bcad7a6b92abc2cdb99cc5527e60442c6f3d18baa76253823b3bc19",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_05": {
-        "source_hash": "c868f5d745a1c63e620a79c4ae34801e891a938e354d4e201a6ba73d5211c469",
+        "source_hash": "53ef1efeb5d7a55c1cf5ee9f2d6c4ad442ce9bbf9b212ecc320ccefba2d1c8e6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_06": {
-        "source_hash": "837d3e787a33f008a2ec317956cfc4171817ca4e5e65c8fe5d2e977d6b26993a",
+        "source_hash": "241d97c8511cad8cff8e8803b9a6a9e023eb2e17ce0fc244af5cd6808a042a57",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_07": {
-        "source_hash": "85ce0f430913c5dcb025c8535347fe4817371089ac2c4878ad485632ddaf7cb9",
+        "source_hash": "8ec2cdea27464606e6bd54600575d1ac6b73218695785d8d7eaca39e36d631ca",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_08": {
@@ -160,7 +160,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_09": {
-        "source_hash": "0e84a8f642ea761d4ef44a4645b40b8b96fda0ed57547bc38f5fa0bb1bd53816",
+        "source_hash": "f9f28076c86f37971494da9661c25fdaf1954bc31b7f801035c6cdf78eb0d711",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -181,21 +181,49 @@
         "last_updated": "2026-10-18T03:18:11.619943+00:00"
     },
     "cw_fds_slot_CW_ST_10": {
-        "source_hash": "017a9ec3f4dd8730fd28e93544764e4d7fd02d771f811ac23af1dd7e96708219",
-        "legal_hash": "aa9ffbdfea8f7c3afbbdabd5fda29f722701ab660601ea0da48bee6993d7f7eb",
+        "source_hash": "6c89feaa24f4dc6b22d1d6e6e46ce88cbfbc47f006989493d0c779f9e9ba2883",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
                 "norm": "Art. 6 Abs. 1 s. 1 lit. e DSGVO",
-                "extracted_value": "Die Daten werden gelöscht, sobald die Sitzung beendet ist.",
+                "extracted_value": "Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten im Rahmen der Online-Formulare ist Art. 6 Abs. 1 s. 1 lit. e DSGVO.",
                 "value_type": "TEXT",
-                "context": "Aufbewahrungsdauer der Daten für Online-Formulare auf der Website der Stadt Bad Teinach-Zavelstein",
-                "evidence_location": "Die Daten werden gelöscht, sobald die Sitzung beendet ist."
+                "context": "Datenschutzrechtliche Rechtsgrundlage für die Datenverarbeitung bei Nutzung von Online-Formularen auf der Webseite der Stadt Bad Teinach-Zavelstein.",
+                "evidence_location": "Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt. Art. 6 Abs. 1 s. 1 lit. e DSGVO Ort der Verarbeitung Europäische Union"
+            },
+            {
+                "norm": "Art. 6 Abs. 1 f) DSGVO",
+                "extracted_value": "Die Rechtsgrundlage für die Verarbeitung von Energiedaten und Störungsinformationen über Netze BW GmbH ist Art. 6 Abs. 1 f) DSGVO; die Löschung bzw. Anonymisierung einer IP-Adresse erfolgt spätestens nach 7 Tagen.",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlage und Löschungsfrist für IP-Adressdaten beim NETZMonitor der Netze BW GmbH.",
+                "evidence_location": "Die Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 f) DSGVO. Die Daten werden gelöscht, sobald sie für die zuvor genannten Zwecke nicht mehr erforderlich sind. Im Falle der Speicherung einer IP-Adresse erfolgt eine Löschung bzw. Anonymisierung nach spätestens 7 Tagen."
+            },
+            {
+                "norm": "Verkehrsrechtliche Anordnung / Straßenbaumaßnahme Zavelstein - Station Teinach",
+                "extracted_value": "14.11.2026",
+                "value_type": "DATE",
+                "context": "Verlängerung der Vollsperrung der Straße zwischen Zavelstein und Station Teinach.",
+                "evidence_location": "Straßenbaumaßnahme zwischen Zavelstein und Station Teinach Vollsperrung bis 14.11.2026 verlängert"
+            },
+            {
+                "norm": "VOB/A",
+                "extracted_value": "Alle Öffentlichen Ausschreibungen der Stadt Bad Teinach-Zavelstein erfolgen gemäß VOB/A.",
+                "value_type": "TEXT",
+                "context": "Vergaberechtliche Vorschrift für kommunale Bauausschreibungen.",
+                "evidence_location": "Öffentliche Ausschreibungen Alle Öffentlichen Ausschreibungen gemäß VOB/A der Stadt Bad Teinach-Zavelstein finden Sie hier."
+            },
+            {
+                "norm": "Art. 6 Abs. 1 s. 1 lit. a DSGVO",
+                "extracted_value": "Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei der Nutzung des Kartendienstes Google Maps ist Art. 6 Abs. 1 s. 1 lit. a DSGVO.",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlage und Einwilligungserfordernis für externe Kartendienste auf der Website.",
+                "evidence_location": "Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt. Art. 6 Abs. 1 s. 1 lit. a DSGVO"
             }
         ],
-        "last_updated": "2026-10-18T03:18:21.192379+00:00"
+        "last_updated": "2026-10-30T05:45:46.438439+00:00"
     },
     "cw_fds_slot_CW_GM_01": {
-        "source_hash": "93a7026c8321bbf7d98d68f3bd484660d706e5c789fef0d993e7d454474b24d9",
+        "source_hash": "447630ab4b6095abe1c331b0a02b7c862fee6383ed646257fc938304c2e232e9",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -209,29 +237,50 @@
         "last_updated": "2026-10-18T03:18:29.893209+00:00"
     },
     "cw_fds_slot_CW_GM_02": {
-        "source_hash": "44f3ae148276599266c11e2cf16b16d558b65567bcd0bc81b63049f834e748df",
+        "source_hash": "188af484105ad9316e91e141e673632c12b54a546628b5c3b9fbe5aa062d9a66",
         "legal_hash": "83a3228c36f3307dac43e4a43f99c6aad8163da41cb7eba575d01f294449628f"
     },
     "cw_fds_slot_CW_GM_03": {
-        "source_hash": "4234d2c4e638ec5cfe9e6112556ea2940a3b49bc9e14c49ca7b388fd89ae5967",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "57547085d5bc007608754d755490aede546b12aa6258854103ba544268d52ee2",
+        "legal_hash": "bcad6e4b99c254f488c2606c6e9c7d4baaf03edf8f9f560a6b9a3c6a645c9a5a",
         "claims": [
             {
-                "norm": "Landratsamt Calw",
+                "norm": "Kurverwaltung Dobel Verkaufstarif",
+                "extracted_value": "9,00 €",
+                "value_type": "EURO",
+                "context": "Verkaufspreis des PLAYMOBIL-Schwarzwaldpaars Marie und Hannes in bar bei der Kurverwaltung Dobel ab dem 9.11.",
+                "evidence_location": "Ab 9.11. ist es für 9,00 € (in bar) in der Kurverwaltung erhältlich"
+            },
+            {
+                "norm": "Allgemeinverfügung Landratsamt Calw zur Wasserentnahme",
                 "extracted_value": "31. Oktober 2026",
                 "value_type": "DATE",
-                "context": "Verlängerung der Beschränkung der Wasserentnahme im Kreis Calw",
+                "context": "Verlängerung der Beschränkung der Entnahme von Wasser aus Flüssen und Bächen im Landkreis Calw",
                 "evidence_location": "Das Landratsamt Calw verlängert die Beschränkung der Wasserentnahme aus den Flüssen und Bächen des Kreises Calw bis 31. Oktober 2026"
+            },
+            {
+                "norm": "Verkehrsrechtliche Anordnung Eyachtalstraße",
+                "extracted_value": "12.10.2026 bis 31.10.2026",
+                "value_type": "DATE",
+                "context": "Vollsperrung der Eyachtalstraße zwischen Fischzucht Zordel und Gasthaus Eyachmühle aufgrund von Baumfäll- und Gehölzarbeiten",
+                "evidence_location": "Vom 12.10.2026 bis 31.10.2026 ist die Eyachtalstraße zwischen Fischzucht Zordel und Gasthaus Eyachmühle wegen ..."
+            },
+            {
+                "norm": "Datenschutz-Speicherfrist Gemeinde Dobel",
+                "extracted_value": "ein Monat",
+                "value_type": "TEXT",
+                "context": "Bestandsdauer und Gültigkeitsfrist der essentiellen Einwilligungs-Cookies auf dem Webportal der Gemeinde Dobel",
+                "evidence_location": "Alle hwdatenschutz_cookie_ haben eine Bestandsdauer von einem Monat und laufen nach diesem Zeitraum ab."
             }
         ],
-        "last_updated": "2026-10-18T03:18:48.079800+00:00"
+        "last_updated": "2026-10-30T05:47:50.782690+00:00"
     },
     "cw_fds_slot_CW_GM_04": {
-        "source_hash": "b0215ac446324fbfc8d0a255570765b2f79860f4a9eca47292f7f5735c5d8329",
+        "source_hash": "9a893a161fc7962cd53cf7b5fd01a984d9c655160aba89a23a38e1d0a9b056a1",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_05": {
-        "source_hash": "5090d6aa19249549fc8ff257aa9ba7fce9355d65a09527235800c88cfef81d24",
+        "source_hash": "a0f5fb654a07f1491cf6f00f77cf266ea8beb9b66cad0b4abde0032e07d0de6d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -266,15 +315,15 @@
         "last_updated": "2026-10-23T01:13:57.664871+00:00"
     },
     "cw_fds_slot_CW_GM_06": {
-        "source_hash": "d106f2ded4d95d6ef6931f8455222e9180732172ccc18d1040cd1f88dd742751",
+        "source_hash": "594792c5835744736a6696082972c489fa0499ffe093f75a7f59f453cf402d95",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_07": {
-        "source_hash": "be9314aeed0417dec464ffec5bca3ba44e82c5c58ac866cab5b6a14ab6841c8f",
+        "source_hash": "48a481ee29b02784b1a8aedbd0cb855c6d241f50b6ac0e97b74447c9d8b064d6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_08": {
-        "source_hash": "e63f47d29a9b88d3f99f506e1f2218e2ecb8bdc0aabf379e38bbaaa0a605186d",
+        "source_hash": "c2891d89459b049fbe2c31a5c5ab7962996cd5c4e8a8bce919408e07edfdff5b",
         "legal_hash": "04574c6763c72d0b9769d1d6d521c3969c8e660dc0fbdf788e4b6ed61a3e9c94",
         "claims": [
             {
@@ -309,23 +358,23 @@
         "last_updated": "2026-10-20T00:54:16.809468+00:00"
     },
     "cw_fds_slot_CW_GM_09": {
-        "source_hash": "816533b3391c0aec37a1415f56443046bd95d66b159826285ea0cd5033db106b",
+        "source_hash": "e9a9f99ae716315a44f28592ca53597705911a0931c2ec0c1349f79c86a6620c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_11": {
-        "source_hash": "11246851d2c30306512dfeb5ae4155d073c6de0fceb931fdf9ef7653779fc9ac",
+        "source_hash": "473344c2e5552787d73739a5a0783fa3799dabf9fa2c8bae6f04b2486e8506cb",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_12": {
-        "source_hash": "29445e6ac9ac59892dfd93d6c5e2f4dac968dee56ee3cae891693ac9dc457b6d",
+        "source_hash": "345597df941ba05a35214c633d6df1d4853874a4147fde0876d2f66c75b30d6e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_13": {
-        "source_hash": "b2cc60ed125c09c23d59d3b53662525d8ee081c00f4fb8291163b2389a4557b6",
+        "source_hash": "e002e52b326d2cd2d5d7e38a786e511dd3ff061cf102664bc85f685ccb0e07c4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_14": {
-        "source_hash": "6e7c0f4e1fdc388dfd11d12ba49cc35898f80e865b422bc689a854c72643edff",
+        "source_hash": "6949a2303b26400ab5786e756cac8e3fcc9160d57d45b8c8340f75941aeed8cb",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -339,11 +388,11 @@
         "last_updated": "2026-10-18T03:20:12.198559+00:00"
     },
     "cw_fds_slot_CW_GM_15": {
-        "source_hash": "29976e953af41fdfa77f7a05e75eb2e62a74df23adebbe16c19383afa9e6222b",
+        "source_hash": "055042409981fba6058d93943db3a04d2d3df94fec5d4d20d52020a1f07b77df",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_Z1": {
-        "source_hash": "9b2084a92c3339f5512849c9991d8bcba40edc42d4cfc0793878c698037a4270",
+        "source_hash": "f01bb911e03b12e104418a4723d21fb9df0b49339b32517047a727a7b0172a00",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -547,11 +596,11 @@
         "last_updated": "2026-10-23T03:17:21.644617+00:00"
     },
     "cw_fds_slot_FDS_ST_01": {
-        "source_hash": "db831e23573a35583b38f9ed0b1586f57b23be300bb99bdce40319592f8f530f",
+        "source_hash": "27aa2ea9ffab44c596f32dadbc28a8209acaed778d92755daa50592589da4ed6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_ST_02": {
-        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "source_hash": "f7fc0528600774555c3d478d303556cf819a45018661d3b43884f0ae158a1eca",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -565,15 +614,15 @@
         "last_updated": "2026-10-18T03:22:07.516275+00:00"
     },
     "cw_fds_slot_FDS_ST_03": {
-        "source_hash": "9ac22a1cc49f78c066f5d3995ad4093a0197e750011ab647d88b086ccb0dfa1b",
+        "source_hash": "25ea26b6aeff267f878a4cb07f86b8574a373e3097424cdcb7890195597f725f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_ST_04": {
-        "source_hash": "1e1a3c0ac52e2a258a505c943f7db2babcaef13292d9423a68294f5525fac931",
+        "source_hash": "da6e170c344cb308fd61c7d0df1f6564e4dd07784db5f156e987b27cb3e0bc72",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_01": {
-        "source_hash": "e144f1b2dba5a395fbeb7ae2c58c02f39356cc0e32c96d376f88758b1ea78b01",
+        "source_hash": "a0804cc6b4c5b134439207242704c806d316051fc2045b9e7cd9b57cb94ccce5",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -587,11 +636,11 @@
         "last_updated": "2026-10-18T03:22:31.820044+00:00"
     },
     "cw_fds_slot_FDS_GM_02": {
-        "source_hash": "37665544736b33d5bde1ef16e8391b20fcbdfc64692aaae70e7bd40fd4391287",
+        "source_hash": "acef7596857ea9a6ba4e0599c25c0bc003a20959f34f2c067007573e513a2db1",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_03": {
-        "source_hash": "7a36fd6802441db094e0a78409ff6c94b1f46e21f1c92ec3acb1e0a1e8ee94a5",
+        "source_hash": "313466236ce6d461df2937c879f57bea8ee579a1afa8df2cd59323fc4c04fd7f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -605,11 +654,11 @@
         "last_updated": "2026-10-18T03:22:48.876772+00:00"
     },
     "cw_fds_slot_FDS_GM_04": {
-        "source_hash": "71069765552b77b81832d6fd5b0dcc698fb14515dca6816bcc23f5e2ac053299",
+        "source_hash": "b400b6d1790677f24b1e3297955bb913dd09db876972e1ae0bd04fad3aa39e5c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_05": {
-        "source_hash": "9f0fb7c7fcdd5f35dced059b1ab1f578eddfa1a52c4866d256b1d9498157889a",
+        "source_hash": "43dfa92763676b802ab380d1e6e2ea464f692d12c578e8565130203b360989e9",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_06": {
@@ -617,15 +666,15 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_07": {
-        "source_hash": "52e4c610e632f38bba3146f0b0bcf076d85886ed63e7f5ddc7cfcd633a76abe7",
+        "source_hash": "f5fc062441d8815d3ebbe246f8c3358450bba7348a28bd1abf2a10823d3a6bdb",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_09": {
-        "source_hash": "279c00f7f420f2ba02321384e77b5a1ea0d86ce2ddb93a6c35edfde74437bd5d",
+        "source_hash": "0a94eeeaf89c9839e306feff97905f6ea7f4fddac25d1eae4ea3aa3a7c7c30dc",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_11": {
-        "source_hash": "d0570cc81323ecf215ec5837d3fa8e3fbaebe9612fa55bd4dc1aec927085cff9",
+        "source_hash": "202a8728dfe948e9418b1dfd12f34e7c3e998461748eafac6b5be50011b03127",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_12": {
@@ -663,27 +712,27 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_18": {
-        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "source_hash": "f7fc0528600774555c3d478d303556cf819a45018661d3b43884f0ae158a1eca",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_19": {
-        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "source_hash": "f7fc0528600774555c3d478d303556cf819a45018661d3b43884f0ae158a1eca",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_20": {
-        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "source_hash": "f7fc0528600774555c3d478d303556cf819a45018661d3b43884f0ae158a1eca",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_21": {
-        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "source_hash": "f7fc0528600774555c3d478d303556cf819a45018661d3b43884f0ae158a1eca",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_22": {
-        "source_hash": "b8847dd057041d831ebf3315d4cc1d247dcf7a940c9037a2ab562fb5dee9eca5",
+        "source_hash": "f7fc0528600774555c3d478d303556cf819a45018661d3b43884f0ae158a1eca",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_FDS_K1_STROM": {
-        "source_hash": "b2da984276aba64431ab2ed95a33667fc2f7c7a81ab443e0d93ae51bc69169f5",
+        "source_hash": "4f1213e739dcfbceb62f9cdba4dde6226cfc4af68b6c372357754d4af6c5e5e0",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_FDS_K2_APO": {
@@ -691,32 +740,46 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_K5_WOHNBAU": {
-        "source_hash": "8995122cddd214e81ed4bb6b4b34e864a00883f9510bc9191ae43c60ad919d15",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "fcfa53373072da5364069a975902ff0b6bd2eb187995a3bbc98aa008acefe066",
+        "legal_hash": "a18be27501c6b842078b72f1d0e7abd23a2f3dba0759403418894084ae865875",
         "claims": [
             {
-                "norm": "Satzung der Kreisbaugenossenschaft Calw eG - Kündigungsfrist",
-                "extracted_value": "Frist von drei Monaten zum Jahresende",
+                "norm": "Wohnungsangebot Kreisbau Calw eG (Objekt 72202 Nagold - WBS)",
+                "extracted_value": "560 EUR Kaltmiete (830 EUR Warmmiete)",
+                "value_type": "EURO",
+                "context": "Mietpreis für eine 3-Zimmer-Wohnung mit Wohnberechtigungsschein (WBS) in Nagold mit ca. 83,17 m² Wohnfläche",
+                "evidence_location": "3-Zimmer-Wohnung in Nagold (nur mit WBS) 72202 Nagold, Etagenwohnung Zimmer: 3 Wohnfläche ca.: 83.17 m2 Verfügbar ab: 01.11.2026 Kaltmiete: 560 EUR Warmmiete: 830 EUR"
+            },
+            {
+                "norm": "Wohnungsangebot Kreisbau Calw eG (Objekt 72213 Altensteig)",
+                "extracted_value": "475 EUR Kaltmiete (620 EUR Warmmiete)",
+                "value_type": "EURO",
+                "context": "Mietpreis für eine 2-Zimmer-Etagenwohnung mit Balkon in Altensteig mit ca. 53,35 m² Wohnfläche",
+                "evidence_location": "2-Zimmer-Wohnung mit Balkon 72213 Altensteig, Etagenwohnung Zimmer: 2 Wohnfläche ca.: 53.35 m2 Verfügbar ab: 01.12.2026 Kaltmiete: 475 EUR Warmmiete: 620 EUR"
+            },
+            {
+                "norm": "Wohnungsangebot Kreisbau Calw eG (Objekt 72202 Nagold - DG)",
+                "extracted_value": "610 EUR Kaltmiete (725 EUR Warmmiete)",
+                "value_type": "EURO",
+                "context": "Mietpreis für eine 2-Zimmer-Dachgeschosswohnung in Nagold mit ca. 45,59 m² Wohnfläche",
+                "evidence_location": "Dach­ge­schoss­wohnung mit Blick ins Grüne 72202 Nagold, Etagenwohnung Zimmer: 2 Wohnfläche ca.: 45.59 m2 Verfügbar ab: 15.01.2027 Kaltmiete: 610 EUR Warmmiete: 725 EUR"
+            },
+            {
+                "norm": "Satzung / Genossenschaftsbestimmungen Kreisbau Genossenschaft Calw eG",
+                "extracted_value": "Drei Monate zum Jahresende",
                 "value_type": "TEXT",
-                "context": "Regelung der Kündigungsfrist für die Mitgliedschaft bei der Kreisbaugenossenschaft Calw eG sowie die nachfolgende Auszahlung des Geschäftsguthabens.",
+                "context": "Kündigungsfrist für die Mitgliedschaft bei der Kreisbaugenossenschaft Calw eG",
                 "evidence_location": "Sie können mit einer Frist von drei Monaten zum Jahresende kündigen."
             },
             {
-                "norm": "Mietbestimmungen der Kreisbaugenossenschaft Calw eG - Kaution",
-                "extracted_value": "Keine Erhebung einer Mietkaution; stattdessen Erwerb von Mitgliedsanteilen/Geschäftsguthaben",
+                "norm": "Miet- und Geschäftsbedingungen Kreisbau Genossenschaft Calw eG",
+                "extracted_value": "Keine Mietkaution; Erwerb von Mitgliedsanteilen (Geschäftsguthaben)",
                 "value_type": "TEXT",
-                "context": "Bedingungen der Wohnungsanmietung bezüglich Sicherheitsleistungen bei der Kreisbaugenossenschaft Calw eG.",
+                "context": "Befreiung von einer Mietkautionspflicht zugunsten von Genossenschaftsanteilen",
                 "evidence_location": "Nein, bei der Kreisbau Calw gibt es keine Mietkaution. Mieter sind Mitglieder und erwerben Mitgliedsanteile, sie haben ein Geschäftsguthaben."
-            },
-            {
-                "norm": "Satzung der Kreisbaugenossenschaft Calw eG - Genossenschaftszweck",
-                "extracted_value": "Förderung ihrer Mitglieder vorrangig durch eine gute, sichere und sozial verantwortbare Wohnungsversorgung",
-                "value_type": "TEXT",
-                "context": "Festlegung des Förderzwecks der Kreisbaugenossenschaft Calw eG zur Wohnungsversorgung.",
-                "evidence_location": "Zweck der Genossenschaft ist die Förderung ihrer Mitglieder vorrangig durch eine gute, sichere und sozial verantwortbare Wohnungsversorgung."
             }
         ],
-        "last_updated": "2026-10-22T00:36:18.547282+00:00"
+        "last_updated": "2026-10-31T03:37:19.500234+00:00"
     },
     "cw_fds_slot_CW_FDS_K6_DWD": {
         "source_hash": "8b1f92efd92371c670f8fa6212bb6255b86f1be59519dfea9a24a130f97f0ff6",
