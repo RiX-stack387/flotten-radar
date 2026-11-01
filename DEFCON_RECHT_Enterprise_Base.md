@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-10-31 04:37:37 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-01 04:23:50 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -209,13 +209,12 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 22 SGB II** | Wohnkosten (Miete und Heizkosten) fließen in die Bedarfsberechnung ein; Jobcenter können die Kosten bei Überschreitung der regionalen Mietobergrenzen / Angemessenheit kürzen. | Kosten der Unterkunft und Heizung (KdU) sowie regionale Angemessenheitsprüfung und Obergrenzen nach § 22 SGB II |
-| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Gesetzliche Terminologie und Umbenennung von Bürgergeld in Grundsicherungsgeld |
-| **SGB II** | 01.07.2026 | Stichtag für die offizielle Umbenennung von Bürgergeld in Grundsicherungsgeld |
-| **§ 20 SGB II** | 563 € | Regelbedarf 2026 in Regelbedarfsstufe 1 für Alleinstehende Erwachsene |
-| **§ 20 SGB II** | 506 € | Regelbedarf 2026 in Regelbedarfsstufe 2 für Partner, Ehepartner oder Lebenspartner |
-| **§ 11b SGB II** | 208,90 € | Maximaler monatlicher anrechnungsfreier Freibetrag bei Ausübung eines Minijobs |
-| **§ 21 SGB II** | Berechnung gesetzlicher Mehrbedarfe, unter anderem Zuschüsse für Alleinerziehende, Schwangere oder dezentrale Warmwasserbereitung. | Pauschale Aufschläge auf den Regelbedarf bei Vorliegen besonderer Lebensumstände nach § 21 SGB II |
+| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Terminologieänderung des Bürgergeldes in Grundsicherungsgeld ab der Reform 2026 |
+| **SGB II** | 01.07.2026 | Stichtag der offiziellen Umbenennung von Bürgergeld in Grundsicherungsgeld |
+| **§ 20 SGB II** | 563 € | Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Jahr 2026 |
+| **§ 22 SGB II** | Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen. | Kosten der Unterkunft und Heizung (KdU) und Begrenzung bei Überschreitung der Angemessenheitsobergrenzen |
+| **§ 11b SGB II** | 208,90 € | Monatlicher anrechnungsfreier Freibetrag bei Einkommen aus einem Minijob |
+| **§ 22 SGB II** | 416 Euro | Gerichtliche Bestätigung der Begrenzung der Mietkosten (KdU-Obergrenze) durch das Jobcenter |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
