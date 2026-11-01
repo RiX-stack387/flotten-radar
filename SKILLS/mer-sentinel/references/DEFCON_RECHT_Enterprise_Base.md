@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-01 04:23:50 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-01 09:25:42 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -143,13 +143,8 @@
 ## [19] Sektor 19
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG** | 1,50 Euro je Entscheidung, höchstens 5,00 Euro | Kosten für die Überlassung von Entscheidungen als elektronisch gespeicherte Dateien durch das Bundesarbeitsgericht |
-| **JVKostG** | 0,50 Euro pro Seite für die ersten 50 Seiten, 0,15 Euro für jede weitere Seite | Schreibauslagen für die postalische Versendung von Entscheidungsabdrucken durch das Bundesarbeitsgericht |
-| **§ 13 BGB** | zwei Wochen | Frist für den Widerruf der Vertragserklärung für Verbraucher bei Anforderung von Entscheidungsabdrucken |
-| **§ 312 d Abs. 4 Nr. 1 BGB** | Widerruf ausgeschlossen | Ausschluss des Widerrufsrechts bei elektronischem Versand von Entscheidungstexten |
-| **BAG, 8 AZB 6/26** | Fünfmonatsfrist zur vollständigen Absetzung von Urteilen | Entscheidungsgegenstand des Beschlusses vom 18.09.2026 |
-| **BAG, 5 AZR 122/25** | Mehrarbeitszuschläge - Teilzeitbeschäftigte - Benachteiligung | Gegenstand der Entscheidung des BAG vom 26.08.2026 |
-| **BAG, 2 AZN 339/26** | Vertretungszwang - "halluzinierte" Urteile | Gegenstand der Entscheidung des BAG vom 30.09.2026 |
+| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz (JVKostG)** | 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen | Kosten für die Überlassung elektronisch gespeicherter Entscheidungsdateien des Bundesarbeitsgerichts |
+| **Justizverwaltungskostengesetz (JVKostG)** | 0,50 Euro pro Seite für die ersten 50 Seiten, für jede weitere Seite 0,15 Euro | Schreibauslagen für die Versendung von Entscheidungsabdrucken |
 
 ## [20] Sektor 20
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
