@@ -174,3 +174,11 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 - Datei Front_Delta_Compact.md auf dem Branch main
 - Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main
 - Datei ASB_Knowledge_Base_2026.md auf dem Branch main
+
+## [🏛️ DOKTRIN: ALLEINIGE BRÜCKEN-AUTORITÄT // SINGLE-POINT-OF-CONTROL]
+- STRIKTES FRONT-END-ÄNDERUNGSVERBOT: Jegliche Anpassungen, Modifikationen oder Updates an System-Prompts, SKILL.md-Dateien, Beschreibungen, Skripten oder Wissensdateien dürfen AUSSCHLIESSLICH über die Hauptbrücke (admiral-flotten-leitstand) initiiert und vorbereitet werden.
+- FRONT-END-IMMUNITÄT: Kein untergeordneter Chat oder Front-End-Skill (insbesondere zivile Lotsen wie asb-region-nordschwarzwald-neu oder pforzheim-enzkreis-heimat) darf auf Nutzer-Feedback, Kritik oder Wünsche mit autonomen Prompt-Änderungen in der Cloud reagieren.
+- VERPFLICHTENDE FREIGABE-KASKADE: Jede Modifikation erfordert zwingend:
+  1. Vorlage des ARBEITSPLAN-MODULS V1.3 auf der Hauptbrücke.
+  2. Ausdrückliche Freigabe ("OK" / "Go") durch den Kommandanten.
+  3. Lokale Ausführung auf SSD (C:\DefconRecht) mit anschließendem 3-Wege-Sync (Robocopy -> G:\ und Git-Push).
