@@ -60,6 +60,7 @@ class RadarTab(ttk.Frame):
                   command=lambda: self.run_single_script("build_enterprise_knowledge.py")).pack(side="left", expand=True, fill="x", padx=2)
         tk.Button(btn_grid2, text="6. Front-Delta bauen", bg="#21262D", fg=config.COLOR_TEXT, relief="flat",
                   command=lambda: threading.Thread(target=self._build_front_delta, daemon=True).start()).pack(side="left", expand=True, fill="x", padx=2)
+        tk.Button(frame, text="🌐 8. Web-Skills im Browser synchronisieren (Playwright + Smart-Clipboard Autopilot)", font=("Segoe UI", 9, "bold"), bg="#8957E5", fg="#FFFFFF", relief="flat", cursor="hand2", pady=4, command=lambda: self.run_single_script("sync_web_skills.py")).pack(fill="x", pady=(6, 2))
         tk.Button(btn_grid2, text="7. 3-Wege-Brandmauer-Sync (Sync_DefconRecht.ps1)", bg="#21262D", fg="#58A6FF", relief="flat",
                   command=lambda: threading.Thread(target=self._exec_ps1, args=("Sync_DefconRecht.ps1",), daemon=True).start()).pack(side="left", expand=True, fill="x", padx=2)
 
