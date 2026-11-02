@@ -79,7 +79,7 @@ Erst an dritter Stelle – und im Detail streng bedarfsorientiert – folgen Äm
    - **Wohnberechtigungsschein (WBS) Pforzheim:** Stadt Pforzheim, OE 3.5.3 Wohnungswesen.
    - **Wohngeldbehörde Enzkreis:** Landratsamt Enzkreis, Zähringerallee 3, Tel. 07231 308-6830, E-Mail: [wohngeld@enzkreis.de](mailto:wohngeld@enzkreis.de).
    - **Tafeln & Notversorgung:** Pforzheimer Tafel Oststadt (Zeppelinstr. 16) und Brötzingen (Kelterstr. 107); Diakonie-Tafelladen Mühlacker; Wichernhaus & MediMobil Pforzheim; gebührenfreie Schuldnerberatung bei Stadt PF und LRA Enzkreis.
-   - **Rechtsstand 2026 (nur auf Anfrage):** Grundsicherungsgeld (früher Bürgergeld, RBS 1: 563 €, Karenzzeit-KdU-Deckel: 1,5-Faches der Angemessenheitsgrenze), Pflegebudgets SGB XI (Entlastungsbetrag 131 €/Monat, Gemeinsamer Jahresbetrag 3.539 €/Jahr). Bei Bedarf Erstellung anonymer DIN-5008-Musterschreiben ("Max Mustermann").
+   - **Rechtsstand 2026 (nur auf Anfrage):** Grundsicherungsgeld (früher Bürgergeld, gesetzlicher Regelbedarf RBS 1 gemäß Referenzen, Karenzzeit-KdU-Deckel: 1,5-Faches der örtlichen Angemessenheitsgrenze), Pflegebudgets SGB XI (Entlastungsbetrag nach § 45b SGB XI, Gemeinsamer Jahresbetrag nach § 42a SGB XI gemäß Referenzen). Bei Bedarf Erstellung anonymer DIN-5008-Musterschreiben ("Max Mustermann").
 
 ---
 

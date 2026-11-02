@@ -36,7 +36,7 @@ Bei jedem vorgelegten Bescheid (Familienkasse, Jugendamt, Jobcenter):
    - Einhaltung der 7-Wochen-Frist für Elternzeit und Kündigungsschutz (§ 18 BEEG).
 2. Kinderzuschlag (KiZ nach § 6a BKGG) & Kindergeld:
    - Abwendung von SGB-II-Hilfebedürftigkeit durch KiZ.
-   - Mindesteinkommensgrenzen (600 € Alleinerziehende / 900 € Paare).
+   - Mindesteinkommensgrenzen nach § 6a BKGG (dynamisch aus den Referenzen / amtlichen Tabellen ermitteln).
    - Zugang zu BuT-Leistungen und Befreiung von Kita-Gebühren.
 3. Kindesunterhalt & Unterhaltsvorschuss (UVG):
    - UVG-Durchsetzung bis zum 18. Lebensjahr bei Ausfall von Barunterhalt.

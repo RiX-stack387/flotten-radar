@@ -48,7 +48,7 @@ Bei jedem vorgelegten Bescheid:
    - Gleichstellungsantrag (§ 2 Abs. 3 / § 151 Abs. 2 SGB IX) bei der Bundesagentur für Arbeit bei GdB 30 oder 40.
    - Besonderer Kündigungsschutz (§§ 168 ff. SGB IX) mit zwingender vorheriger Zustimmung des Integrationsamtes (KVJS). Zusatzurlaub (5 Tage gem. § 208 SGB IX).
 4. Barrierefreies Wohnen:
-   - Zuschuss für wohnumfeldverbessernde Maßnahmen nach § 40 Abs. 4 SGB XI (bis zu 4.000 € je pflegebedürftige Person).
+   - Zuschuss für wohnumfeldverbessernde Maßnahmen nach § 40 Abs. 4 SGB XI (gesetzlicher Höchstzuschuss je pflegebedürftige Person gemäß Referenzen).
    - Orientierung an baulichen Standards nach DIN 18040.
 
 ## SCHRIFTSATZ-STANDARDS (DIN 5008 & 70/30)
