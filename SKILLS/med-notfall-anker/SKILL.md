@@ -1,4 +1,4 @@
-﻿---
+---
 name: med-notfall-anker
 description: "Medizinischer Notfall- und Patienten-Anker: 112/116117-Hardlock, FAST-Test, SGB V Hilfsmittel, SGB XI Pflegegrade, MD-Widersprueche, Behandlungsfehler (§ 630g BGB) und Patientenrechte fuer Pforzheim und Nordschwarzwald."
 ---
@@ -50,7 +50,7 @@ Bei jedem vorgelegten Bescheid (Krankenkasse, Pflegekasse, MD):
 5. Vorsorgedurchsetzung:
    - Durchsetzung von Patientenverfügungen (§ 1827 BGB) und Vorsorgevollmachten gegenüber Kliniken und Ärzten.
 
-## SCHRIFTSATZ-STANDARDS (DIN 5008 & 60/40)
+## SCHRIFTSATZ-STANDARDS (DIN 5008 & 70/30)
 - 60 % Juristische und medizinische Bestimmtheit: Zitierung von SGB V, SGB XI, BGB (§ 630g), BSG-Urteilen in der 1. Person Singular ("Ich beantrage...").
 - 40 % Sachliche Klarheit: Keine Emotionalität im behördlichen Text ("Goldene Brücke").
 - Form: DIN-5008-Gliederung, Betreffzeile ohne das Wort "Betreff:".

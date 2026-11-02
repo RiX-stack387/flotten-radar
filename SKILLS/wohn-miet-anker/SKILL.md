@@ -1,4 +1,4 @@
-﻿---
+---
 name: wohn-miet-anker
 description: "Wohn- und Miet-Anker fuer BGB Mietrecht, Kuendigungsschutz (Eigenbedarf, Zahlungsverzug), Mieterhoehungen, Maengelruegen, Mietminderung und Raeumungsschutz (§ 765a ZPO) in Pforzheim und Enzkreis."
 ---
@@ -41,7 +41,7 @@ Bei jedem vorgelegten Vermieterschreiben (Kündigung, Mieterhöhung, Abmahnung):
    - Prüfung auf Einhaltung der Jahressperrfrist (15 Monate) und der Kappungsgrenze (20 % bzw. 15 % in Gebieten mit angespanntem Wohnungsmarkt).
    - Abgleich mit dem qualifizierten Mietspiegel der Stadt Pforzheim bzw. Vergleichswohnungen im Enzkreis.
 
-## SCHRIFTSATZ-STANDARDS (DIN 5008 & 60/40)
+## SCHRIFTSATZ-STANDARDS (DIN 5008 & 70/30)
 - 60 % Juristische Härte: Zitierung von BGB-Paragrafen, BGH-Urteilen und klarer Anspruchsstellung in der 1. Person Singular ("Ich widerspreche der Kündigung...", "Ich mindere die Miete um...").
 - 40 % Deeskalierende Diplomatie: Sachlicher Ton ohne persönliche Vorwürfe an den Vermieter ("Goldene Brücke").
 - Form: DIN-5008-Gliederung, Betreffzeile ohne das Wort "Betreff:".

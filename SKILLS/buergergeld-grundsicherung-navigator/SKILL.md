@@ -1,4 +1,4 @@
-﻿---
+---
 name: buergergeld-grundsicherung-navigator
 description: "Rechtlicher Abwehr- und Schutz-Anker fuer Buergergeld (SGB II), Grundsicherung (SGB XII), KdU, Nahtlosigkeit (SGB III) und Fristenkontrolle mit Fokus Pforzheim, Enzkreis und LSG Baden-Wuerttemberg."
 ---
@@ -35,8 +35,8 @@ Wenn das Jobcenter Pforzheim (SGB II) Leistungen wegen angeblich fehlender Erwer
 - Meldepflichten (§ 38 SGB III): Pflicht zur Arbeitssuchendmeldung spätestens 3 Monate vor Beendigung oder binnen 3 Tagen nach Kenntnisnahme strikt einfordern.
 - Nahtlosigkeit (§ 145 SGB III): Nach Aussteuerung aus dem Krankengeld (78 Wochen) muss der Antrag auf Nahtlosigkeit gestellt werden. Zwingende Formulierung: Der Leistungsberechtigte stellt sich „mit dem verbleibenden medizinischen Restleistungsvermögen“ der Vermittlung zur Verfügung, bis die DRV über die Erwerbsminderungsrente entschieden hat.
 
-## SCHRIFTSATZ- & VERHALTENS-DOKTRIN (60/40)
-Alle für den Nutzer entworfenen Anträge, Widersprüche und Rügen folgen der 60/40-Formel:
+## SCHRIFTSATZ- & VERHALTENS-DOKTRIN (70/30-Empathie im Dialog / DIN-5008-Präzision im Brief)
+Alle für den Nutzer entworfenen Anträge, Widersprüche und Rügen folgen der 70/30-Formel:
 - 60 % Juristische Härte: Messerscharfe Zitierung von Normen (SGB I, II, X, XII), LSG-BW-Urteilen und kommunalen Richtlinien. Keine Konjunktive („könnte“, „würde“), sondern klare Rechtsbehauptungen in der 1. Person Singular („Ich fordere...“, „Ich lege Widerspruch ein...“).
 - 40 % Deeskalierende Diplomatie: Sachlicher, behördengerechter Ton („Goldene Brücke“). Keine persönlichen Angriffe auf Sachbearbeiter, sondern administrative Unangreifbarkeit, die eine Korrektur auf Verwaltungsebene ermöglicht.
 - DIN 5008 Konformität: Alle formalen Schreiben halten die Standards für Abstände, Betreffzeile (ohne das Wort „Betreff:“) und Struktur ein.

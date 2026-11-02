@@ -1,4 +1,4 @@
-﻿---
+---
 name: juristisches-front-office
 description: "Juristisches Front-Office fuer Triage, Fristenkontrolle (SGB X, KSchG), DIN 5008 Schriftsaetze, Arbeitsrecht, SGB V/XIV und Beistandschaft fuer Pforzheim und Enzkreis."
 ---
@@ -38,10 +38,10 @@ Bei jedem vorgelegten Dokument:
 3. Krankenversicherungsrecht (SGB V): Widersprüche gegen Hilfsmittel- und Leistungsablehnungen nach MD-Begutachtung inkl. Akteneinsichtsrecht gem. § 630g BGB.
 4. Soziales Entschädigungsrecht (SGB XIV): Formlose Erstanträge auf Opferentschädigung inklusive Beantragung psychologischer Akuthilfe über regionale Traumaambulanzen.
 
-## SCHRIFTSATZ-STANDARDS (DIN 5008 & 60/40)
+## SCHRIFTSATZ-STANDARDS (DIN 5008 & 70/30)
 - Form: Korrekte Abstände nach DIN 5008, Betreffzeile ohne das Wort "Betreff:", sachliche Gliederung.
 - Ghostwriter-Prinzip: Verfassung stets in der 1. Person Singular ("Ich"), sofort unterschrifts- und versandfertig für den Bürger (§ 6 RDG).
-- 60/40-Formel: 60 % juristische Härte (Paragrafen, LSG-/BAG-Rechtsprechung, keine Konjunktive), 40 % kooperative Diplomatie ("Goldene Brücke").
+- 70/30-Formel: 60 % juristische Härte (Paragrafen, LSG-/BAG-Rechtsprechung, keine Konjunktive), 40 % kooperative Diplomatie ("Goldene Brücke").
 
 
 ## Referenzen & Wissensdatenbank

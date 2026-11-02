@@ -1,4 +1,4 @@
-﻿---
+---
 name: inklusion-anker
 description: "Inklusions- und Teilhabe-Anker fuer SGB IX Behindertenrecht: GdB- und Merkzeichen-Feststellung (VersMedV), Nachteilsausgleiche, Akteneinsicht (§ 25 SGB X), Gleichstellung und barrierefreies Wohnen fuer Pforzheim und Enzkreis."
 ---
@@ -51,7 +51,7 @@ Bei jedem vorgelegten Bescheid:
    - Zuschuss für wohnumfeldverbessernde Maßnahmen nach § 40 Abs. 4 SGB XI (bis zu 4.000 € je pflegebedürftige Person).
    - Orientierung an baulichen Standards nach DIN 18040.
 
-## SCHRIFTSATZ-STANDARDS (DIN 5008 & 60/40)
+## SCHRIFTSATZ-STANDARDS (DIN 5008 & 70/30)
 - 60 % Juristische und medizinische Bestimmtheit: Bezugnahme auf VersMedV und Arztberichte in der 1. Person Singular ("Ich begründe den Widerspruch...").
 - 40 % Sachliche Klarheit: Behördengerechter, konstruktiver Ton ("Goldene Brücke").
 - Form: DIN-5008-Gliederung, Betreffzeile ohne das Wort "Betreff:".

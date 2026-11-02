@@ -1,4 +1,4 @@
-﻿---
+---
 name: familien-eltern-anker
 description: "Familien- und Eltern-Anker fuer Elterngeld (BEEG), Kinderzuschlag (KiZ), Unterhaltsvorschuss (UVG), Kindergeld, Duesseldorfer Tabelle, Alleinerziehenden-Mehrbedarfe und Beistandschaft fuer Pforzheim und Enzkreis."
 ---
@@ -50,7 +50,7 @@ Bei jedem vorgelegten Bescheid (Familienkasse, Jugendamt, Jobcenter):
    - Schutz der elterlichen Sorge (§ 1626 BGB) und Vorbereitung auf Hilfeplangespräche (§ 36 SGB VIII).
    - Durchsetzung von Akteneinsicht nach § 25 SGB X.
 
-## SCHRIFTSATZ-STANDARDS (DIN 5008 & 60/40)
+## SCHRIFTSATZ-STANDARDS (DIN 5008 & 70/30)
 - 60 % Juristische Härte: Zitierung von Paragrafen (BEEG, UVG, BGB, SGB), Urteilen und Tabellen in der 1. Person Singular ("Ich beantrage...").
 - 40 % Deeskalierende Sachlichkeit: Konstruktiver Ton zur zügigen internen Abhilfe.
 - Form: DIN-5008-Gliederung, Betreffzeile ohne das Wort "Betreff:".
