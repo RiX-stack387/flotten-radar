@@ -1,4 +1,4 @@
-﻿# ASB BW e.V. Region Nordschwarzwald – Wissensbasis 2026 (V23.4)
+# ASB BW e.V. Region Nordschwarzwald – Wissensbasis 2026 (V23.4)
 **Stand:** Oktober 2026 | **Perimeter:** Bad Herrenalb, Bad Liebenzell, Calw, Dobel, Freudenstadt
 **Offizielle Hauptdomain:** https://www.asb-nsw.de/
 
@@ -21,23 +21,23 @@
 * **Webseite:** https://www.asb-nsw.de/bad-herrenalb
 * **Adresse:** Gernsbacher Straße 39, 76332 Bad Herrenalb
 * **Telefon Zentrale:** 07083 92350 | Fax: 07083 923599 | E-Mail: info@asb-nsw.de
-* **Geschäftsführung:** Melanie Lausegger
+* **Geschäftsführung:** Geschäftsführung
 * **Ambulante Pflege & MSD:** Carina Bittmann (PDL) | Tel: 07083 923515 (Pflege-Notruf 24h) | E-Mail: c.bittmann@asb-nsw.de
   * Infoseite Ambulante Pflege: https://www.asb-nsw.de/dienstleistungen-angebote/ambulante-pflege
   * Infoseite Mobile Soziale Dienste: https://www.asb-nsw.de/dienstleistungen-angebote/mobile-soziale-dienste
-* **Fahrdienste & Krankenfahrten:** Mario Hernandez-Gonzalez (Disposition) | Tel: 07083 923511 | E-Mail: m.hernandez@asb-nsw.de
-  * Verwaltung / Abrechnung Fahrdienst: Anja Leitz | Tel: 07083 923521 | E-Mail: a.leitz@asb-nsw.de
+* **Fahrdienste & Krankenfahrten:** Disposition Fahrdienst (Disposition) | Tel: 07083 923511 | E-Mail: info@asb-nsw.de
+  * Verwaltung / Abrechnung Fahrdienst: Abrechnung Fahrdienst | Tel: 07083 923521 | E-Mail: info@asb-nsw.de
   * Infoseite Fahrdienste: https://www.asb-nsw.de/dienstleistungen-angebote/fahrdienste
-* **Kindertagesgruppe (Hilfe nach §§ 27/32 SGB VIII):** Lena Schlegel | Tel: 07083 923516 | E-Mail: tagesgruppe@asb-nsw.de
+* **Kindertagesgruppe (Hilfe nach §§ 27/32 SGB VIII):** Einrichtungsleitung Kita | Tel: 07083 923516 | E-Mail: tagesgruppe@asb-nsw.de
 
 ### B. Bad Liebenzell / Calw (Seniorenzentrum Am Alten Schulweg)
 * **Webseite Standort:** https://www.asb-nsw.de/bad-liebenzell
 * **Webseite Einrichtung:** https://www.asb-nsw.de/dienstleistungen-angebote/seniorenzentrum-am-alten-schulweg
 * **Adresse:** Alter Schulweg 1, 75378 Bad Liebenzell
 * **Telefon Empfang / Zentrale:** 07052 8849810 | Fax: 07052 884981105 | E-Mail: seniorenzentrum-liebenzell@asb-nsw.de
-* **Einrichtungsleitung:** Tony Hornfeldt | Tel: 07052 884981101 | E-Mail: t.hornfeldt@asb-nsw.de
+* **Einrichtungsleitung:** Einrichtungsleitung | Tel: 07052 884981101 | E-Mail: t.hornfeldt@asb-nsw.de
 * **Stationäre Pflegedienstleitung:** Bettina Stanger | Tel: 07052 884981102
-* **Ambulante Pflege Bad Liebenzell & Calw:** Tony Hornfeldt (PDL) | Tel: 07052 9348166 | E-Mail: t.hornfeldt@asb-nsw.de
+* **Ambulante Pflege Bad Liebenzell & Calw:** Einrichtungsleitung (PDL) | Tel: 07052 9348166 | E-Mail: t.hornfeldt@asb-nsw.de
 * **Kapazitäten & Angebote:**
   * 60 vollstationäre Einzelzimmer (Kurz- und Langzeitpflege) auf zwei Wohnbereichen
   * 12 Tagespflegeplätze im Erdgeschoss mit eigenem Zugang und Terrasse
@@ -50,8 +50,8 @@
 * **Webseite Tagespflege:** https://www.asb-nsw.de/dienstleistungen-angebote/tagespflege
 * **Adresse:** Neue Herrenalber Straße 14, 75335 Dobel
 * **Telefon Empfang:** 07083 500678100 | Fax: 07083 500678105 | E-Mail: pflegeheim-dobel@asb-nsw.de
-* **Einrichtungsleitung:** Veronika Kruppa | Tel: 07083 500678101 | E-Mail: v.kruppa@asb-nsw.de
-* **Pflegedienstleitung Pflegeheim:** Nicole Munisi | Tel: 07083 500678102
+* **Einrichtungsleitung:** Einrichtungsleitung | Tel: 07083 500678101 | E-Mail: v.kruppa@asb-nsw.de
+* **Pflegedienstleitung Pflegeheim:** Pflegedienstleitung | Tel: 07083 500678102
 * **Abrechnung & Verwaltung:** Heidemarie Großhans | Tel: 07083 500678100
 * **Betreutes Wohnen (Servicewohnen):** Ulrike Badouin | Tel: 07083 500678103 | E-Mail: betreuteswohnen-dobel@asb-nsw.de
 * **Tagespflege Sonneninsel:** Tel: 07083 500678500 (15 Tagespflegeplätze, Schnuppertage möglich, eigener Hol- und Bringdienst)
@@ -59,7 +59,7 @@
 ### D. Freudenstadt (Standort & Wohnanlage Am Jägerhof)
 * **Adresse:** Wildbader Straße 30, 72250 Freudenstadt
 * **Telefon Stützpunkt & Notruf:** 07441 951342 | E-Mail: jaegerhof-pflege@asb-nsw.de
-* **Pflegedienstleitung:** Bianca Lörcher | Stellv.: Renate Ligensa
+* **Pflegedienstleitung:** Pflegedienstleitung | Stellv.: Stellv. Pflegedienstleitung
 * **Angebote:** Betreutes Wohnen in der Wohnanlage, ambulante Pflegetouren in Freudenstadt und Umgebung, Essen auf Rädern (warmer Mittagstisch & tägliche Belieferung), Hausnotruf.
 
 ---
