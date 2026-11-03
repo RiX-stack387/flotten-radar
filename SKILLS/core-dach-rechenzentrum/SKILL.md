@@ -237,3 +237,9 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
     2. **Absolutes RDG-Verbot im Außenverhältnis:** In den drei öffentlichen Lotsen sind Widerspruchsmuster, Antragsentwürfe (auch mit "Max Mustermann"), Bescheidprüfungen und individuelle Frist-/Anspruchsberechnungen strikt gesperrt; stattdessen erfolgt zwingend der Verweis an die Pflegestützpunkte nach § 7a SGB XI, das Consilio Enzkreis, Sozialverbände (VdK) oder Rechtsanwälte.
     3. **DSGVO Art. 9 & § 26 BDSG Schutz:** Aktiver Datenschutz-Hardlock gegen die Eingabe von Gesundheitsdaten im Chat sowie ausschließliche Verwendung anonymisierter Abteilungs-/Funktionskontakte und Sammel-E-Mails (keine Mitarbeiter-Klarnamen in `ASB_Knowledge_Base_2026.md` oder in den ASB-Skills).
     4. **§ 5 DDG Impressum & § 309 Nr. 7 BGB Haftung:** Permanenter Rechts-Footer samt einzeiliger Anbieterkennzeichnung und sofortiger Volltext-Ausgabe bei Eingabe von „Impressum“ oder „Datenschutz“.
+
+## [PROAKTIVE VORAUSSCHAU & ARBEITSPLAN-STANDARD V1.3]
+- **Blinder Fleck / Risiko:** Keine akuten Systemfehler; Laufendes Monitoring der Raten-Limits und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** Vollständige Parität zwischen lokaler SSD (C:\), Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+

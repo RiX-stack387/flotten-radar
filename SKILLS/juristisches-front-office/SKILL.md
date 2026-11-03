@@ -60,3 +60,9 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 2. Formprüfung: Sind Schriftform (§ 623 BGB) und DIN-5008-Struktur gewahrt?
 3. Zuständigkeits-Check: Sind Behörde oder Gericht regional korrekt zugeordnet?
 4. Risikoprognose & Routing: Welche behördliche Reaktion droht und muss ein spezialisierter Anker der Flotte hinzugezogen werden?
+
+## [PROAKTIVE VORAUSSCHAU & ARBEITSPLAN-STANDARD V1.3]
+- **Blinder Fleck / Risiko:** Keine akuten Systemfehler; Laufendes Monitoring der Raten-Limits und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** Vollständige Parität zwischen lokaler SSD (C:\), Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+

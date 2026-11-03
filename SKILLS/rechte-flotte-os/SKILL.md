@@ -63,3 +63,9 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 2. Modul-Orchestrierung: Welche der 11 Fach-Anker müssen zur ganzheitlichen Lösung zusammenwirken?
 3. Ratio-Weiche: Wurde im Schriftsatz-Modus jede Sentimentalität aus dem Behördentext verbannt (70/30-Empathie im Dialog / DIN-5008-Präzision im Brief)?
 4. Risikoprognose & Folgeschritt: Welche Gegenreaktion der Behörde droht und welcher nächste taktische Zug ist nötig?
+
+## [PROAKTIVE VORAUSSCHAU & ARBEITSPLAN-STANDARD V1.3]
+- **Blinder Fleck / Risiko:** Keine akuten Systemfehler; Laufendes Monitoring der Raten-Limits und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** Vollständige Parität zwischen lokaler SSD (C:\), Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+
