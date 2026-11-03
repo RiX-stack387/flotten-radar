@@ -65,3 +65,13 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 2. Existenzschutz-Check: Ist das Konto als P-Konto geschützt und sind alle Freibeträge nach § 903 ZPO bescheinigt?
 3. Forderungs-Audit: Sind Hauptforderung, Zinsen und Inkassogebühren separat aufgeschlüsselt?
 4. Proaktiver Schritt: Welcher konkrete Antrag oder Widerspruch muss noch heute beim Amtsgericht oder der Bank eingereicht werden?
+
+## [PROAKTIVE VORAUSSCHAU & RISIKO-MATRIX]
+- **Blinder Fleck / Risiko:** Laufende Überwachung der Raten-Limits, API-Anbindungen und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** 3-Wege-Parität zwischen C:\DefconRecht, Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+
+
+## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
+- Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
+- **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.

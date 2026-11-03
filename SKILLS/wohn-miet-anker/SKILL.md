@@ -63,3 +63,13 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 2. Kündigungs-Prüfung: Liegt ein formeller Mangel (fehlende Vollmacht gem. § 174 BGB, unzureichende Begründung) vor?
 3. Härtefall-Audit: Wurden gesundheitliche oder soziale Härtegründe lückenlos erfasst?
 4. Proaktiver Schritt: Welcher konkrete Schriftsatz oder Nachweis muss dem Vermieter als Nächstes zugehen?
+
+## [PROAKTIVE VORAUSSCHAU & RISIKO-MATRIX]
+- **Blinder Fleck / Risiko:** Laufende Überwachung der Raten-Limits, API-Anbindungen und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** 3-Wege-Parität zwischen C:\DefconRecht, Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+
+
+## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
+- Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
+- **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.

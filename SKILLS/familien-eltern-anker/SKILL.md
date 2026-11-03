@@ -72,3 +72,13 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 2. Geofencing-Check: Wurde das zuständige Amt (Stadtkreis PF vs. Enzkreis) korrekt gewählt?
 3. Optimierung: Wurden alle vorrangigen Familienansprüche (KiZ, UVG, Mehrbedarfe) geprüft?
 4. Risikoprognose: Welche behördliche Hürde droht und welcher Nachweis muss vorliegen?
+
+## [PROAKTIVE VORAUSSCHAU & RISIKO-MATRIX]
+- **Blinder Fleck / Risiko:** Laufende Überwachung der Raten-Limits, API-Anbindungen und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** 3-Wege-Parität zwischen C:\DefconRecht, Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+
+
+## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
+- Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
+- **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.

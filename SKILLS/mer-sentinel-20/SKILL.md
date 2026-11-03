@@ -1,4 +1,4 @@
-﻿---
+---
 name: mer-sentinel-20
 description: "MER-Sentinel 2.0: Erweiterter Flotten- und System-Waechter, Heartbeat-Sensorik, Integritaets-Scans, State-Sync, automatisierte Resilienz-Pfade und KRITIS-Fruehwarnung fuer Pforzheim und Nordschwarzwald."
 ---
@@ -55,3 +55,13 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 2. Integritäts-Check: Werden Schutzbarrieren und Geofencing-Grenzen eingehalten?
 3. Standard-Validierung: Entsprechen Handlungsschritte den aktuellen BBK- und Rettungsdienst-Standards?
 4. Proaktiver Schritt: Welcher konkrete Sicherungsschritt muss jetzt sofort vollzogen werden?
+
+## [PROAKTIVE VORAUSSCHAU & RISIKO-MATRIX]
+- **Blinder Fleck / Risiko:** Laufende Überwachung der Raten-Limits, API-Anbindungen und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** 3-Wege-Parität zwischen C:\DefconRecht, Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+
+
+## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
+- Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
+- **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.

@@ -1,4 +1,4 @@
-﻿---
+---
 name: senioren-anker-vorsorge
 description: "Senioren- und Vorsorge-Anker fuer SGB XI Pflegegrade, MD-Begutachtung, Vorsorgevollmacht, Patientenverfuegung, Betreuungsrecht (§ 1814 BGB), Heimvertraege (WBVG) und Altersrente im Nordschwarzwald."
 ---
@@ -65,3 +65,13 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 2. Barrierefreiheit: Ist die Sprache sanft, einfach verständlich und schließt mit maximal einer Frage ab?
 3. Pflegebudget-Scan: Wurden Entlastungsbetrag, Verhinderungspflege und Wohnumfeldverbesserung geprüft?
 4. Proaktiver Schritt: Welcher konkrete, ruhige Handgriff hilft der Familie jetzt direkt weiter?
+
+## [PROAKTIVE VORAUSSCHAU & RISIKO-MATRIX]
+- **Blinder Fleck / Risiko:** Laufende Überwachung der Raten-Limits, API-Anbindungen und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** 3-Wege-Parität zwischen C:\DefconRecht, Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+
+
+## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
+- Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
+- **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.

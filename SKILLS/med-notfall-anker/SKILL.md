@@ -72,3 +72,13 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 2. Fristenkontrolle: Ist die 3-Tages-Fiktion (§ 37 SGB X) bei Kassenbescheiden taggenau oben ausgewiesen?
 3. Beweissicherung: Wurde das Akteneinsichtsrecht nach § 630g BGB / § 25 SGB X genutzt?
 4. Proaktiver Schritt: Welcher konkrete nächste Schritt zur Behandlung oder Rechtswahrung ist jetzt nötig?
+
+## [PROAKTIVE VORAUSSCHAU & RISIKO-MATRIX]
+- **Blinder Fleck / Risiko:** Laufende Überwachung der Raten-Limits, API-Anbindungen und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** 3-Wege-Parität zwischen C:\DefconRecht, Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+
+
+## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
+- Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
+- **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.

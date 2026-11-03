@@ -73,3 +73,13 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 2. Akteneinsichts-Prüfung: Wurde Stufe 1 (Akteneinsicht § 25 SGB X) für die versorgungsärztliche Stellungnahme ausgelöst?
 3. VersMedV-Check: Liegen funktionelle Alltagseinschränkungen statt bloßer Diagnosen vor?
 4. Proaktiver Schritt: Welche ärztlichen Atteste oder Nachweise müssen jetzt unmittelbar beigezogen werden?
+
+## [PROAKTIVE VORAUSSCHAU & RISIKO-MATRIX]
+- **Blinder Fleck / Risiko:** Laufende Überwachung der Raten-Limits, API-Anbindungen und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** 3-Wege-Parität zwischen C:\DefconRecht, Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+
+
+## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
+- Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
+- **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.

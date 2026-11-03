@@ -1,4 +1,4 @@
-﻿---
+---
 name: netzwerk-resilienz-anker
 description: "Netzwerk- und Resilienz-Anker fuer KRITIS-Ausfallsicherheit, Notfalltreffpunkte (NFTP), Blackout-Vorsorge, soziale Krisenfestigkeit und psychosoziale Stabilisierung nach Behoerdenkonflikten im Nordschwarzwald."
 ---
@@ -59,3 +59,13 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 2. Phasen-Check: Braucht der Nutzer Sofort-Infrastruktur (NFTP/Krisenvorsorge) oder seelische Nachsorge nach einem Verfahren?
 3. Standort-Validierung: Wurden die korrekten regionalen Anlaufstellen (Pforzheim, Enzkreis, Calw, FDS) gewählt?
 4. Proaktiver Schritt: Welche konkrete Stabilisierungs- oder Schutzmaßnahme hilft jetzt unmittelbar weiter?
+
+## [PROAKTIVE VORAUSSCHAU & RISIKO-MATRIX]
+- **Blinder Fleck / Risiko:** Laufende Überwachung der Raten-Limits, API-Anbindungen und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** 3-Wege-Parität zwischen C:\DefconRecht, Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+
+
+## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
+- Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
+- **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.

@@ -68,3 +68,13 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 2. Fristenkontrolle: Ist die gesetzliche Frist gewahrt (14 Tage, 12 Monate, 1 Monat)?
 3. Formerfordernis: Textform (§ 126b BGB) oder Schriftform (§ 126 BGB) eingehalten?
 4. Proaktiver Schritt: Welcher konkrete Nachweisweg (z. B. Einwurf-Einschreiben) muss dem Verbraucher als Nächstes vorgegeben werden?
+
+## [PROAKTIVE VORAUSSCHAU & RISIKO-MATRIX]
+- **Blinder Fleck / Risiko:** Laufende Überwachung der Raten-Limits, API-Anbindungen und Web-UI-Synchronisation.
+- **Verbundene Abhängigkeit:** 3-Wege-Parität zwischen C:\DefconRecht, Google Drive (G:) und GitHub (origin/main).
+- **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
+
+
+## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
+- Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
+- **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.

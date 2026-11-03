@@ -243,3 +243,8 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 - **Verbundene Abhängigkeit:** Vollständige Parität zwischen lokaler SSD (C:\), Google Drive (G:) und GitHub (origin/main).
 - **Nächster proaktiver Schritt:** Bereithalten für operative SGB-Analysen, ASB-Dienste oder Skript-Erweiterungen.
 
+
+
+## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
+- Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
+- **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
