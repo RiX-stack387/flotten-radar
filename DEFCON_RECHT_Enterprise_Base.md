@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-03 06:55:59 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-03 14:13:26 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -204,9 +204,10 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 20 SGB II** | 563,00 € | Regelbedarf für Alleinstehende Erwachsene in der Regelbedarfsstufe 1 für das Jahr 2026 beim Bürgergeld bzw. Grundsicherungsgeld. |
-| **§ 22 SGB II** | Kosten der Unterkunft und Heizung (KdU) werden grundsätzlich nicht pauschal gezahlt, sondern in tatsächlicher Höhe übernommen – sofern sie angemessen sind. | Regelung zur Übernahme der Wohnkosten und Heizkosten im Rahmen des Grundsicherungsgeldes. |
-| **SGB II Reform 2026** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Erläuterung zur amtlichen Umbenennung des Bürgergeldes in Grundsicherungsgeld ab Juli 2026. |
+| **§ 20 SGB II** | 563 € | Monatlicher Regelbedarf der Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Jahr 2026 beim Bürgergeld bzw. Grundsicherungsgeld |
+| **§ 11b SGB II** | 208,90 € | Gesetzlicher Freibetrag bei Ausübung eines Minijobs zur Berücksichtigung des Zuverdienstes |
+| **§ 22 SGB II** | Jobcenter darf Miete in der Karenzzeit nicht einfach kürzen | Schutz der tatsächlichen Wohnkosten (KdU) während der gesetzlichen Karenzzeit |
+| **SGB II** | Grundsicherungsgeld | Offizielle Umbenennung des Bürgergeldes nach dem SGB II mit Wirkung zum 1. Juli 2026 |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -466,9 +467,7 @@
 ## [ENZ_GM_07] Sektor ENZ_GM_07
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Brennholzbestellfrist 2026/2027 Gemeinde Kämpfelbach** | 01.11.2026 | Frist zur Bestellung von Brennholz für das Frühjahr 2027 bei der Gemeindeverwaltung Kämpfelbach. |
-| **Kroni-Projekt Erlös Kämpfelbach** | 800 Euro | Erlös aus der Kronkorken-Sammelaktion für den Kinder- und Jugendhospizdienst Sterneninsel. |
-| **Gemeinderatssitzung Kämpfelbach** | 19.10.2026 | Sitzungstermin des Gemeinderats Kämpfelbach in der Weinbrennerkelter Bilfingen. |
+| **Gemeinde Kämpfelbach Brennholzbestellung 2026/2027** | Ab sofort kann bis zum 1. November 2026 wieder Brennholz für das Frühjahr 2027 bestellt werden. | Frist für die Brennholzbestellung im Enzkreis für die Gemeinde Kämpfelbach |
 
 ## [ENZ_GM_11] Sektor ENZ_GM_11
 | Norm / AZ | Wert / Parameter | Kontext / Detail |

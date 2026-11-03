@@ -4,6 +4,10 @@ RADAR-DELTA COMPACT (2026-11-03)
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 20 SGB II: 563,00 €
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Kosten der Unterkunft und Heizung
 - [31: Bürgergeld.org - Richtwerte & Rechner] SGB II Reform 2026: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 20 SGB II: 563 €
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 11b SGB II: 208,90 €
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Jobcenter darf Miete in der Karenzzeit nicht einfach kürzen
+- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Grundsicherungsgeld
 - [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Aktion Weihnachtswunsch Althengstett: 30 Euro
 - [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Stellenausschreibung Mensakraft: 01.12.2026
 - [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Verkehrsmitteilung Hermann-Hesse-Bahn: 18. Oktober bis 8. November 2026
@@ -11,3 +15,4 @@ RADAR-DELTA COMPACT (2026-11-03)
 - [CW_GM_15: Gemeinde Simmersfeld - Bürgerservice] Marktrecht Simmersfeld: 200-jähriges Bestehen des Marktrechts in Simmersfeld
 - [ENZ_GM_17: Gemeinde Remchingen] Brennholzpreis Remchingen: 65€/Fm
 - [ENZ_GM_17: Gemeinde Remchingen] Zählerstandübermittlung digital: 01.10.2026
+- [ENZ_GM_07: Gemeinde Kämpfelbach] Gemeinde Kämpfelbach Brennholzbestellung 2026/2027: Ab sofort kann bis zum 1. November 2026 wieder Brennholz für das Frühjahr 2027 bestellt werden.
