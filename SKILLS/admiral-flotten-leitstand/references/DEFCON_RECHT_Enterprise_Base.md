@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-01 09:25:42 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-03 06:55:59 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -143,8 +143,8 @@
 ## [19] Sektor 19
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz (JVKostG)** | 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen | Kosten für die Überlassung elektronisch gespeicherter Entscheidungsdateien des Bundesarbeitsgerichts |
-| **Justizverwaltungskostengesetz (JVKostG)** | 0,50 Euro pro Seite für die ersten 50 Seiten, für jede weitere Seite 0,15 Euro | Schreibauslagen für die Versendung von Entscheidungsabdrucken |
+| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]** | 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen | Kosten für die Überlassung elektronisch gespeicherter Dateien von Entscheidungen. |
+| **Justizverwaltungskostengesetz [JVKostG]** | 0,50 Euro pro Seite für die ersten 50 Seiten, für jede weitere Seite 0,15 Euro | Schreibauslagen für die Versendung von Entscheidungsabdrucken. |
 
 ## [20] Sektor 20
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -204,12 +204,9 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Terminologieänderung des Bürgergeldes in Grundsicherungsgeld ab der Reform 2026 |
-| **SGB II** | 01.07.2026 | Stichtag der offiziellen Umbenennung von Bürgergeld in Grundsicherungsgeld |
-| **§ 20 SGB II** | 563 € | Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Jahr 2026 |
-| **§ 22 SGB II** | Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen. | Kosten der Unterkunft und Heizung (KdU) und Begrenzung bei Überschreitung der Angemessenheitsobergrenzen |
-| **§ 11b SGB II** | 208,90 € | Monatlicher anrechnungsfreier Freibetrag bei Einkommen aus einem Minijob |
-| **§ 22 SGB II** | 416 Euro | Gerichtliche Bestätigung der Begrenzung der Mietkosten (KdU-Obergrenze) durch das Jobcenter |
+| **§ 20 SGB II** | 563,00 € | Regelbedarf für Alleinstehende Erwachsene in der Regelbedarfsstufe 1 für das Jahr 2026 beim Bürgergeld bzw. Grundsicherungsgeld. |
+| **§ 22 SGB II** | Kosten der Unterkunft und Heizung (KdU) werden grundsätzlich nicht pauschal gezahlt, sondern in tatsächlicher Höhe übernommen – sofern sie angemessen sind. | Regelung zur Übernahme der Wohnkosten und Heizkosten im Rahmen des Grundsicherungsgeldes. |
+| **SGB II Reform 2026** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Erläuterung zur amtlichen Umbenennung des Bürgergeldes in Grundsicherungsgeld ab Juli 2026. |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -508,6 +505,12 @@
 | **Art. 6 Abs. 1 f) DSGVO** | Löschung bzw. Anonymisierung nach spätestens 7 Tagen | Frist zur Löschung und Speicherdauer von IP-Adressen bei Nutzung des Netze BW GmbH NETZMonitors auf der Gemeindewebsite. |
 | **Art. 6 Abs. 1 S. 1 lit. f DSGVO** | Sicherstellung der Stabilität, Funktionalität und Sicherheit unserer Website | Rechtsgrundlage und berechtigtes Interesse für die Erhebung technisch notwendiger Server-Log-Daten bei der Webseitennutzung. |
 
+## [ENZ_GM_17] Sektor ENZ_GM_17
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Brennholzpreis Remchingen** | 65€/Fm | Preis für Brennholz aus März 2026 im Rahmen des kommunalen Brennholzverkaufs. |
+| **Zählerstandübermittlung digital** | 01.10.2026 | Datum zur digitalen Übermittlung von Zählerständen in Remchingen. |
+
 ## [ENZ_GM_18] Sektor ENZ_GM_18
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
@@ -578,7 +581,9 @@
 ## [CW_GM_01] Sektor CW_GM_01
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Schließung Ortsverwaltung Ottenbronn** | Am Donnerstag, 22.10.2026, bleibt die Ortsverwaltung geschlossen. | Schließung der Ortsverwaltung Ottenbronn am 22.10.2026 mit Verweis auf das Rathaus Althengstett |
+| **Aktion Weihnachtswunsch Althengstett** | 30 Euro | Maximaler Betrag für einen Weihnachtswunschzettel im Rahmen der gemeindlichen Unterstützungsaktion für Familien. |
+| **Stellenausschreibung Mensakraft** | 01.12.2026 | Beginn des Arbeitsverhältnisses für eine Mensakraft in Teilzeit bei der Gemeinde Althengstett. |
+| **Verkehrsmitteilung Hermann-Hesse-Bahn** | 18. Oktober bis 8. November 2026 | Dauer der nächtlichen Bauarbeiten mit Busersatzverkehr auf der Streckenführung der Hermann-Hesse-Bahn. |
 
 ## [CW_GM_03] Sektor CW_GM_03
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -608,6 +613,12 @@
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
 | **Gemeinde Unterreichenbach Bekanntmachung vom 20.11.2025** | Der Zutritt zum Rathaus ist auch ohne vorherige Terminvereinbarung möglich. | Regelung zur Terminvereinbarung für den Rathausbesuch in Unterreichenbach |
+
+## [CW_GM_15] Sektor CW_GM_15
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Landesförderung Breitbandausbau (Zuwendungsbescheid vom 13.05.2024)** | 1.552.800 Euro | Zuwendungsbescheid für den weiteren Ausbau des Glasfasernetzes der Gemeinde Simmersfeld. |
+| **Marktrecht Simmersfeld** | 200-jähriges Bestehen des Marktrechts in Simmersfeld | Jubiläum des Marktrechts im Rahmen des Herbstmarktes am 3. Oktober. |
 
 ## [FDS_Z1] Sektor FDS_Z1
 | Norm / AZ | Wert / Parameter | Kontext / Detail |

@@ -1,5 +1,13 @@
-RADAR-DELTA COMPACT (2026-11-01)
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Die von dir eingegebenen Wohnkosten
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: 416 Euro
-- [19: BAG Entscheidungsdatenbank] § 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz (JVKostG): 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen
-- [19: BAG Entscheidungsdatenbank] Justizverwaltungskostengesetz (JVKostG): 0,50 Euro pro Seite für die ersten 50 Seiten, für jede weitere Seite 0,15 Euro
+RADAR-DELTA COMPACT (2026-11-03)
+- [19: BAG Entscheidungsdatenbank] § 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]: 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen
+- [19: BAG Entscheidungsdatenbank] Justizverwaltungskostengesetz [JVKostG]: 0,50 Euro pro Seite für die ersten 50 Seiten, für jede weitere Seite 0,15 Euro
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 20 SGB II: 563,00 €
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Kosten der Unterkunft und Heizung
+- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II Reform 2026: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.
+- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Aktion Weihnachtswunsch Althengstett: 30 Euro
+- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Stellenausschreibung Mensakraft: 01.12.2026
+- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Verkehrsmitteilung Hermann-Hesse-Bahn: 18. Oktober bis 8. November 2026
+- [CW_GM_15: Gemeinde Simmersfeld - Bürgerservice] Landesförderung Breitbandausbau (Zuwendungsbescheid vom 13.05.2024): 1.552.800 Euro
+- [CW_GM_15: Gemeinde Simmersfeld - Bürgerservice] Marktrecht Simmersfeld: 200-jähriges Bestehen des Marktrechts in Simmersfeld
+- [ENZ_GM_17: Gemeinde Remchingen] Brennholzpreis Remchingen: 65€/Fm
+- [ENZ_GM_17: Gemeinde Remchingen] Zählerstandübermittlung digital: 01.10.2026
