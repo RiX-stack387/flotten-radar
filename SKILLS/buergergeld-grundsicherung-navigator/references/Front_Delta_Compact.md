@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-04)
+RADAR-DELTA COMPACT (2026-11-04 08:30:20)
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Die von dir eingegebenen Wohnkosten
 - [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.
 - [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt.
