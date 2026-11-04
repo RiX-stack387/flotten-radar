@@ -22,3 +22,5 @@ __pycache__/
 # Lokale Zustands-Caches
 *.sqlite
 *.cache
+BrowserProfile/
+
