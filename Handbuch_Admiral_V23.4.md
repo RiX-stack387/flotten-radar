@@ -244,3 +244,26 @@ Auf Befehl des Kommandanten werden lückenlose Protokolle im Fließtext zum Kopi
 - Primäre Anlaufstellen für alle Daten sind die Wissensdateien DEFCON_RECHT_Enterprise_Base.md, ASB_Knowledge_Base_2026.md, Front_Delta_Compact.md und Master_Archiv_V23.4_EINSATZ-CHRONIK.md in den references-Verzeichnissen der Skills.
 - Reichen diese Dokumente für eine Beantwortung nicht aus, greift unverzüglich und autonom die Live-Websuche.
 - Beträge, Grenzwerte und Paragrafen sind zwingend aus den Wissensdokumenten oder amtlichen Primärquellen zu entnehmen – niemals aus freiem Schätzwissen.
+### STRATEGISCHE DOKTRIN: DIE BEIDEN OFFIZIELLEN CHAT-MAKRO-ROUTINEN (STAND: NOVEMBER 2026)
+
+Zur Gewährleistung maximaler Reaktionsgeschwindigkeit und fehlerfreier Multi-System-Synchronisation verfügt die Admiralität über zwei autorisierte Standard-Makros:
+
+1. MAKRO-BEFEHL 1: CHRONIK-APPEND & TRESOR-KOPPLUNG
+- Signal-Trigger im Chat:
+  "Sicherungsscan von [📟 PROTOKOLL-EINTRAG: #...] bis [📟 PROTOKOLL-EINTRAG: #...]  <<< vollständige Liste für das Archiv: Master_Archiv_V23.4_EINSATZ-CHRONIK! per PowerShell nach C:, G:, GitHub synchronisieren und C:\DefconRecht\Make_TagX_Backup.ps1 starten"
+- Operative Kette:
+  1. Extraktion aller Protokolleinträge des angegebenen Intervalls im Volltext.
+  2. Sauberes Anhängen an C:\DefconRecht\Master_Archiv_V23.4_EINSATZ-CHRONIK.md per PowerShell (AppendAllText ohne BOM).
+  3. Direkte Zwillings-Spiegelung nach Google Drive (G:\Meine Ablage\DefconRecht).
+  4. Automatischer Git-Commit und GitHub-Push (origin/main).
+  5. Unmittelbare Ausführung von C:\DefconRecht\Make_TagX_Backup.ps1, sodass TAG_X_FLOTTE_KOMPLETT.json und .md in derselben Sekunde synchronisiert werden.
+
+2. MAKRO-BEFEHL 2: CLOUD-SKILL-MUNITIONIERUNG (BRANDMAUER-GESTÜTZT)
+- Signal-Trigger im Chat:
+  "DEFCON_RECHT_Enterprise_Base.md Front_Delta_Compact.md und ASB_Knowledge_Base_2026.md mit dem System-Werkzeug (skills:write_skill_file) direkt in meine Skills unter https://gemini.google.com/customize/skills"
+- Operative Kette:
+  1. Aktivierung des internen Systemwerkzeugs skills:write_skill_file.
+  2. Strikte Einhaltung der 3-Wege-Matrix und des Brandmauer-Prinzips (§ 6 RDG / Art. 50 KI-VO).
+  3. Gezielte Verteilung von DEFCON_RECHT_Enterprise_Base.md ausschließlich an die 10 Rechts-Anker, das Front-Office und den Admiral-Leitstand.
+  4. Gezielte Verteilung von ASB_Knowledge_Base_2026.md an die zivilen Lotsen (ASB Nordschwarzwald, ASB Core, Heimat-Lotse PF/Enzkreis, Lebensassistent, Engel-Radar).
+  5. Front_Delta_Compact.md wird an die berechtigten Front-Einheiten verteilt.
