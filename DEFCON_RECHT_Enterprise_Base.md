@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-03 14:13:26 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-04 08:30:04 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -204,10 +204,13 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 20 SGB II** | 563 € | Monatlicher Regelbedarf der Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Jahr 2026 beim Bürgergeld bzw. Grundsicherungsgeld |
-| **§ 11b SGB II** | 208,90 € | Gesetzlicher Freibetrag bei Ausübung eines Minijobs zur Berücksichtigung des Zuverdienstes |
-| **§ 22 SGB II** | Jobcenter darf Miete in der Karenzzeit nicht einfach kürzen | Schutz der tatsächlichen Wohnkosten (KdU) während der gesetzlichen Karenzzeit |
-| **SGB II** | Grundsicherungsgeld | Offizielle Umbenennung des Bürgergeldes nach dem SGB II mit Wirkung zum 1. Juli 2026 |
+| **§ 22 SGB II** | Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen. | Berechnung der Kosten der Unterkunft und Heizung (KdU) sowie regionale Angemessenheitsprüfung und Kürzungsbefugnis des Jobcenters bei Obergrenzenüberschreitung. |
+| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld im Rahmen der Reform 2026. |
+| **SGB II** | Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt. | Stichtag für das Inkrafttreten der Umbenennung von Bürgergeld in Grundsicherungsgeld. |
+| **§ 20 SGB II** | 563 € | Amtliche Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Bürgergeld bzw. Grundsicherungsgeld 2026. |
+| **§ 21 SGB II** | Mehrbedarfe nach § 21 SGB II | Gesetzliche Mehrbedarfe für Alleinerziehende, Schwangere oder dezentrale Warmwasserbereitung. |
+| **§ 11b SGB II** | 208,90 € | Freibetrag bei Zuverdienst aus einem Minijob nach Bereinigung gemäß § 11b SGB II. |
+| **§ 11 SGB II** | Ja, beide Leistungen zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf. | Anrechnung von Kindergeld und Unterhalt als Einkommen des Kindes zur Minderung des Bedarfs. |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -468,6 +471,11 @@
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
 | **Gemeinde Kämpfelbach Brennholzbestellung 2026/2027** | Ab sofort kann bis zum 1. November 2026 wieder Brennholz für das Frühjahr 2027 bestellt werden. | Frist für die Brennholzbestellung im Enzkreis für die Gemeinde Kämpfelbach |
+
+## [ENZ_GM_10] Sektor ENZ_GM_10
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **§ 7 Straßengesetz Baden-Württemberg (StrG)** | Der Gemeinderat der Gemeinde Königsbach-Stein hat am 25. Februar 2026 die Einziehung der beschränkt-öffentlichen Feldwege Flst. Nr. 1834 und 7951 in der Gemarkung Königsbach beschlossen. | Öffentliche Bekanntmachung über die Einziehung beschränkt-öffentlicher Feldwege auf Gemarkung Königsbach. |
 
 ## [ENZ_GM_11] Sektor ENZ_GM_11
 | Norm / AZ | Wert / Parameter | Kontext / Detail |

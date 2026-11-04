@@ -1,18 +1,7 @@
-RADAR-DELTA COMPACT (2026-11-03)
-- [19: BAG Entscheidungsdatenbank] § 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]: 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen
-- [19: BAG Entscheidungsdatenbank] Justizverwaltungskostengesetz [JVKostG]: 0,50 Euro pro Seite für die ersten 50 Seiten, für jede weitere Seite 0,15 Euro
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 20 SGB II: 563,00 €
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Kosten der Unterkunft und Heizung
-- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II Reform 2026: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 20 SGB II: 563 €
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 11b SGB II: 208,90 €
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Jobcenter darf Miete in der Karenzzeit nicht einfach kürzen
-- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Grundsicherungsgeld
-- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Aktion Weihnachtswunsch Althengstett: 30 Euro
-- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Stellenausschreibung Mensakraft: 01.12.2026
-- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Verkehrsmitteilung Hermann-Hesse-Bahn: 18. Oktober bis 8. November 2026
-- [CW_GM_15: Gemeinde Simmersfeld - Bürgerservice] Landesförderung Breitbandausbau (Zuwendungsbescheid vom 13.05.2024): 1.552.800 Euro
-- [CW_GM_15: Gemeinde Simmersfeld - Bürgerservice] Marktrecht Simmersfeld: 200-jähriges Bestehen des Marktrechts in Simmersfeld
-- [ENZ_GM_17: Gemeinde Remchingen] Brennholzpreis Remchingen: 65€/Fm
-- [ENZ_GM_17: Gemeinde Remchingen] Zählerstandübermittlung digital: 01.10.2026
-- [ENZ_GM_07: Gemeinde Kämpfelbach] Gemeinde Kämpfelbach Brennholzbestellung 2026/2027: Ab sofort kann bis zum 1. November 2026 wieder Brennholz für das Frühjahr 2027 bestellt werden.
+RADAR-DELTA COMPACT (2026-11-04)
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Die von dir eingegebenen Wohnkosten
+- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.
+- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt.
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 21 SGB II: Mehrbedarfe nach § 21 SGB II
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 11 SGB II: Ja, beide Leistungen zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf.
+- [ENZ_GM_10: Gemeinde Königsbach-Stein] § 7 Straßengesetz Baden-Württemberg (StrG): Der Gemeinderat der Gemeinde Königsbach-Stein hat am 25. Februar 2026 die Einziehung der beschränkt-öffentlichen Feldwege Flst. Nr. 1834 und 7951 in der Gemarkung Königsbach beschlossen.
