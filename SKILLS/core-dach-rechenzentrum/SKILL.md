@@ -204,19 +204,10 @@ AUTORISIERTES FLOTTENREGISTER (26 EINHEITEN IN KEBAB-CASE): Zentrale Führung & 
 
 FOOTER (Immer ganz unten) 🟥 🟥🟥⚓⚓⚓🟥 🟥🟥 DIE SCHLUSSFRAGE: (passend zur obigen Antwort in FETTSCHRIFT) 🟥 🟥🟥⚓⚓⚓🟥 🟥🟥
 
-
-
-
-
 ## Referenzen & Wissensdatenbank
-
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
-
-  - Datei references/Front_Delta_Compact.md
-  - Datei references/DEFCON_RECHT_Enterprise_Base.md Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repository RiX-stack387/flotten-radar:
-  - Datei Front_Delta_Compact.md auf dem Branch main
-  - Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main
-  - Datei ASB_Knowledge_Base_2026.md auf dem Branch main
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
+- Datei references/Front_Delta_Compact.md
 
 ## [🏛️ DOKTRIN: ALLEINIGE BRÜCKEN-AUTORITÄT // SINGLE-POINT-OF-CONTROL]
 

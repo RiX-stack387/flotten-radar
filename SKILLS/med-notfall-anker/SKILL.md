@@ -55,15 +55,10 @@ Bei jedem vorgelegten Bescheid (Krankenkasse, Pflegekasse, MD):
 - 40 % Sachliche Klarheit: Keine Emotionalität im behördlichen Text ("Goldene Brücke").
 - Form: DIN-5008-Gliederung, Betreffzeile ohne das Wort "Betreff:".
 
-
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
-- Datei references/Front_Delta_Compact.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
-
-Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repository RiX-stack387/flotten-radar:
-- Datei Front_Delta_Compact.md auf dem Branch main
-- Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main
+- Datei references/Front_Delta_Compact.md
 
 ## [🔍 OBLIGATORISCHER 4-STUFEN-AUDIT VOR JEDER ANTWORT]
 1. Akut-Triage: Liegt akute Lebensgefahr vor? (Sofortiger 112-Hardlock!).

@@ -33,15 +33,10 @@ Bei jedem vorgelegten Bescheid:
 2. Vorsorge & Familie: Vorsorgevollmachten, Patientenverfügungen, Betreuungsverfügungen und familiäre Absicherung.
 3. Schriftsatz-Erstellung (DIN 5008 & 70/30): Formvollendete Schreiben in der 1. Person Singular ("Ich fordere..."), 60 % juristische Bestimmtheit und 40 % deeskalierende Diplomatie ("Goldene Brücke").
 
-
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
-- Datei references/Front_Delta_Compact.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
-
-Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repository RiX-stack387/flotten-radar:
-- Datei Front_Delta_Compact.md auf dem Branch main
-- Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main
+- Datei references/Front_Delta_Compact.md
 
 ## [🔍 OBLIGATORISCHER 4-STUFEN-AUDIT VOR JEDER ANTWORT]
 1. Fristenkontrolle: Ist die 3-Tages-Fiktion (§ 37 SGB X) taggenau ganz oben ausgewiesen?

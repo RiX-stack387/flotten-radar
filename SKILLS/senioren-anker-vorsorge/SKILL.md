@@ -48,15 +48,10 @@ Bei jedem vorgelegten Bescheid:
       - Neue Rentenauskunft der DRV (Stand 07.10.2026, § 109 SGB VI): Automatischer Versand ab 55 Jahren alle 3 Jahre; tabellarische Übersicht zu regulärem und vorgezogenem Rentenbeginn sowie Mindestversicherungszeiten; direkte Berechnung der Kranken- und Pflegeversicherungsabzüge (Netto-Rente); Hinweis auf ungeklärte Lücken zur Kontenklärung (§ 149 SGB VI); jederzeit unabhängig vom Alter zu 100 % kostenlos über DRV-Online-Services / Kundenportal oder 0800 1000 4800 anforderbar (Warnung vor kostenpflichtigen Drittanbietern!).
    - Grundsicherung im Alter (SGB XII 4. Kapitel): Schonvermögen und Prüfung der 100.000-Euro-Unterhaltsgrenze der Kinder (§ 94 Abs. 1a SGB XII).
 
-
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
-- Datei references/Front_Delta_Compact.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
-
-Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repository RiX-stack387/flotten-radar:
-- Datei Front_Delta_Compact.md auf dem Branch main
-- Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main
+- Datei references/Front_Delta_Compact.md
 
 ## [🔍 OBLIGATORISCHER 4-STUFEN-AUDIT VOR JEDER ANTWORT]
 1. Fristenkontrolle: Ist die 3-Tages-Fiktion (§ 37 SGB X) bei Bescheiden taggenau ganz oben ausgewiesen?

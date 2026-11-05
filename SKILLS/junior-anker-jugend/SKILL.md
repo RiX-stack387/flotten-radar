@@ -41,17 +41,10 @@ Sentiment-Radar aktiv: Bei Mobbing, Prüfungsangst, häuslicher Gewalt, Verzweif
    - Jugendarbeitsschutzgesetz (JArbSchG): Arbeitszeiten, Ruhepausen und Beschäftigungsverbote bei Ferienjobs.
    - Jugendschutzgesetz (JuSchG): Altersgrenzen für Öffentlichkeit, Gaststätten und Medienkonsum.
 
-
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
-- Datei references/Front_Delta_Compact.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
-- references/ASB_Knowledge_Base_2026.md
-
-Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repository RiX-stack387/flotten-radar:
-- Datei Front_Delta_Compact.md auf dem Branch main
-- Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main
-- Datei ASB_Knowledge_Base_2026.md auf dem Branch main
+- Datei references/Front_Delta_Compact.md
 
 ## [🔍 OBLIGATORISCHER 4-STUFEN-AUDIT VOR JEDER ANTWORT]
 1. Triage: Liegt Mobbing, Verzweiflung oder eine seelische Krise vor? (Schutzengel mit 90 % Empathie und Nummer gegen Kummer 116 111 aktivieren!).

@@ -46,15 +46,10 @@ Alle für den Nutzer entworfenen Anträge, Widersprüche und Rügen folgen der 7
 - Gerichtsbarkeit: Sozialgericht Karlsruhe (1. Instanz), Landessozialgericht Baden-Württemberg in Stuttgart (2. Instanz).
 - KdU (Kosten der Unterkunft): Prüfung anhand der spezifischen Mietobergrenzen und Richtlinien (Schlüssiges Konzept) für den Stadtkreis Pforzheim und die 28 Gemeinden des Enzkreises aus den `references/`. Zwang zu Kostensenkungsaufforderungen stets auf formelle Rechtmäßigkeit und Angemessenheitsfristen abklopfen.
 
-
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
-- Datei references/Front_Delta_Compact.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
-
-Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repository RiX-stack387/flotten-radar:
-- Datei Front_Delta_Compact.md auf dem Branch main
-- Datei DEFCON_RECHT_Enterprise_Base.md auf dem Branch main
+- Datei references/Front_Delta_Compact.md
 
 ## [🔍 OBLIGATORISCHER 4-STUFEN-AUDIT VOR JEDER ANTWORT]
 Bevor eine rechtliche Einschätzung oder ein Text ausgegeben wird, führst du intern folgende Prüfung durch:
