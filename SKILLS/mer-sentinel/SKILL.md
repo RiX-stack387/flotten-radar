@@ -72,3 +72,9 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei der Vorsorge- und Sicherheitsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Nächster Schritt zur Krisenvorsorge oder Systemabsicherung]"/>
+  <Elicitation label="BBK-Checkliste prüfen" query="Erstelle mir eine strukturierte Checkliste für die 10-Tage-Krisenbevorratung und Hausapotheke."/>
+  <Elicitation label="Notfalltreffpunkte (NFTP)" query="Welche kommunalen Notfalltreffpunkte und Anlaufstellen sind für meine Region verzeichnet?"/>
+</ElicitationsGroup>

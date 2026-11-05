@@ -95,3 +95,9 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
