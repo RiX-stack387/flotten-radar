@@ -609,7 +609,7 @@
         "last_updated": "2026-10-18T02:49:48.467768+00:00"
     },
     "slot_13": {
-        "source_hash": "ad6536330c1b1bba450e13195ffd4c1785e71ec5bb0f574639e5019dcf9145c1",
+        "source_hash": "e56c4aef493c21a27bf0fe4d73e9cd782daca841b95b08308ad084422342f358",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -651,7 +651,7 @@
         "last_updated": "2026-10-18T02:50:02.298451+00:00"
     },
     "slot_14": {
-        "source_hash": "ad6536330c1b1bba450e13195ffd4c1785e71ec5bb0f574639e5019dcf9145c1",
+        "source_hash": "e56c4aef493c21a27bf0fe4d73e9cd782daca841b95b08308ad084422342f358",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -805,25 +805,25 @@
         "last_updated": "2026-10-18T02:50:49.992888+00:00"
     },
     "slot_19": {
-        "source_hash": "4fe1f89051439c72d80a33de7b905c5e1bd56f704d0fb3140713304d89fe3f6a",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "67c34b103c124fd10bae40de0ef7076cc7606868204e249002305a14a82430eb",
+        "legal_hash": "bb84d839e2154a7a244c88a2c975c90fecfd92dff654e543de8cdb54ee063aad",
         "claims": [
             {
-                "norm": "§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz (JVKostG)",
+                "norm": "§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]",
                 "extracted_value": "1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen",
                 "value_type": "EURO",
-                "context": "Kosten für die Überlassung elektronisch gespeicherter Entscheidungsdateien des Bundesarbeitsgerichts",
+                "context": "Kosten für die Überlassung elektronisch gespeicherter Dateien von Entscheidungen.",
                 "evidence_location": "Für die Überlassung elektronisch gespeicherter Dateien werden 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen erhoben (§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG])."
             },
             {
-                "norm": "Justizverwaltungskostengesetz (JVKostG)",
+                "norm": "Justizverwaltungskostengesetz [JVKostG]",
                 "extracted_value": "0,50 Euro pro Seite für die ersten 50 Seiten, für jede weitere Seite 0,15 Euro",
                 "value_type": "EURO",
-                "context": "Schreibauslagen für die Versendung von Entscheidungsabdrucken",
+                "context": "Schreibauslagen für die Versendung von Entscheidungsabdrucken.",
                 "evidence_location": "Für die Versendung der Entscheidungsabdrucke werden Schreibauslagen in Höhe von 0,50 Euro pro Seite für die ersten 50 Seiten erhoben, für jede weitere Seite werden 0,15 Euro erhoben."
             }
         ],
-        "last_updated": "2026-11-01T06:56:19.934792+00:00"
+        "last_updated": "2026-11-03T05:36:58.039627+00:00"
     },
     "slot_20": {
         "source_hash": "c8387b0d1d10af196eac59a7244320aa292e97066fcf2ff22f3887a66e6f88b7",
@@ -942,7 +942,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "slot_25": {
-        "source_hash": "5b626a2a3b7cb0a19be14f4c0487ca4e1eb3be528130eac5f260a9839bbc664a",
+        "source_hash": "ff6d76d87476c1c325e615af86608db4c61faf21d10f3242c9f6583de6da407c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1089,53 +1089,60 @@
         "last_updated": "2026-10-18T02:55:09.121721+00:00"
     },
     "slot_31": {
-        "source_hash": "9be6e8e033205c20565e0473dfe0dc8b8ad5c2efe94df90791e6659dfdf5c669",
-        "legal_hash": "078548ae1791829b4041da576b7f0d648d1e3b794c30f78e244df4025b07d721",
+        "source_hash": "9e19e67487019aca57a01017d686837018f8f3b43904a181ead4d5b33a2221e1",
+        "legal_hash": "c3726b9a91ff18a4b5c1e7f6ea911a7bf796d81140f2f69732df27959a40e4fb",
         "claims": [
+            {
+                "norm": "§ 22 SGB II",
+                "extracted_value": "Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen.",
+                "value_type": "TEXT",
+                "context": "Berechnung der Kosten der Unterkunft und Heizung (KdU) sowie regionale Angemessenheitsprüfung und Kürzungsbefugnis des Jobcenters bei Obergrenzenüberschreitung.",
+                "evidence_location": "Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen."
+            },
             {
                 "norm": "SGB II",
                 "extracted_value": "Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.",
                 "value_type": "TEXT",
-                "context": "Terminologieänderung des Bürgergeldes in Grundsicherungsgeld ab der Reform 2026",
+                "context": "Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld im Rahmen der Reform 2026.",
                 "evidence_location": "Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II."
             },
             {
                 "norm": "SGB II",
-                "extracted_value": "01.07.2026",
+                "extracted_value": "Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt.",
                 "value_type": "DATE",
-                "context": "Stichtag der offiziellen Umbenennung von Bürgergeld in Grundsicherungsgeld",
+                "context": "Stichtag für das Inkrafttreten der Umbenennung von Bürgergeld in Grundsicherungsgeld.",
                 "evidence_location": "Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt."
             },
             {
                 "norm": "§ 20 SGB II",
                 "extracted_value": "563 €",
                 "value_type": "EURO",
-                "context": "Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Jahr 2026",
+                "context": "Amtliche Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Bürgergeld bzw. Grundsicherungsgeld 2026.",
                 "evidence_location": "In der Regelbedarfsstufe 1 beträgt er 563 Euro."
             },
             {
-                "norm": "§ 22 SGB II",
-                "extracted_value": "Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen.",
+                "norm": "§ 21 SGB II",
+                "extracted_value": "Mehrbedarfe nach § 21 SGB II",
                 "value_type": "TEXT",
-                "context": "Kosten der Unterkunft und Heizung (KdU) und Begrenzung bei Überschreitung der Angemessenheitsobergrenzen",
-                "evidence_location": "Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen."
+                "context": "Gesetzliche Mehrbedarfe für Alleinerziehende, Schwangere oder dezentrale Warmwasserbereitung.",
+                "evidence_location": "Ja, der Bürgergeld Rechner berechnet Mehrbedarfe nach § 21 SGB II automatisch mit ein. Das betrifft unter anderem Zuschüsse für Alleinerziehende, Schwangere oder die dezentrale Warmwasserbereitung."
             },
             {
                 "norm": "§ 11b SGB II",
                 "extracted_value": "208,90 €",
                 "value_type": "EURO",
-                "context": "Monatlicher anrechnungsfreier Freibetrag bei Einkommen aus einem Minijob",
-                "evidence_location": "Der Rechner zieht die gesetzlichen Freibeträge bei einem möglichen Zuverdienst automatisch ab – beim Minijob bleiben so beispielsweise bis zu 208,90 € im Monat anrechnungsfrei."
+                "context": "Freibetrag bei Zuverdienst aus einem Minijob nach Bereinigung gemäß § 11b SGB II.",
+                "evidence_location": "Das Einkommen wird nach den aktuellen Regeln des § 11b SGB II bereinigt. Der Rechner zieht die gesetzlichen Freibeträge bei einem möglichen Zuverdienst automatisch ab – beim Minijob bleiben so beispielsweise bis zu 208,90 € im Monat anrechnungsfrei."
             },
             {
-                "norm": "§ 22 SGB II",
-                "extracted_value": "416 Euro",
-                "value_type": "EURO",
-                "context": "Gerichtliche Bestätigung der Begrenzung der Mietkosten (KdU-Obergrenze) durch das Jobcenter",
-                "evidence_location": "Bürgergeld: Jobcenter darf Miete doch auf 416 Euro begrenzen 31.10.2026"
+                "norm": "§ 11 SGB II",
+                "extracted_value": "Ja, beide Leistungen zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf.",
+                "value_type": "TEXT",
+                "context": "Anrechnung von Kindergeld und Unterhalt als Einkommen des Kindes zur Minderung des Bedarfs.",
+                "evidence_location": "Ja, beide Leistungen zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf."
             }
         ],
-        "last_updated": "2026-11-01T03:06:06.532408+00:00"
+        "last_updated": "2026-11-04T07:12:23.584793+00:00"
     },
     "slot_18": {
         "source_hash": "7ebfe140a40eb865d0777795c735724103f9fa53be53c7104c39291d1b540257",
