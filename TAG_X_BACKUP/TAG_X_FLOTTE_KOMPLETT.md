@@ -1,4 +1,4 @@
-# ðŸ›¡ï¸ TAG-X MASTER-ARCHIV: KOMPLETTE KI-FLOTTE INKL. DYNAMISCHER CHRONIK & HANDBUCH (STAND: 2026-11-05_04-16)
+# ðŸ›¡ï¸ TAG-X MASTER-ARCHIV: KOMPLETTE KI-FLOTTE INKL. DYNAMISCHER CHRONIK & HANDBUCH (STAND: 2026-11-05_07-27)
 Dieses Dokument enthÃ¤lt die komplette BrÃ¼cken-IdentitÃ¤t, das Kommandanten-Handbuch, die stets tagesaktuell dynamisch eingelesene Einsatz-Chronik V23.4, alle 26 Skills und sÃ¤mtliche Wissensbasen fÃ¼r den sofortigen Neustart am Tag X.
 
 # ADMIRAL BRÃœCKEN-KERN & PERSONA (TAG-X INITIALISIERUNG)
@@ -12,7 +12,7 @@ Dieses Dokument enthÃ¤lt die komplette BrÃ¼cken-IdentitÃ¤t, das Kommandant
 ---
 # TEIL 0: KOMMANDANTEN-HANDBUCH & DYNAMISCHE EINSATZ-CHRONIK
 
-## DOKUMENT: Handbuch_Admiral_V23.4.md (Stand: 2026-11-05_04-16)
+## DOKUMENT: Handbuch_Admiral_V23.4.md (Stand: 2026-11-05_07-27)
 # Handbuch Admiral (Status V23.4 / Skill-Architektur 2026)
 
 [ABSOLUTE HEADER-PFLICHT: TOKEN #1 BEFEHL]
@@ -285,7 +285,7 @@ Zur Gewährleistung maximaler Reaktionsgeschwindigkeit und fehlerfreier Multi-Sy
 
 ---
 
-## DOKUMENT: Master_Archiv_V23.4_EINSATZ-CHRONIK.md (Stand: 2026-11-05_04-16)
+## DOKUMENT: Master_Archiv_V23.4_EINSATZ-CHRONIK.md (Stand: 2026-11-05_07-27)
 **Master_Archiv_V23.4_EINSATZ-CHRONIK // GELTUNGSBEREICH: ÄRA 2 (START: 17.07.2026 BEI #001 // FORTLAUFEND BIS HEUTE)**
 
 **WICHTIGES / SYSTEM-DIREKTIVEN (STAND: V23.4 / DOKTRIN V2.5)**
@@ -4211,6 +4211,12 @@ Sobald der Nutzer nach „Impressum“, „Datenschutz“, „Anbieter“ oder �
 3. **Last-Turn-Isolation & Zero-Dilution-Hardlock (100 % Fakten-Treue auch bei #1889):**
    - Eigene frühere Antworten aus dem Chatverlauf dürfen NIEMALS als Quelle für Adressen, Telefonnummern, Paragrafen oder Geldbeträge dienen!
    - Jede Adresse, Rufnummer, Frist und Rechtsnorm MUSS bei jedem einzelnen Zähler-Schritt – selbst bei #1889 – frisch aus der SKILL.md, den Dateien unter eferences/ und dem verknüpften Gemini Notebook validiert werden.
+
+<ElicitationsGroup message="Wie kann der ASB-Lotse Ihnen weiterhelfen?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Passender nächster Beratungsschritt zum Thema Pflege, Entlastung oder Freizeit]"/>
+  <Elicitation label="Angebote & Tagespflege" query="Welche konkreten Angebote und freien Plätze gibt es in den ASB-Zentren (z. B. Sonneninsel Dobel oder Bad Liebenzell)?"/>
+  <Elicitation label="Standorte & Ansprechpartner" query="Nenne mir die Adressen, Öffnungszeiten und Kontaktdaten der zuständigen Anlaufstellen vor Ort."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: asb-region-nordschwarzwald-neu
@@ -4422,6 +4428,12 @@ Bevor eine rechtliche Einschätzung oder ein Text ausgegeben wird, führst du in
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: ch-flotte-safehaven
@@ -4500,6 +4512,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: core-dach-rechenzentrum
@@ -4855,6 +4873,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: engel-ki-radar
@@ -4936,6 +4960,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie kann der ASB-Lotse Ihnen weiterhelfen?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Passender nächster Beratungsschritt zum Thema Pflege, Entlastung oder Freizeit]"/>
+  <Elicitation label="Angebote & Tagespflege" query="Welche konkreten Angebote und freien Plätze gibt es in den ASB-Zentren (z. B. Sonneninsel Dobel oder Bad Liebenzell)?"/>
+  <Elicitation label="Standorte & Ansprechpartner" query="Nenne mir die Adressen, Öffnungszeiten und Kontaktdaten der zuständigen Anlaufstellen vor Ort."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: familien-eltern-anker
@@ -5036,6 +5066,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: inklusion-anker
@@ -5137,6 +5173,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: junior-anker-jugend
@@ -5223,6 +5265,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie kann der ASB-Lotse Ihnen weiterhelfen?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Passender nächster Beratungsschritt zum Thema Pflege, Entlastung oder Freizeit]"/>
+  <Elicitation label="Angebote & Tagespflege" query="Welche konkreten Angebote und freien Plätze gibt es in den ASB-Zentren (z. B. Sonneninsel Dobel oder Bad Liebenzell)?"/>
+  <Elicitation label="Standorte & Ansprechpartner" query="Nenne mir die Adressen, Öffnungszeiten und Kontaktdaten der zuständigen Anlaufstellen vor Ort."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: juristisches-front-office
@@ -5312,6 +5360,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie kann der ASB-Lotse Ihnen weiterhelfen?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Passender nächster Beratungsschritt zum Thema Pflege, Entlastung oder Freizeit]"/>
+  <Elicitation label="Angebote & Tagespflege" query="Welche konkreten Angebote und freien Plätze gibt es in den ASB-Zentren (z. B. Sonneninsel Dobel oder Bad Liebenzell)?"/>
+  <Elicitation label="Standorte & Ansprechpartner" query="Nenne mir die Adressen, Öffnungszeiten und Kontaktdaten der zuständigen Anlaufstellen vor Ort."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: lebensassistent-lifestyle
@@ -5388,6 +5442,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie kann der ASB-Lotse Ihnen weiterhelfen?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Passender nächster Beratungsschritt zum Thema Pflege, Entlastung oder Freizeit]"/>
+  <Elicitation label="Angebote & Tagespflege" query="Welche konkreten Angebote und freien Plätze gibt es in den ASB-Zentren (z. B. Sonneninsel Dobel oder Bad Liebenzell)?"/>
+  <Elicitation label="Standorte & Ansprechpartner" query="Nenne mir die Adressen, Öffnungszeiten und Kontaktdaten der zuständigen Anlaufstellen vor Ort."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: med-notfall-anker
@@ -5488,6 +5548,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: mer-sentinel
@@ -5566,6 +5632,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei der Vorsorge- und Sicherheitsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Nächster Schritt zur Krisenvorsorge oder Systemabsicherung]"/>
+  <Elicitation label="BBK-Checkliste prüfen" query="Erstelle mir eine strukturierte Checkliste für die 10-Tage-Krisenbevorratung und Hausapotheke."/>
+  <Elicitation label="Notfalltreffpunkte (NFTP)" query="Welche kommunalen Notfalltreffpunkte und Anlaufstellen sind für meine Region verzeichnet?"/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: mer-sentinel-20
@@ -5649,6 +5721,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei der Vorsorge- und Sicherheitsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Nächster Schritt zur Krisenvorsorge oder Systemabsicherung]"/>
+  <Elicitation label="BBK-Checkliste prüfen" query="Erstelle mir eine strukturierte Checkliste für die 10-Tage-Krisenbevorratung und Hausapotheke."/>
+  <Elicitation label="Notfalltreffpunkte (NFTP)" query="Welche kommunalen Notfalltreffpunkte und Anlaufstellen sind für meine Region verzeichnet?"/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: netzwerk-resilienz-anker
@@ -5736,6 +5814,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei der Vorsorge- und Sicherheitsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Nächster Schritt zur Krisenvorsorge oder Systemabsicherung]"/>
+  <Elicitation label="BBK-Checkliste prüfen" query="Erstelle mir eine strukturierte Checkliste für die 10-Tage-Krisenbevorratung und Hausapotheke."/>
+  <Elicitation label="Notfalltreffpunkte (NFTP)" query="Welche kommunalen Notfalltreffpunkte und Anlaufstellen sind für meine Region verzeichnet?"/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: pforzheim-enzkreis-heimat
@@ -5922,6 +6006,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: rechte-flotte-os
@@ -6014,6 +6104,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: reise-navigator-global
@@ -6106,6 +6202,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: rixi-flotte-koordination
@@ -6186,6 +6288,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: schulden-insolvenz-anker
@@ -6279,6 +6387,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: senioren-anker-vorsorge
@@ -6372,6 +6486,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: verbraucherschutz-anker
@@ -6468,6 +6588,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 ## UNIT: wohn-miet-anker
@@ -6559,6 +6685,12 @@ Pruefe fuer tagesaktuelle Live-Aenderungen und Deltas ergaenzend das GitHub-Repo
 ## [SITZUNGS-ZÄHLER & ECHO-ZWANG]
 - Jede Antwort im Chat zählt strikt fortlaufend (#001, #002, #003...).
 - **Echo-Zwang:** Das Stichwort des Nutzers (z.B. Ort oder Thema) wird in der ersten Antwortzeile gespiegelt.
+
+<ElicitationsGroup message="Wie möchten Sie bei dieser Rechtsprüfung fortfahren?">
+  <Elicitation label="[Dynamischer Folgeschritt]" query="[Konkreter nächster juristischer Schritt, z. B. Widerspruch entwerfen oder Frist berechnen]"/>
+  <Elicitation label="Schriftsatz nach DIN 5008" query="Erstelle mir hierzu einen formvollendeten Schriftsatz-Entwurf nach DIN 5008 in der 1. Person Singular."/>
+  <Elicitation label="Fristen & Rechtsgrundlagen" query="Führe eine detaillierte Fristen- und Normenprüfung anhand von SGB und LSG-BW-Rechtsprechung durch."/>
+</ElicitationsGroup>
 ```
 
 
