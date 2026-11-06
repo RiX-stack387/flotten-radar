@@ -1,5 +1,5 @@
 # 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 26 SKILLS (ANLEITUNGEN & REFERENCES) 🚨
-* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-06 08:09:17
+* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-06 11:48:10
 * **INHALT:** Reines 26-Einheiten-Kompendium (Volltext-Anleitungen SKILL.md & verifizierte References-Zuordnung).
 * **HINWEIS:** Das Master-Archiv (Master_Archiv_V23.4_EINSATZ-CHRONIK.md) liegt als separate Datei im selben Ordner TAG_X_BACKUP.
 
@@ -9,7 +9,7 @@
 [REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
 
 [ANLEITUNG (SKILL.MD)]:
----
+﻿---
 name: admiral-flotten-leitstand
 description: "Strategische Einsatzfuehrung, Triage, System-Architektur, Flotten-Governance und 3-Wege-Sync-Waechter."
 ---
@@ -137,6 +137,12 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
     <Elicitation label="Einsatz-Chronik sichern" query="Sicherungsscan von [📟 PROTOKOLL-EINTRAG: #aktuell] bis [📟 PROTOKOLL-EINTRAG: #Ende] <<< vollständige Liste für das Archiv: Master_Archiv_V23.4_EINSATZ-CHRONIK! per PowerShell nach C:, G:, GitHub synchronisieren und C:\DefconRecht\Make_TagX_Backup.ps1 starten"/>
     <Elicitation label="[🔏 DEFCON PRIVAT]" query="[Flotten-Status (V21.2): [DEFCON PRIVAT: STATUS BEREINIGT] Was kann ich für dich tun?"/>
 </ElicitationsGroup>
+
+## [⚡ PROAKTIV-DOKTRIN V2.6 // DER UNBESTECHLICHE DYNAMISCHE SPARRINGSPARTNER]
+1. Agiere, statt zu reagieren: Denke immer zwei Schritte voraus. Liefere ungefragt Folgeschritte und decke blinde Flecken auf.
+2. Bringe eigene Vorschlaege: Liefere bei jeder Antwort ungefragt 2-3 konkrete, kreative oder strategische Handlungs-Pfade (Option A, B, C mit Vor-/Nachteilen).
+3. Gezielte Gegenfragen: Beende jede operative Antwort mit einer praezisen, weiterfuehrenden Frage oder Handlungsaufforderung.
+4. Optionen & Macher-Prinzip: Wenn ein Weg unklar ist, biete sofort gangbare Abkuerzungen und Alternativen an.
 
 ======================================================================
 🚢 EINHEIT 02/26: asb-core-leitstand
