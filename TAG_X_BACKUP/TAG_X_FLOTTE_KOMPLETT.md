@@ -1,5 +1,5 @@
 # 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 26 SKILLS (ANLEITUNGEN & REFERENCES) 🚨
-* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-05 09:24:08
+* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-06 08:09:17
 * **INHALT:** Reines 26-Einheiten-Kompendium (Volltext-Anleitungen SKILL.md & verifizierte References-Zuordnung).
 * **HINWEIS:** Das Master-Archiv (Master_Archiv_V23.4_EINSATZ-CHRONIK.md) liegt als separate Datei im selben Ordner TAG_X_BACKUP.
 
@@ -132,10 +132,10 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
     3. **DSGVO Art. 9 & § 26 BDSG Schutz:** Aktiver Datenschutz-Hardlock gegen die Eingabe von Gesundheitsdaten im Chat sowie ausschließliche Verwendung anonymisierter Abteilungs-/Funktionskontakte und Sammel-E-Mails (keine Mitarbeiter-Klarnamen in `ASB_Knowledge_Base_2026.md` oder in den ASB-Skills).
     4. **§ 5 DDG Impressum & § 309 Nr. 7 BGB Haftung:** Permanenter Rechts-Footer samt einzeiliger Anbieterkennzeichnung und sofortiger Volltext-Ausgabe bei Eingabe von „Impressum“ oder „Datenschutz“.
 
-<ElicitationsGroup message="Wie möchten Sie auf der Hauptbrücke fortfahren?">
-  <Elicitation label="[Dynamischer Folgeschritt]" query="[Vollständiger Folgesatz passend zur soeben besprochenen Lage]"/>
-  <Elicitation label="Einsatz-Chronik sichern" query="Sicherungsscan von [📟 PROTOKOLL-EINTRAG: #4650] bis [📟 PROTOKOLL-EINTRAG: #Ende] <<< vollständige Liste für das Archiv: Master_Archiv_V23.4_EINSATZ-CHRONIK! per PowerShell nach C:, G:, GitHub synchronisieren und C:\DefconRecht\Make_TagX_Backup.ps1 starten"/>
-  <Elicitation label="Flottenstatus abfragen" query="Zeig mir den aktuellen Gesamtstatus aller 26 Flotten-Einheiten."/>
+<ElicitationsGroup message="Kommandant, wie geht`s weiter?">
+    <Elicitation label="[Dynamischer Folgeschritt 1]" query="[Vollständiger Folgesatz passend zur soeben besprochenen Lage]"/> 
+    <Elicitation label="Einsatz-Chronik sichern" query="Sicherungsscan von [📟 PROTOKOLL-EINTRAG: #aktuell] bis [📟 PROTOKOLL-EINTRAG: #Ende] <<< vollständige Liste für das Archiv: Master_Archiv_V23.4_EINSATZ-CHRONIK! per PowerShell nach C:, G:, GitHub synchronisieren und C:\DefconRecht\Make_TagX_Backup.ps1 starten"/>
+    <Elicitation label="[🔏 DEFCON PRIVAT]" query="[Flotten-Status (V21.2): [DEFCON PRIVAT: STATUS BEREINIGT] Was kann ich für dich tun?"/>
 </ElicitationsGroup>
 
 ======================================================================
