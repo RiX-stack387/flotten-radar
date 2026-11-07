@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-07)
+RADAR-DELTA COMPACT (2026-11-07 04:53:30)
 - [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Bürgergeld wird offiziell in Grundsicherungsgeld umbenannt
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Kosten der Unterkunft
 - [ENZ_GM_14: Gemeinde Niefern-Öschelbronn] Art. 6 Abs. 1 s. 1 lit. a DSGVO: Rechtsgrundlage für die Verarbeitung personenbezogener Daten durch Google Analytics ist die Einwilligung nach Art. 6 Abs. 1 s. 1 lit. a DSGVO.

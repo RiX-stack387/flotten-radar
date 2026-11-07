@@ -1,5 +1,5 @@
 # ASB BW e.V. Region Nordschwarzwald – Wissensbasis 2026 (V23.4)
-**Stand:** 2026-11-04 08:30:20 | **Perimeter:** Bad Herrenalb, Bad Liebenzell, Calw, Dobel, Freudenstadt
+**Stand:** 2026-11-07 04:53:30 | **Perimeter:** Bad Herrenalb, Bad Liebenzell, Calw, Dobel, Freudenstadt
 **Offizielle Hauptdomain:** https://www.asb-nsw.de/
 
 ---
