@@ -1,7 +1,8 @@
-RADAR-DELTA COMPACT (2026-11-04 08:30:20)
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Die von dir eingegebenen Wohnkosten
-- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.
-- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt.
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 21 SGB II: Mehrbedarfe nach § 21 SGB II
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 11 SGB II: Ja, beide Leistungen zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf.
-- [ENZ_GM_10: Gemeinde Königsbach-Stein] § 7 Straßengesetz Baden-Württemberg (StrG): Der Gemeinderat der Gemeinde Königsbach-Stein hat am 25. Februar 2026 die Einziehung der beschränkt-öffentlichen Feldwege Flst. Nr. 1834 und 7951 in der Gemarkung Königsbach beschlossen.
+RADAR-DELTA COMPACT (2026-11-07)
+- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Bürgergeld wird offiziell in Grundsicherungsgeld umbenannt
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Kosten der Unterkunft
+- [ENZ_GM_14: Gemeinde Niefern-Öschelbronn] Art. 6 Abs. 1 s. 1 lit. a DSGVO: Rechtsgrundlage für die Verarbeitung personenbezogener Daten durch Google Analytics ist die Einwilligung nach Art. 6 Abs. 1 s. 1 lit. a DSGVO.
+- [ENZ_GM_14: Gemeinde Niefern-Öschelbronn] Veranstaltungskalender Gemeinde Niefern-Öschelbronn: 13.11.2026
+- [ENZ_GM_21: Gemeinde Wiernsheim] Satzung zur Verlängerung der Veränderungssperre für den Geltungsbereich des Bebauungsplans „Kazenloch – 1. Änderung“ Wiernsheim: Öffentliche Bekanntmachung des Satzungsbeschlusses und des Inkrafttretens der Satzung zur Verlängerung der Veränderungssperre für den Geltungsbereich des Bebauungsplans „Kazenloch – 1. Änderung“ Wiernsheim
+- [ENZ_GM_21: Gemeinde Wiernsheim] Art. 6 Abs. 1 f) DSGVO: Die Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 f) DSGVO. Im Falle der Speicherung einer IP-Adresse erfolgt eine Löschung bzw. Anonymisierung nach spätestens 7 Tagen.
+- [ENZ_GM_21: Gemeinde Wiernsheim] Art. 6 Abs. 1 s. 1 lit. e DSGVO: Art. 6 Abs. 1 s. 1 lit. e DSGVO dient als Rechtsgrundlage für die Verarbeitung personenbezogener Daten bei der Nutzung der Online-Formulare der Gemeinde Wiernsheim.

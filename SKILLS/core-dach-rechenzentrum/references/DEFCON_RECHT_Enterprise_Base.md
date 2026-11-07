@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-04 08:30:04 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-07 04:53:13 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -204,13 +204,10 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 22 SGB II** | Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen. | Berechnung der Kosten der Unterkunft und Heizung (KdU) sowie regionale Angemessenheitsprüfung und Kürzungsbefugnis des Jobcenters bei Obergrenzenüberschreitung. |
-| **SGB II** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld im Rahmen der Reform 2026. |
-| **SGB II** | Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt. | Stichtag für das Inkrafttreten der Umbenennung von Bürgergeld in Grundsicherungsgeld. |
-| **§ 20 SGB II** | 563 € | Amtliche Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Bürgergeld bzw. Grundsicherungsgeld 2026. |
-| **§ 21 SGB II** | Mehrbedarfe nach § 21 SGB II | Gesetzliche Mehrbedarfe für Alleinerziehende, Schwangere oder dezentrale Warmwasserbereitung. |
-| **§ 11b SGB II** | 208,90 € | Freibetrag bei Zuverdienst aus einem Minijob nach Bereinigung gemäß § 11b SGB II. |
-| **§ 11 SGB II** | Ja, beide Leistungen zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf. | Anrechnung von Kindergeld und Unterhalt als Einkommen des Kindes zur Minderung des Bedarfs. |
+| **SGB II** | Bürgergeld wird offiziell in Grundsicherungsgeld umbenannt | Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld ab dem 1. Juli 2026 |
+| **§ 20 SGB II** | 563 € | Höhe des monatlichen Regelbedarfs für alleinstehende Erwachsene in der Regelbedarfsstufe 1 im Jahr 2026 |
+| **§ 22 SGB II** | Kosten der Unterkunft (KdU) werden grundsätzlich nicht pauschal gezahlt, sondern in tatsächlicher Höhe übernommen – sofern sie angemessen sind. | Übernahme der Unterkunfts- und Heizkosten nach dem SGB II unter Vorbehalt der Angemessenheit |
+| **§ 11b SGB II** | 208,90 € | Anrechnungsfreier monatlicher Betrag beim Minijob nach Bereinigung des Einkommens gemäß § 11b SGB II |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -496,9 +493,8 @@
 ## [ENZ_GM_14] Sektor ENZ_GM_14
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 3 Abs. 2 BauGB** | Öffentliche Bekanntmachung - Beteiligung der Öffentlichkeit gemäß § 3 Abs. 2 BauGB des ... | Beteiligung der Öffentlichkeit an der Bauleitplanung 'Waldhorn' in der Gemeinde Niefern-Öschelbronn. |
-| **Art. 6 Abs. 1 s. 1 lit. a DSGVO** | Einwilligung als Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei Webanalysediensten und externen Medieninhalten. | Verarbeitung von Nutzerdaten im Rahmen der Dienste Google Analytics und YouTube. |
-| **Art. 6 Abs. 1 s. 1 lit. e DSGVO** | Wahrnehmung einer Aufgabe im öffentlichen Interesse als Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei Webseiten-Login und Medienbannern. | Bereitstellung essenzieller technischer Funktionalitäten und Benutzeranmeldungen auf der Webpräsenz der Gemeinde Niefern-Öschelbronn. |
+| **Art. 6 Abs. 1 s. 1 lit. a DSGVO** | Rechtsgrundlage für die Verarbeitung personenbezogener Daten durch Google Analytics ist die Einwilligung nach Art. 6 Abs. 1 s. 1 lit. a DSGVO. | Datenschutzrechtliche Rechtsgrundlage für die Nutzung des Webanalysedienstes Google Analytics auf der Website der Gemeinde Niefern-Öschelbronn. |
+| **Veranstaltungskalender Gemeinde Niefern-Öschelbronn** | 13.11.2026 | Termin für die Gedenkfeier zum Volkstrauertag auf dem Neuen Friedhof. |
 
 ## [ENZ_GM_15] Sektor ENZ_GM_15
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -532,6 +528,13 @@
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
 | **Art. 6 Abs. 1 s. 1 lit. e DSGVO i.V.m. §§ 2, 3 EGovG BW** | Die Cookies mit dem Präfix hwdatenschutz_cookie_ werden verwendet, um Ihre Auswahl aller auswählbaren Cookies zu speichern. Alle hwdatenschutz_cookie_ haben eine Bestandsdauer von einem Monat und laufen nach diesem Zeitraum ab. | Datenschutzrechtliche Grundlagen und Speicherdauer von essenziellen Cookies auf der Website der Gemeinde Tiefenbronn. |
+
+## [ENZ_GM_21] Sektor ENZ_GM_21
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Satzung zur Verlängerung der Veränderungssperre für den Geltungsbereich des Bebauungsplans „Kazenloch – 1. Änderung“ Wiernsheim** | Öffentliche Bekanntmachung des Satzungsbeschlusses und des Inkrafttretens der Satzung zur Verlängerung der Veränderungssperre für den Geltungsbereich des Bebauungsplans „Kazenloch – 1. Änderung“ Wiernsheim | Bekanntmachung eines Satzungsbeschlusses der Gemeinde Wiernsheim über die Verlängerung einer Veränderungssperre |
+| **Art. 6 Abs. 1 f) DSGVO** | Die Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 f) DSGVO. Im Falle der Speicherung einer IP-Adresse erfolgt eine Löschung bzw. Anonymisierung nach spätestens 7 Tagen. | Datenschutzrechtliche Rechtsgrundlage und Löschungsfrist für die Protokollierung von Server- und Verbindungsdaten durch die Netze BW GmbH auf der Website |
+| **Art. 6 Abs. 1 s. 1 lit. e DSGVO** | Art. 6 Abs. 1 s. 1 lit. e DSGVO dient als Rechtsgrundlage für die Verarbeitung personenbezogener Daten bei der Nutzung der Online-Formulare der Gemeinde Wiernsheim. | Rechtsgrundlage zur Verarbeitung personenbezogener Daten bei gemeindlichen Online-Formularen |
 
 ## [ENZ_GM_22] Sektor ENZ_GM_22
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
