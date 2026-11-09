@@ -1,4 +1,4 @@
-"""⚓ DEFCON RECHT RADAR - ZUSATZ-RADAR "LEBENS-PRAXIS" (V44.0 OPERATION PROVENIENZ)
+﻿"""⚓ DEFCON RECHT RADAR - ZUSATZ-RADAR "LEBENS-PRAXIS" (V44.0 OPERATION PROVENIENZ)
 
 Architektur: Playwright + CMP-Blocker + Secure-PDF + Config-Gate +
 Strict-Evidence + Triage + Vault
@@ -1785,6 +1785,7 @@ async def main():
 
 if __name__ == "__main__":
   asyncio.run(main())
+
 
 
 

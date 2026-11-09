@@ -1,5 +1,5 @@
 # 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 26 SKILLS (ANLEITUNGEN & REFERENCES) 🚨
-* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-07 12:20:24
+* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-09 04:27:18
 * **INHALT:** Reines 26-Einheiten-Kompendium (Volltext-Anleitungen SKILL.md & verifizierte References-Zuordnung).
 * **HINWEIS:** Das Master-Archiv (Master_Archiv_V23.4_EINSATZ-CHRONIK.md) liegt als separate Datei im selben Ordner TAG_X_BACKUP.
 
@@ -147,7 +147,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 02/26: asb-core-leitstand
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md, Front_Delta_Compact.md, Katastrophenschutz Enzkreis Nordschwarzwald.md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport (1).md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md, Front_Delta_Compact.md, Katastrophenschutz Enzkreis Nordschwarzwald.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -218,7 +218,7 @@ Sobald der Nutzer nach „Impressum“, „Datenschutz“, „Anbieter“ oder �
 ======================================================================
 🚢 EINHEIT 03/26: asb-region-nordschwarzwald-neu
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei (1).md, Front_Delta_Compact.md, Katastrophenschutz Enzkreis Nordschwarzwald (1).md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport (1).md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Front_Delta_Compact.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -1277,7 +1277,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 13/26: lebensassistent-lifestyle
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md, Front_Delta_Compact.md, Katastrophenschutz Enzkreis Nordschwarzwald (1).md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md, Front_Delta_Compact.md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -1320,7 +1320,6 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 - Datei references/ASB_Knowledge_Base_2026.md
 - Datei references/Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md
 - Datei references/Front_Delta_Compact.md
-- Datei references/Katastrophenschutz Enzkreis Nordschwarzwald (1).md
 - Datei references/Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md
 
 ## [🔍 OBLIGATORISCHER 4-STUFEN-AUDIT VOR JEDER ANTWORT]
@@ -1754,7 +1753,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 19/26: pforzheim-enzkreis-heimat
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB Region Pforzheim-Enz.md, ASB_Knowledge_Base_2026.md, DRK-Kreisverband Pforzheim-Enzkreis e.V.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei (1).md, Front_Delta_Compact.md, GIS Katastrophenschutz Nordschwarzwald.md, Katastrophenschutz Enzkreis Nordschwarzwald.md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md, Stadt Pforzheim-Landratsamt Enzkreis-Städte und Gemeinden.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB Region Pforzheim-Enz.md, ASB_Knowledge_Base_2026.md, DRK-Kreisverband Pforzheim-Enzkreis e.V.md, Front_Delta_Compact.md, GIS Katastrophenschutz Nordschwarzwald.md, Katastrophenschutz Enzkreis Nordschwarzwald.md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md, Stadt Pforzheim-Landratsamt Enzkreis-Städte und Gemeinden.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
