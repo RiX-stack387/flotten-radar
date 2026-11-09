@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-07 04:53:13 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-09 04:27:01 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -204,10 +204,11 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **SGB II** | Bürgergeld wird offiziell in Grundsicherungsgeld umbenannt | Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld ab dem 1. Juli 2026 |
-| **§ 20 SGB II** | 563 € | Höhe des monatlichen Regelbedarfs für alleinstehende Erwachsene in der Regelbedarfsstufe 1 im Jahr 2026 |
-| **§ 22 SGB II** | Kosten der Unterkunft (KdU) werden grundsätzlich nicht pauschal gezahlt, sondern in tatsächlicher Höhe übernommen – sofern sie angemessen sind. | Übernahme der Unterkunfts- und Heizkosten nach dem SGB II unter Vorbehalt der Angemessenheit |
-| **§ 11b SGB II** | 208,90 € | Anrechnungsfreier monatlicher Betrag beim Minijob nach Bereinigung des Einkommens gemäß § 11b SGB II |
+| **SGB II** | Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt. | Offizielle Umbenennung des Bürgergelds in Grundsicherungsgeld im Rahmen der Reform 2026 |
+| **§ 22 SGB II** | Wohnkosten fließen gemäß § 22 SGB II ein; das Jobcenter kann die Kosten bei Überschreitung regionaler Obergrenzen kürzen. | Berücksichtigung und Angemessenheitsprüfung der Kosten der Unterkunft und Heizung (KdU) |
+| **§ 20 SGB II** | 563 € | Regelbedarf für Alleinstehende Erwachsene (Regelbedarfsstufe 1) im Jahr 2026 |
+| **§ 11b SGB II** | 208,90 € | Anrechnungsfreier monatlicher Freibetrag bei einem Minijob nach Bereinigung des Einkommens |
+| **§ 21 SGB II** | Mehrbedarfe nach § 21 SGB II umfassen unter anderem Zuschüsse für Alleinerziehende, Schwangere oder die dezentrale Warmwasserbereitung. | Gesetzliche Mehrbedarfe als pauschale Aufschläge zusätzlich zum Regelbedarf |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -532,9 +533,9 @@
 ## [ENZ_GM_21] Sektor ENZ_GM_21
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Satzung zur Verlängerung der Veränderungssperre für den Geltungsbereich des Bebauungsplans „Kazenloch – 1. Änderung“ Wiernsheim** | Öffentliche Bekanntmachung des Satzungsbeschlusses und des Inkrafttretens der Satzung zur Verlängerung der Veränderungssperre für den Geltungsbereich des Bebauungsplans „Kazenloch – 1. Änderung“ Wiernsheim | Bekanntmachung eines Satzungsbeschlusses der Gemeinde Wiernsheim über die Verlängerung einer Veränderungssperre |
-| **Art. 6 Abs. 1 f) DSGVO** | Die Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 f) DSGVO. Im Falle der Speicherung einer IP-Adresse erfolgt eine Löschung bzw. Anonymisierung nach spätestens 7 Tagen. | Datenschutzrechtliche Rechtsgrundlage und Löschungsfrist für die Protokollierung von Server- und Verbindungsdaten durch die Netze BW GmbH auf der Website |
-| **Art. 6 Abs. 1 s. 1 lit. e DSGVO** | Art. 6 Abs. 1 s. 1 lit. e DSGVO dient als Rechtsgrundlage für die Verarbeitung personenbezogener Daten bei der Nutzung der Online-Formulare der Gemeinde Wiernsheim. | Rechtsgrundlage zur Verarbeitung personenbezogener Daten bei gemeindlichen Online-Formularen |
+| **Art. 6 Abs. 1 f) DSGVO** | Im Falle der Speicherung einer IP-Adresse erfolgt eine Löschung bzw. Anonymisierung nach spätestens 7 Tagen. | Speicherung und Löschung von IP-Adressen bei der Einbindung des NETZMonitors der Netze BW GmbH |
+| **Art. 6 Abs. 1 s. 1 lit. a DSGVO** | Rechtsgrundlage für die Verarbeitung personenbezogener Daten beim Dienst YouTube | Einwilligung zur Verarbeitung personenbezogener Daten für die Einbettung von YouTube-Videos |
+| **Art. 6 Abs. 1 s. 1 lit. e DSGVO** | Rechtsgrundlage für die Verarbeitung personenbezogener Daten bei Online-Formularen der Gemeinde Wiernsheim | Verarbeitung von Nutzerdaten bei der Anwendung von Online-Formularen auf der Webseite |
 
 ## [ENZ_GM_22] Sektor ENZ_GM_22
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
