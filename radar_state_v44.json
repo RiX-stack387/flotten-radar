@@ -609,7 +609,7 @@
         "last_updated": "2026-10-18T02:49:48.467768+00:00"
     },
     "slot_13": {
-        "source_hash": "e56c4aef493c21a27bf0fe4d73e9cd782daca841b95b08308ad084422342f358",
+        "source_hash": "e0c7c5439e5692e8f2d9d60bb00d9ac6dd3dfff9ad8ce966f86a3c01c777793f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -651,7 +651,7 @@
         "last_updated": "2026-10-18T02:50:02.298451+00:00"
     },
     "slot_14": {
-        "source_hash": "e56c4aef493c21a27bf0fe4d73e9cd782daca841b95b08308ad084422342f358",
+        "source_hash": "e0c7c5439e5692e8f2d9d60bb00d9ac6dd3dfff9ad8ce966f86a3c01c777793f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -805,7 +805,7 @@
         "last_updated": "2026-10-18T02:50:49.992888+00:00"
     },
     "slot_19": {
-        "source_hash": "67c34b103c124fd10bae40de0ef7076cc7606868204e249002305a14a82430eb",
+        "source_hash": "7d6e40ecbeaf317da46a97c3082f4c686c4fdcebd910620c6cc35cf69a9e1c34",
         "legal_hash": "bb84d839e2154a7a244c88a2c975c90fecfd92dff654e543de8cdb54ee063aad",
         "claims": [
             {
@@ -942,7 +942,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "slot_25": {
-        "source_hash": "ff6d76d87476c1c325e615af86608db4c61faf21d10f3242c9f6583de6da407c",
+        "source_hash": "eab5adc5de850ad61f2900783713bf75bcadb4dd6653145d5321cc88014bec00",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1089,60 +1089,39 @@
         "last_updated": "2026-10-18T02:55:09.121721+00:00"
     },
     "slot_31": {
-        "source_hash": "9e19e67487019aca57a01017d686837018f8f3b43904a181ead4d5b33a2221e1",
-        "legal_hash": "c3726b9a91ff18a4b5c1e7f6ea911a7bf796d81140f2f69732df27959a40e4fb",
+        "source_hash": "1939a85ac008a0fc36369a2c4ee5a58202fe8eb752ea9d7671d47bfa0b56157d",
+        "legal_hash": "e6ff10507266808e061baf0c253146249630949044ba579e7542bf98c2cf281a",
         "claims": [
             {
-                "norm": "§ 22 SGB II",
-                "extracted_value": "Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen.",
-                "value_type": "TEXT",
-                "context": "Berechnung der Kosten der Unterkunft und Heizung (KdU) sowie regionale Angemessenheitsprüfung und Kürzungsbefugnis des Jobcenters bei Obergrenzenüberschreitung.",
-                "evidence_location": "Die von dir eingegebenen Wohnkosten (Miete und Heizkosten) fließen gemäß § 22 SGB II in die Berechnung ein. Bitte beachte: Eine Prüfung der regionalen Angemessenheit findet im Rechner nicht statt – das Jobcenter kann die Kosten bei Überschreitung der Obergrenzen kürzen."
-            },
-            {
                 "norm": "SGB II",
-                "extracted_value": "Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.",
-                "value_type": "TEXT",
-                "context": "Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld im Rahmen der Reform 2026.",
-                "evidence_location": "Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II."
-            },
-            {
-                "norm": "SGB II",
-                "extracted_value": "Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt.",
+                "extracted_value": "Bürgergeld wird offiziell in Grundsicherungsgeld umbenannt",
                 "value_type": "DATE",
-                "context": "Stichtag für das Inkrafttreten der Umbenennung von Bürgergeld in Grundsicherungsgeld.",
+                "context": "Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld ab dem 1. Juli 2026",
                 "evidence_location": "Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt."
             },
             {
                 "norm": "§ 20 SGB II",
                 "extracted_value": "563 €",
                 "value_type": "EURO",
-                "context": "Amtliche Regelbedarfsstufe 1 für Alleinstehende Erwachsene im Bürgergeld bzw. Grundsicherungsgeld 2026.",
+                "context": "Höhe des monatlichen Regelbedarfs für alleinstehende Erwachsene in der Regelbedarfsstufe 1 im Jahr 2026",
                 "evidence_location": "In der Regelbedarfsstufe 1 beträgt er 563 Euro."
             },
             {
-                "norm": "§ 21 SGB II",
-                "extracted_value": "Mehrbedarfe nach § 21 SGB II",
+                "norm": "§ 22 SGB II",
+                "extracted_value": "Kosten der Unterkunft (KdU) werden grundsätzlich nicht pauschal gezahlt, sondern in tatsächlicher Höhe übernommen – sofern sie angemessen sind.",
                 "value_type": "TEXT",
-                "context": "Gesetzliche Mehrbedarfe für Alleinerziehende, Schwangere oder dezentrale Warmwasserbereitung.",
-                "evidence_location": "Ja, der Bürgergeld Rechner berechnet Mehrbedarfe nach § 21 SGB II automatisch mit ein. Das betrifft unter anderem Zuschüsse für Alleinerziehende, Schwangere oder die dezentrale Warmwasserbereitung."
+                "context": "Übernahme der Unterkunfts- und Heizkosten nach dem SGB II unter Vorbehalt der Angemessenheit",
+                "evidence_location": "Kosten der Unterkunft (KdU) werden grundsätzlich nicht pauschal gezahlt, sondern in tatsächlicher Höhe übernommen – sofern sie angemessen sind."
             },
             {
                 "norm": "§ 11b SGB II",
                 "extracted_value": "208,90 €",
                 "value_type": "EURO",
-                "context": "Freibetrag bei Zuverdienst aus einem Minijob nach Bereinigung gemäß § 11b SGB II.",
-                "evidence_location": "Das Einkommen wird nach den aktuellen Regeln des § 11b SGB II bereinigt. Der Rechner zieht die gesetzlichen Freibeträge bei einem möglichen Zuverdienst automatisch ab – beim Minijob bleiben so beispielsweise bis zu 208,90 € im Monat anrechnungsfrei."
-            },
-            {
-                "norm": "§ 11 SGB II",
-                "extracted_value": "Ja, beide Leistungen zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf.",
-                "value_type": "TEXT",
-                "context": "Anrechnung von Kindergeld und Unterhalt als Einkommen des Kindes zur Minderung des Bedarfs.",
-                "evidence_location": "Ja, beide Leistungen zählen gemäß § 11 SGB II als Einkommen des Kindes und mindern dessen individuellen Bedarf."
+                "context": "Anrechnungsfreier monatlicher Betrag beim Minijob nach Bereinigung des Einkommens gemäß § 11b SGB II",
+                "evidence_location": "Der Rechner zieht die gesetzlichen Freibeträge bei einem möglichen Zuverdienst automatisch ab – beim Minijob bleiben so beispielsweise bis zu 208,90 € im Monat anrechnungsfrei."
             }
         ],
-        "last_updated": "2026-11-04T07:12:23.584793+00:00"
+        "last_updated": "2026-11-07T03:30:28.378947+00:00"
     },
     "slot_18": {
         "source_hash": "7ebfe140a40eb865d0777795c735724103f9fa53be53c7104c39291d1b540257",

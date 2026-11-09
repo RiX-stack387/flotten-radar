@@ -1361,7 +1361,7 @@
         "last_updated": "2026-10-18T03:07:24.133143+00:00"
     },
     "praxis_slot_Z70": {
-        "source_hash": "bf880569d0f33a494b3ff610238fd736577e374674b5bc3bd36095a92491842a",
+        "source_hash": "23c6ac6b18d09570537b3ccba6a0d6e1045c89447fb1c3308ba9c21a36176247",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1375,7 +1375,7 @@
         "last_updated": "2026-10-18T03:07:32.085167+00:00"
     },
     "praxis_slot_Z71": {
-        "source_hash": "9a34d8110fae81da6c9cd1918941d7e1a2dd2b415e87d9ca145ad1072521d47e",
+        "source_hash": "a7bb1b6e2e941ebe588f8a83b828d736667778ebf1cde6e87b56dd5f172a7b22",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z72": {
@@ -1778,7 +1778,7 @@
         "last_updated": "2026-10-18T03:10:31.480827+00:00"
     },
     "praxis_slot_ENZ_ST_01": {
-        "source_hash": "977a5c955f40f26e994a26418b2772f6033ec5ff1444a6698d03bfdf667569cb",
+        "source_hash": "e32eb72329c1eb406d92e70a2996615908c0355d928cc6b57e6dbc5a9b54e368",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1796,7 +1796,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_ST_03": {
-        "source_hash": "2494d346cf9e202e5503e4cf7c6f84a27c7a15646127a7b22b5970b020424a48",
+        "source_hash": "9457c8398ea357ec295da39f3eeff1d940c7eb11058515bedfedd60f2eb77f80",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -1810,7 +1810,7 @@
         "last_updated": "2026-10-18T03:10:58.293260+00:00"
     },
     "praxis_slot_ENZ_ST_04": {
-        "source_hash": "8b9cdcfabe415c45e4a44ddbc5d54b0c517addfa0575d0d41c37acdaadbd9949",
+        "source_hash": "5158618001f0d404f86fc9d3ef26f01bd5a1bbf7f4102e744bde7bf38ef8e2ab",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1824,15 +1824,15 @@
         "last_updated": "2026-10-18T03:11:06.335858+00:00"
     },
     "praxis_slot_ENZ_ST_05": {
-        "source_hash": "f8c7d92273fa96f9dad32dcf8fa52cc4319d5f3a022709acb08958d949c8e058",
+        "source_hash": "9e933426b23008befbd69e07426d8ff9eac8316855e773b7fb7863cae314ebd9",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_01": {
-        "source_hash": "c458eb798e745778e73187cd47b9ec680486c7c6fdb43e9ae071fe6e7d87590f",
+        "source_hash": "3d7307a194198df3cac7d8439fcdc87f9d8bb57b3b81fba3464500a3cccf964b",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_02": {
-        "source_hash": "63273fb65f390eb8c836b0fb864017d4f8316d5029023455beb760cf8d5785b3",
+        "source_hash": "bc4dab3c6bf3cab0ccc3a834f1a7fed9f6bd0dcf7ece7bd139731da7eaabd43c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1846,11 +1846,11 @@
         "last_updated": "2026-10-18T03:11:32.952177+00:00"
     },
     "praxis_slot_ENZ_GM_03": {
-        "source_hash": "483caaaa202e2f73f7e04aaed851163610a4de84fc76ef4012db41ce0d514628",
+        "source_hash": "c6666f60318423e956d9cd2a65b37b1c1b8c11abf1b272a9f2d54779aa9b8163",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_04": {
-        "source_hash": "d8adb7d0ee3b968ad00b0574902409b53d29833a421a64203523937f2ccd832b",
+        "source_hash": "1fa59db0c920fc66959ce6448d06dd0fd5b86a5709609f8b144bdc05e1315c78",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1864,7 +1864,7 @@
         "last_updated": "2026-10-18T03:11:48.490372+00:00"
     },
     "praxis_slot_ENZ_GM_05": {
-        "source_hash": "b94aaf32bc5686c4ce752ec81d186132eb491721698e7c5689ef0fe78b34e133",
+        "source_hash": "a588e045fa089fe1d98e716f95cc01b9b253162ee902b8bfe2f6706601f52b31",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1878,11 +1878,11 @@
         "last_updated": "2026-10-18T03:11:56.691756+00:00"
     },
     "praxis_slot_ENZ_GM_06": {
-        "source_hash": "91f8fef730f3e2db1930ff313603f02f0ffacc80414913f42b9aed44d9b42cf0",
+        "source_hash": "11018bbd75a4b5b7e0e7dcfd68439d5060bb8192e0fc366f958e79922bf2812a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_07": {
-        "source_hash": "cbb8d4dc5566ef36192a43c0b2711c0efd15ff4b6feb84bc40eb980b4430797c",
+        "source_hash": "a5fb6bf8ddd3414f2d2802d2ea202102c96636230757fdf6ff66d53b7ac8c7c7",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1896,16 +1896,16 @@
         "last_updated": "2026-11-03T13:04:59.376660+00:00"
     },
     "praxis_slot_ENZ_GM_08": {
-        "source_hash": "9c6e455a723710f368a78bac72ef49776e94ee2f8070c5b8970065eb518309bb",
+        "source_hash": "4a9c113c673ba118ca3c0d06ede6dbe30cd9670301ac639e8d4515e501448568",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_09": {
-        "source_hash": "4c2ce025ead8d6bef8ccc54e7fe8d38bd31e7a10d6a0330614baaedc9b2edbfe",
+        "source_hash": "55182f56a0d9efdf3e49eb8184ff694a2e1306c47ad4a7214ae52fde6dbd10fe",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_10": {
-        "source_hash": "94100f04777ae224f5b282fc48e563c18943b8f54ffb07fca72d0a58fc23ef79",
-        "legal_hash": "2dbe1a2f9d343b69d4e5bbb0050e09301c3c6af2a24e5dddd95ce502b09869a1",
+        "source_hash": "1ad55b87508a05b57653925153646ef6cdd46fd1563fda8508aafe841a34c0d0",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
                 "norm": "§ 7 Straßengesetz Baden-Württemberg (StrG)",
@@ -1918,7 +1918,7 @@
         "last_updated": "2026-11-04T07:21:40.942556+00:00"
     },
     "praxis_slot_ENZ_GM_11": {
-        "source_hash": "2b27be6c5a0db5c8b896273c203b2d0c9548e4049d9e52656aebf1d039b4db28",
+        "source_hash": "d09a9b1cd50913cc468900ee637ca955cedbb0b504f1aceea138de51c9644b91",
         "legal_hash": "133355bb1eedb2e2bfc53539e51d10e82bd0ed8e6ea3d45c341241b499bc022a",
         "claims": [
             {
@@ -1953,7 +1953,7 @@
         "last_updated": "2026-10-18T03:12:57.658715+00:00"
     },
     "praxis_slot_ENZ_GM_13": {
-        "source_hash": "d6f3f0100735a971bb2265a4925de0af271f82e3de8dbf798664da70974b8567",
+        "source_hash": "f76ae49bcca13913e1670715a4cff12b348143450d8fe71987678cef91437c10",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1967,32 +1967,25 @@
         "last_updated": "2026-10-18T03:13:06.163032+00:00"
     },
     "praxis_slot_ENZ_GM_14": {
-        "source_hash": "52d0c69664153b6f0f04de4450c8572591d5d14ba67517dae5c16a346e29e2ef",
-        "legal_hash": "6ced100935b0b1e855c33431f03a97a5810270b350680d1e7ed9162734e1be9d",
+        "source_hash": "8ae8698b4cea9b17adbac117d97f4b744e456bb366f3ec060dd652b49e59d1a2",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
-                "norm": "§ 3 Abs. 2 BauGB",
-                "extracted_value": "Öffentliche Bekanntmachung - Beteiligung der Öffentlichkeit gemäß § 3 Abs. 2 BauGB des ...",
-                "value_type": "TEXT",
-                "context": "Beteiligung der Öffentlichkeit an der Bauleitplanung 'Waldhorn' in der Gemeinde Niefern-Öschelbronn.",
-                "evidence_location": "Öffentliche Bekanntmachung - Beteiligung der Öffentlichkeit gemäß § 3 Abs. 2 BauGB des ..."
-            },
-            {
                 "norm": "Art. 6 Abs. 1 s. 1 lit. a DSGVO",
-                "extracted_value": "Einwilligung als Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei Webanalysediensten und externen Medieninhalten.",
+                "extracted_value": "Rechtsgrundlage für die Verarbeitung personenbezogener Daten durch Google Analytics ist die Einwilligung nach Art. 6 Abs. 1 s. 1 lit. a DSGVO.",
                 "value_type": "TEXT",
-                "context": "Verarbeitung von Nutzerdaten im Rahmen der Dienste Google Analytics und YouTube.",
+                "context": "Datenschutzrechtliche Rechtsgrundlage für die Nutzung des Webanalysedienstes Google Analytics auf der Website der Gemeinde Niefern-Öschelbronn.",
                 "evidence_location": "Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt. Art. 6 Abs. 1 s. 1 lit. a DSGVO"
             },
             {
-                "norm": "Art. 6 Abs. 1 s. 1 lit. e DSGVO",
-                "extracted_value": "Wahrnehmung einer Aufgabe im öffentlichen Interesse als Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten bei Webseiten-Login und Medienbannern.",
-                "value_type": "TEXT",
-                "context": "Bereitstellung essenzieller technischer Funktionalitäten und Benutzeranmeldungen auf der Webpräsenz der Gemeinde Niefern-Öschelbronn.",
-                "evidence_location": "Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt. Art. 6 Abs. 1 s. 1 lit. e DSGVO"
+                "norm": "Veranstaltungskalender Gemeinde Niefern-Öschelbronn",
+                "extracted_value": "13.11.2026",
+                "value_type": "DATE",
+                "context": "Termin für die Gedenkfeier zum Volkstrauertag auf dem Neuen Friedhof.",
+                "evidence_location": "Gedenkfeier zum Volkstrauertag am 13.11.2026"
             }
         ],
-        "last_updated": "2026-10-31T03:23:58.863277+00:00"
+        "last_updated": "2026-11-07T03:43:42.829217+00:00"
     },
     "praxis_slot_ENZ_GM_15": {
         "source_hash": "fbd9ec8d3207c3e49b6ef8aba8d29aee7d9eae5113acb3436b1dd344cfca4a18",
@@ -2037,7 +2030,7 @@
         "last_updated": "2026-10-30T05:42:04.013512+00:00"
     },
     "praxis_slot_ENZ_GM_17": {
-        "source_hash": "6625e4ef3f4aa83d7f6dec3dbeffd214200f03dda52d612fedcfcad6f873e948",
+        "source_hash": "32a232e7f9e46567424545e5ca8ad0f8db194649c3c32fae4075145352d44b8e",
         "legal_hash": "5bc669570149bd6dbb2e2cb4eb31933b6cd2b512d19651b187817d159bf9446e",
         "claims": [
             {
@@ -2058,7 +2051,7 @@
         "last_updated": "2026-11-03T05:47:52.160417+00:00"
     },
     "praxis_slot_ENZ_GM_18": {
-        "source_hash": "cdeb9a1600d37268258c35e877000ce13ea34e3a2cec7145e13c0991f55581d7",
+        "source_hash": "07f1a8194b84072b248b901f1a8a8a1e1ffa0b643acb154aba4e6753bfa2a8a3",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2072,7 +2065,7 @@
         "last_updated": "2026-10-18T03:13:48.433816+00:00"
     },
     "praxis_slot_ENZ_GM_19": {
-        "source_hash": "f5eda98ea272cd5d7c534c037c883be740f0e49d0139820effcd23fb1e322ea4",
+        "source_hash": "499f2bc2830c877ca29272c8d8d2ceb97039fe02b7c46f7e88681eb5f087ce8a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2086,7 +2079,7 @@
         "last_updated": "2026-10-18T03:13:57.539802+00:00"
     },
     "praxis_slot_ENZ_GM_20": {
-        "source_hash": "d85629ae535be3c2daee2ae152bc51cd1bc72db0681639257da74ce988136a15",
+        "source_hash": "e9a44a5035c712b9e3fb847d4711fb4123a771600ca303b36a6d085a7b5906c7",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -2100,11 +2093,35 @@
         "last_updated": "2026-10-18T03:14:08.134738+00:00"
     },
     "praxis_slot_ENZ_GM_21": {
-        "source_hash": "f729870d5dadea4bbefc38b9caec93672902763be07b0751799a9c76f80d9598",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "source_hash": "2b24dd1ba61783e066a46ba4a81a3ab93bca3af9f52ffac5ffdfd45fefa4ddfd",
+        "legal_hash": "616f124e37d36f399450271c0f4fffa9a465e5dce3195eb6c070ded9d36a401a",
+        "claims": [
+            {
+                "norm": "Satzung zur Verlängerung der Veränderungssperre für den Geltungsbereich des Bebauungsplans „Kazenloch – 1. Änderung“ Wiernsheim",
+                "extracted_value": "Öffentliche Bekanntmachung des Satzungsbeschlusses und des Inkrafttretens der Satzung zur Verlängerung der Veränderungssperre für den Geltungsbereich des Bebauungsplans „Kazenloch – 1. Änderung“ Wiernsheim",
+                "value_type": "TEXT",
+                "context": "Bekanntmachung eines Satzungsbeschlusses der Gemeinde Wiernsheim über die Verlängerung einer Veränderungssperre",
+                "evidence_location": "Öff. Bekanntmachung des Satzungsbeschlusses und des Inkrafttretens der Satzung zur Verlängerung der Veränderungssperre für den Geltungsbereich des Bebauungsplans „Kazenloch – 1. Änderung“ Wiernsheim Mehr erfahren"
+            },
+            {
+                "norm": "Art. 6 Abs. 1 f) DSGVO",
+                "extracted_value": "Die Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 f) DSGVO. Im Falle der Speicherung einer IP-Adresse erfolgt eine Löschung bzw. Anonymisierung nach spätestens 7 Tagen.",
+                "value_type": "TEXT",
+                "context": "Datenschutzrechtliche Rechtsgrundlage und Löschungsfrist für die Protokollierung von Server- und Verbindungsdaten durch die Netze BW GmbH auf der Website",
+                "evidence_location": "Die Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 f) DSGVO. Die Daten werden gelöscht, sobald sie für die zuvor genannten Zwecke nicht mehr erforderlich sind. Im Falle der Speicherung einer IP-Adresse erfolgt eine Löschung bzw. Anonymisierung nach spätestens 7 Tagen."
+            },
+            {
+                "norm": "Art. 6 Abs. 1 s. 1 lit. e DSGVO",
+                "extracted_value": "Art. 6 Abs. 1 s. 1 lit. e DSGVO dient als Rechtsgrundlage für die Verarbeitung personenbezogener Daten bei der Nutzung der Online-Formulare der Gemeinde Wiernsheim.",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlage zur Verarbeitung personenbezogener Daten bei gemeindlichen Online-Formularen",
+                "evidence_location": "Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt. Art. 6 Abs. 1 s. 1 lit. e DSGVO"
+            }
+        ],
+        "last_updated": "2026-11-07T03:45:59.431708+00:00"
     },
     "praxis_slot_ENZ_GM_22": {
-        "source_hash": "68f6861af7090442e14456cf80e33fec58b8059b9e74d2eeed247a3ca1003b2c",
+        "source_hash": "7850c87c3e359bb0f6457e6b8874ac90b7646bb6c792143ebfa1ee7d0b8f02e9",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2118,7 +2135,7 @@
         "last_updated": "2026-10-18T03:14:25.465552+00:00"
     },
     "praxis_slot_ENZ_GM_23": {
-        "source_hash": "ac06a8d731f695c47d6aac5c19186718fbc3184b15ce3f5024f2a2d52192f374",
+        "source_hash": "a45dccb0c3790bf63d0c871d369212514d037ea7c452e9db63cb38173e2a2402",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2158,11 +2175,11 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_K5_WOHNBAU": {
-        "source_hash": "61b737c6b20091da1de898dd519c5ac82926cd270402a354debd3de3117a1c0f",
+        "source_hash": "2e3ea8cb6b7b83a6cdf2bb8e4c68c31521e03fd09ff5a4878f1e69d2e6fd3532",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K6_DWD": {
-        "source_hash": "64d514cb64403eaebd4d6b2fbadf5f8d3c579d646e47ec4d6515034c66a58091",
+        "source_hash": "002a9247af7be9a9da1908c18453224d26cf22572105f89ea90917619505891c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     }
 }
