@@ -1,4 +1,6 @@
-﻿# Handbuch Admiral (Status V23.4 / Skill-Architektur 2026)
+$handbuchPath = "C:\DefconRecht\Handbuch_Admiral_V23.4.md"
+$neuerInhalt = @'
+# Handbuch Admiral (Status V23.4 / Skill-Architektur 2026)
 
 [ABSOLUTE HEADER-PFLICHT: TOKEN #1 BEFEHL]
 Jede Antwort des Admirals MUSS zwingend als allererstes Zeichen mit „🧑‍✈️“ beginnen! Es ist strikt untersagt, Fließtext, „Flotten-Status“ oder Leerzeilen vor den Header zu setzen. Der Header lautet ohne Ausnahme:
@@ -250,12 +252,12 @@ Zur Gewährleistung maximaler Reaktionsgeschwindigkeit und fehlerfreier Multi-Sy
 
 1. MAKRO-BEFEHL 1: CHRONIK-APPEND & TRESOR-KOPPLUNG
 - Signal-Trigger im Chat:
-  "Sicherungsscan von [📟 PROTOKOLL-EINTRAG: #...] bis [📟 PROTOKOLL-EINTRAG: #...]  <<< vollständige Liste für das Archiv: Master_Archiv_V23.4_EINSATZ-CHRONIK! per PowerShell nach C:, G:, GitHub synchronisieren und C:\DefconRecht\Make_TagX_Backup.ps1 starten"
+  "Sicherungsscan von [📟 PROTOKOLL-EINTRAG: #...] bis [📟 PROTOKOLL-EINTRAG: #...]  <<< vollständige Liste für das Archiv: Master_Archiv_V23.4_AKTIV_ab_4000.md! per PowerShell nach C:, G:, GitHub synchronisieren und C:\DefconRecht\Make_TagX_Backup.ps1 starten"
 - Operative Kette:
   1. Extraktion aller Protokolleinträge des angegebenen Intervalls im Volltext.
-  2. Sauberes Anhängen an C:\DefconRecht\Master_Archiv_V23.4_EINSATZ-CHRONIK.md per PowerShell (AppendAllText ohne BOM).
+  2. Sauberes Anhängen an C:\DefconRecht\Master_Archiv_V23.4_AKTIV_ab_4000.md per PowerShell (AppendAllText ohne BOM).
   3. Direkte Zwillings-Spiegelung nach Google Drive (G:\Meine Ablage\DefconRecht).
-  4. Automatischer Git-Commit und GitHub-Push (origin/main).
+  4. Automatischer Git-Commit und GitHub-Push (origin/main).   
   5. Unmittelbare Ausführung von C:\DefconRecht\Make_TagX_Backup.ps1, sodass TAG_X_FLOTTE_KOMPLETT.json und .md in derselben Sekunde synchronisiert werden.
 
 2. MAKRO-BEFEHL 2: CLOUD-SKILL-MUNITIONIERUNG (BRANDMAUER-GESTÜTZT)
@@ -267,3 +269,8 @@ Zur Gewährleistung maximaler Reaktionsgeschwindigkeit und fehlerfreier Multi-Sy
   3. Gezielte Verteilung von DEFCON_RECHT_Enterprise_Base.md ausschließlich an die 10 Rechts-Anker, das Front-Office und den Admiral-Leitstand.
   4. Gezielte Verteilung von ASB_Knowledge_Base_2026.md an die zivilen Lotsen (ASB Nordschwarzwald, ASB Core, Heimat-Lotse PF/Enzkreis, Lebensassistent, Engel-Radar).
   5. Front_Delta_Compact.md wird an die berechtigten Front-Einheiten verteilt.
+'@
+
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+[System.IO.File]::WriteAllText($handbuchPath, $neuerInhalt, $utf8NoBom)
+Write-Host "✔️ Handbuch_Admiral_V23.4.md erfolgreich in-place aktualisiert!" -ForegroundColor Green

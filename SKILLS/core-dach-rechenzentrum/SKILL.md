@@ -208,6 +208,7 @@ FOOTER (Immer ganz unten) 🟥 🟥🟥⚓⚓⚓🟥 🟥🟥 DIE SCHLUSSFRAGE: 
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
+- Datei references/Handbuch_CORE_DACH_V23.4.md
 
 ## [🏛️ DOKTRIN: ALLEINIGE BRÜCKEN-AUTORITÄT // SINGLE-POINT-OF-CONTROL]
 
