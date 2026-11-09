@@ -38,7 +38,6 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 - Datei references/ASB_Knowledge_Base_2026.md
 - Datei references/Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md
 - Datei references/Front_Delta_Compact.md
-- Datei references/Katastrophenschutz Enzkreis Nordschwarzwald (1).md
 - Datei references/Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md
 
 ## [🔍 OBLIGATORISCHER 4-STUFEN-AUDIT VOR JEDER ANTWORT]

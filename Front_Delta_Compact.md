@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-09)
+RADAR-DELTA COMPACT (2026-11-09 04:27:17)
 - [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt.
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Wohnkosten fließen gemäß § 22 SGB II ein; das Jobcenter kann die Kosten bei Überschreitung regionaler Obergrenzen kürzen.
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 21 SGB II: Mehrbedarfe nach § 21 SGB II umfassen unter anderem Zuschüsse für Alleinerziehende, Schwangere oder die dezentrale Warmwasserbereitung.
