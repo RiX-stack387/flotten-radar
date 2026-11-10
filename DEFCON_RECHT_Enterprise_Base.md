@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-10 10:41:30 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-10 14:44:54 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -516,8 +516,7 @@
 ## [ENZ_GM_17] Sektor ENZ_GM_17
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Brennholzpreis Remchingen** | 65€/Fm | Preis für Brennholz aus März 2026 im Rahmen des kommunalen Brennholzverkaufs. |
-| **Zählerstandübermittlung digital** | 01.10.2026 | Datum zur digitalen Übermittlung von Zählerständen in Remchingen. |
+| **Sanierung Turn- und Schwimmhalle Remchingen** | rund elf Millionen Euro | Investitionsvolumen für die Sanierung des Hallenbades mit Turnhalle in Remchingen |
 
 ## [ENZ_GM_18] Sektor ENZ_GM_18
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
