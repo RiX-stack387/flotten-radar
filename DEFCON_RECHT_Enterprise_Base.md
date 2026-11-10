@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-09 04:27:01 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-10 10:41:30 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -204,11 +204,14 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **SGB II** | Zum 1. Juli 2026 wird das Bürgergeld offiziell in Grundsicherungsgeld umbenannt. | Offizielle Umbenennung des Bürgergelds in Grundsicherungsgeld im Rahmen der Reform 2026 |
-| **§ 22 SGB II** | Wohnkosten fließen gemäß § 22 SGB II ein; das Jobcenter kann die Kosten bei Überschreitung regionaler Obergrenzen kürzen. | Berücksichtigung und Angemessenheitsprüfung der Kosten der Unterkunft und Heizung (KdU) |
-| **§ 20 SGB II** | 563 € | Regelbedarf für Alleinstehende Erwachsene (Regelbedarfsstufe 1) im Jahr 2026 |
-| **§ 11b SGB II** | 208,90 € | Anrechnungsfreier monatlicher Freibetrag bei einem Minijob nach Bereinigung des Einkommens |
-| **§ 21 SGB II** | Mehrbedarfe nach § 21 SGB II umfassen unter anderem Zuschüsse für Alleinerziehende, Schwangere oder die dezentrale Warmwasserbereitung. | Gesetzliche Mehrbedarfe als pauschale Aufschläge zusätzlich zum Regelbedarf |
+| **§ 20 SGB II** | 563 € | Regelbedarf für Alleinstehende in der Regelbedarfsstufe 1 für das Grundsicherungsgeld im Jahr 2026 |
+| **§ 20 SGB II** | 506 € | Regelbedarf für Partner / Ehepartner / Lebenspartner in der Regelbedarfsstufe 2 |
+| **§ 20 SGB II** | 451 € | Regelbedarf für volljährige Personen unter 25 Jahren im Haushalt der Eltern in der Regelbedarfsstufe 3 |
+| **§ 20 SGB II** | 471 € | Regelbedarf für Jugendliche von 14 bis 17 Jahren in der Regelbedarfsstufe 4 |
+| **§ 20 SGB II** | 390 € | Regelbedarf für Kinder von 6 bis 13 Jahren in der Regelbedarfsstufe 5 |
+| **§ 20 SGB II** | 357 € | Regelbedarf für Kinder bis 5 Jahre in der Regelbedarfsstufe 6 |
+| **§ 11b SGB II** | 208,90 € | Anrechnungsfreier Betrag im Monat beim Minijob nach den aktuellen Freibetragsregeln für Zuverdienst |
+| **SGB II Reform 2026** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld ab dem Jahr 2026 |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -473,7 +476,8 @@
 ## [ENZ_GM_10] Sektor ENZ_GM_10
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 7 Straßengesetz Baden-Württemberg (StrG)** | Der Gemeinderat der Gemeinde Königsbach-Stein hat am 25. Februar 2026 die Einziehung der beschränkt-öffentlichen Feldwege Flst. Nr. 1834 und 7951 in der Gemarkung Königsbach beschlossen. | Öffentliche Bekanntmachung über die Einziehung beschränkt-öffentlicher Feldwege auf Gemarkung Königsbach. |
+| **§ 7 KiTaG** | Erzieher (m/w/d) bzw. pädagogische Fachkraft (m/w/d) nach § 7 KiTaG in Voll- oder Teilzeit ab sofort für die kommunalen Kindertageseinrichtungen Heynlinkita und Kita Regenbogen gesucht | Stellenausschreibung der Gemeinde Königsbach-Stein für pädagogisches Fachpersonal in kommunalen Kindertageseinrichtungen |
+| **Bekanntmachung Schließung Bürgerbüro Stein** | Bürgerbüro in Stein am 12.11.2026 geschlossen | Vorübergehende Schließung des Bürgerbüros Stein mit Ausweichmöglichkeit auf das Bürgerbüro Königsbach |
 
 ## [ENZ_GM_11] Sektor ENZ_GM_11
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
