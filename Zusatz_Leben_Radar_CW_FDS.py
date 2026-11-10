@@ -1,4 +1,4 @@
-ï»¿"""âš“ DEFCON RECHT RADAR - ZUSATZ-FLOTTE "LEBENS-PRAXIS" CW/FDS (V44.0)
+"""? DEFCON RECHT RADAR - ZUSATZ-FLOTTE "LEBENS-PRAXIS" CW/FDS (V44.0)
 Architektur: Playwright + CMP-Blocker + Secure-PDF + Config-Gate + Strict-Evidence + Vault
 Gebiet: LANDKREIS CALW & LANDKREIS FREUDENSTADT (100% Geofenced)
 """
@@ -81,7 +81,7 @@ class ValueType(str, Enum):
 
 class LLMClaim(BaseModel):
     norm: str = Field(..., description="Rechtsnorm, Aktenzeichen, Tarif oder Satzung")
-    extracted_value: str = Field(..., description="VollstÃ¤ndige Kernaussage, der Leitsatz oder konkreter Betrag")
+    extracted_value: str = Field(..., description="Vollständige Kernaussage, der Leitsatz oder konkreter Betrag")
     value_type: ValueType = Field(..., description="Typ des Wertes")
     context: str = Field(..., description="Zusammenfassung des rechtlichen Sachverhalts")
     evidence_location: str = Field(..., description="Exakter Original-Textausschnitt aus der Webseite als absoluter Beweis")
@@ -202,7 +202,7 @@ async def process_slot(slot: dict, state: dict, browser: Browser) -> dict:
     agg_text = "\n".join([f"[CANONICAL: {r['canonical']}]\n{r['text']}" for r in valid_fetches])
     curr_source_hash = compute_hash(agg_text)
     
-    legal_elements = re.findall(r'(Â§\s*\d+[a-z]*|(?:\d{1,3}(?:\.\d{3})*|\d+)(?:,\d{1,2})?\s*(?:â‚¬|EUR|Euro|%))', agg_text)
+    legal_elements = re.findall(r'(§\s*\d+[a-z]*|(?:\d{1,3}(?:\.\d{3})*|\d+)(?:,\d{1,2})?\s*(?:€|EUR|Euro|%))', agg_text)
     curr_legal_hash = compute_hash(" | ".join(sorted(set(legal_elements))))
     
     slot_key = f"cw_fds_slot_{slot['id']}"
@@ -212,11 +212,11 @@ async def process_slot(slot: dict, state: dict, browser: Browser) -> dict:
         return {"id": slot["id"], "name": slot["name"], "status": VerificationStatus.SOURCE_UNCHANGED, "diff": "Quelle bitgenau identisch."}
     if saved.get("legal_hash") == curr_legal_hash:
         state[slot_key] = {**saved, "source_hash": curr_source_hash}
-        return {"id": slot["id"], "name": slot["name"], "status": VerificationStatus.SOURCE_CHANGED_LEGAL_UNCHANGED, "diff": "Nur kosmetische HTML-Ã„nderungen."}
+        return {"id": slot["id"], "name": slot["name"], "status": VerificationStatus.SOURCE_CHANGED_LEGAL_UNCHANGED, "diff": "Nur kosmetische HTML-Änderungen."}
 
     sys_instruct = (
-        f"DU BIST EIN GERICHTLICHER DATENEXTRAKTOR FÃœR {slot['jurisdiction']}. Extrahiere Tarife, GebÃ¼hren, Fristen, Fakten. "
-        f"ACHTE BESONDERS AUF DIE TERMINOLOGIE 'Grundsicherungsgeld' SOWIE VERÃ–FFENTLICHUNGEN DER JOBCENTER CALW UND FREUDENSTADT "
+        f"DU BIST EIN GERICHTLICHER DATENEXTRAKTOR FÜR {slot['jurisdiction']}. Extrahiere Tarife, Gebühren, Fristen, Fakten. "
+        f"ACHTE BESONDERS AUF DIE TERMINOLOGIE 'Grundsicherungsgeld' SOWIE VERÖFFENTLICHUNGEN DER JOBCENTER CALW UND FREUDENSTADT "
         f"ZU MIETOBERGRENZEN UND KARENZZEITEN. "
         f"Die 'evidence_location' muss ein exakter Satz/Absatz aus der Quelle sein, der dies zweifelsfrei belegt."
     )
@@ -252,7 +252,7 @@ async def process_slot(slot: dict, state: dict, browser: Browser) -> dict:
         return {
             "id": slot["id"], "name": slot["name"],
             "status": VerificationStatus.LEGAL_CHANGED_VALIDATION_FAILED if llm_res.claims else VerificationStatus.LEGAL_CHANGED_NO_CLAIMS,
-            "diff": "Rechts-Hash geÃ¤ndert, aber keine Claims belegbar."
+            "diff": "Rechts-Hash geändert, aber keine Claims belegbar."
         }
 
     old_claims = saved.get("claims", [])
@@ -266,7 +266,7 @@ async def process_slot(slot: dict, state: dict, browser: Browser) -> dict:
     diff_lines.append("--- STATUS NEU ---")
     for nc in valid_claims:
         is_new = not any(oc["extracted_value"] == nc["extracted_value"] and oc["norm"] == nc["norm"] for oc in old_claims)
-        marker = "[GEÃ„NDERT/NEU] " if is_new else "[UNVERÃ„NDERT] "
+        marker = "[GEÄNDERT/NEU] " if is_new else "[UNVERÄNDERT] "
         diff_lines.append(f"{marker}Norm/AZ: {nc['norm']} | Wert: {nc['extracted_value']} ({nc['value_type']})\nKontext: {nc['context']}\nBeweis: {nc['evidence_location']}\n")
 
     diff_summary = "\n".join(diff_lines)
@@ -276,7 +276,7 @@ async def process_slot(slot: dict, state: dict, browser: Browser) -> dict:
         vault_file = os.path.join(VAULT_DIR, f"{datetime.date.today()}_CWFDS_{slot['id']}_Beweis.txt")
         with open(vault_file, "w", encoding="utf-8") as vf:
             vf.write(f"QUELL-LINK: {valid_fetches[0]['canonical']}\n\n{agg_text}")
-        diff_summary += f"\n[ðŸ”’ BEWEIS GESICHERT]: {vault_file}"
+        diff_summary += f"\n[?? BEWEIS GESICHERT]: {vault_file}"
 
     state[slot_key] = {
         "source_hash": curr_source_hash,
@@ -295,40 +295,40 @@ ZUSATZ_ARSENAL_CW_FDS = [
     {"id": "CW_Z2", "name": "ENCW Strom Grundversorgung", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["encw.de"], "source_urls": ["https://www.encw.de/privatkunden/strom/grundversorgung/"], "deep_urls": []},
     {"id": "CW_Z3", "name": "BuT Jobcenter Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["jobcenter-landkreis-calw.de"], "source_urls": ["https://www.jobcenter-landkreis-calw.de/downloads"], "deep_urls": []},
     {"id": "CW_Z4", "name": "VGC Ticket-Tarife (Calw)", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["vgc-online.de"], "source_urls": ["https://www.vgc-online.de/tickets-preise/"], "deep_urls": []},
-    {"id": "CW_Z5", "name": "TafellÃ¤den Kreis Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["erlacher-hoehe.de"], "source_urls": ["https://www.erlacher-hoehe.de/angebote/calw/tafellaeden/"], "deep_urls": []},
-    {"id": "CW_Z10", "name": "WohngeldbehÃ¶rde Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["kreis-calw.de"], "source_urls": ["https://www.kreis-calw.de/Service-Verwaltung/Service/Online-Dienste/"], "deep_urls": []},
-    {"id": "CW_Z11", "name": "AWG AbfallgebÃ¼hren Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["awg-info.de"], "source_urls": ["https://www.awg-info.de/privatkunden/gebuehren"], "deep_urls": []},
+    {"id": "CW_Z5", "name": "Tafelläden Kreis Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["erlacher-hoehe.de"], "source_urls": ["https://www.erlacher-hoehe.de/angebote/calw/tafellaeden/"], "deep_urls": []},
+    {"id": "CW_Z10", "name": "Wohngeldbehörde Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["kreis-calw.de"], "source_urls": ["https://www.kreis-calw.de/Service-Verwaltung/Service/Online-Dienste/"], "deep_urls": []},
+    {"id": "CW_Z11", "name": "AWG Abfallgebühren Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["awg-info.de"], "source_urls": ["https://www.awg-info.de/privatkunden/gebuehren"], "deep_urls": []},
     {"id": "CW_Z12", "name": "Schuldnerberatung Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["kreis-calw.de"], "source_urls": ["https://www.kreis-calw.de/Service-Verwaltung/Service/Dienstleistungen/"], "deep_urls": []},
     {"id": "CW_Z24", "name": "Wohnberechtigungsschein (WBS) Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["kreis-calw.de"], "source_urls": ["https://www.kreis-calw.de/Service-Verwaltung/Service/Dienstleistungen/"], "deep_urls": []},
-    {"id": "CW_Z27", "name": "PflegestÃ¼tzpunkt Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["kreis-calw.de"], "source_urls": ["https://www.kreis-calw.de/Service-Verwaltung/Service/Pflegest%C3%BCtzpunkt/#2442.18982"], "deep_urls": []},
+    {"id": "CW_Z27", "name": "Pflegestützpunkt Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["kreis-calw.de"], "source_urls": ["https://www.kreis-calw.de/Service-Verwaltung/Service/Pflegest%C3%BCtzpunkt/#2442.18982"], "deep_urls": []},
     {"id": "CW_Z28", "name": "Unterhaltsvorschuss Calw", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["kreis-calw.de"], "source_urls": ["https://www.kreis-calw.de/Service-Verwaltung/Service/Online-Dienste/"], "deep_urls": []},
     
     # --- KOMMUNAL-SLOTS LANDKREIS CALW (25 Kommunen) ---
-    {"id": "CW_ST_01", "name": "Stadt Calw - Rathaus & BÃ¼rgerservice", "jurisdiction": "STADT_CALW", "allowed_domains": ["calw.de"], "source_urls": ["https://www.calw.de"], "deep_urls": []},
-    {"id": "CW_ST_02", "name": "Stadt Nagold - Rathaus & BÃ¼rgerservice", "jurisdiction": "STADT_NAGOLD", "allowed_domains": ["nagold.de"], "source_urls": ["https://www.nagold.de"], "deep_urls": []},
-    {"id": "CW_ST_03", "name": "Stadt Altensteig - Rathaus & BÃ¼rgerservice", "jurisdiction": "STADT_ALTENSTEIG", "allowed_domains": ["altensteig.de"], "source_urls": ["https://www.altensteig.de"], "deep_urls": []},
-    {"id": "CW_ST_04", "name": "Stadt Wildberg - Rathaus & BÃ¼rgerservice", "jurisdiction": "STADT_WILDBERG", "allowed_domains": ["wildberg.de"], "source_urls": ["https://www.wildberg.de"], "deep_urls": []},
-    {"id": "CW_ST_05", "name": "Stadt Neubulach - Rathaus & BÃ¼rgerservice", "jurisdiction": "STADT_NEUBULACH", "allowed_domains": ["neubulach.de"], "source_urls": ["https://www.neubulach.de"], "deep_urls": []},
-    {"id": "CW_ST_06", "name": "Stadt Haiterbach - Rathaus & BÃ¼rgerservice", "jurisdiction": "STADT_HAITERBACH", "allowed_domains": ["haiterbach.de"], "source_urls": ["https://www.haiterbach.de"], "deep_urls": []},
+    {"id": "CW_ST_01", "name": "Stadt Calw - Rathaus & Bürgerservice", "jurisdiction": "STADT_CALW", "allowed_domains": ["calw.de"], "source_urls": ["https://www.calw.de"], "deep_urls": []},
+    {"id": "CW_ST_02", "name": "Stadt Nagold - Rathaus & Bürgerservice", "jurisdiction": "STADT_NAGOLD", "allowed_domains": ["nagold.de"], "source_urls": ["https://www.nagold.de"], "deep_urls": []},
+    {"id": "CW_ST_03", "name": "Stadt Altensteig - Rathaus & Bürgerservice", "jurisdiction": "STADT_ALTENSTEIG", "allowed_domains": ["altensteig.de"], "source_urls": ["https://www.altensteig.de"], "deep_urls": []},
+    {"id": "CW_ST_04", "name": "Stadt Wildberg - Rathaus & Bürgerservice", "jurisdiction": "STADT_WILDBERG", "allowed_domains": ["wildberg.de"], "source_urls": ["https://www.wildberg.de"], "deep_urls": []},
+    {"id": "CW_ST_05", "name": "Stadt Neubulach - Rathaus & Bürgerservice", "jurisdiction": "STADT_NEUBULACH", "allowed_domains": ["neubulach.de"], "source_urls": ["https://www.neubulach.de"], "deep_urls": []},
+    {"id": "CW_ST_06", "name": "Stadt Haiterbach - Rathaus & Bürgerservice", "jurisdiction": "STADT_HAITERBACH", "allowed_domains": ["haiterbach.de"], "source_urls": ["https://www.haiterbach.de"], "deep_urls": []},
     {"id": "CW_ST_07", "name": "Stadt Bad Wildbad - Rathaus & Kurbetrieb", "jurisdiction": "STADT_BAD_WILDBAD", "allowed_domains": ["bad-wildbad.de"], "source_urls": ["https://www.bad-wildbad.de"], "deep_urls": []},
     {"id": "CW_ST_08", "name": "Stadt Bad Liebenzell - Rathaus & Kurbetrieb", "jurisdiction": "STADT_BAD_LIEBENZELL", "allowed_domains": ["bad-liebenzell.de"], "source_urls": ["https://www.bad-liebenzell.de"], "deep_urls": []},
     {"id": "CW_ST_09", "name": "Stadt Bad Herrenalb - Rathaus & Kurbetrieb", "jurisdiction": "STADT_BAD_HERRENALB", "allowed_domains": ["badherrenalb.de"], "source_urls": ["https://www.badherrenalb.de"], "deep_urls": []},
     {"id": "CW_ST_10", "name": "Stadt Bad Teinach-Zavelstein - Rathaus & Kurbetrieb", "jurisdiction": "STADT_BAD_TEINACH_ZAVELSTEIN", "allowed_domains": ["bad-teinach-zavelstein.de"], "source_urls": ["https://www.bad-teinach-zavelstein.de"], "deep_urls": []},
-    {"id": "CW_GM_01", "name": "Gemeinde Althengstett - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_ALTHENGSTETT", "allowed_domains": ["althengstett.de"], "source_urls": ["https://www.althengstett.de"], "deep_urls": []},
-    {"id": "CW_GM_02", "name": "Gemeinde SchÃ¶mberg - Rathaus & Touristik", "jurisdiction": "GEMEINDE_SCHOEMBERG", "allowed_domains": ["schoemberg.de"], "source_urls": ["https://www.schoemberg.de"], "deep_urls": []},
-    {"id": "CW_GM_03", "name": "Gemeinde Dobel - Rathaus & BÃ¼rgerservice", "jurisdiction": "GEMEINDE_DOBEL", "allowed_domains": ["dobel.de"], "source_urls": ["https://www.dobel.de"], "deep_urls": []},
-    {"id": "CW_GM_04", "name": "Gemeinde EnzklÃ¶sterle - Rathaus & Touristik", "jurisdiction": "GEMEINDE_ENZKLOESTERLE", "allowed_domains": ["enzkloesterle.de"], "source_urls": ["https://www.enzkloesterle.de"], "deep_urls": []},
-    {"id": "CW_GM_05", "name": "Gemeinde Gechingen - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_GECHINGEN", "allowed_domains": ["gechingen.de"], "source_urls": ["https://www.gechingen.de"], "deep_urls": []},
-    {"id": "CW_GM_06", "name": "Gemeinde Ostelsheim - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_OSTELSHEIM", "allowed_domains": ["ostelsheim.de"], "source_urls": ["https://www.ostelsheim.de"], "deep_urls": []},
-    {"id": "CW_GM_07", "name": "Gemeinde Simmozheim - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_SIMMOZHEIM", "allowed_domains": ["simmozheim.de"], "source_urls": ["https://www.simmozheim.de"], "deep_urls": []},
-    {"id": "CW_GM_08", "name": "Gemeinde Neuweiler - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_NEUWEILER", "allowed_domains": ["neuweiler.de"], "source_urls": ["https://www.neuweiler.de"], "deep_urls": []},
-    {"id": "CW_GM_09", "name": "Gemeinde Oberreichenbach - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_OBERREICHENBACH", "allowed_domains": ["oberreichenbach.de"], "source_urls": ["https://www.oberreichenbach.de"], "deep_urls": []},
-    {"id": "CW_GM_10", "name": "Gemeinde Rohrdorf - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_ROHRDORF", "allowed_domains": ["rohrdorf-im-schwarzwald.de"], "source_urls": ["https://www.gemeinde-rohrdorf.de/startseite"], "deep_urls": []},
-    {"id": "CW_GM_11", "name": "Gemeinde Ebhausen - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_EBHAUSEN", "allowed_domains": ["ebhausen.de"], "source_urls": ["https://www.ebhausen.de"], "deep_urls": []},
-    {"id": "CW_GM_12", "name": "Gemeinde Egenhausen - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_EGENHAUSEN", "allowed_domains": ["egenhausen.de"], "source_urls": ["https://www.egenhausen.de"], "deep_urls": []},
-    {"id": "CW_GM_13", "name": "Gemeinde HÃ¶fen an der Enz - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_HOEFEN_ENZ", "allowed_domains": ["hoefen-enz.de"], "source_urls": ["https://www.hoefen-enz.de"], "deep_urls": []},
-    {"id": "CW_GM_14", "name": "Gemeinde Unterreichenbach - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_UNTERREICHENBACH", "allowed_domains": ["unterreichenbach.de"], "source_urls": ["https://www.unterreichenbach.de"], "deep_urls": []},
-    {"id": "CW_GM_15", "name": "Gemeinde Simmersfeld - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_SIMMERSFELD", "allowed_domains": ["simmersfeld.de"], "source_urls": ["https://www.simmersfeld.de"], "deep_urls": []},
+    {"id": "CW_GM_01", "name": "Gemeinde Althengstett - Bürgerservice", "jurisdiction": "GEMEINDE_ALTHENGSTETT", "allowed_domains": ["althengstett.de"], "source_urls": ["https://www.althengstett.de"], "deep_urls": []},
+    {"id": "CW_GM_02", "name": "Gemeinde Schömberg - Rathaus & Touristik", "jurisdiction": "GEMEINDE_SCHOEMBERG", "allowed_domains": ["schoemberg.de"], "source_urls": ["https://www.schoemberg.de"], "deep_urls": []},
+    {"id": "CW_GM_03", "name": "Gemeinde Dobel - Rathaus & Bürgerservice", "jurisdiction": "GEMEINDE_DOBEL", "allowed_domains": ["dobel.de"], "source_urls": ["https://www.dobel.de"], "deep_urls": []},
+    {"id": "CW_GM_04", "name": "Gemeinde Enzklösterle - Rathaus & Touristik", "jurisdiction": "GEMEINDE_ENZKLOESTERLE", "allowed_domains": ["enzkloesterle.de"], "source_urls": ["https://www.enzkloesterle.de"], "deep_urls": []},
+    {"id": "CW_GM_05", "name": "Gemeinde Gechingen - Bürgerservice", "jurisdiction": "GEMEINDE_GECHINGEN", "allowed_domains": ["gechingen.de"], "source_urls": ["https://www.gechingen.de"], "deep_urls": []},
+    {"id": "CW_GM_06", "name": "Gemeinde Ostelsheim - Bürgerservice", "jurisdiction": "GEMEINDE_OSTELSHEIM", "allowed_domains": ["ostelsheim.de"], "source_urls": ["https://www.ostelsheim.de"], "deep_urls": []},
+    {"id": "CW_GM_07", "name": "Gemeinde Simmozheim - Bürgerservice", "jurisdiction": "GEMEINDE_SIMMOZHEIM", "allowed_domains": ["simmozheim.de"], "source_urls": ["https://www.simmozheim.de"], "deep_urls": []},
+    {"id": "CW_GM_08", "name": "Gemeinde Neuweiler - Bürgerservice", "jurisdiction": "GEMEINDE_NEUWEILER", "allowed_domains": ["neuweiler.de"], "source_urls": ["https://www.neuweiler.de"], "deep_urls": []},
+    {"id": "CW_GM_09", "name": "Gemeinde Oberreichenbach - Bürgerservice", "jurisdiction": "GEMEINDE_OBERREICHENBACH", "allowed_domains": ["oberreichenbach.de"], "source_urls": ["https://www.oberreichenbach.de"], "deep_urls": []},
+    {"id": "CW_GM_10", "name": "Gemeinde Rohrdorf - Bürgerservice", "jurisdiction": "GEMEINDE_ROHRDORF", "allowed_domains": ["rohrdorf-im-schwarzwald.de"], "source_urls": ["https://www.gemeinde-rohrdorf.de/startseite"], "deep_urls": []},
+    {"id": "CW_GM_11", "name": "Gemeinde Ebhausen - Bürgerservice", "jurisdiction": "GEMEINDE_EBHAUSEN", "allowed_domains": ["ebhausen.de"], "source_urls": ["https://www.ebhausen.de"], "deep_urls": []},
+    {"id": "CW_GM_12", "name": "Gemeinde Egenhausen - Bürgerservice", "jurisdiction": "GEMEINDE_EGENHAUSEN", "allowed_domains": ["egenhausen.de"], "source_urls": ["https://www.egenhausen.de"], "deep_urls": []},
+    {"id": "CW_GM_13", "name": "Gemeinde Höfen an der Enz - Bürgerservice", "jurisdiction": "GEMEINDE_HOEFEN_ENZ", "allowed_domains": ["hoefen-enz.de"], "source_urls": ["https://www.hoefen-enz.de"], "deep_urls": []},
+    {"id": "CW_GM_14", "name": "Gemeinde Unterreichenbach - Bürgerservice", "jurisdiction": "GEMEINDE_UNTERREICHENBACH", "allowed_domains": ["unterreichenbach.de"], "source_urls": ["https://www.unterreichenbach.de"], "deep_urls": []},
+    {"id": "CW_GM_15", "name": "Gemeinde Simmersfeld - Bürgerservice", "jurisdiction": "GEMEINDE_SIMMERSFELD", "allowed_domains": ["simmersfeld.de"], "source_urls": ["https://www.simmersfeld.de"], "deep_urls": []},
     
     # --- KOMMUNAL-SEKTOR: LANDKREIS FREUDENSTADT (FDS) - 11 Basis-Ziele ---
     {"id": "FDS_Z1", "name": "KdU-Richtwerte Freudenstadt (Grundsicherungsgeld)", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["arbeitsagentur.de"], "source_urls": ["https://www.arbeitsagentur.de/vor-ort/jobcenter/jobcenter-landkreis-freudenstadt-freudenstadt.html"], "deep_urls": []},
@@ -336,35 +336,35 @@ ZUSATZ_ARSENAL_CW_FDS = [
     {"id": "FDS_Z3", "name": "BuT Jobcenter FDS", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["kreis-fds.de"], "source_urls": ["https://www.kreis-fds.de/-/dienstleistungen-a-z/bildungspaket---leistungen-fuer-bildung-und-teilhabe-beantragen/vbid6025021"], "deep_urls": []},
     {"id": "FDS_Z4", "name": "vgf Ticket-Tarife (FDS)", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["vgf-info.de"], "source_urls": ["https://www.vgf-info.de/service/download-archiv"], "deep_urls": []},
     {"id": "FDS_Z5", "name": "Tafelladen Freudenstadt", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["diakonie-fds.de"], "source_urls": ["https://www.diakonie-fds.de/angebote/tafelladen/"], "deep_urls": []},
-    {"id": "FDS_Z10", "name": "WohngeldbehÃ¶rde FDS", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["kreis-fds.de"], "source_urls": ["https://www.kreis-fds.de/-/dienstleistungen-a-z/wohngeld-beantragen/vbid6030049"], "deep_urls": []},
-    {"id": "FDS_Z11", "name": "AWB AbfallgebÃ¼hren FDS", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["kreis-fds.de"], "source_urls": ["https://www.kreis-fds.de/-/dienstleistungen-a-z/abfall-und-muell-entsorgen/vbid166"], "deep_urls": []},
+    {"id": "FDS_Z10", "name": "Wohngeldbehörde FDS", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["kreis-fds.de"], "source_urls": ["https://www.kreis-fds.de/-/dienstleistungen-a-z/wohngeld-beantragen/vbid6030049"], "deep_urls": []},
+    {"id": "FDS_Z11", "name": "AWB Abfallgebühren FDS", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["kreis-fds.de"], "source_urls": ["https://www.kreis-fds.de/-/dienstleistungen-a-z/abfall-und-muell-entsorgen/vbid166"], "deep_urls": []},
     {"id": "FDS_Z12", "name": "Schuldnerberatung FDS", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["kreis-fds.de"], "source_urls": ["https://www.kreis-fds.de/-/behoerdenwegweiser/schuldner--und-insolvenzberatungsstelle/oe6062169"], "deep_urls": []},
     {"id": "FDS_Z24", "name": "Wohnberechtigungsschein (WBS) FDS", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["kreis-fds.de"], "source_urls": ["https://www.kreis-fds.de/-/dienstleistungen-a-z/wohnberechtigungsschein-beantragen/vbid6030048"], "deep_urls": []},
-    {"id": "FDS_Z27", "name": "PflegestÃ¼tzpunkt FDS", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["kreis-fds.de"], "source_urls": ["https://www.kreis-fds.de/-/behoerdenwegweiser/sozialamt/oe6004188"], "deep_urls": []},
+    {"id": "FDS_Z27", "name": "Pflegestützpunkt FDS", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["kreis-fds.de"], "source_urls": ["https://www.kreis-fds.de/-/behoerdenwegweiser/sozialamt/oe6004188"], "deep_urls": []},
     {"id": "FDS_Z28", "name": "Unterhaltsvorschuss FDS", "jurisdiction": "LANDKREIS_FREUDENSTADT", "allowed_domains": ["kreis-fds.de"], "source_urls": ["https://www.kreis-fds.de/-/dienstleistungen-a-z/unterhaltsvorschuss-beantragen/vbid6030451"], "deep_urls": []},
 
     # --- KOMMUNAL-SLOTS LANDKREIS FREUDENSTADT (26 Kommunen) ---
-    {"id": "FDS_ST_01", "name": "Stadt Freudenstadt - Rathaus & BÃ¼rgerservice", "jurisdiction": "STADT_FREUDENSTADT", "allowed_domains": ["freudenstadt.de"], "source_urls": ["https://www.freudenstadt.de"], "deep_urls": []},
-    {"id": "FDS_ST_02", "name": "Stadt Horb am Neckar - Rathaus & BÃ¼rgerservice", "jurisdiction": "STADT_HORB_AM_NECKAR", "allowed_domains": ["horb.de"], "source_urls": ["https://www.horb.de"], "deep_urls": []},
+    {"id": "FDS_ST_01", "name": "Stadt Freudenstadt - Rathaus & Bürgerservice", "jurisdiction": "STADT_FREUDENSTADT", "allowed_domains": ["freudenstadt.de"], "source_urls": ["https://www.freudenstadt.de"], "deep_urls": []},
+    {"id": "FDS_ST_02", "name": "Stadt Horb am Neckar - Rathaus & Bürgerservice", "jurisdiction": "STADT_HORB_AM_NECKAR", "allowed_domains": ["horb.de"], "source_urls": ["https://www.horb.de"], "deep_urls": []},
     {"id": "FDS_ST_03", "name": "Stadt Alpirsbach - Rathaus & Touristik", "jurisdiction": "STADT_ALPIRSBACH", "allowed_domains": ["alpirsbach.de"], "source_urls": ["https://www.alpirsbach.de"], "deep_urls": []},
-    {"id": "FDS_ST_04", "name": "Stadt Dornstetten - Rathaus & BÃ¼rgerservice", "jurisdiction": "STADT_DORNSTETTEN", "allowed_domains": ["dornstetten.de"], "source_urls": ["https://www.dornstetten.de"], "deep_urls": []},
+    {"id": "FDS_ST_04", "name": "Stadt Dornstetten - Rathaus & Bürgerservice", "jurisdiction": "STADT_DORNSTETTEN", "allowed_domains": ["dornstetten.de"], "source_urls": ["https://www.dornstetten.de"], "deep_urls": []},
     {"id": "FDS_GM_01", "name": "Gemeinde Baiersbronn - Rathaus & Touristik", "jurisdiction": "GEMEINDE_BAIERSBRONN", "allowed_domains": ["baiersbronn.de"], "source_urls": ["https://www.baiersbronn.de/"], "deep_urls": []},
-    {"id": "FDS_GM_02", "name": "Gemeinde LoÃŸburg - Rathaus & BÃ¼rgerservice", "jurisdiction": "GEMEINDE_LOSSBURG", "allowed_domains": ["lossburg.de"], "source_urls": ["https://www.lossburg.de"], "deep_urls": []},
-    {"id": "FDS_GM_03", "name": "Gemeinde Pfalzgrafenweiler - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_PFALZGRAFENWEILER", "allowed_domains": ["pfalzgrafenweiler.de"], "source_urls": ["https://www.pfalzgrafenweiler.de"], "deep_urls": []},
-    {"id": "FDS_GM_04", "name": "Gemeinde Waldachtal - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_WALDACHTAL", "allowed_domains": ["waldachtal.de"], "source_urls": ["https://www.waldachtal.de"], "deep_urls": []},
-    {"id": "FDS_GM_05", "name": "Gemeinde Empfingen - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_EMPFINGEN", "allowed_domains": ["empfingen.de"], "source_urls": ["https://www.empfingen.de"], "deep_urls": []},
-    {"id": "FDS_GM_06", "name": "Gemeinde Eutingen im GÃ¤u - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_EUTINGEN_IM_GAEU", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
+    {"id": "FDS_GM_02", "name": "Gemeinde Loßburg - Rathaus & Bürgerservice", "jurisdiction": "GEMEINDE_LOSSBURG", "allowed_domains": ["lossburg.de"], "source_urls": ["https://www.lossburg.de"], "deep_urls": []},
+    {"id": "FDS_GM_03", "name": "Gemeinde Pfalzgrafenweiler - Bürgerservice", "jurisdiction": "GEMEINDE_PFALZGRAFENWEILER", "allowed_domains": ["pfalzgrafenweiler.de"], "source_urls": ["https://www.pfalzgrafenweiler.de"], "deep_urls": []},
+    {"id": "FDS_GM_04", "name": "Gemeinde Waldachtal - Bürgerservice", "jurisdiction": "GEMEINDE_WALDACHTAL", "allowed_domains": ["waldachtal.de"], "source_urls": ["https://www.waldachtal.de"], "deep_urls": []},
+    {"id": "FDS_GM_05", "name": "Gemeinde Empfingen - Bürgerservice", "jurisdiction": "GEMEINDE_EMPFINGEN", "allowed_domains": ["empfingen.de"], "source_urls": ["https://www.empfingen.de"], "deep_urls": []},
+    {"id": "FDS_GM_06", "name": "Gemeinde Eutingen im Gäu - Bürgerservice", "jurisdiction": "GEMEINDE_EUTINGEN_IM_GAEU", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
     {"id": "FDS_GM_07", "name": "Gemeinde Bad Rippoldsau-Schapbach - Rathaus", "jurisdiction": "GEMEINDE_BAD_RIPPOLDSAU_SCHAPBACH", "allowed_domains": ["bad-rippoldsau-schapbach.de"], "source_urls": ["https://www.bad-rippoldsau-schapbach.de"], "deep_urls": []},
-    {"id": "FDS_GM_08", "name": "Gemeinde Seewald - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_SEEWALD", "allowed_domains": ["seewald.de"], "source_urls": ["https://www.seewald.eu/startseite"], "deep_urls": []},
-    {"id": "FDS_GM_09", "name": "Gemeinde Glatten - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_GLATTEN", "allowed_domains": ["glatten.de"], "source_urls": ["https://www.glatten.de"], "deep_urls": []},
-    {"id": "FDS_GM_10", "name": "Gemeinde Schopfloch - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_SCHOPFLOCH", "allowed_domains": ["schopfloch-schwarzwald.de"], "source_urls": ["https://www.schopfloch.de/startseite"], "deep_urls": []},
-    {"id": "FDS_GM_11", "name": "Gemeinde GrÃ¶mbach - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_GROEMBACH", "allowed_domains": ["groembach.de"], "source_urls": ["https://www.groembach.de"], "deep_urls": []},
-    {"id": "FDS_GM_12", "name": "Gemeinde WÃ¶rnersberg - BÃ¼rgerservice", "jurisdiction": "GEMEINDE_WOERNERSBERG", "allowed_domains": ["woernersberg.de"], "source_urls": ["https://www.woernersberg.de"], "deep_urls": []},
-    {"id": "FDS_GM_13", "name": "Gemeinde Eutingen im GÃ¤u (Teilort 1) - Rathaus", "jurisdiction": "GEMEINDE_EUTINGEN_1", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
-    {"id": "FDS_GM_14", "name": "Gemeinde Eutingen im GÃ¤u (Teilort 2) - Rathaus", "jurisdiction": "GEMEINDE_EUTINGEN_2", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
-    {"id": "FDS_GM_15", "name": "Gemeinde Eutingen im GÃ¤u (Teilort 3) - Rathaus", "jurisdiction": "GEMEINDE_EUTINGEN_3", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
-    {"id": "FDS_GM_16", "name": "Gemeinde Eutingen im GÃ¤u (Teilort 4) - Rathaus", "jurisdiction": "GEMEINDE_EUTINGEN_4", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
-    {"id": "FDS_GM_17", "name": "Gemeinde Eutingen im GÃ¤u (Teilort 5) - Rathaus", "jurisdiction": "GEMEINDE_EUTINGEN_5", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
+    {"id": "FDS_GM_08", "name": "Gemeinde Seewald - Bürgerservice", "jurisdiction": "GEMEINDE_SEEWALD", "allowed_domains": ["seewald.de"], "source_urls": ["https://www.seewald.eu/startseite"], "deep_urls": []},
+    {"id": "FDS_GM_09", "name": "Gemeinde Glatten - Bürgerservice", "jurisdiction": "GEMEINDE_GLATTEN", "allowed_domains": ["glatten.de"], "source_urls": ["https://www.glatten.de"], "deep_urls": []},
+    {"id": "FDS_GM_10", "name": "Gemeinde Schopfloch - Bürgerservice", "jurisdiction": "GEMEINDE_SCHOPFLOCH", "allowed_domains": ["schopfloch-schwarzwald.de"], "source_urls": ["https://www.schopfloch.de/startseite"], "deep_urls": []},
+    {"id": "FDS_GM_11", "name": "Gemeinde Grömbach - Bürgerservice", "jurisdiction": "GEMEINDE_GROEMBACH", "allowed_domains": ["groembach.de"], "source_urls": ["https://www.groembach.de"], "deep_urls": []},
+    {"id": "FDS_GM_12", "name": "Gemeinde Wörnersberg - Bürgerservice", "jurisdiction": "GEMEINDE_WOERNERSBERG", "allowed_domains": ["woernersberg.de"], "source_urls": ["https://www.woernersberg.de"], "deep_urls": []},
+    {"id": "FDS_GM_13", "name": "Gemeinde Eutingen im Gäu (Teilort 1) - Rathaus", "jurisdiction": "GEMEINDE_EUTINGEN_1", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
+    {"id": "FDS_GM_14", "name": "Gemeinde Eutingen im Gäu (Teilort 2) - Rathaus", "jurisdiction": "GEMEINDE_EUTINGEN_2", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
+    {"id": "FDS_GM_15", "name": "Gemeinde Eutingen im Gäu (Teilort 3) - Rathaus", "jurisdiction": "GEMEINDE_EUTINGEN_3", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
+    {"id": "FDS_GM_16", "name": "Gemeinde Eutingen im Gäu (Teilort 4) - Rathaus", "jurisdiction": "GEMEINDE_EUTINGEN_4", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
+    {"id": "FDS_GM_17", "name": "Gemeinde Eutingen im Gäu (Teilort 5) - Rathaus", "jurisdiction": "GEMEINDE_EUTINGEN_5", "allowed_domains": ["eutingen-im-gaeu.de"], "source_urls": ["https://www.eutingen-im-gaeu.de"], "deep_urls": []},
     {"id": "FDS_GM_18", "name": "Gemeinde Horb am Neckar (Teilort 1) - Rathaus", "jurisdiction": "GEMEINDE_HORB_1", "allowed_domains": ["horb.de"], "source_urls": ["https://www.horb.de"], "deep_urls": []},
     {"id": "FDS_GM_19", "name": "Gemeinde Horb am Neckar (Teilort 2) - Rathaus", "jurisdiction": "GEMEINDE_HORB_2", "allowed_domains": ["horb.de"], "source_urls": ["https://www.horb.de"], "deep_urls": []},
     {"id": "FDS_GM_20", "name": "Gemeinde Horb am Neckar (Teilort 3) - Rathaus", "jurisdiction": "GEMEINDE_HORB_3", "allowed_domains": ["horb.de"], "source_urls": ["https://www.horb.de"], "deep_urls": []},
@@ -372,10 +372,10 @@ ZUSATZ_ARSENAL_CW_FDS = [
     {"id": "FDS_GM_22", "name": "Gemeinde Horb am Neckar (Teilort 5) - Rathaus", "jurisdiction": "GEMEINDE_HORB_5", "allowed_domains": ["horb.de"], "source_urls": ["https://www.horb.de"], "deep_urls": []},
 
     # --- KRITIS, NOTFALL & LEBENS-PRAXIS CW/FDS (5 Ziele) ---
-    {"id": "CW_FDS_K1_STROM", "name": "Netze BW & ENCW StÃ¶rungsmelder (Strom/Gas)", "jurisdiction": "REGION_CW_FDS", "allowed_domains": ["netze-bw.de", "encw.de"], "source_urls": ["https://www.netze-bw.de/stoerung"], "deep_urls": []},
+    {"id": "CW_FDS_K1_STROM", "name": "Netze BW & ENCW Störungsmelder (Strom/Gas)", "jurisdiction": "REGION_CW_FDS", "allowed_domains": ["netze-bw.de", "encw.de"], "source_urls": ["https://www.netze-bw.de/stoerung"], "deep_urls": []},
     {"id": "CW_FDS_K2_APO", "name": "Apotheken-Notdienst CW/FDS (LAK BW)", "jurisdiction": "REGION_CW_FDS", "allowed_domains": ["lak-bw.de"], "source_urls": ["https://www.lak-bw.de/buergerservice/apothekennotdienst/schnellsuche"], "deep_urls": []},
     {"id": "CW_K5_WOHNBAU", "name": "Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)", "jurisdiction": "LANDKREIS_CALW", "allowed_domains": ["kreisbau-calw.de"], "source_urls": ["https://www.kreisbau-calw.de/"], "deep_urls": []},
-    {"id": "CW_FDS_K6_DWD", "name": "DWD Berg- & HÃ¶henwetter (SchwarzwaldhochstraÃŸe, Kaltenbronn)", "jurisdiction": "REGION_CW_FDS", "allowed_domains": ["dwd.de"], "source_urls": ["https://www.dwd.de/DE/wetter/warnungen_gemeinden/warnkarten/warnwetter_node.html"], "deep_urls": []},
+    {"id": "CW_FDS_K6_DWD", "name": "DWD Berg- & Höhenwetter (Schwarzwaldhochstraße, Kaltenbronn)", "jurisdiction": "REGION_CW_FDS", "allowed_domains": ["dwd.de"], "source_urls": ["https://www.dwd.de/DE/wetter/warnungen_gemeinden/warnkarten/warnwetter_node.html"], "deep_urls": []},
     {"id": "CW_FDS_KRITIS_WASSER", "name": "Stadtwerke & Trinkwasserversorgung Calw (ENCW)", "jurisdiction": "REGION_CW_FDS", "allowed_domains": ["encw.de", "www.encw.de"], "source_urls": ["https://www.encw.de/privatkunden/wasser/"], "deep_urls": []}
 ]
 
@@ -385,7 +385,7 @@ ZUSATZ_ARSENAL_CW_FDS = [
 
 # ==========================================
 async def main():
-    print(f"âš“ ZUSATZ-RADAR CW/FDS (V44.0 PROVENIENZ) GESTARTET ({datetime.date.today()})")
+    print(f"? ZUSATZ-RADAR CW/FDS (V44.0 PROVENIENZ) GESTARTET ({datetime.date.today()})")
     try:
         validate_arsenal(ZUSATZ_ARSENAL_CW_FDS)
     except Exception as e:
@@ -413,12 +413,12 @@ async def main():
     unchanged_results = [r for r in results if r not in changed_results]
 
     report = [
-        f"============================================================\nâš“ M.E.R. PRAXIS-LAGEBERICHT CW/FDS V44.0 ({datetime.date.today()})\n============================================================\n"
+        f"============================================================\n? M.E.R. PRAXIS-LAGEBERICHT CW/FDS V44.0 ({datetime.date.today()})\n============================================================\n"
     ]
     
-    report.append("\n[ðŸ”´ AKUTER HANDLUNGSBEDARF / Ã„NDERUNGEN ERKANNT]\n" + "="*50)
+    report.append("\n[?? AKUTER HANDLUNGSBEDARF / ÄNDERUNGEN ERKANNT]\n" + "="*50)
     if not changed_results:
-        report.append("Keine kritischen VerÃ¤nderungen im Sektor.")
+        report.append("Keine kritischen Veränderungen im Sektor.")
     for r in changed_results:
         report.append(f"\n=== {r['id']}: {r['name']} ===")
         report.append(f"Status: {r['status'].value}")
@@ -426,7 +426,7 @@ async def main():
             report.append(f"Quelle: {r['canonical']}")
         report.append(f"Diff-Log:\n{r['diff']}\n")
 
-    report.append("\n[ðŸŸ¢ SICHERER PERIMETER / UNVERÃ„NDERT]\n" + "="*50)
+    report.append("\n[?? SICHERER PERIMETER / UNVERÄNDERT]\n" + "="*50)
     for r in unchanged_results:
         report.append(f"\n=== {r['id']}: {r['name']} ===\nStatus: {r['status'].value}\nDiff-Log:\n{r['diff']}\n")
 

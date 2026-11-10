@@ -147,6 +147,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 - Datei references/Handbuch_CORE_DACH_V23.4.md
 - Datei references/Master_Archiv_V23.4_AKTIV_ab_4000.md
 - Datei references/Master_Archiv_V23.4_EINSATZ-CHRONIK.md
+- Datei references/Master_Archiv_V23.4_TEIL1_0001_3999.md
 
 <ElicitationsGroup message="Kommandant, wie geht`s weiter?">
     <Elicitation label="[Dynamischer Folgeschritt]" query="[Vollständiger Folgesatz passend zur soeben besprochenen Lage]"/> 
