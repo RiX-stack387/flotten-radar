@@ -132,27 +132,27 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_02": {
-        "source_hash": "229c89e0b3b0ffdc189e361424cf7e364275520d392f4a314128e65fa0e4fd5c",
+        "source_hash": "13193fdf359c6424b5b335fda9052cb5d023d30e6676e8161ee89af153b0ce64",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_03": {
-        "source_hash": "03980ad643a68bd723e0a207afe8cec1912ffccbd3771600b4c0d172348fe308",
+        "source_hash": "093a2c9feb849ae442196143b2758cca85d754fcf1bbe394d501d56c85a8f0f5",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_04": {
-        "source_hash": "4aaa966702334ac06093dada59f7b09e3268e64ccb2ab4efabf3025fea6cde2c",
+        "source_hash": "dff3f1bdb8fac38c9ad9f46c0e142484463fe1ff81b43f3020e1dd87a3b182b8",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_05": {
-        "source_hash": "5af731b0bd3796dcfa12bdfc78202843e8ae0634ce688c458d1886a8ba18536e",
+        "source_hash": "c00dc40e2db91a8dde856c81366692484d22cddb4c3798664a27e2710300a899",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_06": {
-        "source_hash": "a50b98c42f4788ca7bac9488b0d0c678aa1f8526b04bcd836cd73beb14bfbb2b",
+        "source_hash": "3552632d4abda869ba210312707c23ef0bc0b7ddde29d1659d75e92e5b8e55a7",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_07": {
-        "source_hash": "e9109019e865d5ca01665a05f71f218e01522c3344eb21ed7c88069914824c3f",
+        "source_hash": "fc700288241c3f21aefb44a0ecae6f9c9affa07eea990612edeb519177c22bff",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_08": {
@@ -160,7 +160,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_09": {
-        "source_hash": "ae89f050f89d5280c105f624f11e2a96df5b5506b3dc3a96c5f75a21f40ce6e2",
+        "source_hash": "9aa79a1bfc385fa73e4b4b92ddd499cd713a1d665502435091af90653a7aac8d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -181,7 +181,7 @@
         "last_updated": "2026-10-18T03:18:11.619943+00:00"
     },
     "cw_fds_slot_CW_ST_10": {
-        "source_hash": "d2b187926ad1df5d0146bf2c8267e22d36a5ec0259b7c2c5f33491696cd12d95",
+        "source_hash": "d89fbe9ed63bda8797be6855bafb75d403b9bbef05b747cc3e669e71426d1a88",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -223,39 +223,46 @@
         "last_updated": "2026-10-30T05:45:46.438439+00:00"
     },
     "cw_fds_slot_CW_GM_01": {
-        "source_hash": "a56da247cc3a4f9e839ef86ba3ea74b75754adfbbc4705e88dd477ef24e192c6",
-        "legal_hash": "979af3761417f52644fe669048c8cc2dc96ef2518f32a52123e2e0bf6ec33520",
+        "source_hash": "2244273b78622920e198caa494c1bae7c7f6ffc7c24ba1183c600d9f008ecf9c",
+        "legal_hash": "93dc21634e68cd1f508221a475ae537c851728d073f36fe6df753e6cbd5a6667",
         "claims": [
             {
-                "norm": "Aktion Weihnachtswunsch Althengstett",
+                "norm": "Deckreisverkauf Althengstett 2026",
+                "extracted_value": "12,00 €",
+                "value_type": "EURO",
+                "context": "Verkaufspreis fuer ein Bund Tanne beim Deckreisverkauf der Gemeinde Althengstett am 20.11.2026.",
+                "evidence_location": "Am Freitag, 20.11.2026 von 15:00 bis 15:30 Uhr hinter dem Rathaus Althengstett (Parkplatz). 1 Bund Tanne 12,00 €"
+            },
+            {
+                "norm": "Aktion 'Wünsche erfüllen, die sonst Träume bleiben' 2026",
                 "extracted_value": "30 Euro",
                 "value_type": "EURO",
-                "context": "Maximaler Betrag für einen Weihnachtswunschzettel im Rahmen der gemeindlichen Unterstützungsaktion für Familien.",
+                "context": "Maximalwert eines Weihnachtswunschzettels fuer unterstuetzungsbeduerftige Familien.",
                 "evidence_location": "Bis 27.11.2026 können alle Eltern, die ihrem Kind einen Weihnachtswunsch nur schwer oder gar nicht erfüllen können, einen Wunschzettel (bis 30 Euro) abgeben."
             },
             {
-                "norm": "Stellenausschreibung Mensakraft",
-                "extracted_value": "01.12.2026",
+                "norm": "Abgabefrist Wunschzettel 2026",
+                "extracted_value": "27.11.2026",
                 "value_type": "DATE",
-                "context": "Beginn des Arbeitsverhältnisses für eine Mensakraft in Teilzeit bei der Gemeinde Althengstett.",
-                "evidence_location": "Die Gemeinde Althengstett sucht zum 01.12.2026 eine Mensakraft (m/w/d) in Teilzeit."
+                "context": "Fristende fuer Eltern zur Einreichung des Wunschzettels bei der Gemeinde Althengstett.",
+                "evidence_location": "Bis 27.11.2026 können alle Eltern, die ihrem Kind einen Weihnachtswunsch nur schwer oder gar nicht erfüllen können, einen Wunschzettel (bis 30 Euro) abgeben."
             },
             {
-                "norm": "Verkehrsmitteilung Hermann-Hesse-Bahn",
-                "extracted_value": "18. Oktober bis 8. November 2026",
+                "norm": "Dienstbetrieb Ortsverwaltung Ottenbronn",
+                "extracted_value": "12.11.2026",
                 "value_type": "DATE",
-                "context": "Dauer der nächtlichen Bauarbeiten mit Busersatzverkehr auf der Streckenführung der Hermann-Hesse-Bahn.",
-                "evidence_location": "Nachtsperrungen mit Busersatzverkehr vom 18. Oktober bis 8. November 2026"
+                "context": "Voruebergehende Schliessung der Ortsverwaltung Ottenbronn aufgrund einer Fortbildung.",
+                "evidence_location": "Wegen einer Fortbildung ist die Ortsverwaltung Ottenbronn am 12.11.2026 geschlossen."
             }
         ],
-        "last_updated": "2026-11-03T05:51:09.979961+00:00"
+        "last_updated": "2026-11-11T03:10:46.795030+00:00"
     },
     "cw_fds_slot_CW_GM_02": {
-        "source_hash": "f4f4174638ca646bf895be7acbcddcc3973da5ec6d25e160b4a7436a7d3d46a0",
+        "source_hash": "c0ea0621bf24a287c14673250b537740e0310ffac3b33a69fb2151bbcded163a",
         "legal_hash": "83a3228c36f3307dac43e4a43f99c6aad8163da41cb7eba575d01f294449628f"
     },
     "cw_fds_slot_CW_GM_03": {
-        "source_hash": "e29cf96a828279262f9a22e2a271d551336cab68b0dbf2f86e7db1de08b7e1d2",
+        "source_hash": "1b24c8d220276cdb3a906bf75653441fe04406324a08a3202f82f1167badb0f8",
         "legal_hash": "bcad6e4b99c254f488c2606c6e9c7d4baaf03edf8f9f560a6b9a3c6a645c9a5a",
         "claims": [
             {
@@ -329,15 +336,15 @@
         "last_updated": "2026-10-23T01:13:57.664871+00:00"
     },
     "cw_fds_slot_CW_GM_06": {
-        "source_hash": "3b77fbac41f6e8bf4eb5f14096c252c72e0d2aa48992aaf9cf7a34dde2a59520",
+        "source_hash": "c7d55df5947fa8de704d74aeb45675e025bc392302e378a33e51e53a2bf8168f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_07": {
-        "source_hash": "7e69de014e603cdc40e70229ad25bad8eebcff6e4d9c8c93ccb55cd507d0772c",
+        "source_hash": "dee8876dfac175a322f8835abc4147ad6ea11d4c08c991388ab2c1b3ee9bb2c5",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_08": {
-        "source_hash": "9105fc4bde526ec3e8c1ff445b0f121d1e847211927b3ffeaa53181f89207788",
+        "source_hash": "848feacc04b3ec6b1649b183fb03f519a392c2419d67a9051085e45bc4aabf19",
         "legal_hash": "04574c6763c72d0b9769d1d6d521c3969c8e660dc0fbdf788e4b6ed61a3e9c94",
         "claims": [
             {
@@ -372,7 +379,7 @@
         "last_updated": "2026-10-20T00:54:16.809468+00:00"
     },
     "cw_fds_slot_CW_GM_09": {
-        "source_hash": "3e4aec2c14816e088d7ddb31a8a52c17a9d65febf22886a2bfacf7badea53c1e",
+        "source_hash": "b978ec19f07550f742607aaf2bda862f175d669d48bebafc5c2b988c1a8b2ab0",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_11": {
@@ -380,15 +387,15 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_12": {
-        "source_hash": "e2d4938b15e73ffa5e389e2ee447a6f2fe24c72a8441260ac23fd4ab725acfca",
+        "source_hash": "178285cf399cde81b06a455c304fc1451bf7e893b51936ceb3b2eccb766203e9",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_13": {
-        "source_hash": "e9b53007b7d42fa16d3aae3b3a9be8ef033622172dfc12d5e6845514608d0b65",
+        "source_hash": "989ad0b983db4a2124dbc39cebde4a76423fa5ac16b39770d5c1e148b4a6b724",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_14": {
-        "source_hash": "0b3605eee4463837ed5612915bbab186ef09c79dc95ecf00d3da0275af5d7211",
+        "source_hash": "9297c46acfdb803188be00a6b997c0b8341d50f88c0a05df430daa27d8117753",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -402,7 +409,7 @@
         "last_updated": "2026-10-18T03:20:12.198559+00:00"
     },
     "cw_fds_slot_CW_GM_15": {
-        "source_hash": "866c900298c2494d0ac1296cecc4612c661294a729fe41d7d7255e1aa6a34a05",
+        "source_hash": "d2b297580ec0d4753edde25724b7d228640c3dc532930631924f77ef7010d99f",
         "legal_hash": "6d87b29feae8855d76ae946beabd8d7b9d09a3eed1342ae5916e83fb6e26cb72",
         "claims": [
             {
@@ -423,7 +430,7 @@
         "last_updated": "2026-11-03T05:52:29.053535+00:00"
     },
     "cw_fds_slot_FDS_Z1": {
-        "source_hash": "1efc0433c1c5f00b4daf0dd9a41cb09a2dee23bd66d8a77e61f835c1162314d1",
+        "source_hash": "a7b959841ec2ca3f10a8f303e75f82cdcbf1eb6dc56e6eda16f75b890a382874",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -627,11 +634,11 @@
         "last_updated": "2026-10-23T03:17:21.644617+00:00"
     },
     "cw_fds_slot_FDS_ST_01": {
-        "source_hash": "241eaf1d4258535d31cf145859616e27b4eb2fd6a79e37d5f721c2060f93f6d1",
+        "source_hash": "b4fa2d78a616522fd506243f53debc7d4ab29a211e934413934c0959adb4cdfe",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_ST_02": {
-        "source_hash": "8f5f97c974ba6cc86095897f1cfa7f73280d439d45705ac0d1dfa0f879693d57",
+        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -645,15 +652,15 @@
         "last_updated": "2026-10-18T03:22:07.516275+00:00"
     },
     "cw_fds_slot_FDS_ST_03": {
-        "source_hash": "451a39c804f1d8f8db8c48ffb3a471b47551685abb2c1e0620af907287a296e9",
+        "source_hash": "a3d28b778173283c227268f66c855b3666e1d3d126770a0e281c2e0649ef91d3",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_ST_04": {
-        "source_hash": "5b08105642dd0c5c941a5b1d5001203fd3d15ce8c6d44bfff4afe34eb43546c1",
+        "source_hash": "480f41045d4c30f4b584d5c31791d9f62663376f3dc8f8ad6e2ca87e961ed927",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_01": {
-        "source_hash": "bb2f284b7f97256d841e577a4e02366b0f5381ba7864e39d767f600c20870b28",
+        "source_hash": "dbe12f57d1c730b16c97ee234b4e61e0ac2f304d8a925fac7741a69fb060be29",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -667,11 +674,11 @@
         "last_updated": "2026-10-18T03:22:31.820044+00:00"
     },
     "cw_fds_slot_FDS_GM_02": {
-        "source_hash": "61c66659c2a348528f7333d15f81fda3b849996949efb90ec25a78be0f17ed3a",
+        "source_hash": "07d4e8633a6c24f54dd9520ec9842b759b0f67dea8fe0299c16800a476dcb174",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_03": {
-        "source_hash": "c78510be29c69e471cc2be3726f645b321ce01d13dc1f0f64ce1c17fbbec7397",
+        "source_hash": "95e3ee32ca5af7bf6c9b7ddb662b0098f505a3a016e709eafa180ab6d3b02a16",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -685,11 +692,11 @@
         "last_updated": "2026-10-18T03:22:48.876772+00:00"
     },
     "cw_fds_slot_FDS_GM_04": {
-        "source_hash": "12aba1dada35e3446a3ac5f3f82ab68a8a22c752fbd9ae6b4cd6a00286199181",
+        "source_hash": "9254b19839018c4508360e9237085b4159c2d84599451f08527be7fd5eb0a654",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_05": {
-        "source_hash": "cc3244f88412582ecde4139fb014c8ca40814a07d647b1b6075ed301401ac0a1",
+        "source_hash": "538243c0552c646b73c560a928d41cacc0cb33a2f5daca9a767bd6a67e821f6b",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_06": {
@@ -697,7 +704,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_07": {
-        "source_hash": "c6a5ec8ac222bab852e665ae19ac60c693d85bbb817da18894d9c1e94d66e3ca",
+        "source_hash": "a44d53b4243af02fab0d9d1820fc3753e6a03f2c9bb7edc4fe1f71e8323ba8dc",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_09": {
@@ -743,23 +750,23 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_18": {
-        "source_hash": "8f5f97c974ba6cc86095897f1cfa7f73280d439d45705ac0d1dfa0f879693d57",
+        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_19": {
-        "source_hash": "8f5f97c974ba6cc86095897f1cfa7f73280d439d45705ac0d1dfa0f879693d57",
+        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_20": {
-        "source_hash": "8f5f97c974ba6cc86095897f1cfa7f73280d439d45705ac0d1dfa0f879693d57",
+        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_21": {
-        "source_hash": "8f5f97c974ba6cc86095897f1cfa7f73280d439d45705ac0d1dfa0f879693d57",
+        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_22": {
-        "source_hash": "8f5f97c974ba6cc86095897f1cfa7f73280d439d45705ac0d1dfa0f879693d57",
+        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_FDS_K1_STROM": {
@@ -771,7 +778,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_K5_WOHNBAU": {
-        "source_hash": "fcfa53373072da5364069a975902ff0b6bd2eb187995a3bbc98aa008acefe066",
+        "source_hash": "616475fdedbdb39c160616d0f63700863dc32779b0d25295d22e78f4582b247a",
         "legal_hash": "a18be27501c6b842078b72f1d0e7abd23a2f3dba0759403418894084ae865875",
         "claims": [
             {

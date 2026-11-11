@@ -1,12 +1,12 @@
 # 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 26 SKILLS (ANLEITUNGEN & REFERENCES) 🚨
-* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-11 03:34:13
+* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-11 04:15:25
 * **INHALT:** Reines 26-Einheiten-Kompendium (Volltext-Anleitungen SKILL.md & verifizierte References-Zuordnung).
 * **HINWEIS:** Das Master-Archiv (Master_Archiv_V23.4_EINSATZ-CHRONIK.md) liegt als separate Datei im selben Ordner TAG_X_BACKUP.
 
 ======================================================================
 🚢 EINHEIT 01/26: admiral-flotten-leitstand
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Handbuch_Admiral_V23.4.md, Handbuch_CORE_DACH_V23.4.md, Master_Archiv_V23.4_AKTIV_ab_4000.md, Master_Archiv_V23.4_EINSATZ-CHRONIK.md, Master_Archiv_V23.4_TEIL1_0001_3999.md
+[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Handbuch_CORE_DACH_V23.4.md, Master_Archiv_V23.4_AKTIV_ab_4000.md, Master_Archiv_V23.4_TEIL1_0001_3999.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -154,10 +154,8 @@ Jede Antwort mit technischem, planerischem oder Skript-Inhalt MUSS unmittelbar v
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
-- Datei references/Handbuch_Admiral_V23.4.md
 - Datei references/Handbuch_CORE_DACH_V23.4.md
 - Datei references/Master_Archiv_V23.4_AKTIV_ab_4000.md
-- Datei references/Master_Archiv_V23.4_EINSATZ-CHRONIK.md
 - Datei references/Master_Archiv_V23.4_TEIL1_0001_3999.md
 
 <ElicitationsGroup message="Kommandant, wie geht`s weiter?">
