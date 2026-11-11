@@ -1,5 +1,5 @@
 # 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 26 SKILLS (ANLEITUNGEN & REFERENCES) 🚨
-* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-11 08:18:35
+* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-11 13:39:01
 * **INHALT:** Reines 26-Einheiten-Kompendium (Volltext-Anleitungen SKILL.md & verifizierte References-Zuordnung).
 * **HINWEIS:** Das Master-Archiv (Master_Archiv_V23.4_EINSATZ-CHRONIK.md) liegt als separate Datei im selben Ordner TAG_X_BACKUP.
 
@@ -1515,7 +1515,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 15/26: mein-familien-lotse
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
+[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, GIS Katastrophenschutz Nordschwarzwald.md, Katastrophenschutz Enzkreis Nordschwarzwald.md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md, Stadt Pforzheim-Landratsamt Enzkreis-Städte und Gemeinden.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -1834,7 +1834,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 19/26: pforzheim-enzkreis-heimat
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Front_Delta_Compact.md, GIS Katastrophenschutz Nordschwarzwald.md, Katastrophenschutz Enzkreis Nordschwarzwald.md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md, Stadt Pforzheim-Landratsamt Enzkreis-Städte und Gemeinden.md
+[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, GIS Katastrophenschutz Nordschwarzwald.md, Katastrophenschutz Enzkreis Nordschwarzwald.md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md, Stadt Pforzheim-Landratsamt Enzkreis-Städte und Gemeinden.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
