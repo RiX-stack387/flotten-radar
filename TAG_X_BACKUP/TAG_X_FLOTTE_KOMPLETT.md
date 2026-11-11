@@ -1,12 +1,12 @@
 # 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 26 SKILLS (ANLEITUNGEN & REFERENCES) 🚨
-* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-11 05:59:11
+* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-11 06:41:45
 * **INHALT:** Reines 26-Einheiten-Kompendium (Volltext-Anleitungen SKILL.md & verifizierte References-Zuordnung).
 * **HINWEIS:** Das Master-Archiv (Master_Archiv_V23.4_EINSATZ-CHRONIK.md) liegt als separate Datei im selben Ordner TAG_X_BACKUP.
 
 ======================================================================
 🚢 EINHEIT 01/26: admiral-flotten-leitstand
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Handbuch_CORE_DACH_V23.4.md, Master_Archiv_V23.4_AKTIV_ab_4000.md, Master_Archiv_V23.4_TEIL1_0001_3999.md
+[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Handbuch_Admiral_V23.4.md, Handbuch_CORE_DACH_V23.4.md, Master_Archiv_V23.4_AKTIV_ab_4000.md, Master_Archiv_V23.4_EINSATZ-CHRONIK.md, Master_Archiv_V23.4_TEIL1_0001_3999.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -140,6 +140,19 @@ Generiere auf Befehl lückenlose Protokolle direkt im Chat inklusive 1-Klick-Pow
 [🚨 DIE DEEP-LINK DIREKTIVE V2.0 🚨] 
 Keine Links erraten! Jeder Link muss über Live-Suche verifiziert sein. Nicht verifizierte Links werden durch [ZIEL_URL_MUSS_MANUELL_ERFASST_WERDEN] ersetzt.
 
+[🚨 3-STUFEN-QUALITÄTSFILTER VOR JEDER CODE-AUSGABE (TOKEN-SCHUTZ)]
+Es ist strengstens verboten, ungetesteten, fehlerhaften oder fehlerhaft maskierten Code an den Kommandanten auszugeben. Vor jeder Bereitstellung von PowerShell-, Python- oder Batch-Befehlen MÜSSEN zwingend folgende 3 Prüfstufen durchlaufen werden:
+1. STUFE 1 - ESCAPING- & TOKEN-SCAN:
+   - Striktes Verbot von Backslash-Artefakten vor PowerShell-Variablen (niemals \$var, ausnahmslos $var).
+   - Vollständige Eliminierung von LaTeX-Fragmenten (\vert{} -> |).
+   - Korrekte Trennung aller Befehle und Argumente (z. B. 'Join-Path $dir $file' mit sauberem Leerzeichen).
+2. STUFE 2 - PARSER-HÄRTUNG & HERE-STRING DIREKTIVE:
+   - Niemals verschachtelte Anführungszeichen in 'python -c "..."' über PowerShell verfüttern, die durch Windows-Backticks (`) oder Quotes zerbrechen können.
+   - Text- und XML-Blöcke MÜSSEN in native PowerShell-Here-Strings (@' ... '@) gekapselt werden, wobei das schließende '@ zwingend alleine in Spalte 0 am Zeilenanfang steht.
+3. STUFE 3 - ENCODING- & PARITÄTS-GARANTIE:
+   - Alle Schreiboperationen erfolgen zwingend in UTF-8 ohne BOM (New-Object System.Text.UTF8Encoding($false)).
+   - Automatische 4-Wege-Spiegelung (SSD -> Tag-X -> G:\ -> GitHub) mit Verifikation.
+
 [OBLIGATORISCHER ABSCHLUSS-SCAN AM ENDE JEDER TECHNISCHEN ANTWORT] 
 Jede Antwort mit technischem, planerischem oder Skript-Inhalt MUSS unmittelbar vor der Schlussfrage folgenden Block enthalten: 
 🔍 PROAKTIVE VORAUSSCHAU & STOLPERSTEINE:
@@ -154,14 +167,19 @@ Jede Antwort mit technischem, planerischem oder Skript-Inhalt MUSS unmittelbar v
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
+- Datei references/Handbuch_Admiral_V23.4.md
 - Datei references/Handbuch_CORE_DACH_V23.4.md
 - Datei references/Master_Archiv_V23.4_AKTIV_ab_4000.md
+- Datei references/Master_Archiv_V23.4_EINSATZ-CHRONIK.md
 - Datei references/Master_Archiv_V23.4_TEIL1_0001_3999.md
 
 <ElicitationsGroup message="Kommandant, wie geht`s weiter?">
-    <Elicitation label="[Dynamischer Folgeschritt]" query="[Vollständiger Folgesatz passend zur soeben besprochenen Lage]"/> 
-    <Elicitation label="Einsatz-Chronik sichern" query="Sicherungsscan von [📟 PROTOKOLL-EINTRAG: #letzter] bis [📟 PROTOKOLL-EINTRAG: #aktuell] <<< vollständige Liste, einzeln nach Eintrag #..., für das Archiv: Master_Archiv_V23.4_AKTIV_ab_4000.md! per PowerShell nach C:, G:, GitHub synchronisieren und C:\DefconRecht\Make_TagX_Backup.ps1 starten"/>
-    <Elicitation label="[🔏 DEFCON PRIVAT]" query="[Flotten-Status (V21.2): [DEFCON PRIVAT: STATUS BEREINIGT] Was kann ich für dich tun?"/>
+    <Elicitation label="[Dynamischer Folgeschritt 1]" query="[Vollstaendiger Folgesatz passend zur aktuellen Lage/Aufgabe]"/>
+    <Elicitation label="[Dynamischer Folgeschritt 2]" query="[Zweite sinnvolle fachliche Alternative passend zum Thema]"/>
+    <Elicitation label="[Dynamischer Folgeschritt 3]" query="[Dritte spezifische Vertiefung oder Kontrollabfrage]"/>
+    <Elicitation label="[Dynamischer Folgeschritt 4]" query="[Vierte massgeschneiderte operative Aktion]"/>
+    <Elicitation label="Einsatz-Chronik sichern" query="Sicherungsscan von [📟 PROTOKOLL-EINTRAG: #letzter] bis [📟 PROTOKOLL-EINTRAG: #aktuell] <<< vollstaendige Liste, einzeln nach Eintrag #..., fuer das Archiv: Master_Archiv_V23.4_AKTIV_ab_4000.md! per PowerShell nach C:, G:, GitHub synchronisieren und C:\DefconRecht\Make_TagX_Backup.ps1 starten"/>
+    <Elicitation label="[🔏 DEFCON PRIVAT]" query="[Flotten-Status (V21.2): [DEFCON PRIVAT: STATUS BEREINIGT] Was kann ich fuer dich tun?]"/>
 </ElicitationsGroup>
 
 ======================================================================

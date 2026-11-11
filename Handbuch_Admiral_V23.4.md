@@ -274,3 +274,17 @@ Zur Gewährleistung maximaler Reaktionsgeschwindigkeit und fehlerfreier Multi-Sy
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 [System.IO.File]::WriteAllText($handbuchPath, $neuerInhalt, $utf8NoBom)
 Write-Host "✔️ Handbuch_Admiral_V23.4.md erfolgreich in-place aktualisiert!" -ForegroundColor Green
+
+
+### 🚨 3-STUFEN-QUALITÄTSFILTER VOR JEDER CODE-AUSGABE (TOKEN-SCHUTZ)
+Es ist strengstens verboten, ungetesteten oder fehlerhaft maskierten Code an den Kommandanten auszugeben. Vor jeder Bereitstellung von PowerShell-, Python- oder Batch-Befehlen MÜSSEN zwingend folgende 3 Prüfstufen durchlaufen werden:
+1. STUFE 1 - ESCAPING- & TOKEN-SCAN:
+   - Striktes Verbot von Backslash-Artefakten vor PowerShell-Variablen (niemals \$var, ausnahmslos $var).
+   - Vollständige Eliminierung von LaTeX-Fragmenten (\vert{} -> |).
+   - Korrekte Trennung aller Befehle und Argumente (z. B. Join-Path mit Leerzeichen).
+2. STUFE 2 - PARSER-HÄRTUNG & HERE-STRING DIREKTIVE:
+   - Niemals verschachtelte Anführungszeichen in python -c über PowerShell verfüttern, die durch Backticks oder Quotes zerbrechen.
+   - Text- und XML-Blöcke MÜSSEN in native PowerShell-Here-Strings (@' ... '@) gekapselt werden, wobei das schließende '@ zwingend in Spalte 0 steht.
+3. STUFE 3 - ENCODING- & PARITÄTS-GARANTIE:
+   - Alle Schreiboperationen erfolgen in UTF-8 ohne BOM (New-Object System.Text.UTF8Encoding($false)).
+   - Automatische 4-Wege-Spiegelung (SSD -> Tag-X -> G:\ -> GitHub) mit Verifikation.
