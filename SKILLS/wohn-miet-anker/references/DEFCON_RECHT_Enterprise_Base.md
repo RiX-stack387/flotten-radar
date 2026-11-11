@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-10 14:44:54 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-11 04:15:19 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -595,9 +595,10 @@
 ## [CW_GM_01] Sektor CW_GM_01
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Aktion Weihnachtswunsch Althengstett** | 30 Euro | Maximaler Betrag für einen Weihnachtswunschzettel im Rahmen der gemeindlichen Unterstützungsaktion für Familien. |
-| **Stellenausschreibung Mensakraft** | 01.12.2026 | Beginn des Arbeitsverhältnisses für eine Mensakraft in Teilzeit bei der Gemeinde Althengstett. |
-| **Verkehrsmitteilung Hermann-Hesse-Bahn** | 18. Oktober bis 8. November 2026 | Dauer der nächtlichen Bauarbeiten mit Busersatzverkehr auf der Streckenführung der Hermann-Hesse-Bahn. |
+| **Deckreisverkauf Althengstett 2026** | 12,00 € | Verkaufspreis fuer ein Bund Tanne beim Deckreisverkauf der Gemeinde Althengstett am 20.11.2026. |
+| **Aktion 'Wünsche erfüllen, die sonst Träume bleiben' 2026** | 30 Euro | Maximalwert eines Weihnachtswunschzettels fuer unterstuetzungsbeduerftige Familien. |
+| **Abgabefrist Wunschzettel 2026** | 27.11.2026 | Fristende fuer Eltern zur Einreichung des Wunschzettels bei der Gemeinde Althengstett. |
+| **Dienstbetrieb Ortsverwaltung Ottenbronn** | 12.11.2026 | Voruebergehende Schliessung der Ortsverwaltung Ottenbronn aufgrund einer Fortbildung. |
 
 ## [CW_GM_03] Sektor CW_GM_03
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
