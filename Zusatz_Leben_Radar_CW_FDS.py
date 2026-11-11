@@ -81,7 +81,7 @@ class ValueType(str, Enum):
 
 class LLMClaim(BaseModel):
     norm: str = Field(..., description="Rechtsnorm, Aktenzeichen, Tarif oder Satzung")
-    extracted_value: str = Field(..., description="Vollständige Kernaussage, der Leitsatz oder konkreter Betrag")
+    extracted_value: str = Field(..., description="Vollstaendige Kernaussage, der Leitsatz oder konkreter Betrag")
     value_type: ValueType = Field(..., description="Typ des Wertes")
     context: str = Field(..., description="Zusammenfassung des rechtlichen Sachverhalts")
     evidence_location: str = Field(..., description="Exakter Original-Textausschnitt aus der Webseite als absoluter Beweis")
