@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-12 08:45:00 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-12 09:04:39 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -693,6 +693,17 @@
 | :--- | :--- | :--- |
 | **Bekanntmachung Flurbereinigung Seewald-Hochdorf** | Das Landratsamt Freudenstadt beabsichtigt, in der Gemeinde Seewald ein Flurbereinigungsverfahren durchzuführen. | Beabsichtigte Durchführung eines Flurbereinigungsverfahrens durch das Landratsamt Freudenstadt in Seewald. |
 | **Bekanntmachung Kinderkrippe Seewald** | In der Kinderkrippe der Kindertagesstätte stehen freie Plätze zur Verfügung. | Verfügbarkeit von Betreuungsplätzen in der Kinderkrippe der Kindertagesstätte Seewald. |
+
+## [CW_GM_10] Sektor CW_GM_10
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Grundsteuer 2026** | 15.11.2026 | Fälligkeit der 4. Rate der Grundsteuer für das Erhebungsjahr 2026 in der Gemeinde Rohrdorf. |
+
+## [FDS_GM_10] Sektor FDS_GM_10
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Bezugspreis Mitteilungsblatt (jährlich)** | 52,70 € im Jahr | Jährlicher Bezugspreis für das amtliche Mitteilungsblatt der Gemeinde Schopfloch. |
+| **Bezugspreis Mitteilungsblatt (halbjährlich)** | 26,35 € | Halbjährlicher Bezugspreis für das amtliche Mitteilungsblatt der Gemeinde Schopfloch. |
 
 # === Ebene 4 – Zivile Daseinsvorsorge (Infrastruktur, Notlagen, Kultur, Senioren & Freie Träger) ===
 
