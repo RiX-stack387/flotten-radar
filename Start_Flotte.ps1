@@ -1,3 +1,7 @@
+﻿param(
+    [switch]$NoStandby
+)
+
 $ErrorActionPreference = "Continue"
 Set-Location "C:\DefconRecht"
 
@@ -89,7 +93,18 @@ if (Test-Path "C:\DefconRecht\Sync_DefconRecht.ps1") {
 }
 
 # ==============================================================================
-# [STUFE 4] MANUELLER MODUS BIS 17.11. (STANDBY DEAKTIVIERT)
+# [STUFE 4] STANDBY-STEUERUNG (AUTOPILOT AB 17.11. VS. MANUELLER -NOSTANDBY MODUS)
 # ==============================================================================
-Write-Host "`n[FLOTTE BEENDET] Alle Radare, Stempel, 7/20-Skill-Verteilungen, Tag-X-Tresor und Cloud/Git-Sync sind im Ziel." -ForegroundColor Green
-Write-Host "[INFO] Automatischer Standby ist fuer den manuellen Betrieb bis zum 17.11. deaktiviert." -ForegroundColor Cyan
+Write-Host "`n[FLOTTE BEENDET] Alle Radare, PDF-Scans, 7/20-Verteilung, Tag-X-Tresor und Cloud/Git-Sync sind im Ziel." -ForegroundColor Green
+if ($NoStandby) {
+    Write-Host "[MANUELL] Parameter -NoStandby aktiv: Rechner bleibt wach." -ForegroundColor Cyan
+} else {
+    Write-Host "[AUTOPILOT-STANDBY] Rechner legt sich in 30 Sekunden schlafen (Sitzung mriex bleibt aktiv gesperrt)..." -ForegroundColor Yellow
+    Start-Sleep -Seconds 30
+    Add-Type -AssemblyName System.Windows.Forms
+    [System.Windows.Forms.Application]::SetSuspendState(
+        [System.Windows.Forms.PowerState]::Suspend,
+        $false,
+        $false
+    )
+}

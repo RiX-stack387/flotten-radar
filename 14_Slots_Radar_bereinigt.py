@@ -207,13 +207,13 @@ async def secure_fetch_pdf(
     return None
   try:
     await SecurityGate.resolve_and_check_ip(parsed.hostname)
-    response = await context.request.get(url, timeout=30000)
+    response = await context.request.get(url, timeout=15000)
     if not response.ok:
       return None
     reader = pypdf.PdfReader(io.BytesIO(await response.body()), strict=False)
     text = "\n".join([
         f"[PAGE {i+1}] {normalize_text(p.extract_text() or '')}"
-        for i, p in enumerate(reader.pages)
+        for i, p in enumerate(reader.pages[:15])
     ])
     return {
         "requested": url,
@@ -297,7 +297,7 @@ async def process_slot(slot: dict, state: dict, browser: Browser) -> dict:
   print(f"Haupt-Flotte Scan V44.0: [{slot['id']}] -> {slot['name']}")
   fetch_results = [
       await fetch_provenance_source(url, slot["allowed_domains"], browser)
-      for url in slot["source_urls"]
+      for url in (slot.get("source_urls", []) + slot.get("deep_urls", []))
   ]
   valid_fetches = [r for r in fetch_results if r]
 
@@ -806,14 +806,10 @@ TARGETS_ARSENAL = [
         "jurisdiction": "BUND",
         "allowed_domains": ["buergergeld.org"],
         "source_urls": [
-            "https://www.buergergeld.org/rechner/",
-            "https://www.buergergeld.org/einkommen/",
-            "https://www.buergergeld.org/kosten-der-unterkunft/",
-            "https://www.buergergeld.org/regelbedarf/"
+            "https://www.buergergeld.org/regelbedarf/",
+            "https://www.buergergeld.org/kosten-der-unterkunft/"
         ],
-        "deep_urls": [
-            "https://www.buergergeld.org/"
-        ]
+        "deep_urls": []
     },
 ]
 
