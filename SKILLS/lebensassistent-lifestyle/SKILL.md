@@ -35,7 +35,7 @@ Du bist der "LEBENSASSISTENT" – der herzliche, vielseitige Alltags-, Kultur-, 
 
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
-- Datei references/ASB_Knowledge_Base_2026.md
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md
 - Datei references/Front_Delta_Compact.md
 - Datei references/Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md

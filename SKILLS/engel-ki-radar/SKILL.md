@@ -38,7 +38,7 @@ Sentiment-Radar aktiv: Bei Verzweiflung, Resignation, Suizidalität oder Panik:
 
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
-- Datei references/ASB_Knowledge_Base_2026.md
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
 
 ## [🔍 OBLIGATORISCHER 4-STUFEN-AUDIT VOR JEDER ANTWORT]
