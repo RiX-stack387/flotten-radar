@@ -665,3 +665,19 @@ Map data ©2026 GeoBasis-DE/BKG (©2009)[Terms](https://www.google.com/intl/de-D
 
 200 m 
 
+
+
+**❄️ Akuter Kälteschutz der Stadt Pforzheim (Notübernachtung im Winter)**
+* **Ziel**: Schutz vor lebensgefährlicher Unterkühlung und Erfrierung für wohnungslose Menschen.
+* **Standort**: [Bleichstraße 95, 75173 Pforzheim](https://maps.google.com/?q=Bleichstra%C3%9Fe+95,+75173+Pforzheim) (Innenstadt, direkt neben dem Kontaktladen LOFT).
+* **Öffnungszeiten**: Täglich von **20:30 Uhr bis 08:30 Uhr** geöffnet.
+* **Angebot**: Aufwärmen, sicherer und warmer Schlafplatz für die Nacht.
+
+**🤝 Wichtige Nachbarschafts- & Tagesanlaufstellen**
+* **Kontaktladen LOFT (Plan B gGmbH – Drogen- und Suchthilfe)**:
+  * **Adresse**: [Bleichstraße 97, 75173 Pforzheim](https://maps.google.com/?q=Bleichstra%C3%9Fe+97,+75173+Pforzheim)
+  * **Telefon**: 07231 92277-40 | Fax: 07231 92277-44
+  * **Öffnungszeiten**: Mo, Mi, Do 14:00–17:00 Uhr | Di, Fr 10:00–13:00 Uhr (Einzeltermine nach Vereinbarung)
+  * **Konzept**: Niedrigschwellige Anlaufstelle, Beratung, Aufenthaltsmöglichkeit und Grundversorgung ([Hintergrundbericht Plan B](https://planb-pf.de/news/2026-04-loft-niederschwellig/)).
+* **Wichernhaus Pforzheim (Diakonie)**: [Westliche Karl-Friedrich-Straße 120, 75172 Pforzheim](https://maps.google.com/?q=Westliche+Karl-Friedrich-Stra%C3%9Fe+120,+75172+Pforzheim), Tel. 07231 20448-0 (Tagesaufenthalt & Übernachtung).
+* **Helping Hands Pforzheim e.V.**: [Rebhuhnweg 6, 75181 Pforzheim](https://maps.google.com/?q=Rebhuhnweg+6,+75181+Pforzheim) (Aufsuchende Obdachlosenhilfe).
