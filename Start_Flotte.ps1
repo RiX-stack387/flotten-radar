@@ -1,70 +1,75 @@
-﻿$ErrorActionPreference = "Continue"
+$ErrorActionPreference = "Continue"
 Set-Location "C:\DefconRecht"
 
 Write-Host ">>> [STUFE 1] STARTE FLOTTEN-RADAR V44.0 (PYTHON-PIPELINE)... <<<" -ForegroundColor Cyan
 & "C:\Users\mriex\AppData\Local\Python\pythoncore-3.14-64\python.exe" "C:\DefconRecht\Start_Flotte.py"
 
 # ==============================================================================
-# [STUFE 2] AUTOMATISCHER ZEITSTEMPEL FUER ALLE 3 MASTER-REFERENZEN
+# [STUFE 2] ZEITSTEMPEL & AUTORISIERTE 7/20-VERTEILUNG DER 3 MASTER-REFERENZEN
 # ==============================================================================
-Write-Host "`n>>> [STUFE 2] Synchronisiere Live-Zeitstempel aller Master-Referenzen... <<<" -ForegroundColor Cyan
+Write-Host "`n>>> [STUFE 2] Synchronisiere Zeitstempel & verteile Master-Referenzen (7/20-Matrix)... <<<" -ForegroundColor Cyan
 $stampNow = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-$utf8NoBom = New-Object System.Text.UTF8Encoding(
-    $false
-)
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 
-$deltaRep = "RADAR-DELTA COMPACT (" +
-    $stampNow +
-    ")"
-$standRep = "**Stand:** " +
-    $stampNow +
-    " |"
+$deltaRep = "RADAR-DELTA COMPACT (" + $stampNow + ")"
+$standRep = "**Stand:** " + $stampNow + " |"
 
-$deltaPaths = @(
-    "C:\DefconRecht\Front_Delta_Compact.md",
-    "C:\DefconRecht\SKILLS\asb-region-nordschwarzwald-neu\references\Front_Delta_Compact.md"
-)
-$deltaPaths | ForEach-Object {
-    if (Test-Path $_) {
-        $txt = [System.IO.File]::ReadAllText(
-            $_,
-            $utf8NoBom
-        )
-        $txt =
-            $txt -replace "RADAR-DELTA COMPACT \([^\)]*\)",
-            $deltaRep
-        [System.IO.File]::WriteAllText(
-            $_,
-            $txt,
-            $utf8NoBom
-        )
-    }
+$rootDelta = "C:\DefconRecht\Front_Delta_Compact.md"
+if (Test-Path $rootDelta) {
+    $txt = [System.IO.File]::ReadAllText($rootDelta, $utf8NoBom)
+    $txt = $txt -replace "RADAR-DELTA COMPACT \([^\)]*\)", $deltaRep
+    [System.IO.File]::WriteAllText($rootDelta, $txt, $utf8NoBom)
 }
 
-$masterPaths = @(
+$rootMasters = @(
     "C:\DefconRecht\ASB_Knowledge_Base_2026.md",
-    "C:\DefconRecht\SKILLS\asb-region-nordschwarzwald-neu\references\ASB_Knowledge_Base_2026.md",
-    "C:\DefconRecht\DEFCON_RECHT_Enterprise_Base.md",
-    "C:\DefconRecht\SKILLS\defcon-recht-enterprise\references\DEFCON_RECHT_Enterprise_Base.md"
+    "C:\DefconRecht\DEFCON_RECHT_Enterprise_Base.md"
 )
-$masterPaths | ForEach-Object {
-    if (Test-Path $_) {
-        $txt = [System.IO.File]::ReadAllText(
-            $_,
-            $utf8NoBom
-        )
-        $txt =
-            $txt -replace "\*\*Stand:\*\*[^\r\n\x7C]*\x7C",
-            $standRep
-        [System.IO.File]::WriteAllText(
-            $_,
-            $txt,
-            $utf8NoBom
-        )
+foreach ($rm in $rootMasters) {
+    if (Test-Path $rm) {
+        $txt = [System.IO.File]::ReadAllText($rm, $utf8NoBom)
+        $txt = $txt -replace "\*\*Stand:\*\*[^\r\n\x7C]*\x7C", $standRep
+        $txt = $txt -replace "> Stand: [^\r\n\x7C]*\x7C", ("> Stand: " + $stampNow + " |")
+        [System.IO.File]::WriteAllText($rm, $txt, $utf8NoBom)
     }
 }
-Write-Host "[OK] Alle 3 Referenz-Header tragen nun exakt denselben Zeitstempel:" -ForegroundColor Green
-Write-Host $stampNow -ForegroundColor Green
+
+$asbAuthorizedSkills = @(
+    "asb-region-nordschwarzwald-neu",
+    "asb-core-leitstand",
+    "admiral-flotten-leitstand",
+    "core-dach-rechenzentrum",
+    "senioren-anker-vorsorge",
+    "med-notfall-anker",
+    "inklusion-anker"
+)
+
+$skillDirs = Get-ChildItem -Path "C:\DefconRecht\SKILLS" -Directory
+$countAll = 0
+$countAsb = 0
+
+foreach ($dir in $skillDirs) {
+    $refDir = Join-Path $dir.FullName "references"
+    if (-not (Test-Path $refDir)) {
+        New-Item -Path $refDir -ItemType Directory -Force | Out-Null
+    }
+
+    Copy-Item -Path "C:\DefconRecht\Front_Delta_Compact.md" -Destination (Join-Path $refDir "Front_Delta_Compact.md") -Force
+    Copy-Item -Path "C:\DefconRecht\DEFCON_RECHT_Enterprise_Base.md" -Destination (Join-Path $refDir "DEFCON_RECHT_Enterprise_Base.md") -Force
+    $countAll++
+
+    $asbTarget = Join-Path $refDir "ASB_Knowledge_Base_2026.md"
+    if ($asbAuthorizedSkills -contains $dir.Name) {
+        Copy-Item -Path "C:\DefconRecht\ASB_Knowledge_Base_2026.md" -Destination $asbTarget -Force
+        $countAsb++
+    } elseif (Test-Path $asbTarget) {
+        Remove-Item -Path $asbTarget -Force
+        Write-Host " [BRANDMAUER] Unberechtigte ASB-Datei entfernt aus: $($dir.Name)" -ForegroundColor Yellow
+    }
+}
+
+Write-Host "[OK] Zeitstempel ($stampNow) gesetzt!" -ForegroundColor Green
+Write-Host "[OK] Front_Delta & Enterprise_Base in $countAll/27 Skills verteilt | ASB_Knowledge_Base exklusiv in $countAsb berechtigte Skills verteilt!" -ForegroundColor Green
 
 # ==============================================================================
 # [STUFE 3] 4-WEGE-KETTE: C: -> TAG_X_BACKUP -> G: (DRIVE) -> GITHUB
@@ -84,14 +89,7 @@ if (Test-Path "C:\DefconRecht\Sync_DefconRecht.ps1") {
 }
 
 # ==============================================================================
-# [STUFE 4] AUTOMATISCHER STANDBY NACH VOLLSTAENDIGEM DURCHLAUF
+# [STUFE 4] MANUELLER MODUS BIS 17.11. (STANDBY DEAKTIVIERT)
 # ==============================================================================
-Write-Host "`n[FLOTTE BEENDET] Alle Radare, Stempel, Tag-X-Tresor und der Cloud/Git-Sync sind im Ziel." -ForegroundColor Green
-Write-Host "[STANDBY] Rechner legt sich in 30 Sekunden schlafen (Sitzung mriex bleibt aktiv gesperrt)..." -ForegroundColor Yellow
-Start-Sleep -Seconds 30
-Add-Type -AssemblyName System.Windows.Forms
-[System.Windows.Forms.Application]::SetSuspendState(
-    [System.Windows.Forms.PowerState]::Suspend,
-    $false,
-    $false
-)
+Write-Host "`n[FLOTTE BEENDET] Alle Radare, Stempel, 7/20-Skill-Verteilungen, Tag-X-Tresor und Cloud/Git-Sync sind im Ziel." -ForegroundColor Green
+Write-Host "[INFO] Automatischer Standby ist fuer den manuellen Betrieb bis zum 17.11. deaktiviert." -ForegroundColor Cyan

@@ -43,12 +43,12 @@ api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
 client = genai.Client(api_key=api_key)
 
 MODEL_CASCADE = [
+    "gemini-2.5-flash",
     "gemini-3.8-flash",
     "gemini-3.7-flash",
     "gemini-3.6-flash",
     "gemini-3.5-flash",
     "gemini-3.5-flash-lite",
-    "gemini-2.5-flash",
 ]
 
 
@@ -152,53 +152,47 @@ def normalize_text(text: str) -> str:
 # 3. SECURITY-GATES & FETCHING
 # ==========================================
 class SecurityGate:
-  BLOCKED_CMP = [
-      "usercentrics",
-      "cookiebot",
-      "etracker",
-      "matomo",
-      "consentmanager",
-  ]
+    BLOCKED_CMP = ["usercentrics", "cookiebot", "etracker", "matomo", "consentmanager"]
+    _DNS_CACHE = {}
 
-  @staticmethod
-  async def resolve_and_check_ip(hostname: str):
-    loop = asyncio.get_running_loop()
-    addr_info = await loop.getaddrinfo(
-        hostname, 443, family=socket.AF_INET, type=socket.SOCK_STREAM
-    )
-    for _, _, _, _, sockaddr in addr_info:
-      ip = ipaddress.ip_address(sockaddr[0])
-      if (
-          ip.is_private
-          or ip.is_loopback
-          or ip.is_link_local
-          or ip.is_multicast
-          or ip.is_reserved
-      ):
-        raise Exception(
-            f"TOCTOU/SSRF-Blockade: Private IP {sockaddr[0]} detektiert."
+    @staticmethod
+    async def resolve_and_check_ip(hostname: str):
+        if hostname in SecurityGate._DNS_CACHE:
+            if not SecurityGate._DNS_CACHE[hostname]:
+                raise Exception(f"Cached Blockade: {hostname}")
+            return True
+        loop = asyncio.get_running_loop()
+        addr_info = await asyncio.wait_for(
+            loop.getaddrinfo(hostname, 443, family=socket.AF_INET, type=socket.SOCK_STREAM),
+            timeout=5.0
         )
-    return True
+        for _, _, _, _, sockaddr in addr_info:
+            ip = ipaddress.ip_address(sockaddr[0])
+            if ip.is_private or ip.is_loopback or ip.is_link_local or ip.is_multicast or ip.is_reserved:
+                SecurityGate._DNS_CACHE[hostname] = False
+                raise Exception(f"TOCTOU/SSRF-Blockade: Private IP {sockaddr[0]}")
+        SecurityGate._DNS_CACHE[hostname] = True
+        return True
 
-  @staticmethod
-  async def intercept_route(
-      route: Route, request: Request, allowed_domains: List[str]
-  ):
-    try:
-      parsed = urlparse(request.url)
-      if parsed.scheme not in ["https", "http"] or not parsed.hostname:
-        return await route.abort()
-      if any(cmp in parsed.hostname for cmp in SecurityGate.BLOCKED_CMP):
-        return await route.abort()
-      if not any(
-          parsed.hostname == d or parsed.hostname.endswith("." + d)
-          for d in allowed_domains
-      ):
-        return await route.abort()
-      await SecurityGate.resolve_and_check_ip(parsed.hostname)
-      await route.continue_()
-    except:
-      await route.abort()
+    @staticmethod
+    async def intercept_route(route: Route, request: Request, allowed_domains: List[str]):
+        try:
+            if request.resource_type in ["image", "media", "font", "stylesheet"]:
+                return await route.abort()
+            parsed = urlparse(request.url)
+            if parsed.scheme not in ["https", "http"] or not parsed.hostname:
+                return await route.abort()
+            if any(cmp in parsed.hostname for cmp in SecurityGate.BLOCKED_CMP):
+                return await route.abort()
+            if not any(parsed.hostname == d or parsed.hostname.endswith("." + d) for d in allowed_domains):
+                return await route.abort()
+            await SecurityGate.resolve_and_check_ip(parsed.hostname)
+            await route.continue_()
+        except Exception:
+            try:
+                await route.abort()
+            except Exception:
+                pass
 
 
 async def secure_fetch_pdf(
@@ -291,9 +285,9 @@ async def fetch_provenance_source(
     return None
   finally:
     try:
-        await context.close()
+      await asyncio.wait_for(context.close(), timeout=5.0)
     except Exception:
-        pass
+      pass
 
 
 # ==========================================
@@ -357,7 +351,7 @@ async def process_slot(slot: dict, state: dict, browser: Browser) -> dict:
   llm_res = None
   for model_name in MODEL_CASCADE:
     try:
-      resp = await client.aio.models.generate_content(
+      resp = await asyncio.wait_for(client.aio.models.generate_content(
           model=model_name,
           contents=agg_text,
           config=types.GenerateContentConfig(
@@ -366,7 +360,7 @@ async def process_slot(slot: dict, state: dict, browser: Browser) -> dict:
               response_schema=LLMAnalysisResult,
               temperature=0.0,
           ),
-      )
+      ), timeout=35.0)
       llm_res = resp.parsed
       break
     except Exception:
@@ -1734,7 +1728,12 @@ async def main():
     browser = await p.chromium.launch(headless=True)
     results = []
     for slot in ZUSATZ_ARSENAL:
-      results.append(await process_slot(slot, state, browser))
+      try:
+        res = await asyncio.wait_for(process_slot(slot, state, browser), timeout=75.0)
+        results.append(res)
+      except asyncio.TimeoutError:
+        print(f"   [WATCHDOG-TIMEOUT] Slot {slot['id']} nach 75s abgebrochen -> ueberspringe!")
+        results.append({"id": slot["id"], "name": slot["name"], "status": VerificationStatus.SOURCE_NOT_VERIFIED, "diff": "Watchdog-Timeout (75s) erreicht."})
       await asyncio.sleep(1.0)
     await browser.close()
   save_state_atomic(state)

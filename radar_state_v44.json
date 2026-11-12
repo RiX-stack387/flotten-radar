@@ -609,7 +609,7 @@
         "last_updated": "2026-10-18T02:49:48.467768+00:00"
     },
     "slot_13": {
-        "source_hash": "6fd88a32699deb9754d64e5badaf291653a164f7a5902069053c57c2d68556ec",
+        "source_hash": "5687dcb3f289c74a7900aff235c1ecaa8ec41a4d4bbe0f25914ec610470e601f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -651,7 +651,7 @@
         "last_updated": "2026-10-18T02:50:02.298451+00:00"
     },
     "slot_14": {
-        "source_hash": "6fd88a32699deb9754d64e5badaf291653a164f7a5902069053c57c2d68556ec",
+        "source_hash": "5687dcb3f289c74a7900aff235c1ecaa8ec41a4d4bbe0f25914ec610470e601f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -805,25 +805,39 @@
         "last_updated": "2026-10-18T02:50:49.992888+00:00"
     },
     "slot_19": {
-        "source_hash": "0086bef113d153ef8dc37e0a2f8a628515e10e7353a052ce9a12077ccf94060d",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "f1030604e890a80a0c27bdab4f1c1c9fe813dee6eddd16f984ec59a00bc86b38",
+        "legal_hash": "bb84d839e2154a7a244c88a2c975c90fecfd92dff654e543de8cdb54ee063aad",
         "claims": [
             {
-                "norm": "§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]",
-                "extracted_value": "1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen",
+                "norm": "§ 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000)",
+                "extracted_value": "1,50 Euro",
                 "value_type": "EURO",
-                "context": "Kosten für die Überlassung elektronisch gespeicherter Dateien von Entscheidungen.",
+                "context": "Kosten für die Überlassung elektronisch gespeicherter Dateien je Entscheidung.",
                 "evidence_location": "Für die Überlassung elektronisch gespeicherter Dateien werden 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen erhoben (§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG])."
             },
             {
-                "norm": "Justizverwaltungskostengesetz [JVKostG]",
-                "extracted_value": "0,50 Euro pro Seite für die ersten 50 Seiten, für jede weitere Seite 0,15 Euro",
+                "norm": "§ 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000)",
+                "extracted_value": "5,00 Euro",
                 "value_type": "EURO",
-                "context": "Schreibauslagen für die Versendung von Entscheidungsabdrucken.",
+                "context": "Höchstbetrag für in einem Arbeitsgang elektronisch überlassene Entscheidungen.",
+                "evidence_location": "Für die Überlassung elektronisch gespeicherter Dateien werden 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen erhoben (§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG])."
+            },
+            {
+                "norm": "Schreibauslagen",
+                "extracted_value": "0,50 Euro",
+                "value_type": "EURO",
+                "context": "Schreibauslagen pro Seite für die ersten 50 Seiten von Entscheidungsabdrucken.",
+                "evidence_location": "Für die Versendung der Entscheidungsabdrucke werden Schreibauslagen in Höhe von 0,50 Euro pro Seite für die ersten 50 Seiten erhoben, für jede weitere Seite werden 0,15 Euro erhoben."
+            },
+            {
+                "norm": "Schreibauslagen",
+                "extracted_value": "0,15 Euro",
+                "value_type": "EURO",
+                "context": "Schreibauslagen für jede weitere Seite ab der 51. Seite von Entscheidungsabdrucken.",
                 "evidence_location": "Für die Versendung der Entscheidungsabdrucke werden Schreibauslagen in Höhe von 0,50 Euro pro Seite für die ersten 50 Seiten erhoben, für jede weitere Seite werden 0,15 Euro erhoben."
             }
         ],
-        "last_updated": "2026-11-03T05:36:58.039627+00:00"
+        "last_updated": "2026-11-12T03:58:50.262594+00:00"
     },
     "slot_20": {
         "source_hash": "c8387b0d1d10af196eac59a7244320aa292e97066fcf2ff22f3887a66e6f88b7",
@@ -917,7 +931,7 @@
         "last_updated": "2026-10-18T02:52:47.561496+00:00"
     },
     "slot_23": {
-        "source_hash": "8b8a34823bde7518ff18b5449a2f652c8acf44fcdc69a58fa65787551695af77",
+        "source_hash": "3b4142dcf3a1e6bcaebce8eac7409fbe7a9dc1511bfed74d808dbe19b0d98d47",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -942,7 +956,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "slot_25": {
-        "source_hash": "c4ce2041eb1f16226a064726a7d5e7cae61080c53db59436c7d2fac88d724ee5",
+        "source_hash": "54fa8eeaf43d551b2dcb2e9e1ebb167f84c190b33260635c8594eea3e1827997",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {

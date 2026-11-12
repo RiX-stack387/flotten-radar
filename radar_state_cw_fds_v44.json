@@ -132,19 +132,19 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_02": {
-        "source_hash": "13193fdf359c6424b5b335fda9052cb5d023d30e6676e8161ee89af153b0ce64",
+        "source_hash": "3d29e3fd63965c272709538dad6a516409192564f4974403ffd0421e4ebd8510",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_03": {
-        "source_hash": "093a2c9feb849ae442196143b2758cca85d754fcf1bbe394d501d56c85a8f0f5",
+        "source_hash": "7ef658318738437e0464569d2b1c1e3778cfd70830888c25e3b3517f1e52e7cc",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_04": {
-        "source_hash": "dff3f1bdb8fac38c9ad9f46c0e142484463fe1ff81b43f3020e1dd87a3b182b8",
+        "source_hash": "ebcb08dcbf1b9aad74e510d251887d2d52b63421fc605a40bbbd6c3e1884402d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_05": {
-        "source_hash": "c00dc40e2db91a8dde856c81366692484d22cddb4c3798664a27e2710300a899",
+        "source_hash": "10fce477df80735f8ec725232d14d3d1daf9d67bdb2b6b9877541879831f9826",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_06": {
@@ -152,7 +152,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_07": {
-        "source_hash": "fc700288241c3f21aefb44a0ecae6f9c9affa07eea990612edeb519177c22bff",
+        "source_hash": "b9fef7bbc1a5b12572bc5dfcdff2f8b053da5035e74ebd8a7c8d15abd1a4ce3c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_08": {
@@ -160,7 +160,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_09": {
-        "source_hash": "9aa79a1bfc385fa73e4b4b92ddd499cd713a1d665502435091af90653a7aac8d",
+        "source_hash": "1957af732a45cc79b4a279202c2e7b2fa485d1a3545ba4a85da3829ec51bac87",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -223,7 +223,7 @@
         "last_updated": "2026-10-30T05:45:46.438439+00:00"
     },
     "cw_fds_slot_CW_GM_01": {
-        "source_hash": "2244273b78622920e198caa494c1bae7c7f6ffc7c24ba1183c600d9f008ecf9c",
+        "source_hash": "6bf11cf612472857488bc7ff09e96f154cc204d1b8ebeba3bd892ef6db231bcc",
         "legal_hash": "93dc21634e68cd1f508221a475ae537c851728d073f36fe6df753e6cbd5a6667",
         "claims": [
             {
@@ -258,11 +258,11 @@
         "last_updated": "2026-11-11T03:10:46.795030+00:00"
     },
     "cw_fds_slot_CW_GM_02": {
-        "source_hash": "c0ea0621bf24a287c14673250b537740e0310ffac3b33a69fb2151bbcded163a",
+        "source_hash": "019dbb2fb92209b36b20900a04ea454ee41f61d49ae0c2c9c59c0cdefb7df0fb",
         "legal_hash": "83a3228c36f3307dac43e4a43f99c6aad8163da41cb7eba575d01f294449628f"
     },
     "cw_fds_slot_CW_GM_03": {
-        "source_hash": "1b24c8d220276cdb3a906bf75653441fe04406324a08a3202f82f1167badb0f8",
+        "source_hash": "73e5a61f30afa151dae99ffb8304456e0566963185898494143ba79526b7467c",
         "legal_hash": "bcad6e4b99c254f488c2606c6e9c7d4baaf03edf8f9f560a6b9a3c6a645c9a5a",
         "claims": [
             {
@@ -336,7 +336,7 @@
         "last_updated": "2026-10-23T01:13:57.664871+00:00"
     },
     "cw_fds_slot_CW_GM_06": {
-        "source_hash": "c7d55df5947fa8de704d74aeb45675e025bc392302e378a33e51e53a2bf8168f",
+        "source_hash": "6e5b6e4df3be778ccaecdc0e799e3ec3eaa5f6351ee6984560ca981ec8a2b2b3",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_07": {
@@ -344,7 +344,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_08": {
-        "source_hash": "848feacc04b3ec6b1649b183fb03f519a392c2419d67a9051085e45bc4aabf19",
+        "source_hash": "22e5a0a7c0f1750a9b340fb6e1a5e0a00142e37166440b103238c6839b18ade9",
         "legal_hash": "04574c6763c72d0b9769d1d6d521c3969c8e660dc0fbdf788e4b6ed61a3e9c94",
         "claims": [
             {
@@ -379,7 +379,7 @@
         "last_updated": "2026-10-20T00:54:16.809468+00:00"
     },
     "cw_fds_slot_CW_GM_09": {
-        "source_hash": "b978ec19f07550f742607aaf2bda862f175d669d48bebafc5c2b988c1a8b2ab0",
+        "source_hash": "c104d273897efbafc71bf84837cb84a35a7866e5ccda2899b4d952d7eee05aea",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_11": {
@@ -391,7 +391,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_13": {
-        "source_hash": "989ad0b983db4a2124dbc39cebde4a76423fa5ac16b39770d5c1e148b4a6b724",
+        "source_hash": "d8e969cc008aa2381db10d9ffe3a579c650a40ec28bd1b8eb57cb52b552f587e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_14": {
@@ -430,7 +430,7 @@
         "last_updated": "2026-11-03T05:52:29.053535+00:00"
     },
     "cw_fds_slot_FDS_Z1": {
-        "source_hash": "a7b959841ec2ca3f10a8f303e75f82cdcbf1eb6dc56e6eda16f75b890a382874",
+        "source_hash": "7e5e9e882968da245ae049f4a191654c5c8777ab08555ba8ddc39be76ac7b5c6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -486,7 +486,7 @@
         "last_updated": "2026-10-18T03:20:46.021633+00:00"
     },
     "cw_fds_slot_FDS_Z4": {
-        "source_hash": "7e41af60fbeeb97b4118f9632a812a525b4ae89749b0cd8b8609fa63bda1f195",
+        "source_hash": "ae66c503d028d769155464ff46beef0120e9df6405558cf0cc529dd628452dc0",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -634,11 +634,11 @@
         "last_updated": "2026-10-23T03:17:21.644617+00:00"
     },
     "cw_fds_slot_FDS_ST_01": {
-        "source_hash": "b4fa2d78a616522fd506243f53debc7d4ab29a211e934413934c0959adb4cdfe",
+        "source_hash": "b89af217604d53341f592896aa127e299ca8cf219be552093a97a7b3a8fa3777",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_ST_02": {
-        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
+        "source_hash": "f2eb792c0e908c55b89d82faa36e5fa380407988086d6431841a9c95ea9d8443",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -660,7 +660,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_01": {
-        "source_hash": "dbe12f57d1c730b16c97ee234b4e61e0ac2f304d8a925fac7741a69fb060be29",
+        "source_hash": "45f7c12771063ecac2a83050fd26adce8c652be7d04aff3605516642ea2be9e3",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -674,11 +674,11 @@
         "last_updated": "2026-10-18T03:22:31.820044+00:00"
     },
     "cw_fds_slot_FDS_GM_02": {
-        "source_hash": "07d4e8633a6c24f54dd9520ec9842b759b0f67dea8fe0299c16800a476dcb174",
+        "source_hash": "dad88a0e740a6fd742aa08d6419c7473fb1813542d2a5d781c7f9d6aa918d559",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_03": {
-        "source_hash": "95e3ee32ca5af7bf6c9b7ddb662b0098f505a3a016e709eafa180ab6d3b02a16",
+        "source_hash": "477c10dfebf8269518c675269bd950dfaf467544b431fe04d0ad179b07e8773b",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -692,7 +692,7 @@
         "last_updated": "2026-10-18T03:22:48.876772+00:00"
     },
     "cw_fds_slot_FDS_GM_04": {
-        "source_hash": "9254b19839018c4508360e9237085b4159c2d84599451f08527be7fd5eb0a654",
+        "source_hash": "5e3c1cfad0c2e00840a129263d292832628b96a9f2bece6abb38f0bda5abeb4e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_05": {
@@ -704,7 +704,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_07": {
-        "source_hash": "a44d53b4243af02fab0d9d1820fc3753e6a03f2c9bb7edc4fe1f71e8323ba8dc",
+        "source_hash": "a4edcd4580322c36c88e30e3454adf8547d6a6b2bb0e3569fca1e969d03dc31d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_09": {
@@ -750,23 +750,23 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_18": {
-        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
+        "source_hash": "f2eb792c0e908c55b89d82faa36e5fa380407988086d6431841a9c95ea9d8443",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_19": {
-        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
+        "source_hash": "f2eb792c0e908c55b89d82faa36e5fa380407988086d6431841a9c95ea9d8443",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_20": {
-        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
+        "source_hash": "f2eb792c0e908c55b89d82faa36e5fa380407988086d6431841a9c95ea9d8443",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_21": {
-        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
+        "source_hash": "f2eb792c0e908c55b89d82faa36e5fa380407988086d6431841a9c95ea9d8443",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_22": {
-        "source_hash": "06d33c74c3993dce47ce00ad82bc481ce2d0010fbded67fd3b0feaf9c2f96e62",
+        "source_hash": "f2eb792c0e908c55b89d82faa36e5fa380407988086d6431841a9c95ea9d8443",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_FDS_K1_STROM": {
@@ -778,7 +778,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_K5_WOHNBAU": {
-        "source_hash": "616475fdedbdb39c160616d0f63700863dc32779b0d25295d22e78f4582b247a",
+        "source_hash": "46f708631a1cc7f51dedc8bd5683e827acc2ff3fdad68457da9e8c70acff3efa",
         "legal_hash": "a18be27501c6b842078b72f1d0e7abd23a2f3dba0759403418894084ae865875",
         "claims": [
             {
@@ -864,5 +864,26 @@
             }
         ],
         "last_updated": "2026-10-22T00:37:55.404748+00:00"
+    },
+    "cw_fds_slot_FDS_GM_08": {
+        "source_hash": "857c8654c75ff14b908a8e9846f38ccca230b7fc38a6e015b02d2c90adab185d",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Bekanntmachung Flurbereinigung Seewald-Hochdorf",
+                "extracted_value": "Das Landratsamt Freudenstadt beabsichtigt, in der Gemeinde Seewald ein Flurbereinigungsverfahren durchzuführen.",
+                "value_type": "TEXT",
+                "context": "Beabsichtigte Durchführung eines Flurbereinigungsverfahrens durch das Landratsamt Freudenstadt in Seewald.",
+                "evidence_location": "Das Landratsamt Freudenstadt beabsichtigt, in der Gemeinde Seewald ein Flurbereinigungsverfahren durchzuführen."
+            },
+            {
+                "norm": "Bekanntmachung Kinderkrippe Seewald",
+                "extracted_value": "In der Kinderkrippe der Kindertagesstätte stehen freie Plätze zur Verfügung.",
+                "value_type": "TEXT",
+                "context": "Verfügbarkeit von Betreuungsplätzen in der Kinderkrippe der Kindertagesstätte Seewald.",
+                "evidence_location": "In der Kinderkrippe der Kindertagesstätte stehen freie Plätze zur Verfügung."
+            }
+        ],
+        "last_updated": "2026-11-12T04:18:27.596540+00:00"
     }
 }

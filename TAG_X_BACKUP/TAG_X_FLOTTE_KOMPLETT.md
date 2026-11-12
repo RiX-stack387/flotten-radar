@@ -1,12 +1,12 @@
 # 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 26 SKILLS (ANLEITUNGEN & REFERENCES) 🚨
-* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-12 03:57:23
+* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-12 06:16:16
 * **INHALT:** Reines 26-Einheiten-Kompendium (Volltext-Anleitungen SKILL.md & verifizierte References-Zuordnung).
 * **HINWEIS:** Das Master-Archiv (Master_Archiv_V23.4_EINSATZ-CHRONIK.md) liegt als separate Datei im selben Ordner TAG_X_BACKUP.
 
 ======================================================================
 🚢 EINHEIT 01/26: admiral-flotten-leitstand
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Handbuch_Admiral_V23.4.md, Handbuch_CORE_DACH_V23.4.md, Master_Archiv_V23.4_AKTIV_ab_4000.md, Master_Archiv_V23.4_EINSATZ-CHRONIK.md, Master_Archiv_V23.4_TEIL1_0001_3999.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Handbuch_CORE_DACH_V23.4.md, Master_Archiv_V23.4_AKTIV_ab_4000.md, Master_Archiv_V23.4_TEIL1_0001_3999.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -165,12 +165,11 @@ Jede Antwort mit technischem, planerischem oder Skript-Inhalt MUSS unmittelbar v
 
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
+- Datei references/ASB_Knowledge_Base_2026.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
-- Datei references/Handbuch_Admiral_V23.4.md
 - Datei references/Handbuch_CORE_DACH_V23.4.md
 - Datei references/Master_Archiv_V23.4_AKTIV_ab_4000.md
-- Datei references/Master_Archiv_V23.4_EINSATZ-CHRONIK.md
 - Datei references/Master_Archiv_V23.4_TEIL1_0001_3999.md
 
 <ElicitationsGroup message="Kommandant, wie geht`s weiter?">
@@ -185,7 +184,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 02/26: asb-core-leitstand
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md, Front_Delta_Compact.md, Katastrophenschutz Enzkreis Nordschwarzwald.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md, Front_Delta_Compact.md, Katastrophenschutz Enzkreis Nordschwarzwald.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -256,7 +255,7 @@ Sobald der Nutzer nach „Impressum“, „Datenschutz“, „Anbieter“ oder �
 ======================================================================
 🚢 EINHEIT 03/26: asb-region-nordschwarzwald-neu
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Front_Delta_Compact.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -555,7 +554,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 06/26: core-dach-rechenzentrum
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Handbuch_CORE_DACH_V23.4.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Handbuch_CORE_DACH_V23.4.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -766,6 +765,7 @@ FOOTER (Immer ganz unten) 🟥 🟥🟥⚓⚓⚓🟥 🟥🟥 DIE SCHLUSSFRAGE: 
 
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
+- Datei references/ASB_Knowledge_Base_2026.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
 - Datei references/Handbuch_CORE_DACH_V23.4.md
@@ -900,7 +900,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 08/26: engel-ki-radar
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Front_Delta_Compact.md
+[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -943,7 +943,7 @@ Sentiment-Radar aktiv: Bei Verzweiflung, Resignation, Suizidalität oder Panik:
 
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
-- Datei references/ASB_Knowledge_Base_2026.md
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
 
 ## [🔍 OBLIGATORISCHER 4-STUFEN-AUDIT VOR JEDER ANTWORT]
@@ -1075,7 +1075,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 10/26: inklusion-anker
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -1138,6 +1138,7 @@ Bei jedem vorgelegten Bescheid:
 
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
+- Datei references/ASB_Knowledge_Base_2026.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
 
@@ -1341,7 +1342,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 13/26: lebensassistent-lifestyle
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md, Front_Delta_Compact.md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md
+[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md, Front_Delta_Compact.md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -1381,7 +1382,7 @@ Du bist der "LEBENSASSISTENT" – der herzliche, vielseitige Alltags-, Kultur-, 
 
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
-- Datei references/ASB_Knowledge_Base_2026.md
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md
 - Datei references/Front_Delta_Compact.md
 - Datei references/Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md
@@ -1418,7 +1419,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 14/26: med-notfall-anker
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -1480,6 +1481,7 @@ Bei jedem vorgelegten Bescheid (Krankenkasse, Pflegekasse, MD):
 
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
+- Datei references/ASB_Knowledge_Base_2026.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
 
@@ -1750,7 +1752,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 18/26: netzwerk-resilienz-anker
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, Front_Delta_Compact.md
+[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -1799,7 +1801,7 @@ Sentiment-Radar aktiv: Bei seelischer Erschöpfung, Einsamkeit, Verzweiflung ode
 
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
-- Datei references/ASB_Knowledge_Base_2026.md
+- Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
 
 ## [🔍 OBLIGATORISCHER 4-STUFEN-AUDIT VOR JEDER ANTWORT]
@@ -2381,7 +2383,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 25/26: senioren-anker-vorsorge
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -2436,6 +2438,7 @@ Bei jedem vorgelegten Bescheid:
 
 ## Referenzen & Wissensdatenbank
 Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
+- Datei references/ASB_Knowledge_Base_2026.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
 
