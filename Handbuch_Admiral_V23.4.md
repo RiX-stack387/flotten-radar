@@ -88,7 +88,7 @@ Kommandant M.E.R. (Martin Eugen Riexinger, Oberster Befehlshaber). In DEFCON PRI
 ## 🚨 KÜRZUNGS-DOKTRIN AKTIVIERT [HARDLOCK-DIREKTIVE: KEINE AB-/KÜRZUNGEN // KEINE UNTERSCHLAGUNG] 🚨
 - Geltungsbereich: Für das gesamte M.E.R. Handbuch, alle System-Prompts, Masterlogs, Code und Berichte der KI-Flotte.
 - Doktrin: Jede Form von verkürzten Aufzählungen, Platzhaltern (wie „u. a.“) oder dem Auslassen von Zwischenschritten, Sektoren oder Datenpunkten ist strikt untersagt.
-- Ausführung: Bei Analysen, Scans (über alle 234 Slots: 30 Master-Slots, 126 Praxis-Slots PF/ENZ, 78 Praxis-Slots CW/FDS) und Berichten sind stets alle Einheiten in voller Länge transparent und lückenlos aufzuführen. Keine Statistik darf geschönt oder unvollständig zusammengefasst werden.
+- Ausführung: Bei Analysen, Scans (über alle 236 Slots: 32 Master-Slots (inkl. Tech-Radar Slots 32 & 33), 126 Praxis-Slots PF/ENZ, 78 Praxis-Slots CW/FDS) und Berichten sind stets alle Einheiten in voller Länge transparent und lückenlos aufzuführen. Keine Statistik darf geschönt oder unvollständig zusammengefasst werden.
 
 ---
 
@@ -140,7 +140,7 @@ Ich arbeite als dein persönlicher „Robot-Facilitator“ für das M.E.R. Skill
 ---
 
 ## 6. Automatisierte Radar-Übergabe & Wissensdatenbank
-Die täglichen Auswertungen der Skripte 14_Slots_Radar_bereinigt.py (30 Slots), Zusatz_Leben_Radar.py (126 Slots), Zusatz_Leben_Radar_CW_FDS.py (78 Slots) und asb_nsw_radar.py (22 ASB-Ziele) sichern die Datenbasis. Sie synchronisieren die konsolidierten Wissensbasen DEFCON_RECHT_Enterprise_Base.md, ASB_Knowledge_Base_2026.md und Front_Delta_Compact.md redundant auf C:\DefconRecht und G:\Meine Ablage\DefconRecht.
+Die täglichen Auswertungen der Skripte 14_Slots_Radar_bereinigt.py (32 Slots / 37 inkl. Sub-Slots), Zusatz_Leben_Radar.py (126 Slots), Zusatz_Leben_Radar_CW_FDS.py (78 Slots) und asb_nsw_radar.py (22 ASB-Ziele) sichern die Datenbasis. Sie synchronisieren die konsolidierten Wissensbasen DEFCON_RECHT_Enterprise_Base.md, ASB_Knowledge_Base_2026.md und Front_Delta_Compact.md redundant auf C:\DefconRecht und G:\Meine Ablage\DefconRecht.
 
 ---
 
@@ -288,3 +288,7 @@ Es ist strengstens verboten, ungetesteten oder fehlerhaft maskierten Code an den
 3. STUFE 3 - ENCODING- & PARITÄTS-GARANTIE:
    - Alle Schreiboperationen erfolgen in UTF-8 ohne BOM (New-Object System.Text.UTF8Encoding($false)).
    - Automatische 4-Wege-Spiegelung (SSD -> Tag-X -> G:\ -> GitHub) mit Verifikation.
+
+**TECH-RADAR ERWEITERUNG (SLOTS 32 & 33 - STAND 12.11.2026):**
+* **Slot 32 (Google Agent Skills GitHub):** https://github.com/google/skills (SKILL.md-Standards, Gemini CLI & API-Skills)
+* **Slot 33 (Gemini Apps Release Notes):** https://gemini.google/de/release-notes/?hl=de (Offizielles Changelog & Workspace-Integration)

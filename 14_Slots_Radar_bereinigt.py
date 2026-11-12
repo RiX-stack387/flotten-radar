@@ -811,6 +811,28 @@ TARGETS_ARSENAL = [
         ],
         "deep_urls": []
     },
+  {
+        "id": "32",
+        "name": "Google Agent Skills Repository (GitHub)",
+        "jurisdiction": "BUND",
+        "allowed_domains": ["github.com", "raw.githubusercontent.com"],
+        "source_urls": [
+            "https://www.buergergeld.org/regelbedarf/",
+            "https://www.buergergeld.org/kosten-der-unterkunft/"
+        ],
+        "deep_urls": []
+    },
+  {
+        "id": "33",
+        "name": "Gemini Apps Release Notes (Offiziell)",
+        "jurisdiction": "BUND",
+        "allowed_domains": ["gemini.google", "blog.google", "workspaceupdates.googleblog.com"],
+        "source_urls": [
+            "https://www.buergergeld.org/regelbedarf/",
+            "https://www.buergergeld.org/kosten-der-unterkunft/"
+        ],
+        "deep_urls": []
+    },
 ]
 
 
