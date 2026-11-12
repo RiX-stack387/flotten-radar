@@ -632,7 +632,7 @@ ZUSATZ_ARSENAL_CW_FDS = [
 
     {"id": "CW_GM_09", "name": "Gemeinde Oberreichenbach - Bürgerservice", "jurisdiction": "GEMEINDE_OBERREICHENBACH", "allowed_domains": ["oberreichenbach.de"], "source_urls": ["https://www.oberreichenbach.de"], "deep_urls": []},
 
-    {"id": "CW_GM_10", "name": "Gemeinde Rohrdorf - Bürgerservice", "jurisdiction": "GEMEINDE_ROHRDORF", "allowed_domains": ["gemeinde-rohrdorf.de", "www.gemeinde-rohrdorf.de"], "source_urls": ["https://www.gemeinde-rohrdorf.de/startseite"], "deep_urls": ["https://www.gemeinde-rohrdorf.de/rathaus--gemeinderat/oeffentliche-bekanntmachungen"]},
+    {"id": "CW_GM_10", "name": "Gemeinde Rohrdorf - Bürgerservice", "jurisdiction": "GEMEINDE_ROHRDORF", "allowed_domains": ["gemeinde-rohrdorf.de", "www.gemeinde-rohrdorf.de"], "source_urls": ["https://www.gemeinde-rohrdorf.de/startseite"], "deep_urls": ["https://www.gemeinde-rohrdorf.de/rathaus--gemeinderat/buergerservice/formulare-und-onlinedienste", "https://www.gemeinde-rohrdorf.de/rathaus--gemeinderat/oeffentliche-bekanntmachungen", "https://www.gemeinde-rohrdorf.de/rathaus--gemeinderat/gemeinderat--kommunalpolitik/ratsinformationssystem"]},
 
     {"id": "CW_GM_11", "name": "Gemeinde Ebhausen - Bürgerservice", "jurisdiction": "GEMEINDE_EBHAUSEN", "allowed_domains": ["ebhausen.de"], "source_urls": ["https://www.ebhausen.de"], "deep_urls": []},
 
@@ -682,7 +682,7 @@ ZUSATZ_ARSENAL_CW_FDS = [
 
     {"id": "FDS_ST_04", "name": "Stadt Dornstetten - Rathaus & Bürgerservice", "jurisdiction": "STADT_DORNSTETTEN", "allowed_domains": ["dornstetten.de"], "source_urls": ["https://www.dornstetten.de"], "deep_urls": []},
 
-    {"id": "FDS_GM_01", "name": "Gemeinde Baiersbronn - Rathaus & Bürgerservice", "jurisdiction": "GEMEINDE_BAIERSBRONN", "allowed_domains": ["gemeinde-baiersbronn.de", "www.gemeinde-baiersbronn.de"], "source_urls": ["https://www.gemeinde-baiersbronn.de/Buergerservice"], "deep_urls": ["https://www.gemeinde-baiersbronn.de/de/Aktuelles/Murgtalbote"]},
+    {"id": "FDS_GM_01", "name": "Gemeinde Baiersbronn - Rathaus & Bürgerservice", "jurisdiction": "GEMEINDE_BAIERSBRONN", "allowed_domains": ["gemeinde-baiersbronn.de", "www.gemeinde-baiersbronn.de"], "source_urls": ["https://www.gemeinde-baiersbronn.de/Buergerservice"], "deep_urls": ["https://www.gemeinde-baiersbronn.de/Buergerservice", "https://www.gemeinde-baiersbronn.de/de/Rathaus/Buergerservice-Portal/Formulare-Online-Prozesse", "https://www.gemeinde-baiersbronn.de/de/Aktuelles/Murgtalbote"]},
 
     {"id": "FDS_GM_02", "name": "Gemeinde Loßburg - Rathaus & Bürgerservice", "jurisdiction": "GEMEINDE_LOSSBURG", "allowed_domains": ["lossburg.de"], "source_urls": ["https://www.lossburg.de"], "deep_urls": []},
 
@@ -700,7 +700,7 @@ ZUSATZ_ARSENAL_CW_FDS = [
 
     {"id": "FDS_GM_09", "name": "Gemeinde Glatten - Bürgerservice", "jurisdiction": "GEMEINDE_GLATTEN", "allowed_domains": ["glatten.de"], "source_urls": ["https://www.glatten.de"], "deep_urls": []},
 
-    {"id": "FDS_GM_10", "name": "Gemeinde Schopfloch - Bürgerservice", "jurisdiction": "GEMEINDE_SCHOPFLOCH", "allowed_domains": ["schopfloch.de", "www.schopfloch.de"], "source_urls": ["https://www.schopfloch.de/startseite"], "deep_urls": ["https://www.schopfloch.de/rathaus-service/aktuelles/mitteilungsblatt"]},
+    {"id": "FDS_GM_10", "name": "Gemeinde Schopfloch - Bürgerservice", "jurisdiction": "GEMEINDE_SCHOPFLOCH", "allowed_domains": ["schopfloch.de", "www.schopfloch.de"], "source_urls": ["https://www.schopfloch.de/startseite"], "deep_urls": ["https://www.schopfloch.de/rathaus-service/buergerservice/rathausformulare", "https://www.schopfloch.de/rathaus-service/buergerservice/maengelmeldung", "https://www.schopfloch.de/rathaus-service/aktuelles/mitteilungsblatt"]},
 
     {"id": "FDS_GM_11", "name": "Gemeinde Grömbach - Bürgerservice", "jurisdiction": "GEMEINDE_GROEMBACH", "allowed_domains": ["groembach.de"], "source_urls": ["https://www.groembach.de"], "deep_urls": []},
 

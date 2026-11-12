@@ -223,7 +223,7 @@
         "last_updated": "2026-10-30T05:45:46.438439+00:00"
     },
     "cw_fds_slot_CW_GM_01": {
-        "source_hash": "6bf11cf612472857488bc7ff09e96f154cc204d1b8ebeba3bd892ef6db231bcc",
+        "source_hash": "401923fbd2a79b8020d513a075eb06cf8538af786fcf2b3951f2641c6804248f",
         "legal_hash": "93dc21634e68cd1f508221a475ae537c851728d073f36fe6df753e6cbd5a6667",
         "claims": [
             {
@@ -258,7 +258,7 @@
         "last_updated": "2026-11-11T03:10:46.795030+00:00"
     },
     "cw_fds_slot_CW_GM_02": {
-        "source_hash": "cece6a47791c15887ee84fd183e119f1d651d098542960a464d9b2ac7bbc9627",
+        "source_hash": "9869250c42262f1d80be80eabdd0291ce13286f2814be2a5ee10cb3892d077ae",
         "legal_hash": "83a3228c36f3307dac43e4a43f99c6aad8163da41cb7eba575d01f294449628f"
     },
     "cw_fds_slot_CW_GM_03": {
@@ -340,7 +340,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_07": {
-        "source_hash": "48a481ee29b02784b1a8aedbd0cb855c6d241f50b6ac0e97b74447c9d8b064d6",
+        "source_hash": "dee8876dfac175a322f8835abc4147ad6ea11d4c08c991388ab2c1b3ee9bb2c5",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_08": {
@@ -652,7 +652,7 @@
         "last_updated": "2026-10-18T03:22:07.516275+00:00"
     },
     "cw_fds_slot_FDS_ST_03": {
-        "source_hash": "1f5e97e974868612f6ee74cb88ab6b7dcfd57408163912a3e728a2d8547a1318",
+        "source_hash": "6b42ec1cd6b954c5fc80a31aff9f20c67ba36eaea642b3dc845b0cae25c2d452",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_ST_04": {
@@ -660,18 +660,18 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_01": {
-        "source_hash": "c78b8f6aca6840947cd08244c3b10476bf1ab1306e2e1292fb037aafc837781a",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "eb3a2289040947fa840501ad685850e95571691f54cd40b17b262e277514554e",
+        "legal_hash": "956e43b4ec9576df9ac78b47b38df13f200c1f8b4962796135a110427dfa3e15",
         "claims": [
             {
-                "norm": "HTTP 404",
-                "extracted_value": "Die von Ihnen aufgerufene Seite existiert leider nicht mehr.",
+                "norm": "Bürgerservice Portal Baiersbronn",
+                "extracted_value": "Grundsicherung im Alter und bei Erwerbsminderung beantragen",
                 "value_type": "TEXT",
-                "context": "Die angeforderte Bürgerservice-Seite der Gemeinde Baiersbronn konnte nicht gefunden werden (404-Fehler).",
-                "evidence_location": "Die von Ihnen aufgerufene Seite existiert leider nicht mehr."
+                "context": "Bereitstellung des Online-Prozesses zur Beantragung von Grundsicherung im Alter und bei Erwerbsminderung im Bürgerservice der Gemeinde Baiersbronn.",
+                "evidence_location": "Grundsicherung im Alter und bei Erwerbsminderung beantragen"
             }
         ],
-        "last_updated": "2026-10-18T03:22:31.820044+00:00"
+        "last_updated": "2026-11-12T10:02:06.931356+00:00"
     },
     "cw_fds_slot_FDS_GM_02": {
         "source_hash": "0dd56e7cf1deec217973d739310eb4d2b0448013fbbf062f9193925c4e72ec42",
@@ -692,7 +692,7 @@
         "last_updated": "2026-10-18T03:22:48.876772+00:00"
     },
     "cw_fds_slot_FDS_GM_04": {
-        "source_hash": "ad84b98505b645cac54a73300f6d0e79fa81b543e166af8ce77148ca9b4d8f42",
+        "source_hash": "6d9bca04e7306036a4ee79a0a53e6ea3b2849b10b8d68deddc3b5421258b625c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_05": {
@@ -778,7 +778,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_K5_WOHNBAU": {
-        "source_hash": "46f708631a1cc7f51dedc8bd5683e827acc2ff3fdad68457da9e8c70acff3efa",
+        "source_hash": "3608be518bccd37b595cfae3ce1c14a5ff19cdf1ca0ae3fb13fa7b4f1d9797f1",
         "legal_hash": "a18be27501c6b842078b72f1d0e7abd23a2f3dba0759403418894084ae865875",
         "claims": [
             {
@@ -887,7 +887,7 @@
         "last_updated": "2026-11-12T04:18:27.596540+00:00"
     },
     "cw_fds_slot_CW_GM_10": {
-        "source_hash": "9a33c0122577c567e9f61d318ecaeed7b032ceca66cc02845de304f4ca54c6f7",
+        "source_hash": "aaf9f62363ed1315d21a41f614b957e33ee15db0849102579ae7c535374f0e29",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -901,7 +901,7 @@
         "last_updated": "2026-11-12T08:00:29.966802+00:00"
     },
     "cw_fds_slot_FDS_GM_10": {
-        "source_hash": "4feef4ec159c83a9b86fd1fee21557913cdb873ff6ab81f68d855a07d452bc1e",
+        "source_hash": "ff0f332175212c6699f0fc38d57bee93c98b29680049cc0b3d0c073d471afa28",
         "legal_hash": "2d6ab5cdf58dd008b8584c4193a0afaa390d954dc7d199e5ceebb1c792b6b99f",
         "claims": [
             {

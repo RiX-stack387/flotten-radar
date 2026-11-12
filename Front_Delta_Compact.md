@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-12 09:04:39)
+RADAR-DELTA COMPACT (2026-11-12 11:04:27)
 - [19: BAG Entscheidungsdatenbank] § 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000): 1,50 Euro
 - [19: BAG Entscheidungsdatenbank] § 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000): 5,00 Euro
 - [19: BAG Entscheidungsdatenbank] Schreibauslagen: 0,50 Euro

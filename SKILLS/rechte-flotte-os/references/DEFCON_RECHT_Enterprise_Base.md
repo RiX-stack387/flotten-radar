@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-12 09:04:39 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-12 11:04:27 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -676,7 +676,7 @@
 ## [FDS_GM_01] Sektor FDS_GM_01
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **HTTP 404** | Die von Ihnen aufgerufene Seite existiert leider nicht mehr. | Die angeforderte Bürgerservice-Seite der Gemeinde Baiersbronn konnte nicht gefunden werden (404-Fehler). |
+| **Bürgerservice Portal Baiersbronn** | Grundsicherung im Alter und bei Erwerbsminderung beantragen | Bereitstellung des Online-Prozesses zur Beantragung von Grundsicherung im Alter und bei Erwerbsminderung im Bürgerservice der Gemeinde Baiersbronn. |
 
 ## [FDS_GM_03] Sektor FDS_GM_03
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
