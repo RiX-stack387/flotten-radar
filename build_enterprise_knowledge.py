@@ -67,7 +67,7 @@ SLOT_ZUORDNUNG = {
     # Ebene 7 – IT-Anwendungs- & Fachinfrastruktur
     "Z2": 7, "Z4": 7, "Z35": 7, "Z38": 7, "Z39": 7, "Z43": 7, "Z44": 7, "Z64": 7,
     "Z66": 7, "Z68": 7, "Z71": 7, "Z72": 7, "Z73": 7, "Z74": 7, "Z75": 7, "Z76": 7,
-    "Z77": 7, "Z78": 7, "CW_Z2": 7, "CW_Z4": 7, "FDS_Z2": 7, "FDS_Z4": 7,
+    "Z77": 7, "Z78": 7, "32": 7, "33": 7, "CW_Z2": 7, "CW_Z4": 7, "FDS_Z2": 7, "FDS_Z4": 7,
 
     # Ebene 8 – Identity & Access Management
     "Z6": 8, "Z48": 8, "Z49": 8, "Z55": 8, "Z61": 8, "Z63": 8, "Z87": 8, "Z88": 8,

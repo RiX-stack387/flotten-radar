@@ -32,7 +32,7 @@ from typing import Any, Dict, List, Optional
 # 1. KONFIGURATION & CONFIG-GATE
 # ==========================================
 EXPECTED_SLOT_COUNT = (
-    35  # Exakte Anzahl inkl. Unterteilungen (A/B) und BA-Slots
+    37  # Exakte Anzahl inkl. Unterteilungen (A/B) und BA-Slots
 )
 BASE_DIR = r"C:\DefconRecht"
 STATE_FILE = os.path.join(BASE_DIR, "radar_state_v44.json")
