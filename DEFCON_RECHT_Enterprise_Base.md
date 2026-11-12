@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-11 04:15:19 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-12 05:21:15 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -143,8 +143,10 @@
 ## [19] Sektor 19
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]** | 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen | Kosten für die Überlassung elektronisch gespeicherter Dateien von Entscheidungen. |
-| **Justizverwaltungskostengesetz [JVKostG]** | 0,50 Euro pro Seite für die ersten 50 Seiten, für jede weitere Seite 0,15 Euro | Schreibauslagen für die Versendung von Entscheidungsabdrucken. |
+| **§ 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000)** | 1,50 Euro | Kosten für die Überlassung elektronisch gespeicherter Dateien je Entscheidung. |
+| **§ 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000)** | 5,00 Euro | Höchstbetrag für in einem Arbeitsgang elektronisch überlassene Entscheidungen. |
+| **Schreibauslagen** | 0,50 Euro | Schreibauslagen pro Seite für die ersten 50 Seiten von Entscheidungsabdrucken. |
+| **Schreibauslagen** | 0,15 Euro | Schreibauslagen für jede weitere Seite ab der 51. Seite von Entscheidungsabdrucken. |
 
 ## [20] Sektor 20
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -685,6 +687,12 @@
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
 | **Gemeinde Wörnersberg News-Ticker** | 17.10.2026 | Datum der öffentlichen Infoveranstaltung zur Wärmeplanung durch die Fa. EGS |
+
+## [FDS_GM_08] Sektor FDS_GM_08
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Bekanntmachung Flurbereinigung Seewald-Hochdorf** | Das Landratsamt Freudenstadt beabsichtigt, in der Gemeinde Seewald ein Flurbereinigungsverfahren durchzuführen. | Beabsichtigte Durchführung eines Flurbereinigungsverfahrens durch das Landratsamt Freudenstadt in Seewald. |
+| **Bekanntmachung Kinderkrippe Seewald** | In der Kinderkrippe der Kindertagesstätte stehen freie Plätze zur Verfügung. | Verfügbarkeit von Betreuungsplätzen in der Kinderkrippe der Kindertagesstätte Seewald. |
 
 # === Ebene 4 – Zivile Daseinsvorsorge (Infrastruktur, Notlagen, Kultur, Senioren & Freie Träger) ===
 
