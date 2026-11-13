@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 M.E.R. Regional-Radar - Quellen-Registry (quellen_registry.py)
 Zentrale, deduplizierte Sammlung aller amtlichen Primärquellen und Fachportale

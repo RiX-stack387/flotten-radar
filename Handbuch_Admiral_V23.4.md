@@ -88,7 +88,7 @@ Kommandant M.E.R. (Martin Eugen Riexinger, Oberster Befehlshaber). In DEFCON PRI
 ## 🚨 KÜRZUNGS-DOKTRIN AKTIVIERT [HARDLOCK-DIREKTIVE: KEINE AB-/KÜRZUNGEN // KEINE UNTERSCHLAGUNG] 🚨
 - Geltungsbereich: Für das gesamte M.E.R. Handbuch, alle System-Prompts, Masterlogs, Code und Berichte der KI-Flotte.
 - Doktrin: Jede Form von verkürzten Aufzählungen, Platzhaltern (wie „u. a.“) oder dem Auslassen von Zwischenschritten, Sektoren oder Datenpunkten ist strikt untersagt.
-- Ausführung: Bei Analysen, Scans (über alle 236 Slots: 32 Master-Slots (inkl. Tech-Radar Slots 32 & 33), 126 Praxis-Slots PF/ENZ, 78 Praxis-Slots CW/FDS) und Berichten sind stets alle Einheiten in voller Länge transparent und lückenlos aufzuführen. Keine Statistik darf geschönt oder unvollständig zusammengefasst werden.
+- Ausführung: Bei Analysen, Scans (über alle 238 Slots: 33 Master-Slots (inkl. Tech-Radar Slots 32 & 33), 127 Praxis-Slots PF/ENZ, 78 Praxis-Slots CW/FDS) und Berichten sind stets alle Einheiten in voller Länge transparent und lückenlos aufzuführen. Keine Statistik darf geschönt oder unvollständig zusammengefasst werden.
 
 ---
 
