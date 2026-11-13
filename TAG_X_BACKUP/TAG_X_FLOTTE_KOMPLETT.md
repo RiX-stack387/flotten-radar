@@ -1,12 +1,12 @@
 # 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 26 SKILLS (ANLEITUNGEN & REFERENCES) 🚨
-* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-13 10:35:18
+* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-13 12:49:01
 * **INHALT:** Reines 26-Einheiten-Kompendium (Volltext-Anleitungen SKILL.md & verifizierte References-Zuordnung).
 * **HINWEIS:** Das Master-Archiv (Master_Archiv_V23.4_EINSATZ-CHRONIK.md) liegt als separate Datei im selben Ordner TAG_X_BACKUP.
 
 ======================================================================
 🚢 EINHEIT 01/26: admiral-flotten-leitstand
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Handbuch_Admiral_V23.4.md, Handbuch_CORE_DACH_V23.4.md, Master_Archiv_V23.4_AKTIV_ab_4000.md, Master_Archiv_V23.4_TEIL1_0001_3999.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Gemini_Skills_Referenz_Register_2026.md, Handbuch_Admiral_V23.4.md, Handbuch_CORE_DACH_V23.4.md, Master_Archiv_V23.4_AKTIV_ab_4000.md, Master_Archiv_V23.4_TEIL1_0001_3999.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -168,6 +168,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 - Datei references/ASB_Knowledge_Base_2026.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
+- Datei references/Gemini_Skills_Referenz_Register_2026.md
 - Datei references/Handbuch_Admiral_V23.4.md
 - Datei references/Handbuch_CORE_DACH_V23.4.md
 - Datei references/Master_Archiv_V23.4_AKTIV_ab_4000.md
@@ -555,7 +556,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 06/26: core-dach-rechenzentrum
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Handbuch_CORE_DACH_V23.4.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Gemini_Skills_Referenz_Register_2026.md, Handbuch_CORE_DACH_V23.4.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -769,6 +770,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 - Datei references/ASB_Knowledge_Base_2026.md
 - Datei references/DEFCON_RECHT_Enterprise_Base.md
 - Datei references/Front_Delta_Compact.md
+- Datei references/Gemini_Skills_Referenz_Register_2026.md
 - Datei references/Handbuch_CORE_DACH_V23.4.md
 
 ## [🏛️ DOKTRIN: ALLEINIGE BRÜCKEN-AUTORITÄT // SINGLE-POINT-OF-CONTROL]

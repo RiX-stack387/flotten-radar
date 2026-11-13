@@ -68,3 +68,9 @@ QUELLEN_REGISTRY = {
     "bmg_praevention": "https://www.bundesgesundheitsministerium.de/#",
     "bmg_kontakt": "https://www.bundesgesundheitsministerium.de/service/kontakt"
 }
+# === GEMINI & WORKSPACE SKILLS RADAR-FEEDS (STAND 13.11.2026) ===
+GEMINI_SKILLS_RADAR_FEEDS = {
+    "gemini_skills_workspace_blog": "https://workspaceupdates.googleblog.com/2026/10/an-update-on-launch-of-skills-in-gemini-app-and-workspace.html",
+    "gemini_skills_product_blog": "https://workspace.google.com/blog/product-announcements/teach-gemini-your-teams-know-hows-with-skills-in-google-workspace",
+    "gemini_skills_migration_hub": "https://knowledge.workspace.google.com/p/gems-migration"
+}
