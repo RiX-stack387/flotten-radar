@@ -1,5 +1,5 @@
 # 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 26 SKILLS (ANLEITUNGEN & REFERENCES) 🚨
-* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-12 12:25:19
+* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-13 10:22:58
 * **INHALT:** Reines 26-Einheiten-Kompendium (Volltext-Anleitungen SKILL.md & verifizierte References-Zuordnung).
 * **HINWEIS:** Das Master-Archiv (Master_Archiv_V23.4_EINSATZ-CHRONIK.md) liegt als separate Datei im selben Ordner TAG_X_BACKUP.
 
@@ -185,7 +185,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 02/26: asb-core-leitstand
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md, Front_Delta_Compact.md, Katastrophenschutz Enzkreis Nordschwarzwald.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Events_Veranstaltungen, Freizeit, Kultur, Senioren und Barrierefrei.md, Front_Delta_Compact.md, Katastrophenschutz Enzkreis Nordschwarzwald.md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
@@ -256,7 +256,7 @@ Sobald der Nutzer nach „Impressum“, „Datenschutz“, „Anbieter“ oder �
 ======================================================================
 🚢 EINHEIT 03/26: asb-region-nordschwarzwald-neu
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md
+[REFERENZEN IM ORDNER /REFERENCES]: ASB_Knowledge_Base_2026.md, DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, Soziales-ÖPNV-Familie-Senioren-Teenager-Kultur-Bildung-Sport.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---

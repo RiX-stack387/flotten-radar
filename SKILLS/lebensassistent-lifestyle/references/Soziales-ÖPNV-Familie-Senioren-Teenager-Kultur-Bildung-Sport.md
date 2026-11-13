@@ -107,6 +107,8 @@ Detaillierte Informationen zu den Angeboten der [Tafel Pforzheim](https://www.gb
 
 🚌 2\. ÖPNV & Mobilitäts-Radar (Der VPE-Anker)
 
+* **Wichtige Änderung ab 1. Januar 2027 – Der VPE wird Teil des KVV:** Die Stadt Pforzheim und der Enzkreis haben sich dem Karlsruher Verkehrsverbund (KVV) angeschlossen. Ab dem **1. Januar 2027** gibt es den VPE nicht mehr als eigenständigen Verkehrsverbund – im bisherigen VPE-Gebiet gilt dann der **KVV-Tarif**. Was sich bei bestehenden Abonnements und einzelnen Fahrkartenangeboten ändert, erfahren Sie in den Fragen und Antworten zur Tarifumstellung direkt auf der [KVV-Website zur Tarifumstellung (VPE wird KVV)](https://www.kvv.de/service/vpe-wird-kvv-faq.html).
+
 * Verkehrsverbund Pforzheim-Enzkreis (VPE): Koordiniert den gesamten Bus- und Bahnverkehr der Region. Die Geschäftsstelle liegt in der Luitgardstraße 14-18. Wichtigster Busknotenpunkt der Stadt ist der Leopoldplatz (Leo) direkt in der Innenstadt sowie der Zentrale Omnibusbahnhof (ZOB) am Hauptbahnhof. \[[1](https://vpe.de/), [2](https://vpe.de/kontakt)\]  
 * Schwerbehinderung & Barrierefreiheit: Informationen zu Freifahrten mit dem Schwerbehindertenausweis, Wertmarken sowie barrierefreie Beförderungen werden direkt über den Verbund und die angeschlossenen Verkehrsunternehmen geregelt.  
   * *Offizielle Website*: [VPE – Verkehrsverbund Pforzheim-Enzkreis](https://www.vpe.de/) \| Direkt zur Fahrplanauskunft: [VPE Fahrplan](https://vpe.de/fahrplan). \[[1](https://vpe.de/fahrplan), [2](https://vpe.de/)\]
@@ -665,3 +667,19 @@ Map data ©2026 GeoBasis-DE/BKG (©2009)[Terms](https://www.google.com/intl/de-D
 
 200 m 
 
+
+
+**❄️ Akuter Kälteschutz der Stadt Pforzheim (Notübernachtung im Winter)**
+* **Ziel**: Schutz vor lebensgefährlicher Unterkühlung und Erfrierung für wohnungslose Menschen.
+* **Standort**: [Bleichstraße 95, 75173 Pforzheim](https://maps.google.com/?q=Bleichstra%C3%9Fe+95,+75173+Pforzheim) (Innenstadt, direkt neben dem Kontaktladen LOFT).
+* **Öffnungszeiten**: Täglich von **20:30 Uhr bis 08:30 Uhr** geöffnet.
+* **Angebot**: Aufwärmen, sicherer und warmer Schlafplatz für die Nacht.
+
+**🤝 Wichtige Nachbarschafts- & Tagesanlaufstellen**
+* **Kontaktladen LOFT (Plan B gGmbH – Drogen- und Suchthilfe)**:
+  * **Adresse**: [Bleichstraße 97, 75173 Pforzheim](https://maps.google.com/?q=Bleichstra%C3%9Fe+97,+75173+Pforzheim)
+  * **Telefon**: 07231 92277-40 | Fax: 07231 92277-44
+  * **Öffnungszeiten**: Mo, Mi, Do 14:00–17:00 Uhr | Di, Fr 10:00–13:00 Uhr (Einzeltermine nach Vereinbarung)
+  * **Konzept**: Niedrigschwellige Anlaufstelle, Beratung, Aufenthaltsmöglichkeit und Grundversorgung ([Hintergrundbericht Plan B](https://planb-pf.de/news/2026-04-loft-niederschwellig/)).
+* **Wichernhaus Pforzheim (Diakonie)**: [Westliche Karl-Friedrich-Straße 120, 75172 Pforzheim](https://maps.google.com/?q=Westliche+Karl-Friedrich-Stra%C3%9Fe+120,+75172+Pforzheim), Tel. 07231 20448-0 (Tagesaufenthalt & Übernachtung).
+* **Helping Hands Pforzheim e.V.**: [Rebhuhnweg 6, 75181 Pforzheim](https://maps.google.com/?q=Rebhuhnweg+6,+75181+Pforzheim) (Aufsuchende Obdachlosenhilfe).
