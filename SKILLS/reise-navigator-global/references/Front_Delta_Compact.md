@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-14)
+RADAR-DELTA COMPACT (2026-11-14 08:11:43)
 - [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 1. Juli 2026 mit strengeren Mitwirkungspflichten sowie neuen Regelungen zum Vermögen und zu den Wohnkosten
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Wohnkosten
 - [31: Bürgergeld.org - Richtwerte & Rechner] SGB II Regelsatz: 563 Euro
