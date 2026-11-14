@@ -1,7 +1,95 @@
-RADAR-DELTA COMPACT (2026-11-12 12:25:19)
-- [19: BAG Entscheidungsdatenbank] § 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000): 1,50 Euro
-- [19: BAG Entscheidungsdatenbank] § 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000): 5,00 Euro
-- [19: BAG Entscheidungsdatenbank] Schreibauslagen: 0,50 Euro
-- [19: BAG Entscheidungsdatenbank] Schreibauslagen: 0,15 Euro
-- [FDS_GM_08: Gemeinde Seewald - Bürgerservice] Bekanntmachung Flurbereinigung Seewald-Hochdorf: Das Landratsamt Freudenstadt beabsichtigt, in der Gemeinde Seewald ein Flurbereinigungsverfahren durchzuführen.
-- [FDS_GM_08: Gemeinde Seewald - Bürgerservice] Bekanntmachung Kinderkrippe Seewald: In der Kinderkrippe der Kindertagesstätte stehen freie Plätze zur Verfügung.
+RADAR-DELTA COMPACT (2026-11-14)
+- [FDS_GM_05: Gemeinde Empfingen - Bürgerservice] Art. 6 Abs. 1 s. 1 lit. e DSGVO i.V.m. §§ 2, 3 EGovG BW: Rechtsgrundlage für die Verarbeitung personenbezogener Daten im Rahmen der Online-Formulare und Sicherheitsprüfungen der Website der Gemeinde Empfingen.
+- [FDS_GM_05: Gemeinde Empfingen - Bürgerservice] Art. 6 Abs. 1 f) DSGVO: Rechtsgrundlage für die Erhebung und Verarbeitung von Daten durch die Netze BW GmbH zur Gewährleistung der Stabilität und Sicherheit der Website.
+- [FDS_GM_05: Gemeinde Empfingen - Bürgerservice] Datenschutz-Löschfrist IP-Adresse Netze BW: 7 Tage
+- [FDS_GM_05: Gemeinde Empfingen - Bürgerservice] Cookie-Ablauffrist Gemeinde Empfingen: 1 Monat
+- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Kreisbau Genossenschaft Calw eG Mietangebot Altensteig: 475 EUR
+- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Kreisbau Genossenschaft Calw eG Mietangebot Nagold: 560 EUR
+- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Kreisbau Genossenschaft Calw eG Mietangebot Nagold Erstbezug: 775 EUR
+- [CW_K5_WOHNBAU: Kreisbaugesellschaft Calw mbH (Belegungsrechte & Mietwohnraum)] Kreisbau Genossenschaft Calw eG Satzung und Kuendigung: 3 Monate
+- [Z36: LL: Personalausweis, Reisepass] PStG-DVO § 5 i.V.m. Anlage 1: EUR 20,00
+- [Z36: LL: Personalausweis, Reisepass] PStG §§ 28 - 33: spätestens am dritten Werktag, der auf den Tod folgt.
+- [Z36: LL: Personalausweis, Reisepass] Passgesetz / Kinderreisepass-Regelung: 1. Januar 2024
+- [Z41: LL: Wohnen] Kommunalabgabengesetz (KAG) § 9 Absatz 3: Anmeldung innerhalb eines Monats ab dem Tag, seit dem ein Hund gehalten wird oder seit dem der Halter in die Gemeinde gezogen ist.
+- [Z41: LL: Wohnen] Kommunalabgabengesetz (KAG) § 9 Absatz 3: Die Unterlassung der Hundesteuer-Anmeldung stellt eine Ordnungswidrigkeit dar.
+- [Z43: LL: Freiwilligendienste] PStG-DVO: 65,00 EUR
+- [Z43: LL: Freiwilligendienste] PStG-DVO: 110,00 EUR
+- [Z43: LL: Freiwilligendienste] PStG-DVO: 130,00 EUR
+- [Z43: LL: Freiwilligendienste] PStG-DVO: 45,00 EUR
+- [Z43: LL: Freiwilligendienste] PStG-DVO: 110,00 EUR
+- [Z43: LL: Freiwilligendienste] PStG-DVO: 45,00 EUR
+- [Z43: LL: Freiwilligendienste] § 13 PStG: 6 Monaten
+- [Z43: LL: Freiwilligendienste] § 1303 BGB: Vollendung des 18. Lebensjahres
+- [Z44: LL: Wahlen und Bürgerbeteiligung] Unterhaltsvorschussgesetz (UVG) § 2: EUR 227,00
+- [Z44: LL: Wahlen und Bürgerbeteiligung] Unterhaltsvorschussgesetz (UVG) § 2: EUR 299,00
+- [Z44: LL: Wahlen und Bürgerbeteiligung] Unterhaltsvorschussgesetz (UVG) § 2: EUR 394,00
+- [Z44: LL: Wahlen und Bürgerbeteiligung] Sozialgesetzbuch (SGB) II: EUR 600,00
+- [Z45: LL: Adoption] Fahrzeugzulassungsverweigerungsgesetz (FzZulVweigG): 30,00 EUR
+- [Z45: LL: Adoption] Kraftfahrzeugsteuergesetz (KraftStG) § 13: 5,00 EUR
+- [Z45: LL: Adoption] Fahrzeug-Zulassungsverordnung (FZV) § 13: Unverzüglich nach erfolgter Ummeldung.
+- [Z46: LL: Der Bund fürs Leben] PStG-DVO Anlage 1 (Gebührenverzeichnis): EUR 110,00
+- [Z46: LL: Der Bund fürs Leben] PStG-DVO Anlage 1 (Gebührenverzeichnis): EUR 130,00
+- [Z46: LL: Der Bund fürs Leben] PStG-DVO Anlage 1 (Gebührenverzeichnis): EUR 40,00
+- [Z46: LL: Der Bund fürs Leben] PStG-DVO Anlage 1 (Gebührenverzeichnis): EUR 45,00
+- [Z46: LL: Der Bund fürs Leben] PStG-DVO Anlage 1 (Gebührenverzeichnis): EUR 110,00
+- [Z46: LL: Der Bund fürs Leben] § 13 PStG: Die Mitteilung, dass Sie alle Voraussetzungen zur Eheschließung erfüllen, gilt für sechs Monate. Ansonsten müssen Sie die Eheschließung erneut anmelden.
+- [Z47: LL: Der Bund fürs Leben - Auflösung] §§ 153 StPO, 45 Abs. 2 JGG: Die Kurse können sowohl als staatsanwaltliche Maßnahmen im Rahmen der §§153 StPO und §45 Abs.2 JGG als auch als richterliche Weisungen durchgeführt werden.
+- [Z47: LL: Der Bund fürs Leben - Auflösung] Landratsamt Schwäbisch Hall - Früh- und Kurzintervention: sechsmal 2 Stunden
+- [Z47: LL: Der Bund fürs Leben - Auflösung] Freigabevermerk Justizministerium Baden-Württemberg: 17.03.2026
+- [Z48: LL: Familie und Kinder] Verwaltungsvorschrift des Kultusministeriums über Förderrichtlinien zur Gewährung von Zuwendungen an die Träger der Horte an der Schule und der herkömmlichen Horte: EUR 17.622,00
+- [Z48: LL: Familie und Kinder] Verwaltungsvorschrift des Kultusministeriums über Förderrichtlinien zur Gewährung von Zuwendungen an die Träger der Horte an der Schule und der herkömmlichen Horte: 15. November bis zum 31. Dezember des laufenden Schuljahres
+- [Z48: LL: Familie und Kinder] Rechtsbehelf (Zuwendungsbescheid Hortförderung): Gegen den Zuwendungsbescheid kann innerhalb eines Monats nach Bekanntgabe beim zuständigen Verwaltungsgericht schriftlich oder zur Niederschrift des Urkundsbeamten bei der Geschäftsstelle des Gerichts Klage erhoben werden.
+- [Z49: LL: Kinderbetreuung] § 90 SGB VIII: Wenn Sie die finanzielle Belastung durch die Kita-Gebühren nicht tragen können, können Sie beim örtlichen Jugendamt einen Antrag auf Gebührenermäßigung oder Gebührenbefreiung stellen.
+- [Z49: LL: Kinderbetreuung] Widerspruchsfrist: Innerhalb eines Monats Widerspruch einlegen
+- [Z52: LL: Sterbefall] Einkommensteuergesetz (EStG) § 39: 30. November
+- [Z54: LL: Gesetzliche Unfallversicherung, Kinder und Schüler] Sozialgesetzbuch Siebtes Buch (SGB VII) : § 2 Versicherung kraft Gesetzes: Ihr Kind ist während des Besuchs von Tageseinrichtungen gesetzlich unfallversichert. Dieser Versicherungsschutz ist für Sie beitragsfrei.
+- [Z54: LL: Gesetzliche Unfallversicherung, Kinder und Schüler] Beratungshilfegesetz (BerHG) : § 8 Vergütung: 15,00 EUR
+- [Z54: LL: Gesetzliche Unfallversicherung, Kinder und Schüler] Beratungshilfegesetz (BerHG) : § 3 Gewährung von Beratungshilfe: kostenlos
+- [Z56: LL: Gläubiger und Schuldner] Gläubiger-Schuldner-Verhältnis: Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern.
+- [Z56: LL: Gläubiger und Schuldner] Freigabevermerk Justizministerium Baden-Württemberg: 03.02.2026
+- [Z56: LL: Gläubiger und Schuldner] § 27 a Umsatzsteuergesetz: 56003/00351
+- [Z56: LL: Gläubiger und Schuldner] Freigabevermerk Stadt Sindelfingen: 05.02.2007
+- [Z57: LL: Notlagen] 112: 112 - Feuerwehr und Rettungsdienst Bei Bränden, Unglücksfällen oder bei lebensbedrohlichen Unfällen und bei medizinischen Notfällen wenden Sie sich an die Feuerwehr beziehungsweise den Rettungsdienst.
+- [Z57: LL: Notlagen] 110: Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110.
+- [Z57: LL: Notlagen] 116117: Handelt es sich um eine Erkrankung, mit der Sie normalerweise einen niedergelassenen Arzt oder eine niedergelassene Ärztin in der Praxis aufsuchen würden, aber die Behandlung aus medizinischen Gründen nicht bis zum nächsten Tag warten kann, ist der ärztliche Bereitschaftsdienst zuständig. Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117.
+- [Z57: LL: Notlagen] Nothilfe-SMS T-Mobile / Vodafone: 99 0711 216-77112
+- [Z57: LL: Notlagen] Nothilfe-SMS Telefonica (O2/Eplus): 329 0711 216-77112
+- [Z57: LL: Notlagen] 19222: Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222.
+- [Z58: LL: Opferschutz und Opferhilfe] Volksabstimmungsgesetz §§ 27 - 31: Mindestens 10.000 Unterstützungsunterschriften für das Zulassungsverfahren
+- [Z58: LL: Opferschutz und Opferhilfe] Volksabstimmungsgesetz §§ 32 - 39, § 41: Amtliche Sammlung erstreckt sich über drei Monate, freie Sammlung über sechs Monate
+- [Z58: LL: Opferschutz und Opferhilfe] Volksabstimmungsgesetz §§ 27 - 31: Entscheidung über die Zulassung innerhalb von vier Wochen nach Eingang
+- [Z58: LL: Opferschutz und Opferhilfe] Volksabstimmungsgesetz §§ 27 - 31: Anrufung des Verfassungsgerichtshofs innerhalb von zwei Wochen nach Zugang der Entscheidung
+- [Z59: LL: Stiftungen] Freigabevermerk Innenministerium Baden-Württemberg: 21.07.2025
+- [Z59: LL: Stiftungen] Abbruchplanung / Abfallrechtliche Verpflichtung: Als Bauherr haften Sie - und nicht die Baufirma - für den Abfall.
+- [Z59: LL: Stiftungen] Freigabevermerk Landratsamt Schwäbisch Hall: 01.09.2015
+- [Z59: LL: Stiftungen] § 27 a UStG: DE 146 789 292
+- [Z60: LL: Verbraucherschutz und Ernährung] Kindergartenbeitrag Krippengruppe Gemeinde Graben-Neudorf: 319,00 €
+- [Z60: LL: Verbraucherschutz und Ernährung] Mittagessen Krippe Gemeinde Graben-Neudorf: 72,00 €
+- [Z60: LL: Verbraucherschutz und Ernährung] Kindergartenbeitrag VÖ-Gruppe Gemeinde Graben-Neudorf: 135,00 €
+- [Z60: LL: Verbraucherschutz und Ernährung] Kindergartenbeitrag Ganztagesbetreuung Gemeinde Graben-Neudorf: 352,00 €
+- [Z61: LL: Altersvorsorge und Ruhestand] Freigabevermerk vom 06.10.2025: 06.10.2025
+- [Z61: LL: Altersvorsorge und Ruhestand] § 27 a Umsatzsteuergesetz: DE 14 53 40 17 3
+- [Z61: LL: Altersvorsorge und Ruhestand] § 6 MDStV: Nicole Amolsch
+- [Z61: LL: Altersvorsorge und Ruhestand] Freigabevermerk vom 03.12.2012: 03.12.2012
+- [Z66: LL: Vereine] § 311b Abs. 1 BGB: Grundstückskaufverträge bedürfen der notariellen Beurkundung.
+- [Z66: LL: Vereine] Verbraucherschutzfrist Beurkundung: Notarieller Vertragsentwurf muss dem Verbraucher im Regelfall zwei Wochen vor der Beurkundung zur Verfügung gestellt werden.
+- [Z66: LL: Vereine] § 873 BGB, § 925 BGB: Der Eigentumsübergang an einem Grundstück erfolgt erst durch Auflassung und Eintragung der Eigentumsänderung im Grundbuch.
+- [Z68: LL: Sicherheit und Gefahrenabwehr] Freigabevermerk 05.03.2026 Innenministerium Baden-Württemberg: Freigabevermerk 05.03.2026 Innenministerium Baden-Württemberg
+- [Z69: LL: Umwelt] Freigabevermerk Katastervermessungen: 30.08.2006
+- [Z69: LL: Umwelt] § 5 TMG / § 55 RStV: Pflichtangaben im Impressum der Stadt Sindelfingen; Inhaltlich Verantwortliche ist Martina Schlipf.
+- [Z69: LL: Umwelt] § 27 a Umsatzsteuergesetz: 56003/00351
+- [Z71: LL: Arbeitgeber] Führerscheinstelle Baden-Württemberg - Führerschein Erweiterung Kosten: 45,90 EUR
+- [Z71: LL: Arbeitgeber] Führerscheinstelle Baden-Württemberg - Führerschein Erweiterung Kosten: 45,10 EUR
+- [Z71: LL: Arbeitgeber] Fahrerlaubnisverordnung (FeV) / Straßenverkehrsgesetz (StVG): Sie müssen die theoretische Prüfung innerhalb von zwölf Monaten nach Eingang des Prüfauftrags bei der Technischen Prüfstelle bestehen. Die praktische Prüfung müssen Sie innerhalb von zwölf Monaten nach der bestandenen theoretischen Prüfung bestehen.
+- [Z74: LL: Patente, Marken, Ideentransfer] Wirtschaftsministerium Baden-Württemberg: Patente, Marken, Ideentransfer
+- [Z74: LL: Patente, Marken, Ideentransfer] Stadt Esslingen am Neckar: Reiseausweis für Flüchtlinge, Ausländer und Staatenlose
+- [Z75: LL: Unternehmen führen] Erbschaftsteuer- und Schenkungsteuergesetz: 3 Monate
+- [Z77: LL: Unternehmensnachfolge] § 4 Abs. 3 Schulgesetz (SchG), § 7 Schulgesetz (SchG), § 88 Schulgesetz (SchG): Dienstag, 05. März bis Freitag, 08. März 2024
+- [Z77: LL: Unternehmensnachfolge] § 4 Abs. 3 Schulgesetz (SchG), § 7 Schulgesetz (SchG), § 88 Schulgesetz (SchG): bis Mittwoch, 10. April 2024
+- [Z79: LL: Deutsche Staatsangehörigkeit] § 42a LVwVfG in Verbindung mit § 6a Absatz 1 GewO: Die zuständige Stelle muss über Ihren Antrag innerhalb einer Frist von drei Monaten entscheiden. Diese Frist beginnt mit dem Eingang der vollständigen Unterlagen. Nach Ablauf dieser Frist gilt die beantragte Erlaubnis als erteilt, wenn Ihr Antrag hinreichend bestimmt ist.
+- [Z80: LL: Spätaussiedler] § 558 d Abs.1 BGB: Der Mietspiegel sowie ein Onlinerechner stehen Ihnen zur kostenfreien Anwendung zur Verfügung.
+- [Z83: LL: Notlagen (Sicherheits-Check)] Notruf 110: Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110.
+- [Z83: LL: Notlagen (Sicherheits-Check)] Krankentransport 19222: Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222.
+- [Z84: LL: Gläubiger und Schuldner (Sicherheits-Check)] Telemediengesetz (TMG) bzw. Staatsvertrag für Rundfunk und Telemedien (RStV): Stadt Sindelfingen Rathausplatz 1 71063 Sindelfingen Telefon: 07031/94-0 E-Mail: stadt@sindelfingen.de
+- [Z85: LL: Wohnen (Sicherheits-Check)] Kommunalabgabengesetz (KAG) § 9 Absatz 3: Sie müssen den Hund innerhalb eines Monats ab dem Tag anmelden, seit dem Sie einen Hund halten oder seit dem Sie in die Gemeinde gezogen sind.
+- [Z86: LL: Arbeitnehmer (Sicherheits-Check)] Landratsamt Karlsruhe Brennholz: Als Brennholz-Selbstwerber

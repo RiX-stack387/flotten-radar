@@ -4,7 +4,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z2": {
-        "source_hash": "dbb572f20d995ea1c644d48670b1ec1e7a1ce967e3d998589c0e1eaacce2f850",
+        "source_hash": "00cce7778a4a7df6221aa0eb06266875392dd4b2dee0aed4502dba523bea5b0f",
         "legal_hash": "61f31a63fc2ce068969c8467b2eadaf1c275239e2bf821af18260087335517ce",
         "claims": [
             {
@@ -193,7 +193,7 @@
         "last_updated": "2026-10-18T02:56:48.564271+00:00"
     },
     "praxis_slot_Z7": {
-        "source_hash": "1f603100e315d2befb346371dd99c30480bb9190366047d7d9f55db518e36d93",
+        "source_hash": "48331fed8417062b12cbfb58d092df924466d3b201fccb459ff6754eb912896c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -341,7 +341,7 @@
         "last_updated": "2026-10-18T02:58:25.520910+00:00"
     },
     "praxis_slot_Z15": {
-        "source_hash": "1a6cd400e8500aeec74b06ca2af1b809917616b91cc1072634b22fa317685e81",
+        "source_hash": "df08a3839768c6325a11319803e1b0ecc43e06e4fa95b73ced7474b0c6ac4470",
         "legal_hash": "a7f29e1a6f3dab61a2afa61c56355d97ee0ae8a05fb146fe0a57ddd453bcb7fb",
         "claims": [
             {
@@ -551,7 +551,7 @@
         "last_updated": "2026-10-18T03:00:38.948545+00:00"
     },
     "praxis_slot_Z23": {
-        "source_hash": "f2c26bca8726271f4b241eda191169a8a7ecca524ca0f9de964d8ff4b93683ee",
+        "source_hash": "c320cf37a2108cbaf935fdeceffad2f74c18d4ec55c93c37f7b2adf0464aa58b",
         "legal_hash": "c0efd91a9d01b832b9f800b37b5dbd25023865b8f0863e8cd16c01d5085f8ad4",
         "claims": [
             {
@@ -747,7 +747,7 @@
         "last_updated": "2026-10-18T03:01:50.142986+00:00"
     },
     "praxis_slot_Z30": {
-        "source_hash": "9221bb3d70a3bd7acea178b3be2869d8310965c44a0db70a7d6e1fbeba3ae992",
+        "source_hash": "33c748ab94ddae8c4abb9e5999e2e5f232cb709ca32c1b5f244452f3bd1666c0",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -789,7 +789,7 @@
         "last_updated": "2026-10-18T03:02:14.019590+00:00"
     },
     "praxis_slot_Z33": {
-        "source_hash": "69a8829f98e241cbc91159435fe2c050353599a41a006371e38f78746f17ecba",
+        "source_hash": "440d12ab53a8b134179c882923cb211ea45dcc865c745eb7d7e810fe01f36589",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -831,28 +831,35 @@
         "last_updated": "2026-10-18T03:02:40.681777+00:00"
     },
     "praxis_slot_Z36": {
-        "source_hash": "54a12f5528359a0adbb9600cf37f42a69b7f16b8c71a10057aa8cbfa9c51e50c",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "2d103679663e183a5992c2f5f44cf43149d71e6e2a62919760a68432f3d1d90a",
+        "legal_hash": "c571f0fb499baea14520024956098e4578be946bfc17f90ae60864dd4bb12bce",
         "claims": [
             {
-                "norm": "Ausweispflicht (§ 1 PAuswG)",
-                "extracted_value": "Jeder Deutsche, der mindestens 16 Jahre alt ist und der Meldepflicht unterliegt oder sich überwiegend in Deutschland aufhält, ist verpflichtet, einen gültigen Personalausweis zu besitzen.",
-                "value_type": "TEXT",
-                "context": "Regelung der allgemeinen Ausweispflicht in Deutschland ab Vollendung des 16. Lebensjahres.",
-                "evidence_location": "Jeder Deutsche, der mindestens 16 Jahre alt ist und der Meldepflicht unterliegt oder sich überwiegend in Deutschland aufhält, ist verpflichtet, einen gültigen Personalausweis zu besitzen (Ausweispflicht)."
+                "norm": "PStG-DVO § 5 i.V.m. Anlage 1",
+                "extracted_value": "EUR 20,00",
+                "value_type": "EURO",
+                "context": "Gebühr für zusätzliche oder mehrsprachige Sterbeurkunden",
+                "evidence_location": "für zusätzliche Sterbeurkunden oder mehrsprachige Sterbeurkunden (zum Beispiel für die Überführung der Leiche ins Ausland): jeweils EUR 20,00"
             },
             {
-                "norm": "Passgesetz / Kinderreisepass",
-                "extracted_value": "01.01.2024",
+                "norm": "PStG §§ 28 - 33",
+                "extracted_value": "spätestens am dritten Werktag, der auf den Tod folgt.",
+                "value_type": "TEXT",
+                "context": "Frist zur Anzeige eines Sterbefalls beim Standesamt",
+                "evidence_location": "spätestens am dritten Werktag, der auf den Tod folgt."
+            },
+            {
+                "norm": "Passgesetz / Kinderreisepass-Regelung",
+                "extracted_value": "1. Januar 2024",
                 "value_type": "DATE",
-                "context": "Einstellung der Beantragungsmöglichkeit für Kinderreisepässe ab dem 1. Januar 2024.",
+                "context": "Datum, seit dem keine Kinderreisepässe mehr beantragt werden können",
                 "evidence_location": "Kinderreisepass - eine Beantragung ist seit 1. Januar 2024 nicht mehr möglich"
             }
         ],
-        "last_updated": "2026-10-18T03:02:54.204093+00:00"
+        "last_updated": "2026-11-14T01:40:26.932972+00:00"
     },
     "praxis_slot_Z37": {
-        "source_hash": "44869696810ebb399677f3cb972bd265aab6aa32591131933cd8c168e8ae42c2",
+        "source_hash": "3ee3cc49841f8b083e82dcdcd3a47811726870524420c20d1d713788a2664fe4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -870,7 +877,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z39": {
-        "source_hash": "b20abe1eaa96b819e4c3e085c0c62cf5fa89273f4d306acdc152ad876b5f519a",
+        "source_hash": "bbbf03c5cbbfe4a01d8e89fc958ae6118e959878981b6b16a2b71b6dfdf6834a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -884,7 +891,7 @@
         "last_updated": "2026-10-18T03:03:20.704024+00:00"
     },
     "praxis_slot_Z40": {
-        "source_hash": "e34defb78186ce59237fb4028eeed15eaaed4f6584a411804cacdd429ea51df1",
+        "source_hash": "b6cfd65b1874bae1d5e72568768d4d278a47d75c6d85822ae05dcd8cdaf60a21",
         "legal_hash": "9c6ab7738a51e6bda2fad3b31d646cf371b528e739a47ef27ff983e3d59a38b5",
         "claims": [
             {
@@ -905,35 +912,28 @@
         "last_updated": "2026-10-18T03:03:29.022232+00:00"
     },
     "praxis_slot_Z41": {
-        "source_hash": "014408633a9a4d4f0b7627be10397552ca77a87a3d4041eeacb232f9ac905dd7",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "8f7da1eb30eb667679c22c5d8f11c8a70beeb568ee4a3888567e9d4a4ab247d4",
+        "legal_hash": "e3663685ec718ef968268818bb070c219c235bb47f77f898fc66b718ad27d91c",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage Wohnen",
-                "extracted_value": "Zuordnung der Leistung 'Abgeschlossenheitsbescheinigung zur Aufteilung eines Gebäudes beantragen' zur Lebenslage Wohnen.",
+                "norm": "Kommunalabgabengesetz (KAG) § 9 Absatz 3",
+                "extracted_value": "Anmeldung innerhalb eines Monats ab dem Tag, seit dem ein Hund gehalten wird oder seit dem der Halter in die Gemeinde gezogen ist.",
                 "value_type": "TEXT",
-                "context": "Verwaltungsleistung im Bereich Wohnen und Eigentumsbildung in Baden-Württemberg",
-                "evidence_location": "Passende Leistungen zu dieser Lebenslage Abfall und Müll entsorgen Abgeschlossenheitsbescheinigung zur Aufteilung eines Gebäudes beantragen Änderung des Wohnsitzes innerhalb derselben Stadt oder Gemeinde melden Anzeige - Lärmbelästigung melden Beschwerde bei Lärm- oder Geruchsemissionen von Gewerbebetrieben einreichen 26 weitere anzeigen ..."
+                "context": "Anmeldefrist für die Hundesteuer in Gemeinden in Baden-Württemberg",
+                "evidence_location": "Sie müssen den Hund innerhalb eines Monats ab dem Tag anmelden, seit dem Sie einen Hund halten oder seit dem Sie in die Gemeinde gezogen sind."
             },
             {
-                "norm": "Service-BW Lebenslage Wohnen",
-                "extracted_value": "Zuordnung der Leistung 'Änderung des Wohnsitzes innerhalb derselben Stadt oder Gemeinde melden' zur Lebenslage Wohnen.",
+                "norm": "Kommunalabgabengesetz (KAG) § 9 Absatz 3",
+                "extracted_value": "Die Unterlassung der Hundesteuer-Anmeldung stellt eine Ordnungswidrigkeit dar.",
                 "value_type": "TEXT",
-                "context": "Melderechtliche Verwaltungsleistung bei Wohnsitzänderung innerhalb einer Kommune",
-                "evidence_location": "Passende Leistungen zu dieser Lebenslage Abfall und Müll entsorgen Abgeschlossenheitsbescheinigung zur Aufteilung eines Gebäudes beantragen Änderung des Wohnsitzes innerhalb derselben Stadt oder Gemeinde melden Anzeige - Lärmbelästigung melden Beschwerde bei Lärm- oder Geruchsemissionen von Gewerbebetrieben einreichen 26 weitere anzeigen ..."
-            },
-            {
-                "norm": "Service-BW Lebenslage Wohnen",
-                "extracted_value": "Vertiefende Informationen zum Thema Bauen und Modernisieren sind in der gesonderten gleichnamigen Lebenslage aufgeführt.",
-                "value_type": "TEXT",
-                "context": "Verweisstruktur des Portals Service-BW für Bau- und Modernisierungsangelegenheiten",
-                "evidence_location": "Vertiefende Informationen Informationen zum Thema \" Bauen und Modernisieren \" finden Sie in der gleichnamigen Lebenslage."
+                "context": "Rechtliche Konsequenz der Nichtanmeldung eines Hundes",
+                "evidence_location": "Melden Sie Ihren Hund nicht an, ist das eine Ordnungswidrigkeit."
             }
         ],
-        "last_updated": "2026-10-18T03:03:39.658588+00:00"
+        "last_updated": "2026-11-14T01:43:08.191618+00:00"
     },
     "praxis_slot_Z42": {
-        "source_hash": "f426087aa2da7cf4b9103a3937139a0340ef48c3a90fb61975ac6789034fbf03",
+        "source_hash": "e04c89cb428b95c9fbc9670322cf12dc592d2a9b60f9dfb6e2b346713269309e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -947,119 +947,259 @@
         "last_updated": "2026-10-18T03:03:47.744728+00:00"
     },
     "praxis_slot_Z43": {
-        "source_hash": "987343e2bf6eba57b71b9b4da6241a8a425f6540038d00797ba64339939792ef",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "d7a9a81f9c348ca05a7db7316aee0aa84b928d39aab267c5644b46541666333d",
+        "legal_hash": "a67b932afb97b534a2f6014ef08d549b77a461779601c88f2c4dc92d68215268",
         "claims": [
             {
-                "norm": "Freiwilligendienste BW",
-                "extracted_value": "Wir bieten Hinweise und Tipps über die verschiedenen Möglichkeiten. Außerdem erfahren Sie, wie Sie sich für die verschiedenen Dienste bewerben.",
+                "norm": "PStG-DVO",
+                "extracted_value": "65,00 EUR",
+                "value_type": "EURO",
+                "context": "Gebühr für die Prüfung der Ehefähigkeit bei Anmeldung der Eheschließung",
+                "evidence_location": "Prüfung der Ehefähigkeit: 65,00 EUR; wenn ausländisches Recht zu beachten ist (unabhängig von der Staatsangehörigkeit): 110,00 EUR; wenn ausländisches Recht zu beachten ist und ein Befreiungsverfahren durchzuführen ist: 130,00 EUR"
+            },
+            {
+                "norm": "PStG-DVO",
+                "extracted_value": "110,00 EUR",
+                "value_type": "EURO",
+                "context": "Gebühr für die Prüfung der Ehefähigkeit, wenn ausländisches Recht zu beachten ist",
+                "evidence_location": "Prüfung der Ehefähigkeit: 65,00 EUR; wenn ausländisches Recht zu beachten ist (unabhängig von der Staatsangehörigkeit): 110,00 EUR; wenn ausländisches Recht zu beachten ist und ein Befreiungsverfahren durchzuführen ist: 130,00 EUR"
+            },
+            {
+                "norm": "PStG-DVO",
+                "extracted_value": "130,00 EUR",
+                "value_type": "EURO",
+                "context": "Gebühr für die Prüfung der Ehefähigkeit, wenn ausländisches Recht zu beachten und ein Befreiungsverfahren durchzuführen ist",
+                "evidence_location": "Prüfung der Ehefähigkeit: 65,00 EUR; wenn ausländisches Recht zu beachten ist (unabhängig von der Staatsangehörigkeit): 110,00 EUR; wenn ausländisches Recht zu beachten ist und ein Befreiungsverfahren durchzuführen ist: 130,00 EUR"
+            },
+            {
+                "norm": "PStG-DVO",
+                "extracted_value": "45,00 EUR",
+                "value_type": "EURO",
+                "context": "Gebühr für die Durchführung und Beurkundung der Eheschließung",
+                "evidence_location": "Durchführung und Beurkundung der Eheschließung: 45,00 EUR"
+            },
+            {
+                "norm": "PStG-DVO",
+                "extracted_value": "110,00 EUR",
+                "value_type": "EURO",
+                "context": "Gebühr für die standesamtliche Trauung außerhalb der üblichen Dienstzeiten",
+                "evidence_location": "standesamtliche Trauung außerhalb der üblichen Dienstzeiten: 110,00 EUR"
+            },
+            {
+                "norm": "PStG-DVO",
+                "extracted_value": "45,00 EUR",
+                "value_type": "EURO",
+                "context": "Gebühr für eine Trauung vor einem anderen Standesamt in Baden-Württemberg als dem Anmeldestandesamt",
+                "evidence_location": "standesamtliche Trauung vor einem anderen Standesamt in Baden-Württemberg als dem Standesamt, bei dem Sie die Eheschließung angemeldet haben: 45,00 EUR"
+            },
+            {
+                "norm": "§ 13 PStG",
+                "extracted_value": "6 Monaten",
                 "value_type": "TEXT",
-                "context": "Informationen zu Freiwilligendiensten wie FSJ und FÖJ in Baden-Württemberg.",
-                "evidence_location": "Wir bieten Hinweise und Tipps über die verschiedenen Möglichkeiten. Außerdem erfahren Sie, wie Sie sich für die verschiedenen Dienste bewerben."
+                "context": "Frist, innerhalb derer nach erfolgreicher Ehevoraussetzungsprüfung geheiratet werden kann",
+                "evidence_location": "Stellt die Standesbeamtin oder der Standesbeamte nach Abschluss der Prüfung fest, dass die Voraussetzungen für eine Eheschließung erfüllt sind, können Sie innerhalb von 6 Monaten heiraten."
+            },
+            {
+                "norm": "§ 1303 BGB",
+                "extracted_value": "Vollendung des 18. Lebensjahres",
+                "value_type": "TEXT",
+                "context": "Voraussetzung für das Eingehen einer Ehe (Ehemündigkeit/Volljährigkeit)",
+                "evidence_location": "Die Ehe darf nicht vor Eintritt der Volljährigkeit (Vollendung des 18. Lebensjahres) eingegangen werden."
             }
         ],
-        "last_updated": "2026-10-18T03:03:55.662540+00:00"
+        "last_updated": "2026-11-14T01:44:11.982594+00:00"
     },
     "praxis_slot_Z44": {
-        "source_hash": "9417f1841f018cfc995da64673b265cb3e30bfa39f3f401894478a2b11ab2bcd",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "fb92d0e6f42ca62a491273f3dc179cb52f1e2bbf5351ffaf3ffc1fabf0aec9aa",
+        "legal_hash": "b55f6ba8e4f4e92a9afe79e44dfa6ed29828a694d047a45f340c6adfdb1f22c1",
         "claims": [
             {
-                "norm": "Landesrecht BW",
-                "extracted_value": "Die Wahlen sind allgemein, unmittelbar, frei, gleich (jede Stimme zählt gleich viel) und geheim.",
-                "value_type": "TEXT",
-                "context": "Grundsätze des Wahlrechts in Baden-Württemberg",
-                "evidence_location": "Die Wahlen sind allgemein (Stimmrecht) unmittelbar (direkt) frei gleich: Jede Stimme zählt gleich viel. geheim"
+                "norm": "Unterhaltsvorschussgesetz (UVG) § 2",
+                "extracted_value": "EUR 227,00",
+                "value_type": "EURO",
+                "context": "Monatlicher Unterhaltsvorschuss ab dem 01.01.2025 für Kinder unter sechs Jahren",
+                "evidence_location": "Er beträgt ab dem 01.01.2025 monatlich für Kinder unter sechs Jahren: EUR 227,00 für Kinder von sechs bis elf Jahren: EUR 299,00 für Kinder zwischen zwölf und siebzehn Jahren: EUR 394,00"
+            },
+            {
+                "norm": "Unterhaltsvorschussgesetz (UVG) § 2",
+                "extracted_value": "EUR 299,00",
+                "value_type": "EURO",
+                "context": "Monatlicher Unterhaltsvorschuss ab dem 01.01.2025 für Kinder von sechs bis elf Jahren",
+                "evidence_location": "Er beträgt ab dem 01.01.2025 monatlich für Kinder unter sechs Jahren: EUR 227,00 für Kinder von sechs bis elf Jahren: EUR 299,00 für Kinder zwischen zwölf und siebzehn Jahren: EUR 394,00"
+            },
+            {
+                "norm": "Unterhaltsvorschussgesetz (UVG) § 2",
+                "extracted_value": "EUR 394,00",
+                "value_type": "EURO",
+                "context": "Monatlicher Unterhaltsvorschuss ab dem 01.01.2025 für Kinder zwischen zwölf und siebzehn Jahren",
+                "evidence_location": "Er beträgt ab dem 01.01.2025 monatlich für Kinder unter sechs Jahren: EUR 227,00 für Kinder von sechs bis elf Jahren: EUR 299,00 für Kinder zwischen zwölf und siebzehn Jahren: EUR 394,00"
+            },
+            {
+                "norm": "Sozialgesetzbuch (SGB) II",
+                "extracted_value": "EUR 600,00",
+                "value_type": "EURO",
+                "context": "Mindest-Bruttoeinkommen des alleinerziehenden Elternteils bei SGB II-Bezug für den Unterhaltsvorschussanspruch von Kindern ab 12 Jahren",
+                "evidence_location": "oder der alleinerziehende Elternteil zwar Leistungen nach dem Sozialgesetzbuch (SGB ) II bezieht, aber ein monatliches Einkommen in Höhe von mindestens EUR 600,00 brutto erzielt."
             }
         ],
-        "last_updated": "2026-10-18T03:04:03.594334+00:00"
+        "last_updated": "2026-11-14T01:45:06.361854+00:00"
     },
     "praxis_slot_Z45": {
-        "source_hash": "983d097c9cc20ed347583976d8dbab4e36b094221aed49d4601cbbd86c6dc0c4",
-        "legal_hash": "25fd85ce860ff0502bfa134401cc65a66360eadd7670e4ba9738bdb3437e8094",
+        "source_hash": "01d8097e185418ac910e690e189ec4415cf3d6b31fb49feb4f5139be8131a1b2",
+        "legal_hash": "48a2e998323d036b831fce2f41f6c785542bc08a31e63780e0c91d1d2db97bd6",
         "claims": [
             {
-                "norm": "Bürgerliches Gesetzbuch (BGB): § 1741",
-                "extracted_value": "Zulässigkeit der Annahme",
-                "value_type": "TEXT",
-                "context": "Rechtsgrundlagen zur Adoption im BGB",
-                "evidence_location": "§ 1741 Zulässigkeit der Annahme"
+                "norm": "Fahrzeugzulassungsverweigerungsgesetz (FzZulVweigG)",
+                "extracted_value": "30,00 EUR",
+                "value_type": "EURO",
+                "context": "Zulassungsverweigerung bei Gebühren- und Auslagenrückständen aus früheren Zulassungsvorgängen",
+                "evidence_location": "Bei Zahlungsrückständen über 30,00 EUR darf die Zulassungsbehörde Ihr Fahrzeug nicht zulassen, bis Sie diese beglichen haben."
             },
             {
-                "norm": "Bürgerliches Gesetzbuch (BGB): § 1754",
-                "extracted_value": "Wirkung der Annahme",
-                "value_type": "TEXT",
-                "context": "Rechtsgrundlagen zur Adoption im BGB zur Wirkung der Annahme",
-                "evidence_location": "§ 1754 Wirkung der Annahme"
+                "norm": "Kraftfahrzeugsteuergesetz (KraftStG) § 13",
+                "extracted_value": "5,00 EUR",
+                "value_type": "EURO",
+                "context": "Zulassungsverweigerung bei bestehenden Kraftfahrzeugsteuerschulden",
+                "evidence_location": "Sie dürfen keine KFZ-Steuerschulden von 5,00 EUR oder mehr haben."
             },
             {
-                "norm": "Adoptionsgesetz: § 1",
-                "extracted_value": "Grundsätze der Adoption",
+                "norm": "Fahrzeug-Zulassungsverordnung (FZV) § 13",
+                "extracted_value": "Unverzüglich nach erfolgter Ummeldung.",
                 "value_type": "TEXT",
-                "context": "Grundsätze der Adoption nach dem Adoptionsgesetz",
-                "evidence_location": "§ 1 Grundsätze der Adoption"
+                "context": "Frist für die Beantragung der KFZ-Ummeldung nach Umzug des Halters",
+                "evidence_location": "Unverzüglich nach erfolgter Ummeldung."
             }
         ],
-        "last_updated": "2026-10-18T03:04:11.574298+00:00"
+        "last_updated": "2026-11-14T01:45:58.007087+00:00"
     },
     "praxis_slot_Z46": {
-        "source_hash": "89a03b22e0e197aeb3d5d42fd5d52cf013dd5217c7a7ee41650055d389e42920",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "c64dcf57e0bde987bcb42d28867d97fe2a50d4b8997184928ccb3532e859e544",
+        "legal_hash": "aca0f0ba5330de814ad1014f26c7fce8c4dac185445d8fa9e95dc69d0f46dfd9",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage 5000928",
-                "extracted_value": "Vor, während und nach der Heirat sind viele Formalitäten zu erledigen.",
+                "norm": "PStG-DVO Anlage 1 (Gebührenverzeichnis)",
+                "extracted_value": "EUR 110,00",
+                "value_type": "EURO",
+                "context": "Gebühr für die Prüfung der Ehefähigkeit mit ausländischem Recht",
+                "evidence_location": "Prüfung der Ehefähigkeit (mit ausländischem Recht): EUR 110,00; wenn ausländisches Recht zu beachten und ein Befreiungsverfahren durchzuführen ist: EUR 130,00"
+            },
+            {
+                "norm": "PStG-DVO Anlage 1 (Gebührenverzeichnis)",
+                "extracted_value": "EUR 130,00",
+                "value_type": "EURO",
+                "context": "Gebühr für die Prüfung der Ehefähigkeit, wenn ausländisches Recht zu beachten und ein Befreiungsverfahren durchzuführen ist",
+                "evidence_location": "Prüfung der Ehefähigkeit (mit ausländischem Recht): EUR 110,00; wenn ausländisches Recht zu beachten und ein Befreiungsverfahren durchzuführen ist: EUR 130,00"
+            },
+            {
+                "norm": "PStG-DVO Anlage 1 (Gebührenverzeichnis)",
+                "extracted_value": "EUR 40,00",
+                "value_type": "EURO",
+                "context": "Gebühr für die Beschaffung eines Ehefähigkeitszeugnisses für ausländische Staatsangehörige",
+                "evidence_location": "Beschaffung eines Ehefähigkeitszeugnisses für ausländische Staatsangehörige: EUR 40,00"
+            },
+            {
+                "norm": "PStG-DVO Anlage 1 (Gebührenverzeichnis)",
+                "extracted_value": "EUR 45,00",
+                "value_type": "EURO",
+                "context": "Gebühr für die Durchführung und Beurkundung der Eheschließung",
+                "evidence_location": "Durchführung und Beurkundung der Eheschließung: EUR 45,00"
+            },
+            {
+                "norm": "PStG-DVO Anlage 1 (Gebührenverzeichnis)",
+                "extracted_value": "EUR 110,00",
+                "value_type": "EURO",
+                "context": "Zusatzgebühr für eine standesamtliche Trauung außerhalb der üblichen Dienstzeiten",
+                "evidence_location": "standesamtliche Trauung außerhalb der üblichen Dienstzeiten: EUR 110,00"
+            },
+            {
+                "norm": "§ 13 PStG",
+                "extracted_value": "Die Mitteilung, dass Sie alle Voraussetzungen zur Eheschließung erfüllen, gilt für sechs Monate. Ansonsten müssen Sie die Eheschließung erneut anmelden.",
                 "value_type": "TEXT",
-                "context": "Informationen und Formalitäten rund um die Eheschließung und Lebenspartnerschaft in Baden-Württemberg.",
-                "evidence_location": "Vor, während und nach der Heirat sind viele Formalitäten zu erledigen."
+                "context": "Gültigkeitsfrist für das Feststellen der Ehevoraussetzungen durch das Standesamt",
+                "evidence_location": "Die Mitteilung, dass Sie alle Voraussetzungen zur Eheschließung erfüllen, gilt für sechs Monate."
             }
         ],
-        "last_updated": "2026-10-18T03:04:19.411012+00:00"
+        "last_updated": "2026-11-14T01:46:22.717440+00:00"
     },
     "praxis_slot_Z47": {
-        "source_hash": "cb4e4fb61d9500da7f7515314ece47fddcf8a256ca6a91647f57e5991934ea89",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "f9f4179d7def22aae6bf85db9c75955f98416fbfb146ef2a0d494f9908053eae",
+        "legal_hash": "f37399f95b179c5186cc396d252610703bdd34c27944a502e0afc3585f4a9870",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage 5001057",
-                "extracted_value": "Freigabevermerk 17.03.2026 Justizministerium Baden-Württemberg",
+                "norm": "§§ 153 StPO, 45 Abs. 2 JGG",
+                "extracted_value": "Die Kurse können sowohl als staatsanwaltliche Maßnahmen im Rahmen der §§153 StPO und §45 Abs.2 JGG als auch als richterliche Weisungen durchgeführt werden.",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlage für Früh- und Kurzinterventionskurse für suchtmittelauffällige Jugendliche und junge Erwachsene im Landkreis Schwäbisch Hall",
+                "evidence_location": "Die Kurse können sowohl als staatsanwaltliche Maßnahmen im Rahmen der §§153 StPO und §45 Abs.2 JGG als auch als richterliche Weisungen durchgeführt werden."
+            },
+            {
+                "norm": "Landratsamt Schwäbisch Hall - Früh- und Kurzintervention",
+                "extracted_value": "sechsmal 2 Stunden",
+                "value_type": "TEXT",
+                "context": "Umfang und Bearbeitungsdauer der Kurse A und B der Jugend-Sucht-Beratung",
+                "evidence_location": "Kurs A und Kurs B : sechsmal 2 Stunden In der Jugend-Sucht-Beratung Schwäbisch Hall oder Crailsheim."
+            },
+            {
+                "norm": "Freigabevermerk Justizministerium Baden-Württemberg",
+                "extracted_value": "17.03.2026",
                 "value_type": "DATE",
-                "context": "Aktualisierungsdatum der Lebenslage Scheidung und Aufhebung einer Lebenspartnerschaft in Baden-Württemberg",
+                "context": "Freigabedatum der Information zur Auflösung einer Ehe oder Lebenspartnerschaft",
                 "evidence_location": "Freigabevermerk 17.03.2026 Justizministerium Baden-Württemberg"
             }
         ],
-        "last_updated": "2026-10-18T03:04:27.323621+00:00"
+        "last_updated": "2026-11-14T01:46:42.616210+00:00"
     },
     "praxis_slot_Z48": {
-        "source_hash": "7a156f760464e00b3cfdaaa885b7768664121c3e3328993ccb0052b8d5117d07",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "0824134afbaedf0eafa7d95e479a8f02c160c2e31258c7b8ec09d46dc27567a9",
+        "legal_hash": "4214b7e7745b4c246e3c60a2ed0f884664b5df2eeefbfad72a78329ec36d569f",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage 5000312",
-                "extracted_value": "Bildungspaket - Leistungen für Bildung und Teilhabe beantragen, Bürgergeld beantragen, Bundesstiftung Mutter und Kind - Leistungen beantragen",
+                "norm": "Verwaltungsvorschrift des Kultusministeriums über Förderrichtlinien zur Gewährung von Zuwendungen an die Träger der Horte an der Schule und der herkömmlichen Horte",
+                "extracted_value": "EUR 17.622,00",
+                "value_type": "EURO",
+                "context": "Förderhöhe pro Gruppe und Schuljahr für Horte und Horte an der Schule",
+                "evidence_location": "Höhe der Förderung: pro Gruppe und Schuljahr: EUR 17.622,00"
+            },
+            {
+                "norm": "Verwaltungsvorschrift des Kultusministeriums über Förderrichtlinien zur Gewährung von Zuwendungen an die Träger der Horte an der Schule und der herkömmlichen Horte",
+                "extracted_value": "15. November bis zum 31. Dezember des laufenden Schuljahres",
+                "value_type": "DATE",
+                "context": "Antragsfrist für die Förderung von Hortgruppen",
+                "evidence_location": "Den Antrag stellen können Sie vom 15. November bis zum 31. Dezember des laufenden Schuljahres ."
+            },
+            {
+                "norm": "Rechtsbehelf (Zuwendungsbescheid Hortförderung)",
+                "extracted_value": "Gegen den Zuwendungsbescheid kann innerhalb eines Monats nach Bekanntgabe beim zuständigen Verwaltungsgericht schriftlich oder zur Niederschrift des Urkundsbeamten bei der Geschäftsstelle des Gerichts Klage erhoben werden.",
                 "value_type": "TEXT",
-                "context": "Leistungen für Familien in Baden-Württemberg im Bereich Familie und Kinder",
-                "evidence_location": "Passende Leistungen zu dieser Lebenslage Aufenthaltserlaubnis für Au-pair-Beschäftigte (Nicht-EU/EWR) beantragen Bildungspaket - Leistungen für Bildung und Teilhabe beantragen Bürgergeld beantragen Bundesstiftung \"Mutter und Kind\" - Leistungen beantragen Eingliederungshilfe für Kinder und Jugendliche mit seelischen Behinderungen beantragen"
+                "context": "Rechtsbehelfsbelehrung zur Anfechtung eines Zuwendungsbescheids für Horte",
+                "evidence_location": "Gegen den Zuwendungsbescheid kann innerhalb eines Monats nach Bekanntgabe beim zuständigen Verwaltungsgericht schriftlich oder zur Niederschrift des Urkundsbeamten bei der Geschäftsstelle des Gerichts Klage erhoben werden."
             }
         ],
-        "last_updated": "2026-10-18T03:04:35.437904+00:00"
+        "last_updated": "2026-11-14T01:47:00.979848+00:00"
     },
     "praxis_slot_Z49": {
-        "source_hash": "cc2829eca55223d231d74bb0eb4ea596b37a19ad8daf84b6b0197d453fd90655",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "a5a3ffa9e44f13ff6b00c8fdb50d5ebee0aecf67a8cab29993ed23590ade69ed",
+        "legal_hash": "16ead55989ebca2e82debf08a90263572c2a5c027107fa8e7f9aee7f6e4e137c",
         "claims": [
             {
-                "norm": "https://www.service-bw.de/zufi/lebenslagen/5001280",
-                "extracted_value": "Auf den folgenden Seiten finden Sie alles Wissenswerte über die verschiedenen Betreuungsmöglichkeiten.",
+                "norm": "§ 90 SGB VIII",
+                "extracted_value": "Wenn Sie die finanzielle Belastung durch die Kita-Gebühren nicht tragen können, können Sie beim örtlichen Jugendamt einen Antrag auf Gebührenermäßigung oder Gebührenbefreiung stellen.",
                 "value_type": "TEXT",
-                "context": "Informationen zur Kinderbetreuung und zu verschiedenen Betreuungsmöglichkeiten in Baden-Württemberg.",
-                "evidence_location": "Auf den folgenden Seiten finden Sie alles Wissenswerte über die verschiedenen Betreuungsmöglichkeiten."
+                "context": "Antragstellung auf Übernahme oder Ermäßigung von Kindertageseinrichtungs-Gebühren",
+                "evidence_location": "Wenn Sie die finanzielle Belastung durch die Kita-Gebühren nicht tragen können, können Sie beim örtlichen Jugendamt einen Antrag auf Gebührenermäßigung oder Gebührenbefreiung stellen."
+            },
+            {
+                "norm": "Widerspruchsfrist",
+                "extracted_value": "Innerhalb eines Monats Widerspruch einlegen",
+                "value_type": "TEXT",
+                "context": "Frist für den Rechtsbehelf gegen den Ablehnungsbescheid",
+                "evidence_location": "Gegen den Ablehnungsbescheid können Sie bei der Stelle, die den Bescheid erlassen hat, innerhalb eines Monats Widerspruch einlegen."
             }
         ],
-        "last_updated": "2026-10-18T03:04:43.485266+00:00"
+        "last_updated": "2026-11-14T01:47:23.037622+00:00"
     },
     "praxis_slot_Z50": {
-        "source_hash": "4890d3e8b8bd454f5617952c3c19e737b1504a101f9d98d823463c52d02dea47",
+        "source_hash": "9493e30b61b53e1f805185778cae91233f88ceb6603627a5b43aa866efa9a7cf",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1073,7 +1213,7 @@
         "last_updated": "2026-10-18T03:04:51.532853+00:00"
     },
     "praxis_slot_Z51": {
-        "source_hash": "e33643e45e87ba45260c56dc6ce172fbacf9facd81cf47a67da7762d48038bda",
+        "source_hash": "8bd40498f707c835ed345e8dcca1dead132f3f1171a044dc5e445c82481f45a4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1087,21 +1227,21 @@
         "last_updated": "2026-10-18T03:04:59.610816+00:00"
     },
     "praxis_slot_Z52": {
-        "source_hash": "cf552716ca95589cec5fab337416c6cfa03730723055615f76d518cfbc869b1b",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "b490a2ff6b0060e57f6ad573a805f2976653a5333bfe70ddf0ff305d9cf1c12f",
+        "legal_hash": "4895ad586fe14e24b6c02ce7ca2ded77680137fded6ffd811f4df4c1eae23072",
         "claims": [
             {
-                "norm": "Lebenslage Sterbefall",
-                "extracted_value": "Bei der Vielzahl der Dinge, die es für Angehörige bei einem Sterbefall zu erledigen gilt, sollen Ihnen die hier angebotenen Informationen Orientierung bieten. Passende Leistungen zu dieser Lebenslage Ausstellung eines Leichenpasses beantragen Erbschein beantragen Erdbestattung - Beerdigung beauftragen Feuerbestattung beantragen",
-                "value_type": "TEXT",
-                "context": "Informationen und Orientierung für Angehörige bei einem Sterbefall sowie passende Leistungen wie Leichenpass, Erbschein und Bestattungen.",
-                "evidence_location": "Bei der Vielzahl der Dinge, die es für Angehörige bei einem Sterbefall zu erledigen gilt, sollen Ihnen die hier angebotenen Informationen Orientierung bieten."
+                "norm": "Einkommensteuergesetz (EStG) § 39",
+                "extracted_value": "30. November",
+                "value_type": "DATE",
+                "context": "Frist für die Beantragung von Kinderfreibeträgen als elektronisches Lohnsteuerabzugsmerkmal für das laufende Kalenderjahr",
+                "evidence_location": "Den Antrag für das laufende Kalenderjahr müssen Sie bis zum 30. November stellen."
             }
         ],
-        "last_updated": "2026-10-18T03:05:07.566104+00:00"
+        "last_updated": "2026-11-14T01:47:54.422359+00:00"
     },
     "praxis_slot_Z53": {
-        "source_hash": "19d45d31a56a50b0bbfec97f822d2e11653eea0cfe452fffd24984b47a687c77",
+        "source_hash": "fdbfeafe22aecd1717f9ebe9d6df68fa00636afabe5efb5a6254f99b41ce17cc",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1115,134 +1255,263 @@
         "last_updated": "2026-10-18T03:05:15.496059+00:00"
     },
     "praxis_slot_Z54": {
-        "source_hash": "e94647e0ee000c0f2f5e4f4263b4d29d31e233b1614e595e9088d4f8ba972dcc",
-        "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
+        "source_hash": "02e948fd9c55ebd62d6691dace1687d504cb4f7ef31ab4b0e27faec22535d9c2",
+        "legal_hash": "bfd600277aa5d6e26d2d690239e0b39cf40a77336671e091337b9a6a63f6241f",
         "claims": [
             {
-                "norm": "SGB VII: § 2 Versicherung kraft Gesetzes",
-                "extracted_value": "Ihr Kind ist während des Besuchs von Tageseinrichtungen gesetzlich unfallversichert. Dieser Versicherungsschutz ist für Sie beitragsfrei. Die Kosten werden von den Kommunen und dem Land getragen.",
+                "norm": "Sozialgesetzbuch Siebtes Buch (SGB VII) : § 2 Versicherung kraft Gesetzes",
+                "extracted_value": "Ihr Kind ist während des Besuchs von Tageseinrichtungen gesetzlich unfallversichert. Dieser Versicherungsschutz ist für Sie beitragsfrei.",
                 "value_type": "TEXT",
-                "context": "Gesetzliche Unfallversicherung für Kinder in Tageseinrichtungen und Schulen in Baden-Württemberg",
-                "evidence_location": "Ihr Kind ist während des Besuchs von Tageseinrichtungen gesetzlich unfallversichert. Dieser Versicherungsschutz ist für Sie beitragsfrei. Die Kosten werden von den Kommunen und dem Land getragen."
+                "context": "Gesetzlicher Beitragsfreier Unfallversicherungsschutz für Kinder während des Besuchs von betriebserlaubnispflichtigen Tageseinrichtungen.",
+                "evidence_location": "Ihr Kind ist während des Besuchs von Tageseinrichtungen gesetzlich unfallversichert. Dieser Versicherungsschutz ist für Sie beitragsfrei."
+            },
+            {
+                "norm": "Beratungshilfegesetz (BerHG) : § 8 Vergütung",
+                "extracted_value": "15,00 EUR",
+                "value_type": "EURO",
+                "context": "Einmalige Eigenbeteiligung für die Inanspruchnahme von Beratungshilfe durch einen Rechtsanwalt oder eine Rechtsanwältin.",
+                "evidence_location": "Beratungshilfe durch einen Rechtsanwalt oder eine Rechtsanwältin: einmalig 15,00 EUR"
+            },
+            {
+                "norm": "Beratungshilfegesetz (BerHG) : § 3 Gewährung von Beratungshilfe",
+                "extracted_value": "kostenlos",
+                "value_type": "TEXT",
+                "context": "Kostenfreiheit der Ausstellung des Beratungshilfescheins sowie der Beratung durch die Rechtsantragstelle des Amtsgerichts.",
+                "evidence_location": "Beratung und Ausstellung des Beratungshilfescheins durch die Rechtsantragstelle: kostenlos"
             }
         ],
-        "last_updated": "2026-10-18T03:05:23.471144+00:00"
+        "last_updated": "2026-11-14T01:48:21.884222+00:00"
     },
     "praxis_slot_Z55": {
-        "source_hash": "00829b3b7c1745496ba1f3437890729259031bd76d1e8c356484db5f24ea7bde",
+        "source_hash": "616ad6b42a767892205cc29718ac2fc9030c2258cb6c0af793ae6633871fbf23",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z56": {
-        "source_hash": "024c29f35be3ce1a949e74ac6759a64a802cd5c970e023807736c87204749775",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "33092d7a8228c11537da4b896a739ab705bd482521ca66357946a80f95500b3b",
+        "legal_hash": "957fd2d37727392e7790d3cc34b1a2a7e6aae79a9f3087f7b7f31b6da5077c88",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage 5000945",
+                "norm": "Gläubiger-Schuldner-Verhältnis",
                 "extracted_value": "Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern.",
                 "value_type": "TEXT",
-                "context": "Grundlegende Rechte und Pflichten von Gläubiger und Schuldner",
+                "context": "Definition des Leistungsanspruchs zwischen Gläubiger und Schuldner",
                 "evidence_location": "Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern."
+            },
+            {
+                "norm": "Freigabevermerk Justizministerium Baden-Württemberg",
+                "extracted_value": "03.02.2026",
+                "value_type": "DATE",
+                "context": "Freigabedatum der Lebenslagen-Information zu Gläubiger und Schuldner",
+                "evidence_location": "Freigabevermerk 03.02.2026 Justizministerium Baden-Württemberg"
+            },
+            {
+                "norm": "§ 27 a Umsatzsteuergesetz",
+                "extracted_value": "56003/00351",
+                "value_type": "TEXT",
+                "context": "Umsatzsteuer-Identifikationsnummer der Stadt Sindelfingen",
+                "evidence_location": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: 56003/00351"
+            },
+            {
+                "norm": "Freigabevermerk Stadt Sindelfingen",
+                "extracted_value": "05.02.2007",
+                "value_type": "DATE",
+                "context": "Freigabedatum der Verfahrensinformationen zu Ordnungswidrigkeiten durch das Ordnungs- und Standesamt Sindelfingen",
+                "evidence_location": "Freigegeben Stadt Sindelfingen, Ordnungs- und Standesamt, 05.02.2007"
             }
         ],
-        "last_updated": "2026-10-18T03:05:39.136049+00:00"
+        "last_updated": "2026-11-14T01:49:24.857696+00:00"
     },
     "praxis_slot_Z57": {
-        "source_hash": "c822d613470ad7e73fcd14a7096276a6626f0894952adb6fa42a5de0482cd06d",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "6dad9f36e5075bdcf12e8895ac729e1538c2ef8336685fca1d5b46c3d9fc3439",
+        "legal_hash": "957fd2d37727392e7790d3cc34b1a2a7e6aae79a9f3087f7b7f31b6da5077c88",
         "claims": [
             {
-                "norm": "Notruf 112",
-                "extracted_value": "Die 112 gilt europaweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen.",
+                "norm": "112",
+                "extracted_value": "112 - Feuerwehr und Rettungsdienst Bei Bränden, Unglücksfällen oder bei lebensbedrohlichen Unfällen und bei medizinischen Notfällen wenden Sie sich an die Feuerwehr beziehungsweise den Rettungsdienst.",
                 "value_type": "TEXT",
-                "context": "Kosten und Geltungsbereich des Feuerwehr- und Rettungsdienst-Notrufs 112",
-                "evidence_location": "Die 112 gilt europaweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen."
+                "context": "Notrufnummer für Feuerwehr und Rettungsdienst in Notfällen",
+                "evidence_location": "112 - Feuerwehr und Rettungsdienst Bei Bränden, Unglücksfällen oder bei lebensbedrohlichen Unfällen und bei medizinischen Notfällen wenden Sie sich an die Feuerwehr beziehungsweise den Rettungsdienst."
             },
             {
-                "norm": "Notruf 110",
-                "extracted_value": "Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110. Alle Notrufe, die über die 110 eingehen, werden von speziell geschulten Polizeibeamtinnen und -beamten in den Führungs- und Lagezentren im Land entgegengenommen.",
+                "norm": "110",
+                "extracted_value": "Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110.",
                 "value_type": "TEXT",
-                "context": "Erreichbarkeit und Annahme des polizeilichen Notrufs 110",
-                "evidence_location": "Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110. Alle Notrufe, die über die 110 eingehen, werden von speziell geschulten Polizeibeamtinnen und -beamten in den Führungs- und Lagezentren im Land entgegengenommen."
+                "context": "Notrufnummer für die Polizei",
+                "evidence_location": "Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110."
             },
             {
-                "norm": "Nothilfe-SMS T-Mobile und Vodafone",
+                "norm": "116117",
+                "extracted_value": "Handelt es sich um eine Erkrankung, mit der Sie normalerweise einen niedergelassenen Arzt oder eine niedergelassene Ärztin in der Praxis aufsuchen würden, aber die Behandlung aus medizinischen Gründen nicht bis zum nächsten Tag warten kann, ist der ärztliche Bereitschaftsdienst zuständig. Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117.",
+                "value_type": "TEXT",
+                "context": "Rufnummer für den Ärztlichen Bereitschaftsdienst bei nicht lebensgefährlichen Erkrankungen",
+                "evidence_location": "Handelt es sich um eine Erkrankung, mit der Sie normalerweise einen niedergelassenen Arzt oder eine niedergelassene Ärztin in der Praxis aufsuchen würden, aber die Behandlung aus medizinischen Gründen nicht bis zum nächsten Tag warten kann, ist der ärztliche Bereitschaftsdienst zuständig. Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117."
+            },
+            {
+                "norm": "Nothilfe-SMS T-Mobile / Vodafone",
                 "extracted_value": "99 0711 216-77112",
                 "value_type": "TEXT",
-                "context": "Nothilfe-SMS Nummer für die Netzanbieter T-Mobile (D1) und Vodafone (D2)",
+                "context": "Nothilfe-SMS Nummer für Sprach- und Hörbehinderte im Netz von T-Mobile und Vodafone",
                 "evidence_location": "T-Mobile (D1) und Vodafone (D2): 99 0711 216-77112"
             },
             {
-                "norm": "Nothilfe-SMS Telefonica",
+                "norm": "Nothilfe-SMS Telefonica (O2/Eplus)",
                 "extracted_value": "329 0711 216-77112",
                 "value_type": "TEXT",
-                "context": "Nothilfe-SMS Nummer für den Netzanbieter Telefonica (O2/Eplus)",
+                "context": "Nothilfe-SMS Nummer für Sprach- und Hörbehinderte im Netz von Telefonica",
                 "evidence_location": "Telefonica (O2/Eplus): 329 0711 216-77112"
             },
             {
-                "norm": "Ärztlicher Bereitschaftsdienst 116117",
-                "extracted_value": "Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. Die Nummer funktioniert ohne Vorwahl. Sie gilt deutschlandweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen.",
+                "norm": "19222",
+                "extracted_value": "Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222.",
                 "value_type": "TEXT",
-                "context": "Erreichbarkeit und Konditionen des ärztlichen Bereitschaftsdienstes",
-                "evidence_location": "Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. Die Nummer funktioniert ohne Vorwahl. Sie gilt deutschlandweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen."
+                "context": "Rufnummer für den qualifizierten Krankentransport",
+                "evidence_location": "Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222."
             }
         ],
-        "last_updated": "2026-10-18T03:05:48.418708+00:00"
+        "last_updated": "2026-11-14T01:50:26.615913+00:00"
     },
     "praxis_slot_Z58": {
-        "source_hash": "ee5b441c7e8c05938053464991493497fec51f31c755875b04680616001d8755",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "687753674da89272de4a440bae3ecd5e9220560e78cee4323d9becec09602c24",
+        "legal_hash": "002aea08012cd4f9d4850984533d4d9aa7a7c7afc3a6aa9a79edd688031eec13",
         "claims": [
             {
-                "norm": "Notruf",
-                "extracted_value": "110",
+                "norm": "Volksabstimmungsgesetz §§ 27 - 31",
+                "extracted_value": "Mindestens 10.000 Unterstützungsunterschriften für das Zulassungsverfahren",
                 "value_type": "TEXT",
-                "context": "Polizeidienststelle im Notfall erreichen",
-                "evidence_location": "Unter der Rufnummer 110 erreichen Sie die nächstgelegene Polizeidienststelle."
+                "context": "Voraussetzung zur Zulassung eines Volksbegehrens beim Innenministerium Baden-Württemberg",
+                "evidence_location": "Hierfür benötigen Sie einen Gesetzentwurf mit mindestens 10.000 Unterstützungsunterschriften."
             },
             {
-                "norm": "Notruf",
-                "extracted_value": "112",
+                "norm": "Volksabstimmungsgesetz §§ 32 - 39, § 41",
+                "extracted_value": "Amtliche Sammlung erstreckt sich über drei Monate, freie Sammlung über sechs Monate",
                 "value_type": "TEXT",
-                "context": "Feuerwehr und Rettungsdienst/Notarzt im Notfall erreichen",
-                "evidence_location": "Unter der Euro-Notrufnummer 112 erreichen Sie rund um die Uhr Feuerwehr und Rettungsdienst/Notarzt."
+                "context": "Dauer der Durchführung der Unterschriftensammlung für ein Volksbegehren",
+                "evidence_location": "Die amtliche Sammlung erstreckt sich über drei Monate, die freie Sammlung über sechs Monate."
+            },
+            {
+                "norm": "Volksabstimmungsgesetz §§ 27 - 31",
+                "extracted_value": "Entscheidung über die Zulassung innerhalb von vier Wochen nach Eingang",
+                "value_type": "TEXT",
+                "context": "Bearbeitungsfrist für das Innenministerium Baden-Württemberg bei Anträgen auf Zulassung eines Volksbegehrens",
+                "evidence_location": "Das Innenministerium muss innerhalb von vier Wochen nach Eingang über die Zulassung entscheiden."
+            },
+            {
+                "norm": "Volksabstimmungsgesetz §§ 27 - 31",
+                "extracted_value": "Anrufung des Verfassungsgerichtshofs innerhalb von zwei Wochen nach Zugang der Entscheidung",
+                "value_type": "TEXT",
+                "context": "Rechtsbehelfsfrist für Vertrauensleute bei Ablehnung des Antrags auf Zulassung eines Volksbegehrens",
+                "evidence_location": "Bei Ablehnung des Antrags auf Zulassung eines Volksbegehrens können die Vertrauensleute der Antragsteller innerhalb von zwei Wochen nach Zugang der Entscheidung den Verfassungsgerichtshof anrufen."
             }
         ],
-        "last_updated": "2026-10-18T03:05:56.390937+00:00"
+        "last_updated": "2026-11-14T01:50:45.055128+00:00"
     },
     "praxis_slot_Z59": {
-        "source_hash": "445efb5c3e398415770be0508fe5dabafcc6706fc1081e181768b807a8f3db9a",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "dc21acb4e77fa8384e76a3416d4a08d4caec079100946a8722be45f9b0313023",
+        "legal_hash": "b8bffade938cd953c6c517ccae591eb4f6382c9cfb94cc41a604293b5087db24",
         "claims": [
             {
-                "norm": "Landesrecht Baden-Württemberg",
-                "extracted_value": "Stiftungen haben in Baden-Württemberg eine lange Tradition.",
+                "norm": "Freigabevermerk Innenministerium Baden-Württemberg",
+                "extracted_value": "21.07.2025",
+                "value_type": "DATE",
+                "context": "Freigabevermerk der Lebenslage Stiftungen in Baden-Württemberg",
+                "evidence_location": "Freigabevermerk 21.07.2025 Innenministerium Baden-Württemberg"
+            },
+            {
+                "norm": "Abbruchplanung / Abfallrechtliche Verpflichtung",
+                "extracted_value": "Als Bauherr haften Sie - und nicht die Baufirma - für den Abfall.",
                 "value_type": "TEXT",
-                "context": "Informationen zu Stiftungen und deren Anerkennung in Baden-Württemberg",
-                "evidence_location": "Stiftungen Stiftungen haben in Baden-Württemberg eine lange Tradition."
+                "context": "Haftung des Bauherrn als Abfallerzeuger bei Abbruchmaßnahmen",
+                "evidence_location": "Als Bauherr haften Sie - und nicht die Baufirma - für den Abfall."
+            },
+            {
+                "norm": "Freigabevermerk Landratsamt Schwäbisch Hall",
+                "extracted_value": "01.09.2015",
+                "value_type": "DATE",
+                "context": "Stand des Freigabevermerks der Information zur Abbruchplanung",
+                "evidence_location": "Der Text wurde freigegeben durch das Landratsamt Schwäbisch Hall. Stand: 01.09.2015"
+            },
+            {
+                "norm": "§ 27 a UStG",
+                "extracted_value": "DE 146 789 292",
+                "value_type": "TEXT",
+                "context": "Umsatzsteuer-Identifikationsnummer des Landkreises Schwäbisch Hall",
+                "evidence_location": "Umsatzsteuer- Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz (UStG): DE 146 789 292"
             }
         ],
-        "last_updated": "2026-10-18T03:06:04.317915+00:00"
+        "last_updated": "2026-11-14T01:51:08.859373+00:00"
     },
     "praxis_slot_Z60": {
-        "source_hash": "f65b1beff2698ba7fc30ec30fb077001cb4b56a43ebf5029059c3defc0de4265",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "d1095b22c3c663b67a52f67c237819cad568ebb662d92a77ddd1bf6a99c63438",
+        "legal_hash": "50b64a2a16a69c28eeb5c046ba4337a76777c2d3a54e61a71321c23a34cb3ab1",
         "claims": [
             {
-                "norm": "Landesportal Baden-Württemberg - Verbraucherschutz und Ernährung",
-                "extracted_value": "Freigabevermerk 16.04.2026 Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg",
-                "value_type": "TEXT",
-                "context": "Aktualität und Zuständigkeit der Lebenslage Verbraucherschutz und Ernährung in Baden-Württemberg",
-                "evidence_location": "Freigabevermerk 16.04.2026 Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg"
+                "norm": "Kindergartenbeitrag Krippengruppe Gemeinde Graben-Neudorf",
+                "extracted_value": "319,00 €",
+                "value_type": "EURO",
+                "context": "Monatsbeitrag für die Betreuung in einer Krippengruppe (Kinder ab 1 Jahr, 7:30 bis 14:00 Uhr) im Kommunalen Kindergarten Sonnenschein",
+                "evidence_location": "2 Krippengruppen für jeweils 10 Kinder ab 1 Jahr mit einer Öffnungszeit von 7:30 bis 14:00 Monatsbeitrag: 319,00€ / Mittagessen Krippe (optional): 72,00€"
+            },
+            {
+                "norm": "Mittagessen Krippe Gemeinde Graben-Neudorf",
+                "extracted_value": "72,00 €",
+                "value_type": "EURO",
+                "context": "Optionaler monatlicher Betrag für das Mittagessen in der Krippe des Kommunalen Kindergartens Sonnenschein",
+                "evidence_location": "2 Krippengruppen für jeweils 10 Kinder ab 1 Jahr mit einer Öffnungszeit von 7:30 bis 14:00 Monatsbeitrag: 319,00€ / Mittagessen Krippe (optional): 72,00€"
+            },
+            {
+                "norm": "Kindergartenbeitrag VÖ-Gruppe Gemeinde Graben-Neudorf",
+                "extracted_value": "135,00 €",
+                "value_type": "EURO",
+                "context": "Monatsbeitrag für die Verlängerten Öffnungszeiten (VÖ) für Kinder ab 3 Jahren (7:30 bis 14:00 Uhr) im Kommunalen Kindergarten Sonnenschein",
+                "evidence_location": "2 VÖ-Gruppen für jeweils 25 Kinder ab 3 Jahren mit einer Öffnungszeit von 7:30 bis 14:00 Monatsbeitrag : 135,00€"
+            },
+            {
+                "norm": "Kindergartenbeitrag Ganztagesbetreuung Gemeinde Graben-Neudorf",
+                "extracted_value": "352,00 €",
+                "value_type": "EURO",
+                "context": "Monatsbeitrag inkl. Mittagessen für die Ganztagesbetreuung (6:45 bis 17:00 Uhr) im Kommunalen Kindergarten Sonnenschein",
+                "evidence_location": "2 Mischgruppen TG/VÖ , die Ganztagesbetreuung mit einer Öffnungszeit von 6:45 bis 17:00 Monatsbeitrag: 352,00€ inkl. Mittagessen"
             }
         ],
-        "last_updated": "2026-10-18T03:06:12.358323+00:00"
+        "last_updated": "2026-11-14T01:51:32.105438+00:00"
     },
     "praxis_slot_Z61": {
-        "source_hash": "045eb8f150197e4ac53a80fa359900bacc96e1584a230424e8466267190c968a",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "source_hash": "5630999ed3b7892a3e8b040518133d81d1b5dc4dd2e4b17c08eb6bc39410146d",
+        "legal_hash": "d5a5fceef551c6e46bf9b158059b97f421e4a66060683fa2ea250be90a4ace27",
+        "claims": [
+            {
+                "norm": "Freigabevermerk vom 06.10.2025",
+                "extracted_value": "06.10.2025",
+                "value_type": "DATE",
+                "context": "Freigabevermerk der Informationsseite zu Altersvorsorge und Ruhestand der Deutschen Rentenversicherung Baden-Württemberg",
+                "evidence_location": "Freigabevermerk 06.10.2025 Deutsche Rentenversicherung Baden-Württemberg"
+            },
+            {
+                "norm": "§ 27 a Umsatzsteuergesetz",
+                "extracted_value": "DE 14 53 40 17 3",
+                "value_type": "TEXT",
+                "context": "Umsatzsteuer-Identifikationsnummer der Stadt Esslingen am Neckar gemäß § 27 a UStG",
+                "evidence_location": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE 14 53 40 17 3"
+            },
+            {
+                "norm": "§ 6 MDStV",
+                "extracted_value": "Nicole Amolsch",
+                "value_type": "TEXT",
+                "context": "Inhaltlich Verantwortliche gemäß § 6 Mediendienste-Staatsvertrag der Stadt Esslingen am Neckar",
+                "evidence_location": "Inhaltlich Verantwortlicher gemäß § 6 MDStV: Nicole Amolsch"
+            },
+            {
+                "norm": "Freigabevermerk vom 03.12.2012",
+                "extracted_value": "03.12.2012",
+                "value_type": "DATE",
+                "context": "Freigabevermerk der Online-Bibliothek der Stadt Esslingen am Neckar",
+                "evidence_location": "Freigabevermerk 03.12.2012"
+            }
+        ],
+        "last_updated": "2026-11-14T01:51:48.778172+00:00"
     },
     "praxis_slot_Z62": {
-        "source_hash": "d93263bf79a489bc9b87ed37ba98b81293a93bb4939cfe4257e088db5d2b3571",
+        "source_hash": "3c2178784ce9c3d5f3a035723b6fe217f97ff489d343d855b13e44f759c0106a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1256,7 +1525,7 @@
         "last_updated": "2026-10-18T03:06:28.126287+00:00"
     },
     "praxis_slot_Z63": {
-        "source_hash": "7715db150295ec098ad1ad34c052101475354c12c80b91adf66bf16ea6633f95",
+        "source_hash": "6584b3d7a24ad8b237a40f71d8f18b10ed2d17647180057a45c6415dcc758620",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1277,7 +1546,7 @@
         "last_updated": "2026-10-18T03:06:36.344676+00:00"
     },
     "praxis_slot_Z64": {
-        "source_hash": "70f4f3b9ff7b15c357c42364260d2177a3582381ec3a3fa5a9f099d8a64aa078",
+        "source_hash": "3061893a45827578145cd72ac2e30b7c9e34a4e03a6bece3c376717f7b511e96",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1291,7 +1560,7 @@
         "last_updated": "2026-10-18T03:06:44.191301+00:00"
     },
     "praxis_slot_Z65": {
-        "source_hash": "016f24860aa60f3cfd07263cffde722f4449d9ebe0121b9d00ab4236d786a07d",
+        "source_hash": "72d48b2078b65ce98758d7d12675da6198921bfd0bf5ba3b50bfd22cebdcd073",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1305,21 +1574,35 @@
         "last_updated": "2026-10-18T03:06:52.187039+00:00"
     },
     "praxis_slot_Z66": {
-        "source_hash": "775549421bf9f0e639b94315c6b58cb77905d21be27330d53508e6049e200367",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "42fa3c3ae9afefd892a3b506fffebe54f64012d04d7bdede9bacdcc114af6ba5",
+        "legal_hash": "994d74d4ad88b342624f3ecaeecfa1e1219e8c3b45846fe7a4b7418d14bab79e",
         "claims": [
             {
-                "norm": "Verwaltungs-Berufsgenossenschaft (VBG)",
-                "extracted_value": "Alle gemeinnützigen Organisationen, darunter viele Vereine, haben die Möglichkeit, ihre gewählten Ehrenamtsträger wie zum Beispiel Vereinsvorstände, Kassen- oder Sportwarte gegen die Folgen von Unfällen zu versichern.",
+                "norm": "§ 311b Abs. 1 BGB",
+                "extracted_value": "Grundstückskaufverträge bedürfen der notariellen Beurkundung.",
                 "value_type": "TEXT",
-                "context": "Unfallversicherung für ehrenamtliche Vereinsmitglieder",
-                "evidence_location": "Alle gemeinnützigen Organisationen, darunter viele Vereine, haben die Möglichkeit, ihre gewählten Ehrenamtsträger wie zum Beispiel Vereinsvorstände, Kassen- oder Sportwarte gegen die Folgen von Unfällen zu versichern."
+                "context": "Formerfordernis für den Kauf oder Verkauf eines Grundstücks",
+                "evidence_location": "Möchten Sie ein Grundstück kaufen oder verkaufen? Dann müssen Sie den Kaufvertrag notariell beurkunden lassen."
+            },
+            {
+                "norm": "Verbraucherschutzfrist Beurkundung",
+                "extracted_value": "Notarieller Vertragsentwurf muss dem Verbraucher im Regelfall zwei Wochen vor der Beurkundung zur Verfügung gestellt werden.",
+                "value_type": "TEXT",
+                "context": "Frist zur Prüfung des Vertragsentwurfs beim Kauf von einem Unternehmen",
+                "evidence_location": "Schließen Sie als Verbraucher einen Vertrag mit einem Unternehmen (zum Beispiel einem Bauträger), muss der Notar oder die Notarin Ihnen den Vertragsentwurf im Regelfall zwei Wochen vor der Beurkundung zur Verfügung zu stellen."
+            },
+            {
+                "norm": "§ 873 BGB, § 925 BGB",
+                "extracted_value": "Der Eigentumsübergang an einem Grundstück erfolgt erst durch Auflassung und Eintragung der Eigentumsänderung im Grundbuch.",
+                "value_type": "TEXT",
+                "context": "Voraussetzungen für den Eigentumserwerb an Grundstücken",
+                "evidence_location": "Das Eigentum geht nicht bereits mit Abschluss des Kaufvertrags auf den die erwerbende Person über, sondern erst nachdem die Auflassung erklärt und die Eigentumsänderung im Grundbuch eingetragen ist."
             }
         ],
-        "last_updated": "2026-10-18T03:07:00.189507+00:00"
+        "last_updated": "2026-11-14T01:53:22.027766+00:00"
     },
     "praxis_slot_Z67": {
-        "source_hash": "359a96940e515029fe2283bf438fc79406a608ca84bbc990426b376848f0f96f",
+        "source_hash": "fb7a1b2ceac6a8e67e1c7b5586bd259fe9691d23dcc0e551da48974115323b65",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1333,36 +1616,50 @@
         "last_updated": "2026-10-18T03:07:08.111940+00:00"
     },
     "praxis_slot_Z68": {
-        "source_hash": "466e90b254600c58e986398d239a38293617b38b70b8ec2c607e720240648444",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "e8ed5c9c829024e5a1f8e228c549faf5f62505d360b0411501c38911bb70e135",
+        "legal_hash": "957fd2d37727392e7790d3cc34b1a2a7e6aae79a9f3087f7b7f31b6da5077c88",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage 5000006",
-                "extracted_value": "Sicherheit und Gefahrenabwehr Im Not- oder Katastrophenfall ist guter Rat teuer.",
+                "norm": "Freigabevermerk 05.03.2026 Innenministerium Baden-Württemberg",
+                "extracted_value": "Freigabevermerk 05.03.2026 Innenministerium Baden-Württemberg",
                 "value_type": "TEXT",
-                "context": "Informationen zu Sicherheit, Gefahrenabwehr und Notlagen in Baden-Württemberg",
-                "evidence_location": "Sicherheit und Gefahrenabwehr Im Not- oder Katastrophenfall ist guter Rat teuer."
+                "context": "Freigabedatum der Lebenslage Sicherheit und Gefahrenabwehr durch das Innenministerium Baden-Württemberg",
+                "evidence_location": "Freigabevermerk 05.03.2026 Innenministerium Baden-Württemberg"
             }
         ],
-        "last_updated": "2026-10-18T03:07:16.014200+00:00"
+        "last_updated": "2026-11-14T01:53:45.618854+00:00"
     },
     "praxis_slot_Z69": {
-        "source_hash": "1a6835b563db30348e7502d2775043ccf683b2b36d75c6cc565f86ed5906424b",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "3da4dde169ed5a253474be85635291f9889b6092f792545bb3e583e27f237739",
+        "legal_hash": "957fd2d37727392e7790d3cc34b1a2a7e6aae79a9f3087f7b7f31b6da5077c88",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage Umwelt",
-                "extracted_value": "In dieser Lebenslage finden Sie vielfältige Informationen unter anderem über den Schutz von Luft, Wasser und Böden sowie über den Schutz vor der schädlichen Wirkung ionisierender Strahlung, Wissenswertes zu Natur- und Artenschutz sowie zu den Möglichkeiten, wie Sie zum Umweltschutz beitragen können.",
+                "norm": "Freigabevermerk Katastervermessungen",
+                "extracted_value": "30.08.2006",
+                "value_type": "DATE",
+                "context": "Freigabedatum der Information zur Leistung Katastervermessungen durch das Baurechts- und Vermessungsamt der Stadt Sindelfingen.",
+                "evidence_location": "Freigegeben Stadt Sindelfingen, Baurechts- und Vermessungsamt, 30.08.2006"
+            },
+            {
+                "norm": "§ 5 TMG / § 55 RStV",
+                "extracted_value": "Pflichtangaben im Impressum der Stadt Sindelfingen; Inhaltlich Verantwortliche ist Martina Schlipf.",
                 "value_type": "TEXT",
-                "context": "Übersicht über Umweltschutzthemen, Abfallentsorgung und zugehörige Leistungen in Baden-Württemberg",
-                "evidence_location": "In dieser Lebenslage finden Sie vielfältige Informationen unter anderem über den Schutz von Luft, Wasser und Böden sowie über den Schutz vor der schädlichen Wirkung ionisierender Strahlung, Wissenswertes zu Natur- und Artenschutz sowie zu den Möglichkeiten, wie Sie zum Umweltschutz beitragen können."
+                "context": "Impressumspflicht und inhaltliche Verantwortlichkeit für den Internetauftritt der Stadt Sindelfingen.",
+                "evidence_location": "Impressum mit den Pflichtangaben nach § 5 Telemediengesetz (TMG) bzw. § 55 Staatsvertrag für Rundfunk und Telemedien (Rundfunkstaatsvertrag) (RStV)."
+            },
+            {
+                "norm": "§ 27 a Umsatzsteuergesetz",
+                "extracted_value": "56003/00351",
+                "value_type": "TEXT",
+                "context": "Umsatzsteuer-Identifikationsnummer der Stadt Sindelfingen.",
+                "evidence_location": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: 56003/00351"
             }
         ],
-        "last_updated": "2026-10-18T03:07:24.133143+00:00"
+        "last_updated": "2026-11-14T01:54:27.137132+00:00"
     },
     "praxis_slot_Z70": {
-        "source_hash": "23c6ac6b18d09570537b3ccba6a0d6e1045c89447fb1c3308ba9c21a36176247",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "b6c04738c86e5f44b4d380a84010acea9eb0a7510fa9f0225505e84c53138c01",
+        "legal_hash": "957fd2d37727392e7790d3cc34b1a2a7e6aae79a9f3087f7b7f31b6da5077c88",
         "claims": [
             {
                 "norm": "Service-BW Lebenslage 5000833",
@@ -1375,11 +1672,35 @@
         "last_updated": "2026-10-18T03:07:32.085167+00:00"
     },
     "praxis_slot_Z71": {
-        "source_hash": "a7bb1b6e2e941ebe588f8a83b828d736667778ebf1cde6e87b56dd5f172a7b22",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "source_hash": "b1fcea2a602649db2fb0c41220c0913ab7524082c32f6c7e6ca0c09eb522858e",
+        "legal_hash": "5580c3ce513afb1a68a4583a2aabf65319a003377b077fb7d8dde6c602b549f2",
+        "claims": [
+            {
+                "norm": "Führerscheinstelle Baden-Württemberg - Führerschein Erweiterung Kosten",
+                "extracted_value": "45,90 EUR",
+                "value_type": "EURO",
+                "context": "Kosten für die Führerscheinerweiterung von den Klassen AM, L und T auf eine weitere Klasse unter Festsetzung einer Probezeit.",
+                "evidence_location": "Führerscheinerweiterung von den Klassen AM, L und T auf eine weitere Klasse unter Festsetzung einer Probezeit: 45,90 EUR"
+            },
+            {
+                "norm": "Führerscheinstelle Baden-Württemberg - Führerschein Erweiterung Kosten",
+                "extracted_value": "45,10 EUR",
+                "value_type": "EURO",
+                "context": "Kosten für die Führerscheinerweiterung von den Klassen A, B, C, D einschließlich Anhänger und Unterklassen auf eine weitere Klasse ohne Festsetzung einer Probezeit.",
+                "evidence_location": "Führerscheinerweiterung von den Klassen A, B, C, D einschließlich Anhänger und Unterklassen auf eine weitere Klasse ohne Festsetzung einer Probezeit: 45,10 EUR"
+            },
+            {
+                "norm": "Fahrerlaubnisverordnung (FeV) / Straßenverkehrsgesetz (StVG)",
+                "extracted_value": "Sie müssen die theoretische Prüfung innerhalb von zwölf Monaten nach Eingang des Prüfauftrags bei der Technischen Prüfstelle bestehen. Die praktische Prüfung müssen Sie innerhalb von zwölf Monaten nach der bestandenen theoretischen Prüfung bestehen.",
+                "value_type": "TEXT",
+                "context": "Fristen für das Bestehen der theoretischen und praktischen Prüfung bei der Führerscheinerweiterung.",
+                "evidence_location": "Sie müssen die theoretische Prüfung innerhalb von zwölf Monaten nach Eingang des Prüfauftrags bei der Technischen Prüfstelle bestehen. Die praktische Prüfung müssen Sie innerhalb von zwölf Monaten nach der bestandenen theoretischen Prüfung bestehen."
+            }
+        ],
+        "last_updated": "2026-11-14T01:55:27.885046+00:00"
     },
     "praxis_slot_Z72": {
-        "source_hash": "682c1c1b4096bfc5bc899cc98c23e427cff00f46c865ed015995586a05b2c872",
+        "source_hash": "90ee1747fa04c0d217f5c3767b351b4d6d2d57cab02ee47a402fb224e0cb846d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1393,7 +1714,7 @@
         "last_updated": "2026-10-18T03:07:47.960307+00:00"
     },
     "praxis_slot_Z73": {
-        "source_hash": "7e09bf2f784a49d7cf6050113391c14ae415cc917d5d590e6d2630bc17c20453",
+        "source_hash": "92683781ebb945bb3c5b520aec9a471d09e62206ee7339adf464f9a105f2a1e5",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1407,35 +1728,42 @@
         "last_updated": "2026-10-18T03:07:55.859710+00:00"
     },
     "praxis_slot_Z74": {
-        "source_hash": "83196f884bf81405a02f8b7d9b76c226f30af0b52185fe050d78a3605a93d12e",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "566df6a49e0bad8f784ca51b5f189d933188a296a9e1435062bffefd706f0937",
+        "legal_hash": "d5a5fceef551c6e46bf9b158059b97f421e4a66060683fa2ea250be90a4ace27",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage 5001195",
-                "extracted_value": "Für Privatpersonen können Ideen oder Erfindungen das Sprungbrett in die Selbstständigkeit sein.",
+                "norm": "Wirtschaftsministerium Baden-Württemberg",
+                "extracted_value": "Patente, Marken, Ideentransfer",
                 "value_type": "TEXT",
-                "context": "Patente, Marken, Ideentransfer und Unternehmensgründung in Baden-Württemberg",
-                "evidence_location": "Für Privatpersonen können Ideen oder Erfindungen das Sprungbrett in die Selbstständigkeit sein."
+                "context": "Informationen zur Marktdurchsetzung von Geschäftsideen, Patenten und Marken für Privatpersonen und Unternehmen in Baden-Württemberg.",
+                "evidence_location": "Patente, Marken, Ideentransfer Eine innovative Idee allein reicht für den wirtschaftlichen Erfolg nicht aus - sie muss sich auch durchsetzen."
+            },
+            {
+                "norm": "Stadt Esslingen am Neckar",
+                "extracted_value": "Reiseausweis für Flüchtlinge, Ausländer und Staatenlose",
+                "value_type": "TEXT",
+                "context": "Voraussetzungen und Verfahren zur Beantragung von eReiseausweisen für Asylberechtigte, Flüchtlinge und Staatenlose in Esslingen.",
+                "evidence_location": "Reiseausweis für Flüchtlinge, Ausländer und Staatenlose Die Grundlage für den Erhalt von eReiseausweise für Asylberechtigte u. Flüchtlinge bildet u. a. die Bescheidung des Bundesamts für Migration und Flüchtlinge im Anschluss an durchgeführte Asylverfahren."
             }
         ],
-        "last_updated": "2026-10-18T03:08:03.813240+00:00"
+        "last_updated": "2026-11-14T01:55:57.531290+00:00"
     },
     "praxis_slot_Z75": {
-        "source_hash": "b42106278cfc4ae6c5257e68b75a2e274fa3231f313fa266d38b00413d941d48",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "8f60771ae4f39e5ae96cafe5a8f46108dcea856120eccedf48a8c905c1080904",
+        "legal_hash": "b39bf2f13dac317887048b05f7c86fa72b450e39405d346f0cdbdd30d88f3d5e",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage 5001018",
-                "extracted_value": "In dieser Lebenslage erhalten Sie einen Überblick über die wichtigsten Themen, die für den laufenden Betrieb eines Unternehmens von Bedeutung sind.",
-                "value_type": "TEXT",
-                "context": "Überblick für den laufenden Betrieb von Unternehmen",
-                "evidence_location": "In dieser Lebenslage erhalten Sie einen Überblick über die wichtigsten Themen, die für den laufenden Betrieb eines Unternehmens von Bedeutung sind."
+                "norm": "Erbschaftsteuer- und Schenkungsteuergesetz",
+                "extracted_value": "3 Monate",
+                "value_type": "DATE",
+                "context": "Frist für die Anzeige einer Erbschaft oder Schenkung beim Finanzamt nach Kenntniserlangung.",
+                "evidence_location": "Sie müssen die Erbschaft oder die Schenkung innerhalb von drei Monaten anzeigen, nachdem Sie davon erfahren haben."
             }
         ],
-        "last_updated": "2026-10-18T03:08:11.885327+00:00"
+        "last_updated": "2026-11-14T01:56:10.079557+00:00"
     },
     "praxis_slot_Z76": {
-        "source_hash": "f7ca900c79c650d8ca555f16cc171989ba2cd04d28ffc9133f597b2ae7c96f0d",
+        "source_hash": "518a696580a3e4e6287f8bf2fdedcb85c6cc0eb95f35a541e5dcc1474e445ed8",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1449,21 +1777,28 @@
         "last_updated": "2026-10-18T03:08:19.868896+00:00"
     },
     "praxis_slot_Z77": {
-        "source_hash": "a8540dd2c922bd673524f8fce142022528103ec338ade99ae3b932c6b268acbf",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "7ec3f82df2ffe34cfc083513af050ab3038ceaaea32dbc39be609c795c2a8ecb",
+        "legal_hash": "d56d668661b8d84bb2c1e70fa449c73d6a9e186f93f9db7068f97b974f3830ce",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage 5000810",
-                "extracted_value": "Unternehmensnachfolge Sie wollen Ihr Unternehmen einer Nachfolgerin oder einem Nachfolger übergeben? Sie überlegen, ob Sie ein Unternehmen gründen oder übernehmen wollen? Mit den hier angebotenen Informationen erhalten Sie einen ersten Einblick.",
-                "value_type": "TEXT",
-                "context": "Informationen und Einstieg zur Unternehmensnachfolge und Existenzgründung",
-                "evidence_location": "Unternehmensnachfolge Sie wollen Ihr Unternehmen einer Nachfolgerin oder einem Nachfolger übergeben? Sie überlegen, ob Sie ein Unternehmen gründen oder übernehmen wollen? Mit den hier angebotenen Informationen erhalten Sie einen ersten Einblick."
+                "norm": "§ 4 Abs. 3 Schulgesetz (SchG), § 7 Schulgesetz (SchG), § 88 Schulgesetz (SchG)",
+                "extracted_value": "Dienstag, 05. März bis Freitag, 08. März 2024",
+                "value_type": "DATE",
+                "context": "Anmeldetermine für das Schuljahr 2024/2025 für Schülerinnen und Schüler an Realschulen nach der Grundschulempfehlung.",
+                "evidence_location": "Anmeldetermine für das Schuljahr 2024/2025 für Schülerinnen und Schüler nach der Grundschulempfehlung: Dienstag, 05. März bis Freitag, 08. März 2024"
+            },
+            {
+                "norm": "§ 4 Abs. 3 Schulgesetz (SchG), § 7 Schulgesetz (SchG), § 88 Schulgesetz (SchG)",
+                "extracted_value": "bis Mittwoch, 10. April 2024",
+                "value_type": "DATE",
+                "context": "Anmeldetermine für das Schuljahr 2024/2025 für Schülerinnen und Schüler, die am besonderen Beratungsverfahren teilnehmen.",
+                "evidence_location": "für Schülerinnen und Schüler, die am besonderen Beratungsverfahren teilnehmen: bis Mittwoch, 10. April 2024"
             }
         ],
-        "last_updated": "2026-10-18T03:08:27.871353+00:00"
+        "last_updated": "2026-11-14T01:56:31.628111+00:00"
     },
     "praxis_slot_Z78": {
-        "source_hash": "a01e507a34ce9e91bc8144512037caba5db29b09a5e1a8976fe4d3cc7efdad7a",
+        "source_hash": "41bb8dd060e29fad96b07636e01077a449f3f792dbee002e8a8fc9b02cb24dbb",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1477,35 +1812,35 @@
         "last_updated": "2026-10-18T03:08:35.842957+00:00"
     },
     "praxis_slot_Z79": {
-        "source_hash": "5adb62e6b36b9dc9ca67420be97444796eacfff8848ee4b28b974b698bb5c3bf",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "d20818a7cf3dd3d86d8f8c1f62ae0b7cec1335b8aec6a8943cc75ffad91b282e",
+        "legal_hash": "a57f1d792f9a3c821bbdf7303cf5d57cd462eb976c82c6122870de93e047ccf0",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage 5000729",
-                "extracted_value": "Die endgültige Entscheidung zur Einbürgerung trifft die zuständige Staatsangehörigkeitsbehörde nach Antragstellung und Vorlage aller erforderlichen Unterlagen.",
+                "norm": "§ 42a LVwVfG in Verbindung mit § 6a Absatz 1 GewO",
+                "extracted_value": "Die zuständige Stelle muss über Ihren Antrag innerhalb einer Frist von drei Monaten entscheiden. Diese Frist beginnt mit dem Eingang der vollständigen Unterlagen. Nach Ablauf dieser Frist gilt die beantragte Erlaubnis als erteilt, wenn Ihr Antrag hinreichend bestimmt ist.",
                 "value_type": "TEXT",
-                "context": "Zuständigkeit und Verfahren für die Einbürgerung in Baden-Württemberg",
-                "evidence_location": "Die endgültige Entscheidung zur Einbürgerung trifft die zuständige Staatsangehörigkeitsbehörde nach Antragstellung und Vorlage aller erforderlichen Unterlagen."
+                "context": "Bearbeitungsdauer und Fristen bei der Beantragung einer Reisegewerbekarte mit Regelung zur Genehmigungsfiktion",
+                "evidence_location": "Die zuständige Stelle muss über Ihren Antrag innerhalb einer Frist von drei Monaten entscheiden. Diese Frist beginnt mit dem Eingang der vollständigen Unterlagen. Nach Ablauf dieser Frist gilt die beantragte Erlaubnis als erteilt, wenn Ihr Antrag hinreichend bestimmt ist."
             }
         ],
-        "last_updated": "2026-10-18T03:08:43.737903+00:00"
+        "last_updated": "2026-11-14T01:56:52.809190+00:00"
     },
     "praxis_slot_Z80": {
-        "source_hash": "11bcde171457af25ebd78acd4a0e57d2dd2686d79a6b9f9993aea890d57388da",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "90308194e98684f2ec387c499139a5c9b8d1efa66efb9cb9268dbd1807c95c82",
+        "legal_hash": "34b944d15457c8233cdef9aa3ceb849cf5b4f505b1e7595a18663cc8100332f0",
         "claims": [
             {
-                "norm": "Bundesvertriebenengesetz (BVFG)",
-                "extracted_value": "Rechtsgrundlage für Spätaussiedlerinnen und Spätaussiedler, die nach Deutschland kommen wollen.",
-                "value_type": "TEXT",
-                "context": "Rechtsgrundlagen und Voraussetzungen für Spätaussiedler in Deutschland gemäß Service-BW.",
-                "evidence_location": "Rechtsgrundlage Bundesvertriebenengesetz (BVFG)"
+                "norm": "§ 558 d Abs.1 BGB",
+                "extracted_value": "Der Mietspiegel sowie ein Onlinerechner stehen Ihnen zur kostenfreien Anwendung zur Verfügung.",
+                "value_type": "EURO",
+                "context": "Kosten für die Nutzung des qualifizierten Mietspiegels der Stadt Friedrichshafen",
+                "evidence_location": "Der Mietspiegel sowie ein Onlinerechner stehen Ihnen zur kostenfreien Anwendung zur Verfügung."
             }
         ],
-        "last_updated": "2026-10-18T03:08:51.421638+00:00"
+        "last_updated": "2026-11-14T01:57:05.502661+00:00"
     },
     "praxis_slot_Z81": {
-        "source_hash": "190003c3656c7da8374759708e19a2c1a33f129790e86115aaee9f278b17596b",
+        "source_hash": "1fb8ae129467bc7a9231b33c53859cd81995a2291c03f73f5de19ed72a9f80a6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1519,7 +1854,7 @@
         "last_updated": "2026-10-18T03:08:59.303795+00:00"
     },
     "praxis_slot_Z82": {
-        "source_hash": "44869696810ebb399677f3cb972bd265aab6aa32591131933cd8c168e8ae42c2",
+        "source_hash": "3ee3cc49841f8b083e82dcdcd3a47811726870524420c20d1d713788a2664fe4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1533,95 +1868,95 @@
         "last_updated": "2026-10-18T03:09:07.238126+00:00"
     },
     "praxis_slot_Z83": {
-        "source_hash": "c822d613470ad7e73fcd14a7096276a6626f0894952adb6fa42a5de0482cd06d",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "6dad9f36e5075bdcf12e8895ac729e1538c2ef8336685fca1d5b46c3d9fc3439",
+        "legal_hash": "957fd2d37727392e7790d3cc34b1a2a7e6aae79a9f3087f7b7f31b6da5077c88",
         "claims": [
             {
                 "norm": "Notruf 112",
                 "extracted_value": "Die 112 gilt europaweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen.",
                 "value_type": "TEXT",
-                "context": "Kostenlose europaweite Erreichbarkeit der Feuerwehr und des Rettungsdienstes.",
+                "context": "Kosten und Gültigkeit des Feuerwehr- und Rettungsdienst-Notrufs 112",
                 "evidence_location": "Die 112 gilt europaweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen."
             },
             {
-                "norm": "Polizei-Notruf 110",
-                "extracted_value": "Die 110 gilt für Ihren Festnetzanschluss genauso wie für Ihr Mobiltelefon.",
+                "norm": "Notruf 110",
+                "extracted_value": "Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110.",
                 "value_type": "TEXT",
-                "context": "Erreichbarkeit der Polizei über die Notrufnummer.",
-                "evidence_location": "Die 110 gilt für Ihren Festnetzanschluss genauso wie für Ihr Mobiltelefon."
+                "context": "Erreichbarkeit des Polizeinotrufs",
+                "evidence_location": "Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110."
             },
             {
                 "norm": "Nothilfe-SMS T-Mobile und Vodafone",
                 "extracted_value": "99 0711 216-77112",
                 "value_type": "TEXT",
-                "context": "Nothilfe-SMS Nummer für T-Mobile (D1) und Vodafone (D2).",
+                "context": "Nothilfe-SMS Nummer für Netzanbieter T-Mobile (D1) und Vodafone (D2)",
                 "evidence_location": "T-Mobile (D1) und Vodafone (D2): 99 0711 216-77112"
             },
             {
                 "norm": "Nothilfe-SMS Telefonica",
                 "extracted_value": "329 0711 216-77112",
                 "value_type": "TEXT",
-                "context": "Nothilfe-SMS Nummer für Telefonica (O2/Eplus).",
+                "context": "Nothilfe-SMS Nummer für Netzanbieter Telefonica (O2/Eplus)",
                 "evidence_location": "Telefonica (O2/Eplus): 329 0711 216-77112"
             },
             {
                 "norm": "Ärztlicher Bereitschaftsdienst 116117",
                 "extracted_value": "Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. Die Nummer funktioniert ohne Vorwahl. Sie gilt deutschlandweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen.",
                 "value_type": "TEXT",
-                "context": "Informationen zur Erreichbarkeit des ärztlichen Bereitschaftsdienstes.",
+                "context": "Informationen zur Nummer des ärztlichen Bereitschaftsdienstes",
                 "evidence_location": "Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. Die Nummer funktioniert ohne Vorwahl. Sie gilt deutschlandweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen."
             },
             {
                 "norm": "Krankentransport 19222",
-                "extracted_value": "Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222. Beachten Sie dabei, dass Sie auch vom Festnetz aus die Ortsvorwahl der für Ihren Kreis zuständigen Leitstelle vorwählen müssen.",
+                "extracted_value": "Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222.",
                 "value_type": "TEXT",
-                "context": "Rufnummer und Vorwahlpflicht für Krankentransporte.",
-                "evidence_location": "Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222. Beachten Sie dabei, dass Sie auch vom Festnetz aus die Ortsvorwahl der für Ihren Kreis zuständigen Leitstelle vorwählen müssen."
+                "context": "Rufnummer für den Krankentransport",
+                "evidence_location": "Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222."
             }
         ],
-        "last_updated": "2026-10-18T03:09:16.540374+00:00"
+        "last_updated": "2026-11-14T01:58:11.220603+00:00"
     },
     "praxis_slot_Z84": {
-        "source_hash": "024c29f35be3ce1a949e74ac6759a64a802cd5c970e023807736c87204749775",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "33092d7a8228c11537da4b896a739ab705bd482521ca66357946a80f95500b3b",
+        "legal_hash": "957fd2d37727392e7790d3cc34b1a2a7e6aae79a9f3087f7b7f31b6da5077c88",
         "claims": [
             {
-                "norm": "Justizministerium Baden-Württemberg",
-                "extracted_value": "Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern.",
+                "norm": "Telemediengesetz (TMG) bzw. Staatsvertrag für Rundfunk und Telemedien (RStV)",
+                "extracted_value": "Stadt Sindelfingen Rathausplatz 1 71063 Sindelfingen Telefon: 07031/94-0 E-Mail: stadt@sindelfingen.de",
                 "value_type": "TEXT",
-                "context": "Grundsätzliche Definition des Gläubiger-Schuldner-Verhältnisses",
-                "evidence_location": "Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern."
+                "context": "Impressum der Stadt Sindelfingen mit Pflichtangaben nach TMG",
+                "evidence_location": "Stadt Sindelfingen Rathausplatz 1 71063 Sindelfingen Telefon: 07031/94-0 E-Mail: stadt@sindelfingen.de"
             }
         ],
-        "last_updated": "2026-10-18T03:09:24.869843+00:00"
+        "last_updated": "2026-11-14T01:58:23.705712+00:00"
     },
     "praxis_slot_Z85": {
-        "source_hash": "014408633a9a4d4f0b7627be10397552ca77a87a3d4041eeacb232f9ac905dd7",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "8f7da1eb30eb667679c22c5d8f11c8a70beeb568ee4a3888567e9d4a4ab247d4",
+        "legal_hash": "e3663685ec718ef968268818bb070c219c235bb47f77f898fc66b718ad27d91c",
         "claims": [
             {
-                "norm": "Lebenslage Wohnen Service-BW",
-                "extracted_value": "Informationen zum Wohnen fuer Mieter, Vermieter und Eigenheimbesitzer.",
+                "norm": "Kommunalabgabengesetz (KAG) § 9 Absatz 3",
+                "extracted_value": "Sie müssen den Hund innerhalb eines Monats ab dem Tag anmelden, seit dem Sie einen Hund halten oder seit dem Sie in die Gemeinde gezogen sind.",
                 "value_type": "TEXT",
-                "context": "Allgemeine Informationen zum Thema Wohnen in Baden-Wuerttemberg",
-                "evidence_location": "Wohnen Ob zur Miete oder in den eigenen vier Wänden – Informationen zum Wohnen benötigen Mieterinnen und Mieter, Vermieterinnen und Vermieter sowie Eigenheimbesitzerinnen und -besitzer."
+                "context": "Anmeldefrist für die Hundesteuer in Baden-Württemberg",
+                "evidence_location": "Sie müssen den Hund innerhalb eines Monats ab dem Tag anmelden, seit dem Sie einen Hund halten oder seit dem Sie in die Gemeinde gezogen sind."
             }
         ],
-        "last_updated": "2026-10-18T03:09:32.781716+00:00"
+        "last_updated": "2026-11-14T01:58:36.365081+00:00"
     },
     "praxis_slot_Z86": {
-        "source_hash": "b3a3b853c6fb1ba7bc6531d53c21fc25aedd7c08b3d4e43f9a30c648fc5743a5",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "2fd122bde4dfd230276d1b6fd140709f2abccda389c40b93a748b461ac48ce70",
+        "legal_hash": "174dc6a5715b18824e582f3601cebc58236567a99e6d12a552831e77a68d9b22",
         "claims": [
             {
-                "norm": "Service-BW Lebenslage Arbeitnehmer",
-                "extracted_value": "Die Lebenslage Arbeitnehmer richtet sich an alle, die in einem Arbeitsverhältnis stehen und sich über ihre Rechte und Pflichten informieren wollen.",
+                "norm": "Landratsamt Karlsruhe Brennholz",
+                "extracted_value": "Als Brennholz-Selbstwerber (Käufer von Brennholz-lang oder Flächenlosen) benötigen Sie neben einer Motorsäge und weiterem Werkzeug die nach den Unfallverhütungsvorschriften vorgeschriebene Schutzkleidung und müssen die Teilnahme an einem zweitägigen Motorsägenlehrgang nachweisen.",
                 "value_type": "TEXT",
-                "context": "Definition der Zielgruppe und des Inhalts für die Lebenslage Arbeitnehmer in Baden-Württemberg.",
-                "evidence_location": "Die Lebenslage \"Arbeitnehmer\" richtet sich an alle, die in einem Arbeitsverhältnis stehen und sich über ihre Rechte und Pflichten informieren wollen."
+                "context": "Voraussetzungen für den Erwerb von Brennholz als Selbstwerber im Landkreis Karlsruhe",
+                "evidence_location": "Als Brennholz-Selbstwerber (Käufer von Brennholz-lang oder Flächenlosen) benötigen Sie neben einer Motorsäge und weiterem Werkzeug die nach den Unfallverhütungsvorschriften vorgeschriebene Schutzkleidung und müssen die Teilnahme an einem zweitägigen Motorsägenlehrgang nachweisen."
             }
         ],
-        "last_updated": "2026-10-18T03:09:40.784827+00:00"
+        "last_updated": "2026-11-14T01:58:49.078241+00:00"
     },
     "praxis_slot_Z87": {
         "source_hash": "91ac4041c81d61c3585f3202862c2bb9dec23a7bf2266a69bafd05559c3a8430",
@@ -1778,7 +2113,7 @@
         "last_updated": "2026-10-18T03:10:31.480827+00:00"
     },
     "praxis_slot_ENZ_ST_01": {
-        "source_hash": "cbcff86c8d15ea3df11f6f1d78e99d433f2322a4bccd9a70bebca2afd8151f09",
+        "source_hash": "b27ed433c761c90b4bee0bb7a2bb65c1729f8d386a53fea40f8b368d98b98efa",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1796,7 +2131,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_ST_03": {
-        "source_hash": "19c140e2f775e35dc171717dd62af83431938f75f3cb7e64a5487d77ad77ed17",
+        "source_hash": "e777a97444dabc9f0567d6592f5d80c5bc85614a47aeaf39b555b79c6e9582f7",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -1810,7 +2145,7 @@
         "last_updated": "2026-10-18T03:10:58.293260+00:00"
     },
     "praxis_slot_ENZ_ST_04": {
-        "source_hash": "8a0f644a330e02c7c9bb0b6fe6ec82e006f0f0dcf70504663e5332a13fc22628",
+        "source_hash": "0b29d5b251ad58dee92f70fe4d72703e93e63dc4d2f84f6c1b5fd5ed8c9bb809",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1824,15 +2159,15 @@
         "last_updated": "2026-10-18T03:11:06.335858+00:00"
     },
     "praxis_slot_ENZ_ST_05": {
-        "source_hash": "1e13bafc1cda38f6b00be50888e2487dc0d02bfe241af2a50b4fbf72adddc54e",
+        "source_hash": "7cd463f60ae5914a98e9b2e8994c768d0b35de053010ab4fbf3aa03b27c97d9f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_01": {
-        "source_hash": "23f671cef1536e6e88170565076cff96ca994891860766a47623e8c1991ae937",
+        "source_hash": "5a08d5216ea9cb30a2832b3d5737275d1b99b474744cf5a1c257ca4372243875",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_02": {
-        "source_hash": "0a20fb6bfd20af2a9f85f2483624524ec9aaaf077abf8b03f7b0bd618c3b2753",
+        "source_hash": "c4e88b8aba40339c82b46635b308ebed692d413c43d1d174d4b72bde7c7a4928",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1846,11 +2181,11 @@
         "last_updated": "2026-10-18T03:11:32.952177+00:00"
     },
     "praxis_slot_ENZ_GM_03": {
-        "source_hash": "3bba8d2a39b2bd42e65f00da0b2bd7552bf6b893a994cd7b29ca8cd883d209f1",
+        "source_hash": "78f8c7a9d5b7d868c42f74c6b21ab1aa2aea0ccd3ccc58a2d10cbc75fb86dd03",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_04": {
-        "source_hash": "0210018a5298d3b31cf18fff1f7d740c9e028f69eb222bf83e3cc5b2fbbad3c3",
+        "source_hash": "d90d24a4c2035427a9e620037eb6e762dea70f790fed0b669e33769384cf5c89",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1864,7 +2199,7 @@
         "last_updated": "2026-10-18T03:11:48.490372+00:00"
     },
     "praxis_slot_ENZ_GM_05": {
-        "source_hash": "2a0da4daa23c02b605eb5d78bb76338eb853e12ded178eda8c38ea1fad7f22ee",
+        "source_hash": "9410b69761d95388fee9d32a9b7bab410a9fafcd1e42f25c3f1a3f4abfb0f360",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1878,11 +2213,11 @@
         "last_updated": "2026-10-18T03:11:56.691756+00:00"
     },
     "praxis_slot_ENZ_GM_06": {
-        "source_hash": "3e4ba5c8a5b9173a890d429ef1bf6c4d2934432a91720f8bdc61a62c81c02f5d",
+        "source_hash": "9e6092e84422b2604e96d67a3697d60ee435ce7a9aa8ddd7129443e3cb4bb08a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_07": {
-        "source_hash": "95159c5ac29f93c7433c52a249fe816a2aa3ad527dd3110efc953bbea0809743",
+        "source_hash": "eab6edf01b9e869e32bcc1e261050b795969b6287242786958775f9d84b6dacc",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1896,15 +2231,15 @@
         "last_updated": "2026-11-03T13:04:59.376660+00:00"
     },
     "praxis_slot_ENZ_GM_08": {
-        "source_hash": "3319b04a85812f5312b5a5f7a7bf8e9f7355c62cc7e496cc58a016b1087355d3",
+        "source_hash": "973bc44f9cc9cc244b118e7e788dd411de0709fb16204e350120d60fcfa0f5de",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_09": {
-        "source_hash": "3beb1e3a0910fd79faea84627f21379b213a567f9fd0aa0937526cba4ec2bb5d",
+        "source_hash": "2acea46c6a42b5f3c8a5b26849581df07e0c4de2e8e5df3882af75f8bc34adec",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_10": {
-        "source_hash": "dcb3e6fcb3dfd57dfc6a12d0f3fad0d12711b4f6ce58f1a3a3b33c73fff017e2",
+        "source_hash": "bc715781531460867bbee07aa5733768dfcdd0ecc62fdec1a07e4a4cb80f810e",
         "legal_hash": "2dbe1a2f9d343b69d4e5bbb0050e09301c3c6af2a24e5dddd95ce502b09869a1",
         "claims": [
             {
@@ -1925,7 +2260,7 @@
         "last_updated": "2026-11-10T09:05:47.958993+00:00"
     },
     "praxis_slot_ENZ_GM_11": {
-        "source_hash": "ddfeb543d0a2bf1ab197110febbaa1d37bf43437c4c873f683cbd557b5a9440e",
+        "source_hash": "476b698010a3e7be2e663f47334e3c6fee930842171a8820db3e6f2c9d3b2e70",
         "legal_hash": "133355bb1eedb2e2bfc53539e51d10e82bd0ed8e6ea3d45c341241b499bc022a",
         "claims": [
             {
@@ -1946,7 +2281,7 @@
         "last_updated": "2026-10-22T00:27:20.077418+00:00"
     },
     "praxis_slot_ENZ_GM_12": {
-        "source_hash": "b5c30cb514dbf56600bb1bfbfebb014b0fa15293952f95b9f6bc114d014f1c1c",
+        "source_hash": "b52008e70d3680f350b9b0fbda4c1de7e32bb2f1029d27585fe2d875999eb938",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1960,7 +2295,7 @@
         "last_updated": "2026-10-18T03:12:57.658715+00:00"
     },
     "praxis_slot_ENZ_GM_13": {
-        "source_hash": "1799071cb230c08a61cc274de213971c15bd5a4b95aeb83a30d164f89f2ee110",
+        "source_hash": "ed90eb9c3e7232fb277c49e7fcdc868c95d8161b099f82c445df20a93c298be9",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1974,7 +2309,7 @@
         "last_updated": "2026-10-18T03:13:06.163032+00:00"
     },
     "praxis_slot_ENZ_GM_14": {
-        "source_hash": "5230a9893b8256e59e523eafc6fd36beb488a023830e9830c7a0835772c82ee4",
+        "source_hash": "e4e97049e6bef47bdbaf1c6de61b8d26fc0ba0b743f91b8e48124a1672f96b14",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1995,7 +2330,7 @@
         "last_updated": "2026-11-07T03:43:42.829217+00:00"
     },
     "praxis_slot_ENZ_GM_15": {
-        "source_hash": "afd341351460d4a1d6199edc4364f15b7e1369cd1769430f2ade4f24aa1859ba",
+        "source_hash": "e4a7349335ca319c1ea6483b75e01d8a6c6a094183b560ae56eaa0dec1a0046a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2009,7 +2344,7 @@
         "last_updated": "2026-10-18T03:13:23.162252+00:00"
     },
     "praxis_slot_ENZ_GM_16": {
-        "source_hash": "5c34d723ac1c9e04c7dcce840e3ea5cc54138ab4c6e4df12b3f5923c683462cd",
+        "source_hash": "042d32f3bed45ce13492c7754ac64120fc309b594a7f4ca9f51932922a8bd039",
         "legal_hash": "2dbe1a2f9d343b69d4e5bbb0050e09301c3c6af2a24e5dddd95ce502b09869a1",
         "claims": [
             {
@@ -2079,7 +2414,7 @@
         "last_updated": "2026-10-18T03:13:57.539802+00:00"
     },
     "praxis_slot_ENZ_GM_20": {
-        "source_hash": "15f24e5740aed603559a21c7cfc050925840f0e3b5ac510d9b1702f072dc553d",
+        "source_hash": "9b85da7a11d84a71837b2301210801cdeb3c692677288995eccc0a501a686660",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -2093,7 +2428,7 @@
         "last_updated": "2026-10-18T03:14:08.134738+00:00"
     },
     "praxis_slot_ENZ_GM_21": {
-        "source_hash": "c576467d4212ec84a77a179d64856ff568746ecd5bd18a4cb7c42c34e03b869f",
+        "source_hash": "3cd7d4b5779011bd89504b69a1532ededc8132f38a6fd96ddd73c102c5e39c2e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2121,7 +2456,7 @@
         "last_updated": "2026-11-09T03:19:50.359834+00:00"
     },
     "praxis_slot_ENZ_GM_22": {
-        "source_hash": "a873feceb00eb04c404ce37aea43d21426321c809b02f5489d0e17881051c090",
+        "source_hash": "88319759818f82b69cf3899e04b96f0a18c156910bb5159da13fb58e37b8460a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2135,7 +2470,7 @@
         "last_updated": "2026-10-18T03:14:25.465552+00:00"
     },
     "praxis_slot_ENZ_GM_23": {
-        "source_hash": "94ca00fcf1920ea1583423cfe241192600cd0567a34c99c1f75579a2bc391f4b",
+        "source_hash": "81e52bc2e148cde249edad60541485c0b4dbaa62c63cedb3206540899b2e62d2",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -2179,7 +2514,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K6_DWD": {
-        "source_hash": "741fc374fbe37d2a53126e60be9e1cd58253aba702f0a68e95e977d0b95df358",
+        "source_hash": "5d2c3bab5f0ab6071c79e9ecab0e73c29c6bf3f854fe4770060dad896dbdf4b4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     }
 }

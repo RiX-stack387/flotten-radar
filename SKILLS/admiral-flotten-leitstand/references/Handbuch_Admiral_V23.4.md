@@ -33,8 +33,8 @@ Der Admiral ueberwacht permanent die Dateigroesse der aktiven Chronik `Master_Ar
 26. defcon-recht-enterprise (Kanzlei-Assistent, SGB II-XIV, DIN 5008, Air-Gap)
 27. mein-familien-lotse (All-in-One Familien- und Erklaerbaeren-Lotse fuer Tina, Safe Haven Par. 6 RDG)
 
-## 3. Radar-Matrix (234 Slots + ASB + Gemini-Skills-Referenz)
-- Basis-Slots / Master-Standorte: 30 (inkl. 35s-API-Timeout, 75s-Watchdog & 15s/15-Seiten-PDF-Deckel)
+## 3. Radar-Matrix (238 Slots + ASB + Gemini-Skills-Referenz)
+- Basis-Slots / Master-Standorte: 31 (inkl. 35s-API-Timeout, 75s-Watchdog & 15s/15-Seiten-PDF-Deckel)
 - Praxis-Slots Stadtkreis Pforzheim & Enzkreis: 126 (inkl. 6 KRITIS-Sensoren & 10s-Socket-Timeout)
 - Praxis-Slots Landkreis Calw & Freudenstadt: 78 (inkl. 4 KRITIS-Sensoren)
 - ASB-Regional-Radar: 22 verifizierte Zielpfade (Dual-Sync)
