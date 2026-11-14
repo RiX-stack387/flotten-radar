@@ -306,13 +306,14 @@ async def fetch_provenance_source(url: str, allowed_domains: List[str], browser:
 
     context = await browser.new_context(ignore_https_errors=False)
 
-    if url.lower().endswith(".pdf") or "blob=" in url.lower():
-
-        res = await secure_fetch_pdf(url, allowed_domains, context)
-
-        await context.close()
-
-        return res
+    doc_exts = (".pdf", ".doc", ".docx", ".xls", ".xlsx", ".odt", ".zip")
+    clean_path = url.lower().split("?")[0]
+    if any(clean_path.endswith(ext) for ext in doc_exts) or "blob=" in url.lower():
+        try:
+            await context.close()
+        except Exception:
+            pass
+        return {"requested": url, "resolved": url, "canonical": url, "text": f"[DOKUMENT-DIREKTLINK]: {url}"}
 
 
 
@@ -335,6 +336,17 @@ async def fetch_provenance_source(url: str, allowed_domains: List[str], browser:
         
 
         soup = BeautifulSoup(await page.content(), "html.parser")
+        from urllib.parse import urljoin as _urljoin
+        doc_links = []
+        for a_tag in soup.find_all("a", href=True):
+            href_val = a_tag["href"].strip()
+            if any(href_val.lower().split("?")[0].endswith(ext) for ext in (".pdf", ".doc", ".docx", ".xls", ".xlsx")):
+                full_href = _urljoin(resolved, href_val)
+                lbl = normalize_text(a_tag.get_text(" ", strip=True)) or "Dokument"
+                entry = f"- {lbl}: {full_href}"
+                if entry not in doc_links:
+                    doc_links.append(entry)
+        doc_links_block = "\n[DOKUMENT-DIREKTLINKS AUF SEITE]\n" + "\n".join(doc_links[:25]) if doc_links else ""
 
         canon = soup.find("link", rel="canonical")
 

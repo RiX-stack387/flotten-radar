@@ -1,4 +1,4 @@
-﻿"""⚓ DEFCON RECHT RADAR V44.0 "HERTZ-SHIELD" (OPERATION PROVENIENZ)
+"""⚓ DEFCON RECHT RADAR V44.0 "HERTZ-SHIELD" (OPERATION PROVENIENZ)
 
 Architektur: Playwright + Secure-PDF-Bypass + Config-Gate + Strict-Evidence +
 Triage + Vault
@@ -219,7 +219,7 @@ async def secure_fetch_pdf(
         "requested": url,
         "resolved": response.url,
         "canonical": url,
-        "text": text,
+        "text": text + doc_links_block,
     }
   except Exception as e:
     print(f"[PDF SECURE FETCH ERROR] {e}")
@@ -235,10 +235,14 @@ async def fetch_provenance_source(
         viewport={"width": 1920, "height": 1080},
         locale="de-DE"
     )
-  if url.lower().endswith(".pdf") or "blob=" in url.lower():
-    res = await secure_fetch_pdf(url, allowed_domains, context)
-    await context.close()
-    return res
+  doc_exts = (".pdf", ".doc", ".docx", ".xls", ".xlsx", ".odt", ".zip")
+  clean_path = url.lower().split("?")[0]
+  if any(clean_path.endswith(ext) for ext in doc_exts) or "blob=" in url.lower():
+      try:
+          await context.close()
+      except Exception:
+          pass
+      return {"requested": url, "resolved": url, "canonical": url, "text": f"[DOKUMENT-DIREKTLINK]: {url}"}
 
   await context.route(
       "**/*",
@@ -256,6 +260,17 @@ async def fetch_provenance_source(
     await page.wait_for_timeout(3000)
 
     soup = BeautifulSoup(await page.content(), "html.parser")
+    from urllib.parse import urljoin as _urljoin
+    doc_links = []
+    for a_tag in soup.find_all("a", href=True):
+        href_val = a_tag["href"].strip()
+        if any(href_val.lower().split("?")[0].endswith(ext) for ext in (".pdf", ".doc", ".docx", ".xls", ".xlsx")):
+            full_href = _urljoin(resolved, href_val)
+            lbl = normalize_text(a_tag.get_text(" ", strip=True)) or "Dokument"
+            entry = f"- {lbl}: {full_href}"
+            if entry not in doc_links:
+                doc_links.append(entry)
+    doc_links_block = "\n[DOKUMENT-DIREKTLINKS AUF SEITE]\n" + "\n".join(doc_links[:25]) if doc_links else ""
     canon = soup.find("link", rel="canonical")
     canonical = canon["href"] if canon and canon.has_attr("href") else resolved
 
@@ -806,30 +821,28 @@ TARGETS_ARSENAL = [
         "jurisdiction": "BUND",
         "allowed_domains": ["buergergeld.org"],
         "source_urls": [
-            "https://www.buergergeld.org/regelbedarf/",
-            "https://www.buergergeld.org/kosten-der-unterkunft/"
+            "https://www.buergergeld.org/"
         ],
         "deep_urls": []
     },
-  {
+    {
         "id": "32",
         "name": "Google Agent Skills Repository (GitHub)",
         "jurisdiction": "BUND",
         "allowed_domains": ["github.com", "raw.githubusercontent.com"],
         "source_urls": [
-            "https://www.buergergeld.org/regelbedarf/",
-            "https://www.buergergeld.org/kosten-der-unterkunft/"
+            "https://github.com/google/skills"
         ],
         "deep_urls": []
     },
-  {
+    {
         "id": "33",
-        "name": "Gemini Apps Release Notes (Offiziell)",
+        "name": "Gemini Apps Release Notes & Workspace Skills (Offiziell)",
         "jurisdiction": "BUND",
-        "allowed_domains": ["gemini.google", "blog.google", "workspaceupdates.googleblog.com"],
+        "allowed_domains": ["gemini.google", "blog.google", "workspaceupdates.googleblog.com", "workspace.google.com"],
         "source_urls": [
-            "https://www.buergergeld.org/regelbedarf/",
-            "https://www.buergergeld.org/kosten-der-unterkunft/"
+            "https://gemini.google/de/release-notes/?hl=de",
+            "https://workspaceupdates.googleblog.com/2026/10/an-update-on-launch-of-skills-in-gemini-app-and-workspace.html"
         ],
         "deep_urls": []
     },

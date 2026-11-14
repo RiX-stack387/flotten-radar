@@ -1,4 +1,4 @@
-﻿"""⚓ DEFCON RECHT RADAR - ZUSATZ-RADAR "LEBENS-PRAXIS" (V44.0 OPERATION PROVENIENZ)
+"""⚓ DEFCON RECHT RADAR - ZUSATZ-RADAR "LEBENS-PRAXIS" (V44.0 OPERATION PROVENIENZ)
 
 Architektur: Playwright + CMP-Blocker + Secure-PDF + Config-Gate +
 Strict-Evidence + Triage + Vault
@@ -218,7 +218,7 @@ async def secure_fetch_pdf(
         "requested": url,
         "resolved": response.url,
         "canonical": url,
-        "text": text,
+        "text": text + doc_links_block,
     }
   except Exception as e:
     print(f"[PDF SECURE FETCH ERROR] {e}")
@@ -229,13 +229,14 @@ async def fetch_provenance_source(
     url: str, allowed_domains: List[str], browser: Browser
 ) -> Optional[Dict[str, str]]:
   context = await browser.new_context(ignore_https_errors=False)
-  if url.lower().endswith(".pdf") or "blob=" in url.lower():
-    res = await secure_fetch_pdf(url, allowed_domains, context)
-    try:
-        await context.close()
-    except Exception:
-        pass
-    return res
+  doc_exts = (".pdf", ".doc", ".docx", ".xls", ".xlsx", ".odt", ".zip")
+  clean_path = url.lower().split("?")[0]
+  if any(clean_path.endswith(ext) for ext in doc_exts) or "blob=" in url.lower():
+      try:
+          await context.close()
+      except Exception:
+          pass
+      return {"requested": url, "resolved": url, "canonical": url, "text": f"[DOKUMENT-DIREKTLINK]: {url}"}
 
   await context.route(
       "**/*",
@@ -256,6 +257,17 @@ async def fetch_provenance_source(
     await page.wait_for_timeout(3000)
 
     soup = BeautifulSoup(await page.content(), "html.parser")
+    from urllib.parse import urljoin as _urljoin
+    doc_links = []
+    for a_tag in soup.find_all("a", href=True):
+        href_val = a_tag["href"].strip()
+        if any(href_val.lower().split("?")[0].endswith(ext) for ext in (".pdf", ".doc", ".docx", ".xls", ".xlsx")):
+            full_href = _urljoin(resolved, href_val)
+            lbl = normalize_text(a_tag.get_text(" ", strip=True)) or "Dokument"
+            entry = f"- {lbl}: {full_href}"
+            if entry not in doc_links:
+                doc_links.append(entry)
+    doc_links_block = "\n[DOKUMENT-DIREKTLINKS AUF SEITE]\n" + "\n".join(doc_links[:25]) if doc_links else ""
     canon = soup.find("link", rel="canonical")
     canonical = canon["href"] if canon and canon.has_attr("href") else resolved
 
@@ -805,7 +817,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001353"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/900"],
+        "deep_urls": [],
     },
     {
         "id": "Z30",
@@ -815,7 +827,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001012"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/14"],
+        "deep_urls": [],
     },
     {
         "id": "Z31",
@@ -825,7 +837,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000950"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/200"],
+        "deep_urls": [],
     },
     {
         "id": "Z32",
@@ -835,7 +847,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000243"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/300"],
+        "deep_urls": [],
     },
     {
         "id": "Z33",
@@ -845,7 +857,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001119"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/400"],
+        "deep_urls": [],
     },
     {
         "id": "Z34",
@@ -855,7 +867,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000199"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/500"],
+        "deep_urls": [],
     },
     {
         "id": "Z35",
@@ -865,7 +877,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000396"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/352"],
+        "deep_urls": [],
     },
     {
         "id": "Z36",
@@ -875,7 +887,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001046"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/141"],
+        "deep_urls": [],
     },
     {
         "id": "Z37",
@@ -885,7 +897,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001339"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/832"],
+        "deep_urls": [],
     },
     {
         "id": "Z38",
@@ -895,7 +907,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000427"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/102"],
+        "deep_urls": [],
     },
     {
         "id": "Z39",
@@ -905,7 +917,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000612"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/104"],
+        "deep_urls": [],
     },
     {
         "id": "Z40",
@@ -915,7 +927,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000726"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/120"],
+        "deep_urls": [],
     },
     {
         "id": "Z41",
@@ -925,7 +937,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000525"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/130"],
+        "deep_urls": [],
     },
     {
         "id": "Z42",
@@ -935,7 +947,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000892"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/150"],
+        "deep_urls": [],
     },
     {
         "id": "Z43",
@@ -945,7 +957,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000069"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/160"],
+        "deep_urls": [],
     },
     {
         "id": "Z44",
@@ -955,7 +967,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000463"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/170"],
+        "deep_urls": [],
     },
     {
         "id": "Z45",
@@ -965,7 +977,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000531"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/180"],
+        "deep_urls": [],
     },
     {
         "id": "Z46",
@@ -975,7 +987,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000928"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/190"],
+        "deep_urls": [],
     },
     {
         "id": "Z47",
@@ -985,7 +997,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001057"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/200"],
+        "deep_urls": [],
     },
     {
         "id": "Z48",
@@ -995,7 +1007,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000312"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/210"],
+        "deep_urls": [],
     },
     {
         "id": "Z49",
@@ -1005,7 +1017,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001280"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/82"],
+        "deep_urls": [],
     },
     {
         "id": "Z50",
@@ -1015,7 +1027,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000919"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/230"],
+        "deep_urls": [],
     },
     {
         "id": "Z51",
@@ -1025,7 +1037,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000783"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/240"],
+        "deep_urls": [],
     },
     {
         "id": "Z52",
@@ -1035,7 +1047,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000053"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/250"],
+        "deep_urls": [],
     },
     {
         "id": "Z53",
@@ -1045,7 +1057,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001206"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/260"],
+        "deep_urls": [],
     },
     {
         "id": "Z54",
@@ -1055,7 +1067,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000388"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/270"],
+        "deep_urls": [],
     },
     {
         "id": "Z55",
@@ -1065,7 +1077,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000349"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/280"],
+        "deep_urls": [],
     },
     {
         "id": "Z56",
@@ -1075,7 +1087,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000945"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/290"],
+        "deep_urls": [],
     },
     {
         "id": "Z57",
@@ -1085,7 +1097,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000779"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/300"],
+        "deep_urls": [],
     },
     {
         "id": "Z58",
@@ -1095,7 +1107,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000887"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/310"],
+        "deep_urls": [],
     },
     {
         "id": "Z59",
@@ -1105,7 +1117,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000722"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/320"],
+        "deep_urls": [],
     },
     {
         "id": "Z60",
@@ -1115,7 +1127,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001207"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/330"],
+        "deep_urls": [],
     },
     {
         "id": "Z61",
@@ -1125,7 +1137,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000667"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/340"],
+        "deep_urls": [],
     },
     {
         "id": "Z62",
@@ -1135,7 +1147,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000666"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/350"],
+        "deep_urls": [],
     },
     {
         "id": "Z63",
@@ -1145,7 +1157,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001456"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/360"],
+        "deep_urls": [],
     },
     {
         "id": "Z64",
@@ -1155,7 +1167,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001410"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/355"],
+        "deep_urls": [],
     },
     {
         "id": "Z65",
@@ -1165,7 +1177,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001054"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/380"],
+        "deep_urls": [],
     },
     {
         "id": "Z66",
@@ -1175,7 +1187,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000500"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/390"],
+        "deep_urls": [],
     },
     {
         "id": "Z67",
@@ -1185,7 +1197,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000952"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/400"],
+        "deep_urls": [],
     },
     {
         "id": "Z68",
@@ -1195,7 +1207,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000006"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/410"],
+        "deep_urls": [],
     },
     {
         "id": "Z69",
@@ -1205,7 +1217,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000229"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/420"],
+        "deep_urls": [],
     },
     {
         "id": "Z70",
@@ -1215,7 +1227,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000833"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/430"],
+        "deep_urls": [],
     },
     {
         "id": "Z71",
@@ -1225,7 +1237,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000437"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/440"],
+        "deep_urls": [],
     },
     {
         "id": "Z72",
@@ -1235,7 +1247,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001440"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/450"],
+        "deep_urls": [],
     },
     {
         "id": "Z73",
@@ -1245,7 +1257,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000218"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/460"],
+        "deep_urls": [],
     },
     {
         "id": "Z74",
@@ -1255,7 +1267,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001195"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/470"],
+        "deep_urls": [],
     },
     {
         "id": "Z75",
@@ -1265,7 +1277,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001018"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/480"],
+        "deep_urls": [],
     },
     {
         "id": "Z76",
@@ -1275,7 +1287,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000792"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/490"],
+        "deep_urls": [],
     },
     {
         "id": "Z77",
@@ -1285,7 +1297,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000810"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/500"],
+        "deep_urls": [],
     },
     {
         "id": "Z78",
@@ -1295,7 +1307,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000476"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/510"],
+        "deep_urls": [],
     },
     {
         "id": "Z79",
@@ -1305,7 +1317,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000729"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/520"],
+        "deep_urls": [],
     },
     {
         "id": "Z80",
@@ -1315,7 +1327,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000884"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/530"],
+        "deep_urls": [],
     },
     {
         "id": "Z81",
@@ -1325,7 +1337,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000993"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/540"],
+        "deep_urls": [],
     },
     {
         "id": "Z82",
@@ -1338,7 +1350,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001339"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/832"],
+        "deep_urls": [],
     },
     {
         "id": "Z83",
@@ -1348,7 +1360,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000779"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/300"],
+        "deep_urls": [],
     },
     {
         "id": "Z84",
@@ -1358,7 +1370,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000945"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/290"],
+        "deep_urls": [],
     },
     {
         "id": "Z85",
@@ -1368,7 +1380,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5000525"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/130"],
+        "deep_urls": [],
     },
     {
         "id": "Z86",
@@ -1378,7 +1390,7 @@ ZUSATZ_ARSENAL = [
         "source_urls": [
             "https://www.service-bw.de/zufi/lebenslagen/5001353"
         ],
-        "deep_urls": ["https://www.service-bw.de/zufi/leistungen/900"],
+        "deep_urls": [],
     },
     {
         "id": "Z87",
