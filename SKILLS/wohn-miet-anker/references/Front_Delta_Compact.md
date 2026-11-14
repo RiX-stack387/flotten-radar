@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-14)
+RADAR-DELTA COMPACT (2026-11-14 03:10:07)
 - [FDS_GM_05: Gemeinde Empfingen - Bürgerservice] Art. 6 Abs. 1 s. 1 lit. e DSGVO i.V.m. §§ 2, 3 EGovG BW: Rechtsgrundlage für die Verarbeitung personenbezogener Daten im Rahmen der Online-Formulare und Sicherheitsprüfungen der Website der Gemeinde Empfingen.
 - [FDS_GM_05: Gemeinde Empfingen - Bürgerservice] Art. 6 Abs. 1 f) DSGVO: Rechtsgrundlage für die Erhebung und Verarbeitung von Daten durch die Netze BW GmbH zur Gewährleistung der Stabilität und Sicherheit der Website.
 - [FDS_GM_05: Gemeinde Empfingen - Bürgerservice] Datenschutz-Löschfrist IP-Adresse Netze BW: 7 Tage
