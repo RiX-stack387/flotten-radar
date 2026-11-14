@@ -258,7 +258,7 @@
         "last_updated": "2026-11-11T03:10:46.795030+00:00"
     },
     "cw_fds_slot_CW_GM_02": {
-        "source_hash": "4939c811cd206728682666bfcb15ed8ea20dbf53e4b5c9b53d0925c3f8985297",
+        "source_hash": "e654024bab12b10da2ea5430d99ed011ea6cb3cf697bee69ed7240087fb1939a",
         "legal_hash": "83a3228c36f3307dac43e4a43f99c6aad8163da41cb7eba575d01f294449628f"
     },
     "cw_fds_slot_CW_GM_03": {
@@ -340,7 +340,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_07": {
-        "source_hash": "dee8876dfac175a322f8835abc4147ad6ea11d4c08c991388ab2c1b3ee9bb2c5",
+        "source_hash": "48a481ee29b02784b1a8aedbd0cb855c6d241f50b6ac0e97b74447c9d8b064d6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_08": {
@@ -692,7 +692,7 @@
         "last_updated": "2026-10-18T03:22:48.876772+00:00"
     },
     "cw_fds_slot_FDS_GM_04": {
-        "source_hash": "6ac081496641ac0082e3d32213448d9a1222146ea812c5ecbcd3e9d2f1490e1e",
+        "source_hash": "0f8f0aa8a1e4651565989739fd93564b4399ae4494a3c229ad114e5b3a880a7f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_05": {
@@ -809,7 +809,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_K5_WOHNBAU": {
-        "source_hash": "7568b14c70bdc75b2d3a27009c7159d595fb436d1406e2fc3b08935dce6e9195",
+        "source_hash": "6c5bbda5e66066413aa09b66c8d944e5c722ac0d573cd3053c3ad3a9f22e81cd",
         "legal_hash": "94b07e03d21caa7229292572a99dbcd1c6360a27008d956cd95e71325a2d35c6",
         "claims": [
             {

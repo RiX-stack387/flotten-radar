@@ -1,6 +1,6 @@
 {
     "slot_1": {
-        "source_hash": "d530bc34a70627d1a8d6154c995ce864b49b1bad7632076013552d441d4906b5",
+        "source_hash": "7fec152bbc9f99fa3184221fcfe7257ca5dc2d5381036b9b912766aa57406ff0",
         "legal_hash": "7fe051f7735b8c8c9c1c1ab5c6fb82234c7e7b3198e82325deb42be9c5ae5916",
         "claims": [
             {
@@ -35,7 +35,7 @@
         "last_updated": "2026-10-18T02:46:06.544653+00:00"
     },
     "slot_2": {
-        "source_hash": "15ce80dfef971222b925a7f4cba9813b8015889428e5c3575db9872d93beda61",
+        "source_hash": "df69fd0d82bf35b310e0a427bfb7306c2d587a56a457270b221fcaff811de54b",
         "legal_hash": "a6efd21079709308dc32e67b64320d39be957db9c437b7893ec812476a3aa932",
         "claims": [
             {
@@ -70,7 +70,7 @@
         "last_updated": "2026-10-18T02:46:23.161117+00:00"
     },
     "slot_3": {
-        "source_hash": "de4e6225102b7755a95029d4f26e79eed7a0e832e635e9fda127dc51f65e4451",
+        "source_hash": "bbd2220eec5abab9be99547079763108604bc4aa8c29fc91f852b4dda3fd8a34",
         "legal_hash": "c82cd9067fcad862ef93e20a7a3edf363135e017ae3f92707ccf5b7b83ebe229",
         "claims": [
             {
@@ -126,7 +126,7 @@
         "last_updated": "2026-10-18T02:46:39.303284+00:00"
     },
     "slot_4": {
-        "source_hash": "5bbb5628e2703d1ce18cb003812c0c9153f3686ea65f2e1737f102b3d58ebad3",
+        "source_hash": "d01b3b5b1549edc10a39867c8789e04a6c7aa7cef9a2d4906c3fc0404504db51",
         "legal_hash": "4eff4bc6b63dfb56daf9b3855c5424144bad21bfac066546f2cda081274faaf4",
         "claims": [
             {
@@ -161,7 +161,7 @@
         "last_updated": "2026-10-18T02:46:50.931209+00:00"
     },
     "slot_5": {
-        "source_hash": "edfe99fb95d4f375f219dbe1961ded63d42199b2be42f2559f83f65caf86b986",
+        "source_hash": "0acaed56e953735b54d6ef990d600bfe67ced4e1ba07683cb847cae6e006c4e9",
         "legal_hash": "0a43222a2b1f6cb0b44119516aa27c11b4cd1bee140678afab753cba10c52508",
         "claims": [
             {
@@ -203,7 +203,7 @@
         "last_updated": "2026-10-18T02:47:02.559652+00:00"
     },
     "slot_6": {
-        "source_hash": "ca0230dc4fe0f561244b0d89b29d9b3ce1205ccdf15413f9628ca7bf6ffbc920",
+        "source_hash": "8a3057fcb376c6aead5a744206d5e7a9f5da9f3a52e7ccf57e078de9d3235df4",
         "legal_hash": "ebcade4bb4810152139ddab4ea0788082c465b84a11eb06b3526ca46c170a181",
         "claims": [
             {
@@ -238,7 +238,7 @@
         "last_updated": "2026-10-18T02:47:14.096269+00:00"
     },
     "slot_7": {
-        "source_hash": "d01e8df996abcedb5876721c8470418200deacf4ba03a6f6e02f08044f9ab474",
+        "source_hash": "697989c22f143437822c80f5ead6d0a9c6525415d4ad69b649d3e65e756149e3",
         "legal_hash": "37d8bc569df391a8a55bf4c16298430f161b740bbec0ace4c53457c0fc24e67c",
         "claims": [
             {
@@ -294,7 +294,7 @@
         "last_updated": "2026-10-18T02:47:24.860379+00:00"
     },
     "slot_8": {
-        "source_hash": "45ba91a51a3a976acd7b562ce844145750487a7c0f09b7ee0ee279e64f3fd05a",
+        "source_hash": "7a1fd1e7675bdecab8eacb878105369b6c76af35d6c544010140721b2b427e16",
         "legal_hash": "537882be38dc1f70f79c8fddb022bc556e0fb02695e729b1c5cc04d180cddb56",
         "claims": [
             {
@@ -336,7 +336,7 @@
         "last_updated": "2026-10-18T02:47:37.819989+00:00"
     },
     "slot_9A": {
-        "source_hash": "a731f1f4e294e3d048f6c8632ebe6f93554ccd49ae2aa640ce07d3432afd1ae6",
+        "source_hash": "926ab7114823248d7faa4195ebac328c1b0b867e14fdf43249b94a39203c0586",
         "legal_hash": "1500c17af4fcd168c25a5daf85d2bd91e2c1037c8711d40aeae54e9c70d8bdd2",
         "claims": [
             {
@@ -371,7 +371,7 @@
         "last_updated": "2026-10-18T02:48:09.045615+00:00"
     },
     "slot_9B": {
-        "source_hash": "7ffd5fca54c76c8ffa37616da76633080c15980ea74c5970d67a9e6a7fe2a908",
+        "source_hash": "18e50a3e9fc16d871a4b37514a7ead590d9436e72937e56b2de150c175d2bf3e",
         "legal_hash": "b1acad2e282209a3c57a151722072ec2fbec8533b1ba542f52c842c9cee6c04d",
         "claims": [
             {
@@ -399,7 +399,7 @@
         "last_updated": "2026-10-18T02:48:23.060384+00:00"
     },
     "slot_10A": {
-        "source_hash": "f96b0bcda092d6658d6a097212d64d5359bf223e3a0590d181b38bddc4bc69cc",
+        "source_hash": "c790079bee5a1c982d3750e6a4d57f7421b742edf17f5e6e9094921cda8acba0",
         "legal_hash": "cc5dceccf61c0d09621b31694ac81b5561dffaf134d783e4c7ae97e48a7634cf",
         "claims": [
             {
@@ -427,7 +427,7 @@
         "last_updated": "2026-10-18T02:48:35.166348+00:00"
     },
     "slot_10B": {
-        "source_hash": "e675587d4a8f2894e6092ebafc735743505edf5008f0e666ab9563ba3d5b631f",
+        "source_hash": "c6fa0bd0721ca19fcd3dab0ef3eb5b3752c7afb5f23ed17fb750645e6c639ebe",
         "legal_hash": "14aca4fb3d918a830cf9aa92147a1049103f22e91afcd7692f75021d922574ad",
         "claims": [
             {
@@ -462,7 +462,7 @@
         "last_updated": "2026-10-18T02:48:46.475663+00:00"
     },
     "slot_11A": {
-        "source_hash": "e341c8e5c61d5dfc5d7e76b2a30abd6692adbc6fe15889577b5940d96db579b8",
+        "source_hash": "b5c2e3865002998d7a447bfcf13078de4ce5ab247ac50cf92679da42e763d467",
         "legal_hash": "06e1a397d78c36cae8c54ec733f1e0d297bee3134301ed6be2859462bdd1d968",
         "claims": [
             {
@@ -504,7 +504,7 @@
         "last_updated": "2026-10-18T02:48:57.532524+00:00"
     },
     "slot_11B": {
-        "source_hash": "4abf01f91924420d825c87356659fc37917d9567476ea62232475ad76c8c03ed",
+        "source_hash": "bdb0f833a4beb5a76217459919f66ccb4a6022bc176dec041de18903e323d813",
         "legal_hash": "42f648e186849a5939396644a01ad0e718b3b60f185e547c9b4767a52050646f",
         "claims": [
             {
@@ -532,7 +532,7 @@
         "last_updated": "2026-10-18T02:49:10.901306+00:00"
     },
     "slot_12A": {
-        "source_hash": "9a3cb21a100fbb6c5a31c33cf9fb669f702fd5024213f878aef6d1cdea7bb42b",
+        "source_hash": "e1b4f1edb05a5df58209864c0f4b73df449431a2ca1276a841235776a67642db",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -560,7 +560,7 @@
         "last_updated": "2026-10-18T02:49:35.429757+00:00"
     },
     "slot_12B": {
-        "source_hash": "fa24a2706a512fd9d76f9fdca655b0c51e51f46106472a36c01e1ca9c222209a",
+        "source_hash": "7347138f32902bc9e6abad6bcba9bf1d81c4a3b490c3421406513288fb885688",
         "legal_hash": "c0966d02aef28c72141b2b9432ee2579ce78b76dc3f5d01535586bc50a2c3f07",
         "claims": [
             {
@@ -672,7 +672,7 @@
         "last_updated": "2026-10-18T02:50:17.631800+00:00"
     },
     "slot_15": {
-        "source_hash": "5a6eca2e65bd1d449533376c14155622ae757caa8261ed232432b8deeea2b79e",
+        "source_hash": "0d6593e52dea014f22f8a14494f0079e5dfbb2035af739779b4eb7faafa1b3d8",
         "legal_hash": "0774586a5ccd8a0d2397a30680871b8846c4d18b0a0cad1f9cdf692ca562a722",
         "claims": [
             {
@@ -756,7 +756,7 @@
         "last_updated": "2026-10-18T02:50:38.015412+00:00"
     },
     "slot_17": {
-        "source_hash": "e30e6a2a66b8223985c08ff1953049b627786dfe8add28265f68f3c70206e275",
+        "source_hash": "df1e92bbcbdf3d299874059370186ba8c2d71df05161d32c6727091bab998e9c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -805,8 +805,8 @@
         "last_updated": "2026-10-18T02:50:49.992888+00:00"
     },
     "slot_19": {
-        "source_hash": "1fec558607d516f6bc03b52ed036fef262b1ad19f4a428aca10d6e0f2445220e",
-        "legal_hash": "bb84d839e2154a7a244c88a2c975c90fecfd92dff654e543de8cdb54ee063aad",
+        "source_hash": "7e8b4fce1938ca1fb917047ded2cf9ef84f9b436fe42686262dd051802e881ba",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
                 "norm": "§ 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000)",
@@ -840,7 +840,7 @@
         "last_updated": "2026-11-12T03:58:50.262594+00:00"
     },
     "slot_20": {
-        "source_hash": "c8387b0d1d10af196eac59a7244320aa292e97066fcf2ff22f3887a66e6f88b7",
+        "source_hash": "6e2644496faa018e68cd6fedaab1d63486e2cefba3ddb65a7ca234f84ec40726",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -861,7 +861,7 @@
         "last_updated": "2026-10-18T02:52:07.832230+00:00"
     },
     "slot_21": {
-        "source_hash": "b898ed3364cec664a04613cabd02be3889bd5633caf2bf2b13a3354c2d646f57",
+        "source_hash": "89e5d385ff01f3acbc6b87d9f2018144b6cbcef2e5345e9e24f749ed4a227864",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -889,7 +889,7 @@
         "last_updated": "2026-10-18T02:52:31.903505+00:00"
     },
     "slot_22": {
-        "source_hash": "98854804a3d090cda93d647b5491a2edebd044cadae3bd8f144d3a9acd772d5b",
+        "source_hash": "1d97de74ddbe324126362285ab478bd554fb13d8e967dc7a6386909e06180c64",
         "legal_hash": "b9040be4c663f8b3b3e05649218a100b534bdd1d832415e5dcf57f5fb3c4fde2",
         "claims": [
             {
@@ -931,7 +931,7 @@
         "last_updated": "2026-10-18T02:52:47.561496+00:00"
     },
     "slot_23": {
-        "source_hash": "3b4142dcf3a1e6bcaebce8eac7409fbe7a9dc1511bfed74d808dbe19b0d98d47",
+        "source_hash": "15331981117ddac4c64dfef01ffcbc6277a23e0d70ca4df97b56788a355a1d6e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -952,11 +952,11 @@
         "last_updated": "2026-10-18T02:53:11.800146+00:00"
     },
     "slot_24": {
-        "source_hash": "34d9ea1c7c2825d7837f8ddf33fc69f18e0806df32ce809f3bd914e534830e38",
+        "source_hash": "93b7f91a6a5ad2dd87d1e19860ad0f0be4ad46e607116629e84fa01bb0aca637",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "slot_25": {
-        "source_hash": "d49e9666d7622e327c7c3c70450aae6a78f8a500904f7c7c73409267f548eba8",
+        "source_hash": "c1d1b70617b52fee1fd09f578b1ed538899fdef026ab0f0ec97999b15a5adba3",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -970,7 +970,7 @@
         "last_updated": "2026-10-18T02:53:49.451948+00:00"
     },
     "slot_26": {
-        "source_hash": "3411e8ce9f52786fe2dda6016dd59c436c8421399c37ccdf63630f4278e94ce7",
+        "source_hash": "977a2437c5c6553d9162eeec510cd96c8e83e17ccdb076d96a37e822cbd2f7f4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -991,7 +991,7 @@
         "last_updated": "2026-10-18T02:54:00.126220+00:00"
     },
     "slot_27": {
-        "source_hash": "69c021ad729cd1cad877c993a0463235a10d4c58a0394e89e305ac4447673168",
+        "source_hash": "5e3798990691b63a3da9fa899c74bcb0bceb03890d805c876e1a37860566dee0",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1012,7 +1012,7 @@
         "last_updated": "2026-10-18T02:54:27.728042+00:00"
     },
     "slot_28": {
-        "source_hash": "ae861ce4c9b6c96d6a81242d3bd3f9ac12d96388bc0d2b10f9eb3969621482cf",
+        "source_hash": "31398d66cc5008caf8ace6dc7bf4df19005b1d794c905341fcd213f294838c34",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1040,7 +1040,7 @@
         "last_updated": "2026-10-18T02:54:44.679041+00:00"
     },
     "slot_29": {
-        "source_hash": "4b08f747c4a81772a7ef0359d81c0397d51828362b253a25e28353bcd77d18dc",
+        "source_hash": "34f3e98028ebff5f662442e762ee34394e7b79430fd6c4ba1fd2273703533204",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1075,7 +1075,7 @@
         "last_updated": "2026-10-18T02:54:57.051132+00:00"
     },
     "slot_30": {
-        "source_hash": "1f43136d137b7d69e6edf47b7387fce1de8e929807964f0ed552a327a33813ee",
+        "source_hash": "6a2064aa82749468933d8e197aed1ad2b1ca55472bfa473713f437c61443fc78",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1103,70 +1103,49 @@
         "last_updated": "2026-10-18T02:55:09.121721+00:00"
     },
     "slot_31": {
-        "source_hash": "ec75a59f3bbec5b7d689d160fa6053226c8c27f6934cdf14dfb49ed75a7b4b93",
-        "legal_hash": "cb2ad8de77642ddf5e600ce906b0c10de8674732ec8b602239376b40b690f6b6",
+        "source_hash": "9722badc1545d6b1146555c4e134710aad501eb232e08bd21f61a1f6f89535d4",
+        "legal_hash": "6c41e397888dde9fc1856c81a2f107d2771926230a17bd67f1cce7bbdd6734ab",
         "claims": [
             {
-                "norm": "§ 20 SGB II",
-                "extracted_value": "563 €",
-                "value_type": "EURO",
-                "context": "Regelbedarf für Alleinstehende in der Regelbedarfsstufe 1 für das Grundsicherungsgeld im Jahr 2026",
-                "evidence_location": "In der Regelbedarfsstufe 1 beträgt er 563 Euro."
-            },
-            {
-                "norm": "§ 20 SGB II",
-                "extracted_value": "506 €",
-                "value_type": "EURO",
-                "context": "Regelbedarf für Partner / Ehepartner / Lebenspartner in der Regelbedarfsstufe 2",
-                "evidence_location": "Regelbedarfsstufe 2 Partner / Ehepartner / Lebenspartner 506 €"
-            },
-            {
-                "norm": "§ 20 SGB II",
-                "extracted_value": "451 €",
-                "value_type": "EURO",
-                "context": "Regelbedarf für volljährige Personen unter 25 Jahren im Haushalt der Eltern in der Regelbedarfsstufe 3",
-                "evidence_location": "Regelbedarfsstufe 3 Volljährige unter 25 Jahren im Haushalt der Eltern 451 €"
-            },
-            {
-                "norm": "§ 20 SGB II",
-                "extracted_value": "471 €",
-                "value_type": "EURO",
-                "context": "Regelbedarf für Jugendliche von 14 bis 17 Jahren in der Regelbedarfsstufe 4",
-                "evidence_location": "Regelbedarfsstufe 4 Jugendliche von 14 bis 17 Jahren 471 €"
-            },
-            {
-                "norm": "§ 20 SGB II",
-                "extracted_value": "390 €",
-                "value_type": "EURO",
-                "context": "Regelbedarf für Kinder von 6 bis 13 Jahren in der Regelbedarfsstufe 5",
-                "evidence_location": "Regelbedarfsstufe 5 Kinder von 6 bis 13 Jahren 390 €"
-            },
-            {
-                "norm": "§ 20 SGB II",
-                "extracted_value": "357 €",
-                "value_type": "EURO",
-                "context": "Regelbedarf für Kinder bis 5 Jahre in der Regelbedarfsstufe 6",
-                "evidence_location": "Regelbedarfsstufe 6 Kinder bis 5 Jahre 357 €"
-            },
-            {
-                "norm": "§ 11b SGB II",
-                "extracted_value": "208,90 €",
-                "value_type": "EURO",
-                "context": "Anrechnungsfreier Betrag im Monat beim Minijob nach den aktuellen Freibetragsregeln für Zuverdienst",
-                "evidence_location": "beim Minijob bleiben so beispielsweise bis zu 208,90 € im Monat anrechnungsfrei."
-            },
-            {
-                "norm": "SGB II Reform 2026",
-                "extracted_value": "Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II.",
+                "norm": "13. Änderungsgesetz zum SGB II",
+                "extracted_value": "Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 1. Juli 2026 mit strengeren Mitwirkungspflichten sowie neuen Regelungen zum Vermögen und zu den Wohnkosten",
                 "value_type": "TEXT",
-                "context": "Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld ab dem Jahr 2026",
-                "evidence_location": "Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II."
+                "context": "Reform der Grundsicherung für Arbeitsuchende zum 1. Juli 2026",
+                "evidence_location": "Mit dem 13. Änderungsgesetz zum SGB II gelten strengere Mitwirkungspflichten sowie neue Regelungen zum Vermögen und zu den Wohnkosten ."
+            },
+            {
+                "norm": "§ 22 SGB II",
+                "extracted_value": "Wohnkosten (KdU) : Übernahme von Miete, Nebenkosten und Heizkosten",
+                "value_type": "TEXT",
+                "context": "Bedarfe für Unterkunft und Heizung im SGB II",
+                "evidence_location": "Wohnkosten (KdU) : Übernahme von Miete, Nebenkosten und Heizkosten"
+            },
+            {
+                "norm": "SGB II Regelsatz",
+                "extracted_value": "563 Euro",
+                "value_type": "EURO",
+                "context": "Monatlicher Bürgergeld-Regelsatz 2026 für alleinstehende Erwachsene",
+                "evidence_location": "563 Euro für alleinstehende Erwachsene"
+            },
+            {
+                "norm": "SGB II Vermögensanrechnung",
+                "extracted_value": "Abschaffung der früheren Karenzzeit mit Freibetrag von bis zu 40.000 Euro; Vermögensprüfung direkt von Anfang an",
+                "value_type": "TEXT",
+                "context": "Neuregelung der Vermögen-Karenzzeit beim Grundsicherungsgeld ab Juli 2026",
+                "evidence_location": "Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft."
+            },
+            {
+                "norm": "SGB II Schonvermögen",
+                "extracted_value": "Altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person",
+                "value_type": "TEXT",
+                "context": "Höhe des unschädlichen Schonvermögens ab dem 1. Juli 2026",
+                "evidence_location": "Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus."
             }
         ],
-        "last_updated": "2026-11-10T08:56:45.957037+00:00"
+        "last_updated": "2026-11-14T06:46:45.333955+00:00"
     },
     "slot_18": {
-        "source_hash": "7ebfe140a40eb865d0777795c735724103f9fa53be53c7104c39291d1b540257",
+        "source_hash": "61d6d0af2eefa10c8784fedb95fad4fd6fe69064f589c608b5f8a555b7dd6a40",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1192,5 +1171,47 @@
             }
         ],
         "last_updated": "2026-10-24T03:26:12.011115+00:00"
+    },
+    "slot_32": {
+        "source_hash": "3d33e10bfbe37072de17b8766d56465f069427e91daa80e138d73d131a5d2ea5",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Apache 2.0 License",
+                "extracted_value": "You are free to copy, modify, and distribute these skills under the terms of the Apache 2.0 license.",
+                "value_type": "TEXT",
+                "context": "Lizenzbestimmungen für das Google Skills Repository",
+                "evidence_location": "You are free to copy, modify, and distribute these skills under the terms of the Apache 2.0 license."
+            }
+        ],
+        "last_updated": "2026-11-14T06:47:29.722422+00:00"
+    },
+    "slot_33": {
+        "source_hash": "3a6ef59ff82416a62851d7d77526c469b4093c56717acc37f2abb54e140f42c9",
+        "legal_hash": "d977eb20f6c18b20032433059b3b1750a04803f8a21b4049377541194ab5e264",
+        "claims": [
+            {
+                "norm": "Google AI Ultra Abo",
+                "extracted_value": "100 $",
+                "value_type": "EURO",
+                "context": "Neues Google AI Ultra-Abo für 100 $ monatlich inklusive 20 TB Cloud-Speicher und YouTube Premium.",
+                "evidence_location": "Mit einem Google AI Ultra-Abo hast du Zugriff auf das Beste von Gemini. Die Abos sind jetzt ab 100 $ pro Monat erhältlich."
+            },
+            {
+                "norm": "Google AI Pro Abo",
+                "extracted_value": "21,99 €",
+                "value_type": "EURO",
+                "context": "Monatlicher Preis für das Google AI Pro Abo nach Ablauf des kostenlosen Testzeitraums für Studierende.",
+                "evidence_location": "Das Abo verlängert sich nach Ablauf des Testzeitraums automatisch zu einem Preis von 21,99 €/Monat."
+            },
+            {
+                "norm": "Studierenden-Aktion",
+                "extracted_value": "3. November 2025",
+                "value_type": "DATE",
+                "context": "Registrierungsfrist für das kostenlose einjährige Upgrade auf Google AI Pro für Studierende.",
+                "evidence_location": "Interessierte haben bis zum 3. November 2025 Zeit, sich für dieses Angebot zu registrieren."
+            }
+        ],
+        "last_updated": "2026-11-14T06:47:43.515454+00:00"
     }
 }

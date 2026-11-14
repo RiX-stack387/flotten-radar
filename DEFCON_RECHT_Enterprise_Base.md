@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-14 03:10:07 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-14 08:11:26 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -206,14 +206,11 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 20 SGB II** | 563 € | Regelbedarf für Alleinstehende in der Regelbedarfsstufe 1 für das Grundsicherungsgeld im Jahr 2026 |
-| **§ 20 SGB II** | 506 € | Regelbedarf für Partner / Ehepartner / Lebenspartner in der Regelbedarfsstufe 2 |
-| **§ 20 SGB II** | 451 € | Regelbedarf für volljährige Personen unter 25 Jahren im Haushalt der Eltern in der Regelbedarfsstufe 3 |
-| **§ 20 SGB II** | 471 € | Regelbedarf für Jugendliche von 14 bis 17 Jahren in der Regelbedarfsstufe 4 |
-| **§ 20 SGB II** | 390 € | Regelbedarf für Kinder von 6 bis 13 Jahren in der Regelbedarfsstufe 5 |
-| **§ 20 SGB II** | 357 € | Regelbedarf für Kinder bis 5 Jahre in der Regelbedarfsstufe 6 |
-| **§ 11b SGB II** | 208,90 € | Anrechnungsfreier Betrag im Monat beim Minijob nach den aktuellen Freibetragsregeln für Zuverdienst |
-| **SGB II Reform 2026** | Das Bürgergeld heißt seit der Reform 2026 offiziell Grundsicherungsgeld – beide Begriffe bezeichnen dieselbe Leistung nach dem SGB II. | Offizielle Umbenennung des Bürgergeldes in Grundsicherungsgeld ab dem Jahr 2026 |
+| **13. Änderungsgesetz zum SGB II** | Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 1. Juli 2026 mit strengeren Mitwirkungspflichten sowie neuen Regelungen zum Vermögen und zu den Wohnkosten | Reform der Grundsicherung für Arbeitsuchende zum 1. Juli 2026 |
+| **§ 22 SGB II** | Wohnkosten (KdU) : Übernahme von Miete, Nebenkosten und Heizkosten | Bedarfe für Unterkunft und Heizung im SGB II |
+| **SGB II Regelsatz** | 563 Euro | Monatlicher Bürgergeld-Regelsatz 2026 für alleinstehende Erwachsene |
+| **SGB II Vermögensanrechnung** | Abschaffung der früheren Karenzzeit mit Freibetrag von bis zu 40.000 Euro; Vermögensprüfung direkt von Anfang an | Neuregelung der Vermögen-Karenzzeit beim Grundsicherungsgeld ab Juli 2026 |
+| **SGB II Schonvermögen** | Altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person | Höhe des unschädlichen Schonvermögens ab dem 1. Juli 2026 |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -240,87 +237,62 @@
 ## [Z31] Sektor Z31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Wirtschaftsministerium Baden-Württemberg** | 15.04.2025 | Freigabevermerk der Dienstleistungsserie zur Berufsausbildung in Baden-Württemberg |
-
-## [Z32] Sektor Z32
-| Norm / AZ | Wert / Parameter | Kontext / Detail |
-| :--- | :--- | :--- |
-| **Service-BW Lebenslage Schule** | Die Ferienpläne für Baden-Württemberg finden Sie auf den Seiten des Kultusministeriums | Informationen zu Ferienplänen in Baden-Württemberg auf Service-BW |
+| **Wirtschaftsministerium Baden-Württemberg** | Freigabevermerk 15.04.2025 | Aktualisierungsdatum der Informationen zur Lebenslage Berufsausbildung in Baden-Württemberg. |
 
 ## [Z33] Sektor Z33
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **https://www.service-bw.de/zufi/lebenslagen/5001119** | Hier finden Sie einen Überblick über die vielfältige Studienlandschaft in Baden-Württemberg: Wir bieten Ihnen Informationen zu Voraussetzungen, Auswahlverfahren und Formen der Studienplatzvergabe, aber auch zu den Kosten, Förderungen und sozialen Aspekten. | Übersicht über die Studienlandschaft in Baden-Württemberg inklusive Voraussetzungen, Kosten und Förderungen. |
+| **https://www.service-bw.de/zufi/lebenslagen/5001119** | Hier finden Sie einen Überblick über die vielfältige Studienlandschaft in Baden-Württemberg: Wir bieten Ihnen Informationen zu Voraussetzungen, Auswahlverfahren und Formen der Studienplatzvergabe, aber auch zu den Kosten, Förderungen und sozialen Aspekten. | Übersicht über die Studienlandschaft in Baden-Württemberg mit Informationen zu Voraussetzungen, Auswahlverfahren, Kosten, Förderungen und sozialen Aspekten. |
 
 ## [Z34] Sektor Z34
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **service-bw.de/zufi/lebenslagen/5000199** | Der Begriff Weiterbildung umfasst: allgemeine Weiterbildung, berufliche Fortbildung, kirchliche und ländliche Erwachsenenbildung, politische Bildung, wissenschaftliche Weiterbildung, Eltern- und Familienbildung. | Definition des Begriffs Weiterbildung im Rahmen der Lebenslage in Baden-Württemberg |
+| **Service-BW Lebenslage 5000199** | Der Begriff Weiterbildung umfasst: allgemeine Weiterbildung, berufliche Fortbildung, kirchliche und ländliche Erwachsenenbildung, politische Bildung, wissenschaftliche Weiterbildung, Eltern- und Familienbildung. | Definition des Begriffes Weiterbildung im Rahmen der Lebenslage auf Service-BW. |
 
 ## [Z37] Sektor Z37
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg** | 23.12.2025 | Freigabevermerk der Informationsseite zu Tierhaltung, Tierschutz, Fischerei und Jagd in Baden-Württemberg |
+| **Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg** | Freigabevermerk 23.12.2025 Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg | Freigabedatum der Informationen zur Tierhaltung, Tierschutz, Fischerei und Jagd in Baden-Württemberg. |
 
 ## [Z42] Sektor Z42
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Freigabevermerk 20.05.2026 Sozialministerium Baden-Württemberg** | Bürgerschaftlich Engagierte erhalten automatisch Versicherungsschutz. Besteht anderweitig eine Haftpflichtversicherung, muss diese im Schadenfall zuerst vorleisten. | Informationen zum Versicherungsschutz für bürgerschaftliches und ehrenamtliches Engagement in Baden-Württemberg |
+| **Bürgerschaftliches Engagement Baden-Württemberg** | Bürgerschaftlich Engagierte können sich von der Organisation, bei der Sie tätig sind, den Engagementnachweis Baden-Württemberg ausstellen lassen. | Dokumentation von Fähigkeiten, Kenntnissen, Dauer und Intensität des Ehrenamtes |
 
 ## [Z46] Sektor Z46
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **PStG-DVO Anlage 1 (Gebührenverzeichnis)** | EUR 110,00 | Gebühr für die Prüfung der Ehefähigkeit mit ausländischem Recht |
-| **PStG-DVO Anlage 1 (Gebührenverzeichnis)** | EUR 130,00 | Gebühr für die Prüfung der Ehefähigkeit, wenn ausländisches Recht zu beachten und ein Befreiungsverfahren durchzuführen ist |
-| **PStG-DVO Anlage 1 (Gebührenverzeichnis)** | EUR 40,00 | Gebühr für die Beschaffung eines Ehefähigkeitszeugnisses für ausländische Staatsangehörige |
-| **PStG-DVO Anlage 1 (Gebührenverzeichnis)** | EUR 45,00 | Gebühr für die Durchführung und Beurkundung der Eheschließung |
-| **PStG-DVO Anlage 1 (Gebührenverzeichnis)** | EUR 110,00 | Zusatzgebühr für eine standesamtliche Trauung außerhalb der üblichen Dienstzeiten |
-| **§ 13 PStG** | Die Mitteilung, dass Sie alle Voraussetzungen zur Eheschließung erfüllen, gilt für sechs Monate. Ansonsten müssen Sie die Eheschließung erneut anmelden. | Gültigkeitsfrist für das Feststellen der Ehevoraussetzungen durch das Standesamt |
+| **Service-BW Lebenslage Heirat** | Vor, während und nach der Heirat sind viele Formalitäten zu erledigen. | Formalitäten im Zusammenhang mit Eheschließung in Baden-Württemberg |
 
 ## [Z54] Sektor Z54
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Sozialgesetzbuch Siebtes Buch (SGB VII) : § 2 Versicherung kraft Gesetzes** | Ihr Kind ist während des Besuchs von Tageseinrichtungen gesetzlich unfallversichert. Dieser Versicherungsschutz ist für Sie beitragsfrei. | Gesetzlicher Beitragsfreier Unfallversicherungsschutz für Kinder während des Besuchs von betriebserlaubnispflichtigen Tageseinrichtungen. |
-| **Beratungshilfegesetz (BerHG) : § 8 Vergütung** | 15,00 EUR | Einmalige Eigenbeteiligung für die Inanspruchnahme von Beratungshilfe durch einen Rechtsanwalt oder eine Rechtsanwältin. |
-| **Beratungshilfegesetz (BerHG) : § 3 Gewährung von Beratungshilfe** | kostenlos | Kostenfreiheit der Ausstellung des Beratungshilfescheins sowie der Beratung durch die Rechtsantragstelle des Amtsgerichts. |
+| **Sozialgesetzbuch Siebtes Buch (SGB VII) : § 2 Versicherung kraft Gesetzes** | Ihr Kind ist während des Besuchs von Tageseinrichtungen gesetzlich unfallversichert. Dieser Versicherungsschutz ist für Sie beitragsfrei. | Gesetzliche Unfallversicherung für Kinder und Schüler in Tageseinrichtungen und Schulen in Baden-Württemberg |
 
 ## [Z59] Sektor Z59
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Freigabevermerk Innenministerium Baden-Württemberg** | 21.07.2025 | Freigabevermerk der Lebenslage Stiftungen in Baden-Württemberg |
-| **Abbruchplanung / Abfallrechtliche Verpflichtung** | Als Bauherr haften Sie - und nicht die Baufirma - für den Abfall. | Haftung des Bauherrn als Abfallerzeuger bei Abbruchmaßnahmen |
-| **Freigabevermerk Landratsamt Schwäbisch Hall** | 01.09.2015 | Stand des Freigabevermerks der Information zur Abbruchplanung |
-| **§ 27 a UStG** | DE 146 789 292 | Umsatzsteuer-Identifikationsnummer des Landkreises Schwäbisch Hall |
+| **Baden-Württemberg Stiftungsrecht** | Stiftungen haben in Baden-Württemberg eine lange Tradition und decken durch ein weites Betätigungsfeld große Teile der gesellschaftlichen Lebensbereiche ab. | Allgemeine Informationen zu Stiftungen in Baden-Württemberg und deren Betätigungsfeldern. |
 
 ## [Z60] Sektor Z60
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Kindergartenbeitrag Krippengruppe Gemeinde Graben-Neudorf** | 319,00 € | Monatsbeitrag für die Betreuung in einer Krippengruppe (Kinder ab 1 Jahr, 7:30 bis 14:00 Uhr) im Kommunalen Kindergarten Sonnenschein |
-| **Mittagessen Krippe Gemeinde Graben-Neudorf** | 72,00 € | Optionaler monatlicher Betrag für das Mittagessen in der Krippe des Kommunalen Kindergartens Sonnenschein |
-| **Kindergartenbeitrag VÖ-Gruppe Gemeinde Graben-Neudorf** | 135,00 € | Monatsbeitrag für die Verlängerten Öffnungszeiten (VÖ) für Kinder ab 3 Jahren (7:30 bis 14:00 Uhr) im Kommunalen Kindergarten Sonnenschein |
-| **Kindergartenbeitrag Ganztagesbetreuung Gemeinde Graben-Neudorf** | 352,00 € | Monatsbeitrag inkl. Mittagessen für die Ganztagesbetreuung (6:45 bis 17:00 Uhr) im Kommunalen Kindergarten Sonnenschein |
+| **Landesportal Baden-Württemberg - Lebenslage Verbraucherschutz und Ernährung** | Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg | Freigabevermerk und zuständiges Ministerium für die Lebenslage Verbraucherschutz und Ernährung |
 
 ## [Z67] Sektor Z67
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Verkehrsministerium Baden-Württemberg** | Informationen vom Kauf bis zur Verschrottung von Fahrzeugen sowie Wissenswertes über den Führerschein lesen Sie in den gleichnamigen Lebenslagen. | Übersicht über die Mobilitätsformen und vertiefende Informationen zu Fahrzeugen und Führerschein in Baden-Württemberg. |
+| **Verkehrsministerium Baden-Württemberg** | Freigabevermerk 13.04.2026 Verkehrsministerium Baden-Württemberg | Freigabevermerk und zuständiges Ministerium für die Lebenslage Verkehr und Verkehrswege in Baden-Württemberg |
 
 ## [Z69] Sektor Z69
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Freigabevermerk Katastervermessungen** | 30.08.2006 | Freigabedatum der Information zur Leistung Katastervermessungen durch das Baurechts- und Vermessungsamt der Stadt Sindelfingen. |
-| **§ 5 TMG / § 55 RStV** | Pflichtangaben im Impressum der Stadt Sindelfingen; Inhaltlich Verantwortliche ist Martina Schlipf. | Impressumspflicht und inhaltliche Verantwortlichkeit für den Internetauftritt der Stadt Sindelfingen. |
-| **§ 27 a Umsatzsteuergesetz** | 56003/00351 | Umsatzsteuer-Identifikationsnummer der Stadt Sindelfingen. |
-
-## [Z70] Sektor Z70
-| Norm / AZ | Wert / Parameter | Kontext / Detail |
-| :--- | :--- | :--- |
-| **Service-BW Lebenslage 5000833** | Informationen zu möglichen Umwelt- und Naturgefahren wie zum Beispiel Hochwasser, Lärmbelästigung und Umweltbeeinträchtigungen. | Übersicht zu Umwelt- und Naturgefahren sowie passenden Verwaltungsleistungen in Baden-Württemberg |
+| **Service-BW Lebenslage 5000229** | In dieser Lebenslage finden Sie vielfältige Informationen unter anderem über den Schutz von Luft, Wasser und Böden sowie über den Schutz vor der schädlichen Wirkung ionisierender Strahlung, Wissenswertes zu Natur- und Artenschutz sowie zu den Möglichkeiten, wie Sie zum Umweltschutz beitragen können. | Informationen zum Bereich Umwelt auf Service-BW |
 
 ## [Z82] Sektor Z82
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg** | Freigabevermerk 23.12.2025 Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg | Freigabedatum und herausgebendes Ministerium für die Lebenslage Tierhaltung, Tierschutz, Fischerei und Jagd in Baden-Württemberg |
+| **Service-BW Lebenslage 5001339** | Grundlegende Informationen zur Heim- und Nutztierhaltung sowie zu den Bereichen Tiergesundheit und Tierschutz, Fischerei und Jagd in Baden-Württemberg. | Tierhaltung, Tierschutz, Fischerei und Jagd |
 
 # === Ebene 3 – Kommunen & Landkreise (Reale Vollzugspraxis: KdU, Satzungen, Gebühren, WBS, Katastrophenschutz) ===
 
@@ -407,9 +379,7 @@
 ## [Z23] Sektor Z23
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **DSGVO / Form-Solutions Einwilligungserklärung** | 180 Tage | Frist für die automatische Löschung von gespeicherten personenbezogenen Daten nach Bearbeitung des Anliegens. |
-| **WoGG / Weiterleistungsantrag Mietzuschuss (WlaMz)** | 2.000 EUR | Maximalhöhe der Geldbuße bei einer Ordnungswidrigkeit wegen falscher, unvollständiger oder nicht mitgeteilter Angaben im Wohngeldantrag. |
-| **WoGG / SGB II** | Angabepflicht für den Bezug von Bürgergeld (SGB II) und anderen staatlichen Leistungen | Erfassung von parallelen Sozialleistungsbezügen (u. a. Bürgergeld nach SGB II) im Rahmen der Wohngeldbewilligung. |
+| **Datenschutzgrundverordnung (DSGVO)** | Eine automatische Löschung erfolgt nach 180 Tagen, insofern entsprechende Daten nicht weiter benötigt werden. | Automatische Löschung von erhobenen Daten bei der elektronischen Datenverarbeitung im Stadtkreis Pforzheim |
 
 ## [Z24] Sektor Z24
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -442,17 +412,6 @@
 | :--- | :--- | :--- |
 | **Unterhaltsvorschussgesetz (UVG) / SGB II** | EUR 600,00 brutto | Voraussetzung für den Anspruch auf Unterhaltsvorschuss für Kinder ab 12 Jahren bei Bezug von SGB II-Leistungen durch den alleinerziehenden Elternteil |
 | **Freigabevermerk** | 15.01.2026 | Datum des Freigabevermerks der Leistungsinformationen |
-
-## [Z41] Sektor Z41
-| Norm / AZ | Wert / Parameter | Kontext / Detail |
-| :--- | :--- | :--- |
-| **Kommunalabgabengesetz (KAG) § 9 Absatz 3** | Anmeldung innerhalb eines Monats ab dem Tag, seit dem ein Hund gehalten wird oder seit dem der Halter in die Gemeinde gezogen ist. | Anmeldefrist für die Hundesteuer in Gemeinden in Baden-Württemberg |
-| **Kommunalabgabengesetz (KAG) § 9 Absatz 3** | Die Unterlassung der Hundesteuer-Anmeldung stellt eine Ordnungswidrigkeit dar. | Rechtliche Konsequenz der Nichtanmeldung eines Hundes |
-
-## [Z85] Sektor Z85
-| Norm / AZ | Wert / Parameter | Kontext / Detail |
-| :--- | :--- | :--- |
-| **Kommunalabgabengesetz (KAG) § 9 Absatz 3** | Sie müssen den Hund innerhalb eines Monats ab dem Tag anmelden, seit dem Sie einen Hund halten oder seit dem Sie in die Gemeinde gezogen sind. | Anmeldefrist für die Hundesteuer in Baden-Württemberg |
 
 ## [ENZ_ST_01] Sektor ENZ_ST_01
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -565,6 +524,16 @@
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
 | **Energieberatung keep Enzkreis** | Energieberatung der Klimaschutz- und Energieagentur Enzkreis Pforzheim (keep) am Mittwoch, 21. Oktober 2026 von 15:00 Uhr - 18:00 Uhr im Rathaus Wurmberg, Raum 3 | Beratungstermin für Bürgerenergieberatung im Rathaus Wurmberg |
+
+## [Z41] Sektor Z41
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Service-BW Lebenslage 5000525** | Auf den folgenden Seiten finden Sie die wichtigsten Aspekte zum Thema Wohnen für Mieterinnen und Mieter, Vermieterinnen und Vermieter sowie Eigenheimbesitzerinnen und -besitzer. | Allgemeine Informationen zur Lebenslage Wohnen in Baden-Württemberg |
+
+## [Z85] Sektor Z85
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Service-BW Lebenslage 5000525** | Informationen zum Wohnen fuer Mieter, Vermieter und Eigenheimbesitzer | Allgemeine Informationen der Landesverwaltung Baden-Wuerttemberg zum Thema Wohnen, Bauen, Miete und damit verbundene Dienstleistungen. |
 
 ## [CW_Z1] Sektor CW_Z1
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -845,45 +814,40 @@
 ## [Z50] Sektor Z50
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Sozialministerium Baden-Württemberg** | Pflegeeltern Hier können Sie sich informieren über: Pflegeformen Ihre Rechte und Pflichten als Pflegeeltern die Zusammenarbeit mit dem Jugendamt das Umgangsrecht des Pflegekindes mit den leiblichen Eltern | Informationen für Pflegeeltern zu Pflegeformen, Rechten, Pflichten, Jugendamt und Umgangsrecht in Baden-Württemberg. |
+| **Sozialministerium Baden-Württemberg** | Pflegeeltern Hier können Sie sich informieren über: Pflegeformen Ihre Rechte und Pflichten als Pflegeeltern die Zusammenarbeit mit dem Jugendamt das Umgangsrecht des Pflegekindes mit den leiblichen Eltern | Informationen für Pflegeeltern bezüglich Pflegeformen, Rechten und Pflichten sowie der Zusammenarbeit mit dem Jugendamt und dem Umgangsrecht. |
 
 ## [Z52] Sektor Z52
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Einkommensteuergesetz (EStG) § 39** | 30. November | Frist für die Beantragung von Kinderfreibeträgen als elektronisches Lohnsteuerabzugsmerkmal für das laufende Kalenderjahr |
+| **Sterbefall** | Ausstellung eines Leichenpasses beantragen, Erbschein beantragen, Erdbestattung - Beerdigung beauftragen, Feuerbestattung beantragen, Geburt in öffentlicher oder privater Klinik oder Einrichtung dem Standesamt melden | Informationen und Leistungen für Angehörige bei einem Sterbefall |
 
 ## [Z53] Sektor Z53
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Sozialministerium Baden-Württemberg** | Menschen mit Behinderung haben ein Recht auf Selbstbestimmung und gleichberechtigte Teilhabe am Leben in der Gesellschaft. | Recht auf Selbstbestimmung und Teilhabe von Menschen mit Behinderung sowie Zusammenarbeit der Rehabilitationsträger in Baden-Württemberg. |
+| **Sozialministerium Baden-Württemberg** | Menschen mit Behinderung haben ein Recht auf Selbstbestimmung und gleichberechtigte Teilhabe am Leben in der Gesellschaft. | Recht auf Selbstbestimmung und Teilhabe von Menschen mit Behinderung sowie Zusammenarbeit der Rehabilitationsträger. |
 
 ## [Z57] Sektor Z57
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **112** | 112 - Feuerwehr und Rettungsdienst Bei Bränden, Unglücksfällen oder bei lebensbedrohlichen Unfällen und bei medizinischen Notfällen wenden Sie sich an die Feuerwehr beziehungsweise den Rettungsdienst. | Notrufnummer für Feuerwehr und Rettungsdienst in Notfällen |
-| **110** | Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110. | Notrufnummer für die Polizei |
-| **116117** | Handelt es sich um eine Erkrankung, mit der Sie normalerweise einen niedergelassenen Arzt oder eine niedergelassene Ärztin in der Praxis aufsuchen würden, aber die Behandlung aus medizinischen Gründen nicht bis zum nächsten Tag warten kann, ist der ärztliche Bereitschaftsdienst zuständig. Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. | Rufnummer für den Ärztlichen Bereitschaftsdienst bei nicht lebensgefährlichen Erkrankungen |
-| **Nothilfe-SMS T-Mobile / Vodafone** | 99 0711 216-77112 | Nothilfe-SMS Nummer für Sprach- und Hörbehinderte im Netz von T-Mobile und Vodafone |
-| **Nothilfe-SMS Telefonica (O2/Eplus)** | 329 0711 216-77112 | Nothilfe-SMS Nummer für Sprach- und Hörbehinderte im Netz von Telefonica |
-| **19222** | Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222. | Rufnummer für den qualifizierten Krankentransport |
+| **Notruf 112** | Bei Bränden, Unglücksfällen oder bei lebensbedrohlichen Unfällen und bei medizinischen Notfällen wenden Sie sich an die Feuerwehr beziehungsweise den Rettungsdienst. | Zuständigkeit der Notrufnummer 112 |
+| **Polizei-Notruf 110** | Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110. | Zuständigkeit und Erreichbarkeit der Polizei im Notfall |
+| **Ärztlicher Bereitschaftsdienst 116117** | Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. | Erreichbarkeit des ärztlichen Bereitschaftsdienstes bei nicht bis zum nächsten Tag wachsenden medizinischen Gründen |
+| **Krankentransport 19222** | Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222. | Rufnummer für qualifizierte Krankentransporte mit Vorwahl der zuständigen Leitstelle |
 
 ## [Z58] Sektor Z58
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Volksabstimmungsgesetz §§ 27 - 31** | Mindestens 10.000 Unterstützungsunterschriften für das Zulassungsverfahren | Voraussetzung zur Zulassung eines Volksbegehrens beim Innenministerium Baden-Württemberg |
-| **Volksabstimmungsgesetz §§ 32 - 39, § 41** | Amtliche Sammlung erstreckt sich über drei Monate, freie Sammlung über sechs Monate | Dauer der Durchführung der Unterschriftensammlung für ein Volksbegehren |
-| **Volksabstimmungsgesetz §§ 27 - 31** | Entscheidung über die Zulassung innerhalb von vier Wochen nach Eingang | Bearbeitungsfrist für das Innenministerium Baden-Württemberg bei Anträgen auf Zulassung eines Volksbegehrens |
-| **Volksabstimmungsgesetz §§ 27 - 31** | Anrufung des Verfassungsgerichtshofs innerhalb von zwei Wochen nach Zugang der Entscheidung | Rechtsbehelfsfrist für Vertrauensleute bei Ablehnung des Antrags auf Zulassung eines Volksbegehrens |
+| **Notruf** | 110 | Polizeidienststelle im Notfall erreichen |
+| **Notruf** | 112 | Feuerwehr und Rettungsdienst/Notarzt im Notfall erreichen |
 
 ## [Z83] Sektor Z83
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Notruf 112** | Die 112 gilt europaweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen. | Kosten und Gültigkeit des Feuerwehr- und Rettungsdienst-Notrufs 112 |
-| **Notruf 110** | Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110. | Erreichbarkeit des Polizeinotrufs |
-| **Nothilfe-SMS T-Mobile und Vodafone** | 99 0711 216-77112 | Nothilfe-SMS Nummer für Netzanbieter T-Mobile (D1) und Vodafone (D2) |
-| **Nothilfe-SMS Telefonica** | 329 0711 216-77112 | Nothilfe-SMS Nummer für Netzanbieter Telefonica (O2/Eplus) |
-| **Ärztlicher Bereitschaftsdienst 116117** | Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. Die Nummer funktioniert ohne Vorwahl. Sie gilt deutschlandweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen. | Informationen zur Nummer des ärztlichen Bereitschaftsdienstes |
-| **Krankentransport 19222** | Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222. | Rufnummer für den Krankentransport |
+| **Notruf 112** | Die 112 gilt europaweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen. | Kosten und Gültigkeit der Notrufnummer 112 für Feuerwehr und Rettungsdienst. |
+| **Notruf 110** | Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110. Alle Notrufe, die über die 110 eingehen, werden von speziell geschulten Polizeibeamtinnen und -beamten in den Führungs- und Lagezentren im Land entgegengenommen. | Erreichbarkeit und Zuständigkeit des Polizeinotrufs 110. |
+| **Nothilfe-SMS T-Mobile (D1) und Vodafone (D2)** | 99 0711 216-77112 | SMS-Notrufnummer für T-Mobile und Vodafone bei Sprach- oder Hörbehinderung. |
+| **Nothilfe-SMS Telefonica (O2/Eplus)** | 329 0711 216-77112 | SMS-Notrufnummer für Telefonica bei Sprach- oder Hörbehinderung. |
+| **Ärztlicher Bereitschaftsdienst 116117** | Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. Die Nummer funktioniert ohne Vorwahl. Sie gilt deutschlandweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen. | Erreichbarkeit und Konditionen des ärztlichen Bereitschaftsdienstes. |
 
 ## [CW_Z12] Sektor CW_Z12
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -922,60 +886,55 @@
 ## [Z29] Sektor Z29
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Lebenslage Arbeitnehmer** | Die Lebenslage Arbeitnehmer richtet sich an alle, die in einem Arbeitsverhältnis stehen und sich über ihre Rechte und Pflichten informieren wollen. | Informationen für Arbeitnehmer bezüglich Rechte und Pflichten im Arbeitsverhältnis. |
+| **Lebenslage Arbeitnehmer** | Die Lebenslage Arbeitnehmer richtet sich an alle, die in einem Arbeitsverhältnis stehen und sich über ihre Rechte und Pflichten informieren wollen. | Definition und Zielgruppe der Lebenslage Arbeitnehmer im Verwaltungsportal Service-BW. |
 
 ## [Z30] Sektor Z30
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Bürgergeld** | Bürgergeld beantragen | Leistung für Arbeitsuchende und Arbeitslose zur Sicherung des Lebensunterhalts |
+| **Bürgergeld** | Bürgergeld beantragen | Leistungsantrag im Bereich Arbeitssuche und Arbeitslosigkeit in Baden-Württemberg |
 
 ## [Z40] Sektor Z40
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 21 Bundesmeldegesetz (BMG)** | Wenn Sie umziehen und mehrere Wohnungen angemeldet haben, müssen Sie erklären, welche Wohnung Ihre Hauptwohnung und welche Ihre Nebenwohnungen sind. | Melderechtliche Pflichten bei mehreren Wohnungen und Bestimmung der Hauptwohnung |
-| **§ 22 Bundesmeldegesetz (BMG)** | Dabei ist die Hauptwohnung nicht frei wählbar, sondern die vorwiegend genutzte Wohnung, in der Sie sich im Verhältnis zu einer oder mehreren anderen Wohnungen tatsächlich am häufigsten aufhalten. | Definition und Bestimmung der Hauptwohnung |
+| **§ 21 Bundesmeldegesetz (BMG)** | Wenn Sie umziehen und mehrere Wohnungen angemeldet haben, müssen Sie erklären, welche Wohnung Ihre Hauptwohnung und welche Ihre Nebenwohnungen sind. | Melderechtliche Pflichten bei mehreren Wohnungen und Erklärung zur Haupt- und Nebenwohnung |
+| **§ 22 Bundesmeldegesetz (BMG)** | Hauptwohnung ist nicht frei wählbar, sondern die vorwiegend genutzte Wohnung, in der Sie sich im Verhältnis zu einer oder mehreren anderen Wohnungen tatsächlich am häufigsten aufhalten. | Bestimmung der Hauptwohnung bei mehreren Wohnsitzen |
 
 ## [Z45] Sektor Z45
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Fahrzeugzulassungsverweigerungsgesetz (FzZulVweigG)** | 30,00 EUR | Zulassungsverweigerung bei Gebühren- und Auslagenrückständen aus früheren Zulassungsvorgängen |
-| **Kraftfahrzeugsteuergesetz (KraftStG) § 13** | 5,00 EUR | Zulassungsverweigerung bei bestehenden Kraftfahrzeugsteuerschulden |
-| **Fahrzeug-Zulassungsverordnung (FZV) § 13** | Unverzüglich nach erfolgter Ummeldung. | Frist für die Beantragung der KFZ-Ummeldung nach Umzug des Halters |
+| **Bürgerliches Gesetzbuch (BGB) § 1741** | Zulässigkeit der Annahme | Rechtsgrundlagen für die Adoption im BGB |
+| **Bürgerliches Gesetzbuch (BGB) § 1754** | Wirkung der Annahme | Rechtsgrundlagen für die Wirkung der Annahme im BGB |
+| **Adoptionsgesetz § 1** | Grundsätze der Adoption | Grundsätze der Adoption nach dem Adoptionsgesetz |
 
 ## [Z47] Sektor Z47
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§§ 153 StPO, 45 Abs. 2 JGG** | Die Kurse können sowohl als staatsanwaltliche Maßnahmen im Rahmen der §§153 StPO und §45 Abs.2 JGG als auch als richterliche Weisungen durchgeführt werden. | Rechtsgrundlage für Früh- und Kurzinterventionskurse für suchtmittelauffällige Jugendliche und junge Erwachsene im Landkreis Schwäbisch Hall |
-| **Landratsamt Schwäbisch Hall - Früh- und Kurzintervention** | sechsmal 2 Stunden | Umfang und Bearbeitungsdauer der Kurse A und B der Jugend-Sucht-Beratung |
-| **Freigabevermerk Justizministerium Baden-Württemberg** | 17.03.2026 | Freigabedatum der Information zur Auflösung einer Ehe oder Lebenspartnerschaft |
+| **Freigabevermerk Justizministerium Baden-Württemberg** | 17.03.2026 | Aktualisierungsdatum der Informationen zur Lebenslage Scheidung und Trennung in Baden-Württemberg |
 
 ## [Z51] Sektor Z51
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Land BW - Lebenslage Geburt** | Informationen über den Mutterschutz während der Schwangerschaft, Erziehungsgeld während der Elternzeit und sonstige finanzielle Hilfen. | Übersicht über finanzielle Hilfen und organisatorische Schritte rund um die Geburt in Baden-Württemberg |
+| **Lebenslage Geburt Landesportal BW** | Informieren Sie sich über den Mutterschutz während der Schwangerschaft, lesen Sie alles rund ums Erziehungsgeld während der Elternzeit und verschaffen Sie sich einen Überblick über sonstige finanzielle Hilfen. | Informationen rund um die Lebenslage Geburt, Mutterschutz und finanzielle Hilfen in Baden-Württemberg. |
 
 ## [Z56] Sektor Z56
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Gläubiger-Schuldner-Verhältnis** | Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern. | Definition des Leistungsanspruchs zwischen Gläubiger und Schuldner |
-| **Freigabevermerk Justizministerium Baden-Württemberg** | 03.02.2026 | Freigabedatum der Lebenslagen-Information zu Gläubiger und Schuldner |
-| **§ 27 a Umsatzsteuergesetz** | 56003/00351 | Umsatzsteuer-Identifikationsnummer der Stadt Sindelfingen |
-| **Freigabevermerk Stadt Sindelfingen** | 05.02.2007 | Freigabedatum der Verfahrensinformationen zu Ordnungswidrigkeiten durch das Ordnungs- und Standesamt Sindelfingen |
+| **Service-BW Lebenslage 5000945** | Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern. | Rechte und Pflichten von Gläubiger und Schuldner |
 
 ## [Z62] Sektor Z62
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Bürgerliches Gesetzbuch (Erbrecht)** | Individuelle erbrechtliche Konstellationen sind in der Regel sehr komplex. Lassen Sie sich am besten von einem Rechtsanwalt oder einer Rechtsanwältin, einem Notar oder einer Notarin beraten. | Empfehlung zur Rechtsberatung bei erbrechtlichen Fragen in Baden-Württemberg |
+| **BGB / Erbrecht** | Individuelle erbrechtliche Konstellationen sind in der Regel sehr komplex. Lassen Sie sich am besten von einem Rechtsanwalt oder einer Rechtsanwältin, einem Notar oder einer Notarin beraten. | Empfehlung zur Rechtsberatung bei komplexen erbrechtlichen Konstellationen |
 
 ## [Z84] Sektor Z84
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Telemediengesetz (TMG) bzw. Staatsvertrag für Rundfunk und Telemedien (RStV)** | Stadt Sindelfingen Rathausplatz 1 71063 Sindelfingen Telefon: 07031/94-0 E-Mail: stadt@sindelfingen.de | Impressum der Stadt Sindelfingen mit Pflichtangaben nach TMG |
+| **Justizministerium Baden-Württemberg Freigabevermerk** | Der Freigabevermerk für die Lebenslage Gläubiger und Schuldner stammt vom 03.02.2026. | Aktualität und Herausgeber der Informationen zu Gläubiger und Schuldner in Baden-Württemberg. |
 
 ## [Z86] Sektor Z86
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Landratsamt Karlsruhe Brennholz** | Als Brennholz-Selbstwerber (Käufer von Brennholz-lang oder Flächenlosen) benötigen Sie neben einer Motorsäge und weiterem Werkzeug die nach den Unfallverhütungsvorschriften vorgeschriebene Schutzkleidung und müssen die Teilnahme an einem zweitägigen Motorsägenlehrgang nachweisen. | Voraussetzungen für den Erwerb von Brennholz als Selbstwerber im Landkreis Karlsruhe |
+| **Service-BW Lebenslage Arbeitnehmer** | Die Lebenslage Arbeitnehmer richtet sich an alle, die in einem Arbeitsverhältnis stehen und sich über ihre Rechte und Pflichten informieren wollen. | Definition und Zielgruppe der Lebenslage Arbeitnehmer auf Service-BW |
 
 # === Ebene 6 – Daten- & Registerarchitektur (Informationsarchitektur: ZVR, Melderegister, Meldedaten) ===
 
@@ -989,31 +948,42 @@
 ## [Z36] Sektor Z36
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **PStG-DVO § 5 i.V.m. Anlage 1** | EUR 20,00 | Gebühr für zusätzliche oder mehrsprachige Sterbeurkunden |
-| **PStG §§ 28 - 33** | spätestens am dritten Werktag, der auf den Tod folgt. | Frist zur Anzeige eines Sterbefalls beim Standesamt |
-| **Passgesetz / Kinderreisepass-Regelung** | 1. Januar 2024 | Datum, seit dem keine Kinderreisepässe mehr beantragt werden können |
+| **Ausweispflicht § 1 PAuswG** | Jeder Deutsche, der mindestens 16 Jahre alt ist und der Meldepflicht unterliegt oder sich überwiegend in Deutschland aufhält, ist verpflichtet, einen gültigen Personalausweis zu besitzen. | Pflichten zum Besitz von Ausweisdokumenten für deutsche Staatsangehörige |
+| **Kinderreisepass Abschaffung** | Eine Beantragung des Kinderreisepasses ist seit 1. Januar 2024 nicht mehr möglich. | Änderungen bei Reisedokumenten für Kinder |
 
 ## [Z65] Sektor Z65
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Verwaltungsvorschrift BW - Kinderreisepass** | Eine Beantragung des Kinderreisepasses ist seit 1. Januar 2024 nicht mehr möglich. | Änderung der Rechtslage bezüglich Reisedokumenten für Kinder ab dem 01.01.2024 in Baden-Württemberg. |
+| **§ Grundsicherung / Passrecht** | Eine Beantragung des Kinderreisepasses ist seit 1. Januar 2024 nicht mehr möglich. | Änderung bei Reisedokumenten für Kinder ab dem Jahr 2024. |
 
 ## [Z79] Sektor Z79
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 42a LVwVfG in Verbindung mit § 6a Absatz 1 GewO** | Die zuständige Stelle muss über Ihren Antrag innerhalb einer Frist von drei Monaten entscheiden. Diese Frist beginnt mit dem Eingang der vollständigen Unterlagen. Nach Ablauf dieser Frist gilt die beantragte Erlaubnis als erteilt, wenn Ihr Antrag hinreichend bestimmt ist. | Bearbeitungsdauer und Fristen bei der Beantragung einer Reisegewerbekarte mit Regelung zur Genehmigungsfiktion |
+| **Freigabevermerk Landesportal Baden-Württemberg** | 14.07.2026 | Gültigkeitsdatum oder Freigabedatum der Informationen zur Lebenslage Deutsche Staatsangehörigkeit auf Service-BW |
 
 ## [Z80] Sektor Z80
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 558 d Abs.1 BGB** | Der Mietspiegel sowie ein Onlinerechner stehen Ihnen zur kostenfreien Anwendung zur Verfügung. | Kosten für die Nutzung des qualifizierten Mietspiegels der Stadt Friedrichshafen |
+| **Bundesvertriebenengesetz (BVFG)** | Rechtsgrundlage für Spätaussiedler | Rechtsgrundlagen und Voraussetzungen für Spätaussiedler, die nach Deutschland kommen möchten. |
 
 ## [Z81] Sektor Z81
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Aufenthaltsgesetz und Freizügigkeitsgesetz/EU** | Die wesentlichen Rechtsgrundlagen des Aufenthaltsrechts der Bundesrepublik Deutschland sind das Aufenthaltsgesetz und das Freizügigkeitsgesetz/EU. | Rechtsgrundlagen für Einreise und Aufenthalt in Deutschland |
+| **Aufenthaltsgesetz und Freizügigkeitsgesetz/EU** | Die wesentlichen Rechtsgrundlagen des Aufenthaltsrechts der Bundesrepublik Deutschland sind das Aufenthaltsgesetz und das Freizügigkeitsgesetz/EU. | Rechtsgrundlagen für Einreise, Aufenthalt, Erwerbstätigkeit und Integration von Drittstaatsangehörigen sowie Unionsbürgern in Baden-Württemberg. |
 
 # === Ebene 7 – IT-Anwendungs- & Fachinfrastruktur (Technologie: Standards, Vergabe, Gewerbe) ===
+
+## [32] Sektor 32
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Apache 2.0 License** | You are free to copy, modify, and distribute these skills under the terms of the Apache 2.0 license. | Lizenzbestimmungen für das Google Skills Repository |
+
+## [33] Sektor 33
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Google AI Ultra Abo** | 100 $ | Neues Google AI Ultra-Abo für 100 $ monatlich inklusive 20 TB Cloud-Speicher und YouTube Premium. |
+| **Google AI Pro Abo** | 21,99 € | Monatlicher Preis für das Google AI Pro Abo nach Ablauf des kostenlosen Testzeitraums für Studierende. |
+| **Studierenden-Aktion** | 3. November 2025 | Registrierungsfrist für das kostenlose einjährige Upgrade auf Google AI Pro für Studierende. |
 
 ## [Z2] Sektor Z2
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -1038,93 +1008,68 @@
 ## [Z35] Sektor Z35
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Fahrerlaubnisverordnung** | Ab dem 19. Januar 2013 ausgestellte Kartenführerscheine sind auf 15 Jahre befristet. | Gültigkeitsdauer und Befristung von neu ausgestellten Kartenführerscheinen in Baden-Württemberg |
+| **FeV** | Ab dem 19. Januar 2013 ausgestellte Kartenführerscheine sind auf 15 Jahre befristet. | Gültigkeitsdauer und Befristung von neu ausgestellten Kartenführerscheinen in Baden-Württemberg |
+
+## [Z38] Sektor Z38
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Service-BW Lebenslage 5000427** | Was es beim Neubau, bei der Errichtung, Änderung, Nutzungsänderung oder beim Abbruch einer baulichen Anlage zu beachten gibt, lesen Sie hier. | Informationen für Bauherren zu gesetzlichen Vorgaben und staatlichen Unterstützungen bei Bauvorhaben in Baden-Württemberg. |
 
 ## [Z39] Sektor Z39
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Lebenslage Grundstück (service-bw.de)** | Zu der Lebenslage Grundstück gehören behördliche Leistungen wie Abwasser entsorgen, Auskunft aus dem Bodenschutz- und Altlastenkataster beantragen, Auskunft aus der Kaufpreissammlung beantragen sowie Baugenehmigung - Nutzungsänderung einer baulichen Anlage beantragen. | Verwaltungsangebote und Verfahren für Grundstückseigentümer und -käufer in Baden-Württemberg. |
+| **Service-BW Lebenslage Grundstück** | Informationen und passende Leistungen in allen Angelegenheiten rund um das Grundstück wie Abwasser entsorgen, Altlasten- und Bodenschutzkataster, Auskunft aus dem Bodenschutz- und Altlastenkataster beantragen, Auskunft aus der Kaufpreissammlung beantragen sowie Baugenehmigung - Nutzungsänderung einer baulichen Anlage beantragen. | Übersicht und passende Leistungen für die Lebenslage Grundstück in Baden-Württemberg. |
 
 ## [Z43] Sektor Z43
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **PStG-DVO** | 65,00 EUR | Gebühr für die Prüfung der Ehefähigkeit bei Anmeldung der Eheschließung |
-| **PStG-DVO** | 110,00 EUR | Gebühr für die Prüfung der Ehefähigkeit, wenn ausländisches Recht zu beachten ist |
-| **PStG-DVO** | 130,00 EUR | Gebühr für die Prüfung der Ehefähigkeit, wenn ausländisches Recht zu beachten und ein Befreiungsverfahren durchzuführen ist |
-| **PStG-DVO** | 45,00 EUR | Gebühr für die Durchführung und Beurkundung der Eheschließung |
-| **PStG-DVO** | 110,00 EUR | Gebühr für die standesamtliche Trauung außerhalb der üblichen Dienstzeiten |
-| **PStG-DVO** | 45,00 EUR | Gebühr für eine Trauung vor einem anderen Standesamt in Baden-Württemberg als dem Anmeldestandesamt |
-| **§ 13 PStG** | 6 Monaten | Frist, innerhalb derer nach erfolgreicher Ehevoraussetzungsprüfung geheiratet werden kann |
-| **§ 1303 BGB** | Vollendung des 18. Lebensjahres | Voraussetzung für das Eingehen einer Ehe (Ehemündigkeit/Volljährigkeit) |
-
-## [Z44] Sektor Z44
-| Norm / AZ | Wert / Parameter | Kontext / Detail |
-| :--- | :--- | :--- |
-| **Unterhaltsvorschussgesetz (UVG) § 2** | EUR 227,00 | Monatlicher Unterhaltsvorschuss ab dem 01.01.2025 für Kinder unter sechs Jahren |
-| **Unterhaltsvorschussgesetz (UVG) § 2** | EUR 299,00 | Monatlicher Unterhaltsvorschuss ab dem 01.01.2025 für Kinder von sechs bis elf Jahren |
-| **Unterhaltsvorschussgesetz (UVG) § 2** | EUR 394,00 | Monatlicher Unterhaltsvorschuss ab dem 01.01.2025 für Kinder zwischen zwölf und siebzehn Jahren |
-| **Sozialgesetzbuch (SGB) II** | EUR 600,00 | Mindest-Bruttoeinkommen des alleinerziehenden Elternteils bei SGB II-Bezug für den Unterhaltsvorschussanspruch von Kindern ab 12 Jahren |
+| **Service-BW Lebenslage 5000069** | Hinweise und Tipps über die verschiedenen Möglichkeiten von Freiwilligendiensten sowie Informationen zur Bewerbung für Bundesfreiwilligendienst, Freiwilliges Ökologisches Jahr (FÖJ) und Freiwilliges Soziales Jahr (FSJ). | Informationen zu Freiwilligendiensten wie FÖJ, FSJ und Bundesfreiwilligendienst in Baden-Württemberg. |
 
 ## [Z64] Sektor Z64
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Service-BW Lebenslage 5001410** | Fahrzeuge Ob neu oder gebraucht - hier erfahren Sie, wann Sie ein Fahrzeug an-, ab- oder ummelden müssen und was es rund um das Kennzeichen zu beachten gibt. | Allgemeine Information zur Fahrzeuganmeldung, -abmeldung und -ummeldung sowie Kennzeichen im Land Baden-Württemberg. |
+| **Service-BW Lebenslage 5001410** | Unabhängig davon, ob Sie zum Beispiel ein Motorrad oder Auto, einen Lkw oder Bus auf öffentlichen Straßen bewegen, benötigen Sie für die meisten Fahrzeugtypen eine Fahrerlaubnis. | Informationen zur Fahrzeuganmeldung und den damit verbundenen Voraussetzungen wie der Fahrerlaubnis. |
 
 ## [Z66] Sektor Z66
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 311b Abs. 1 BGB** | Grundstückskaufverträge bedürfen der notariellen Beurkundung. | Formerfordernis für den Kauf oder Verkauf eines Grundstücks |
-| **Verbraucherschutzfrist Beurkundung** | Notarieller Vertragsentwurf muss dem Verbraucher im Regelfall zwei Wochen vor der Beurkundung zur Verfügung gestellt werden. | Frist zur Prüfung des Vertragsentwurfs beim Kauf von einem Unternehmen |
-| **§ 873 BGB, § 925 BGB** | Der Eigentumsübergang an einem Grundstück erfolgt erst durch Auflassung und Eintragung der Eigentumsänderung im Grundbuch. | Voraussetzungen für den Eigentumserwerb an Grundstücken |
+| **Verwaltungs-Berufsgenossenschaft (VBG)** | Alle gemeinnützigen Organisationen, darunter viele Vereine, haben die Möglichkeit, ihre gewählten Ehrenamtsträger wie zum Beispiel Vereinsvorstände, Kassen- oder Sportwarte gegen die Folgen von Unfällen zu versichern. | Unfallversicherung für ehrenamtliche Vereinsvorstände und Funktionsträger |
+| **Engagementnachweis Baden-Württemberg** | Tipp: Vereine können ehrenamtlichen Mitarbeitern den "Engagementnachweis Baden-Württemberg" ausstellen. Er dokumentiert die im Rahmen der ehrenamtlichen Tätigkeit erworbenen Fähigkeiten und Kenntnisse. | Dokumentation von ehrenamtlich erworbenen Fähigkeiten |
 
 ## [Z68] Sektor Z68
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Freigabevermerk 05.03.2026 Innenministerium Baden-Württemberg** | Freigabevermerk 05.03.2026 Innenministerium Baden-Württemberg | Freigabedatum der Lebenslage Sicherheit und Gefahrenabwehr durch das Innenministerium Baden-Württemberg |
+| **Service-BW Lebenslage 5000006** | Sicherheit und Gefahrenabwehr Im Not- oder Katastrophenfall ist guter Rat teuer. Diese Lebenslage bietet Ihnen konkrete Hilfsmaßnahmen und Strategien im Not- oder Katastrophenfall. | Informationen zur Lebenslage Sicherheit und Gefahrenabwehr bei Service-BW |
 
 ## [Z71] Sektor Z71
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Führerscheinstelle Baden-Württemberg - Führerschein Erweiterung Kosten** | 45,90 EUR | Kosten für die Führerscheinerweiterung von den Klassen AM, L und T auf eine weitere Klasse unter Festsetzung einer Probezeit. |
-| **Führerscheinstelle Baden-Württemberg - Führerschein Erweiterung Kosten** | 45,10 EUR | Kosten für die Führerscheinerweiterung von den Klassen A, B, C, D einschließlich Anhänger und Unterklassen auf eine weitere Klasse ohne Festsetzung einer Probezeit. |
-| **Fahrerlaubnisverordnung (FeV) / Straßenverkehrsgesetz (StVG)** | Sie müssen die theoretische Prüfung innerhalb von zwölf Monaten nach Eingang des Prüfauftrags bei der Technischen Prüfstelle bestehen. Die praktische Prüfung müssen Sie innerhalb von zwölf Monaten nach der bestandenen theoretischen Prüfung bestehen. | Fristen für das Bestehen der theoretischen und praktischen Prüfung bei der Führerscheinerweiterung. |
+| **https://www.service-bw.de/zufi/lebenslagen/5000437** | Hier erhalten Sie umfangreiche Informationen über Ihre Rechte und Pflichten als Arbeitgeber. | Informationen für Arbeitgeber über Rechte und Pflichten auf service-bw.de |
 
 ## [Z72] Sektor Z72
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **EU-Dienstleistungsrichtlinie** | Deutsche, Angehörige anderer EU-/EWR-Staaten oder Staatsangehörige der Schweiz, die in Baden-Württemberg eine Dienstleistung anbieten wollen, die von der EU-Dienstleistungsrichtlinie erfasst ist, finden unter " Selbständigkeit online " Informationen über die Voraussetzungen und zur elektronischen Antragsabwicklung. | Informationen zur Dienstleistungsfreiheit und elektronischen Antragsabwicklung für Selbständige in Baden-Württemberg |
+| **EU-Dienstleistungsrichtlinie** | Deutsche, Angehörige anderer EU-/EWR-Staaten oder Staatsangehörige der Schweiz, die in Baden-Württemberg eine Dienstleistung anbieten wollen, die von der EU-Dienstleistungsrichtlinie erfasst ist, finden unter " Selbständigkeit online " Informationen über die Voraussetzungen und zur elektronischen Antragsabwicklung. | Informationen zur Dienstleistungsfreiheit und elektronischen Antragsabwicklung für EU-/EWR-Staaten und die Schweiz in Baden-Württemberg. |
 
 ## [Z73] Sektor Z73
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Gewerbeordnung** | Sie wollen ein Unternehmen gründen und müssen ein Gewerbe anmelden oder sogar eine Erlaubnis einholen? | Informationen zur Gewerbeanmeldung und zu erforderlichen Erlaubnissen bei der Unternehmensgründung in Baden-Württemberg. |
+| **Gewerbeordnung / Dienstleistung** | Gewerbe anmelden oder eine Erlaubnis einholen bei der Gründung eines Unternehmens | Informationen zur Existenzgründung und gewerblichen Erlaubnispflichten in Baden-Württemberg |
 
 ## [Z74] Sektor Z74
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Wirtschaftsministerium Baden-Württemberg** | Patente, Marken, Ideentransfer | Informationen zur Marktdurchsetzung von Geschäftsideen, Patenten und Marken für Privatpersonen und Unternehmen in Baden-Württemberg. |
-| **Stadt Esslingen am Neckar** | Reiseausweis für Flüchtlinge, Ausländer und Staatenlose | Voraussetzungen und Verfahren zur Beantragung von eReiseausweisen für Asylberechtigte, Flüchtlinge und Staatenlose in Esslingen. |
+| **Service-BW Lebenslage 5001195** | Mit der Umsetzung und Marktdurchsetzung einer Geschäftsidee untrennbar verbunden sind auch Bereiche wie Patente, Marken und andere Schutzrechte. | Informationen zu Patente, Marken und Ideentransfer für Unternehmensgründer und Privatpersonen in Baden-Württemberg. |
 
 ## [Z75] Sektor Z75
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Erbschaftsteuer- und Schenkungsteuergesetz** | 3 Monate | Frist für die Anzeige einer Erbschaft oder Schenkung beim Finanzamt nach Kenntniserlangung. |
-
-## [Z76] Sektor Z76
-| Norm / AZ | Wert / Parameter | Kontext / Detail |
-| :--- | :--- | :--- |
-| **Service-BW Lebenslage 5000792** | Unternehmen gründen Sie wollen sich selbständig machen und ein Unternehmen gründen? Wir unterstützen Sie dabei mit einem vielfältigen Informationsangebot. | Informationen zur Existenzgründung und Unternehmensgründung in Baden-Württemberg |
-
-## [Z77] Sektor Z77
-| Norm / AZ | Wert / Parameter | Kontext / Detail |
-| :--- | :--- | :--- |
-| **§ 4 Abs. 3 Schulgesetz (SchG), § 7 Schulgesetz (SchG), § 88 Schulgesetz (SchG)** | Dienstag, 05. März bis Freitag, 08. März 2024 | Anmeldetermine für das Schuljahr 2024/2025 für Schülerinnen und Schüler an Realschulen nach der Grundschulempfehlung. |
-| **§ 4 Abs. 3 Schulgesetz (SchG), § 7 Schulgesetz (SchG), § 88 Schulgesetz (SchG)** | bis Mittwoch, 10. April 2024 | Anmeldetermine für das Schuljahr 2024/2025 für Schülerinnen und Schüler, die am besonderen Beratungsverfahren teilnehmen. |
+| **Service-BW Lebenslage 5001018** | In dieser Lebenslage erhalten Sie einen Überblick über die wichtigsten Themen, die für den laufenden Betrieb eines Unternehmens von Bedeutung sind. | Überblick über Themen für den laufenden Betrieb eines Unternehmens |
 
 ## [Z78] Sektor Z78
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Vergabe öffentlicher Aufträge BW** | In diesem Portal können Sie im Bereich Öffentliche Ausschreibungen kostenlos die Ausschreibungsveröffentlichungen der betreffenden Vergabestellen des Landes Baden-Württemberg einsehen. | Kostenlose Einsicht in Ausschreibungsveröffentlichungen im Land Baden-Württemberg |
+| **Vergabe öffentlicher Aufträge Landes Baden-Württemberg** | In diesem Portal können Sie im Bereich Öffentliche Ausschreibungen kostenlos die Ausschreibungsveröffentlichungen der betreffenden Vergabestellen des Landes Baden-Württemberg einsehen. | Kostenlose Einsichtnahme in Ausschreibungsveröffentlichungen im Portal von Service-BW |
 
 ## [FDS_Z2] Sektor FDS_Z2
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -1147,33 +1092,6 @@
 | **Rechtsanspruch auf Auszahlungstag** | Es besteht kein Rechtsanspruch darauf, dass die Leistungen an einem bestimmten Tag des Monats überwiesen werden; an Wochenenden und Feiertagen kann sich der Geldeingang verschieben. | Ausschluss eines festen kalendertäglichen Überweisungsanspruchs. |
 | **Erstauszahlungsgrundsatz Kindergeld / Kinderzuschlag** | Bei der Erstauszahlung wird der volle Monatsbetrag gewährt, selbst wenn der Anspruch erst am letzten Tag des Kalendermonats entsteht. | Monatsprinzip bei Anspruchsentstehung im laufenden Monat. |
 | **Telefontarif Servicerufnummern Familienkasse** | 0800 4 555533 und 0800 4 555530 sind gebührenfrei erreichbar. | Kostenfreie telefonische Auskunft der Familienkasse zu Auszahlung und allgemeinen Fragen. |
-
-## [Z48] Sektor Z48
-| Norm / AZ | Wert / Parameter | Kontext / Detail |
-| :--- | :--- | :--- |
-| **Verwaltungsvorschrift des Kultusministeriums über Förderrichtlinien zur Gewährung von Zuwendungen an die Träger der Horte an der Schule und der herkömmlichen Horte** | EUR 17.622,00 | Förderhöhe pro Gruppe und Schuljahr für Horte und Horte an der Schule |
-| **Verwaltungsvorschrift des Kultusministeriums über Förderrichtlinien zur Gewährung von Zuwendungen an die Träger der Horte an der Schule und der herkömmlichen Horte** | 15. November bis zum 31. Dezember des laufenden Schuljahres | Antragsfrist für die Förderung von Hortgruppen |
-| **Rechtsbehelf (Zuwendungsbescheid Hortförderung)** | Gegen den Zuwendungsbescheid kann innerhalb eines Monats nach Bekanntgabe beim zuständigen Verwaltungsgericht schriftlich oder zur Niederschrift des Urkundsbeamten bei der Geschäftsstelle des Gerichts Klage erhoben werden. | Rechtsbehelfsbelehrung zur Anfechtung eines Zuwendungsbescheids für Horte |
-
-## [Z49] Sektor Z49
-| Norm / AZ | Wert / Parameter | Kontext / Detail |
-| :--- | :--- | :--- |
-| **§ 90 SGB VIII** | Wenn Sie die finanzielle Belastung durch die Kita-Gebühren nicht tragen können, können Sie beim örtlichen Jugendamt einen Antrag auf Gebührenermäßigung oder Gebührenbefreiung stellen. | Antragstellung auf Übernahme oder Ermäßigung von Kindertageseinrichtungs-Gebühren |
-| **Widerspruchsfrist** | Innerhalb eines Monats Widerspruch einlegen | Frist für den Rechtsbehelf gegen den Ablehnungsbescheid |
-
-## [Z61] Sektor Z61
-| Norm / AZ | Wert / Parameter | Kontext / Detail |
-| :--- | :--- | :--- |
-| **Freigabevermerk vom 06.10.2025** | 06.10.2025 | Freigabevermerk der Informationsseite zu Altersvorsorge und Ruhestand der Deutschen Rentenversicherung Baden-Württemberg |
-| **§ 27 a Umsatzsteuergesetz** | DE 14 53 40 17 3 | Umsatzsteuer-Identifikationsnummer der Stadt Esslingen am Neckar gemäß § 27 a UStG |
-| **§ 6 MDStV** | Nicole Amolsch | Inhaltlich Verantwortliche gemäß § 6 Mediendienste-Staatsvertrag der Stadt Esslingen am Neckar |
-| **Freigabevermerk vom 03.12.2012** | 03.12.2012 | Freigabevermerk der Online-Bibliothek der Stadt Esslingen am Neckar |
-
-## [Z63] Sektor Z63
-| Norm / AZ | Wert / Parameter | Kontext / Detail |
-| :--- | :--- | :--- |
-| **Landesportal Service BW - Vormundschaft und rechtliche Betreuung** | Die Interessen solcher Erwachsener nimmt eine rechtliche Betreuerin oder ein rechtlicher Betreuer wahr, wenn deren Angelegenheiten nicht anderweitig - etwa durch eine bevollmächtigte Person - besorgt werden können. | Voraussetzungen für die Bestellung einer rechtlichen Betreuung. |
-| **Landesportal Service BW - Vormundschaft und rechtliche Betreuung** | Das Gericht bestellt einen Vormund zum Beispiel für Minderjährige ohne lebenden Elternteil oder wenn beiden Elternteilen die elterliche Sorge durch gerichtliche Entscheidung entzogen wurde. | Voraussetzungen für die Bestellung eines Vormunds für Minderjährige. |
 
 ## [Z87] Sektor Z87
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -1222,6 +1140,32 @@
 | :--- | :--- | :--- |
 | **Deutsche Rentenversicherung Baden-Württemberg - Außenstelle Pforzheim** | Freiburger Straße 7, 75179 Pforzheim | Hausanschrift der Außenstelle Pforzheim der Deutschen Rentenversicherung Baden-Württemberg |
 | **Deutsche Rentenversicherung Baden-Württemberg - Außenstelle Pforzheim** | 07218250 | Telefonnummer der Außenstelle Pforzheim der Deutschen Rentenversicherung Baden-Württemberg |
+
+## [Z48] Sektor Z48
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Service-BW Lebenslage Familie und Kinder** | Bürgergeld beantragen | Informationen zu staatlichen Leistungen für Familien in Baden-Württemberg inklusive der Möglichkeit zur Antragstellung von Bürgergeld. |
+
+## [Z49] Sektor Z49
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **https://www.service-bw.de/zufi/lebenslagen/5001280** | Kindertageseinrichtungen - Gebührenermäßigung oder Gebührenbefreiung beantragen | Informationen zur Kinderbetreuung und passenden Leistungen wie Gebührenermäßigung oder Gebührenbefreiung. |
+
+## [Z55] Sektor Z55
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Service-BW Lebenslage Gesundheit** | Informationen zu Früherkennungs- und Vorsorgeuntersuchungen, zur Krankenversicherung sowie zu Strukturen und Abläufen im Gesundheitswesen finden Sie in den folgenden Kapiteln. | Übersicht über Gesundheitsleistungen und -informationen in Baden-Württemberg |
+
+## [Z61] Sektor Z61
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Service-BW Lebenslage Altersvorsorge und Ruhestand** | Für eine persönliche Beratung über die Leistungen der gesetzlichen Rentenversicherung wenden Sie sich an eine Beratungsstelle Ihrer Rentenversicherung. | Beratungsangebote zur gesetzlichen Rentenversicherung und Altersvorsorge in Baden-Württemberg |
+
+## [Z63] Sektor Z63
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Land_BW Service-BW 5001456** | Die Interessen solcher Erwachsener nimmt eine rechtliche Betreuerin oder ein rechtlicher Betreuer wahr, wenn deren Angelegenheiten nicht anderweitig - etwa durch eine bevollmächtigte Person - besorgt werden können. | Voraussetzungen für die Bestellung einer rechtlichen Betreuung in Baden-Württemberg |
+| **Land_BW Service-BW 5001456** | Das Gericht bestellt einen Vormund zum Beispiel für Minderjährige ohne lebenden Elternteil oder wenn beiden Elternteilen die elterliche Sorge durch gerichtliche Entscheidung entzogen wurde. | Voraussetzungen für die gerichtliche Bestellung eines Vormunds |
 
 # === Auffang-Sektor (Dynamische Erweiterungen / Neue Slots) ===
 

@@ -1,4 +1,13 @@
-RADAR-DELTA COMPACT (2026-11-14 03:10:07)
+RADAR-DELTA COMPACT (2026-11-14)
+- [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 1. Juli 2026 mit strengeren Mitwirkungspflichten sowie neuen Regelungen zum Vermögen und zu den Wohnkosten
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Wohnkosten
+- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II Regelsatz: 563 Euro
+- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II Vermögensanrechnung: Abschaffung der früheren Karenzzeit mit Freibetrag von bis zu 40.000 Euro; Vermögensprüfung direkt von Anfang an
+- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II Schonvermögen: Altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person
+- [32: Google Agent Skills Repository (GitHub)] Apache 2.0 License: You are free to copy, modify, and distribute these skills under the terms of the Apache 2.0 license.
+- [33: Gemini Apps Release Notes & Workspace Skills (Offiziell)] Google AI Ultra Abo: 100 $
+- [33: Gemini Apps Release Notes & Workspace Skills (Offiziell)] Google AI Pro Abo: 21,99 €
+- [33: Gemini Apps Release Notes & Workspace Skills (Offiziell)] Studierenden-Aktion: 3. November 2025
 - [FDS_GM_05: Gemeinde Empfingen - Bürgerservice] Art. 6 Abs. 1 s. 1 lit. e DSGVO i.V.m. §§ 2, 3 EGovG BW: Rechtsgrundlage für die Verarbeitung personenbezogener Daten im Rahmen der Online-Formulare und Sicherheitsprüfungen der Website der Gemeinde Empfingen.
 - [FDS_GM_05: Gemeinde Empfingen - Bürgerservice] Art. 6 Abs. 1 f) DSGVO: Rechtsgrundlage für die Erhebung und Verarbeitung von Daten durch die Netze BW GmbH zur Gewährleistung der Stabilität und Sicherheit der Website.
 - [FDS_GM_05: Gemeinde Empfingen - Bürgerservice] Datenschutz-Löschfrist IP-Adresse Netze BW: 7 Tage
@@ -93,3 +102,71 @@ RADAR-DELTA COMPACT (2026-11-14 03:10:07)
 - [Z84: LL: Gläubiger und Schuldner (Sicherheits-Check)] Telemediengesetz (TMG) bzw. Staatsvertrag für Rundfunk und Telemedien (RStV): Stadt Sindelfingen Rathausplatz 1 71063 Sindelfingen Telefon: 07031/94-0 E-Mail: stadt@sindelfingen.de
 - [Z85: LL: Wohnen (Sicherheits-Check)] Kommunalabgabengesetz (KAG) § 9 Absatz 3: Sie müssen den Hund innerhalb eines Monats ab dem Tag anmelden, seit dem Sie einen Hund halten oder seit dem Sie in die Gemeinde gezogen sind.
 - [Z86: LL: Arbeitnehmer (Sicherheits-Check)] Landratsamt Karlsruhe Brennholz: Als Brennholz-Selbstwerber
+- [Z23: Wohngeldbehörde Pforzheim (Anträge & Vordrucke)] Datenschutzgrundverordnung (DSGVO): Eine automatische Löschung erfolgt nach 180 Tagen, insofern entsprechende Daten nicht weiter benötigt werden.
+- [Z29: LL: Arbeitnehmer] Lebenslage Arbeitnehmer: Die Lebenslage Arbeitnehmer richtet sich an alle, die in einem Arbeitsverhältnis stehen und sich über ihre Rechte und Pflichten informieren wollen.
+- [Z30: LL: Arbeitslos, Grundsicherungsgeld] Bürgergeld: Bürgergeld beantragen
+- [Z31: LL: Berufsausbildung] Wirtschaftsministerium Baden-Württemberg: Freigabevermerk 15.04.2025
+- [Z33: LL: Studium] https://www.service-bw.de/zufi/lebenslagen/5001119: Hier finden Sie einen Überblick über die vielfältige Studienlandschaft in Baden-Württemberg: Wir bieten Ihnen Informationen zu Voraussetzungen, Auswahlverfahren und Formen der Studienplatzvergabe, aber auch zu den Kosten, Förderungen und sozialen Aspekten.
+- [Z34: LL: Weiterbildung] Service-BW Lebenslage 5000199: Der Begriff Weiterbildung umfasst: allgemeine Weiterbildung, berufliche Fortbildung, kirchliche und ländliche Erwachsenenbildung, politische Bildung, wissenschaftliche Weiterbildung, Eltern- und Familienbildung.
+- [Z35: LL: Führerschein] FeV: Ab dem 19. Januar 2013 ausgestellte Kartenführerscheine sind auf 15 Jahre befristet.
+- [Z36: LL: Personalausweis, Reisepass] Ausweispflicht § 1 PAuswG: Jeder Deutsche, der mindestens 16 Jahre alt ist und der Meldepflicht unterliegt oder sich überwiegend in Deutschland aufhält, ist verpflichtet, einen gültigen Personalausweis zu besitzen.
+- [Z36: LL: Personalausweis, Reisepass] Kinderreisepass Abschaffung: Eine Beantragung des Kinderreisepasses ist seit 1. Januar 2024 nicht mehr möglich.
+- [Z37: LL: Tierhaltung, Tierschutz, Fischerei und Jagd] Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg: Freigabevermerk 23.12.2025 Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg
+- [Z38: LL: Bauen und Modernisieren] Service-BW Lebenslage 5000427: Was es beim Neubau, bei der Errichtung, Änderung, Nutzungsänderung oder beim Abbruch einer baulichen Anlage zu beachten gibt, lesen Sie hier.
+- [Z39: LL: Grundstück] Service-BW Lebenslage Grundstück: Informationen und passende Leistungen in allen Angelegenheiten rund um das Grundstück wie Abwasser entsorgen, Altlasten- und Bodenschutzkataster, Auskunft aus dem Bodenschutz- und Altlastenkataster beantragen, Auskunft aus der Kaufpreissammlung beantragen sowie Baugenehmigung - Nutzungsänderung einer baulichen Anlage beantragen.
+- [Z40: LL: Umzug] § 21 Bundesmeldegesetz (BMG): Wenn Sie umziehen und mehrere Wohnungen angemeldet haben, müssen Sie erklären, welche Wohnung Ihre Hauptwohnung und welche Ihre Nebenwohnungen sind.
+- [Z40: LL: Umzug] § 22 Bundesmeldegesetz (BMG): Hauptwohnung ist nicht frei wählbar, sondern die vorwiegend genutzte Wohnung, in der Sie sich im Verhältnis zu einer oder mehreren anderen Wohnungen tatsächlich am häufigsten aufhalten.
+- [Z41: LL: Wohnen] Service-BW Lebenslage 5000525: Auf den folgenden Seiten finden Sie die wichtigsten Aspekte zum Thema Wohnen für Mieterinnen und Mieter, Vermieterinnen und Vermieter sowie Eigenheimbesitzerinnen und -besitzer.
+- [Z42: LL: Bürgerschaftliches Engagement] Bürgerschaftliches Engagement Baden-Württemberg: Bürgerschaftlich Engagierte können sich von der Organisation, bei der Sie tätig sind, den Engagementnachweis Baden-Württemberg ausstellen lassen.
+- [Z43: LL: Freiwilligendienste] Service-BW Lebenslage 5000069: Hinweise und Tipps über die verschiedenen Möglichkeiten von Freiwilligendiensten sowie Informationen zur Bewerbung für Bundesfreiwilligendienst, Freiwilliges Ökologisches Jahr
+- [Z45: LL: Adoption] Bürgerliches Gesetzbuch (BGB) § 1741: Zulässigkeit der Annahme
+- [Z45: LL: Adoption] Bürgerliches Gesetzbuch (BGB) § 1754: Wirkung der Annahme
+- [Z45: LL: Adoption] Adoptionsgesetz § 1: Grundsätze der Adoption
+- [Z46: LL: Der Bund fürs Leben] Service-BW Lebenslage Heirat: Vor, während und nach der Heirat sind viele Formalitäten zu erledigen.
+- [Z47: LL: Der Bund fürs Leben - Auflösung] Freigabevermerk Justizministerium Baden-Württemberg: 17.03.2026
+- [Z48: LL: Familie und Kinder] Service-BW Lebenslage Familie und Kinder: Bürgergeld beantragen
+- [Z49: LL: Kinderbetreuung] https://www.service-bw.de/zufi/lebenslagen/5001280: Kindertageseinrichtungen - Gebührenermäßigung oder Gebührenbefreiung beantragen
+- [Z50: LL: Pflegeeltern] Sozialministerium Baden-Württemberg: Pflegeeltern Hier können Sie sich informieren über: Pflegeformen Ihre Rechte und Pflichten als Pflegeeltern die Zusammenarbeit mit dem Jugendamt das Umgangsrecht des Pflegekindes mit den leiblichen Eltern
+- [Z51: LL: Geburt] Lebenslage Geburt Landesportal BW: Informieren Sie sich über den Mutterschutz während der Schwangerschaft, lesen Sie alles rund ums Erziehungsgeld während der Elternzeit und verschaffen Sie sich einen Überblick über sonstige finanzielle Hilfen.
+- [Z52: LL: Sterbefall] Sterbefall: Ausstellung eines Leichenpasses beantragen, Erbschein beantragen, Erdbestattung - Beerdigung beauftragen, Feuerbestattung beantragen, Geburt in öffentlicher oder privater Klinik oder Einrichtung dem Standesamt melden
+- [Z53: LL: Behinderung] Sozialministerium Baden-Württemberg: Menschen mit Behinderung haben ein Recht auf Selbstbestimmung und gleichberechtigte Teilhabe am Leben in der Gesellschaft.
+- [Z54: LL: Gesetzliche Unfallversicherung, Kinder und Schüler] Sozialgesetzbuch Siebtes Buch (SGB VII) : § 2 Versicherung kraft Gesetzes: Ihr Kind ist während des Besuchs von Tageseinrichtungen gesetzlich unfallversichert. Dieser Versicherungsschutz ist für Sie beitragsfrei.
+- [Z55: LL: Gesundheit] Service-BW Lebenslage Gesundheit: Informationen zu Früherkennungs- und Vorsorgeuntersuchungen, zur Krankenversicherung sowie zu Strukturen und Abläufen im Gesundheitswesen finden Sie in den folgenden Kapiteln.
+- [Z56: LL: Gläubiger und Schuldner] Service-BW Lebenslage 5000945: Der Gläubiger ist berechtigt, von einem anderen - dem Schuldner - eine Leistung zu fordern.
+- [Z57: LL: Notlagen] Notruf 112: Bei Bränden, Unglücksfällen oder bei lebensbedrohlichen Unfällen und bei medizinischen Notfällen wenden Sie sich an die Feuerwehr beziehungsweise den Rettungsdienst.
+- [Z57: LL: Notlagen] Polizei-Notruf 110: Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110.
+- [Z57: LL: Notlagen] Ärztlicher Bereitschaftsdienst 116117: Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117.
+- [Z57: LL: Notlagen] Krankentransport 19222: Für einen Krankentransport, bei dem ein Patient unter medizinisch-fachlicher Betreuung befördert werden muss, gibt es eine gesonderte Rufnummer: 19222.
+- [Z58: LL: Opferschutz und Opferhilfe] Notruf: 110
+- [Z58: LL: Opferschutz und Opferhilfe] Notruf: 112
+- [Z59: LL: Stiftungen] Baden-Württemberg Stiftungsrecht: Stiftungen haben in Baden-Württemberg eine lange Tradition und decken durch ein weites Betätigungsfeld große Teile der gesellschaftlichen Lebensbereiche ab.
+- [Z60: LL: Verbraucherschutz und Ernährung] Landesportal Baden-Württemberg - Lebenslage Verbraucherschutz und Ernährung: Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg
+- [Z61: LL: Altersvorsorge und Ruhestand] Service-BW Lebenslage Altersvorsorge und Ruhestand: Für eine persönliche Beratung über die Leistungen der gesetzlichen Rentenversicherung wenden Sie sich an eine Beratungsstelle Ihrer Rentenversicherung.
+- [Z62: LL: Erben und Vererben] BGB / Erbrecht: Individuelle erbrechtliche Konstellationen sind in der Regel sehr komplex. Lassen Sie sich am besten von einem Rechtsanwalt oder einer Rechtsanwältin, einem Notar oder einer Notarin beraten.
+- [Z63: LL: Vormundschaft und rechtliche Betreuung] Land_BW Service-BW 5001456: Die Interessen solcher Erwachsener nimmt eine rechtliche Betreuerin oder ein rechtlicher Betreuer wahr, wenn deren Angelegenheiten nicht anderweitig - etwa durch eine bevollmächtigte Person - besorgt werden können.
+- [Z63: LL: Vormundschaft und rechtliche Betreuung] Land_BW Service-BW 5001456: Das Gericht bestellt einen Vormund zum Beispiel für Minderjährige ohne lebenden Elternteil oder wenn beiden Elternteilen die elterliche Sorge durch gerichtliche Entscheidung entzogen wurde.
+- [Z64: LL: Fahrzeuge] Service-BW Lebenslage 5001410: Unabhängig davon, ob Sie zum Beispiel ein Motorrad oder Auto, einen Lkw oder Bus auf öffentlichen Straßen bewegen, benötigen Sie für die meisten Fahrzeugtypen eine Fahrerlaubnis.
+- [Z65: LL: Reisen] § Grundsicherung / Passrecht: Eine Beantragung des Kinderreisepasses ist seit 1. Januar 2024 nicht mehr möglich.
+- [Z66: LL: Vereine] Verwaltungs-Berufsgenossenschaft (VBG): Alle gemeinnützigen Organisationen, darunter viele Vereine, haben die Möglichkeit, ihre gewählten Ehrenamtsträger wie zum Beispiel Vereinsvorstände, Kassen- oder Sportwarte gegen die Folgen von Unfällen zu versichern.
+- [Z66: LL: Vereine] Engagementnachweis Baden-Württemberg: Tipp: Vereine können ehrenamtlichen Mitarbeitern den "Engagementnachweis Baden-Württemberg" ausstellen. Er dokumentiert die im Rahmen der ehrenamtlichen Tätigkeit erworbenen Fähigkeiten und Kenntnisse.
+- [Z67: LL: Verkehr und Verkehrswege] Verkehrsministerium Baden-Württemberg: Freigabevermerk 13.04.2026 Verkehrsministerium Baden-Württemberg
+- [Z68: LL: Sicherheit und Gefahrenabwehr] Service-BW Lebenslage 5000006: Sicherheit und Gefahrenabwehr Im Not- oder Katastrophenfall ist guter Rat teuer. Diese Lebenslage bietet Ihnen konkrete Hilfsmaßnahmen und Strategien im Not- oder Katastrophenfall.
+- [Z69: LL: Umwelt] Service-BW Lebenslage 5000229: In dieser Lebenslage finden Sie vielfältige Informationen unter anderem über den Schutz von Luft, Wasser und Böden sowie über den Schutz vor der schädlichen Wirkung ionisierender Strahlung, Wissenswertes zu Natur- und Artenschutz sowie zu den Möglichkeiten, wie Sie zum Umweltschutz beitragen können.
+- [Z71: LL: Arbeitgeber] https://www.service-bw.de/zufi/lebenslagen/5000437: Hier erhalten Sie umfangreiche Informationen über Ihre Rechte und Pflichten als Arbeitgeber.
+- [Z72: LL: Freiberufler] EU-Dienstleistungsrichtlinie: Deutsche, Angehörige anderer EU-/EWR-Staaten oder Staatsangehörige der Schweiz, die in Baden-Württemberg eine Dienstleistung anbieten wollen, die von der EU-Dienstleistungsrichtlinie erfasst ist, finden unter " Selbständigkeit online " Informationen über die Voraussetzungen und zur elektronischen Antragsabwicklung.
+- [Z73: LL: Gewerbe] Gewerbeordnung / Dienstleistung: Gewerbe anmelden oder eine Erlaubnis einholen bei der Gründung eines Unternehmens
+- [Z74: LL: Patente, Marken, Ideentransfer] Service-BW Lebenslage 5001195: Mit der Umsetzung und Marktdurchsetzung einer Geschäftsidee untrennbar verbunden sind auch Bereiche wie Patente, Marken und andere Schutzrechte.
+- [Z75: LL: Unternehmen führen] Service-BW Lebenslage 5001018: In dieser Lebenslage erhalten Sie einen Überblick über die wichtigsten Themen, die für den laufenden Betrieb eines Unternehmens von Bedeutung sind.
+- [Z78: LL: Vergabe öffentlicher Aufträge] Vergabe öffentlicher Aufträge Landes Baden-Württemberg: In diesem Portal können Sie im Bereich Öffentliche Ausschreibungen kostenlos die Ausschreibungsveröffentlichungen der betreffenden Vergabestellen des Landes Baden-Württemberg einsehen.
+- [Z79: LL: Deutsche Staatsangehörigkeit] Freigabevermerk Landesportal Baden-Württemberg: 14.07.2026
+- [Z80: LL: Spätaussiedler] Bundesvertriebenengesetz (BVFG): Rechtsgrundlage für Spätaussiedler
+- [Z81: LL: Zuwanderung] Aufenthaltsgesetz und Freizügigkeitsgesetz/EU: Die wesentlichen Rechtsgrundlagen des Aufenthaltsrechts der Bundesrepublik Deutschland sind das Aufenthaltsgesetz und das Freizügigkeitsgesetz/EU.
+- [Z82: LL: Tierhaltung, Tierschutz, Fischerei und Jagd (Duplikat-Sicherung)] Service-BW Lebenslage 5001339: Grundlegende Informationen zur Heim- und Nutztierhaltung sowie zu den Bereichen Tiergesundheit und Tierschutz, Fischerei und Jagd in Baden-Württemberg.
+- [Z83: LL: Notlagen (Sicherheits-Check)] Notruf 112: Die 112 gilt europaweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen.
+- [Z83: LL: Notlagen (Sicherheits-Check)] Notruf 110: Die Polizei erreichen Sie über den bekannten Polizei-Notruf 110. Alle Notrufe, die über die 110 eingehen, werden von speziell geschulten Polizeibeamtinnen und -beamten in den Führungs- und Lagezentren im Land entgegengenommen.
+- [Z83: LL: Notlagen (Sicherheits-Check)] Nothilfe-SMS T-Mobile (D1) und Vodafone (D2): 99 0711 216-77112
+- [Z83: LL: Notlagen (Sicherheits-Check)] Nothilfe-SMS Telefonica (O2/Eplus): 329 0711 216-77112
+- [Z83: LL: Notlagen (Sicherheits-Check)] Ärztlicher Bereitschaftsdienst 116117: Sie erreichen ihn unter der bundesweit einheitlichen Rufnummer 116117. Die Nummer funktioniert ohne Vorwahl. Sie gilt deutschlandweit und ist kostenlos, egal ob Sie von zu Hause oder mit dem Mobiltelefon anrufen.
+- [Z84: LL: Gläubiger und Schuldner (Sicherheits-Check)] Justizministerium Baden-Württemberg Freigabevermerk: Der Freigabevermerk für die Lebenslage Gläubiger und Schuldner stammt vom 03.02.2026.
+- [Z85: LL: Wohnen (Sicherheits-Check)] Service-BW Lebenslage 5000525: Informationen zum Wohnen fuer Mieter, Vermieter und Eigenheimbesitzer
+- [Z86: LL: Arbeitnehmer (Sicherheits-Check)] Service-BW Lebenslage Arbeitnehmer: Die Lebenslage Arbeitnehmer richtet sich an alle, die in einem Arbeitsverhältnis stehen und sich über ihre Rechte und Pflichten informieren wollen.
