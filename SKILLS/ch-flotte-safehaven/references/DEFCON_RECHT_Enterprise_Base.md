@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-15 11:42:21 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-15 13:47:16 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -1257,6 +1257,56 @@
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
 | **Beratungsangebot Fachstelle Sucht Pforzheim** | anonym und kostenfrei | Kostenfreie und anonyme Beratung für Betroffene, Angehörige und Unternehmen durch die Fachstelle Sucht Pforzheim |
+
+## [PF_SOZ_07] Sektor PF_SOZ_07
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Sozialpsychiatrischer Dienst (SpDi)** | Die Beratung ist für alle kostenlos und steht jedem zur Verfügung. | Kostenlose Beratung und Hilfsangebote für erwachsene psychisch kranke Menschen, deren Angehörige und andere Hilfesuchende im Enzkreis. |
+| **Assistenzleistungen im persönlichen Wohn- und Sozialraum (AWS)** | Ob die Assistenzleistung für Sie kostenlos ist, hängt von Ihrem Vermögen ab . Dieses wird vorab geprüft. | Kostenregelung und Vermögensprüfung für Assistenzleistungen bei psychischer Erkrankung im eigenen Wohnraum. |
+| **Tagesstätten für psychisch kranke Menschen** | Für die Teilnahme am Mittagessen ist eine Anmeldung bis 11:30 Uhr des jeweiligen Tages erforderlich. Dafür wird ein Unkostenbeitrag erhoben. | Teilnahme und Unkostenbeitrag beim gemeinsamen Mittagessen in den Tagesstätten Mühlacker und Wilferdingen. |
+| **Angehörigengruppe für psychisch kranke Menschen** | Wann? Am 2. Donnerstag im Monat, von 19:00 Uhr - 20:30 Uhr | Regelmäßige Termine der Angehörigenberatung und des Austauschforums in Pforzheim-Eutingen. |
+
+## [PF_SOZ_08] Sektor PF_SOZ_08
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **SGB II / SGB XII / Goldstadt-Pass** | Der Einkauf in der Pforzheimer Tafel ist nur für Personen möglich, die SGB II- oder SGB XII-Leistungen erhalten und einen Goldstadt-Pass besitzen. | Voraussetzung für den Einkauf bei der Pforzheimer Tafel |
+
+## [PF_SOZ_09] Sektor PF_SOZ_09
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Vesperkirche Pforzheim Tarif - Mittagessen & Vesper** | 1 Euro | Preis für ein warmes Mittagessen in der Kirche und ein Vesper zum Mitnehmen im Rahmen der Vesperkirche Pforzheim. |
+| **Vesperkirche Pforzheim Tarif - Getränke & Gebäck** | kostenlos | Kostenübernahme/Befreiung für Getränke, süße Backwaren und Kuchen während der Vesperkirche Pforzheim. |
+| **Ökumenische Vesperkirche 2027 Termin** | 24. Januar – 21. Februar 2027 | Dauer und Zeitraum der Ökumenischen Vesperkirche 2027 in Pforzheim. |
+
+## [PF_SOZ_10] Sektor PF_SOZ_10
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Tarif Suppenküche Pforzheim - Erwachsene** | 0.50 | Preis für ein warmes Mittagessen in der Suppenküche für Erwachsene |
+| **Tarif Suppenküche Pforzheim - Kinder** | 0.00 | Kostenbefreiung für Kinder beim Essen in der Suppenküche |
+| **Öffnungszeiten Suppenküche Pforzheim** | Dienstag , Donnerstag und Samstag 11:20 Uhr bis 14:00 Uhr, Essensausgabe von 11:20 bis 13:30 | Betriebs- und Ausgabezeiten der Suppenküche der Vesperkirche Pforzheim |
+
+## [PF_SOZ_03] Sektor PF_SOZ_03
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Amtsgericht Äußerungsfrist Räumungsklage** | Äußerungsfrist von innerhalb von 2 Wochen nach Erhalt der Nachricht über den Eingang der Räumungsklage beim Amtsgericht. | Frist zur schriftlichen oder persönlichen Äußerung beim Amtsgericht nach einer Räumungsklage. |
+| **SGB II / SGB XII Schonfristregelung Mietschulden** | Unwirksamkeit der fristlosen Kündigung bei Begleichung der Mietschulden innerhalb zweier Monate nach Mitteilung über die Räumungsklage, sofern nur wegen Mietschulden geklagt wurde, in den letzten zwei Jahren kein entsprechendes Räumungsverfahren lief und noch kein Urteil erlassen wurde. | Voraussetzungen für die Unwirksamkeit einer fristlosen Kündigung wegen Mietrückständen durch nachträgliche Ausgleichung. |
+
+## [PF_SOZ_04] Sektor PF_SOZ_04
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Mobile Jugendarbeit / Streetwork Pforzheim - Zielgruppe** | Jugendliche und junge Erwachsene im Alter von 14 bis 27 Jahren | Altersgruppe und Zielgruppe des Beratungsangebots der Mobilen Jugendarbeit / Streetwork in Pforzheim |
+| **Mobile Jugendarbeit / Streetwork Pforzheim - Kontaktdaten** | Susanne Abt 0173 9014716, Cornelia Schikora 0176 85366494, Bernd Schön 0173 7012602 | Mobilnummern der Ansprechpersonen der Mobilen Jugendarbeit / Streetwork Innenstadt Pforzheim |
+
+## [PF_SOZ_05] Sektor PF_SOZ_05
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Obdachlosenunterbringung** | Ortspolizeibehörde | Zuständige Behörde für die Obdachlosenunterbringung ist die Ortspolizeibehörde Mühlacker. |
+
+## [PF_SOZ_06] Sektor PF_SOZ_06
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Offene Sprechstunde Integrationsteam Remchingen** | Dienstag 9.45 - 12.30 Uhr und Donnerstag 15.30 - 18.00 Uhr | Offene Sprechstunden des Integrationsteams im Rathaus Remchingen ohne vorherige Anmeldung. |
+| **Betreute Geflüchtete Gemeinde Remchingen** | rund 325 Geflüchtete | Anzahl der betreuten Geflüchteten in der Gemeinde Remchingen durch das Integrationsteam. |
 
 ## [CW_K5_WOHNBAU] Sektor CW_K5_WOHNBAU
 | Norm / AZ | Wert / Parameter | Kontext / Detail |

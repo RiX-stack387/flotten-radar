@@ -219,7 +219,7 @@ async def secure_fetch_pdf(
         "requested": url,
         "resolved": response.url,
         "canonical": url,
-        "text": text + doc_links_block,
+        "text": text,
     }
   except Exception as e:
     print(f"[PDF SECURE FETCH ERROR] {e}")
