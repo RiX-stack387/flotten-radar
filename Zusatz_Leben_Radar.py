@@ -1718,7 +1718,29 @@ ZUSATZ_ARSENAL = [
         "wait_selector": "#warnungen, .warn_table, body",
         "content_selector": "#warnungen, .warn_table, .warning-content, body",
         "category": "sensor_wetter"
-    }
+    },
+    {"name": "Wichernhaus Pforzheim - Hilfsangebote & Notuebernachtung", "source_urls": "https://www.wichernhauspforzheim.de/hilfsangebote/"},
+    {"name": "Wichernhaus Pforzheim - Tagesstaette & Zentrale", "source_urls": "https://www.wichernhauspforzheim.de/"},
+    {"name": "Stadt Pforzheim - Fachstelle Wohnungssicherung", "source_urls": "https://www.pforzheim.de/buerger/rat-hilfe/hilfe-bei-wohnungslosigkeit.html"},
+    {"name": "Stadt Pforzheim - Streetwork Innenstadt", "source_urls": "https://www.pforzheim.de/buerger/rat-hilfe/beratungsstellen/sozialberatungsstellen-ansicht/show/streetwork-innenstadt.html"},
+    {"name": "Stadt Muehlacker - Obdachlosenunterbringung", "source_urls": "https://www.muehlacker.de/stadt/cityweb/dienstleistungen/obdachlosenunterbringung.php"},
+    {"name": "Gemeinde Remchingen - Integrationsteam & Obdachlosenhilfe", "source_urls": "https://www.remchingen.de/soziales/integrationsteam-der-gemeinde-remchingen-id_610/"},
+    {"name": "Diakonie Enzkreis - Tagesstaetten Muehlacker & Wilferdingen", "source_urls": "https://www.diakonie-enzkreis.de/angebote-und-hilfen/angebote-fuer-psychisch-kranke-menschen"},
+    {"name": "Pforzheim Integriert - Pforzheimer Tafel Broetzingen", "source_urls": "https://www.pforzheim-integriert.de/angebote/soziales/pforzheimer-tafel.html"},
+    {"name": "Oekumenische Vesperkirche Pforzheim", "source_urls": "https://pforzheimervesperkirche.de/vesperkirche/"},
+    {"name": "Suppenkueche Pforzheim", "source_urls": "https://pforzheimervesperkirche.de/suppenkueche/"},
+    {"name": "Helping Hands Pforzheim e.V. - Mobile Hilfe", "source_urls": "https://herzensprojekt-obdachlosenhilfe.org/vor-ort2/wir-bringen-warmes-essen-kleidung-kaffee-u-kuchen/"},
+    {"name": "Muehlacker Tafel e.V. - Aktuelles", "source_urls": "https://www.muehlacker-tafel.com/"},
+    {"name": "foodsharing Fairteiler Muehlacker", "source_urls": "https://foodsharing.de/fairteiler/2872"},
+    {"name": "DRK Pforzheim - Kleiderkammer", "source_urls": "https://www.drk-pforzheim.de/angebote/existenzsichernde-hilfe/kleiderkammer.html"},
+    {"name": "DRK Pforzheim - Kleiderladen", "source_urls": "https://www.drk-pforzheim.de/angebote/kleiderladen.html"},
+    {"name": "Kinderschutzbund Pforzheim - Kleiderecke", "source_urls": "https://dksb-pforzheim.de/was-wir-tun/unterstuetzung-von-familien/kleiderecke/"},
+    {"name": "Stadt Pforzheim - FIZ Kleiderkammer", "source_urls": "https://www.familie-pforzheim.de/eltern/wichtige-infos-fuer-eltern/fiz-familieninformationszentrum.html"},
+    {"name": "DRK Muehlacker - Bekleidungskoordination Enzkreis", "source_urls": "https://muehlacker.drk-pforzheim.de/wir-ueber-uns/unsere-angebote-fuer-sie/altkleider.html"},
+    {"name": "GPV Enzkreis-Pforzheim - Sozialpsychiatrische Dienste", "source_urls": "https://www.gpv-enzkreis-pforzheim.de/seite/464094/sozialpsychiatrische-dienste.html"},
+    {"name": "Landratsamt Enzkreis - Psychosoziale Hilfen", "source_urls": "https://www.enzkreis.de/Unsere-Leistungen/Dienstleistungen/Psychosoziale-Hilfen.php?ModID=10&FID=2032.243.1"},
+    {"name": "Oekumenisches Frauenhaus Pforzheim-Enzkreis", "source_urls": "https://frauenhaus-pforzheim.de/kontakt/"},
+    {"name": "bwlv Fachstelle Sucht Pforzheim", "source_urls": "https://www.bw-lv.de/beratung/beratungsstellen/fachstelle-sucht-pforzheim/"},
 ]
 
 

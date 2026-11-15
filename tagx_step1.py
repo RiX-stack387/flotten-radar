@@ -1,4 +1,4 @@
-﻿import os, re, json
+import os, re, json
 from datetime import datetime
 
 local_root = r"C:\DefconRecht"
@@ -10,7 +10,7 @@ all_dirs = sorted([d for d in os.listdir(skills_root) if os.path.isdir(os.path.j
 part1_dirs = all_dirs[:13]
 
 md_lines = [
-    "# 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 26 SKILLS (ANLEITUNGEN & REFERENCES) 🚨",
+    "# 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 28 SKILLS (ANLEITUNGEN & REFERENCES) 🚨",
     f"* **GENERIERUNGS-ZEITSTEMPEL:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
     "* **INHALT:** Reines 26-Einheiten-Kompendium (Volltext-Anleitungen SKILL.md & verifizierte References-Zuordnung).",
     "* **HINWEIS:** Das Master-Archiv (Master_Archiv_V23.4_EINSATZ-CHRONIK.md) liegt als separate Datei im selben Ordner TAG_X_BACKUP.\n"
@@ -50,7 +50,7 @@ for idx, name in enumerate(part1_dirs, start=1):
         "References": refs,
         "Instructions": text
     })
-    print(f"   [Etappe 1] Einheit {idx:02d}/26 erfasst: {name} ({len(refs)} References)")
+    print(f"   [Etappe 1] Einheit {idx:02d}/28 erfasst: {name} ({len(refs)} References)")
 
 with open(os.path.join(backup_dir, "TAG_X_FLOTTE_KOMPLETT.md"), "w", encoding="utf-8") as f:
     f.write("\n".join(md_lines))
@@ -58,4 +58,4 @@ with open(os.path.join(backup_dir, "TAG_X_FLOTTE_KOMPLETT.md"), "w", encoding="u
 with open(os.path.join(backup_dir, "_temp_part1.json"), "w", encoding="utf-8") as f:
     json.dump(json_list, f, ensure_ascii=False, indent=2)
 
-print(">>> [OK] ETAPPE 1 (Einheiten 01 bis 13) erfolgreich in TAG_X_BACKUP geschrieben!")
+print(">>> [OK] ETAPPE 1 (Einheiten 01 bis 14) erfolgreich in TAG_X_BACKUP geschrieben!")

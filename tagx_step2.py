@@ -1,4 +1,4 @@
-﻿import os, re, json
+import os, re, json
 from datetime import datetime
 
 local_root = r"C:\DefconRecht"
@@ -42,7 +42,7 @@ for idx, name in enumerate(part2_dirs, start=14):
         "References": refs,
         "Instructions": text
     })
-    print(f"   [Etappe 2] Einheit {idx:02d}/26 erfasst: {name} ({len(refs)} References)")
+    print(f"   [Etappe 2] Einheit {idx:02d}/28 erfasst: {name} ({len(refs)} References)")
 
 md_target = os.path.join(backup_dir, "TAG_X_FLOTTE_KOMPLETT.md")
 with open(md_target, "a", encoding="utf-8") as f:
