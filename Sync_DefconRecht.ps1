@@ -58,7 +58,7 @@ if ((Test-Path $tinaFolder) -and (Test-Path $desktopPath)) {
 # Google Drive Spiegelung (G:\)
 $driveRoot = "G:\Meine Ablage\DefconRecht"
 if (Test-Path $driveRoot) {
-    $rootFiles = @("Front_Delta_Compact.md", "DEFCON_RECHT_Enterprise_Base.md", "ASB_Knowledge_Base_2026.md", "Start_Flotte.ps1", "Sync_DefconRecht.ps1", "Make_TagX_Backup.ps1")
+    $rootFiles = @("Front_Delta_Compact.md", "DEFCON_RECHT_Enterprise_Base.md", "ASB_Knowledge_Base_2026.md", "Handbuch_Admiral_V23.4.md", "Handbuch_CORE_DACH_V23.4.md", "Master_Archiv_V23.4_AKTIV_ab_4000.md", "Master_Archiv_V23.4_EINSATZ-CHRONIK.md", "Master_Archiv_V23.4_TEIL1_0001_3999.md", "Start_Flotte.ps1", "Sync_DefconRecht.ps1", "Make_TagX_Backup.ps1")
     foreach ($rf in $rootFiles) {
         $src = Join-Path "C:\DefconRecht" $rf
         if (Test-Path $src) {
@@ -68,7 +68,9 @@ if (Test-Path $driveRoot) {
     Write-Host "[OK] Google Drive Stammverzeichnis aktualisiert." -ForegroundColor Green
 
     robocopy "C:\DefconRecht\SKILLS" "G:\Meine Ablage\DefconRecht\SKILLS" /MIR /FFT /R:2 /W:2 /NP /NDL /NJS | Out-Null
+    if ($LASTEXITCODE -ge 8) { throw "KRITISCHER ABBRUCH: Robocopy SKILLS nach G:\ fehlgeschlagen (Exit-Code $LASTEXITCODE)!" }
     robocopy "C:\DefconRecht\TAG_X_BACKUP" "G:\Meine Ablage\DefconRecht\TAG_X_BACKUP" /MIR /FFT /R:2 /W:2 /NP /NDL /NJS | Out-Null
+    if ($LASTEXITCODE -ge 8) { throw "KRITISCHER ABBRUCH: Robocopy TAG_X_BACKUP nach G:\ fehlgeschlagen (Exit-Code $LASTEXITCODE)!" }
     Write-Host "[OK] 28 Skills & Tag-X-Tresor (Google Drive G:\) exakt nach 7/20-Matrix gespiegelt." -ForegroundColor Green
 } else {
     Write-Host "[WARNUNG] Laufwerk G:\ nicht verfuegbar - Drive-Spiegelung uebersprungen." -ForegroundColor Yellow
@@ -78,10 +80,13 @@ if (Test-Path $driveRoot) {
 Write-Host "`n>>> [GIT-TRESOR] Sichere Aenderungen in GitHub... <<<" -ForegroundColor Cyan
 $gitStamp = Get-Date -Format "yyyy-MM-dd HH:mm"
 git add -A
+if ($LASTEXITCODE -ne 0) { throw "KRITISCHER ABBRUCH: git add fehlgeschlagen (Exit-Code $LASTEXITCODE)!" }
 $changes = git status --porcelain
 if ($changes) {
     git commit -m "auto(radar): 5-Wege-Sync 7/20-Matrix Stand $gitStamp"
+    if ($LASTEXITCODE -ne 0) { throw "KRITISCHER ABBRUCH: git commit fehlgeschlagen (Exit-Code $LASTEXITCODE)!" }
     git push origin main
+    if ($LASTEXITCODE -ne 0) { throw "KRITISCHER ABBRUCH: git push fehlgeschlagen (Exit-Code $LASTEXITCODE)!" }
     Write-Host "[ERFOLG] GitHub-Push erfolgreich abgeschlossen!" -ForegroundColor Green
 } else {
     Write-Host "[INFO] GitHub bereits zu 100% aktuell (keine neuen Aenderungen)." -ForegroundColor Cyan

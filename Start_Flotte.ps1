@@ -7,6 +7,10 @@ Set-Location "C:\DefconRecht"
 
 Write-Host ">>> [STUFE 1] STARTE FLOTTEN-RADAR V44.0 (PYTHON-PIPELINE)... <<<" -ForegroundColor Cyan
 & "C:\Users\mriex\AppData\Local\Python\pythoncore-3.14-64\python.exe" "C:\DefconRecht\Start_Flotte.py"
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "[ALARM] Start_Flotte.py mit Fehlercode $LASTEXITCODE abgebrochen! Sync & Standby gestoppt." -ForegroundColor Red
+    exit $LASTEXITCODE
+}
 
 # ==============================================================================
 # [STUFE 2] ZEITSTEMPEL & AUTORISIERTE 7/20-VERTEILUNG DER 3 MASTER-REFERENZEN
@@ -73,7 +77,7 @@ foreach ($dir in $skillDirs) {
 }
 
 Write-Host "[OK] Zeitstempel ($stampNow) gesetzt!" -ForegroundColor Green
-Write-Host "[OK] Front_Delta & Enterprise_Base in $countAll/27 Skills verteilt | ASB_Knowledge_Base exklusiv in $countAsb berechtigte Skills verteilt!" -ForegroundColor Green
+Write-Host "[OK] Front_Delta & Enterprise_Base in $countAll/28 Skills verteilt | ASB_Knowledge_Base exklusiv in $countAsb berechtigte Skills verteilt!" -ForegroundColor Green
 
 # ==============================================================================
 # [STUFE 3] 4-WEGE-KETTE: C: -> TAG_X_BACKUP -> G: (DRIVE) -> GITHUB
@@ -88,6 +92,10 @@ if (Test-Path "C:\DefconRecht\Make_TagX_Backup.ps1") {
 Write-Host "`n>>> [STUFE 3b] Starte finale 5-Wege-Synchronisation (SSD -> Skills -> Drive -> Git)... <<<" -ForegroundColor Cyan
 if (Test-Path "C:\DefconRecht\Sync_DefconRecht.ps1") {
     & "C:\DefconRecht\Sync_DefconRecht.ps1"
+if ($LASTEXITCODE -and $LASTEXITCODE -ne 0) {
+    Write-Host "[ALARM] Sync_DefconRecht.ps1 mit Fehlercode $LASTEXITCODE abgebrochen! Standby gestoppt." -ForegroundColor Red
+    exit $LASTEXITCODE
+}
 } else {
     Write-Host "[WARNUNG] Sync_DefconRecht.ps1 nicht gefunden!" -ForegroundColor Red
 }
