@@ -48,7 +48,7 @@ Der Admiral ueberwacht permanent die Dateigroesse der aktiven Chronik `Master_Ar
 4. Stufe 4 - Read-Before-Write-Zwang: Keine Datei blind patchen, ohne Struktur oder Zeilen vorab zu pruefen.
 5. Stufe 5 - Harter `$LASTEXITCODE`-Stopp: Nach jedem externen Aufruf (`python`, `git`) explizit `if ($LASTEXITCODE -ne 0)` pruefen.
 6. Stufe 6 - Atomares `.bak`-Rollback-Schild: Vor Aenderungen `.bak`-Kopie anlegen und bei Fehlern im `catch`-Block wiederherstellen.
-7. Stufe 7 - 4-Wege-Spiegelung: Erst nach bestandenem 0-Byte- und Compile-Check nach `C:\`, `TAG_X_BACKUP`, `G:\` und `GitHub` spiegeln.
+7. Stufe 7 - 5-Wege-Spiegelung: Erst nach bestandenem 0-Byte- und Compile-Check nach `C:\`, `TAG_X_BACKUP`, `G:\` und `GitHub` spiegeln.
 
 ## 5. Operative Modell-Matrix (Update November 2026)
 - Profil 0 (Flaggschiff & Gefechtsantrieb): 4 Argon (Denktiefe Hoch/Mittel) - gezielter Scharfschuetzen-Einsatz fuer komplexe Architektur-Umbauten und Tiefen-Audits.

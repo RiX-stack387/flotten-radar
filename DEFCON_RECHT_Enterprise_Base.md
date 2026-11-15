@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-15 08:44:26 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-15 11:42:21 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -1176,6 +1176,87 @@
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
 | **Landesapothekenkammer Baden-Württemberg** | Die Umkreissuche zeigt im Unterschied zur Schnellsuche die geplanten Notdienste für einen Zeitraum von bis zu einem Monat. | Beschreibung der Funktionen des Apothekennotdienstes der Landesapothekenkammer Baden-Württemberg |
+
+## [PF_SOZ_01] Sektor PF_SOZ_01
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **SGB XII, §§ 67 ff.** | Unterkunft und Leistungen zur Überwindung von besonderen Lebensverhältnissen mit sozialen Schwierigkeiten für Personen, die dazu aus eigener Kraft nicht fähig sind. | Stationäre Unterbringung und Hilfsangebote des Wichernhauses Pforzheim für obdachlose Menschen mit erhöhtem Hilfebedarf. |
+
+## [PF_SOZ_02] Sektor PF_SOZ_02
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Veranstaltungstermin Ausstellung Urbanfotografie** | 11.09. bis 27.09.2026 | Zeitraum der Kunstausstellung 'EINBLICKE. AUSBLICKE. GETEILTE ORTE.' in Pforzheim. |
+| **Beratungsdienstleistung Existenzsicherung / Behördenhilfe** | Beratung und Unterstützung bezüglich Wohnung, Existenzsicherung/Einkommen und Antragstellung bei Behörden. | Leistungsangebot der Beratungsstellen des Wichernhauses Pforzheim für von Wohnungslosigkeit Bedrohte. |
+| **Stationäre Hilfe für Obdachlose** | Stationäre Aufnahme von obdachlosen Menschen mit erhöhtem Hilfebedarf. | Hilfsangebot für wohnungslose Personen mit erhöhtem Betreuungsbedarf. |
+
+## [PF_SOZ_11] Sektor PF_SOZ_11
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Frist zur Wunsch-Anmeldung (Kleidung)** | 31.08.2023 bis spätestens 16:00 Uhr | Anmeldefrist für spezifische Kleidungsbedarfswünsche per WhatsApp (015256570033) vor dem Hilfseinsatz. |
+| **Einsatzdatum Pforzheim** | 1. September, 2023 @ 15:30 - 17:30 | Termin und Uhrzeit für die Verteilung von warmem Essen, Kleidung, Kaffee und Kuchen in Pforzheim. |
+
+## [PF_SOZ_12] Sektor PF_SOZ_12
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Industriestraße 16, Mühlacker** | Industriestraße 16 in Mühlacker | Standort des Tafelladens der Mühlacker Tafel e.V. zur Versorgung von Bedürftigen. |
+| **Spende Sparkasse Pforzheim-Calw** | 4.000 Euro | Spendenunterstützung der Sparkasse Pforzheim-Calw an die Mühlacker Tafel sowie weitere Tafeln in der Region. |
+| **Spende Firma Hasenauer & Hesser** | 5.000 Euro | Spende der Firma Hasenauer & Hesser an den Tafelladen Mühlacker zur regionalen Unterstützung. |
+
+## [PF_SOZ_14] Sektor PF_SOZ_14
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **DRK Kleiderkammer Pforzheim Contact** | Kronprinzenstr. 22 75177 Pforzheim, Ansprechpartnerin Ayse Baldede, Tel: 07231 373-6100 | Kontaktdaten und Standort der DRK-Kleiderkammer in Pforzheim für materielle Grundversorgung. |
+| **DRK Existenzsichernde Hilfe** | Schnelle und unbürokratische Versorgung von Menschen in Notlagen und schwierigen sozialen Situationen mit Kleidung und weiteren Gütern zur materiellen Grundversorgung. | Hilfsangebot des Deutschen Roten Kreuzes zur materiellen Grundversorgung bei Hilfebedürftigkeit. |
+
+## [PF_SOZ_15] Sektor PF_SOZ_15
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **DRK-Kleiderkammer Notlagenhilfe** | Menschen in Notlagen und schwierigen sozialen Situationen erhalten in den DRK-Kleiderkammern Kleidung und Schuhe. | Bereitstellung von existenzsichernder Hilfe durch Bekleidung für sozial hilfebedürftige Personen |
+| **Kontakt DRK-Kleiderladen Pforzheim** | Ansprechpartnerin Ayse Baldede, Tel: 07231 373-6100, Kronprinzenstr. 22, 75177 Pforzheim | Kontaktdaten der Ansprechpartnerin und Adresse des DRK-Kleiderladens in Pforzheim |
+| **Öffnungszeiten DRK-Kleiderladen Pforzheim** | Dienstag u. Donnerstag, 10:00 – 12:00 und 14:00 – 16:00 Uhr; 2. Samstag im Monat, 10:00 – 13:00 | Geregelte Öffnungszeiten für den Einkauf im DRK-Kleiderladen Pforzheim |
+
+## [PF_SOZ_16] Sektor PF_SOZ_16
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Öffnungszeiten Kleiderecke im KiCo** | Dienstag 14:00 – 15:30 Uhr, Donnerstag 10:00 – 11:30 Uhr | Reguläre Öffnungszeiten der Kleiderecke im KiCo Kinder- und Familientreff des Kinderschutzbundes Pforzheim |
+| **Spendenabgabe Kleiderecke** | Vorab telefonisch anzumelden | Vorgabe für die Abgabe von Kleider- und Sachspenden bei der Geschäftsstelle |
+| **Kostenbeitrag Kleiderecke** | Gegen eine kleine Spende | Konditionen für den Erhalt von Kinderkleidung, Spielsachen und Kinderbüchern |
+
+## [PF_SOZ_17] Sektor PF_SOZ_17
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Öffnungszeiten FIZ Pforzheim** | Montag, Mittwoch und Freitag von 9.00 bis 12.00 Uhr, Dienstag und Donnerstag von 14:00 bis 17:00 Uhr | Beratungs- und Öffnungszeiten des Familieninformationszentrums Pforzheim |
+
+## [PF_SOZ_18] Sektor PF_SOZ_18
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **DRK-Mühlacker Altkleidersammlung Servicegebühr** | Größere Mengen von Altkleidern werden kostenlos zu Hause abgeholt. | Kostenfreie Abholung von größeren Mengen Altkleidern durch das DRK Mühlacker direkt an der Haustür. |
+| **DRK-Mühlacker Regelung zur Müllablagerung an Containerstandorten** | Wilde Müllablagerungen mit Sperrmüll an Altkleidercontainern werden konsequent zur Anzeige gebracht. | Rechtliche Verfolgung und Anzeige von illegalen Müllablagerungen an den Containerstandorten des DRK Mühlacker. |
+
+## [PF_SOZ_19] Sektor PF_SOZ_19
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Altersgrenze Sozialpsychiatrische Dienste** | Zuständig für Menschen ab 18 Jahren, die psychisch erkrankt sind | Zielgruppe der Sozialpsychiatrischen Dienste im Enzkreis und der Stadt Pforzheim |
+| **Voraussetzungen Soziotherapie** | Voraussetzungen sind schizophrene Symptome und schwere Fähigkeitsstörungen. Die Leistung wird nach ärztlicher Verordnung bei den Kassen beantragt. | Leistungsvoraussetzungen für Soziotherapie |
+
+## [PF_SOZ_20] Sektor PF_SOZ_20
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Psychosoziale Hilfen - Gebührenfreiheit** | Die Beratungsgespräche sind vertraulich und für Sie kostenfrei. | Kostenfreiheit der Beratung durch die psychosoziale Gesundheitshilfe im Gesundheitsamt |
+| **Anregung einer gesetzlichen Betreuung** | Wenn Sie Ihre Angelegenheiten nicht mehr vollständig alleine regeln können, regen wir unter Umständen eine gesetzliche Betreuung an – falls Sie dieser Betreuung zustimmen. | Verfahren zur Anregung einer gesetzlichen Betreuung durch die Betreuungs- und Unterbringungsbehörde im Enzkreis |
+| **Mental Health First Aid (MHFA) Schulungsdauer** | Sie lernen in einem 12-stündigen Kurs ein Grundwissen über verschiedene psychische Probleme und Krisen. | Umfang und Inhalt der Schulung zum MHFA-Ersthelfer für psychische Gesundheit |
+
+## [PF_SOZ_21] Sektor PF_SOZ_21
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **IBAN Volksbank pur eG** | DE08 6619 0000 0029 4083 27 | Spendenkonto des Trägers Ökumenisches Frauenhaus und Fachstelle gegen häusliche Gewalt Pforzheim / Enzkreis gGmbH |
+| **Erreichbarkeit Frauenhaus Pforzheim** | Montag – Freitag 8.00 – 12.30 Uhr und 13.30 – 20.00 Uhr | Telefonische Erreichbarkeit des Frauenhauses Pforzheim |
+| **Erreichbarkeit Fachstelle Häusliche Gewalt Pforzheim Enzkreis** | Montag 14.00 – 16.00 Uhr Dienstag – Freitag 9.00 – 11.00 Uhr Dienstag + Donnerstag 14.00 – 16.00 Uhr | Sprechzeiten der Fachstelle Häusliche Gewalt Pforzheim Enzkreis |
+
+## [PF_SOZ_22] Sektor PF_SOZ_22
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Beratungsangebot Fachstelle Sucht Pforzheim** | anonym und kostenfrei | Kostenfreie und anonyme Beratung für Betroffene, Angehörige und Unternehmen durch die Fachstelle Sucht Pforzheim |
 
 ## [CW_K5_WOHNBAU] Sektor CW_K5_WOHNBAU
 | Norm / AZ | Wert / Parameter | Kontext / Detail |

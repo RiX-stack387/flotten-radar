@@ -1,4 +1,4 @@
-﻿param(
+param(
     [switch]$NoStandby
 )
 
@@ -85,7 +85,7 @@ if (Test-Path "C:\DefconRecht\Make_TagX_Backup.ps1") {
     Write-Host "[WARNUNG] Make_TagX_Backup.ps1 nicht gefunden!" -ForegroundColor Red
 }
 
-Write-Host "`n>>> [STUFE 3b] Starte finale 3-Wege-Synchronisation (SSD -> Skills -> Drive -> Git)... <<<" -ForegroundColor Cyan
+Write-Host "`n>>> [STUFE 3b] Starte finale 5-Wege-Synchronisation (SSD -> Skills -> Drive -> Git)... <<<" -ForegroundColor Cyan
 if (Test-Path "C:\DefconRecht\Sync_DefconRecht.ps1") {
     & "C:\DefconRecht\Sync_DefconRecht.ps1"
 } else {

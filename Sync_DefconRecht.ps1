@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Continue"
 Set-Location "C:\DefconRecht"
 
-Write-Host "`n>>> [UNIVERSAL-SYNC] STARTE SYSTEMWEITE 3-WEGE-SPIEGELUNG (7/20-DOKTRIN) <<<" -ForegroundColor Cyan
+Write-Host "`n>>> [UNIVERSAL-SYNC] STARTE SYSTEMWEITE 5-WEGE-SPIEGELUNG (7/20-DOKTRIN) <<<" -ForegroundColor Cyan
 
 $asbAuthorizedSkills = @(
     "asb-region-nordschwarzwald-neu",
@@ -80,11 +80,11 @@ $gitStamp = Get-Date -Format "yyyy-MM-dd HH:mm"
 git add -A
 $changes = git status --porcelain
 if ($changes) {
-    git commit -m "auto(radar): 3-Wege-Sync 7/20-Matrix Stand $gitStamp"
+    git commit -m "auto(radar): 5-Wege-Sync 7/20-Matrix Stand $gitStamp"
     git push origin main
     Write-Host "[ERFOLG] GitHub-Push erfolgreich abgeschlossen!" -ForegroundColor Green
 } else {
     Write-Host "[INFO] GitHub bereits zu 100% aktuell (keine neuen Aenderungen)." -ForegroundColor Cyan
 }
 
-Write-Host "`n=== [FERTIG] 3-WEGE-SYNC UEBERALL ERFOLGREICH VOLLZOGEN! ===" -ForegroundColor Green
+Write-Host "`n=== [FERTIG] 5-WEGE-SYNC UEBERALL ERFOLGREICH VOLLZOGEN! ===" -ForegroundColor Green

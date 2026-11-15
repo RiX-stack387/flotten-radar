@@ -1,9 +1,9 @@
-﻿# ====================================================================
+# ====================================================================
 # M.E.R. FLOTTEN-RADAR // ALL-IN-ONE MEISTERSKRIPT (V23.4 / V21.2)
 # 1. START_FLOTTE.PS1 (234 SLOTS & BUILDER)
 # 2. 7-DATEIEN-BESTÜCKUNG ADMIRAL-FLOTTEN-LEITSTAND\REFERENCES
 # 3. 0-BYTE-SCHUTZSCHILD & INTEGRITÄTS-CHECK
-# 4. 4-WEGE-SYNC (C: ➔ TAG_X_BACKUP ➔ G:\ ➔ GITHUB origin/main)
+# 4. 5-WEGE-SYNC (C: ➔ TAG_X_BACKUP ➔ G:\ ➔ GITHUB origin/main)
 # STAND: 10.11.2026 // DOKTRIN V2.5
 # ====================================================================
 
@@ -124,7 +124,7 @@ if (Test-Path $driveBase) {
 Write-Host "  -> Führe finalen Git Commit & Push nach origin/main aus..." -ForegroundColor Cyan
 git add -A
 $stamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-$msg = "feat(master-sync): Start_Flotte + 7 Admiral-Refs + 4-Wege-Sync ($stamp)"
+$msg = "feat(master-sync): Start_Flotte + 7 Admiral-Refs + 5-Wege-Sync ($stamp)"
 git commit -m $msg
 git push origin main
 

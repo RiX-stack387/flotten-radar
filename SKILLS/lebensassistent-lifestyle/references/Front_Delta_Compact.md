@@ -1,8 +1,73 @@
-RADAR-DELTA COMPACT (2026-11-15 08:44:26)
-- [19: BAG Entscheidungsdatenbank] § 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]: 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen
-- [19: BAG Entscheidungsdatenbank] Justizverwaltungskostengesetz [JVKostG]: 0,50 Euro pro Seite für die ersten 50 Seiten, 0,15 Euro für jede weitere Seite
-- [19: BAG Entscheidungsdatenbank] § 13 BGB: zwei Wochen
-- [19: BAG Entscheidungsdatenbank] BAG 6 AZR 61/26: Wohnzulage nach AVR Caritas - besondere Wohnform
-- [19: BAG Entscheidungsdatenbank] BAG 5 AZR 37/25: Annahmeverzugsvergütung und Auskunftsansprüche
-- [19: BAG Entscheidungsdatenbank] BAG 8 AZB 6/26: Fünfmonatsfrist zur vollständigen Absetzung von Urteilen
-- [19: BAG Entscheidungsdatenbank] BAG 2 AZN 339/26: Nichtzulassungsbeschwerde - Vertretungszwang - "halluzinierte" Urteile
+# FRONT DELTA COMPACT (STAND: 2026-11-15 11:42:21 // 5-WEGE-SYNC AKTIV)
+
+## 1. TAGESAKTUELLE RADAR-TELEMETRIE (260 SLOTS GESAMT)
+- **Master-Radar (31 Slots):** `radar_state_v44.json` | Letzter Lauf: `2026-11-15 08:37:01` | Erfasste Keys/Slots: `37` | Groesse: `97.8 KB`
+- **Praxis-Radar PF/ENZ (148 Slots):** `radar_state_zusatz_v44.json` | Letzter Lauf: `2026-11-15 09:49:38` | Erfasste Keys/Slots: `140` | Groesse: `161.1 KB`
+- **Praxis-Radar CW/FDS (78 Slots):** `radar_state_cw_fds_v44.json` | Letzter Lauf: `2026-11-15 08:44:00` | Erfasste Keys/Slots: `78` | Groesse: `60.1 KB`
+
+## 2. HEUTIGE MASTER-LOGS (INKL. PFORZHEIM/ENZKREIS 09:49 LAUF)
+- `API_Master_V44_2026-11-15_08-37-01.txt` (Stand: 08:37:01 Uhr, 8.9 KB)
+- `API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt` (Stand: 08:44:00 Uhr, 10.7 KB)
+- `API_Praxis_V44_2026-11-15_09-49-38.txt` (Stand: 09:49:38 Uhr, 34.7 KB)
+
+## 3. KOMPRIMIERTE DELTA- & PROVENIENZ-AUSZUEGE
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: LEGAL_AND_EVIDENCE_CHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+  - [API_Master_V44_2026-11-15_08-37-01.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
+  - [API_Praxis_CW_FDS_V44_2026-11-15_08-44-00.txt] Status: SOURCE_CHANGED_LEGAL_UNCHANGED
