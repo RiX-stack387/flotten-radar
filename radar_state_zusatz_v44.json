@@ -873,7 +873,7 @@
         "last_updated": "2026-10-18T03:10:31.480827+00:00"
     },
     "praxis_slot_ENZ_ST_01": {
-        "source_hash": "b27ed433c761c90b4bee0bb7a2bb65c1729f8d386a53fea40f8b368d98b98efa",
+        "source_hash": "ac4c3fe8116c7b2c77370f48c0fb106133e2d25ed45ad5da262ff05b8a978648",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -887,11 +887,11 @@
         "last_updated": "2026-10-18T03:10:40.524566+00:00"
     },
     "praxis_slot_ENZ_ST_02": {
-        "source_hash": "b70881a4ada7c6d822cd3e83d5bf4a35c4d50af9be2282e006d13f0f3dd8d6e1",
+        "source_hash": "b7b4aa64a060da693193b9ba02719bf7b02de06eea82b5a01e651b3ef1bf6f3e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_ST_03": {
-        "source_hash": "e777a97444dabc9f0567d6592f5d80c5bc85614a47aeaf39b555b79c6e9582f7",
+        "source_hash": "13f0418816cc5bca1780e50abbcf1d513a051e7b23cbf1dcd8bf2ffd05a6356d",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -905,7 +905,7 @@
         "last_updated": "2026-10-18T03:10:58.293260+00:00"
     },
     "praxis_slot_ENZ_ST_04": {
-        "source_hash": "0b29d5b251ad58dee92f70fe4d72703e93e63dc4d2f84f6c1b5fd5ed8c9bb809",
+        "source_hash": "0399f6edaee5012958622c2b6cc2b54bbc9d5e0ba24fe919553fb058623f1722",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -919,15 +919,15 @@
         "last_updated": "2026-10-18T03:11:06.335858+00:00"
     },
     "praxis_slot_ENZ_ST_05": {
-        "source_hash": "7cd463f60ae5914a98e9b2e8994c768d0b35de053010ab4fbf3aa03b27c97d9f",
+        "source_hash": "cdb568b2a8a895504b17b14caede646603c8f0ba4fd3a7f1f0f947585deea647",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_01": {
-        "source_hash": "5a08d5216ea9cb30a2832b3d5737275d1b99b474744cf5a1c257ca4372243875",
+        "source_hash": "3a20e59f55793e76a5efc3f5ee049269eaa0e68e7a196352f9ab75f1fe808e3d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_02": {
-        "source_hash": "c4e88b8aba40339c82b46635b308ebed692d413c43d1d174d4b72bde7c7a4928",
+        "source_hash": "d334541dc9dd8e6c7a96174890c14d136c6d59f62becd123709075afc18a1a05",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -941,11 +941,11 @@
         "last_updated": "2026-10-18T03:11:32.952177+00:00"
     },
     "praxis_slot_ENZ_GM_03": {
-        "source_hash": "78f8c7a9d5b7d868c42f74c6b21ab1aa2aea0ccd3ccc58a2d10cbc75fb86dd03",
+        "source_hash": "96b61a0dd3dbd4db1a452b59ced7c1a6a79b5fdd413f168bd1799d273652fb61",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_04": {
-        "source_hash": "d90d24a4c2035427a9e620037eb6e762dea70f790fed0b669e33769384cf5c89",
+        "source_hash": "a1c606a9df37334e2ef1bdecb8926b481e73f772cc36cd3ca3374f0952238b44",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -959,7 +959,7 @@
         "last_updated": "2026-10-18T03:11:48.490372+00:00"
     },
     "praxis_slot_ENZ_GM_05": {
-        "source_hash": "9410b69761d95388fee9d32a9b7bab410a9fafcd1e42f25c3f1a3f4abfb0f360",
+        "source_hash": "0d36181dfbc642aa544ec6bbb050420f3e51be44651d64f9b7cf3fcc8b981b08",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -973,11 +973,11 @@
         "last_updated": "2026-10-18T03:11:56.691756+00:00"
     },
     "praxis_slot_ENZ_GM_06": {
-        "source_hash": "9e6092e84422b2604e96d67a3697d60ee435ce7a9aa8ddd7129443e3cb4bb08a",
+        "source_hash": "192e49b5a4ca54d23f3a51ad5881d3f00fd186a5b1cfff8186dc228ac955ceea",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_07": {
-        "source_hash": "eab6edf01b9e869e32bcc1e261050b795969b6287242786958775f9d84b6dacc",
+        "source_hash": "31bdb51279a5da7817139528fcec391bbb25253c0f47c1c53e510c360247f9fb",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -991,15 +991,15 @@
         "last_updated": "2026-11-03T13:04:59.376660+00:00"
     },
     "praxis_slot_ENZ_GM_08": {
-        "source_hash": "973bc44f9cc9cc244b118e7e788dd411de0709fb16204e350120d60fcfa0f5de",
+        "source_hash": "72e9aa279ff6e194e3f200c4656907b6b970585c1dfe5562e5415dd6aef175fd",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_09": {
-        "source_hash": "2acea46c6a42b5f3c8a5b26849581df07e0c4de2e8e5df3882af75f8bc34adec",
+        "source_hash": "ccbba04ce468c00237da6683a406478a06a27741864390d5be69e4559caefe74",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_10": {
-        "source_hash": "bc715781531460867bbee07aa5733768dfcdd0ecc62fdec1a07e4a4cb80f810e",
+        "source_hash": "aa0b2c934af2403f67504788ec59a675f5842f88a8930f0ecff58ed52bac416f",
         "legal_hash": "2dbe1a2f9d343b69d4e5bbb0050e09301c3c6af2a24e5dddd95ce502b09869a1",
         "claims": [
             {
@@ -1020,7 +1020,7 @@
         "last_updated": "2026-11-10T09:05:47.958993+00:00"
     },
     "praxis_slot_ENZ_GM_11": {
-        "source_hash": "27d4485ce04c7c59f33f066b9e3af44047e9724b7ea792104f0a8c8af218bd9a",
+        "source_hash": "2d90aad5fa106cd5330c53bfb184eb9bf41febca8d9c4a941a49eb6b25cb0c47",
         "legal_hash": "133355bb1eedb2e2bfc53539e51d10e82bd0ed8e6ea3d45c341241b499bc022a",
         "claims": [
             {
@@ -1041,7 +1041,7 @@
         "last_updated": "2026-10-22T00:27:20.077418+00:00"
     },
     "praxis_slot_ENZ_GM_12": {
-        "source_hash": "b52008e70d3680f350b9b0fbda4c1de7e32bb2f1029d27585fe2d875999eb938",
+        "source_hash": "54c10189e01bbe8a8014a15a967a52cf892ee1c71e2bf09ebda0ff61f7f260a9",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1055,7 +1055,7 @@
         "last_updated": "2026-10-18T03:12:57.658715+00:00"
     },
     "praxis_slot_ENZ_GM_13": {
-        "source_hash": "ed90eb9c3e7232fb277c49e7fcdc868c95d8161b099f82c445df20a93c298be9",
+        "source_hash": "24f304ba6332a1c2d5dba3a24a8c0454a1a998a128bd95023e98b47c5789cb37",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1069,7 +1069,7 @@
         "last_updated": "2026-10-18T03:13:06.163032+00:00"
     },
     "praxis_slot_ENZ_GM_14": {
-        "source_hash": "e4e97049e6bef47bdbaf1c6de61b8d26fc0ba0b743f91b8e48124a1672f96b14",
+        "source_hash": "bb058ba476d0b1306556cc50f6f554f05f6492033fb3a79b5596edad7e68b9fd",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1090,7 +1090,7 @@
         "last_updated": "2026-11-07T03:43:42.829217+00:00"
     },
     "praxis_slot_ENZ_GM_15": {
-        "source_hash": "e4a7349335ca319c1ea6483b75e01d8a6c6a094183b560ae56eaa0dec1a0046a",
+        "source_hash": "adc8b260fccbfd0074d4080cc89791c1ebf8a233dcec31f995bdf7fde8babce1",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1104,7 +1104,7 @@
         "last_updated": "2026-10-18T03:13:23.162252+00:00"
     },
     "praxis_slot_ENZ_GM_16": {
-        "source_hash": "042d32f3bed45ce13492c7754ac64120fc309b594a7f4ca9f51932922a8bd039",
+        "source_hash": "644846eb6c455474fcc83308f061406edacce422cdc280629e79aeeab939a071",
         "legal_hash": "2dbe1a2f9d343b69d4e5bbb0050e09301c3c6af2a24e5dddd95ce502b09869a1",
         "claims": [
             {
@@ -1132,7 +1132,7 @@
         "last_updated": "2026-10-30T05:42:04.013512+00:00"
     },
     "praxis_slot_ENZ_GM_17": {
-        "source_hash": "5e2d78205f99049bb6fb603bee7684ea7761af5afda81e8af9787e609602334d",
+        "source_hash": "fbb1d01c62f1553617fa24ea797bb34a00ad4e6464ae2325d13c9c544d1f6d22",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1146,7 +1146,7 @@
         "last_updated": "2026-11-10T13:43:44.463961+00:00"
     },
     "praxis_slot_ENZ_GM_18": {
-        "source_hash": "f91d5d25dcfeba9e22e829ae0425db71418f5c276f67a2d1142d233da5905c55",
+        "source_hash": "0e4374eb4883b3f049bcecd4e7d655624861cc3738c02ca3607cdaee1bc7b2e4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1160,7 +1160,7 @@
         "last_updated": "2026-10-18T03:13:48.433816+00:00"
     },
     "praxis_slot_ENZ_GM_19": {
-        "source_hash": "56963ca903bf28d08a428432698e3afec071ad3c2f841ce112029207ef940a43",
+        "source_hash": "f343369505999ec581ba76815ecec0e6b5d619922240434bfda02c5e3ae02749",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1174,7 +1174,7 @@
         "last_updated": "2026-10-18T03:13:57.539802+00:00"
     },
     "praxis_slot_ENZ_GM_20": {
-        "source_hash": "9b85da7a11d84a71837b2301210801cdeb3c692677288995eccc0a501a686660",
+        "source_hash": "8a8682b081870f311c5f80c3b0b38211b274139da60b036e3cc25ca1fd747957",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -1188,7 +1188,7 @@
         "last_updated": "2026-10-18T03:14:08.134738+00:00"
     },
     "praxis_slot_ENZ_GM_21": {
-        "source_hash": "c576467d4212ec84a77a179d64856ff568746ecd5bd18a4cb7c42c34e03b869f",
+        "source_hash": "380e027e720188de42745fc0e67d4dfd8652b47e9705592eb2756e89e410e27a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1216,7 +1216,7 @@
         "last_updated": "2026-11-09T03:19:50.359834+00:00"
     },
     "praxis_slot_ENZ_GM_22": {
-        "source_hash": "88319759818f82b69cf3899e04b96f0a18c156910bb5159da13fb58e37b8460a",
+        "source_hash": "bd8a668568499208fa12c57973a6e872f2bc21f113e3bad8331103e97c71670b",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1230,7 +1230,7 @@
         "last_updated": "2026-10-18T03:14:25.465552+00:00"
     },
     "praxis_slot_ENZ_GM_23": {
-        "source_hash": "81e52bc2e148cde249edad60541485c0b4dbaa62c63cedb3206540899b2e62d2",
+        "source_hash": "ef2ef16989e6796141bb1d7d9e4f06387c7069f125701793f1c960b998e271cb",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1244,11 +1244,11 @@
         "last_updated": "2026-10-18T03:14:34.277395+00:00"
     },
     "praxis_slot_PF_ENZ_K1_STROM": {
-        "source_hash": "4f1213e739dcfbceb62f9cdba4dde6226cfc4af68b6c372357754d4af6c5e5e0",
+        "source_hash": "64c3c5f0055bdabb979d2a1e3fd54b86a6ba9e02a1a7f8ccf8959f30cab0272e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K2_APO": {
-        "source_hash": "5ba7c6214c4ac187ca7179782c2a408a2c7f7e51caf2e39f54df9c2bc6c79541",
+        "source_hash": "8095cb9574628f5341dc3bd83979e10b46933b4c91ee576fc4ce8ffb0ee1e2c4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1262,19 +1262,19 @@
         "last_updated": "2026-10-18T03:14:49.742865+00:00"
     },
     "praxis_slot_BW_KRITIS_K3_CYBER": {
-        "source_hash": "616da4a1e8f0ba7002f40bfdf67e8ef7ae02f737336af896e05d1761f630cbaf",
+        "source_hash": "f5a9b13478238977abe3f650ed8249679308e13b89398b0bb541230615915c26",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_BW_KRITIS_K4_LEBENSMITTEL": {
-        "source_hash": "0314e4729c05e75560ff78897b116baf9b88a3fc98506e17e70324829c7c2675",
+        "source_hash": "0e03a461024fc7398b51ad6f730982b5d13631a0987b1fe491d36e8d381ec2e7",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_K5_WOHNBAU": {
-        "source_hash": "2e3ea8cb6b7b83a6cdf2bb8e4c68c31521e03fd09ff5a4878f1e69d2e6fd3532",
+        "source_hash": "366c7c4460314c8098f4759b1c2adca4b53bd9cda9816fdd75bf941635b5d933",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K6_DWD": {
-        "source_hash": "0b5acfb4fd625741f2974e9c40241bd5c729dd67d9a4c3d0c1c05116f8802830",
+        "source_hash": "e6331940a60072f1d90e41aad444abaad53a68ddfce6bc168fa2c837c6c3f542",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z29": {
@@ -2136,5 +2136,303 @@
             }
         ],
         "last_updated": "2026-11-14T07:00:57.880641+00:00"
+    },
+    "praxis_slot_PF_SOZ_01": {
+        "source_hash": "c0920400b59292fac8a9ffaa64ffc59653cc57df92fc459352ecf02ec74a4f07",
+        "legal_hash": "2b580c8ad9d03ab751613ea9f9058594f6dc7573a2a50e989cfe61a1c3aa2efe",
+        "claims": [
+            {
+                "norm": "SGB XII, §§ 67 ff.",
+                "extracted_value": "Unterkunft und Leistungen zur Überwindung von besonderen Lebensverhältnissen mit sozialen Schwierigkeiten für Personen, die dazu aus eigener Kraft nicht fähig sind.",
+                "value_type": "TEXT",
+                "context": "Stationäre Unterbringung und Hilfsangebote des Wichernhauses Pforzheim für obdachlose Menschen mit erhöhtem Hilfebedarf.",
+                "evidence_location": "Wenn Sie keine Wohnung haben, können wir Ihnen in unserer stationären Einrichtung nach dem Sozialgesetzbuch SGB XII, §§67ff Unterkunft anbieten."
+            }
+        ],
+        "last_updated": "2026-11-15T08:34:01.872405+00:00"
+    },
+    "praxis_slot_PF_SOZ_02": {
+        "source_hash": "9adc7a60e753a466170e215617d7c3943ca18a086a57af8a9796c3587102bf1f",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Veranstaltungstermin Ausstellung Urbanfotografie",
+                "extracted_value": "11.09. bis 27.09.2026",
+                "value_type": "DATE",
+                "context": "Zeitraum der Kunstausstellung 'EINBLICKE. AUSBLICKE. GETEILTE ORTE.' in Pforzheim.",
+                "evidence_location": "Ausstellung in PFORZHEIM vom 11.09. bis 27.09.2026"
+            },
+            {
+                "norm": "Beratungsdienstleistung Existenzsicherung / Behördenhilfe",
+                "extracted_value": "Beratung und Unterstützung bezüglich Wohnung, Existenzsicherung/Einkommen und Antragstellung bei Behörden.",
+                "value_type": "TEXT",
+                "context": "Leistungsangebot der Beratungsstellen des Wichernhauses Pforzheim für von Wohnungslosigkeit Bedrohte.",
+                "evidence_location": "Wir beraten und unterstützen Sie bei allem, was mit Wohnung, Existenzsicherung/Einkommen und Antragsstellung bei Behörden zu tun hat."
+            },
+            {
+                "norm": "Stationäre Hilfe für Obdachlose",
+                "extracted_value": "Stationäre Aufnahme von obdachlosen Menschen mit erhöhtem Hilfebedarf.",
+                "value_type": "TEXT",
+                "context": "Hilfsangebot für wohnungslose Personen mit erhöhtem Betreuungsbedarf.",
+                "evidence_location": "Wir können obdachlose Menschen mit erhöhtem Hilfebedarf bei uns stationär aufnehmen."
+            }
+        ],
+        "last_updated": "2026-11-15T08:35:11.423931+00:00"
+    },
+    "praxis_slot_PF_SOZ_11": {
+        "source_hash": "d58132c5655c0f3e252349dd707b2c913f4ff9ff2f7c63e8e4ef601a821a864c",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Frist zur Wunsch-Anmeldung (Kleidung)",
+                "extracted_value": "31.08.2023 bis spätestens 16:00 Uhr",
+                "value_type": "DATE",
+                "context": "Anmeldefrist für spezifische Kleidungsbedarfswünsche per WhatsApp (015256570033) vor dem Hilfseinsatz.",
+                "evidence_location": "wie gehabt könnt Ihr auch noch Wünsche anmelden diesmal bitte bis Donnerstag 31.08.2023 bist spätesten 16:00 Uhr, auch gern wieder per Wahts Ap 015256570033 bitte gebt euren Namen ( Vorname ) an und das was Ihr benötigt wir Packen eure Wünsche dan in Kartons bzw Tüten wir Freuen uns auf euch und jede memge tolle Gespräche"
+            },
+            {
+                "norm": "Einsatzdatum Pforzheim",
+                "extracted_value": "1. September, 2023 @ 15:30 - 17:30",
+                "value_type": "DATE",
+                "context": "Termin und Uhrzeit für die Verteilung von warmem Essen, Kleidung, Kaffee und Kuchen in Pforzheim.",
+                "evidence_location": "Wir bringen warmes Essen , Kleidung , Kaffee u Kuchen 1. September, 2023 @ 15:30 - 17:30 Helping Hands Pforzheim und das Herzensprojekt Obdachlosenhilfe e.V. sowie die Metzgerei Pfrommer laden euch an diesem Tag ein."
+            }
+        ],
+        "last_updated": "2026-11-15T08:46:07.436071+00:00"
+    },
+    "praxis_slot_PF_SOZ_12": {
+        "source_hash": "b8587ca6d4668f457afaf0a495c9092c42d6d766588e2ca59d8f1d7a0782a917",
+        "legal_hash": "53cbaea6e62fd575ddf46eee7acadb770b13c03865e1e68caac7a5293e0cbc0a",
+        "claims": [
+            {
+                "norm": "Industriestraße 16, Mühlacker",
+                "extracted_value": "Industriestraße 16 in Mühlacker",
+                "value_type": "TEXT",
+                "context": "Standort des Tafelladens der Mühlacker Tafel e.V. zur Versorgung von Bedürftigen.",
+                "evidence_location": "Die Mühlacker Tafel e.V. setzt sich mit dem Tafelladen in der Industriestraße 16 in Mühlacker dafür ein, dass das täglich Brot auf jeden Tisch kommt, in dem sie \"überschüssige“, aber qualitativ einwandfreie Lebensmittel einsammelt und diese an Bedürftige weiter gibt."
+            },
+            {
+                "norm": "Spende Sparkasse Pforzheim-Calw",
+                "extracted_value": "4.000 Euro",
+                "value_type": "EURO",
+                "context": "Spendenunterstützung der Sparkasse Pforzheim-Calw an die Mühlacker Tafel sowie weitere Tafeln in der Region.",
+                "evidence_location": "Die Mühlacker Tafel hat gemeinsam mit den Pforzheimer, Oberderdinger, Calwer und Nagolder Tafel (alle Tafeln im Einzugsbereich der Sparkasse Pforzheim Calw) je 4.000,- erhalten."
+            },
+            {
+                "norm": "Spende Firma Hasenauer & Hesser",
+                "extracted_value": "5.000 Euro",
+                "value_type": "EURO",
+                "context": "Spende der Firma Hasenauer & Hesser an den Tafelladen Mühlacker zur regionalen Unterstützung.",
+                "evidence_location": "5.000 Euro hat die Firma Hasenauer & Hesser für den Tafelladen gespendet mit dem Anliegen, regional zu unterstützen."
+            }
+        ],
+        "last_updated": "2026-11-15T08:46:54.758681+00:00"
+    },
+    "praxis_slot_PF_SOZ_13": {
+        "source_hash": "441d9f6a0da00b75d57188d65d857976817c3bd1f20009bd59d31024dab9fdfa",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "praxis_slot_PF_SOZ_14": {
+        "source_hash": "c302186a2ca3c16ce2ed3a069515fbc3377948d8e379453b4ed8dc52b3cfd890",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "DRK Kleiderkammer Pforzheim Contact",
+                "extracted_value": "Kronprinzenstr. 22 75177 Pforzheim, Ansprechpartnerin Ayse Baldede, Tel: 07231 373-6100",
+                "value_type": "TEXT",
+                "context": "Kontaktdaten und Standort der DRK-Kleiderkammer in Pforzheim für materielle Grundversorgung.",
+                "evidence_location": "Ansprechpartnerin Ayse Baldede Tel: 07231 373-6100 Kontakt Kronprinzenstr. 22 75177 Pforzheim"
+            },
+            {
+                "norm": "DRK Existenzsichernde Hilfe",
+                "extracted_value": "Schnelle und unbürokratische Versorgung von Menschen in Notlagen und schwierigen sozialen Situationen mit Kleidung und weiteren Gütern zur materiellen Grundversorgung.",
+                "value_type": "TEXT",
+                "context": "Hilfsangebot des Deutschen Roten Kreuzes zur materiellen Grundversorgung bei Hilfebedürftigkeit.",
+                "evidence_location": "Wir helfen Menschen in Notlagen und schwierigen sozialen Situationen schnell und unbürokratisch mit diesem Angebot."
+            }
+        ],
+        "last_updated": "2026-11-15T08:47:20.451988+00:00"
+    },
+    "praxis_slot_PF_SOZ_15": {
+        "source_hash": "048ad7b9513e4c143f3661e2860544d1ddcffefb54130e6cad457c54022b997f",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "DRK-Kleiderkammer Notlagenhilfe",
+                "extracted_value": "Menschen in Notlagen und schwierigen sozialen Situationen erhalten in den DRK-Kleiderkammern Kleidung und Schuhe.",
+                "value_type": "TEXT",
+                "context": "Bereitstellung von existenzsichernder Hilfe durch Bekleidung für sozial hilfebedürftige Personen",
+                "evidence_location": "Menschen in Notlagen und schwierigen sozialen Situationen erhalten in den DRK-Kleiderkammern Kleidung und Schuhe."
+            },
+            {
+                "norm": "Kontakt DRK-Kleiderladen Pforzheim",
+                "extracted_value": "Ansprechpartnerin Ayse Baldede, Tel: 07231 373-6100, Kronprinzenstr. 22, 75177 Pforzheim",
+                "value_type": "TEXT",
+                "context": "Kontaktdaten der Ansprechpartnerin und Adresse des DRK-Kleiderladens in Pforzheim",
+                "evidence_location": "Ansprechpartnerin Ayse Baldede Tel: 07231 373-6100 Kontakt Kronprinzenstr. 22 75177 Pforzheim"
+            },
+            {
+                "norm": "Öffnungszeiten DRK-Kleiderladen Pforzheim",
+                "extracted_value": "Dienstag u. Donnerstag, 10:00 – 12:00 und 14:00 – 16:00 Uhr; 2. Samstag im Monat, 10:00 – 13:00",
+                "value_type": "TEXT",
+                "context": "Geregelte Öffnungszeiten für den Einkauf im DRK-Kleiderladen Pforzheim",
+                "evidence_location": "Öffnungszeiten: Dienstag u. Donnerstag, 10:00 – 12:00 und 14:00 – 16:00 Uhr 2. Samstag im Monat, 10:00 – 13:00 mit immer wechselnden Aktionen - Keine Annahme von Kleiderspenden"
+            }
+        ],
+        "last_updated": "2026-11-15T08:48:09.344633+00:00"
+    },
+    "praxis_slot_PF_SOZ_16": {
+        "source_hash": "e4fb4753104de71a30eda4214521d0b65cf73a1dbda78c1f4b69d0e511338c88",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Öffnungszeiten Kleiderecke im KiCo",
+                "extracted_value": "Dienstag 14:00 – 15:30 Uhr, Donnerstag 10:00 – 11:30 Uhr",
+                "value_type": "TEXT",
+                "context": "Reguläre Öffnungszeiten der Kleiderecke im KiCo Kinder- und Familientreff des Kinderschutzbundes Pforzheim",
+                "evidence_location": "aktuelle Öffnungszeiten: Dienstag 14:00 – 15:30 Uhr Donnerstag 10:00 – 11:30 Uhr"
+            },
+            {
+                "norm": "Spendenabgabe Kleiderecke",
+                "extracted_value": "Vorab telefonisch anzumelden",
+                "value_type": "TEXT",
+                "context": "Vorgabe für die Abgabe von Kleider- und Sachspenden bei der Geschäftsstelle",
+                "evidence_location": "Ihre Spendenabgaben bitten wir vorab telefonisch bei uns anzumelden."
+            },
+            {
+                "norm": "Kostenbeitrag Kleiderecke",
+                "extracted_value": "Gegen eine kleine Spende",
+                "value_type": "TEXT",
+                "context": "Konditionen für den Erhalt von Kinderkleidung, Spielsachen und Kinderbüchern",
+                "evidence_location": "Ein engagiertes ehrenamtliches Team unterstützt die Besucher*innen gerne bei der Auswahl, die gegen eine kleine Spende mitgenommen werden kann."
+            }
+        ],
+        "last_updated": "2026-11-15T08:48:24.508762+00:00"
+    },
+    "praxis_slot_PF_SOZ_17": {
+        "source_hash": "0f45b5ae427b44ea7f3ef97a1ee887ac2608208183ad0b5b48c9c472129ea130",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Öffnungszeiten FIZ Pforzheim",
+                "extracted_value": "Montag, Mittwoch und Freitag von 9.00 bis 12.00 Uhr, Dienstag und Donnerstag von 14:00 bis 17:00 Uhr",
+                "value_type": "TEXT",
+                "context": "Beratungs- und Öffnungszeiten des Familieninformationszentrums Pforzheim",
+                "evidence_location": "Öffnungszeiten des FIZ: Montag, Mittwoch und Freitag von 9.00 bis 12.00 Uhr Dienstag und Donnerstag von 14:00 bis 17:00 Uhr"
+            }
+        ],
+        "last_updated": "2026-11-15T08:48:33.683274+00:00"
+    },
+    "praxis_slot_PF_SOZ_18": {
+        "source_hash": "5e8da60380a6658576c7c6e2e602825cd1ad7e9cf3048fc7516b8692ee20c7ab",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "DRK-Mühlacker Altkleidersammlung Servicegebühr",
+                "extracted_value": "Größere Mengen von Altkleidern werden kostenlos zu Hause abgeholt.",
+                "value_type": "TEXT",
+                "context": "Kostenfreie Abholung von größeren Mengen Altkleidern durch das DRK Mühlacker direkt an der Haustür.",
+                "evidence_location": "Größere Mengen von Altkleidern holen wir gerne kostenlos bei Ihnen zu Hause ab."
+            },
+            {
+                "norm": "DRK-Mühlacker Regelung zur Müllablagerung an Containerstandorten",
+                "extracted_value": "Wilde Müllablagerungen mit Sperrmüll an Altkleidercontainern werden konsequent zur Anzeige gebracht.",
+                "value_type": "TEXT",
+                "context": "Rechtliche Verfolgung und Anzeige von illegalen Müllablagerungen an den Containerstandorten des DRK Mühlacker.",
+                "evidence_location": "Daher wollen wir in aller Ausdrücklichkeit darauf hinweisen, dass wir solche Vorfälle konsequent zur Anzeige bringen."
+            }
+        ],
+        "last_updated": "2026-11-15T08:48:47.419084+00:00"
+    },
+    "praxis_slot_PF_SOZ_19": {
+        "source_hash": "517607a53140dceff5697be2ee44796ab647b8eb236c4f338edc9683a1aac13e",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Altersgrenze Sozialpsychiatrische Dienste",
+                "extracted_value": "Zuständig für Menschen ab 18 Jahren, die psychisch erkrankt sind",
+                "value_type": "TEXT",
+                "context": "Zielgruppe der Sozialpsychiatrischen Dienste im Enzkreis und der Stadt Pforzheim",
+                "evidence_location": "Die Sozialpsychiatrischen Dienste sind zuständig für Menschen ab 18 Jahren, die psychisch erkrankt sind die nach einem Aufenthalt in einer psychiatrischen Klinik weitere Unterstützung in ihrem sozialen Umfeld wünschen sowie für Menschen, die mit psychisch kranken Menschen im Familien-, im Freundeskreis oder am Arbeitsplatz zu tun haben."
+            },
+            {
+                "norm": "Voraussetzungen Soziotherapie",
+                "extracted_value": "Voraussetzungen sind schizophrene Symptome und schwere Fähigkeitsstörungen. Die Leistung wird nach ärztlicher Verordnung bei den Kassen beantragt.",
+                "value_type": "TEXT",
+                "context": "Leistungsvoraussetzungen für Soziotherapie",
+                "evidence_location": "Voraussetzungen sind schizophrene Symptome und schwere Fähigkeitsstörungen."
+            }
+        ],
+        "last_updated": "2026-11-15T08:48:59.514894+00:00"
+    },
+    "praxis_slot_PF_SOZ_20": {
+        "source_hash": "792c1368d719fbda9fdaf33d3c0f7f5c952d7d7b7610c59c3f43312257e5945b",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Psychosoziale Hilfen - Gebührenfreiheit",
+                "extracted_value": "Die Beratungsgespräche sind vertraulich und für Sie kostenfrei.",
+                "value_type": "TEXT",
+                "context": "Kostenfreiheit der Beratung durch die psychosoziale Gesundheitshilfe im Gesundheitsamt",
+                "evidence_location": "Die Beratungsgespräche sind vertraulich und für Sie kostenfrei."
+            },
+            {
+                "norm": "Anregung einer gesetzlichen Betreuung",
+                "extracted_value": "Wenn Sie Ihre Angelegenheiten nicht mehr vollständig alleine regeln können, regen wir unter Umständen eine gesetzliche Betreuung an – falls Sie dieser Betreuung zustimmen.",
+                "value_type": "TEXT",
+                "context": "Verfahren zur Anregung einer gesetzlichen Betreuung durch die Betreuungs- und Unterbringungsbehörde im Enzkreis",
+                "evidence_location": "Wenn Sie Ihre Angelegenheiten nicht mehr vollständig alleine regeln können, regen wir unter Umständen eine gesetzliche Betreuung an – falls Sie dieser Betreuung zustimmen."
+            },
+            {
+                "norm": "Mental Health First Aid (MHFA) Schulungsdauer",
+                "extracted_value": "Sie lernen in einem 12-stündigen Kurs ein Grundwissen über verschiedene psychische Probleme und Krisen.",
+                "value_type": "TEXT",
+                "context": "Umfang und Inhalt der Schulung zum MHFA-Ersthelfer für psychische Gesundheit",
+                "evidence_location": "Sie lernen in einem 12-stündigen Kurs ein Grundwissen über verschiedene psychische Probleme und Krisen."
+            }
+        ],
+        "last_updated": "2026-11-15T08:49:10.554303+00:00"
+    },
+    "praxis_slot_PF_SOZ_21": {
+        "source_hash": "37cbd430c164c5c7c93e8c625d0f4eabb632f3bd24bae0f370d37a2ac6ede252",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "IBAN Volksbank pur eG",
+                "extracted_value": "DE08 6619 0000 0029 4083 27",
+                "value_type": "TEXT",
+                "context": "Spendenkonto des Trägers Ökumenisches Frauenhaus und Fachstelle gegen häusliche Gewalt Pforzheim / Enzkreis gGmbH",
+                "evidence_location": "Spendenkonto Volksbank pur eG IBAN: DE08 6619 0000 0029 4083 27 BIC: GENO DE61 KA1"
+            },
+            {
+                "norm": "Erreichbarkeit Frauenhaus Pforzheim",
+                "extracted_value": "Montag – Freitag 8.00 – 12.30 Uhr und 13.30 – 20.00 Uhr",
+                "value_type": "TEXT",
+                "context": "Telefonische Erreichbarkeit des Frauenhauses Pforzheim",
+                "evidence_location": "Erreichbarkeit Montag – Freitag 8.00 – 12.30 Uhr und 13.30 – 20.00 Uhr außerhalb der Zeiten wird Ihnen die Nummer des polizeilichen Notrufs angesagt"
+            },
+            {
+                "norm": "Erreichbarkeit Fachstelle Häusliche Gewalt Pforzheim Enzkreis",
+                "extracted_value": "Montag 14.00 – 16.00 Uhr Dienstag – Freitag 9.00 – 11.00 Uhr Dienstag + Donnerstag 14.00 – 16.00 Uhr",
+                "value_type": "TEXT",
+                "context": "Sprechzeiten der Fachstelle Häusliche Gewalt Pforzheim Enzkreis",
+                "evidence_location": "Erreichbarkeit Montag 14.00 – 16.00 Uhr Dienstag – Freitag 9.00 – 11.00 Uhr Dienstag + Donnerstag 14.00 – 16.00 Uhr außerhalb der Zeiten kann das bundesweite Hilfetelefon unter der Nummer 08000 11 60 16 erreicht werden"
+            }
+        ],
+        "last_updated": "2026-11-15T08:49:25.791593+00:00"
+    },
+    "praxis_slot_PF_SOZ_22": {
+        "source_hash": "99a7766412fb2d821bc9579060619ad08cb36d384b90e5d68928029ef23fc874",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "claims": [
+            {
+                "norm": "Beratungsangebot Fachstelle Sucht Pforzheim",
+                "extracted_value": "anonym und kostenfrei",
+                "value_type": "TEXT",
+                "context": "Kostenfreie und anonyme Beratung für Betroffene, Angehörige und Unternehmen durch die Fachstelle Sucht Pforzheim",
+                "evidence_location": "Egal, ob es um Sie, um Ihre Angehörigen oder um Ihr Unternehmen geht - wir sind gerne für Sie da, hören zu und informieren Sie anonym und kostenfrei."
+            }
+        ],
+        "last_updated": "2026-11-15T08:49:36.950369+00:00"
     }
 }

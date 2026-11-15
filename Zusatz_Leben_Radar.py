@@ -480,1267 +480,154 @@ async def process_slot(slot: dict, state: dict, browser: Browser) -> dict:
 # 5. ZUSATZ-ARSENAL (120 SEKTOR-ZIELE)
 # ==========================================
 ZUSATZ_ARSENAL = [
-    {
-        "id": "Z1",
-        "name": "Mietspiegel Pforzheim",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/bauen-wohnen/mietspiegel.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf"
-        ],
-    },
-    {
-        "id": "Z2",
-        "name": "SWP Strom Grundversorgung",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["stadtwerke-pforzheim.de"],
-        "source_urls": [
-            "https://www.stadtwerke-pforzheim.de/strom/grund-und-ersatzversorgung/"
-        ],
-        "deep_urls": [
-            "https://www.stadtwerke-pforzheim.de/strom/grund-und-ersatzversorgung/"
-        ],
-    },
-    {
-        "id": "Z3",
-        "name": "Bildung & Teilhabe Pforzheim",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["jobcenter.pforzheim.de", "pforzheim.de", "www.pforzheim.de"],
-        "source_urls": [
-            "https://jobcenter.pforzheim.de/"
-        ],
-        "deep_urls": [
-            "https://jobcenter.pforzheim.de/fileadmin/user_upload/Formulare/Antrag_auf_Leistungen_fuer_Bildung_und_Teilhabe.pdf"
-        ],
-    },
-    {
-        "id": "Z4",
-        "name": "VPE Ticket-Tarife",
-        "jurisdiction": "REGION_NTS",
-        "allowed_domains": ["vpe.de", "www.vpe.de"],
-        "source_urls": ["https://vpe.de/fahrschein-jugendbw"],
-        "deep_urls": [
-            "https://www.vpe.de/fileadmin/user_upload/Tarife/VPE_Tarifzonenplan_Preistabelle.pdf"
-        ],
-    },
-    {
-        "id": "Z5",
-        "name": "Pforzheimer Tafel (GBE Pforzheim)",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["gbe-pforzheim.de"],
-        "source_urls": [
-            "https://gbe-pforzheim.de/gbe-einrichtungen/pforzheimer-tafel.html"
-        ],
-        "deep_urls": [
-            "https://gbe-pforzheim.de/fileadmin/user_upload/Downloads/Einkaufsberechtigung_Tafel.pdf"
-        ],
-    },
-    {
-        "id": "Z6",
-        "name": "Auszahlungstermine Kindergeld",
-        "jurisdiction": "BUND",
-        "allowed_domains": ["arbeitsagentur.de"],
-        "source_urls": [
-            "https://www.arbeitsagentur.de/familie-und-kinder/auszahlungstermine"
-        ],
-        "deep_urls": [
-            "https://www.arbeitsagentur.de/datei/auszahlungstermine-kindergeld_ba041696.pdf"
-        ],
-    },
-    {
-        "id": "Z7",
-        "name": "Finanzielle Hilfen",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/uebersicht-hilfen.html"
-        ],
-    },
-    {
-        "id": "Z8",
-        "name": "Verbraucherzentrale Pforzheim",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["verbraucherzentrale-bw.de"],
-        "source_urls": [
-            "https://www.verbraucherzentrale-bw.de/beratungsstellen/pforzheim"
-        ],
-        "deep_urls": [
-            "https://www.verbraucherzentrale-bw.de/sites/default/files/2023-10/Preisverzeichnis_VZBW.pdf"
-        ],
-    },
-    {
-        "id": "Z9",
-        "name": "BuT Enzkreis (Jobcenter)",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["enzkreis.de"],
-        "source_urls": [
-            "https://www.enzkreis.de/Unsere-Leistungen/Dienstleistungen/Bildungs-und-Teilhabepaket.php?ModID=10&FID=2032.111.1"
-        ],
-        "deep_urls": ["https://www.enzkreis.de/media/custom/3397_1234_1.PDF"],
-    },
-    {
-        "id": "Z10",
-        "name": "Wohngeldbehörde Enzkreis",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["enzkreis.de"],
-        "source_urls": ["https://www.enzkreis.de/?object=tx,3397.11173.1"],
-        "deep_urls": [
-            "https://www.enzkreis.de/media/custom/3397_Wohngeldantrag_Mietzuschuss.PDF"
-        ],
-    },
-    {
-        "id": "Z11",
-        "name": "Müllgebühren Enzkreis",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["enzkreis.de", "abfallwirtschaft-enzkreis.de"],
-        "source_urls": [
-            "https://www.enzkreis.de/Unsere-Leistungen/Dienstleistungen/Abfallgeb%C3%BChren.php?ModID=10&FID=2032.7.1",
-            "https://www.abfallwirtschaft-enzkreis.de/gebuehren/",
-        ],
-        "deep_urls": [
-            "https://www.abfallwirtschaft-enzkreis.de/fileadmin/user_upload/Abfallwirtschaft/Gebuehren/Abfallgebuehrensatzung.pdf"
-        ],
-    },
-    {
-        "id": "Z12",
-        "name": "Schuldnerberatung Enzkreis",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["enzkreis.de"],
-        "source_urls": [
-            "https://www.enzkreis.de/Landratsamt/%C3%84mter-Dezernate/Dezernat-4-Familie-und-Soziales/Jobcenter-Enzkreis/index.php?object=tx%7C3397.2.1&ModID=10&FID=2032.334.1"
-        ],
-        "deep_urls": [
-            "https://www.enzkreis.de/media/custom/3397_Faltblatt_Schuldnerberatung.PDF"
-        ],
-    },
-    {
-        "id": "Z13",
-        "name": "Tafelladen Enzkreis",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["diakonie-enzkreis.de"],
-        "source_urls": [
-            "https://www.diakonie-enzkreis.de/guenstig-einkaufen/tafelladen"
-        ],
-        "deep_urls": [
-            "https://www.diakonie-enzkreis.de/fileadmin/user_upload/Flyer_Tafelladen.pdf"
-        ],
-    },
-    {
-        "id": "Z14",
-        "name": "Schuldnerberatung",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/schuldnerberatung.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/rat-hilfe/Schuldnerberatung_Flyer.pdf"
-        ],
-    },
-    {
-        "id": "Z15",
-        "name": "Finanzielle Hilfen für Eltern",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/finanzielle-hilfen-fuer-eltern.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/uebersicht-eltern-leistungen.html"
-        ],
-    },
-    {
-        "id": "Z16",
-        "name": "Finanzielle Hilfen bei einer Behinderung",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/finanzielle-hilfen-bei-einer-behinderung.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/rat-hilfe/Eingliederungshilfe_Antrag.pdf"
-        ],
-    },
-    {
-        "id": "Z17",
-        "name": "Finanzielle Hilfen für Senioren",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/finanzielle-hilfen-fuer-senioren.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/senioren/Seniorenratgeber.pdf"
-        ],
-    },
-    {
-        "id": "Z18",
-        "name": "Finanzielle Hilfen für die Jugendarbeit",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/finanzielle-hilfen-fuer-die-jugendarbeit.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/jugend/Foerderrichtlinien_Jugendarbeit.pdf"
-        ],
-    },
-    {
-        "id": "Z19",
-        "name": "Goldstadt-Pass (Voraussetzungen & Antrag)",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/buergerservice/info/service-bw/leistungen/show/6005679-goldstadt-pass.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/buergerservice/Antrag_Goldstadtpass.pdf"
-        ],
-    },
-    {
-        "id": "Z20",
-        "name": "Förderverein Pforzheimer Tafel e.V.",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["foerderverein-pforzheimertafel.eu"],
-        "source_urls": ["http://www.foerderverein-pforzheimertafel.eu/"],
-        "deep_urls": [
-            "http://www.foerderverein-pforzheimertafel.eu/mitgliedsantrag.pdf"
-        ],
-    },
-    {
-        "id": "Z21",
-        "name": "Mieterverein Pforzheim und Enzkreis e.V.",
-        "jurisdiction": "REGION_NTS",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": ["https://www.service-bw.de/zufi/leistungen/4495"],
-        "deep_urls": [
-            "https://www.mieterverein-pforzheim.de/fileadmin/user_upload/Beitragsordnung.pdf"
-        ],
-    },
-    {
-        "id": "Z22",
-        "name": "Finanzielle Hilfe für obdachlose Menschen",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/finanzielle-hilfe-fuer-obdachlose-menschen.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/rat-hilfe/Notunterkuenfte_Uebersicht.pdf"
-        ],
-    },
-    {
-        "id": "Z23",
-        "name": "Wohngeldbehörde Pforzheim (Anträge & Vordrucke)",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["form-solutions.net", "landbw.de", "komm.one"],
-        "source_urls": [
-            "https://pdf.form-solutions.net/forms/frm/4dakhDtg1P7pF3HkmGQ4CCCjv98qkk3C",
-            "https://sbwmedia.landbw.de/documents/wm/wohngeld/Mietzuschuss%20nach%20dem%20Wohngeldgesetz%20BUND.pdf",
-        ],
-        "deep_urls": [
-            "https://pdf.form-solutions.net/forms/frm/4dakhDtg1P7pF3HkmGQ4CCCjv98qkk3C",
-            "https://sbwmedia.landbw.de/documents/wm/wohngeld/Lastenzuschuss%20nach%20dem%20Wohngeldgesetz%20BUND.pdf",
-        ],
-    },
-    {
-        "id": "Z24",
-        "name": "Wohnberechtigungsschein (WBS)",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/buergerservice/pf0/service-bw/organisationseinheiten/show/6021731-354-wohnungswesen-wohnungssicherung-sachgebiet.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/buergerservice/Antrag_WBS.pdf"
-        ],
-    },
-    {
-        "id": "Z25",
-        "name": "Abfallgebühren Pforzheim",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["abfallwirtschaft-pforzheim.de"],
-        "source_urls": [
-            "https://www.abfallwirtschaft-pforzheim.de/abfallwirtschaft/muellgebuehren"
-        ],
-        "deep_urls": [
-            "https://www.abfallwirtschaft-pforzheim.de/fileadmin/user_upload/abfallwirtschaft/Gebuehrentabelle_PF.pdf"
-        ],
-    },
-    {
-        "id": "Z26",
-        "name": "Wirtschaftliche Jugendhilfe (Kita)",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/buergerservice/info/service-bw/leistungen/show/82-kindertageseinrichtungen-gebuehrenermaessigung-oder-gebuehrenbefreiung-beantragen.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/jugend/Kita_Gebuehrenordnung.pdf"
-        ],
-    },
-    {
-        "id": "Z27",
-        "name": "Pflegestützpunkt Pforzheim",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/gesellschaft-soziales/senioren/pflegestuetzpunkt.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/senioren/Pflegestuetzpunkt_Flyer.pdf"
-        ],
-    },
-    {
-        "id": "Z28",
-        "name": "Unterhaltsvorschuss Pforzheim",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["pforzheim.de"],
-        "source_urls": [
-            "https://www.pforzheim.de/buerger/buergerservice/info/service-bw/leistungen/show/170-unterhaltsvorschuss-beantragen.html"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/jugend/Antrag_Unterhaltsvorschuss.pdf"
-        ],
-    },
-    {
-        "id": "Z29",
-        "name": "LL: Arbeitnehmer",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001353"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z30",
-        "name": "LL: Arbeitslos, Grundsicherungsgeld",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001012"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z31",
-        "name": "LL: Berufsausbildung",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000950"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z32",
-        "name": "LL: Schule",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000243"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z33",
-        "name": "LL: Studium",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001119"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z34",
-        "name": "LL: Weiterbildung",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000199"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z35",
-        "name": "LL: Führerschein",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000396"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z36",
-        "name": "LL: Personalausweis, Reisepass",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001046"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z37",
-        "name": "LL: Tierhaltung, Tierschutz, Fischerei und Jagd",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001339"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z38",
-        "name": "LL: Bauen und Modernisieren",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000427"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z39",
-        "name": "LL: Grundstück",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000612"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z40",
-        "name": "LL: Umzug",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000726"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z41",
-        "name": "LL: Wohnen",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000525"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z42",
-        "name": "LL: Bürgerschaftliches Engagement",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000892"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z43",
-        "name": "LL: Freiwilligendienste",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000069"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z44",
-        "name": "LL: Wahlen und Bürgerbeteiligung",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000463"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z45",
-        "name": "LL: Adoption",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000531"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z46",
-        "name": "LL: Der Bund fürs Leben",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000928"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z47",
-        "name": "LL: Der Bund fürs Leben - Auflösung",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001057"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z48",
-        "name": "LL: Familie und Kinder",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000312"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z49",
-        "name": "LL: Kinderbetreuung",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001280"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z50",
-        "name": "LL: Pflegeeltern",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000919"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z51",
-        "name": "LL: Geburt",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000783"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z52",
-        "name": "LL: Sterbefall",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000053"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z53",
-        "name": "LL: Behinderung",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001206"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z54",
-        "name": "LL: Gesetzliche Unfallversicherung, Kinder und Schüler",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000388"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z55",
-        "name": "LL: Gesundheit",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000349"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z56",
-        "name": "LL: Gläubiger und Schuldner",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000945"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z57",
-        "name": "LL: Notlagen",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000779"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z58",
-        "name": "LL: Opferschutz und Opferhilfe",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000887"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z59",
-        "name": "LL: Stiftungen",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000722"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z60",
-        "name": "LL: Verbraucherschutz und Ernährung",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001207"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z61",
-        "name": "LL: Altersvorsorge und Ruhestand",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000667"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z62",
-        "name": "LL: Erben und Vererben",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000666"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z63",
-        "name": "LL: Vormundschaft und rechtliche Betreuung",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001456"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z64",
-        "name": "LL: Fahrzeuge",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001410"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z65",
-        "name": "LL: Reisen",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001054"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z66",
-        "name": "LL: Vereine",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000500"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z67",
-        "name": "LL: Verkehr und Verkehrswege",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000952"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z68",
-        "name": "LL: Sicherheit und Gefahrenabwehr",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000006"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z69",
-        "name": "LL: Umwelt",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000229"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z70",
-        "name": "LL: Umwelt- und Naturgefahren",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000833"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z71",
-        "name": "LL: Arbeitgeber",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000437"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z72",
-        "name": "LL: Freiberufler",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001440"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z73",
-        "name": "LL: Gewerbe",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000218"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z74",
-        "name": "LL: Patente, Marken, Ideentransfer",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001195"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z75",
-        "name": "LL: Unternehmen führen",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001018"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z76",
-        "name": "LL: Unternehmen gründen",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000792"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z77",
-        "name": "LL: Unternehmensnachfolge",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000810"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z78",
-        "name": "LL: Vergabe öffentlicher Aufträge",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000476"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z79",
-        "name": "LL: Deutsche Staatsangehörigkeit",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000729"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z80",
-        "name": "LL: Spätaussiedler",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000884"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z81",
-        "name": "LL: Zuwanderung",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000993"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z82",
-        "name": (
-            "LL: Tierhaltung, Tierschutz, Fischerei und Jagd"
-            " (Duplikat-Sicherung)"
-        ),
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001339"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z83",
-        "name": "LL: Notlagen (Sicherheits-Check)",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000779"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z84",
-        "name": "LL: Gläubiger und Schuldner (Sicherheits-Check)",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000945"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z85",
-        "name": "LL: Wohnen (Sicherheits-Check)",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5000525"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z86",
-        "name": "LL: Arbeitnehmer (Sicherheits-Check)",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/lebenslagen/5001353"
-        ],
-        "deep_urls": [],
-    },
-    {
-        "id": "Z87",
-        "name": "Rente: Regelaltersrente beantragen",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": ["https://www.service-bw.de/zufi/leistungen/1519"],
-        "deep_urls": [
-            "https://www.service-bw.de/zufi/formulare/Rentenantrag_R0100.pdf"
-        ],
-    },
-    {
-        "id": "Z88",
-        "name": "Rente: Altersrente für schwerbehinderte Menschen",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": ["https://www.service-bw.de/zufi/leistungen/1251"],
-        "deep_urls": [
-            "https://www.service-bw.de/zufi/formulare/Rentenantrag_Schwerbehinderung_R0100.pdf"
-        ],
-    },
-    {
-        "id": "Z89",
-        "name": "Rente: Erwerbsminderungsrente beantragen",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": ["https://www.service-bw.de/zufi/leistungen/1240"],
-        "deep_urls": [
-            "https://www.service-bw.de/zufi/formulare/Rentenantrag_Erwerbsminderung_R0210.pdf"
-        ],
-    },
-    {
-        "id": "Z90",
-        "name": "Rente: Rentenauskunft und Kontenklärung",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": ["https://www.service-bw.de/zufi/leistungen/85"],
-        "deep_urls": [
-            "https://www.service-bw.de/zufi/formulare/Kontenklaerung_V0100.pdf"
-        ],
-    },
-    {
-        "id": "Z91",
-        "name": "Rentenstelle Stadt Pforzheim",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/organisationseinheiten/6021568"
-        ],
-        "deep_urls": [
-            "https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/buergerservice/Rentenstelle_Merkblatt.pdf"
-        ],
-    },
-    {
-        "id": "Z92",
-        "name": "Deutsche Rentenversicherung Außenstelle Pforzheim",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["service-bw.de"],
-        "source_urls": [
-            "https://www.service-bw.de/zufi/organisationseinheiten/6008274"
-        ],
-        "deep_urls": [
-            "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/regional/bw/beratungsstellen.pdf"
-        ],
-    },
-    # ==========================================
-    # DIE 5 STÄDTE IM ENZKREIS
-    # ==========================================
-    {
-        "id": "ENZ_ST_01",
-        "name": "Stadt Heimsheim",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["heimsheim.de"],
-        "source_urls": ["https://www.heimsheim.de"],
-    },
-    {
-        "id": "ENZ_ST_02",
-        "name": "Stadt Knittlingen",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["knittlingen.de"],
-        "source_urls": ["https://www.knittlingen.de"],
-    },
-    {
-        "id": "ENZ_ST_03",
-        "name": "Stadt Maulbronn",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["maulbronn.de"],
-        "source_urls": ["https://www.maulbronn.de"],
-    },
-    {
-        "id": "ENZ_ST_04",
-        "name": "Stadt Mühlacker",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["muehlacker.de"],
-        "source_urls": ["https://www.muehlacker.de"],
-    },
-    {
-        "id": "ENZ_ST_05",
-        "name": "Stadt Neuenbürg",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["neuenbuerg.de"],
-        "source_urls": ["https://www.neuenbuerg.de"],
-    },
-    # ==========================================
-    # DIE 23 GEMEINDEN IM ENZKREIS
-    # ==========================================
-    {
-        "id": "ENZ_GM_01",
-        "name": "Gemeinde Birkenfeld",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["birkenfeld-enzkreis.de"],
-        "source_urls": ["https://www.birkenfeld-enzkreis.de"],
-    },
-    {
-        "id": "ENZ_GM_02",
-        "name": "Gemeinde Eisingen",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["eisingen-enzkreis.de"],
-        "source_urls": ["https://www.eisingen-enzkreis.de"],
-    },
-    {
-        "id": "ENZ_GM_03",
-        "name": "Gemeinde Engelsbrand",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["engelsbrand.de"],
-        "source_urls": ["https://www.engelsbrand.de"],
-    },
-    {
-        "id": "ENZ_GM_04",
-        "name": "Gemeinde Friolzheim",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["friolzheim.de"],
-        "source_urls": ["https://www.friolzheim.de"],
-    },
-    {
-        "id": "ENZ_GM_05",
-        "name": "Gemeinde Illingen",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["illingen-online.de"],
-        "source_urls": ["https://www.illingen-online.de"],
-    },
-    {
-        "id": "ENZ_GM_06",
-        "name": "Gemeinde Ispringen",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["ispringen.de"],
-        "source_urls": ["https://www.ispringen.de"],
-    },
-    {
-        "id": "ENZ_GM_07",
-        "name": "Gemeinde Kämpfelbach",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["kaempfelbach.de"],
-        "source_urls": ["https://www.kaempfelbach.de"],
-    },
-    {
-        "id": "ENZ_GM_08",
-        "name": "Gemeinde Keltern",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["keltern.de"],
-        "source_urls": ["https://www.keltern.de"],
-    },
-    {
-        "id": "ENZ_GM_09",
-        "name": "Gemeinde Kieselbronn",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["kieselbronn.de"],
-        "source_urls": ["https://www.kieselbronn.de"],
-    },
-    {
-        "id": "ENZ_GM_10",
-        "name": "Gemeinde Königsbach-Stein",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["koenigsbach-stein.de"],
-        "source_urls": ["https://www.koenigsbach-stein.de"],
-    },
-    {
-        "id": "ENZ_GM_11",
-        "name": "Gemeinde Mönsheim",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["moensheim.de"],
-        "source_urls": ["https://www.moensheim.de"],
-    },
-    {
-        "id": "ENZ_GM_12",
-        "name": "Gemeinde Neuhausen",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["neuhausen-enzkreis.de"],
-        "source_urls": ["https://www.neuhausen-enzkreis.de"],
-    },
-    {
-        "id": "ENZ_GM_13",
-        "name": "Gemeinde Neulingen",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["neulingen.de"],
-        "source_urls": ["https://www.neulingen.de"],
-    },
-    {
-        "id": "ENZ_GM_14",
-        "name": "Gemeinde Niefern-Öschelbronn",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["niefern-oeschelbronn.de"],
-        "source_urls": ["https://www.niefern-oeschelbronn.de"],
-    },
-    {
-        "id": "ENZ_GM_15",
-        "name": "Gemeinde Ölbronn-Dürrn",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["oelbronn-duerrn.de"],
-        "source_urls": ["https://www.oelbronn-duerrn.de"],
-    },
-    {
-        "id": "ENZ_GM_16",
-        "name": "Gemeinde Ötisheim",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["oetisheim.de"],
-        "source_urls": ["https://www.oetisheim.de"],
-    },
-    {
-        "id": "ENZ_GM_17",
-        "name": "Gemeinde Remchingen",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["remchingen.de"],
-        "source_urls": ["https://www.remchingen.de"],
-    },
-    {
-        "id": "ENZ_GM_18",
-        "name": "Gemeinde Sternenfels",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["sternenfels.de"],
-        "source_urls": ["https://www.sternenfels.de"],
-    },
-    {
-        "id": "ENZ_GM_19",
-        "name": "Gemeinde Straubenhardt",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["straubenhardt.de"],
-        "source_urls": ["https://www.straubenhardt.de"],
-    },
-    {
-        "id": "ENZ_GM_20",
-        "name": "Gemeinde Tiefenbronn",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["tiefenbronn.de"],
-        "source_urls": ["https://www.tiefenbronn.de"],
-    },
-    {
-        "id": "ENZ_GM_21",
-        "name": "Gemeinde Wiernsheim",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["wiernsheim.de"],
-        "source_urls": ["https://www.wiernsheim.de"],
-    },
-    {
-        "id": "ENZ_GM_22",
-        "name": "Gemeinde Wimsheim",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["wimsheim.de"],
-        "source_urls": ["https://www.wimsheim.de"],
-    },
-    {
-        "id": "ENZ_GM_23",
-        "name": "Gemeinde Wurmberg",
-        "jurisdiction": "LANDKREIS_ENZKREIS",
-        "allowed_domains": ["wurmberg.de"],
-        "source_urls": ["https://www.wurmberg.de"],
-    },
- # === KRITIS- & FRÜHWARN-SENSOREN: PF / ENZ / LANDESEBENE BW ===
-    {
-        "id": "PF_ENZ_K1_STROM",
-        "name": "Netze BW & SWP Störungsmelder (Strom/Gas)",
-        "jurisdiction": "REGION_PF_ENZ",
-        "allowed_domains": ["netze-bw.de", "www.netze-bw.de"],
-        "source_urls": ["https://www.netze-bw.de/stoerung"],
-        "wait_selector": "main, #main-content, body",
-        "content_selector": "main, .disruption-list, .stoerung-content, body",
-        "category": "kritis_energie"
-    },
-    {
-        "id": "PF_ENZ_K2_APO",
-        "name": "Apotheken-Notdienst Pforzheim & Enzkreis (LAK BW)",
-        "jurisdiction": "REGION_PF_ENZ",
-        "allowed_domains": ["lak-bw.de", "www.lak-bw.de", "lak-bw.notdienst-portal.de"],
-        "source_urls": ["https://www.lak-bw.de/buergerservice/apothekennotdienst/schnellsuche"],
-        "wait_selector": "#content, .emergency-search, body",
-        "content_selector": "#content, .tx-emergency-service, .results-container, body",
-        "category": "daseinsvorsorge_apotheke"
-    },
-    {
-        "id": "BW_KRITIS_K3_CYBER",
-        "name": "BSI & Cyberwehr BW (IT-Sicherheitslage & KRITIS-Ausfälle)",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["bsi.bund.de", "www.bsi.bund.de"],
-        "source_urls": ["https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/pressemitteilungen_node.html"],
-        "wait_selector": "main, .c-teaser-list, body",
-        "content_selector": "main, .c-teaser-list, .c-press-releases, body",
-        "category": "kritis_cyber"
-    },
-    {
-        "id": "BW_KRITIS_K4_LEBENSMITTEL",
-        "name": "BVL Lebensmittelwarnungen & Produktrückrufe (BW)",
-        "jurisdiction": "LAND_BW",
-        "allowed_domains": ["lebensmittelwarnung.de", "www.lebensmittelwarnung.de"],
-        "source_urls": ["https://www.lebensmittelwarnung.de/bvl-lmw-de/liste/lebensmittel/baden-wuerttemberg"],
-        "wait_selector": ".table, .teaser-list, body",
-        "content_selector": ".table, .teaser-list, #maincontent, body",
-        "category": "daseinsvorsorge_lebensmittel"
-    },
-    {
-        "id": "PF_K5_WOHNBAU",
-        "name": "Bau und Heim eG Pforzheim (Sozialer Wohnraum & Bauprojekte)",
-        "jurisdiction": "STADTKREIS_PFORZHEIM",
-        "allowed_domains": ["bauundheim.de", "www.bauundheim.de"],
-        "source_urls": ["https://www.bauundheim.de/"],
-        "wait_selector": "main, #content, body",
-        "content_selector": "main, #content, .news-list, body",
-        "category": "wohnen_sozialraum"
-    },
-    {
-        "id": "PF_ENZ_K6_DWD",
-        "name": "DWD Amtliche Warnungen (Stadtkreis Pforzheim & Enzkreis)",
-        "jurisdiction": "REGION_PF_ENZ",
-        "allowed_domains": ["dwd.de", "www.dwd.de", "warnungen.dwd.de"],
-        "source_urls": ["https://www.dwd.de/DE/wetter/warnungen_gemeinden/warnWetter_node.html"],
-        "wait_selector": "#warnungen, .warn_table, body",
-        "content_selector": "#warnungen, .warn_table, .warning-content, body",
-        "category": "sensor_wetter"
-    },
-    {"name": "Wichernhaus Pforzheim - Hilfsangebote & Notuebernachtung", "source_urls": "https://www.wichernhauspforzheim.de/hilfsangebote/"},
-    {"name": "Wichernhaus Pforzheim - Tagesstaette & Zentrale", "source_urls": "https://www.wichernhauspforzheim.de/"},
-    {"name": "Stadt Pforzheim - Fachstelle Wohnungssicherung", "source_urls": "https://www.pforzheim.de/buerger/rat-hilfe/hilfe-bei-wohnungslosigkeit.html"},
-    {"name": "Stadt Pforzheim - Streetwork Innenstadt", "source_urls": "https://www.pforzheim.de/buerger/rat-hilfe/beratungsstellen/sozialberatungsstellen-ansicht/show/streetwork-innenstadt.html"},
-    {"name": "Stadt Muehlacker - Obdachlosenunterbringung", "source_urls": "https://www.muehlacker.de/stadt/cityweb/dienstleistungen/obdachlosenunterbringung.php"},
-    {"name": "Gemeinde Remchingen - Integrationsteam & Obdachlosenhilfe", "source_urls": "https://www.remchingen.de/soziales/integrationsteam-der-gemeinde-remchingen-id_610/"},
-    {"name": "Diakonie Enzkreis - Tagesstaetten Muehlacker & Wilferdingen", "source_urls": "https://www.diakonie-enzkreis.de/angebote-und-hilfen/angebote-fuer-psychisch-kranke-menschen"},
-    {"name": "Pforzheim Integriert - Pforzheimer Tafel Broetzingen", "source_urls": "https://www.pforzheim-integriert.de/angebote/soziales/pforzheimer-tafel.html"},
-    {"name": "Oekumenische Vesperkirche Pforzheim", "source_urls": "https://pforzheimervesperkirche.de/vesperkirche/"},
-    {"name": "Suppenkueche Pforzheim", "source_urls": "https://pforzheimervesperkirche.de/suppenkueche/"},
-    {"name": "Helping Hands Pforzheim e.V. - Mobile Hilfe", "source_urls": "https://herzensprojekt-obdachlosenhilfe.org/vor-ort2/wir-bringen-warmes-essen-kleidung-kaffee-u-kuchen/"},
-    {"name": "Muehlacker Tafel e.V. - Aktuelles", "source_urls": "https://www.muehlacker-tafel.com/"},
-    {"name": "foodsharing Fairteiler Muehlacker", "source_urls": "https://foodsharing.de/fairteiler/2872"},
-    {"name": "DRK Pforzheim - Kleiderkammer", "source_urls": "https://www.drk-pforzheim.de/angebote/existenzsichernde-hilfe/kleiderkammer.html"},
-    {"name": "DRK Pforzheim - Kleiderladen", "source_urls": "https://www.drk-pforzheim.de/angebote/kleiderladen.html"},
-    {"name": "Kinderschutzbund Pforzheim - Kleiderecke", "source_urls": "https://dksb-pforzheim.de/was-wir-tun/unterstuetzung-von-familien/kleiderecke/"},
-    {"name": "Stadt Pforzheim - FIZ Kleiderkammer", "source_urls": "https://www.familie-pforzheim.de/eltern/wichtige-infos-fuer-eltern/fiz-familieninformationszentrum.html"},
-    {"name": "DRK Muehlacker - Bekleidungskoordination Enzkreis", "source_urls": "https://muehlacker.drk-pforzheim.de/wir-ueber-uns/unsere-angebote-fuer-sie/altkleider.html"},
-    {"name": "GPV Enzkreis-Pforzheim - Sozialpsychiatrische Dienste", "source_urls": "https://www.gpv-enzkreis-pforzheim.de/seite/464094/sozialpsychiatrische-dienste.html"},
-    {"name": "Landratsamt Enzkreis - Psychosoziale Hilfen", "source_urls": "https://www.enzkreis.de/Unsere-Leistungen/Dienstleistungen/Psychosoziale-Hilfen.php?ModID=10&FID=2032.243.1"},
-    {"name": "Oekumenisches Frauenhaus Pforzheim-Enzkreis", "source_urls": "https://frauenhaus-pforzheim.de/kontakt/"},
-    {"name": "bwlv Fachstelle Sucht Pforzheim", "source_urls": "https://www.bw-lv.de/beratung/beratungsstellen/fachstelle-sucht-pforzheim/"},
+    {'id': 'Z1', 'name': 'Mietspiegel Pforzheim', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/bauen-wohnen/mietspiegel.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z2', 'name': 'SWP Strom Grundversorgung', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['stadtwerke-pforzheim.de'], 'source_urls': ['https://www.stadtwerke-pforzheim.de/strom/grund-und-ersatzversorgung/'], 'deep_urls': ['https://www.stadtwerke-pforzheim.de/strom/grund-und-ersatzversorgung/'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z3', 'name': 'Bildung & Teilhabe Pforzheim', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['jobcenter.pforzheim.de', 'pforzheim.de', 'www.pforzheim.de'], 'source_urls': ['https://jobcenter.pforzheim.de/'], 'deep_urls': ['https://jobcenter.pforzheim.de/fileadmin/user_upload/Formulare/Antrag_auf_Leistungen_fuer_Bildung_und_Teilhabe.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z4', 'name': 'VPE Ticket-Tarife', 'jurisdiction': 'REGION_NTS', 'allowed_domains': ['vpe.de', 'www.vpe.de'], 'source_urls': ['https://vpe.de/fahrschein-jugendbw'], 'deep_urls': ['https://www.vpe.de/fileadmin/user_upload/Tarife/VPE_Tarifzonenplan_Preistabelle.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z5', 'name': 'Pforzheimer Tafel (GBE Pforzheim)', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['gbe-pforzheim.de'], 'source_urls': ['https://gbe-pforzheim.de/gbe-einrichtungen/pforzheimer-tafel.html'], 'deep_urls': ['https://gbe-pforzheim.de/fileadmin/user_upload/Downloads/Einkaufsberechtigung_Tafel.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z6', 'name': 'Auszahlungstermine Kindergeld', 'jurisdiction': 'BUND', 'allowed_domains': ['arbeitsagentur.de'], 'source_urls': ['https://www.arbeitsagentur.de/familie-und-kinder/auszahlungstermine'], 'deep_urls': ['https://www.arbeitsagentur.de/datei/auszahlungstermine-kindergeld_ba041696.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z7', 'name': 'Finanzielle Hilfen', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen.html'], 'deep_urls': ['https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/uebersicht-hilfen.html'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z8', 'name': 'Verbraucherzentrale Pforzheim', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['verbraucherzentrale-bw.de'], 'source_urls': ['https://www.verbraucherzentrale-bw.de/beratungsstellen/pforzheim'], 'deep_urls': ['https://www.verbraucherzentrale-bw.de/sites/default/files/2023-10/Preisverzeichnis_VZBW.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z9', 'name': 'BuT Enzkreis (Jobcenter)', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['enzkreis.de'], 'source_urls': ['https://www.enzkreis.de/Unsere-Leistungen/Dienstleistungen/Bildungs-und-Teilhabepaket.php?ModID=10&FID=2032.111.1'], 'deep_urls': ['https://www.enzkreis.de/media/custom/3397_1234_1.PDF'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z10', 'name': 'Wohngeldbehörde Enzkreis', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['enzkreis.de'], 'source_urls': ['https://www.enzkreis.de/?object=tx,3397.11173.1'], 'deep_urls': ['https://www.enzkreis.de/media/custom/3397_Wohngeldantrag_Mietzuschuss.PDF'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z11', 'name': 'Müllgebühren Enzkreis', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['enzkreis.de', 'abfallwirtschaft-enzkreis.de'], 'source_urls': ['https://www.enzkreis.de/Unsere-Leistungen/Dienstleistungen/Abfallgeb%C3%BChren.php?ModID=10&FID=2032.7.1', 'https://www.abfallwirtschaft-enzkreis.de/gebuehren/'], 'deep_urls': ['https://www.abfallwirtschaft-enzkreis.de/fileadmin/user_upload/Abfallwirtschaft/Gebuehren/Abfallgebuehrensatzung.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z12', 'name': 'Schuldnerberatung Enzkreis', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['enzkreis.de'], 'source_urls': ['https://www.enzkreis.de/Landratsamt/%C3%84mter-Dezernate/Dezernat-4-Familie-und-Soziales/Jobcenter-Enzkreis/index.php?object=tx%7C3397.2.1&ModID=10&FID=2032.334.1'], 'deep_urls': ['https://www.enzkreis.de/media/custom/3397_Faltblatt_Schuldnerberatung.PDF'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z13', 'name': 'Tafelladen Enzkreis', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['diakonie-enzkreis.de'], 'source_urls': ['https://www.diakonie-enzkreis.de/guenstig-einkaufen/tafelladen'], 'deep_urls': ['https://www.diakonie-enzkreis.de/fileadmin/user_upload/Flyer_Tafelladen.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z14', 'name': 'Schuldnerberatung', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/schuldnerberatung.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/rat-hilfe/Schuldnerberatung_Flyer.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z15', 'name': 'Finanzielle Hilfen für Eltern', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/finanzielle-hilfen-fuer-eltern.html'], 'deep_urls': ['https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/uebersicht-eltern-leistungen.html'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z16', 'name': 'Finanzielle Hilfen bei einer Behinderung', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/finanzielle-hilfen-bei-einer-behinderung.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/rat-hilfe/Eingliederungshilfe_Antrag.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z17', 'name': 'Finanzielle Hilfen für Senioren', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/finanzielle-hilfen-fuer-senioren.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/senioren/Seniorenratgeber.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z18', 'name': 'Finanzielle Hilfen für die Jugendarbeit', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/finanzielle-hilfen-fuer-die-jugendarbeit.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/jugend/Foerderrichtlinien_Jugendarbeit.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z19', 'name': 'Goldstadt-Pass (Voraussetzungen & Antrag)', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/buergerservice/info/service-bw/leistungen/show/6005679-goldstadt-pass.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/buergerservice/Antrag_Goldstadtpass.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z20', 'name': 'Förderverein Pforzheimer Tafel e.V.', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['foerderverein-pforzheimertafel.eu'], 'source_urls': ['http://www.foerderverein-pforzheimertafel.eu/'], 'deep_urls': ['http://www.foerderverein-pforzheimertafel.eu/mitgliedsantrag.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z21', 'name': 'Mieterverein Pforzheim und Enzkreis e.V.', 'jurisdiction': 'REGION_NTS', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/leistungen/4495'], 'deep_urls': ['https://www.mieterverein-pforzheim.de/fileadmin/user_upload/Beitragsordnung.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z22', 'name': 'Finanzielle Hilfe für obdachlose Menschen', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/rat-hilfe/finanzielle-hilfen/finanzielle-hilfe-fuer-obdachlose-menschen.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/rat-hilfe/Notunterkuenfte_Uebersicht.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z23', 'name': 'Wohngeldbehörde Pforzheim (Anträge & Vordrucke)', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['form-solutions.net', 'landbw.de', 'komm.one'], 'source_urls': ['https://pdf.form-solutions.net/forms/frm/4dakhDtg1P7pF3HkmGQ4CCCjv98qkk3C', 'https://sbwmedia.landbw.de/documents/wm/wohngeld/Mietzuschuss%20nach%20dem%20Wohngeldgesetz%20BUND.pdf'], 'deep_urls': ['https://pdf.form-solutions.net/forms/frm/4dakhDtg1P7pF3HkmGQ4CCCjv98qkk3C', 'https://sbwmedia.landbw.de/documents/wm/wohngeld/Lastenzuschuss%20nach%20dem%20Wohngeldgesetz%20BUND.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z24', 'name': 'Wohnberechtigungsschein (WBS)', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/buergerservice/pf0/service-bw/organisationseinheiten/show/6021731-354-wohnungswesen-wohnungssicherung-sachgebiet.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/buergerservice/Antrag_WBS.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z25', 'name': 'Abfallgebühren Pforzheim', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['abfallwirtschaft-pforzheim.de'], 'source_urls': ['https://www.abfallwirtschaft-pforzheim.de/abfallwirtschaft/muellgebuehren'], 'deep_urls': ['https://www.abfallwirtschaft-pforzheim.de/fileadmin/user_upload/abfallwirtschaft/Gebuehrentabelle_PF.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z26', 'name': 'Wirtschaftliche Jugendhilfe (Kita)', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/buergerservice/info/service-bw/leistungen/show/82-kindertageseinrichtungen-gebuehrenermaessigung-oder-gebuehrenbefreiung-beantragen.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/jugend/Kita_Gebuehrenordnung.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z27', 'name': 'Pflegestützpunkt Pforzheim', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/gesellschaft-soziales/senioren/pflegestuetzpunkt.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/senioren/Pflegestuetzpunkt_Flyer.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z28', 'name': 'Unterhaltsvorschuss Pforzheim', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/buergerservice/info/service-bw/leistungen/show/170-unterhaltsvorschuss-beantragen.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/jugend/Antrag_Unterhaltsvorschuss.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z29', 'name': 'LL: Arbeitnehmer', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001353'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z30', 'name': 'LL: Arbeitslos, Grundsicherungsgeld', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001012'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z31', 'name': 'LL: Berufsausbildung', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000950'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z32', 'name': 'LL: Schule', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000243'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z33', 'name': 'LL: Studium', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001119'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z34', 'name': 'LL: Weiterbildung', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000199'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z35', 'name': 'LL: Führerschein', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000396'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z36', 'name': 'LL: Personalausweis, Reisepass', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001046'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z37', 'name': 'LL: Tierhaltung, Tierschutz, Fischerei und Jagd', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001339'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z38', 'name': 'LL: Bauen und Modernisieren', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000427'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z39', 'name': 'LL: Grundstück', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000612'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z40', 'name': 'LL: Umzug', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000726'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z41', 'name': 'LL: Wohnen', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000525'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z42', 'name': 'LL: Bürgerschaftliches Engagement', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000892'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z43', 'name': 'LL: Freiwilligendienste', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000069'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z44', 'name': 'LL: Wahlen und Bürgerbeteiligung', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000463'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z45', 'name': 'LL: Adoption', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000531'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z46', 'name': 'LL: Der Bund fürs Leben', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000928'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z47', 'name': 'LL: Der Bund fürs Leben - Auflösung', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001057'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z48', 'name': 'LL: Familie und Kinder', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000312'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z49', 'name': 'LL: Kinderbetreuung', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001280'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z50', 'name': 'LL: Pflegeeltern', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000919'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z51', 'name': 'LL: Geburt', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000783'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z52', 'name': 'LL: Sterbefall', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000053'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z53', 'name': 'LL: Behinderung', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001206'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z54', 'name': 'LL: Gesetzliche Unfallversicherung, Kinder und Schüler', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000388'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z55', 'name': 'LL: Gesundheit', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000349'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z56', 'name': 'LL: Gläubiger und Schuldner', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000945'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z57', 'name': 'LL: Notlagen', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000779'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z58', 'name': 'LL: Opferschutz und Opferhilfe', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000887'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z59', 'name': 'LL: Stiftungen', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000722'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z60', 'name': 'LL: Verbraucherschutz und Ernährung', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001207'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z61', 'name': 'LL: Altersvorsorge und Ruhestand', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000667'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z62', 'name': 'LL: Erben und Vererben', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000666'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z63', 'name': 'LL: Vormundschaft und rechtliche Betreuung', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001456'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z64', 'name': 'LL: Fahrzeuge', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001410'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z65', 'name': 'LL: Reisen', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001054'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z66', 'name': 'LL: Vereine', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000500'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z67', 'name': 'LL: Verkehr und Verkehrswege', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000952'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z68', 'name': 'LL: Sicherheit und Gefahrenabwehr', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000006'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z69', 'name': 'LL: Umwelt', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000229'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z70', 'name': 'LL: Umwelt- und Naturgefahren', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000833'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z71', 'name': 'LL: Arbeitgeber', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000437'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z72', 'name': 'LL: Freiberufler', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001440'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z73', 'name': 'LL: Gewerbe', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000218'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z74', 'name': 'LL: Patente, Marken, Ideentransfer', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001195'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z75', 'name': 'LL: Unternehmen führen', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001018'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z76', 'name': 'LL: Unternehmen gründen', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000792'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z77', 'name': 'LL: Unternehmensnachfolge', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000810'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z78', 'name': 'LL: Vergabe öffentlicher Aufträge', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000476'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z79', 'name': 'LL: Deutsche Staatsangehörigkeit', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000729'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z80', 'name': 'LL: Spätaussiedler', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000884'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z81', 'name': 'LL: Zuwanderung', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000993'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z82', 'name': 'LL: Tierhaltung, Tierschutz, Fischerei und Jagd (Duplikat-Sicherung)', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001339'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z83', 'name': 'LL: Notlagen (Sicherheits-Check)', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000779'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z84', 'name': 'LL: Gläubiger und Schuldner (Sicherheits-Check)', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000945'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z85', 'name': 'LL: Wohnen (Sicherheits-Check)', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5000525'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z86', 'name': 'LL: Arbeitnehmer (Sicherheits-Check)', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/lebenslagen/5001353'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z87', 'name': 'Rente: Regelaltersrente beantragen', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/leistungen/1519'], 'deep_urls': ['https://www.service-bw.de/zufi/formulare/Rentenantrag_R0100.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z88', 'name': 'Rente: Altersrente für schwerbehinderte Menschen', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/leistungen/1251'], 'deep_urls': ['https://www.service-bw.de/zufi/formulare/Rentenantrag_Schwerbehinderung_R0100.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z89', 'name': 'Rente: Erwerbsminderungsrente beantragen', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/leistungen/1240'], 'deep_urls': ['https://www.service-bw.de/zufi/formulare/Rentenantrag_Erwerbsminderung_R0210.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z90', 'name': 'Rente: Rentenauskunft und Kontenklärung', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/leistungen/85'], 'deep_urls': ['https://www.service-bw.de/zufi/formulare/Kontenklaerung_V0100.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z91', 'name': 'Rentenstelle Stadt Pforzheim', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/organisationseinheiten/6021568'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/buergerservice/Rentenstelle_Merkblatt.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'Z92', 'name': 'Deutsche Rentenversicherung Außenstelle Pforzheim', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['service-bw.de'], 'source_urls': ['https://www.service-bw.de/zufi/organisationseinheiten/6008274'], 'deep_urls': ['https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/regional/bw/beratungsstellen.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_ST_01', 'name': 'Stadt Heimsheim', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['heimsheim.de'], 'source_urls': ['https://www.heimsheim.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_ST_02', 'name': 'Stadt Knittlingen', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['knittlingen.de'], 'source_urls': ['https://www.knittlingen.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_ST_03', 'name': 'Stadt Maulbronn', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['maulbronn.de'], 'source_urls': ['https://www.maulbronn.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_ST_04', 'name': 'Stadt Mühlacker', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['muehlacker.de'], 'source_urls': ['https://www.muehlacker.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_ST_05', 'name': 'Stadt Neuenbürg', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['neuenbuerg.de'], 'source_urls': ['https://www.neuenbuerg.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_01', 'name': 'Gemeinde Birkenfeld', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['birkenfeld-enzkreis.de'], 'source_urls': ['https://www.birkenfeld-enzkreis.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_02', 'name': 'Gemeinde Eisingen', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['eisingen-enzkreis.de'], 'source_urls': ['https://www.eisingen-enzkreis.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_03', 'name': 'Gemeinde Engelsbrand', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['engelsbrand.de'], 'source_urls': ['https://www.engelsbrand.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_04', 'name': 'Gemeinde Friolzheim', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['friolzheim.de'], 'source_urls': ['https://www.friolzheim.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_05', 'name': 'Gemeinde Illingen', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['illingen-online.de'], 'source_urls': ['https://www.illingen-online.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_06', 'name': 'Gemeinde Ispringen', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['ispringen.de'], 'source_urls': ['https://www.ispringen.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_07', 'name': 'Gemeinde Kämpfelbach', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['kaempfelbach.de'], 'source_urls': ['https://www.kaempfelbach.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_08', 'name': 'Gemeinde Keltern', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['keltern.de'], 'source_urls': ['https://www.keltern.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_09', 'name': 'Gemeinde Kieselbronn', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['kieselbronn.de'], 'source_urls': ['https://www.kieselbronn.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_10', 'name': 'Gemeinde Königsbach-Stein', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['koenigsbach-stein.de'], 'source_urls': ['https://www.koenigsbach-stein.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_11', 'name': 'Gemeinde Mönsheim', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['moensheim.de'], 'source_urls': ['https://www.moensheim.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_12', 'name': 'Gemeinde Neuhausen', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['neuhausen-enzkreis.de'], 'source_urls': ['https://www.neuhausen-enzkreis.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_13', 'name': 'Gemeinde Neulingen', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['neulingen.de'], 'source_urls': ['https://www.neulingen.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_14', 'name': 'Gemeinde Niefern-Öschelbronn', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['niefern-oeschelbronn.de'], 'source_urls': ['https://www.niefern-oeschelbronn.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_15', 'name': 'Gemeinde Ölbronn-Dürrn', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['oelbronn-duerrn.de'], 'source_urls': ['https://www.oelbronn-duerrn.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_16', 'name': 'Gemeinde Ötisheim', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['oetisheim.de'], 'source_urls': ['https://www.oetisheim.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_17', 'name': 'Gemeinde Remchingen', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['remchingen.de'], 'source_urls': ['https://www.remchingen.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_18', 'name': 'Gemeinde Sternenfels', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['sternenfels.de'], 'source_urls': ['https://www.sternenfels.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_19', 'name': 'Gemeinde Straubenhardt', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['straubenhardt.de'], 'source_urls': ['https://www.straubenhardt.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_20', 'name': 'Gemeinde Tiefenbronn', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['tiefenbronn.de'], 'source_urls': ['https://www.tiefenbronn.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_21', 'name': 'Gemeinde Wiernsheim', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['wiernsheim.de'], 'source_urls': ['https://www.wiernsheim.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_22', 'name': 'Gemeinde Wimsheim', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['wimsheim.de'], 'source_urls': ['https://www.wimsheim.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'ENZ_GM_23', 'name': 'Gemeinde Wurmberg', 'jurisdiction': 'LANDKREIS_ENZKREIS', 'allowed_domains': ['wurmberg.de'], 'source_urls': ['https://www.wurmberg.de'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_ENZ_K1_STROM', 'name': 'Netze BW & SWP Störungsmelder (Strom/Gas)', 'jurisdiction': 'REGION_PF_ENZ', 'allowed_domains': ['netze-bw.de', 'www.netze-bw.de'], 'source_urls': ['https://www.netze-bw.de/stoerung'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'kritis_energie'},
+    {'id': 'PF_ENZ_K2_APO', 'name': 'Apotheken-Notdienst Pforzheim & Enzkreis (LAK BW)', 'jurisdiction': 'REGION_PF_ENZ', 'allowed_domains': ['lak-bw.de', 'www.lak-bw.de', 'lak-bw.notdienst-portal.de'], 'source_urls': ['https://www.lak-bw.de/buergerservice/apothekennotdienst/schnellsuche'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': '#content, .emergency-search, body', 'content_selector': '#content, .tx-emergency-service, .results-container, body', 'category': 'daseinsvorsorge_apotheke'},
+    {'id': 'BW_KRITIS_K3_CYBER', 'name': 'BSI & Cyberwehr BW (IT-Sicherheitslage & KRITIS-Ausfälle)', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['bsi.bund.de', 'www.bsi.bund.de'], 'source_urls': ['https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/pressemitteilungen_node.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, .c-teaser-list, body', 'content_selector': 'main, .c-teaser-list, .c-press-releases, body', 'category': 'kritis_cyber'},
+    {'id': 'BW_KRITIS_K4_LEBENSMITTEL', 'name': 'BVL Lebensmittelwarnungen & Produktrückrufe (BW)', 'jurisdiction': 'LAND_BW', 'allowed_domains': ['lebensmittelwarnung.de', 'www.lebensmittelwarnung.de'], 'source_urls': ['https://www.lebensmittelwarnung.de/bvl-lmw-de/liste/lebensmittel/baden-wuerttemberg'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': '.table, .teaser-list, body', 'content_selector': '.table, .teaser-list, #maincontent, body', 'category': 'daseinsvorsorge_lebensmittel'},
+    {'id': 'PF_K5_WOHNBAU', 'name': 'Bau und Heim eG Pforzheim (Sozialer Wohnraum & Bauprojekte)', 'jurisdiction': 'STADTKREIS_PFORZHEIM', 'allowed_domains': ['bauundheim.de', 'www.bauundheim.de'], 'source_urls': ['https://www.bauundheim.de/'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': 'main, #content, body', 'content_selector': 'main, #content, .news-list, body', 'category': 'wohnen_sozialraum'},
+    {'id': 'PF_ENZ_K6_DWD', 'name': 'DWD Amtliche Warnungen (Stadtkreis Pforzheim & Enzkreis)', 'jurisdiction': 'REGION_PF_ENZ', 'allowed_domains': ['dwd.de', 'www.dwd.de', 'warnungen.dwd.de'], 'source_urls': ['https://www.dwd.de/DE/wetter/warnungen_gemeinden/warnWetter_node.html'], 'deep_urls': ['https://www.pforzheim.de/fileadmin/user_upload/stadtpforzheim/bauen-wohnen/mietspiegel/Mietspiegel_Broschuere.pdf'], 'wait_selector': '#warnungen, .warn_table, body', 'content_selector': '#warnungen, .warn_table, .warning-content, body', 'category': 'sensor_wetter'},
+    {'id': 'PF_SOZ_01', 'name': 'Wichernhaus Pforzheim - Hilfsangebote & Notuebernachtung', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['wichernhauspforzheim.de'], 'source_urls': ['https://www.wichernhauspforzheim.de/hilfsangebote/'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_02', 'name': 'Wichernhaus Pforzheim - Tagesstaette & Zentrale', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['wichernhauspforzheim.de'], 'source_urls': ['https://www.wichernhauspforzheim.de/'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_03', 'name': 'Stadt Pforzheim - Fachstelle Wohnungssicherung', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/rat-hilfe/hilfe-bei-wohnungslosigkeit.html'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_04', 'name': 'Stadt Pforzheim - Streetwork Innenstadt', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['pforzheim.de'], 'source_urls': ['https://www.pforzheim.de/buerger/rat-hilfe/beratungsstellen/sozialberatungsstellen-ansicht/show/streetwork-innenstadt.html'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_05', 'name': 'Stadt Muehlacker - Obdachlosenunterbringung', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['muehlacker.de'], 'source_urls': ['https://www.muehlacker.de/stadt/cityweb/dienstleistungen/obdachlosenunterbringung.php'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_06', 'name': 'Gemeinde Remchingen - Integrationsteam & Obdachlosenhilfe', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['remchingen.de'], 'source_urls': ['https://www.remchingen.de/soziales/integrationsteam-der-gemeinde-remchingen-id_610/'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_07', 'name': 'Diakonie Enzkreis - Tagesstaetten Muehlacker & Wilferdingen', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['diakonie-enzkreis.de'], 'source_urls': ['https://www.diakonie-enzkreis.de/angebote-und-hilfen/angebote-fuer-psychisch-kranke-menschen'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_08', 'name': 'Pforzheim Integriert - Pforzheimer Tafel Broetzingen', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['pforzheim-integriert.de'], 'source_urls': ['https://www.pforzheim-integriert.de/angebote/soziales/pforzheimer-tafel.html'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_09', 'name': 'Oekumenische Vesperkirche Pforzheim', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['pforzheimervesperkirche.de'], 'source_urls': ['https://pforzheimervesperkirche.de/vesperkirche/'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_10', 'name': 'Suppenkueche Pforzheim', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['pforzheimervesperkirche.de'], 'source_urls': ['https://pforzheimervesperkirche.de/suppenkueche/'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_11', 'name': 'Helping Hands Pforzheim e.V. - Mobile Hilfe', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['herzensprojekt-obdachlosenhilfe.org'], 'source_urls': ['https://herzensprojekt-obdachlosenhilfe.org/vor-ort2/wir-bringen-warmes-essen-kleidung-kaffee-u-kuchen/'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_12', 'name': 'Muehlacker Tafel e.V. - Aktuelles', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['muehlacker-tafel.com'], 'source_urls': ['https://www.muehlacker-tafel.com/'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_13', 'name': 'foodsharing Fairteiler Muehlacker', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['foodsharing.de'], 'source_urls': ['https://foodsharing.de/fairteiler/2872'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_14', 'name': 'DRK Pforzheim - Kleiderkammer', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['drk-pforzheim.de'], 'source_urls': ['https://www.drk-pforzheim.de/angebote/existenzsichernde-hilfe/kleiderkammer.html'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_15', 'name': 'DRK Pforzheim - Kleiderladen', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['drk-pforzheim.de'], 'source_urls': ['https://www.drk-pforzheim.de/angebote/kleiderladen.html'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_16', 'name': 'Kinderschutzbund Pforzheim - Kleiderecke', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['dksb-pforzheim.de'], 'source_urls': ['https://dksb-pforzheim.de/was-wir-tun/unterstuetzung-von-familien/kleiderecke/'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_17', 'name': 'Stadt Pforzheim - FIZ Kleiderkammer', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['familie-pforzheim.de'], 'source_urls': ['https://www.familie-pforzheim.de/eltern/wichtige-infos-fuer-eltern/fiz-familieninformationszentrum.html'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_18', 'name': 'DRK Muehlacker - Bekleidungskoordination Enzkreis', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['muehlacker.drk-pforzheim.de'], 'source_urls': ['https://muehlacker.drk-pforzheim.de/wir-ueber-uns/unsere-angebote-fuer-sie/altkleider.html'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_19', 'name': 'GPV Enzkreis-Pforzheim - Sozialpsychiatrische Dienste', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['gpv-enzkreis-pforzheim.de'], 'source_urls': ['https://www.gpv-enzkreis-pforzheim.de/seite/464094/sozialpsychiatrische-dienste.html'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_20', 'name': 'Landratsamt Enzkreis - Psychosoziale Hilfen', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['enzkreis.de'], 'source_urls': ['https://www.enzkreis.de/Unsere-Leistungen/Dienstleistungen/Psychosoziale-Hilfen.php?ModID=10&FID=2032.243.1'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_21', 'name': 'Oekumenisches Frauenhaus Pforzheim-Enzkreis', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['frauenhaus-pforzheim.de'], 'source_urls': ['https://frauenhaus-pforzheim.de/kontakt/'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
+    {'id': 'PF_SOZ_22', 'name': 'bwlv Fachstelle Sucht Pforzheim', 'jurisdiction': 'PF_ENZ', 'allowed_domains': ['bw-lv.de'], 'source_urls': ['https://www.bw-lv.de/beratung/beratungsstellen/fachstelle-sucht-pforzheim/'], 'deep_urls': [], 'wait_selector': 'main, #main-content, body', 'content_selector': 'main, .disruption-list, .stoerung-content, body', 'category': 'PF_ENZ_Sozial_Notfall'},
 ]
 
 
