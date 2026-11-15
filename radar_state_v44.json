@@ -805,39 +805,60 @@
         "last_updated": "2026-10-18T02:50:49.992888+00:00"
     },
     "slot_19": {
-        "source_hash": "7e8b4fce1938ca1fb917047ded2cf9ef84f9b436fe42686262dd051802e881ba",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "1fec558607d516f6bc03b52ed036fef262b1ad19f4a428aca10d6e0f2445220e",
+        "legal_hash": "bb84d839e2154a7a244c88a2c975c90fecfd92dff654e543de8cdb54ee063aad",
         "claims": [
             {
-                "norm": "§ 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000)",
-                "extracted_value": "1,50 Euro",
+                "norm": "§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]",
+                "extracted_value": "1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen",
                 "value_type": "EURO",
-                "context": "Kosten für die Überlassung elektronisch gespeicherter Dateien je Entscheidung.",
+                "context": "Gebühren für die Überlassung elektronisch gespeicherter Entscheidungsdateien des Bundesarbeitsgerichts",
                 "evidence_location": "Für die Überlassung elektronisch gespeicherter Dateien werden 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen erhoben (§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG])."
             },
             {
-                "norm": "§ 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000)",
-                "extracted_value": "5,00 Euro",
+                "norm": "Justizverwaltungskostengesetz [JVKostG]",
+                "extracted_value": "0,50 Euro pro Seite für die ersten 50 Seiten, 0,15 Euro für jede weitere Seite",
                 "value_type": "EURO",
-                "context": "Höchstbetrag für in einem Arbeitsgang elektronisch überlassene Entscheidungen.",
-                "evidence_location": "Für die Überlassung elektronisch gespeicherter Dateien werden 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen erhoben (§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG])."
-            },
-            {
-                "norm": "Schreibauslagen",
-                "extracted_value": "0,50 Euro",
-                "value_type": "EURO",
-                "context": "Schreibauslagen pro Seite für die ersten 50 Seiten von Entscheidungsabdrucken.",
+                "context": "Schreibauslagen für die Versendung von Entscheidungsabdrucken des Bundesarbeitsgerichts",
                 "evidence_location": "Für die Versendung der Entscheidungsabdrucke werden Schreibauslagen in Höhe von 0,50 Euro pro Seite für die ersten 50 Seiten erhoben, für jede weitere Seite werden 0,15 Euro erhoben."
             },
             {
-                "norm": "Schreibauslagen",
-                "extracted_value": "0,15 Euro",
-                "value_type": "EURO",
-                "context": "Schreibauslagen für jede weitere Seite ab der 51. Seite von Entscheidungsabdrucken.",
-                "evidence_location": "Für die Versendung der Entscheidungsabdrucke werden Schreibauslagen in Höhe von 0,50 Euro pro Seite für die ersten 50 Seiten erhoben, für jede weitere Seite werden 0,15 Euro erhoben."
+                "norm": "§ 13 BGB",
+                "extracted_value": "zwei Wochen",
+                "value_type": "TEXT",
+                "context": "Widerrufsfrist für Verbraucher bei Anforderung von Entscheidungsabdrucken",
+                "evidence_location": "Sie können Ihre Vertragserklärung innerhalb von zwei Wochen ohne Angabe von Gründen in Textform (z.B. Brief, Fax, E-Mail) oder durch Rücksendung der Sache widerrufen."
+            },
+            {
+                "norm": "BAG 6 AZR 61/26",
+                "extracted_value": "Wohnzulage nach AVR Caritas - besondere Wohnform",
+                "value_type": "URTEIL_TEXT",
+                "context": "Entscheidung des Bundesarbeitsgerichts vom 20.08.2026 zu Wohnzulagen nach AVR Caritas",
+                "evidence_location": "6 AZR 61/26 20.08.2026 Wohnzulage nach AVR Caritas - besondere Wohnform 11.11.2026"
+            },
+            {
+                "norm": "BAG 5 AZR 37/25",
+                "extracted_value": "Annahmeverzugsvergütung und Auskunftsansprüche",
+                "value_type": "URTEIL_TEXT",
+                "context": "Entscheidung des Bundesarbeitsgerichts vom 26.08.2026 zu Annahmeverzugsvergütung und Auskunftsansprüchen",
+                "evidence_location": "5 AZR 37/25 26.08.2026 Annahmeverzugsvergütung und Auskunftsansprüche 11.11.2026"
+            },
+            {
+                "norm": "BAG 8 AZB 6/26",
+                "extracted_value": "Fünfmonatsfrist zur vollständigen Absetzung von Urteilen",
+                "value_type": "URTEIL_TEXT",
+                "context": "Beschluss des Bundesarbeitsgerichts vom 18.09.2026 zur Einhaltung der Fünfmonatsfrist zur Urteilsabsetzung",
+                "evidence_location": "8 AZB 6/26 18.09.2026 Fünfmonatsfrist zur vollständigen Absetzung von Urteilen 29.09.2026"
+            },
+            {
+                "norm": "BAG 2 AZN 339/26",
+                "extracted_value": "Nichtzulassungsbeschwerde - Vertretungszwang - \"halluzinierte\" Urteile",
+                "value_type": "URTEIL_TEXT",
+                "context": "Entscheidung des Bundesarbeitsgerichts vom 30.09.2026 zu Vertretungszwang und halluzinierten Urteilen",
+                "evidence_location": "2 AZN 339/26 30.09.2026 Nichtzulassungsbeschwerde - Vertretungszwang - \"halluzinierte\" Urteile 13.10.2026"
             }
         ],
-        "last_updated": "2026-11-12T03:58:50.262594+00:00"
+        "last_updated": "2026-11-15T07:34:34.728277+00:00"
     },
     "slot_20": {
         "source_hash": "6e2644496faa018e68cd6fedaab1d63486e2cefba3ddb65a7ca234f84ec40726",
@@ -956,7 +977,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "slot_25": {
-        "source_hash": "c1d1b70617b52fee1fd09f578b1ed538899fdef026ab0f0ec97999b15a5adba3",
+        "source_hash": "35df3399c0f3b804ad1a58edde16052524a737d5793211457d2fd48a39d0e4c2",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1173,7 +1194,7 @@
         "last_updated": "2026-10-24T03:26:12.011115+00:00"
     },
     "slot_32": {
-        "source_hash": "3d33e10bfbe37072de17b8766d56465f069427e91daa80e138d73d131a5d2ea5",
+        "source_hash": "710ef9f58515772568a9ec2bbe0a2fd9181762e7e19cda06b4f3c4a8181f2125",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {

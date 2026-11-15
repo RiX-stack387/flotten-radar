@@ -128,9 +128,13 @@ Diese Datenbank enthaelt ausschliesslich verifizierte Fakten zu sozialen Notfall
 - Deep-Link: https://pforzheimervesperkirche.de/vesperkirche/
 
 **Helping Hands Pforzheim e.V. (Mobile Essensausgabe & Nothilfe)**
-- Adresse / Standort: Mobile Standorte im Stadtgebiet Pforzheim (Kontakt ueber Vereinsleitung Luisa Cirillo / TurmQuartier).
-- Kontakt: Online-Kontakt und aktuelle Standzeiten ueber die offizielle Webseite erfragen.
-- Zugang & Kosten: Bedingungslos und komplett kostenlos (warmes Essen, Kaffee, Kuchen, Hygieneartikel und Kleidung fuer Obdachlose und Beduerftige).
+- Traeger & Leitung: Gemeinnuetziger Verein (begonnen im Sommer 2020 als Privatinitiative, eingetragen seit September 2023 als gemeinnuetziger Verein), Ansprechpartnerin: Luisa Cirillo. Mitglieder: ca. 20-22 engagierte Mitglieder.
+- Leitmotiv & Motto: "Sharing is Caring" | "Unbezahlbar ist eine helfende Hand, genau in den Lebenslagen, in denen man sie wirklich braucht" | "Jede helfende Hand macht einen Unterschied!"
+- E-Mail: [info@helping-hands-pforzheim.de](mailto:info@helping-hands-pforzheim.de)
+- Kanaele & Spenden: [Facebook-Seite](https://www.facebook.com/p/Helping-Hands-Pforzheim-EV-100075985521943/?locale=de_DE) | [Instagram (@helping_hands_pforzheim)](https://www.instagram.com/helping_hands_pforzheim/) | [Vereinsregister Pforzheim](https://www.pforzheim.de/freizeit/ehrenamt/vereine/pf4/vereine/Club/info/helping-hands-pforzheim-e-v.html) | [Vereinsbroschuere (PDF)](https://freigeist-personal.de/wp-content/uploads/2024/11/Broschuere-Helping-Hands-Pforzheim-e.-V.pdf) | PayPal-Spenden ueber offiziellen Vereins-QR-Code ("HH") bzw. Anfrage per E-Mail (Aktive Mitgliedschaft: 15 Euro/Jahr, Foerdermitgliedschaft: ab 10 Euro/Jahr).
+- Standort & Ausgaben: Woechentliche Touren und feste Ausgaben (u. a. dienstags im Gemeinderaum der Christuskirche Pforzheim, im Eutinger Tal sowie in Broetzingen).
+- Leistungsangebot: Warme Mahlzeiten, gerettete Lebensmittel, Kaffee, Kuchen, Getraenke, Tiernahrung sowie sozialer Rueckhalt, Sozialprogramme und ein offenes Ohr fuer Sorgen und Noete.
+- Zugang & Kosten: 100 % kostenlos, bedingungslos und ohne Ausweispflicht. Finanziert ueber Ehrenamt, Geld-/Sachspenden und lokale Partner (z. B. Metzgerei Pfrommer, Lagerbox).
 - Deep-Link: https://herzensprojekt-obdachlosenhilfe.org/vor-ort2/wir-bringen-warmes-essen-kleidung-kaffee-u-kuchen/
 
 **Pforzheimer Tafel - Ausgabestelle Oststadt (GBE mbH)**
@@ -192,9 +196,9 @@ Diese Datenbank enthaelt ausschliesslich verifizierte Fakten zu sozialen Notfall
 - Deep-Link: https://www.drk-pforzheim.de/angebote/kleiderladen.html
 
 **Helping Hands Pforzheim e.V. (Mobile Schlafsack- & Winterhilfe-Ausgabe)**
-- Standort: Mobile Verteilung im Stadtgebiet Pforzheim.
-- Angebote & Kosten: Bedingungslose, kostenlose Ausgabe von isolierenden Winterschlafsaecken, Isomatten und warmer Kleidung an akut Obdachlose.
-- Deep-Link: https://www.pforzheim.de/freizeit/ehrenamt/vereine/pf4/vereine/Club/info/helping-hands-pforzheim-e-v.html
+- Standort & Kontakt: Mobile Verteilung im Stadtgebiet Pforzheim (Leitung: Luisa Cirillo, E-Mail: [info@helping-hands-pforzheim.de](mailto:info@helping-hands-pforzheim.de)).
+- Angebote & Kosten: Bedingungslose, kostenlose Ausgabe von isolierenden Winterschlafsaecken, Isomatten, Campingstuehlen, Decken, Schuhen, Hygieneartikeln und warmer Alltagskleidung (sowie Kinderhilfe-Aktionen wie "Kleidung fuer kleine Helden" und Patenkinder-Aktionen).
+- Deep-Link: https://herzensprojekt-obdachlosenhilfe.org/vor-ort2/wir-bringen-warmes-essen-kleidung-kaffee-u-kuchen/
 
 **Kleiderecke des Kinderschutzbundes Pforzheim Enzkreis e.V.**
 - Adresse: KiCo Kinder- und Familientreff, Luisenstrasse 46, 75172 Pforzheim (Zentrale: Tunnelstr. 33)

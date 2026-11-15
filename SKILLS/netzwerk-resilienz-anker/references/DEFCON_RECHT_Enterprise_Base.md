@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-14 08:11:43 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-15 08:44:06 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -143,10 +143,13 @@
 ## [19] Sektor 19
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000)** | 1,50 Euro | Kosten für die Überlassung elektronisch gespeicherter Dateien je Entscheidung. |
-| **§ 4 Abs. 1 JVKostG (Kostenverzeichnis Nr. 2000)** | 5,00 Euro | Höchstbetrag für in einem Arbeitsgang elektronisch überlassene Entscheidungen. |
-| **Schreibauslagen** | 0,50 Euro | Schreibauslagen pro Seite für die ersten 50 Seiten von Entscheidungsabdrucken. |
-| **Schreibauslagen** | 0,15 Euro | Schreibauslagen für jede weitere Seite ab der 51. Seite von Entscheidungsabdrucken. |
+| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]** | 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen | Gebühren für die Überlassung elektronisch gespeicherter Entscheidungsdateien des Bundesarbeitsgerichts |
+| **Justizverwaltungskostengesetz [JVKostG]** | 0,50 Euro pro Seite für die ersten 50 Seiten, 0,15 Euro für jede weitere Seite | Schreibauslagen für die Versendung von Entscheidungsabdrucken des Bundesarbeitsgerichts |
+| **§ 13 BGB** | zwei Wochen | Widerrufsfrist für Verbraucher bei Anforderung von Entscheidungsabdrucken |
+| **BAG 6 AZR 61/26** | Wohnzulage nach AVR Caritas - besondere Wohnform | Entscheidung des Bundesarbeitsgerichts vom 20.08.2026 zu Wohnzulagen nach AVR Caritas |
+| **BAG 5 AZR 37/25** | Annahmeverzugsvergütung und Auskunftsansprüche | Entscheidung des Bundesarbeitsgerichts vom 26.08.2026 zu Annahmeverzugsvergütung und Auskunftsansprüchen |
+| **BAG 8 AZB 6/26** | Fünfmonatsfrist zur vollständigen Absetzung von Urteilen | Beschluss des Bundesarbeitsgerichts vom 18.09.2026 zur Einhaltung der Fünfmonatsfrist zur Urteilsabsetzung |
+| **BAG 2 AZN 339/26** | Nichtzulassungsbeschwerde - Vertretungszwang - "halluzinierte" Urteile | Entscheidung des Bundesarbeitsgerichts vom 30.09.2026 zu Vertretungszwang und halluzinierten Urteilen |
 
 ## [20] Sektor 20
 | Norm / AZ | Wert / Parameter | Kontext / Detail |

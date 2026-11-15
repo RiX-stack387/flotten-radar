@@ -34,9 +34,9 @@ Der Admiral ueberwacht permanent die Dateigroesse der aktiven Chronik `Master_Ar
 27. mein-familien-lotse (All-in-One Familien- und Erklaerbaeren-Lotse fuer Tina, Safe Haven Par. 6 RDG)
 28. pf-enz-sozial (Niedrigschwelliger Sozial-, Notfall- und Obdachlosen-Lotse im Ultra-Kompakt-Street-Mode fuer Pforzheim & Enzkreis, Art. 50 KI-VO)
 
-## 3. Radar-Matrix (238 Slots + ASB + Gemini-Skills-Referenz)
+## 3. Radar-Matrix (260 Slots + ASB + Gemini-Skills-Referenz)
 - Basis-Slots / Master-Standorte: 31 (inkl. 35s-API-Timeout, 75s-Watchdog & 15s/15-Seiten-PDF-Deckel)
-- Praxis-Slots Stadtkreis Pforzheim & Enzkreis: 126 (inkl. 6 KRITIS-Sensoren & 10s-Socket-Timeout)
+- Praxis-Slots Stadtkreis Pforzheim & Enzkreis: 148 (inkl. 6 KRITIS-Sensoren & 10s-Socket-Timeout)
 - Praxis-Slots Landkreis Calw & Freudenstadt: 78 (inkl. 4 KRITIS-Sensoren)
 - ASB-Regional-Radar: 22 verifizierte Zielpfade (Dual-Sync)
 - Gemini & Workspace Skills Radar: Aktive Blog-Feeds in `quellen_registry.py` sowie 23 offizielle Links in `Gemini_Skills_Referenz_Register_2026.md`.
