@@ -184,3 +184,5 @@
 **TECH-RADAR ERWEITERUNG (SLOTS 32 & 33 - STAND 12.11.2026):**
 * **Slot 32 (Google Agent Skills GitHub):** https://github.com/google/skills (SKILL.md-Standards, Gemini CLI & API-Skills)
 * **Slot 33 (Gemini Apps Release Notes):** https://gemini.google/de/release-notes/?hl=de (Offizielles Changelog & Workspace-Integration)
+
+* **🆘 PF-ENZ-SOZIAL (pf-enz-sozial) | Niedrigschwelliger Sozial-, Notfall- und Obdachlosen-Lotse Pforzheim & Enzkreis (Street-Mode, Art. 50 KI-VO)**

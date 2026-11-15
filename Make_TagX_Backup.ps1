@@ -1,4 +1,4 @@
-﻿Write-Host ">>> STARTE TAG-X BACKUP (26 SKILLS: ANLEITUNGEN & REFERENCES + SEPARATES MASTER-ARCHIV)..." -ForegroundColor Yellow
+Write-Host ">>> STARTE TAG-X BACKUP (28 SKILLS: ANLEITUNGEN & REFERENCES + SEPARATES MASTER-ARCHIV)..." -ForegroundColor Yellow
 python "C:\DefconRecht\tagx_step1.py"
 python "C:\DefconRecht\tagx_step2.py"
 Copy-Item "C:\DefconRecht\Master_Archiv_V23.4_EINSATZ-CHRONIK.md" "C:\DefconRecht\TAG_X_BACKUP\Master_Archiv_V23.4_EINSATZ-CHRONIK.md" -Force
