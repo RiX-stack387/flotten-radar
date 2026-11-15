@@ -1,5 +1,5 @@
 # 🚨 TAG-X FLOTTEN-KOMPENDIUM: ALLE 28 SKILLS (ANLEITUNGEN & REFERENCES) 🚨
-* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-15 08:32:13
+* **GENERIERUNGS-ZEITSTEMPEL:** 2026-11-15 08:44:26
 * **INHALT:** Reines 26-Einheiten-Kompendium (Volltext-Anleitungen SKILL.md & verifizierte References-Zuordnung).
 * **HINWEIS:** Das Master-Archiv (Master_Archiv_V23.4_EINSATZ-CHRONIK.md) liegt als separate Datei im selben Ordner TAG_X_BACKUP.
 
@@ -1845,7 +1845,7 @@ Nutze vorrangig die im Skill-Paket enthaltene Wissensbasis:
 ======================================================================
 🚢 EINHEIT 19/26: pf-enz-sozial
 ======================================================================
-[REFERENZEN IM ORDNER /REFERENCES]: PF_ENZ_Sozial_Kompass_2026.md
+[REFERENZEN IM ORDNER /REFERENCES]: DEFCON_RECHT_Enterprise_Base.md, Front_Delta_Compact.md, PF_ENZ_Sozial_Kompass_2026.md
 
 [ANLEITUNG (SKILL.MD)]:
 ---
