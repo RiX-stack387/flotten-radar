@@ -31,7 +31,7 @@ from typing import Any, Dict, List, Optional
 # ==========================================
 # 1. KONFIGURATION & CONFIG-GATE
 # ==========================================
-EXPECTED_ZUSATZ_SLOT_COUNT = 126
+EXPECTED_ZUSATZ_SLOT_COUNT = 148
 BASE_DIR = r"C:\DefconRecht"
 STATE_FILE = os.path.join(BASE_DIR, "radar_state_zusatz_v44.json")
 LOG_DIR = os.path.join(BASE_DIR, "MasterLogs")

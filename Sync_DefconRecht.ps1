@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = "Continue"
+$ErrorActionPreference = "Continue"
 Set-Location "C:\DefconRecht"
 
 Write-Host "`n>>> [UNIVERSAL-SYNC] STARTE SYSTEMWEITE 3-WEGE-SPIEGELUNG (7/20-DOKTRIN) <<<" -ForegroundColor Cyan
@@ -43,7 +43,7 @@ foreach ($dir in $skillDirs) {
     }
 }
 
-Write-Host "[OK] $countAll/27 Skills (Lokal SSD C:\) nach 7/20-Matrix munitioniert ($countAsb ASB-Kern-Skills)." -ForegroundColor Green
+Write-Host "[OK] $countAll/28 Skills (Lokal SSD C:\) nach 7/20-Matrix munitioniert ($countAsb ASB-Kern-Skills)." -ForegroundColor Green
 
 # Tinas Desktop-ZIP synchron halten
 $tinaFolder = "C:\DefconRecht\SKILLS\mein-familien-lotse"
@@ -69,7 +69,7 @@ if (Test-Path $driveRoot) {
 
     robocopy "C:\DefconRecht\SKILLS" "G:\Meine Ablage\DefconRecht\SKILLS" /MIR /FFT /R:2 /W:2 /NP /NDL /NJS | Out-Null
     robocopy "C:\DefconRecht\TAG_X_BACKUP" "G:\Meine Ablage\DefconRecht\TAG_X_BACKUP" /MIR /FFT /R:2 /W:2 /NP /NDL /NJS | Out-Null
-    Write-Host "[OK] 27 Skills & Tag-X-Tresor (Google Drive G:\) exakt nach 7/20-Matrix gespiegelt." -ForegroundColor Green
+    Write-Host "[OK] 28 Skills & Tag-X-Tresor (Google Drive G:\) exakt nach 7/20-Matrix gespiegelt." -ForegroundColor Green
 } else {
     Write-Host "[WARNUNG] Laufwerk G:\ nicht verfuegbar - Drive-Spiegelung uebersprungen." -ForegroundColor Yellow
 }
