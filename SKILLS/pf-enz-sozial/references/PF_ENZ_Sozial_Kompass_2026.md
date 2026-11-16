@@ -343,6 +343,13 @@ Diese Datenbank enthaelt ausschliesslich verifizierte Fakten zu sozialen Notfall
 - Zugang: Kostenlos und unter strikter Schweigepflicht (Alkohol, Medikamente, Drogen, Gluecksspiel).
 - Deep-Link: https://www.bw-lv.de/beratung/beratungsstellen/fachstelle-sucht-pforzheim/
 
+**Diakonische Suchthilfe Mittelbaden gGmbH (Pforzheim)**
+- Adresse: Wurmberger Strasse 4a, 75175 Pforzheim
+- Google Maps: https://maps.google.com/?q=Wurmberger+Strasse+4a,+75175+Pforzheim
+- Telefon: 07231 7787050
+- Oeffnungszeiten: Telefonisch oder ueber die Webseite erfragen.
+- Angebote: Kostenfreie, vertrauliche Beratung sowie ambulante Rehabilitation (Schwerpunkt Alkohol, Medikamente, Gluecksspiel und Medienkonsum fuer Erwachsene und Angehoerige).
+- Deep-Link: https://www.diakonische-suchthilfe-mittelbaden.de/
 **Plan B gGmbH - Hauptstelle / Jugend- und Suchtberatung Pforzheim**
 - Adresse: Schiesshausstrasse 6, 75173 Pforzheim
 - Google Maps: https://maps.google.com/?q=Schiesshausstrasse+6,+75173+Pforzheim
@@ -351,6 +358,22 @@ Diese Datenbank enthaelt ausschliesslich verifizierte Fakten zu sozialen Notfall
 - Oeffnungszeiten: Telefonisch oder ueber die Webseite erfragen.
 - Angebote: Beratung und Begleitung fuer Jugendliche, Suchtgefaehrdete, Abhaengige und Angehoerige (Traeger des Kontaktladens LOFT).
 - Deep-Link: https://planb-pf.de/
+**Beratungsstelle fuer Kinder, Jugendliche und deren Familien (Melanchthonhaus Pforzheim)**
+- Adresse: Melanchthonhaus, Baumgaesschen 3, 75172 Pforzheim
+- Google Maps: https://maps.google.com/?q=Baumgaesschen+3,+75172+Pforzheim
+- Telefon: 07231 28170-0
+- Oeffnungszeiten: Telefonisch oder ueber die Webseite erfragen.
+- Angebote: Unterstuetzung bei Erziehungsfragen, Konflikten und Krisen im Jugendalter.
+- Deep-Link: https://beratung-pf.de/
+
+**KISTE Pforzheim (Der Kinderschutzbund Pforzheim Enzkreis e.V.)**
+- Adresse: Tunnelstrasse 33, 75172 Pforzheim (Zentrale DKSB)
+- Google Maps: https://maps.google.com/?q=Tunnelstrasse+33,+75172+Pforzheim
+- Telefon: 07231 58976-0
+- E-Mail: info@dksb-pforzheim.de
+- Oeffnungszeiten: Telefonisch oder ueber die Webseite erfragen.
+- Angebote: Gruppen- und Einzelangebote speziell fuer Kinder und Jugendliche bis 18 Jahre aus Familien mit Sucht- oder psychischen Erkrankungen.
+- Deep-Link: https://dksb-pforzheim.de/was-wir-tun/unterstuetzung-von-familien/kiste-pforzheim/
 **Schuldner- und Verbraucherinsolvenzberatung (Stadt Pforzheim)**
 - Adresse: Westliche Karl-Friedrich-Strasse 7 (4. Etage, Zimmer 306), 75172 Pforzheim
 - Google Maps: https://maps.google.com/?q=Westliche+Karl-Friedrich-Strasse+7,+75172+Pforzheim
