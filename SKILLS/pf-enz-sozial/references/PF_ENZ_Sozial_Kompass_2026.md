@@ -83,6 +83,14 @@ Diese Datenbank enthaelt ausschliesslich verifizierte Fakten zu sozialen Notfall
 - Angebote: Kostenloser warmer Aufenthaltsort, Kaffee, kostenlose Nutzung von Telefon und Internet fuer Behoerdenkommunikation, Beratung.
 - Deep-Link: https://www.wichernhauspforzheim.de/hilfsangebote/
 
+**Kontaktladen LOFT (Plan B gGmbH - Niedrigschwellige Anlaufstelle)**
+- Adresse: Bleichstrasse 97, 75173 Pforzheim
+- Google Maps: https://maps.google.com/?q=Bleichstrasse+97,+75173+Pforzheim
+- Telefon: 07231 92277-40
+- E-Mail: loft@planb-pf.de
+- Oeffnungszeiten: Aktuelle Oeffnungszeiten und Angebote direkt auf der Webseite oder telefonisch erfragen.
+- Angebote: Niedrigschwellige Anlaufstelle und Kontaktladen der Plan B gGmbH in Pforzheim.
+- Deep-Link: https://planb-pf.de/loft/
 ### 2. Landkreis Enzkreis
 
 **Tagesstaette Muehlacker (Diakonisches Werk der Ev. Kirchenbezirke im Enzkreis)**
@@ -335,6 +343,14 @@ Diese Datenbank enthaelt ausschliesslich verifizierte Fakten zu sozialen Notfall
 - Zugang: Kostenlos und unter strikter Schweigepflicht (Alkohol, Medikamente, Drogen, Gluecksspiel).
 - Deep-Link: https://www.bw-lv.de/beratung/beratungsstellen/fachstelle-sucht-pforzheim/
 
+**Plan B gGmbH - Hauptstelle / Jugend- und Suchtberatung Pforzheim**
+- Adresse: Schiesshausstrasse 6, 75173 Pforzheim
+- Google Maps: https://maps.google.com/?q=Schiesshausstrasse+6,+75173+Pforzheim
+- Telefon: 07231 92277-0
+- E-Mail: beratung@planb-pf.de (Beratungsanfragen) oder info@planb-pf.de
+- Oeffnungszeiten: Telefonisch oder ueber die Webseite erfragen.
+- Angebote: Beratung und Begleitung fuer Jugendliche, Suchtgefaehrdete, Abhaengige und Angehoerige (Traeger des Kontaktladens LOFT).
+- Deep-Link: https://planb-pf.de/
 **Schuldner- und Verbraucherinsolvenzberatung (Stadt Pforzheim)**
 - Adresse: Westliche Karl-Friedrich-Strasse 7 (4. Etage, Zimmer 306), 75172 Pforzheim
 - Google Maps: https://maps.google.com/?q=Westliche+Karl-Friedrich-Strasse+7,+75172+Pforzheim
