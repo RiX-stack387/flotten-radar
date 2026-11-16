@@ -235,11 +235,11 @@ Diese Datenbank enthaelt ausschliesslich verifizierte Fakten zu sozialen Notfall
 
 **MediMobil Pforzheim (Wichernhaus / Diakonie - Kostenlose Strassenmedizin)**
 - Feste Standorte (immer mittwochs von 14:00 bis 16:00 Uhr):
-  - 1. Mittwoch im Monat: Eutinger Talweg 60a, 75175 Pforzheim
-  - 2. Mittwoch im Monat: Herz-Jesu-Kirche, Joerg-Ratgeb-Strasse 7, 75173 Pforzheim
-  - 3. Mittwoch im Monat: Turnplatz, Jahnstrasse, 75173 Pforzheim
-  - 4. Mittwoch im Monat: Schlosspark, Schlossberg 14, 75175 Pforzheim
-  - 5. Mittwoch im Monat (falls vorhanden): Wichernhaus, Westliche Karl-Friedrich-Strasse 120, 75172 Pforzheim
+  1  Mittwoch im Monat: Eutinger Talweg 60a, 75175 Pforzheim
+  2  Mittwoch im Monat: Herz-Jesu-Kirche, Joerg-Ratgeb-Strasse 7, 75173 Pforzheim
+  3  Mittwoch im Monat: Turnplatz, Jahnstrasse, 75173 Pforzheim
+  4  Mittwoch im Monat: Schlosspark, Schlossberg 14, 75175 Pforzheim
+  5  Mittwoch im Monat (falls vorhanden): Wichernhaus, Westliche Karl-Friedrich-Strasse 120, 75172 Pforzheim
 - Telefon Koordination: 0155 67028053 oder 07231 20448-13
 - E-Mail: medimobil@wichernhaus-pforzheim.de
 - Zugang & Kosten: Komplett kostenlos, anonym und ohne Krankenversicherung oder Ausweis. Ehrenamtliche Aerzte und Pflegekraefte versorgen Wunden und helfen bei Krankheit.
