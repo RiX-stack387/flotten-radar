@@ -90,13 +90,17 @@ if (Test-Path "C:\DefconRecht\Make_TagX_Backup.ps1") {
 }
 
 Write-Host "`n>>> [STUFE 3b] Starte finale 5-Wege-Synchronisation (SSD -> Skills -> Drive -> Git)... <<<" -ForegroundColor Cyan
+& "C:\DefconRecht\Reha_Autopilot_PostHook.ps1"
 if (Test-Path "C:\DefconRecht\Sync_DefconRecht.ps1") {
+& "C:\DefconRecht\Reha_Autopilot_PostHook.ps1"
     & "C:\DefconRecht\Sync_DefconRecht.ps1"
 if ($LASTEXITCODE -and $LASTEXITCODE -ne 0) {
+& "C:\DefconRecht\Reha_Autopilot_PostHook.ps1"
     Write-Host "[ALARM] Sync_DefconRecht.ps1 mit Fehlercode $LASTEXITCODE abgebrochen! Standby gestoppt." -ForegroundColor Red
     exit $LASTEXITCODE
 }
 } else {
+& "C:\DefconRecht\Reha_Autopilot_PostHook.ps1"
     Write-Host "[WARNUNG] Sync_DefconRecht.ps1 nicht gefunden!" -ForegroundColor Red
 }
 
