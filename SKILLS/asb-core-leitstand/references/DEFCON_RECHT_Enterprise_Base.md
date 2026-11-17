@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-15 13:47:16 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-17 01:20:04 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -209,11 +209,11 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **13. Änderungsgesetz zum SGB II** | Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 1. Juli 2026 mit strengeren Mitwirkungspflichten sowie neuen Regelungen zum Vermögen und zu den Wohnkosten | Reform der Grundsicherung für Arbeitsuchende zum 1. Juli 2026 |
-| **§ 22 SGB II** | Wohnkosten (KdU) : Übernahme von Miete, Nebenkosten und Heizkosten | Bedarfe für Unterkunft und Heizung im SGB II |
-| **SGB II Regelsatz** | 563 Euro | Monatlicher Bürgergeld-Regelsatz 2026 für alleinstehende Erwachsene |
-| **SGB II Vermögensanrechnung** | Abschaffung der früheren Karenzzeit mit Freibetrag von bis zu 40.000 Euro; Vermögensprüfung direkt von Anfang an | Neuregelung der Vermögen-Karenzzeit beim Grundsicherungsgeld ab Juli 2026 |
-| **SGB II Schonvermögen** | Altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person | Höhe des unschädlichen Schonvermögens ab dem 1. Juli 2026 |
+| **13. Änderungsgesetz zum SGB II** | Das Bürgergeld wird zum 1. Juli 2026 durch das Grundsicherungsgeld ersetzt | Ablösung des Bürgergeldes durch das Grundsicherungsgeld mit verschärften Mitwirkungspflichten sowie Neuregelungen zu Vermögen und Wohnkosten |
+| **§ 20 SGB II** | 563 Euro | Monatlicher Regelsatz / Grundsicherungsgeld für alleinstehende Erwachsene im Jahr 2026 |
+| **§ 20 SGB II** | 506 Euro | Monatlicher Regelsatz pro Person für Eheleute und Lebenspartner im Jahr 2026 |
+| **§ 12 SGB II** | altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person | Schonvermögensregelung beim Grundsicherungsgeld ab 01.07.2026 ohne bisherige Karenzzeit |
+| **§ 22 SGB II** | Übernahme von Miete, Nebenkosten und Heizkosten | Übernahme der Bedarfe für Unterkunft und Heizung (KdU) als Leistungbestandteil des Grundsicherungsgeldes |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -460,8 +460,7 @@
 ## [ENZ_GM_11] Sektor ENZ_GM_11
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Offener Mittagstisch Mönsheim** | 10,00 Euro | Kostenbeitrag für die Teilnahme am zweiwöchentlichen offenen Mittagstisch des Sozialen Netzwerks Mönsheim in der Alten Kelter einschließlich Nachtisch und Getränk. |
-| **§ 7 KiTaG** | pädagogische Fachkräfte nach § 7 KiTaG | Gesetzliche Qualifikationsanforderung für pädagogisches Personal bei der Stellenausschreibung der Kindertagesstätte Wichtelhaus der Gemeinde Mönsheim. |
+| **Soziales Netzwerk Mönsheim - Offener Mittagstisch** | 10,00 Euro | Kosten für ein Essen im Rahmen des alle zwei Wochen stattfindenden offenen Mittagstischs in der Alten Kelter inkl. Nachtisch und Getränk. |
 
 ## [ENZ_GM_12] Sektor ENZ_GM_12
 | Norm / AZ | Wert / Parameter | Kontext / Detail |

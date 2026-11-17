@@ -1,37 +1,7 @@
-RADAR-DELTA COMPACT (2026-11-15)
-- [19: BAG Entscheidungsdatenbank] § 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]: 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen
-- [19: BAG Entscheidungsdatenbank] Justizverwaltungskostengesetz [JVKostG]: 0,50 Euro pro Seite für die ersten 50 Seiten, 0,15 Euro für jede weitere Seite
-- [19: BAG Entscheidungsdatenbank] § 13 BGB: zwei Wochen
-- [19: BAG Entscheidungsdatenbank] BAG 6 AZR 61/26: Wohnzulage nach AVR Caritas - besondere Wohnform
-- [19: BAG Entscheidungsdatenbank] BAG 5 AZR 37/25: Annahmeverzugsvergütung und Auskunftsansprüche
-- [19: BAG Entscheidungsdatenbank] BAG 8 AZB 6/26: Fünfmonatsfrist zur vollständigen Absetzung von Urteilen
-- [19: BAG Entscheidungsdatenbank] BAG 2 AZN 339/26: Nichtzulassungsbeschwerde - Vertretungszwang - "halluzinierte" Urteile
-- [PF_SOZ_01: Wichernhaus Pforzheim - Hilfsangebote & Notuebernachtung] SGB XII, §§ 67 ff.: Unterkunft und Leistungen zur Überwindung von besonderen Lebensverhältnissen mit sozialen Schwierigkeiten für Personen, die dazu aus eigener Kraft nicht fähig sind.
-- [PF_SOZ_02: Wichernhaus Pforzheim - Tagesstaette & Zentrale] Veranstaltungstermin Ausstellung Urbanfotografie: 11.09. bis 27.09.2026
-- [PF_SOZ_02: Wichernhaus Pforzheim - Tagesstaette & Zentrale] Beratungsdienstleistung Existenzsicherung / Behördenhilfe: Beratung und Unterstützung bezüglich Wohnung, Existenzsicherung/Einkommen und Antragstellung bei Behörden.
-- [PF_SOZ_02: Wichernhaus Pforzheim - Tagesstaette & Zentrale] Stationäre Hilfe für Obdachlose: Stationäre Aufnahme von obdachlosen Menschen mit erhöhtem Hilfebedarf.
-- [PF_SOZ_11: Helping Hands Pforzheim e.V. - Mobile Hilfe] Frist zur Wunsch-Anmeldung (Kleidung): 31.08.2023 bis spätestens 16:00 Uhr
-- [PF_SOZ_11: Helping Hands Pforzheim e.V. - Mobile Hilfe] Einsatzdatum Pforzheim: 1. September, 2023 @ 15:30 - 17:30
-- [PF_SOZ_12: Muehlacker Tafel e.V. - Aktuelles] Industriestraße 16, Mühlacker: Industriestraße 16 in Mühlacker
-- [PF_SOZ_12: Muehlacker Tafel e.V. - Aktuelles] Spende Sparkasse Pforzheim-Calw: 4.000 Euro
-- [PF_SOZ_12: Muehlacker Tafel e.V. - Aktuelles] Spende Firma Hasenauer & Hesser: 5.000 Euro
-- [PF_SOZ_14: DRK Pforzheim - Kleiderkammer] DRK Kleiderkammer Pforzheim Contact: Kronprinzenstr. 22 75177 Pforzheim, Ansprechpartnerin Ayse Baldede, Tel: 07231 373-6100
-- [PF_SOZ_14: DRK Pforzheim - Kleiderkammer] DRK Existenzsichernde Hilfe: Schnelle und unbürokratische Versorgung von Menschen in Notlagen und schwierigen sozialen Situationen mit Kleidung und weiteren Gütern zur materiellen Grundversorgung.
-- [PF_SOZ_15: DRK Pforzheim - Kleiderladen] DRK-Kleiderkammer Notlagenhilfe: Menschen in Notlagen und schwierigen sozialen Situationen erhalten in den DRK-Kleiderkammern Kleidung und Schuhe.
-- [PF_SOZ_15: DRK Pforzheim - Kleiderladen] Kontakt DRK-Kleiderladen Pforzheim: Ansprechpartnerin Ayse Baldede, Tel: 07231 373-6100, Kronprinzenstr. 22, 75177 Pforzheim
-- [PF_SOZ_15: DRK Pforzheim - Kleiderladen] Öffnungszeiten DRK-Kleiderladen Pforzheim: Dienstag u. Donnerstag, 10:00 – 12:00 und 14:00 – 16:00 Uhr; 2. Samstag im Monat, 10:00 – 13:00
-- [PF_SOZ_16: Kinderschutzbund Pforzheim - Kleiderecke] Öffnungszeiten Kleiderecke im KiCo: Dienstag 14:00 – 15:30 Uhr, Donnerstag 10:00 – 11:30 Uhr
-- [PF_SOZ_16: Kinderschutzbund Pforzheim - Kleiderecke] Spendenabgabe Kleiderecke: Vorab telefonisch anzumelden
-- [PF_SOZ_16: Kinderschutzbund Pforzheim - Kleiderecke] Kostenbeitrag Kleiderecke: Gegen eine kleine Spende
-- [PF_SOZ_17: Stadt Pforzheim - FIZ Kleiderkammer] Öffnungszeiten FIZ Pforzheim: Montag, Mittwoch und Freitag von 9.00 bis 12.00 Uhr, Dienstag und Donnerstag von 14:00 bis 17:00 Uhr
-- [PF_SOZ_18: DRK Muehlacker - Bekleidungskoordination Enzkreis] DRK-Mühlacker Altkleidersammlung Servicegebühr: Größere Mengen von Altkleidern werden kostenlos zu Hause abgeholt.
-- [PF_SOZ_18: DRK Muehlacker - Bekleidungskoordination Enzkreis] DRK-Mühlacker Regelung zur Müllablagerung an Containerstandorten: Wilde Müllablagerungen mit Sperrmüll an Altkleidercontainern werden konsequent zur Anzeige gebracht.
-- [PF_SOZ_19: GPV Enzkreis-Pforzheim - Sozialpsychiatrische Dienste] Altersgrenze Sozialpsychiatrische Dienste: Zuständig für Menschen ab 18 Jahren, die psychisch erkrankt sind
-- [PF_SOZ_19: GPV Enzkreis-Pforzheim - Sozialpsychiatrische Dienste] Voraussetzungen Soziotherapie: Voraussetzungen sind schizophrene Symptome und schwere Fähigkeitsstörungen. Die Leistung wird nach ärztlicher Verordnung bei den Kassen beantragt.
-- [PF_SOZ_20: Landratsamt Enzkreis - Psychosoziale Hilfen] Psychosoziale Hilfen - Gebührenfreiheit: Die Beratungsgespräche sind vertraulich und für Sie kostenfrei.
-- [PF_SOZ_20: Landratsamt Enzkreis - Psychosoziale Hilfen] Anregung einer gesetzlichen Betreuung: Wenn Sie Ihre Angelegenheiten nicht mehr vollständig alleine regeln können, regen wir unter Umständen eine gesetzliche Betreuung an – falls Sie dieser Betreuung zustimmen.
-- [PF_SOZ_20: Landratsamt Enzkreis - Psychosoziale Hilfen] Mental Health First Aid (MHFA) Schulungsdauer: Sie lernen in einem 12-stündigen Kurs ein Grundwissen über verschiedene psychische Probleme und Krisen.
-- [PF_SOZ_21: Oekumenisches Frauenhaus Pforzheim-Enzkreis] IBAN Volksbank pur eG: DE08 6619 0000 0029 4083 27
-- [PF_SOZ_21: Oekumenisches Frauenhaus Pforzheim-Enzkreis] Erreichbarkeit Frauenhaus Pforzheim: Montag – Freitag 8.00 – 12.30 Uhr und 13.30 – 20.00 Uhr
-- [PF_SOZ_21: Oekumenisches Frauenhaus Pforzheim-Enzkreis] Erreichbarkeit Fachstelle Häusliche Gewalt Pforzheim Enzkreis: Montag 14.00 – 16.00 Uhr Dienstag – Freitag 9.00 – 11.00 Uhr Dienstag + Donnerstag 14.00 – 16.00 Uhr
-- [PF_SOZ_22: bwlv Fachstelle Sucht Pforzheim] Beratungsangebot Fachstelle Sucht Pforzheim: anonym und kostenfrei
+RADAR-DELTA COMPACT (2026-11-17)
+- [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Das Bürgergeld wird zum 1. Juli 2026 durch das Grundsicherungsgeld ersetzt
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 20 SGB II: 563 Euro
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 20 SGB II: 506 Euro
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 12 SGB II: altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Übernahme von Miete, Nebenkosten und Heizkosten
+- [ENZ_GM_11: Gemeinde Mönsheim] Soziales Netzwerk Mönsheim - Offener Mittagstisch: 10,00 Euro
