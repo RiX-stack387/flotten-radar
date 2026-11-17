@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-17)
+RADAR-DELTA COMPACT (2026-11-17 01:20:23)
 - [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Das Bürgergeld wird zum 1. Juli 2026 durch das Grundsicherungsgeld ersetzt
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 20 SGB II: 563 Euro
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 20 SGB II: 506 Euro
