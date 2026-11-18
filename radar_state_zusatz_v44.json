@@ -4,7 +4,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z2": {
-        "source_hash": "00cce7778a4a7df6221aa0eb06266875392dd4b2dee0aed4502dba523bea5b0f",
+        "source_hash": "96cfafd5a7e3841aaf186f643a51896adfd64f4ff314247be30b64794c4c90fc",
         "legal_hash": "61f31a63fc2ce068969c8467b2eadaf1c275239e2bf821af18260087335517ce",
         "claims": [
             {
@@ -253,7 +253,7 @@
         "last_updated": "2026-10-18T02:57:20.212797+00:00"
     },
     "praxis_slot_Z10": {
-        "source_hash": "cd9b0ad5c268d06f3e34947ede332885fddbcc5f1d4753c87efc0618b2605a49",
+        "source_hash": "d96c70dc53306f8d05e56e4e1d3ae0636763a1a3f09b254eb65b900b533dc90d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -873,7 +873,7 @@
         "last_updated": "2026-10-18T03:10:31.480827+00:00"
     },
     "praxis_slot_ENZ_ST_01": {
-        "source_hash": "ac4c3fe8116c7b2c77370f48c0fb106133e2d25ed45ad5da262ff05b8a978648",
+        "source_hash": "87c0d2f4a81c6715c1423efe8caa248fdc927a6c37375e7589502fb255216a17",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -905,7 +905,7 @@
         "last_updated": "2026-10-18T03:10:58.293260+00:00"
     },
     "praxis_slot_ENZ_ST_04": {
-        "source_hash": "0399f6edaee5012958622c2b6cc2b54bbc9d5e0ba24fe919553fb058623f1722",
+        "source_hash": "3eb57eaf213eae7a44e78c50df5187a331b6c4aa350e17651533414882c9aa8e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -919,7 +919,7 @@
         "last_updated": "2026-10-18T03:11:06.335858+00:00"
     },
     "praxis_slot_ENZ_ST_05": {
-        "source_hash": "ef656cc59a268fd8279295002d726705ab08cb18e9c86470bd90362248b1eba3",
+        "source_hash": "6aafa0c1fd18a63b8792e231da135cf3adce34f650edd796bdc5d245ca57456e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_01": {
@@ -941,11 +941,11 @@
         "last_updated": "2026-10-18T03:11:32.952177+00:00"
     },
     "praxis_slot_ENZ_GM_03": {
-        "source_hash": "aaf4ca545eff50a7544f6bd2e18b89b0aed70e353f47211fe2c81c55de795d3b",
+        "source_hash": "8657b1f84c27fc1b643ed2fd25fce0aafb808fb6ade2941990587a140e28e755",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_04": {
-        "source_hash": "a68374b1fcf4f6deed60e1410dbcafddbf0e290bf0b4336514a4a3e500ba78f2",
+        "source_hash": "8740bd6dd87d7b4ed570ef8d8df0e1c9e462c501834c4586a2b38c10ad670c5b",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -977,7 +977,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_07": {
-        "source_hash": "0b3dd52f4853ef4baacbf6429a5f2ad43a265ac61123d4f0d71367a4794c1dec",
+        "source_hash": "1c164c0f64ee1ee3d326f77dd6cac51d0bd713e504b2bb47a3a54c1fa0ed5f55",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -991,7 +991,7 @@
         "last_updated": "2026-11-03T13:04:59.376660+00:00"
     },
     "praxis_slot_ENZ_GM_08": {
-        "source_hash": "60424782265785839b3ce7878ae6a18f3b674c6bcebff6bf02cca05375d71061",
+        "source_hash": "f30666192593ff5b5b009d6cb2ab5e2e867d75b231b0a949a496f93df12f13ca",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_09": {
@@ -1020,7 +1020,7 @@
         "last_updated": "2026-11-10T09:05:47.958993+00:00"
     },
     "praxis_slot_ENZ_GM_11": {
-        "source_hash": "4f60bbe63a1ee3a29a6d9d6fc07de5db0ff0da68001d4cfe9d2203dce788ca94",
+        "source_hash": "d45cafa5f6aa27a2c6160b9d79544a2bbd965daf37cb191ad07483c0f6fbb376",
         "legal_hash": "6826fa4e647c63a6f37942bd7ba68b6c9600aa84839f1b388c6fd7ca7d89bfac",
         "claims": [
             {
@@ -1034,7 +1034,7 @@
         "last_updated": "2026-11-17T00:09:19.747347+00:00"
     },
     "praxis_slot_ENZ_GM_12": {
-        "source_hash": "54c10189e01bbe8a8014a15a967a52cf892ee1c71e2bf09ebda0ff61f7f260a9",
+        "source_hash": "a199c208540f6f4bb840c5e498a7273889d740c7aaf2c51a6a6f25c70ce88103",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1097,7 +1097,7 @@
         "last_updated": "2026-10-18T03:13:23.162252+00:00"
     },
     "praxis_slot_ENZ_GM_16": {
-        "source_hash": "644846eb6c455474fcc83308f061406edacce422cdc280629e79aeeab939a071",
+        "source_hash": "e682d8764498a9c2699853e92e3ea672572795106e6464a73c2aaf53c26b843a",
         "legal_hash": "2dbe1a2f9d343b69d4e5bbb0050e09301c3c6af2a24e5dddd95ce502b09869a1",
         "claims": [
             {
@@ -1139,7 +1139,7 @@
         "last_updated": "2026-11-10T13:43:44.463961+00:00"
     },
     "praxis_slot_ENZ_GM_18": {
-        "source_hash": "f557e9b58c23a91aab1245e37e9cf50a1207b38be2f35d52c893252f99f4525c",
+        "source_hash": "2095b3edd759dccc802d8c5621cf61a30acbe64398becf63deb1834b4293cfb8",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1153,7 +1153,7 @@
         "last_updated": "2026-10-18T03:13:48.433816+00:00"
     },
     "praxis_slot_ENZ_GM_19": {
-        "source_hash": "43fbb4dc0ebc9ae40fef2a4dceca9af0c36bcd385b8b9a3c7371e1e45b4abc4e",
+        "source_hash": "426abd886194b0648b2d037f5d46d7e73b1c3c4a478dccdf14c87c92c025b93b",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1209,7 +1209,7 @@
         "last_updated": "2026-11-09T03:19:50.359834+00:00"
     },
     "praxis_slot_ENZ_GM_22": {
-        "source_hash": "3657e1101d73783f6dcee7fbf50e2551dbd4fbbbc648f7ab95ecb4fb944f73d4",
+        "source_hash": "edc91ebb94a178e8f6b1219a63effce778915b5b76db051aa65fcb94cc622284",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1223,7 +1223,7 @@
         "last_updated": "2026-10-18T03:14:25.465552+00:00"
     },
     "praxis_slot_ENZ_GM_23": {
-        "source_hash": "74a2a11158724cdaf5cfc66ff09c2bad1e14ce9618ccdb7251ef5259d654c61a",
+        "source_hash": "4b8b07b99095f239d0dcbcb219e6b68f514e0fbed5cbdca168950f54ad416e32",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1237,7 +1237,7 @@
         "last_updated": "2026-10-18T03:14:34.277395+00:00"
     },
     "praxis_slot_PF_ENZ_K1_STROM": {
-        "source_hash": "64c3c5f0055bdabb979d2a1e3fd54b86a6ba9e02a1a7f8ccf8959f30cab0272e",
+        "source_hash": "42076b0b28668896d6fe3a422a2855e71fd8bcea5fa61410efa4d32455820714",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K2_APO": {
@@ -1267,7 +1267,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K6_DWD": {
-        "source_hash": "47495d1e74895818f2459fa8e1f1fcbc4efd856bbef26c4cb6d6735fec166f6c",
+        "source_hash": "88bf739553c635f8fe5378f74da9ffccd4b631b5176faacfc3aee535d1a627a0",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z29": {
@@ -1359,7 +1359,7 @@
         "last_updated": "2026-11-14T06:51:26.474902+00:00"
     },
     "praxis_slot_Z36": {
-        "source_hash": "54a12f5528359a0adbb9600cf37f42a69b7f16b8c71a10057aa8cbfa9c51e50c",
+        "source_hash": "5c5ce76ff7001dbf3b6b36615484af93ca46bc8ec2a948859d0777f5679295f6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
