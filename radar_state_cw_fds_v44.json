@@ -72,7 +72,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_Z12": {
-        "source_hash": "c67f99538a0d6f8bee956ebc6dd2747bc6ea58c88118e698db3b27c5b413d2b8",
+        "source_hash": "e6afe59eb5e95a95fd48eefc5f9e19e394038b11ac50600b7786d2a5fde14f25",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -86,7 +86,7 @@
         "last_updated": "2026-10-18T03:16:32.159881+00:00"
     },
     "cw_fds_slot_CW_Z24": {
-        "source_hash": "c67f99538a0d6f8bee956ebc6dd2747bc6ea58c88118e698db3b27c5b413d2b8",
+        "source_hash": "e6afe59eb5e95a95fd48eefc5f9e19e394038b11ac50600b7786d2a5fde14f25",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -132,19 +132,43 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_02": {
-        "source_hash": "01d06d5aeee36dff395158198b2273caa29ecfd91336c258f650bcaa7dcd8822",
+        "source_hash": "ecdc3e96165be9e90a9533aa8e91b09ee4e4f527beefca2c48d6a2bef8f45d08",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_03": {
-        "source_hash": "4a53de4c9a3e8bd91dcef8f404cf40eee667c5f88b066adce237ce04c7c941d5",
+        "source_hash": "956aa22d2c3e510417369ab6c87d04a624269033a776d6470ba5af730f8ca1e6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_04": {
-        "source_hash": "77d50c303179c087db696281c176a1ada7d462cbd14e321554372fb1e7d52210",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "source_hash": "a8afd12752d187b2e696e60a1b55558def042127d596b388482e1e0d55bdb720",
+        "legal_hash": "5a2872c7a1e10552876976efc477ff3043cfdf53bedae0136b19a0cc1c4d44bc",
+        "claims": [
+            {
+                "norm": "Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ (3. Änderung)",
+                "extracted_value": "Öffentliche Bekanntmachung der 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes Zentrum Unterstadt am 18.11.2026",
+                "value_type": "DATE",
+                "context": "Festlegung und Änderung des Sanierungsgebietes Zentrum Unterstadt in Wildberg",
+                "evidence_location": "Zentrum Unterstadt - 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ in Wildberg Öffentliche Bekanntmachung 18.11.2026"
+            },
+            {
+                "norm": "Stellplatzsatzung",
+                "extracted_value": "Öffentliche Bekanntmachung der Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung) am 18.11.2026",
+                "value_type": "DATE",
+                "context": "Kommunale Satzung zur Durchführung von Stellplatzverpflichtungen bei Wohnungen in Wildberg",
+                "evidence_location": "Öffentliche Bekanntmachung - Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung) Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung) 18.11.2026"
+            },
+            {
+                "norm": "§ 13a BauGB / Bebauungsplan „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen“",
+                "extracted_value": "Inkrafttreten des Bebauungsplans und der Örtlichen Bauvorschriften „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen“ am 18.11.2026",
+                "value_type": "DATE",
+                "context": "Städtebauliches Verfahren im beschleunigten Verfahren nach § 13a BauGB für das Feuerwehrgerätehaus Gültlingen",
+                "evidence_location": "Bebauungsplan und Örtliche Bauvorschriften „Im Brühl, 1. Änderung - Feuer-wehrgerätehaus Gültlingen“ (Verfahren nach § 13a BauGB) Inkrafttreten des Bebauungsplans und der Örtlichen Bauvorschriften „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen 18.11.2026"
+            }
+        ],
+        "last_updated": "2026-11-21T03:40:23.986137+00:00"
     },
     "cw_fds_slot_CW_ST_05": {
-        "source_hash": "f4ff0c34e446e756c1447e48c1a75c34b0b51b6f997a1e262fbab2e49888d6fd",
+        "source_hash": "b6c2b4f33fd6ae06754459e67a509c592130434baac7036b23e5cfb7d07e25e6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_06": {
@@ -152,7 +176,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_07": {
-        "source_hash": "cdfcf9c7e11caf87ee4d16833f84f28743c16046807a877a9f973964992ebd0e",
+        "source_hash": "f2503fb7c4f9fd113c108ca0fc35b5548f335851d71e5c87a2c201782d3826c1",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_08": {
@@ -160,7 +184,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_09": {
-        "source_hash": "14d868e314592dfeddae32ec6b3e8dd2741388fcf1d463b9475c66c43db9ba18",
+        "source_hash": "a632422bd4dd2f8af66491e23264559a9d076cf089b45d8d3547a18b36363cb1",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -258,7 +282,7 @@
         "last_updated": "2026-11-11T03:10:46.795030+00:00"
     },
     "cw_fds_slot_CW_GM_02": {
-        "source_hash": "a7dffe9a99b87de293e2787115b4508a8122ef64b8abec7691bd26f2e5934de7",
+        "source_hash": "c1bf615269101e61d21459839cd826841fd4d192fcb0acbb18bfc3cf5a3d6d2a",
         "legal_hash": "83a3228c36f3307dac43e4a43f99c6aad8163da41cb7eba575d01f294449628f"
     },
     "cw_fds_slot_CW_GM_03": {
@@ -301,7 +325,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_05": {
-        "source_hash": "cfca5f9377a1988e3df69d8faf3675cb1391b8d22549cb3799c105c4ce88a3ad",
+        "source_hash": "e7dc4ebb284b08b0774abc5afb8182077ae45c4ed2e9fea2223dc1a4867ef064",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -340,11 +364,11 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_07": {
-        "source_hash": "008d19840a6de9e4ba0056f216c9169eb97ffcb965c1928ab46574da3a5fe7cb",
+        "source_hash": "ed979c2d5b3030551f009084c8a39558f2037ce7a0833b38fa0c8c1bfc596281",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_08": {
-        "source_hash": "bcd6f1ea779514b327aeec51fb48824d54d6c5278a0db7fb15ac7ab989a7af5f",
+        "source_hash": "28b378dfe432d3ab5f3af35a0a4ba6e0f8d822789671bc2c12987139cb18637b",
         "legal_hash": "04574c6763c72d0b9769d1d6d521c3969c8e660dc0fbdf788e4b6ed61a3e9c94",
         "claims": [
             {
@@ -395,7 +419,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_14": {
-        "source_hash": "6984bdd9d53fd219b856275fa09a9dff2bf8cd2a6b0f117b512c6def1f905683",
+        "source_hash": "421caf14f59b5f1c8a1ca1d42f881a525a842d3b8d5cf984cdb3634699a37d40",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -409,7 +433,7 @@
         "last_updated": "2026-10-18T03:20:12.198559+00:00"
     },
     "cw_fds_slot_CW_GM_15": {
-        "source_hash": "c88c0e8a3bb182c59a183cbb2a0acf8d17c76e3ff50fb6481d6b4e32f3213380",
+        "source_hash": "aa3d50a0ec23d3f4dfbeae7cb090c487ae06db84eb2f2c8ba6006dae8ba1b269",
         "legal_hash": "6d87b29feae8855d76ae946beabd8d7b9d09a3eed1342ae5916e83fb6e26cb72",
         "claims": [
             {
@@ -430,7 +454,7 @@
         "last_updated": "2026-11-03T05:52:29.053535+00:00"
     },
     "cw_fds_slot_FDS_Z1": {
-        "source_hash": "9b2084a92c3339f5512849c9991d8bcba40edc42d4cfc0793878c698037a4270",
+        "source_hash": "f01bb911e03b12e104418a4723d21fb9df0b49339b32517047a727a7b0172a00",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -638,7 +662,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_ST_02": {
-        "source_hash": "fadb53a002fd68074fc89290f6af54e40ad0038aa12ad857df23c7db440eda78",
+        "source_hash": "a252b618c624df6dd1d2e444442085123880799fd03edf8f064e64c75004917e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -656,7 +680,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_ST_04": {
-        "source_hash": "61bfdcdb60df3772aa78e7d1061f868e60c3cb1b7e98d94b691936b0aa083996",
+        "source_hash": "c7c2c29029bf52dcf8ae430b29493a52ae2c9ac09a9f3eab5b186b520ce606bd",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_01": {
@@ -674,11 +698,11 @@
         "last_updated": "2026-11-12T10:02:06.931356+00:00"
     },
     "cw_fds_slot_FDS_GM_02": {
-        "source_hash": "fe9ddff933fe7bb83025becd2ed146a14f0b3655e9964bf292866c0c2db59744",
+        "source_hash": "974c138131f6b5bf05e7c5297a630c8c63d6738cc7cc085cebea3d33718b973b",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_03": {
-        "source_hash": "1725a63d6583bcaed39532b9e25f4947b927a3ea2060568ff659012e26b67a23",
+        "source_hash": "9bed91d24a1c6d85b22e7088afdf939c9df46b0ead3d4210998e4128f4347913",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -692,11 +716,11 @@
         "last_updated": "2026-10-18T03:22:48.876772+00:00"
     },
     "cw_fds_slot_FDS_GM_04": {
-        "source_hash": "9877a782a6db53c05660913f97879155375736f2bceee330f7e2dbf1adc0a991",
+        "source_hash": "0d423d88f39cc1cc891bd60027552b826bd4bcbe271c67ecb1dde1d793952e05",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_05": {
-        "source_hash": "a3c9f318c6b0db9afed44eaaca9be8b43a8456d71d02467f0aa49d511ed45ce5",
+        "source_hash": "e67d884773e97677b2d8357a5dc8f73bd68a9845e9cf9516d5696598d940655c",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -781,23 +805,23 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_18": {
-        "source_hash": "fadb53a002fd68074fc89290f6af54e40ad0038aa12ad857df23c7db440eda78",
+        "source_hash": "a252b618c624df6dd1d2e444442085123880799fd03edf8f064e64c75004917e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_19": {
-        "source_hash": "fadb53a002fd68074fc89290f6af54e40ad0038aa12ad857df23c7db440eda78",
+        "source_hash": "a252b618c624df6dd1d2e444442085123880799fd03edf8f064e64c75004917e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_20": {
-        "source_hash": "fadb53a002fd68074fc89290f6af54e40ad0038aa12ad857df23c7db440eda78",
+        "source_hash": "a252b618c624df6dd1d2e444442085123880799fd03edf8f064e64c75004917e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_21": {
-        "source_hash": "fadb53a002fd68074fc89290f6af54e40ad0038aa12ad857df23c7db440eda78",
+        "source_hash": "a252b618c624df6dd1d2e444442085123880799fd03edf8f064e64c75004917e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_22": {
-        "source_hash": "fadb53a002fd68074fc89290f6af54e40ad0038aa12ad857df23c7db440eda78",
+        "source_hash": "a252b618c624df6dd1d2e444442085123880799fd03edf8f064e64c75004917e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_FDS_K1_STROM": {
@@ -809,7 +833,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_K5_WOHNBAU": {
-        "source_hash": "b62d6807b0ed0fa80ade4b9ffbe5c636248ede576709413bff51bdbcec79f8e1",
+        "source_hash": "8f742e439eaf1fb6facaf2f7c4a52f106dadaae8b947bcf7e8e706da84060a38",
         "legal_hash": "94b07e03d21caa7229292572a99dbcd1c6360a27008d956cd95e71325a2d35c6",
         "claims": [
             {
@@ -890,7 +914,7 @@
         "last_updated": "2026-10-22T00:37:55.404748+00:00"
     },
     "cw_fds_slot_FDS_GM_08": {
-        "source_hash": "2812b31fae26a72793de02b0d43f8c24a1122dfdb91e4156e3a5dcb5963a064d",
+        "source_hash": "31000a3d61d4f6fa7c56043bf21ebb1c399a41fbe40b4eb69966213bec8fbd97",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -911,7 +935,7 @@
         "last_updated": "2026-11-12T04:18:27.596540+00:00"
     },
     "cw_fds_slot_CW_GM_10": {
-        "source_hash": "afa49bb41b8257071906efc5958095971e9c09dd7c5cdb88539253d5a93613e6",
+        "source_hash": "ab4e452771bc89f977f92502e4ec165b90f5ce3fee1783001e7b7ae170180837",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {

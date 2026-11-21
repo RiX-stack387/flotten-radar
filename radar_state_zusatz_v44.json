@@ -1,6 +1,6 @@
 {
     "praxis_slot_Z1": {
-        "source_hash": "79f2fae43f73e4bde635e4d7fa72b64f9670817de6e8f6de97f5a6c2e70ca010",
+        "source_hash": "4654bc120839752d4b058a4d971ee2b5a0ebed6d955ce46ef465a3335d578fd5",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z2": {
@@ -53,7 +53,7 @@
         "last_updated": "2026-10-18T02:56:05.962556+00:00"
     },
     "praxis_slot_Z3": {
-        "source_hash": "eb0880810f20810f4342df52400e6ad3ac08c2f043baf8f580918670eb20ab6f",
+        "source_hash": "5cc4cfdf40ad2d71bd2fa85d746c1658185f8940f01853057d7536611e4b90f5",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -320,7 +320,7 @@
         "last_updated": "2026-10-18T02:58:09.548372+00:00"
     },
     "praxis_slot_Z14": {
-        "source_hash": "d8e16ef4eb7f610797cf5b3e8e5cc3acd03f0ee495cf72829424852e800a341e",
+        "source_hash": "8ca970708cea312d003d57fdb0dea3e32bd39ad3a8a87c19397f94668f9f25e3",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -376,7 +376,7 @@
         "last_updated": "2026-10-18T02:58:40.765893+00:00"
     },
     "praxis_slot_Z16": {
-        "source_hash": "4771859528a0dd6c0fd6b6ae90cf839c1dbdd60da711c949bdc6868fde27ef8f",
+        "source_hash": "6181e4ab3cf8ca00e89fc8af18710f43bf30037b39024df739be5373777a0cf7",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -404,7 +404,7 @@
         "last_updated": "2026-10-18T02:58:56.326731+00:00"
     },
     "praxis_slot_Z17": {
-        "source_hash": "6ddb232850bb107aad6e58e6287699a74b03e611b75e0bdb224bcc86f8bd539f",
+        "source_hash": "f380856b813430faeb45946e2d2e4f8a5fe112d7fe80fff33c061c6dd5ee3aa4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -425,7 +425,7 @@
         "last_updated": "2026-10-18T02:59:10.732501+00:00"
     },
     "praxis_slot_Z18": {
-        "source_hash": "8be4ecf89d538ad54bc5cfc8be612bfa77640401093765619b5192398d74a507",
+        "source_hash": "a5fcacd291ecce5f60b9a0e9949e3551e4b51896f1029de3554bb085ceec0b9f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -439,53 +439,46 @@
         "last_updated": "2026-10-18T02:59:19.028629+00:00"
     },
     "praxis_slot_Z19": {
-        "source_hash": "84bc9c906cb2a7dd8159915100a04415e63355c58127cc7f2cd14eb9bee58449",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "c60bc7e688bcce7b513f33998c4e04b40a5b5d97451748e8741da8db6df942fe",
+        "legal_hash": "c3a40e1b60f3ffc3894cf1b4ddeec8bafdf2919b71ea7832f88b85e7d5680bbc",
         "claims": [
             {
-                "norm": "SGB II / SGB XII / Goldstadt-Pass",
-                "extracted_value": "Bei Bezug von Arbeitslosengeld II (SGB II) und Sozialhilfe (SGB XII) erhalten Sie den Goldstadt-Pass automatisch mit Ihrem Leistungsbescheid.",
+                "norm": "Goldstadt-Pass Richtlinie Pforzheim - SGB II / SGB XII",
+                "extracted_value": "Automatische Ausstellung des Goldstadt-Passes mit dem Leistungsbescheid bei Bezug von Arbeitslosengeld II (SGB II) und Sozialhilfe (SGB XII)",
                 "value_type": "TEXT",
-                "context": "Automatische Ausstellung des Goldstadt-Passes bei Bezug von SGB II oder SGB XII Leistungen in Pforzheim.",
+                "context": "Verfahrensablauf zur Erlangung des Goldstadt-Passes für Empfänger von Grundsicherung/SGB II und SGB XII",
                 "evidence_location": "Bei Bezug von Arbeitslosengeld II (SGB II) und Sozialhilfe (SGB XII) erhalten Sie den Goldstadt-Pass automatisch mit Ihrem Leistungsbescheid."
             },
             {
-                "norm": "Goldstadt-Pass - Stadtbibliothek",
-                "extracted_value": "50%",
-                "value_type": "PERCENT",
-                "context": "Ermäßigung der Jahresgebühr der Stadtbibliothek Pforzheim mit dem Goldstadt-Pass.",
-                "evidence_location": "Stadtbibliothek Ermäßigung der Jahresgebühr um 50%"
-            },
-            {
-                "norm": "Goldstadt-Pass - Jugendmusikschule",
-                "extracted_value": "20%",
-                "value_type": "PERCENT",
-                "context": "Ermäßigung der Unterrichtsgebühren der Jugendmusikschule Pforzheim.",
-                "evidence_location": "Jugendmusikschule Ermäßigung der Unterrichtsgebühren um 20%"
-            },
-            {
-                "norm": "Goldstadt-Pass - Volkshochschule Pforzheim – Enzkreis",
-                "extracted_value": "30%",
-                "value_type": "PERCENT",
-                "context": "Ermäßigung der Kursgebühr der Volkshochschule Pforzheim – Enzkreis.",
-                "evidence_location": "Volkshochschule Pforzheim – Enzkreis Ermäßigung der Kursgebühr um 30% (ausgenommen spezielle Kurse)"
-            },
-            {
-                "norm": "Goldstadt-Pass - Gültigkeit",
-                "extracted_value": "1 jahr für die letztgenannten Unterstützungsarten.",
+                "norm": "Goldstadt-Pass Richtlinie Pforzheim - Gültigkeit",
+                "extracted_value": "Gültigkeit solange der Leistungsbezug von SGB II/SGB XII andauert bzw. 1 Jahr für sonstige Unterstützungsarten (Wohngeld, Kinderzuschlag, SGB VIII, AsylbLG)",
                 "value_type": "TEXT",
-                "context": "Gültigkeitsdauer des Goldstadt-Passes für Empfänger von Wohngeld, Kinderzuschlag, AsylbLG oder Leistungen nach SGB VIII.",
+                "context": "Gültigkeitsdauer des kommunalen Goldstadt-Passes",
                 "evidence_location": "Der Goldstadt-Pass ist solange gültig, wie Sie die beiden erstgenannten finanziellen Unterstützungen erhalten, bzw. 1 jahr für die letztgenannten Unterstützungsarten."
             },
             {
-                "norm": "Stadt Pforzheim Freigabevermerk",
-                "extracted_value": "15.12.2020",
-                "value_type": "DATE",
-                "context": "Stand des Informationstextes zum Goldstadt-Pass der Stadt Pforzheim.",
-                "evidence_location": "Freigabevermerk Stadt Pforzheim, 15.12.2020"
+                "norm": "Gebührensatzung Stadtbibliothek Pforzheim / Goldstadt-Pass",
+                "extracted_value": "Ermäßigung der Jahresgebühr um 50%",
+                "value_type": "PERCENT",
+                "context": "Vergünstigung für Inhaber des Goldstadt-Passes bei der Stadtbibliothek",
+                "evidence_location": "Stadtbibliothek Ermäßigung der Jahresgebühr um 50%"
+            },
+            {
+                "norm": "Entgeltordnung Volkshochschule Pforzheim – Enzkreis / Goldstadt-Pass",
+                "extracted_value": "Ermäßigung der Kursgebühr um 30% (ausgenommen spezielle Kurse)",
+                "value_type": "PERCENT",
+                "context": "Vergünstigung für Inhaber des Goldstadt-Passes bei der Volkshochschule",
+                "evidence_location": "Volkshochschule Pforzheim – Enzkreis Ermäßigung der Kursgebühr um 30% (ausgenommen spezielle Kurse)"
+            },
+            {
+                "norm": "Tarifbestimmung ml Gebrauchtwarenkaufhaus / Goldstadt-Pass",
+                "extracted_value": "Ermäßigung auf den Einkauf um 10 %",
+                "value_type": "PERCENT",
+                "context": "Rabatt für Goldstadt-Pass-Inhaber beim Einkauf im Gebrauchtwarenkaufhaus",
+                "evidence_location": "ml Gebrauchtwarenkaufhaus Ermäßigung auf den Einkauf um 10 %"
             }
         ],
-        "last_updated": "2026-10-18T02:59:35.300964+00:00"
+        "last_updated": "2026-11-21T03:24:12.099663+00:00"
     },
     "praxis_slot_Z20": {
         "source_hash": "d379b27a95aae8f616928d7e5974864ca26d9b3230ae986197009796ab865cb7",
@@ -537,7 +530,7 @@
         "last_updated": "2026-10-18T03:00:27.729933+00:00"
     },
     "praxis_slot_Z22": {
-        "source_hash": "ad0e1d416cfe6561e02a33bd44cf72b9f7b0cf40cf9302e38afde224d9deced8",
+        "source_hash": "bb4d36caf87eb7582a45c1e755c62942647babb836027dabf8b565685c18ac27",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -565,7 +558,7 @@
         "last_updated": "2026-11-14T06:49:57.731813+00:00"
     },
     "praxis_slot_Z24": {
-        "source_hash": "a8b526f02b569b01fec5af17152cfae8958061da6afacd66b45ba6077bd5c515",
+        "source_hash": "48d4df8bf4509c7e3cf4d375b168eef41673ffb6bdf89d1f04aacf346aa5a575",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -663,39 +656,39 @@
         "last_updated": "2026-10-18T03:01:13.300977+00:00"
     },
     "praxis_slot_Z26": {
-        "source_hash": "a6c911d84073b22d7c5a6fbb758825992151b997564dfc5177dbad27502efa5a",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "7be68da86bf0279847236ba6d6cf421a0cbee17ae9c10eea835c3a0772006b25",
+        "legal_hash": "16ead55989ebca2e82debf08a90263572c2a5c027107fa8e7f9aee7f6e4e137c",
         "claims": [
             {
-                "norm": "§ 24, § 90, § 82, § 85 SGB VIII",
-                "extracted_value": "Rechtsgrundlage für die Erhebung von Kostenbeiträgen sowie den Anspruch auf Förderung in Tageseinrichtungen und den Begriff des Einkommens sowie die Einkommensgrenze.",
+                "norm": "§ 90 SGB VIII",
+                "extracted_value": "Ermäßigung beziehungsweise Befreiung der Gebühren bei unzumutbarer finanzieller Belastung",
                 "value_type": "TEXT",
-                "context": "Rechtsgrundlagen für die Gebührenermäßigung oder -befreiung für Kindertageseinrichtungen in Pforzheim",
-                "evidence_location": "Rechtsgrundlage Achtes Buch Sozialgesetzbuch : § 24 Anspruch auf Förderung in Tageseinrichtungen § 90 Erhebung von Kostenbeiträgen § 82 Begriff des Einkommens § 85 Einkommensgrenze"
+                "context": "Beantragung einer Gebührenermäßigung oder Gebührenbefreiung für den Besuch einer Kindertageseinrichtung beim zuständigen Jugendamt.",
+                "evidence_location": "Sie müssen die Ermäßigung beziehungsweise Befreiung der Gebühren bei der zuständigen Stelle schriftlich beantragen."
             },
             {
-                "norm": "Verwaltungsrecht",
-                "extracted_value": "Gegen den Ablehnungsbescheid können Sie bei der Stelle, die den Bescheid erlassen hat, innerhalb eines Monats Widerspruch einlegen.",
-                "value_type": "DATE",
-                "context": "Frist für den Rechtsbehelf (Widerspruch) gegen einen Ablehnungsbescheid",
+                "norm": "Rechtsbehelf § 70 VwGO",
+                "extracted_value": "innerhalb eines Monats",
+                "value_type": "TEXT",
+                "context": "Frist für die Einlegung eines Widerspruchs gegen den Ablehnungsbescheid zur Kita-Gebührenermäßigung.",
                 "evidence_location": "Gegen den Ablehnungsbescheid können Sie bei der Stelle, die den Bescheid erlassen hat, innerhalb eines Monats Widerspruch einlegen."
             }
         ],
-        "last_updated": "2026-10-18T03:01:22.011460+00:00"
+        "last_updated": "2026-11-21T03:25:32.552243+00:00"
     },
     "praxis_slot_Z27": {
-        "source_hash": "9af32848eed3134db3cdc18d0b5b80280f30a26c11737b73034deb07f122d3ba",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "02e4a6852988e2a405caf4d6c370b3851cc712f46f3edf7ad1fbe1ce28273b9d",
+        "legal_hash": "34af77eba8423b3e32f50098c55df546aeaa33710c0f865218e05f0b96457358",
         "claims": [
             {
                 "norm": "§ 7a SGB XI",
-                "extracted_value": "Pflegeberatung nach § 7a SGB XI",
+                "extracted_value": "Anspruch auf Pflegeberatung sowie unabhängige und kostenlose Beratung für Betroffene jeden Alters und deren Angehörige",
                 "value_type": "TEXT",
-                "context": "Leistungsangebot des Pflegestützpunkts der Stadt Pforzheim",
+                "context": "Der Pflegestützpunkt der Stadt Pforzheim führt gesetzliche Pflegeberatungen durch und informiert über Pflegeleistungen sowie Antragsstellungen.",
                 "evidence_location": "Pflegeberatung nach § 7a SGB XI"
             }
         ],
-        "last_updated": "2026-10-18T03:01:30.265277+00:00"
+        "last_updated": "2026-11-21T03:26:02.819892+00:00"
     },
     "praxis_slot_Z28": {
         "source_hash": "bb2a33f942b05343032a6cdae018e425d24a4e16431364c08c3d94eab8c7d8f6",
@@ -873,7 +866,7 @@
         "last_updated": "2026-10-18T03:10:31.480827+00:00"
     },
     "praxis_slot_ENZ_ST_01": {
-        "source_hash": "daa8931a65d3dc0d49770755f65d7361a27b3b7ff3c00cecdb53f407d861d9f9",
+        "source_hash": "a47c93684e6a75400919b739a60ed6f7a23d509ea2b9daf60a6e7b0ce4d45a5f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -891,7 +884,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_ST_03": {
-        "source_hash": "fc389719c6333b0f4883b013ebd97d5946858aebf55f9c9c0eb4038702d79235",
+        "source_hash": "cfde03f5cce494c4b10b6488b9d084fb6cfa52de6998aec4f654388902298c12",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -905,7 +898,7 @@
         "last_updated": "2026-10-18T03:10:58.293260+00:00"
     },
     "praxis_slot_ENZ_ST_04": {
-        "source_hash": "1aad8d49de68cf7591c2d24aef6e2d3efb548bbfaf941ca29a3d0917e2922d0f",
+        "source_hash": "3113c8cc61bb973c8a57485d6bc6f74f4420590ae3c2880365f87c1d5419fe30",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -941,11 +934,11 @@
         "last_updated": "2026-10-18T03:11:32.952177+00:00"
     },
     "praxis_slot_ENZ_GM_03": {
-        "source_hash": "4b50f16e78e465700decce06a77e6cf3f10e34907e1c273a416765faa9321bf2",
+        "source_hash": "bed14d774f0c973cd680661330c5c47285468672ec6c59a229dde7dfdf315103",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_04": {
-        "source_hash": "9d8fa9c35b17f13528d67c82f3c30f604eabe9efcadfdbb2ee8a87bbb9f60f81",
+        "source_hash": "53d6ffbe8018b70b567b96eae6f7f1572379cecf1cf4eddc19c084fb6b6003ca",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -973,11 +966,11 @@
         "last_updated": "2026-10-18T03:11:56.691756+00:00"
     },
     "praxis_slot_ENZ_GM_06": {
-        "source_hash": "5969f1d47da7f0fd33a116b286669a031fa64c4e665442e2491dd0225c820b0e",
+        "source_hash": "1af242817983ac8587ce856de29ece438fdbfb40a5acec2986ef130cb65a0635",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_07": {
-        "source_hash": "3cb9c40186ea27ed899c0049d9dcec6470abaa0ead55e9f6c70f948b7b330ce0",
+        "source_hash": "d86769f1808e0cf2d90a25eef060260e84d99269b515d78626071831b950c7c8",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -991,11 +984,11 @@
         "last_updated": "2026-11-03T13:04:59.376660+00:00"
     },
     "praxis_slot_ENZ_GM_08": {
-        "source_hash": "0d14ffda7fdb4bb3140a49da6af20bd15cf33d7acc563813f5abd01ba94f613f",
+        "source_hash": "39c2dbba771d6067b287a5d5d967e109d995ec9381a599d9f14d9b2d327ce526",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_09": {
-        "source_hash": "8903e813d21667e5414657286c7bf7031b79e83260d1b3f401fe662a5636ebae",
+        "source_hash": "067a2dc2aeca0a364a57536f4d656c7b3eb2cc3870afe2346848d4f49c8d062c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_10": {
@@ -1020,7 +1013,7 @@
         "last_updated": "2026-11-10T09:05:47.958993+00:00"
     },
     "praxis_slot_ENZ_GM_11": {
-        "source_hash": "918a43ceba0cfabb51a648538e038dcae770ee1f4320eaac28c04488b5770670",
+        "source_hash": "983eb3dc0d9ffbc1e1856dbb89083215a5a34859b4bad6c6894cd0e400d5c353",
         "legal_hash": "6826fa4e647c63a6f37942bd7ba68b6c9600aa84839f1b388c6fd7ca7d89bfac",
         "claims": [
             {
@@ -1048,7 +1041,7 @@
         "last_updated": "2026-10-18T03:12:57.658715+00:00"
     },
     "praxis_slot_ENZ_GM_13": {
-        "source_hash": "f968f3310f1771e3788281063e9c24043fc8523168319e3c60c118a60333735d",
+        "source_hash": "8b30e895e27d87543db09c0f0b0e4a95fa5f1c66381fbf6f7f4cb465b9d93498",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1125,7 +1118,7 @@
         "last_updated": "2026-10-30T05:42:04.013512+00:00"
     },
     "praxis_slot_ENZ_GM_17": {
-        "source_hash": "31f80585c95a62ae5f18dd2aac14b9fbb4d87b5767df1b274c282e5e0a7930f3",
+        "source_hash": "ff3dd6ad33598de7f60154070d10db7f307ab5c3f49715b070c4355fcea7179a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1139,7 +1132,7 @@
         "last_updated": "2026-11-10T13:43:44.463961+00:00"
     },
     "praxis_slot_ENZ_GM_18": {
-        "source_hash": "fdbbd06ce024c606c79a566283260eee90e0363676ced35b343cd9ed9d3f5f2f",
+        "source_hash": "b9168c63a40bf7eb0533dc8ccf0ef9d16bab46dba548339ed4eb658c5d6553c3",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1153,7 +1146,7 @@
         "last_updated": "2026-10-18T03:13:48.433816+00:00"
     },
     "praxis_slot_ENZ_GM_19": {
-        "source_hash": "d2915c89a390d17d1166331d09a8af8e36d61bb7910054d6c0e41ea8bfa89930",
+        "source_hash": "bd068f31728c96d745cc0f8373eaf852a95872ac033c649c6fddb0b655de96e3",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1167,7 +1160,7 @@
         "last_updated": "2026-10-18T03:13:57.539802+00:00"
     },
     "praxis_slot_ENZ_GM_20": {
-        "source_hash": "81b2a2f20abfe230eee29f7dd0361f2d376693c3b66ea1c2ecc9ba5d8f209835",
+        "source_hash": "0f1f7583dca3288d8b29b59ed7cf738b3c5951df79f36fc56ce09291a68640b1",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -1181,7 +1174,7 @@
         "last_updated": "2026-10-18T03:14:08.134738+00:00"
     },
     "praxis_slot_ENZ_GM_21": {
-        "source_hash": "f5c89fd5a6f1ef3e7410ef9cb0ec8a0da56cfa063a6db1ebfb75184d0ba22265",
+        "source_hash": "3d86e1e23d256ab3bbf361bb9a389c20080c5a67db04e6bf4aff4d585bd0c0e0",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1209,7 +1202,7 @@
         "last_updated": "2026-11-09T03:19:50.359834+00:00"
     },
     "praxis_slot_ENZ_GM_22": {
-        "source_hash": "1787c9a57344bf51a0cfacb9be5c1e5dd1a5804d1f64dcfe8a57d4e7aa0a39ab",
+        "source_hash": "aada61e688eaff3ad8302ffd7b64d9fa35381368a2e8abbe8a62ed7d3b1e3b6c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1223,7 +1216,7 @@
         "last_updated": "2026-10-18T03:14:25.465552+00:00"
     },
     "praxis_slot_ENZ_GM_23": {
-        "source_hash": "806cd71bb65a176251a120116b49c72079b661edf0a044057f27972aa5ae5f3c",
+        "source_hash": "87a907ac6642bf7b2c9003efe5fc2c03a7de96120b9c848f7dec879787ca9b1e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1267,7 +1260,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K6_DWD": {
-        "source_hash": "94195188f1eb5e52b074bbe74fe4960c96bca7ccfc19992c2f6bc9947cc77dce",
+        "source_hash": "385a63058ab20b1276e060799ebabac26702120c6186ae963381fa0707a77848",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z29": {
@@ -2415,7 +2408,7 @@
         "last_updated": "2026-11-15T08:49:25.791593+00:00"
     },
     "praxis_slot_PF_SOZ_22": {
-        "source_hash": "99a7766412fb2d821bc9579060619ad08cb36d384b90e5d68928029ef23fc874",
+        "source_hash": "a4a15cac0a0c106e7520b0f7466defae4133ad57317994d04278924b185960da",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {

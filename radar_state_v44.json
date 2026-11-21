@@ -532,7 +532,7 @@
         "last_updated": "2026-10-18T02:49:10.901306+00:00"
     },
     "slot_12A": {
-        "source_hash": "a244a17139241abe51fe8dc67c7224c5594a9f843bc049eadc43f45d9499c649",
+        "source_hash": "e1b4f1edb05a5df58209864c0f4b73df449431a2ca1276a841235776a67642db",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -609,7 +609,7 @@
         "last_updated": "2026-10-18T02:49:48.467768+00:00"
     },
     "slot_13": {
-        "source_hash": "76fb70480b387581d37b18d549a8de459656ca390e5f2bf03722fd882d2c42ee",
+        "source_hash": "24951b53379352a01760bc375c9f1ab4bd87917e3462ed3d549ea81d7daefe8c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -651,7 +651,7 @@
         "last_updated": "2026-10-18T02:50:02.298451+00:00"
     },
     "slot_14": {
-        "source_hash": "dcffbafe193756d1303173e7564f79fb9e06cb0ec91bd7a1cce6bf2d8061c9c0",
+        "source_hash": "288d795f15516fdbafd3e32e451bac10537a33851aae5594c1f63e4b02e22f05",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -756,7 +756,7 @@
         "last_updated": "2026-10-18T02:50:38.015412+00:00"
     },
     "slot_17": {
-        "source_hash": "e4593ad2ffc96f25515e1b9da2c93c200d0a68d5a773a60c5c1db9919cae332d",
+        "source_hash": "df1e92bbcbdf3d299874059370186ba8c2d71df05161d32c6727091bab998e9c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -977,7 +977,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "slot_25": {
-        "source_hash": "3a15758aa51a5cf4173c4ec42b16bf2d884d614846ae21880cd7c3d95e159c1d",
+        "source_hash": "c1d1b70617b52fee1fd09f578b1ed538899fdef026ab0f0ec97999b15a5adba3",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1124,46 +1124,39 @@
         "last_updated": "2026-10-18T02:55:09.121721+00:00"
     },
     "slot_31": {
-        "source_hash": "9c2e461d15816399a66b533456bd3a46f7fd433df3910104e585517e3796a06b",
-        "legal_hash": "1580eaae0e3466e753d12bc203dfac5e159a7c2e46bd9bb150f4946fcdf21470",
+        "source_hash": "20efcebc1fa47f3dcec7f56480accca56fc8efd3edc60860a092db14637bc2c4",
+        "legal_hash": "da95fe778f33717bfa5da429c9250c264911bfc0b40d76d75916bc42974b64f1",
         "claims": [
             {
                 "norm": "13. Änderungsgesetz zum SGB II",
-                "extracted_value": "Das Bürgergeld wird zum 1. Juli 2026 durch das Grundsicherungsgeld ersetzt",
+                "extracted_value": "Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II. Es löst das Bürgergeld ab, das seinerseits 2023 das frühere Hartz IV (Arbeitslosengeld II) ersetzt hatte.",
                 "value_type": "TEXT",
-                "context": "Ablösung des Bürgergeldes durch das Grundsicherungsgeld mit verschärften Mitwirkungspflichten sowie Neuregelungen zu Vermögen und Wohnkosten",
-                "evidence_location": "Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt."
+                "context": "Ablösung des Bürgergeldes durch das Grundsicherungsgeld ab dem 1. Juli 2026.",
+                "evidence_location": "Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II. Es löst das Bürgergeld ab, das seinerseits 2023 das frühere Hartz IV (Arbeitslosengeld II) ersetzt hatte."
             },
             {
-                "norm": "§ 20 SGB II",
+                "norm": "SGB II",
                 "extracted_value": "563 Euro",
                 "value_type": "EURO",
-                "context": "Monatlicher Regelsatz / Grundsicherungsgeld für alleinstehende Erwachsene im Jahr 2026",
+                "context": "Höhe des Bürgergeld-Regelsatzes für alleinstehende Erwachsene im Jahr 2026.",
                 "evidence_location": "563 Euro für alleinstehende Erwachsene"
             },
             {
-                "norm": "§ 20 SGB II",
-                "extracted_value": "506 Euro",
-                "value_type": "EURO",
-                "context": "Monatlicher Regelsatz pro Person für Eheleute und Lebenspartner im Jahr 2026",
-                "evidence_location": "506 Euro pro Person für Eheleute / Lebenspartner"
-            },
-            {
-                "norm": "§ 12 SGB II",
-                "extracted_value": "altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person",
-                "value_type": "TEXT",
-                "context": "Schonvermögensregelung beim Grundsicherungsgeld ab 01.07.2026 ohne bisherige Karenzzeit",
-                "evidence_location": "Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus."
-            },
-            {
                 "norm": "§ 22 SGB II",
-                "extracted_value": "Übernahme von Miete, Nebenkosten und Heizkosten",
+                "extracted_value": "Wohnkosten (KdU) : Übernahme von Miete, Nebenkosten und Heizkosten",
                 "value_type": "TEXT",
-                "context": "Übernahme der Bedarfe für Unterkunft und Heizung (KdU) als Leistungbestandteil des Grundsicherungsgeldes",
+                "context": "Leistungsbestandteil für Unterkunft und Heizung im Rahmen der Grundsicherung.",
                 "evidence_location": "Wohnkosten (KdU) : Übernahme von Miete, Nebenkosten und Heizkosten"
+            },
+            {
+                "norm": "SGB II Reform 2026",
+                "extracted_value": "Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus.",
+                "value_type": "TEXT",
+                "context": "Neuregelung des Schonvermögens und Wegfall der einjährigen Karenzzeit ab dem 01.07.2026.",
+                "evidence_location": "Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus."
             }
         ],
-        "last_updated": "2026-11-16T23:59:24.851348+00:00"
+        "last_updated": "2026-11-21T03:21:01.290751+00:00"
     },
     "slot_18": {
         "source_hash": "61d6d0af2eefa10c8784fedb95fad4fd6fe69064f589c608b5f8a555b7dd6a40",
@@ -1194,7 +1187,7 @@
         "last_updated": "2026-10-24T03:26:12.011115+00:00"
     },
     "slot_32": {
-        "source_hash": "cbb9f6dc8c54bde48b35b7908bab42655934e2f87f1c34845f4405f2d3acaa78",
+        "source_hash": "f121c0cf8859ac417f7546446794db5f4bd1aad9eff5295d7a5f527106ef4bda",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1208,7 +1201,7 @@
         "last_updated": "2026-11-14T06:47:29.722422+00:00"
     },
     "slot_33": {
-        "source_hash": "7e32d68e1a4c78e1ad9f44d47feb0973278d25847da634e220a556398d69667a",
+        "source_hash": "fac7f3fac6e2e76d78f7d839f1ec8373f23a881345c9bce18b2fe42cc4bb3fd1",
         "legal_hash": "d977eb20f6c18b20032433059b3b1750a04803f8a21b4049377541194ab5e264",
         "claims": [
             {

@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-20 04:46:33 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-21 04:47:21 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -209,11 +209,10 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **13. Änderungsgesetz zum SGB II** | Das Bürgergeld wird zum 1. Juli 2026 durch das Grundsicherungsgeld ersetzt | Ablösung des Bürgergeldes durch das Grundsicherungsgeld mit verschärften Mitwirkungspflichten sowie Neuregelungen zu Vermögen und Wohnkosten |
-| **§ 20 SGB II** | 563 Euro | Monatlicher Regelsatz / Grundsicherungsgeld für alleinstehende Erwachsene im Jahr 2026 |
-| **§ 20 SGB II** | 506 Euro | Monatlicher Regelsatz pro Person für Eheleute und Lebenspartner im Jahr 2026 |
-| **§ 12 SGB II** | altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person | Schonvermögensregelung beim Grundsicherungsgeld ab 01.07.2026 ohne bisherige Karenzzeit |
-| **§ 22 SGB II** | Übernahme von Miete, Nebenkosten und Heizkosten | Übernahme der Bedarfe für Unterkunft und Heizung (KdU) als Leistungbestandteil des Grundsicherungsgeldes |
+| **13. Änderungsgesetz zum SGB II** | Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II. Es löst das Bürgergeld ab, das seinerseits 2023 das frühere Hartz IV (Arbeitslosengeld II) ersetzt hatte. | Ablösung des Bürgergeldes durch das Grundsicherungsgeld ab dem 1. Juli 2026. |
+| **SGB II** | 563 Euro | Höhe des Bürgergeld-Regelsatzes für alleinstehende Erwachsene im Jahr 2026. |
+| **§ 22 SGB II** | Wohnkosten (KdU) : Übernahme von Miete, Nebenkosten und Heizkosten | Leistungsbestandteil für Unterkunft und Heizung im Rahmen der Grundsicherung. |
+| **SGB II Reform 2026** | Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus. | Neuregelung des Schonvermögens und Wegfall der einjährigen Karenzzeit ab dem 01.07.2026. |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -365,12 +364,11 @@
 ## [Z19] Sektor Z19
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **SGB II / SGB XII / Goldstadt-Pass** | Bei Bezug von Arbeitslosengeld II (SGB II) und Sozialhilfe (SGB XII) erhalten Sie den Goldstadt-Pass automatisch mit Ihrem Leistungsbescheid. | Automatische Ausstellung des Goldstadt-Passes bei Bezug von SGB II oder SGB XII Leistungen in Pforzheim. |
-| **Goldstadt-Pass - Stadtbibliothek** | 50% | Ermäßigung der Jahresgebühr der Stadtbibliothek Pforzheim mit dem Goldstadt-Pass. |
-| **Goldstadt-Pass - Jugendmusikschule** | 20% | Ermäßigung der Unterrichtsgebühren der Jugendmusikschule Pforzheim. |
-| **Goldstadt-Pass - Volkshochschule Pforzheim – Enzkreis** | 30% | Ermäßigung der Kursgebühr der Volkshochschule Pforzheim – Enzkreis. |
-| **Goldstadt-Pass - Gültigkeit** | 1 jahr für die letztgenannten Unterstützungsarten. | Gültigkeitsdauer des Goldstadt-Passes für Empfänger von Wohngeld, Kinderzuschlag, AsylbLG oder Leistungen nach SGB VIII. |
-| **Stadt Pforzheim Freigabevermerk** | 15.12.2020 | Stand des Informationstextes zum Goldstadt-Pass der Stadt Pforzheim. |
+| **Goldstadt-Pass Richtlinie Pforzheim - SGB II / SGB XII** | Automatische Ausstellung des Goldstadt-Passes mit dem Leistungsbescheid bei Bezug von Arbeitslosengeld II (SGB II) und Sozialhilfe (SGB XII) | Verfahrensablauf zur Erlangung des Goldstadt-Passes für Empfänger von Grundsicherung/SGB II und SGB XII |
+| **Goldstadt-Pass Richtlinie Pforzheim - Gültigkeit** | Gültigkeit solange der Leistungsbezug von SGB II/SGB XII andauert bzw. 1 Jahr für sonstige Unterstützungsarten (Wohngeld, Kinderzuschlag, SGB VIII, AsylbLG) | Gültigkeitsdauer des kommunalen Goldstadt-Passes |
+| **Gebührensatzung Stadtbibliothek Pforzheim / Goldstadt-Pass** | Ermäßigung der Jahresgebühr um 50% | Vergünstigung für Inhaber des Goldstadt-Passes bei der Stadtbibliothek |
+| **Entgeltordnung Volkshochschule Pforzheim – Enzkreis / Goldstadt-Pass** | Ermäßigung der Kursgebühr um 30% (ausgenommen spezielle Kurse) | Vergünstigung für Inhaber des Goldstadt-Passes bei der Volkshochschule |
+| **Tarifbestimmung ml Gebrauchtwarenkaufhaus / Goldstadt-Pass** | Ermäßigung auf den Einkauf um 10 % | Rabatt für Goldstadt-Pass-Inhaber beim Einkauf im Gebrauchtwarenkaufhaus |
 
 ## [Z21] Sektor Z21
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -407,8 +405,8 @@
 ## [Z26] Sektor Z26
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 24, § 90, § 82, § 85 SGB VIII** | Rechtsgrundlage für die Erhebung von Kostenbeiträgen sowie den Anspruch auf Förderung in Tageseinrichtungen und den Begriff des Einkommens sowie die Einkommensgrenze. | Rechtsgrundlagen für die Gebührenermäßigung oder -befreiung für Kindertageseinrichtungen in Pforzheim |
-| **Verwaltungsrecht** | Gegen den Ablehnungsbescheid können Sie bei der Stelle, die den Bescheid erlassen hat, innerhalb eines Monats Widerspruch einlegen. | Frist für den Rechtsbehelf (Widerspruch) gegen einen Ablehnungsbescheid |
+| **§ 90 SGB VIII** | Ermäßigung beziehungsweise Befreiung der Gebühren bei unzumutbarer finanzieller Belastung | Beantragung einer Gebührenermäßigung oder Gebührenbefreiung für den Besuch einer Kindertageseinrichtung beim zuständigen Jugendamt. |
+| **Rechtsbehelf § 70 VwGO** | innerhalb eines Monats | Frist für die Einlegung eines Widerspruchs gegen den Ablehnungsbescheid zur Kita-Gebührenermäßigung. |
 
 ## [Z28] Sektor Z28
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -563,6 +561,13 @@
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
 | **Landratsamt Calw Online-Dienste** | Das Landratsamt Calw stellt Ihnen elektronische Verfahrensabwicklungen zur Verfügung, um Leistungserstellungsprozesse und Organisationsabläufe zu optimieren. | Bereitstellung von Online-Diensten durch das Landratsamt Calw für den Landkreis Calw. |
+
+## [CW_ST_04] Sektor CW_ST_04
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ (3. Änderung)** | Öffentliche Bekanntmachung der 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes Zentrum Unterstadt am 18.11.2026 | Festlegung und Änderung des Sanierungsgebietes Zentrum Unterstadt in Wildberg |
+| **Stellplatzsatzung** | Öffentliche Bekanntmachung der Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung) am 18.11.2026 | Kommunale Satzung zur Durchführung von Stellplatzverpflichtungen bei Wohnungen in Wildberg |
+| **§ 13a BauGB / Bebauungsplan „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen“** | Inkrafttreten des Bebauungsplans und der Örtlichen Bauvorschriften „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen“ am 18.11.2026 | Städtebauliches Verfahren im beschleunigten Verfahren nach § 13a BauGB für das Feuerwehrgerätehaus Gültlingen |
 
 ## [CW_ST_09] Sektor CW_ST_09
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -811,7 +816,7 @@
 ## [Z27] Sektor Z27
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 7a SGB XI** | Pflegeberatung nach § 7a SGB XI | Leistungsangebot des Pflegestützpunkts der Stadt Pforzheim |
+| **§ 7a SGB XI** | Anspruch auf Pflegeberatung sowie unabhängige und kostenlose Beratung für Betroffene jeden Alters und deren Angehörige | Der Pflegestützpunkt der Stadt Pforzheim führt gesetzliche Pflegeberatungen durch und informiert über Pflegeleistungen sowie Antragsstellungen. |
 
 ## [Z50] Sektor Z50
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
