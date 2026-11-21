@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-21)
+RADAR-DELTA COMPACT (2026-11-21 04:47:38)
 - [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II. Es löst das Bürgergeld ab, das seinerseits 2023 das frühere Hartz IV
 - [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: 563 Euro
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Wohnkosten
