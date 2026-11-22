@@ -1,16 +1,14 @@
-RADAR-DELTA COMPACT (2026-11-21 04:47:38)
-- [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II. Es löst das Bürgergeld ab, das seinerseits 2023 das frühere Hartz IV
-- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II: 563 Euro
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Wohnkosten
-- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II Reform 2026: Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026
-- [CW_ST_04: Stadt Wildberg - Rathaus & Bürgerservice] Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ (3. Änderung): Öffentliche Bekanntmachung der 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes Zentrum Unterstadt am 18.11.2026
-- [CW_ST_04: Stadt Wildberg - Rathaus & Bürgerservice] Stellplatzsatzung: Öffentliche Bekanntmachung der Satzung über die Stellplatzverpflichtungen von Wohnungen
-- [CW_ST_04: Stadt Wildberg - Rathaus & Bürgerservice] § 13a BauGB / Bebauungsplan „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen“: Inkrafttreten des Bebauungsplans und der Örtlichen Bauvorschriften „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen“ am 18.11.2026
-- [Z19: Goldstadt-Pass (Voraussetzungen & Antrag)] Goldstadt-Pass Richtlinie Pforzheim - SGB II / SGB XII: Automatische Ausstellung des Goldstadt-Passes mit dem Leistungsbescheid bei Bezug von Arbeitslosengeld II
-- [Z19: Goldstadt-Pass (Voraussetzungen & Antrag)] Goldstadt-Pass Richtlinie Pforzheim - Gültigkeit: Gültigkeit solange der Leistungsbezug von SGB II/SGB XII andauert bzw. 1 Jahr für sonstige Unterstützungsarten
-- [Z19: Goldstadt-Pass (Voraussetzungen & Antrag)] Gebührensatzung Stadtbibliothek Pforzheim / Goldstadt-Pass: Ermäßigung der Jahresgebühr um 50%
-- [Z19: Goldstadt-Pass (Voraussetzungen & Antrag)] Entgeltordnung Volkshochschule Pforzheim – Enzkreis / Goldstadt-Pass: Ermäßigung der Kursgebühr um 30%
-- [Z19: Goldstadt-Pass (Voraussetzungen & Antrag)] Tarifbestimmung ml Gebrauchtwarenkaufhaus / Goldstadt-Pass: Ermäßigung auf den Einkauf um 10 %
-- [Z26: Wirtschaftliche Jugendhilfe (Kita)] § 90 SGB VIII: Ermäßigung beziehungsweise Befreiung der Gebühren bei unzumutbarer finanzieller Belastung
-- [Z26: Wirtschaftliche Jugendhilfe (Kita)] Rechtsbehelf § 70 VwGO: innerhalb eines Monats
-- [Z27: Pflegestützpunkt Pforzheim] § 7a SGB XI: Anspruch auf Pflegeberatung sowie unabhängige und kostenlose Beratung für Betroffene jeden Alters und deren Angehörige
+RADAR-DELTA COMPACT (2026-11-22)
+- [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Einführung des Grundsicherungsgeldes ab dem 1. Juli 2026 als staatliche Grundsicherung nach SGB II
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Abschaffung der einjährigen Karenzzeit beim Vermögen
+- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II (Regelsatz 2026): 563 Euro
+- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Aktion Wünsche erfüllen: Maximal 30 Euro pro Wunschzettel bei Abgabe bis 27.11.2026
+- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Verkehrsbekanntmachung Sperrung Fuchsklinge: Vollsperrung der Gemeindeverbindungsstraße zwischen Hirsau und Althengstett vom 18.11.2026 bis 23.12.2026
+- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Verkehrsregelung Winterzauber: Aufbau- und Abbauzeiten von 08:00 Uhr bis 23:00 Uhr am 04.12.2026
+- [Z28: Unterhaltsvorschuss Pforzheim] SGB II / Unterhaltsvorschussgesetz: EUR 600,00
+- [Z28: Unterhaltsvorschuss Pforzheim] Unterhaltsvorschussgesetz (UVG) § 2: § 2 Umfang der Unterhaltsleistung
+- [Z28: Unterhaltsvorschuss Pforzheim] Unterhaltsvorschussgesetz (UVG) § 6: § 6 Auskunfts- und Anzeigepflicht
+- [ENZ_GM_10: Gemeinde Königsbach-Stein] Gemeinderatsbeschluss Hochwasserschutz 2020: 5 Mio €
+- [ENZ_GM_10: Gemeinde Königsbach-Stein] Förderrichtlinie Hochwasserschutz Baden-Württemberg: 70 %
+- [ENZ_GM_10: Gemeinde Königsbach-Stein] § 7 KiTaG: Stellenausschreibung für Erzieher
+- [ENZ_GM_10: Gemeinde Königsbach-Stein] Verkehrsanordnung L571: 17.11.2026 bis 27.11.2026

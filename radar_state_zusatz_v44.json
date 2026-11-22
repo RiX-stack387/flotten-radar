@@ -691,25 +691,32 @@
         "last_updated": "2026-11-21T03:26:02.819892+00:00"
     },
     "praxis_slot_Z28": {
-        "source_hash": "bb2a33f942b05343032a6cdae018e425d24a4e16431364c08c3d94eab8c7d8f6",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "1cc47b0c71ca922b396545617f80ca6f5e6eb62bb6745139dcf5edb97d7d5e42",
+        "legal_hash": "b55f6ba8e4f4e92a9afe79e44dfa6ed29828a694d047a45f340c6adfdb1f22c1",
         "claims": [
             {
-                "norm": "Unterhaltsvorschussgesetz (UVG) / SGB II",
-                "extracted_value": "EUR 600,00 brutto",
+                "norm": "SGB II / Unterhaltsvorschussgesetz",
+                "extracted_value": "EUR 600,00",
                 "value_type": "EURO",
-                "context": "Voraussetzung für den Anspruch auf Unterhaltsvorschuss für Kinder ab 12 Jahren bei Bezug von SGB II-Leistungen durch den alleinerziehenden Elternteil",
-                "evidence_location": "Ein Anspruch haben diese nur, wenn das Kind oder der alleinerziehende Elternteil keine Leistungen nach dem Sozialgesetzbuch (SGB) II bezieht wie beispielsweise ALG II oder durch den Unterhaltsvorschussbezug die Hilfebedürftigkeit des Kindes vermieden werden kann oder der alleinerziehende Elternteil zwar Leistungen nach dem Sozialgesetzbuch (SGB ) II bezieht, aber ein monatliches Einkommen in Höhe von mindestens EUR 600,00 brutto erzielt."
+                "context": "Mindestbruttoeinkommen des alleinerziehenden Elternteils bei SGB II-Bezug für den Anspruch auf Unterhaltsvorschuss bei Kindern ab zwölf Jahren",
+                "evidence_location": "oder der alleinerziehende Elternteil zwar Leistungen nach dem Sozialgesetzbuch (SGB ) II bezieht, aber ein monatliches Einkommen in Höhe von mindestens EUR 600,00 brutto erzielt."
             },
             {
-                "norm": "Freigabevermerk",
-                "extracted_value": "15.01.2026",
-                "value_type": "DATE",
-                "context": "Datum des Freigabevermerks der Leistungsinformationen",
-                "evidence_location": "Freigabevermerk 15.01.2026 Sozialministerium Baden-Württemberg"
+                "norm": "Unterhaltsvorschussgesetz (UVG) § 2",
+                "extracted_value": "§ 2 Umfang der Unterhaltsleistung",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlage für den Umfang der Unterhaltsleistung",
+                "evidence_location": "Unterhaltsvorschussgesetz (UVG) : § 2 Umfang der Unterhaltsleistung"
+            },
+            {
+                "norm": "Unterhaltsvorschussgesetz (UVG) § 6",
+                "extracted_value": "§ 6 Auskunfts- und Anzeigepflicht",
+                "value_type": "TEXT",
+                "context": "Rechtsgrundlage für die Auskunfts- und Anzeigepflicht",
+                "evidence_location": "§ 6 Auskunfts- und Anzeigepflicht"
             }
         ],
-        "last_updated": "2026-10-18T03:01:42.185815+00:00"
+        "last_updated": "2026-11-22T03:23:52.585659+00:00"
     },
     "praxis_slot_Z87": {
         "source_hash": "e3e2403cb23a75dd04b92d6366a3c8075440010efd52046dd17687b0beb811a3",
@@ -866,7 +873,7 @@
         "last_updated": "2026-10-18T03:10:31.480827+00:00"
     },
     "praxis_slot_ENZ_ST_01": {
-        "source_hash": "a47c93684e6a75400919b739a60ed6f7a23d509ea2b9daf60a6e7b0ce4d45a5f",
+        "source_hash": "aa8dd23dcce2c4dcca7aa19b97cfdb70b8c3003d79aaae7e306053f5df8ebf68",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -884,7 +891,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_ST_03": {
-        "source_hash": "cfde03f5cce494c4b10b6488b9d084fb6cfa52de6998aec4f654388902298c12",
+        "source_hash": "3db1b1d8415588f98b3b7fdcb9fc9a073f1d6bce90f355e0104a28bb8e0be043",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -912,11 +919,11 @@
         "last_updated": "2026-10-18T03:11:06.335858+00:00"
     },
     "praxis_slot_ENZ_ST_05": {
-        "source_hash": "d4fae883d6f3f233790e59812bbc25899fa60aef42e080a76c1c4210fa386bbd",
+        "source_hash": "cc73e92ebe77e57ef4d609df7b20afe8a8f13d40f70c734b4905e85ea8e1a2ed",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_01": {
-        "source_hash": "069ae85eab5d58d3f9b9b0557674f731e1969c18de3f5910b3355e56383b578d",
+        "source_hash": "a4d75e1db3e0e5e850d6ff5f182f61dc06254018f83433bbaa5b13142588010c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_02": {
@@ -934,11 +941,11 @@
         "last_updated": "2026-10-18T03:11:32.952177+00:00"
     },
     "praxis_slot_ENZ_GM_03": {
-        "source_hash": "bed14d774f0c973cd680661330c5c47285468672ec6c59a229dde7dfdf315103",
+        "source_hash": "4c293a7a30c4997a8ec7dd443a5565fd0ac59f5ae21c52a09bcd26457bf562ba",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_04": {
-        "source_hash": "53d6ffbe8018b70b567b96eae6f7f1572379cecf1cf4eddc19c084fb6b6003ca",
+        "source_hash": "a15f77fce463341ec2f1ed5956af4bb21b09601b2a8723cd94406faa2d266032",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -966,11 +973,11 @@
         "last_updated": "2026-10-18T03:11:56.691756+00:00"
     },
     "praxis_slot_ENZ_GM_06": {
-        "source_hash": "1af242817983ac8587ce856de29ece438fdbfb40a5acec2986ef130cb65a0635",
+        "source_hash": "cb33982ae029d887b1c61aa95d3677ac2fca01692621912cb7d35d8b5c924d22",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_07": {
-        "source_hash": "d86769f1808e0cf2d90a25eef060260e84d99269b515d78626071831b950c7c8",
+        "source_hash": "095b6d05957fc3fa272726e44079f2693278e95c4e0707501868900a221c4268",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -992,28 +999,42 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_10": {
-        "source_hash": "acf78730758c39c5c47e864466623b20d5527fe326b24bf84a8dd48cfd850d2a",
-        "legal_hash": "2dbe1a2f9d343b69d4e5bbb0050e09301c3c6af2a24e5dddd95ce502b09869a1",
+        "source_hash": "1bfa58b7ba91d92e9f56b4add7963216d5112f6928b445834c243baf01ed2f86",
+        "legal_hash": "3e2cba8fc54e003a1902b868a81938300b0b03951dade8f41b29f6663e9eb34f",
         "claims": [
             {
-                "norm": "§ 7 KiTaG",
-                "extracted_value": "Erzieher (m/w/d) bzw. pädagogische Fachkraft (m/w/d) nach § 7 KiTaG in Voll- oder Teilzeit ab sofort für die kommunalen Kindertageseinrichtungen Heynlinkita und Kita Regenbogen gesucht",
-                "value_type": "TEXT",
-                "context": "Stellenausschreibung der Gemeinde Königsbach-Stein für pädagogisches Fachpersonal in kommunalen Kindertageseinrichtungen",
-                "evidence_location": "Erzieher (m/w/d) bzw. pädagogische Fachkraft (m/w/d) Nach § 7 KiTaG in Voll- oder Teilzeit - ab sofort gesucht für unsere kommunalen Kindertageseinrichtungen Heynlinkita und Kita Regenbogen in Königsbach-Stein."
+                "norm": "Gemeinderatsbeschluss Hochwasserschutz 2020",
+                "extracted_value": "5 Mio €",
+                "value_type": "EURO",
+                "context": "Investitionsvolumen der Gemeinde Königsbach-Stein für den Ausbau des Hochwasserschutzes",
+                "evidence_location": "2020 hat die Gemeinde Königsbach-Stein beschlossen, 5 Mio € in den Hochwasserschutz zu investieren."
             },
             {
-                "norm": "Bekanntmachung Schließung Bürgerbüro Stein",
-                "extracted_value": "Bürgerbüro in Stein am 12.11.2026 geschlossen",
+                "norm": "Förderrichtlinie Hochwasserschutz Baden-Württemberg",
+                "extracted_value": "70 %",
+                "value_type": "PERCENT",
+                "context": "Erwartete Landesförderung für die Sanierung von 8 Hochwasserrückhaltebecken",
+                "evidence_location": "Für die Sanierung der 8 bestehenden Hochwasserrückhaltebecken werden bis zu 70 % Förderzuschüsse vom Land Baden-Württemberg erwartet."
+            },
+            {
+                "norm": "§ 7 KiTaG",
+                "extracted_value": "Stellenausschreibung für Erzieher (m/w/d) bzw. pädagogische Fachkraft (m/w/d) nach § 7 KiTaG in Voll- oder Teilzeit ab sofort",
+                "value_type": "TEXT",
+                "context": "Personalbedarf für die kommunalen Kindertageseinrichtungen Heynlinkita und Kita Regenbogen",
+                "evidence_location": "Nach § 7 KiTaG in Voll- oder Teilzeit - ab sofort gesucht für unsere kommunalen Kindertageseinrichtungen Heynlinkita und Kita Regenbogen in Königsbach-Stein."
+            },
+            {
+                "norm": "Verkehrsanordnung L571",
+                "extracted_value": "17.11.2026 bis 27.11.2026",
                 "value_type": "DATE",
-                "context": "Vorübergehende Schließung des Bürgerbüros Stein mit Ausweichmöglichkeit auf das Bürgerbüro Königsbach",
-                "evidence_location": "Bürgerbüro in Stein am 12.11.2026 geschlossen"
+                "context": "Zeitraum der Vollsperrung der L571 zwischen Königsbach und Wössingen",
+                "evidence_location": "Dienstag, 17. November 2026, bis einschließlich Freitag, 27. November 2026"
             }
         ],
-        "last_updated": "2026-11-10T09:05:47.958993+00:00"
+        "last_updated": "2026-11-22T03:31:09.673272+00:00"
     },
     "praxis_slot_ENZ_GM_11": {
-        "source_hash": "983eb3dc0d9ffbc1e1856dbb89083215a5a34859b4bad6c6894cd0e400d5c353",
+        "source_hash": "5ba0cf368d3b22a29bbb877648d86dc936d703cad8b80b5dca15315874061b0e",
         "legal_hash": "6826fa4e647c63a6f37942bd7ba68b6c9600aa84839f1b388c6fd7ca7d89bfac",
         "claims": [
             {
@@ -1027,7 +1048,7 @@
         "last_updated": "2026-11-17T00:09:19.747347+00:00"
     },
     "praxis_slot_ENZ_GM_12": {
-        "source_hash": "f95990132eb3fa385610e776c3490055b19d0c9c8f0d709cb26a6542eb63585a",
+        "source_hash": "fe4a421398d27012143cd96d4aeed79f4af1bc370b432a6a7a7766ca11af1189",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1041,7 +1062,7 @@
         "last_updated": "2026-10-18T03:12:57.658715+00:00"
     },
     "praxis_slot_ENZ_GM_13": {
-        "source_hash": "8b30e895e27d87543db09c0f0b0e4a95fa5f1c66381fbf6f7f4cb465b9d93498",
+        "source_hash": "e15eb1d00de7711519423dbbee5959009fbef4a80ecbcfc2b13a20cd5a16223e",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1055,7 +1076,7 @@
         "last_updated": "2026-10-18T03:13:06.163032+00:00"
     },
     "praxis_slot_ENZ_GM_14": {
-        "source_hash": "de721508a012e1b17b2eee4664ccd4f6821fac5bf291608109df3d26d65ac30b",
+        "source_hash": "c5df30e8e39a2ed9f810a45d04c598d0fbf43b8f929869c155eb00381bc46f65",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1118,7 +1139,7 @@
         "last_updated": "2026-10-30T05:42:04.013512+00:00"
     },
     "praxis_slot_ENZ_GM_17": {
-        "source_hash": "ff3dd6ad33598de7f60154070d10db7f307ab5c3f49715b070c4355fcea7179a",
+        "source_hash": "a65c6a75d4549501c60c9e59d16cda1826d71d8bfabff25727f56a54acc56fac",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1132,7 +1153,7 @@
         "last_updated": "2026-11-10T13:43:44.463961+00:00"
     },
     "praxis_slot_ENZ_GM_18": {
-        "source_hash": "b9168c63a40bf7eb0533dc8ccf0ef9d16bab46dba548339ed4eb658c5d6553c3",
+        "source_hash": "fdbbd06ce024c606c79a566283260eee90e0363676ced35b343cd9ed9d3f5f2f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1146,7 +1167,7 @@
         "last_updated": "2026-10-18T03:13:48.433816+00:00"
     },
     "praxis_slot_ENZ_GM_19": {
-        "source_hash": "bd068f31728c96d745cc0f8373eaf852a95872ac033c649c6fddb0b655de96e3",
+        "source_hash": "fc486436981164d7b455c7aa74ace7d5acdd3d0efd51557623d89ad0e2985ed8",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1174,7 +1195,7 @@
         "last_updated": "2026-10-18T03:14:08.134738+00:00"
     },
     "praxis_slot_ENZ_GM_21": {
-        "source_hash": "3d86e1e23d256ab3bbf361bb9a389c20080c5a67db04e6bf4aff4d585bd0c0e0",
+        "source_hash": "8e6fc0a4819328f1d3217036cd31ad18762b7c6b9bc3fa360788ff62e63a8624",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1202,7 +1223,7 @@
         "last_updated": "2026-11-09T03:19:50.359834+00:00"
     },
     "praxis_slot_ENZ_GM_22": {
-        "source_hash": "aada61e688eaff3ad8302ffd7b64d9fa35381368a2e8abbe8a62ed7d3b1e3b6c",
+        "source_hash": "262f20d5f715f02e20c919139e9dc0d248387f53c6f426ef12abd34377675217",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1216,7 +1237,7 @@
         "last_updated": "2026-10-18T03:14:25.465552+00:00"
     },
     "praxis_slot_ENZ_GM_23": {
-        "source_hash": "87a907ac6642bf7b2c9003efe5fc2c03a7de96120b9c848f7dec879787ca9b1e",
+        "source_hash": "be6e63943f289d577911ff54f8babf76c9e09467b82fad7d6eb1cd44d8c14324",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1260,7 +1281,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K6_DWD": {
-        "source_hash": "385a63058ab20b1276e060799ebabac26702120c6186ae963381fa0707a77848",
+        "source_hash": "009ca97c7c10210da7ea2c7ab3c49e11d8c604078464df46c65ac1660a91ed02",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z29": {

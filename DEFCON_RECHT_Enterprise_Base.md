@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-21 04:47:38 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-22 04:42:45 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -209,10 +209,9 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **13. Änderungsgesetz zum SGB II** | Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II. Es löst das Bürgergeld ab, das seinerseits 2023 das frühere Hartz IV (Arbeitslosengeld II) ersetzt hatte. | Ablösung des Bürgergeldes durch das Grundsicherungsgeld ab dem 1. Juli 2026. |
-| **SGB II** | 563 Euro | Höhe des Bürgergeld-Regelsatzes für alleinstehende Erwachsene im Jahr 2026. |
-| **§ 22 SGB II** | Wohnkosten (KdU) : Übernahme von Miete, Nebenkosten und Heizkosten | Leistungsbestandteil für Unterkunft und Heizung im Rahmen der Grundsicherung. |
-| **SGB II Reform 2026** | Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus. | Neuregelung des Schonvermögens und Wegfall der einjährigen Karenzzeit ab dem 01.07.2026. |
+| **13. Änderungsgesetz zum SGB II** | Einführung des Grundsicherungsgeldes ab dem 1. Juli 2026 als staatliche Grundsicherung nach SGB II | Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 01.07.2026 mit strengeren Mitwirkungspflichten |
+| **§ 22 SGB II** | Abschaffung der einjährigen Karenzzeit beim Vermögen (früher bis zu 40.000 Euro); stattdessen altersabhängiger Schonvermögens-Freibetrag zwischen 5.000 und 20.000 Euro pro Person mit Prüfung von Beginn an | Neuregelung der Vermögensprüfung und Wegfall der Karenzzeit beim Grundsicherungsgeld ab 01.07.2026 |
+| **SGB II (Regelsatz 2026)** | 563 Euro | Monatlicher Bürgergeld-/Grundsicherungsgeld-Regelsatz für alleinstehende Erwachsene im Jahr 2026 |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -411,8 +410,9 @@
 ## [Z28] Sektor Z28
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Unterhaltsvorschussgesetz (UVG) / SGB II** | EUR 600,00 brutto | Voraussetzung für den Anspruch auf Unterhaltsvorschuss für Kinder ab 12 Jahren bei Bezug von SGB II-Leistungen durch den alleinerziehenden Elternteil |
-| **Freigabevermerk** | 15.01.2026 | Datum des Freigabevermerks der Leistungsinformationen |
+| **SGB II / Unterhaltsvorschussgesetz** | EUR 600,00 | Mindestbruttoeinkommen des alleinerziehenden Elternteils bei SGB II-Bezug für den Anspruch auf Unterhaltsvorschuss bei Kindern ab zwölf Jahren |
+| **Unterhaltsvorschussgesetz (UVG) § 2** | § 2 Umfang der Unterhaltsleistung | Rechtsgrundlage für den Umfang der Unterhaltsleistung |
+| **Unterhaltsvorschussgesetz (UVG) § 6** | § 6 Auskunfts- und Anzeigepflicht | Rechtsgrundlage für die Auskunfts- und Anzeigepflicht |
 
 ## [ENZ_ST_01] Sektor ENZ_ST_01
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -452,8 +452,10 @@
 ## [ENZ_GM_10] Sektor ENZ_GM_10
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 7 KiTaG** | Erzieher (m/w/d) bzw. pädagogische Fachkraft (m/w/d) nach § 7 KiTaG in Voll- oder Teilzeit ab sofort für die kommunalen Kindertageseinrichtungen Heynlinkita und Kita Regenbogen gesucht | Stellenausschreibung der Gemeinde Königsbach-Stein für pädagogisches Fachpersonal in kommunalen Kindertageseinrichtungen |
-| **Bekanntmachung Schließung Bürgerbüro Stein** | Bürgerbüro in Stein am 12.11.2026 geschlossen | Vorübergehende Schließung des Bürgerbüros Stein mit Ausweichmöglichkeit auf das Bürgerbüro Königsbach |
+| **Gemeinderatsbeschluss Hochwasserschutz 2020** | 5 Mio € | Investitionsvolumen der Gemeinde Königsbach-Stein für den Ausbau des Hochwasserschutzes |
+| **Förderrichtlinie Hochwasserschutz Baden-Württemberg** | 70 % | Erwartete Landesförderung für die Sanierung von 8 Hochwasserrückhaltebecken |
+| **§ 7 KiTaG** | Stellenausschreibung für Erzieher (m/w/d) bzw. pädagogische Fachkraft (m/w/d) nach § 7 KiTaG in Voll- oder Teilzeit ab sofort | Personalbedarf für die kommunalen Kindertageseinrichtungen Heynlinkita und Kita Regenbogen |
+| **Verkehrsanordnung L571** | 17.11.2026 bis 27.11.2026 | Zeitraum der Vollsperrung der L571 zwischen Königsbach und Wössingen |
 
 ## [ENZ_GM_11] Sektor ENZ_GM_11
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -587,10 +589,9 @@
 ## [CW_GM_01] Sektor CW_GM_01
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Deckreisverkauf Althengstett 2026** | 12,00 € | Verkaufspreis fuer ein Bund Tanne beim Deckreisverkauf der Gemeinde Althengstett am 20.11.2026. |
-| **Aktion 'Wünsche erfüllen, die sonst Träume bleiben' 2026** | 30 Euro | Maximalwert eines Weihnachtswunschzettels fuer unterstuetzungsbeduerftige Familien. |
-| **Abgabefrist Wunschzettel 2026** | 27.11.2026 | Fristende fuer Eltern zur Einreichung des Wunschzettels bei der Gemeinde Althengstett. |
-| **Dienstbetrieb Ortsverwaltung Ottenbronn** | 12.11.2026 | Voruebergehende Schliessung der Ortsverwaltung Ottenbronn aufgrund einer Fortbildung. |
+| **Aktion Wünsche erfüllen** | Maximal 30 Euro pro Wunschzettel bei Abgabe bis 27.11.2026 | Abgabe von Wunschzetteln für Familien mit geringem Einkommen |
+| **Verkehrsbekanntmachung Sperrung Fuchsklinge** | Vollsperrung der Gemeindeverbindungsstraße zwischen Hirsau und Althengstett vom 18.11.2026 bis 23.12.2026 | Vollsperrung wegen Asphaltarbeiten |
+| **Verkehrsregelung Winterzauber** | Aufbau- und Abbauzeiten von 08:00 Uhr bis 23:00 Uhr am 04.12.2026 | Zeitfenster für Vorbereitung und Abbau des Winterzaubers |
 
 ## [CW_GM_03] Sektor CW_GM_03
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
