@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-22)
+RADAR-DELTA COMPACT (2026-11-22 04:43:03)
 - [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Einführung des Grundsicherungsgeldes ab dem 1. Juli 2026 als staatliche Grundsicherung nach SGB II
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Abschaffung der einjährigen Karenzzeit beim Vermögen
 - [31: Bürgergeld.org - Richtwerte & Rechner] SGB II (Regelsatz 2026): 563 Euro
