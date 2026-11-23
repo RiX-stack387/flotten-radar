@@ -609,7 +609,7 @@
         "last_updated": "2026-10-18T02:49:48.467768+00:00"
     },
     "slot_13": {
-        "source_hash": "24951b53379352a01760bc375c9f1ab4bd87917e3462ed3d549ea81d7daefe8c",
+        "source_hash": "010e007f567c17ad05c90aafd858897c7ec1bd6b1af019b941bb548f66a76ed4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -651,7 +651,7 @@
         "last_updated": "2026-10-18T02:50:02.298451+00:00"
     },
     "slot_14": {
-        "source_hash": "288d795f15516fdbafd3e32e451bac10537a33851aae5594c1f63e4b02e22f05",
+        "source_hash": "ba387d5b5240ec80e31ad161569ffd5a38747c83956e9fb80c688b0e537db972",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -977,7 +977,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "slot_25": {
-        "source_hash": "35df3399c0f3b804ad1a58edde16052524a737d5793211457d2fd48a39d0e4c2",
+        "source_hash": "d4563bfb64b82475c403721708c0d988d4cbd565ecf13eff11d3082d5deaeb38",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1124,32 +1124,39 @@
         "last_updated": "2026-10-18T02:55:09.121721+00:00"
     },
     "slot_31": {
-        "source_hash": "9b905915d5c121269539af514e0f4b402d02ba5a856f6304165ec16d52aa65ef",
-        "legal_hash": "51d5d5134ea182c8d8c6675592ddb7f43bf7c1a2fdf90a56a45acbfb16a35054",
+        "source_hash": "74790e47906a88fa099cb556eb17ddc4e2a59105dcda4e4bd076e4006d7c715e",
+        "legal_hash": "60f7635b028cd3c57b3acb5e68de85d248a92cc84fcc9b3706d427a40f630483",
         "claims": [
             {
                 "norm": "13. Änderungsgesetz zum SGB II",
-                "extracted_value": "Einführung des Grundsicherungsgeldes ab dem 1. Juli 2026 als staatliche Grundsicherung nach SGB II",
-                "value_type": "DATE",
-                "context": "Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 01.07.2026 mit strengeren Mitwirkungspflichten",
-                "evidence_location": "Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II."
-            },
-            {
-                "norm": "§ 22 SGB II",
-                "extracted_value": "Abschaffung der einjährigen Karenzzeit beim Vermögen (früher bis zu 40.000 Euro); stattdessen altersabhängiger Schonvermögens-Freibetrag zwischen 5.000 und 20.000 Euro pro Person mit Prüfung von Beginn an",
+                "extracted_value": "Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt. Mit dem 13. Änderungsgesetz zum SGB II gelten strengere Mitwirkungspflichten sowie neue Regelungen zum Vermögen und zu den Wohnkosten .",
                 "value_type": "TEXT",
-                "context": "Neuregelung der Vermögensprüfung und Wegfall der Karenzzeit beim Grundsicherungsgeld ab 01.07.2026",
-                "evidence_location": "Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus. Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft."
+                "context": "Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 01.07.2026 unter Einführung strengerer Pflichten und neuer Regelungen bezüglich Schonvermögen und Unterkunfts- und Heizkosten (KdU).",
+                "evidence_location": "Mit dem 13. Änderungsgesetz zum SGB II gelten strengere Mitwirkungspflichten sowie neue Regelungen zum Vermögen und zu den Wohnkosten ."
             },
             {
-                "norm": "SGB II (Regelsatz 2026)",
+                "norm": "§ 20 SGB II",
                 "extracted_value": "563 Euro",
                 "value_type": "EURO",
-                "context": "Monatlicher Bürgergeld-/Grundsicherungsgeld-Regelsatz für alleinstehende Erwachsene im Jahr 2026",
+                "context": "Höhe des monatlichen Regelsatzes im Grundsicherungsgeld / Bürgergeld 2026 für alleinstehende Erwachsene.",
                 "evidence_location": "563 Euro für alleinstehende Erwachsene"
+            },
+            {
+                "norm": "§ 12 SGB II",
+                "extracted_value": "altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person",
+                "value_type": "EURO",
+                "context": "Regelung zum Schonvermögen bei der Erstattung von Grundsicherungsgeld ab der Reform vom 01.07.2026.",
+                "evidence_location": "Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus."
+            },
+            {
+                "norm": "§ 12 SGB II / § 22 SGB II",
+                "extracted_value": "Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft.",
+                "value_type": "TEXT",
+                "context": "Wegfall der einjährigen Vermögens-Karenzzeit mit 40.000 Euro Freibetrag im Grundsicherungsgeld ab 01.07.2026.",
+                "evidence_location": "Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft."
             }
         ],
-        "last_updated": "2026-11-22T03:20:42.824724+00:00"
+        "last_updated": "2026-11-23T03:20:13.540010+00:00"
     },
     "slot_18": {
         "source_hash": "61d6d0af2eefa10c8784fedb95fad4fd6fe69064f589c608b5f8a555b7dd6a40",
@@ -1180,7 +1187,7 @@
         "last_updated": "2026-10-24T03:26:12.011115+00:00"
     },
     "slot_32": {
-        "source_hash": "6a5e34eb33105df80cecfd51295ebcebf8b3ca8911d3146f66e4b83103afda5b",
+        "source_hash": "ee58c9925da7f5e9d06f127fa8da8bed7f4f3a36e4c9ba37cf685593e5f2d8d4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {

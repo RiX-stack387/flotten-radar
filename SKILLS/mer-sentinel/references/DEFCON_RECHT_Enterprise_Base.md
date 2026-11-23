@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-22 04:43:03 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-23 04:39:53 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -209,9 +209,10 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **13. Änderungsgesetz zum SGB II** | Einführung des Grundsicherungsgeldes ab dem 1. Juli 2026 als staatliche Grundsicherung nach SGB II | Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 01.07.2026 mit strengeren Mitwirkungspflichten |
-| **§ 22 SGB II** | Abschaffung der einjährigen Karenzzeit beim Vermögen (früher bis zu 40.000 Euro); stattdessen altersabhängiger Schonvermögens-Freibetrag zwischen 5.000 und 20.000 Euro pro Person mit Prüfung von Beginn an | Neuregelung der Vermögensprüfung und Wegfall der Karenzzeit beim Grundsicherungsgeld ab 01.07.2026 |
-| **SGB II (Regelsatz 2026)** | 563 Euro | Monatlicher Bürgergeld-/Grundsicherungsgeld-Regelsatz für alleinstehende Erwachsene im Jahr 2026 |
+| **13. Änderungsgesetz zum SGB II** | Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt. Mit dem 13. Änderungsgesetz zum SGB II gelten strengere Mitwirkungspflichten sowie neue Regelungen zum Vermögen und zu den Wohnkosten . | Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 01.07.2026 unter Einführung strengerer Pflichten und neuer Regelungen bezüglich Schonvermögen und Unterkunfts- und Heizkosten (KdU). |
+| **§ 20 SGB II** | 563 Euro | Höhe des monatlichen Regelsatzes im Grundsicherungsgeld / Bürgergeld 2026 für alleinstehende Erwachsene. |
+| **§ 12 SGB II** | altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person | Regelung zum Schonvermögen bei der Erstattung von Grundsicherungsgeld ab der Reform vom 01.07.2026. |
+| **§ 12 SGB II / § 22 SGB II** | Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft. | Wegfall der einjährigen Vermögens-Karenzzeit mit 40.000 Euro Freibetrag im Grundsicherungsgeld ab 01.07.2026. |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 

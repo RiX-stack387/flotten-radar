@@ -1,14 +1,5 @@
-RADAR-DELTA COMPACT (2026-11-22 04:43:03)
-- [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Einführung des Grundsicherungsgeldes ab dem 1. Juli 2026 als staatliche Grundsicherung nach SGB II
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 22 SGB II: Abschaffung der einjährigen Karenzzeit beim Vermögen
-- [31: Bürgergeld.org - Richtwerte & Rechner] SGB II (Regelsatz 2026): 563 Euro
-- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Aktion Wünsche erfüllen: Maximal 30 Euro pro Wunschzettel bei Abgabe bis 27.11.2026
-- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Verkehrsbekanntmachung Sperrung Fuchsklinge: Vollsperrung der Gemeindeverbindungsstraße zwischen Hirsau und Althengstett vom 18.11.2026 bis 23.12.2026
-- [CW_GM_01: Gemeinde Althengstett - Bürgerservice] Verkehrsregelung Winterzauber: Aufbau- und Abbauzeiten von 08:00 Uhr bis 23:00 Uhr am 04.12.2026
-- [Z28: Unterhaltsvorschuss Pforzheim] SGB II / Unterhaltsvorschussgesetz: EUR 600,00
-- [Z28: Unterhaltsvorschuss Pforzheim] Unterhaltsvorschussgesetz (UVG) § 2: § 2 Umfang der Unterhaltsleistung
-- [Z28: Unterhaltsvorschuss Pforzheim] Unterhaltsvorschussgesetz (UVG) § 6: § 6 Auskunfts- und Anzeigepflicht
-- [ENZ_GM_10: Gemeinde Königsbach-Stein] Gemeinderatsbeschluss Hochwasserschutz 2020: 5 Mio €
-- [ENZ_GM_10: Gemeinde Königsbach-Stein] Förderrichtlinie Hochwasserschutz Baden-Württemberg: 70 %
-- [ENZ_GM_10: Gemeinde Königsbach-Stein] § 7 KiTaG: Stellenausschreibung für Erzieher
-- [ENZ_GM_10: Gemeinde Königsbach-Stein] Verkehrsanordnung L571: 17.11.2026 bis 27.11.2026
+RADAR-DELTA COMPACT (2026-11-23)
+- [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt. Mit dem 13. Änderungsgesetz zum SGB II gelten strengere Mitwirkungspflichten sowie neue Regelungen zum Vermögen und zu den Wohnkosten .
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 20 SGB II: 563 Euro
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 12 SGB II: altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 12 SGB II / § 22 SGB II: Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft.
