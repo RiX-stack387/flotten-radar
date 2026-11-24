@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-23 04:40:11 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-24 04:41:21 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -209,10 +209,10 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **13. Änderungsgesetz zum SGB II** | Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt. Mit dem 13. Änderungsgesetz zum SGB II gelten strengere Mitwirkungspflichten sowie neue Regelungen zum Vermögen und zu den Wohnkosten . | Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 01.07.2026 unter Einführung strengerer Pflichten und neuer Regelungen bezüglich Schonvermögen und Unterkunfts- und Heizkosten (KdU). |
-| **§ 20 SGB II** | 563 Euro | Höhe des monatlichen Regelsatzes im Grundsicherungsgeld / Bürgergeld 2026 für alleinstehende Erwachsene. |
-| **§ 12 SGB II** | altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person | Regelung zum Schonvermögen bei der Erstattung von Grundsicherungsgeld ab der Reform vom 01.07.2026. |
-| **§ 12 SGB II / § 22 SGB II** | Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft. | Wegfall der einjährigen Vermögens-Karenzzeit mit 40.000 Euro Freibetrag im Grundsicherungsgeld ab 01.07.2026. |
+| **13. Änderungsgesetz zum SGB II** | Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt. Mit dem 13. Änderungsgesetz zum SGB II gelten strengere Mitwirkungspflichten sowie neue Regelungen zum Vermögen und zu den Wohnkosten . | Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 01.07.2026 mit verschärften Pflichten und Neuregelungen |
+| **SGB II - Regelbedarf 2026** | 563 Euro | Bürgergeld-/Grundsicherungsgeld-Regelsatz für alleinstehende Erwachsene im Jahr 2026 |
+| **SGB II - Regelbedarf 2026** | 506 Euro | Bürgergeld-/Grundsicherungsgeld-Regelsatz pro Person für Eheleute und Lebenspartner im Jahr 2026 |
+| **§ 12 SGB II / Karenzzeit & Vermögen** | Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus. Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft. | Abschaffung der einjährigen Karenzzeit (früher bis 40.000 €) und Umstellung auf einen altersabhängigen Vermögensfreibetrag von 5.000 bis 20.000 € |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -453,10 +453,10 @@
 ## [ENZ_GM_10] Sektor ENZ_GM_10
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Gemeinderatsbeschluss Hochwasserschutz 2020** | 5 Mio € | Investitionsvolumen der Gemeinde Königsbach-Stein für den Ausbau des Hochwasserschutzes |
-| **Förderrichtlinie Hochwasserschutz Baden-Württemberg** | 70 % | Erwartete Landesförderung für die Sanierung von 8 Hochwasserrückhaltebecken |
-| **§ 7 KiTaG** | Stellenausschreibung für Erzieher (m/w/d) bzw. pädagogische Fachkraft (m/w/d) nach § 7 KiTaG in Voll- oder Teilzeit ab sofort | Personalbedarf für die kommunalen Kindertageseinrichtungen Heynlinkita und Kita Regenbogen |
-| **Verkehrsanordnung L571** | 17.11.2026 bis 27.11.2026 | Zeitraum der Vollsperrung der L571 zwischen Königsbach und Wössingen |
+| **Gemeinderatsbeschluss Hochwasserschutz 2020** | 5 Mio € | Investition der Gemeinde Königsbach-Stein in den Hochwasserschutz |
+| **Landesförderung Baden-Württemberg Hochwasserschutz** | 70 % | Erwartete Förderzuschüsse vom Land Baden-Württemberg für die Sanierung der Hochwasserrückhaltebecken |
+| **Vollsperrung L571** | 17. November 2026, bis einschließlich Freitag, 27. November 2026 | Zeitraum der Vollsperrung der L571 zwischen Königsbach und Wössingen |
+| **Verkehrsfreigabe L571** | 23.11.2026 | Vorzeitige Öffnung der L571 zwischen Königsbach und Wössingen |
 
 ## [ENZ_GM_11] Sektor ENZ_GM_11
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -476,8 +476,8 @@
 ## [ENZ_GM_14] Sektor ENZ_GM_14
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Art. 6 Abs. 1 s. 1 lit. a DSGVO** | Rechtsgrundlage für die Verarbeitung personenbezogener Daten durch Google Analytics ist die Einwilligung nach Art. 6 Abs. 1 s. 1 lit. a DSGVO. | Datenschutzrechtliche Rechtsgrundlage für die Nutzung des Webanalysedienstes Google Analytics auf der Website der Gemeinde Niefern-Öschelbronn. |
-| **Veranstaltungskalender Gemeinde Niefern-Öschelbronn** | 13.11.2026 | Termin für die Gedenkfeier zum Volkstrauertag auf dem Neuen Friedhof. |
+| **§ 11a Abs. 2 Hundesteuersatzung** | Nach § 11a Abs. 2 Hundesteuersatzung kann die Gemeinde Niefern-Öschelbronn ungültige Hundesteuermarken durch öffentliche Bekanntmachung veröffentlichen. | Öffentliche Bekanntmachung ungültiger Hundesteuermarken durch die Gemeinde Niefern-Öschelbronn |
+| **L 1134** | Vollsperrung der Landesstraße L 1134 zwischen Dürrmenz und Pinache im Zeitraum vom 4. bis 11. Dezember 2026. | Straßensperrung und Verkehrsregelungen auf der L 1134 |
 
 ## [ENZ_GM_15] Sektor ENZ_GM_15
 | Norm / AZ | Wert / Parameter | Kontext / Detail |

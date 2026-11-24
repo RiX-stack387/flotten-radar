@@ -923,7 +923,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_01": {
-        "source_hash": "a4d75e1db3e0e5e850d6ff5f182f61dc06254018f83433bbaa5b13142588010c",
+        "source_hash": "52d74ca01ddaaf90f48f6d525f652b51c10bc0b7841d3125686798e32a608d80",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_02": {
@@ -941,7 +941,7 @@
         "last_updated": "2026-10-18T03:11:32.952177+00:00"
     },
     "praxis_slot_ENZ_GM_03": {
-        "source_hash": "bed14d774f0c973cd680661330c5c47285468672ec6c59a229dde7dfdf315103",
+        "source_hash": "e5d728edef0efe5154e82bcee303a2c509b6e40c4fbd91d9a8c1fbcaaf0d1f1a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_04": {
@@ -973,11 +973,11 @@
         "last_updated": "2026-10-18T03:11:56.691756+00:00"
     },
     "praxis_slot_ENZ_GM_06": {
-        "source_hash": "cf8d9c7b654c22e1fd0bea45dd97260886d82568b5fc8520c67c5ca71a167e01",
+        "source_hash": "5295d431200b781626f0f878e7530f05cf2d077d2f517b1cbb8798965254833f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_07": {
-        "source_hash": "3070a905491fa84b18de31972e5bfe1037b135c02b587ee6e82142d41052affb",
+        "source_hash": "4a9c305197d002a26fe66300fc7f54afbf8ec988388fe6e676b4b6ff7737348f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -991,7 +991,7 @@
         "last_updated": "2026-11-03T13:04:59.376660+00:00"
     },
     "praxis_slot_ENZ_GM_08": {
-        "source_hash": "9bc8ff44b9ff7e0d67c4bce1e32aeaa477dbacc121020b5d315f9d56e373e57f",
+        "source_hash": "daad4b91b9afe85c00d220ef60fe8ffdc7c3998d1a36d75c43c3aeccd3c36852",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_09": {
@@ -999,42 +999,42 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_10": {
-        "source_hash": "e30ad32c9ead938d0a4dd2f87e8e875349afbba9a5c008816a2f714f39325fde",
-        "legal_hash": "3e2cba8fc54e003a1902b868a81938300b0b03951dade8f41b29f6663e9eb34f",
+        "source_hash": "673d21eb2459f871ea4d310458ddbc39fc3828faeb8f8be435d7a7ee68603a65",
+        "legal_hash": "3fabe81adce12c039003bf6f45a922f0922362d3123a1b928035c9f3a939bbcb",
         "claims": [
             {
                 "norm": "Gemeinderatsbeschluss Hochwasserschutz 2020",
                 "extracted_value": "5 Mio €",
                 "value_type": "EURO",
-                "context": "Investitionsvolumen der Gemeinde Königsbach-Stein für den Ausbau des Hochwasserschutzes",
+                "context": "Investition der Gemeinde Königsbach-Stein in den Hochwasserschutz",
                 "evidence_location": "2020 hat die Gemeinde Königsbach-Stein beschlossen, 5 Mio € in den Hochwasserschutz zu investieren."
             },
             {
-                "norm": "Förderrichtlinie Hochwasserschutz Baden-Württemberg",
+                "norm": "Landesförderung Baden-Württemberg Hochwasserschutz",
                 "extracted_value": "70 %",
                 "value_type": "PERCENT",
-                "context": "Erwartete Landesförderung für die Sanierung von 8 Hochwasserrückhaltebecken",
+                "context": "Erwartete Förderzuschüsse vom Land Baden-Württemberg für die Sanierung der Hochwasserrückhaltebecken",
                 "evidence_location": "Für die Sanierung der 8 bestehenden Hochwasserrückhaltebecken werden bis zu 70 % Förderzuschüsse vom Land Baden-Württemberg erwartet."
             },
             {
-                "norm": "§ 7 KiTaG",
-                "extracted_value": "Stellenausschreibung für Erzieher (m/w/d) bzw. pädagogische Fachkraft (m/w/d) nach § 7 KiTaG in Voll- oder Teilzeit ab sofort",
-                "value_type": "TEXT",
-                "context": "Personalbedarf für die kommunalen Kindertageseinrichtungen Heynlinkita und Kita Regenbogen",
-                "evidence_location": "Nach § 7 KiTaG in Voll- oder Teilzeit - ab sofort gesucht für unsere kommunalen Kindertageseinrichtungen Heynlinkita und Kita Regenbogen in Königsbach-Stein."
-            },
-            {
-                "norm": "Verkehrsanordnung L571",
-                "extracted_value": "17.11.2026 bis 27.11.2026",
+                "norm": "Vollsperrung L571",
+                "extracted_value": "17. November 2026, bis einschließlich Freitag, 27. November 2026",
                 "value_type": "DATE",
                 "context": "Zeitraum der Vollsperrung der L571 zwischen Königsbach und Wössingen",
                 "evidence_location": "Dienstag, 17. November 2026, bis einschließlich Freitag, 27. November 2026"
+            },
+            {
+                "norm": "Verkehrsfreigabe L571",
+                "extracted_value": "23.11.2026",
+                "value_type": "DATE",
+                "context": "Vorzeitige Öffnung der L571 zwischen Königsbach und Wössingen",
+                "evidence_location": "L571 ab 23.11.2026 wieder befahrbar"
             }
         ],
-        "last_updated": "2026-11-22T03:31:09.673272+00:00"
+        "last_updated": "2026-11-24T03:30:27.671140+00:00"
     },
     "praxis_slot_ENZ_GM_11": {
-        "source_hash": "0d9e45665075775d3108aad4966e9405b247ac299de11d30888b71f68ead04f4",
+        "source_hash": "99914be68645c67779b46a2bf3854678d29fcdbf30df5eb3a97ce94b3e63f5a5",
         "legal_hash": "6826fa4e647c63a6f37942bd7ba68b6c9600aa84839f1b388c6fd7ca7d89bfac",
         "claims": [
             {
@@ -1062,7 +1062,7 @@
         "last_updated": "2026-10-18T03:12:57.658715+00:00"
     },
     "praxis_slot_ENZ_GM_13": {
-        "source_hash": "e15eb1d00de7711519423dbbee5959009fbef4a80ecbcfc2b13a20cd5a16223e",
+        "source_hash": "e3864f4c01f0f3680d6b8759cd554d422ba7cdb0952f52e8f980ae51f94be5fd",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1076,28 +1076,28 @@
         "last_updated": "2026-10-18T03:13:06.163032+00:00"
     },
     "praxis_slot_ENZ_GM_14": {
-        "source_hash": "48dafed6212bb6d6d137a867cd2a53ee3b829fbd60ca349523c0a4a719630fe3",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "cc961e053685f51067ab9e413f040b9b69b880c22f8888ddb0ae0b07016a3965",
+        "legal_hash": "e7c72b3774300d46f544b175052ea5cdf74035f0a55feb6d708921713eb75e47",
         "claims": [
             {
-                "norm": "Art. 6 Abs. 1 s. 1 lit. a DSGVO",
-                "extracted_value": "Rechtsgrundlage für die Verarbeitung personenbezogener Daten durch Google Analytics ist die Einwilligung nach Art. 6 Abs. 1 s. 1 lit. a DSGVO.",
+                "norm": "§ 11a Abs. 2 Hundesteuersatzung",
+                "extracted_value": "Nach § 11a Abs. 2 Hundesteuersatzung kann die Gemeinde Niefern-Öschelbronn ungültige Hundesteuermarken durch öffentliche Bekanntmachung veröffentlichen.",
                 "value_type": "TEXT",
-                "context": "Datenschutzrechtliche Rechtsgrundlage für die Nutzung des Webanalysedienstes Google Analytics auf der Website der Gemeinde Niefern-Öschelbronn.",
-                "evidence_location": "Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt. Art. 6 Abs. 1 s. 1 lit. a DSGVO"
+                "context": "Öffentliche Bekanntmachung ungültiger Hundesteuermarken durch die Gemeinde Niefern-Öschelbronn",
+                "evidence_location": "Nach § 11a Abs. 2 Hundesteuersatzung kann die Gemeinde Niefern-Öschelbronn durch öffentliche ..."
             },
             {
-                "norm": "Veranstaltungskalender Gemeinde Niefern-Öschelbronn",
-                "extracted_value": "13.11.2026",
+                "norm": "L 1134",
+                "extracted_value": "Vollsperrung der Landesstraße L 1134 zwischen Dürrmenz und Pinache im Zeitraum vom 4. bis 11. Dezember 2026.",
                 "value_type": "DATE",
-                "context": "Termin für die Gedenkfeier zum Volkstrauertag auf dem Neuen Friedhof.",
-                "evidence_location": "Gedenkfeier zum Volkstrauertag am 13.11.2026"
+                "context": "Straßensperrung und Verkehrsregelungen auf der L 1134",
+                "evidence_location": "Im Zeitraum vom 4. bis 11. Dezember 2026 wird die Landesstraße L 1134 zwischen Dürrmenz und Pinache ..."
             }
         ],
-        "last_updated": "2026-11-07T03:43:42.829217+00:00"
+        "last_updated": "2026-11-24T03:30:58.812351+00:00"
     },
     "praxis_slot_ENZ_GM_15": {
-        "source_hash": "481ddfadc82c12890cbb84d0da066a87f8af4a02c1c3a411f065988925019c31",
+        "source_hash": "5af8741e58bcc6a951f14300aa451679f5ab9aab95931117d4f565ae9feb136a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1111,7 +1111,7 @@
         "last_updated": "2026-10-18T03:13:23.162252+00:00"
     },
     "praxis_slot_ENZ_GM_16": {
-        "source_hash": "e682d8764498a9c2699853e92e3ea672572795106e6464a73c2aaf53c26b843a",
+        "source_hash": "baf4800725b6e2ade8ad52dbf5a09c3e83a628b060ccdbcf3f9e0bd6666af56e",
         "legal_hash": "2dbe1a2f9d343b69d4e5bbb0050e09301c3c6af2a24e5dddd95ce502b09869a1",
         "claims": [
             {
@@ -1139,7 +1139,7 @@
         "last_updated": "2026-10-30T05:42:04.013512+00:00"
     },
     "praxis_slot_ENZ_GM_17": {
-        "source_hash": "04fb60aa18ba828ec59fc9ee0ccffcd3ea2fcc05d6c203b8aef1d9de9660cfae",
+        "source_hash": "1cd825ca936bba4edb24642b68005fb98a13e26999c3ea27d468cb55a2954c1d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1153,7 +1153,7 @@
         "last_updated": "2026-11-10T13:43:44.463961+00:00"
     },
     "praxis_slot_ENZ_GM_18": {
-        "source_hash": "f0dadded154f8b8be7bdf30e329911eac813ec2bf93f6bc95168d39c59288dd3",
+        "source_hash": "ad1af205b61e1b954d31d515707009f2dd2f04b05cb31d1943c3ac85ea8197b5",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1167,7 +1167,7 @@
         "last_updated": "2026-10-18T03:13:48.433816+00:00"
     },
     "praxis_slot_ENZ_GM_19": {
-        "source_hash": "8f7b5e557ec23d10625c215bff0d40fb746ae0b223f3d22ebc3727bf5c09e2f1",
+        "source_hash": "a70fca630af9fc4241a2d79b220912660464ada333843a72c78fda058f9c5079",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1195,7 +1195,7 @@
         "last_updated": "2026-10-18T03:14:08.134738+00:00"
     },
     "praxis_slot_ENZ_GM_21": {
-        "source_hash": "ff54e785f2ef16b9e359819a69bdc7ee141c0c542309ca70daac2c37058c7960",
+        "source_hash": "5782bc32ee66ab98d62913b8ee018f8b8b34f75e7d02df2662ea05b19b391373",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1223,7 +1223,7 @@
         "last_updated": "2026-11-09T03:19:50.359834+00:00"
     },
     "praxis_slot_ENZ_GM_22": {
-        "source_hash": "6af3f1997adeac3e878659a8e1f8d48167da5aa9df8e632678d17264127564d9",
+        "source_hash": "24c45d30c84f9d0c46e59cf3242d7b1cd05787d781b8c68fc01720e0b0b0fdfe",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1237,7 +1237,7 @@
         "last_updated": "2026-10-18T03:14:25.465552+00:00"
     },
     "praxis_slot_ENZ_GM_23": {
-        "source_hash": "6d06e272f052adf46a4eb15391b0fc84822f3d99bccda9894743cc4645e29929",
+        "source_hash": "484c4ad6e93e9ab07b419fbbdce2d1c1948cf68915bde5e54ad95b782002581b",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1251,7 +1251,7 @@
         "last_updated": "2026-10-18T03:14:34.277395+00:00"
     },
     "praxis_slot_PF_ENZ_K1_STROM": {
-        "source_hash": "64c3c5f0055bdabb979d2a1e3fd54b86a6ba9e02a1a7f8ccf8959f30cab0272e",
+        "source_hash": "42076b0b28668896d6fe3a422a2855e71fd8bcea5fa61410efa4d32455820714",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K2_APO": {
@@ -1281,7 +1281,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K6_DWD": {
-        "source_hash": "226666046d2e0f42a355b19c389f1d1e9f9bdb277645750cfffbf6e4082a20ab",
+        "source_hash": "b4e8f8f5229e7e279f836eb38ccf2bcee83393f63c8b540a70b4cac6d6457b71",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z29": {

@@ -609,7 +609,7 @@
         "last_updated": "2026-10-18T02:49:48.467768+00:00"
     },
     "slot_13": {
-        "source_hash": "010e007f567c17ad05c90aafd858897c7ec1bd6b1af019b941bb548f66a76ed4",
+        "source_hash": "136e86ed4bc865bde1f79adbc040617ff21f265b8646a182b73ea3a226c49ff2",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -651,7 +651,7 @@
         "last_updated": "2026-10-18T02:50:02.298451+00:00"
     },
     "slot_14": {
-        "source_hash": "ba387d5b5240ec80e31ad161569ffd5a38747c83956e9fb80c688b0e537db972",
+        "source_hash": "3aabfdcade650db4962c98c6e6ba83ddd1934bca3cf52716e313e0dd26452215",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -805,8 +805,8 @@
         "last_updated": "2026-10-18T02:50:49.992888+00:00"
     },
     "slot_19": {
-        "source_hash": "32fad7330770dfcce0da2fd2defd19e44734ef61c982a51b4cef3685de2e3b59",
-        "legal_hash": "bb84d839e2154a7a244c88a2c975c90fecfd92dff654e543de8cdb54ee063aad",
+        "source_hash": "7e8b4fce1938ca1fb917047ded2cf9ef84f9b436fe42686262dd051802e881ba",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
                 "norm": "§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]",
@@ -1124,39 +1124,39 @@
         "last_updated": "2026-10-18T02:55:09.121721+00:00"
     },
     "slot_31": {
-        "source_hash": "74790e47906a88fa099cb556eb17ddc4e2a59105dcda4e4bd076e4006d7c715e",
-        "legal_hash": "60f7635b028cd3c57b3acb5e68de85d248a92cc84fcc9b3706d427a40f630483",
+        "source_hash": "7773dc949bfd4c7f95f923b15885874138cf9f5a88b33df5f5c0a8678bf2b51f",
+        "legal_hash": "1580eaae0e3466e753d12bc203dfac5e159a7c2e46bd9bb150f4946fcdf21470",
         "claims": [
             {
                 "norm": "13. Änderungsgesetz zum SGB II",
                 "extracted_value": "Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt. Mit dem 13. Änderungsgesetz zum SGB II gelten strengere Mitwirkungspflichten sowie neue Regelungen zum Vermögen und zu den Wohnkosten .",
                 "value_type": "TEXT",
-                "context": "Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 01.07.2026 unter Einführung strengerer Pflichten und neuer Regelungen bezüglich Schonvermögen und Unterkunfts- und Heizkosten (KdU).",
-                "evidence_location": "Mit dem 13. Änderungsgesetz zum SGB II gelten strengere Mitwirkungspflichten sowie neue Regelungen zum Vermögen und zu den Wohnkosten ."
+                "context": "Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 01.07.2026 mit verschärften Pflichten und Neuregelungen",
+                "evidence_location": "Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt. Mit dem 13. Änderungsgesetz zum SGB II gelten strengere Mitwirkungspflichten sowie neue Regelungen zum Vermögen und zu den Wohnkosten ."
             },
             {
-                "norm": "§ 20 SGB II",
+                "norm": "SGB II - Regelbedarf 2026",
                 "extracted_value": "563 Euro",
                 "value_type": "EURO",
-                "context": "Höhe des monatlichen Regelsatzes im Grundsicherungsgeld / Bürgergeld 2026 für alleinstehende Erwachsene.",
+                "context": "Bürgergeld-/Grundsicherungsgeld-Regelsatz für alleinstehende Erwachsene im Jahr 2026",
                 "evidence_location": "563 Euro für alleinstehende Erwachsene"
             },
             {
-                "norm": "§ 12 SGB II",
-                "extracted_value": "altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person",
+                "norm": "SGB II - Regelbedarf 2026",
+                "extracted_value": "506 Euro",
                 "value_type": "EURO",
-                "context": "Regelung zum Schonvermögen bei der Erstattung von Grundsicherungsgeld ab der Reform vom 01.07.2026.",
-                "evidence_location": "Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus."
+                "context": "Bürgergeld-/Grundsicherungsgeld-Regelsatz pro Person für Eheleute und Lebenspartner im Jahr 2026",
+                "evidence_location": "506 Euro pro Person für Eheleute / Lebenspartner"
             },
             {
-                "norm": "§ 12 SGB II / § 22 SGB II",
-                "extracted_value": "Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft.",
+                "norm": "§ 12 SGB II / Karenzzeit & Vermögen",
+                "extracted_value": "Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus. Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft.",
                 "value_type": "TEXT",
-                "context": "Wegfall der einjährigen Vermögens-Karenzzeit mit 40.000 Euro Freibetrag im Grundsicherungsgeld ab 01.07.2026.",
-                "evidence_location": "Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft."
+                "context": "Abschaffung der einjährigen Karenzzeit (früher bis 40.000 €) und Umstellung auf einen altersabhängigen Vermögensfreibetrag von 5.000 bis 20.000 €",
+                "evidence_location": "Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus. Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft."
             }
         ],
-        "last_updated": "2026-11-23T03:20:13.540010+00:00"
+        "last_updated": "2026-11-24T03:21:19.118252+00:00"
     },
     "slot_18": {
         "source_hash": "61d6d0af2eefa10c8784fedb95fad4fd6fe69064f589c608b5f8a555b7dd6a40",
@@ -1187,7 +1187,7 @@
         "last_updated": "2026-10-24T03:26:12.011115+00:00"
     },
     "slot_32": {
-        "source_hash": "ee58c9925da7f5e9d06f127fa8da8bed7f4f3a36e4c9ba37cf685593e5f2d8d4",
+        "source_hash": "1110b3446b26ad3bbfd9024d70d1824099fc6e3929ea82f5078fb5830683ae2f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1201,7 +1201,7 @@
         "last_updated": "2026-11-14T06:47:29.722422+00:00"
     },
     "slot_33": {
-        "source_hash": "fac7f3fac6e2e76d78f7d839f1ec8373f23a881345c9bce18b2fe42cc4bb3fd1",
+        "source_hash": "8528ac3099060e18bd6aaa62933f54a797566d74c68c14cadcba4f0db8b37ab2",
         "legal_hash": "d977eb20f6c18b20032433059b3b1750a04803f8a21b4049377541194ab5e264",
         "claims": [
             {
