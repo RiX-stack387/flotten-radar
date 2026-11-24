@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-24)
+RADAR-DELTA COMPACT (2026-11-24 04:41:38)
 - [31: Bürgergeld.org - Richtwerte & Rechner] SGB II - Regelbedarf 2026: 563 Euro
 - [31: Bürgergeld.org - Richtwerte & Rechner] SGB II - Regelbedarf 2026: 506 Euro
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 12 SGB II / Karenzzeit & Vermögen: Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026
