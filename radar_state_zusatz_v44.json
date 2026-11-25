@@ -873,7 +873,7 @@
         "last_updated": "2026-10-18T03:10:31.480827+00:00"
     },
     "praxis_slot_ENZ_ST_01": {
-        "source_hash": "aa8dd23dcce2c4dcca7aa19b97cfdb70b8c3003d79aaae7e306053f5df8ebf68",
+        "source_hash": "f524eb501c6ce2b28a8ef82ed7c254fa72050808c15095250a24dccd964f34ae",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -891,7 +891,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_ST_03": {
-        "source_hash": "204a16a7c9f56cb959ccb94354e3dcb4de8d8ec2b7cd04ce64d1145d53aeebe6",
+        "source_hash": "210f1c15d40309a7d9ef6794ddc0f5ca60605088216988be28f5713c6551428e",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -905,7 +905,7 @@
         "last_updated": "2026-10-18T03:10:58.293260+00:00"
     },
     "praxis_slot_ENZ_ST_04": {
-        "source_hash": "3113c8cc61bb973c8a57485d6bc6f74f4420590ae3c2880365f87c1d5419fe30",
+        "source_hash": "e266e7ca18a5473bb76798cbf6f020eaf08c3240ec37c8e8169d8c8192aa5186",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -919,7 +919,7 @@
         "last_updated": "2026-10-18T03:11:06.335858+00:00"
     },
     "praxis_slot_ENZ_ST_05": {
-        "source_hash": "cc73e92ebe77e57ef4d609df7b20afe8a8f13d40f70c734b4905e85ea8e1a2ed",
+        "source_hash": "ea50ee0c17eb130c3ba4817b59df5693cbd2f884e382a97d5f516dcc8aae6615",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_01": {
@@ -941,11 +941,11 @@
         "last_updated": "2026-10-18T03:11:32.952177+00:00"
     },
     "praxis_slot_ENZ_GM_03": {
-        "source_hash": "e5d728edef0efe5154e82bcee303a2c509b6e40c4fbd91d9a8c1fbcaaf0d1f1a",
+        "source_hash": "3b8ef19656ceb84411410ea9d2db274e784651b3d96744bd89c2a926f70fafaf",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_04": {
-        "source_hash": "65327308bf78d6b6175f0da0cff484fc2e891caf3480782ce63621a10f384d77",
+        "source_hash": "19a30639658aadcdbef73a9685d414f1fcbfe4d44779306da2805b35081e3d89",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -973,29 +973,43 @@
         "last_updated": "2026-10-18T03:11:56.691756+00:00"
     },
     "praxis_slot_ENZ_GM_06": {
-        "source_hash": "5295d431200b781626f0f878e7530f05cf2d077d2f517b1cbb8798965254833f",
+        "source_hash": "213dcc4720f9d7465ad31dfa978e7a92a9ea8afc028c5c90f4eac7c447017ac4",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_07": {
-        "source_hash": "4a9c305197d002a26fe66300fc7f54afbf8ec988388fe6e676b4b6ff7737348f",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "27b10b4dcdb237092a097d140d62ccaefb0b4aa481c48c5d580107949b4c0f2f",
+        "legal_hash": "0ccdd0af92d54ed505e34c3d48c63e72c01f41839e7de9da98f4585f4d87f1d4",
         "claims": [
             {
-                "norm": "Gemeinde Kämpfelbach Brennholzbestellung 2026/2027",
-                "extracted_value": "Ab sofort kann bis zum 1. November 2026 wieder Brennholz für das Frühjahr 2027 bestellt werden.",
+                "norm": "Benutzungsordnung für öffentliche Einrichtungen der Gemeinde Kämpfelbach",
+                "extracted_value": "Inkrafttreten der neuen Benutzungsordnung für die öffentlichen Einrichtungen der Gemeinde Kämpfelbach einschließlich Hausordnung und zugehöriger Anlagen zum 01.01.2027",
                 "value_type": "DATE",
-                "context": "Frist für die Brennholzbestellung im Enzkreis für die Gemeinde Kämpfelbach",
-                "evidence_location": "Ab sofort kann bis zum 1. November 2026 wieder Brennholz für das Frühjahr 2027 bestellt werden."
+                "context": "Öffentliche Bekanntmachung der Gemeinde Kämpfelbach bezüglich der Wirkung der neuen Benutzungsordnung für öffentliche Einrichtungen.",
+                "evidence_location": "Bekanntmachung der neuen Benutzungsordnung für die öffentlichen Einrichtungen der Gemeinde Kämpfelbach einschließlich Hausordnung und zugehöriger Anlagen mit Wirkung zum 01.01.2027"
+            },
+            {
+                "norm": "Spende Volksbank pur",
+                "extracted_value": "500 Euro",
+                "value_type": "EURO",
+                "context": "Spende der Volksbank pur an die Gemeinde Kämpfelbach für die Ausrichtung der Adventsfeier Ü60.",
+                "evidence_location": "Die Volksbank pur unterstützt die traditionelle Veranstaltung mit einer großzügigen Spende in Höhe von 500 Euro."
+            },
+            {
+                "norm": "Gemeinderatssitzung Kämpfelbach",
+                "extracted_value": "16. November 2026",
+                "value_type": "DATE",
+                "context": "Ankündigung und Terminfestlegung für die öffentliche Sitzung des Gemeinderats Kämpfelbach.",
+                "evidence_location": "Die nächste Gemeinderatssitzung findet am Montag, den 16. November 2026 um 18.30 Uhr in der Weinbrennerkelter Bilfingen statt."
             }
         ],
-        "last_updated": "2026-11-03T13:04:59.376660+00:00"
+        "last_updated": "2026-11-25T03:29:52.427362+00:00"
     },
     "praxis_slot_ENZ_GM_08": {
-        "source_hash": "daad4b91b9afe85c00d220ef60fe8ffdc7c3998d1a36d75c43c3aeccd3c36852",
+        "source_hash": "5291d0778aff458a5865538707086ecbb93cfb06971f75f56c02c442558244e9",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_09": {
-        "source_hash": "c1cb4d0610afa8448f9c76f9087d5f40e882bad372e26fad6984b438e8b51dca",
+        "source_hash": "37a925d293925a96219c6d4b5f3ef92f1fc3de7d09a7cf454a29f9ca909d8fed",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_10": {
@@ -1034,7 +1048,7 @@
         "last_updated": "2026-11-24T03:30:27.671140+00:00"
     },
     "praxis_slot_ENZ_GM_11": {
-        "source_hash": "99914be68645c67779b46a2bf3854678d29fcdbf30df5eb3a97ce94b3e63f5a5",
+        "source_hash": "231f9236f2a8b6d8862408806c12ab73a0312dc358c261856ca74d78cc865e00",
         "legal_hash": "6826fa4e647c63a6f37942bd7ba68b6c9600aa84839f1b388c6fd7ca7d89bfac",
         "claims": [
             {
@@ -1062,7 +1076,7 @@
         "last_updated": "2026-10-18T03:12:57.658715+00:00"
     },
     "praxis_slot_ENZ_GM_13": {
-        "source_hash": "e3864f4c01f0f3680d6b8759cd554d422ba7cdb0952f52e8f980ae51f94be5fd",
+        "source_hash": "1b1cc2f8697a0a429ecd7e7a76fafe7f40bf8f03bb3957e754d4ec122fc6fe5a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1097,7 +1111,7 @@
         "last_updated": "2026-11-24T03:30:58.812351+00:00"
     },
     "praxis_slot_ENZ_GM_15": {
-        "source_hash": "5af8741e58bcc6a951f14300aa451679f5ab9aab95931117d4f565ae9feb136a",
+        "source_hash": "973039e4c5177f457cb2675f0f5afbe42612b366213434fb3fbde48bd1499af2",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1139,7 +1153,7 @@
         "last_updated": "2026-10-30T05:42:04.013512+00:00"
     },
     "praxis_slot_ENZ_GM_17": {
-        "source_hash": "1cd825ca936bba4edb24642b68005fb98a13e26999c3ea27d468cb55a2954c1d",
+        "source_hash": "a98269ccd3bb8984a04a5ebe885b068ae18d276e4fd67c163df9e128284eeb36",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1167,7 +1181,7 @@
         "last_updated": "2026-10-18T03:13:48.433816+00:00"
     },
     "praxis_slot_ENZ_GM_19": {
-        "source_hash": "a70fca630af9fc4241a2d79b220912660464ada333843a72c78fda058f9c5079",
+        "source_hash": "2e0e60e01d9fe1ece54393033a9ccd51cab5c19f716fa7c8a1b739edc293b166",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1181,7 +1195,7 @@
         "last_updated": "2026-10-18T03:13:57.539802+00:00"
     },
     "praxis_slot_ENZ_GM_20": {
-        "source_hash": "eef19fbc2fb9a7a4b2181d0d979f2ba3d47c54cc1d70f796683764e9b75448e1",
+        "source_hash": "1ef5696a69946054a6300d414b1d1ba86ffbcf24e32da14ed0d1ef36a36bcd20",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -1195,7 +1209,7 @@
         "last_updated": "2026-10-18T03:14:08.134738+00:00"
     },
     "praxis_slot_ENZ_GM_21": {
-        "source_hash": "5782bc32ee66ab98d62913b8ee018f8b8b34f75e7d02df2662ea05b19b391373",
+        "source_hash": "9ec5716fa5c4a9374f136ad8fea926d4a2aad7e195027a5a7572f7301697ac51",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1223,7 +1237,7 @@
         "last_updated": "2026-11-09T03:19:50.359834+00:00"
     },
     "praxis_slot_ENZ_GM_22": {
-        "source_hash": "24c45d30c84f9d0c46e59cf3242d7b1cd05787d781b8c68fc01720e0b0b0fdfe",
+        "source_hash": "e3ae2b0094908ab0da1ea9117a77948ef163c96a2cbe782bc9f9afb81015c4fd",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1237,7 +1251,7 @@
         "last_updated": "2026-10-18T03:14:25.465552+00:00"
     },
     "praxis_slot_ENZ_GM_23": {
-        "source_hash": "484c4ad6e93e9ab07b419fbbdce2d1c1948cf68915bde5e54ad95b782002581b",
+        "source_hash": "5d532148cbcc49b1c8344360375b19ff7e1722add81ef5317fff63fb358d971c",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1281,7 +1295,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K6_DWD": {
-        "source_hash": "b4e8f8f5229e7e279f836eb38ccf2bcee83393f63c8b540a70b4cac6d6457b71",
+        "source_hash": "8c59614f4912e8434f7222a88f6ca251315f3d4b0bd492725d90fc374aff59d8",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z29": {

@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-24 04:41:38 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-25 04:40:59 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -209,10 +209,10 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **13. Änderungsgesetz zum SGB II** | Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt. Mit dem 13. Änderungsgesetz zum SGB II gelten strengere Mitwirkungspflichten sowie neue Regelungen zum Vermögen und zu den Wohnkosten . | Ablösung des Bürgergeldes durch das Grundsicherungsgeld zum 01.07.2026 mit verschärften Pflichten und Neuregelungen |
-| **SGB II - Regelbedarf 2026** | 563 Euro | Bürgergeld-/Grundsicherungsgeld-Regelsatz für alleinstehende Erwachsene im Jahr 2026 |
-| **SGB II - Regelbedarf 2026** | 506 Euro | Bürgergeld-/Grundsicherungsgeld-Regelsatz pro Person für Eheleute und Lebenspartner im Jahr 2026 |
-| **§ 12 SGB II / Karenzzeit & Vermögen** | Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus. Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft. | Abschaffung der einjährigen Karenzzeit (früher bis 40.000 €) und Umstellung auf einen altersabhängigen Vermögensfreibetrag von 5.000 bis 20.000 € |
+| **13. Änderungsgesetz zum SGB II** | Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt. | Inkrafttreten der SGB II Reform und Ablösung des Bürgergeldes durch das Grundsicherungsgeld |
+| **§ 20 SGB II** | 563 Euro | Monatlicher Bürgergeld-Regelsatz im Jahr 2026 für alleinstehende Erwachsene |
+| **§ 12 SGB II** | Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus. | Neuregelung des Vermögenseinsatzes und Abschaffung der 40.000 Euro Karenzzeit ab Juli 2026 |
+| **Pflegerecht / Verhinderungspflege** | 2.404 Euro | Kostenerstattungsanspruch gegen die Pflegekasse bei fehlerhafter Fristberechnung |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -448,7 +448,9 @@
 ## [ENZ_GM_07] Sektor ENZ_GM_07
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Gemeinde Kämpfelbach Brennholzbestellung 2026/2027** | Ab sofort kann bis zum 1. November 2026 wieder Brennholz für das Frühjahr 2027 bestellt werden. | Frist für die Brennholzbestellung im Enzkreis für die Gemeinde Kämpfelbach |
+| **Benutzungsordnung für öffentliche Einrichtungen der Gemeinde Kämpfelbach** | Inkrafttreten der neuen Benutzungsordnung für die öffentlichen Einrichtungen der Gemeinde Kämpfelbach einschließlich Hausordnung und zugehöriger Anlagen zum 01.01.2027 | Öffentliche Bekanntmachung der Gemeinde Kämpfelbach bezüglich der Wirkung der neuen Benutzungsordnung für öffentliche Einrichtungen. |
+| **Spende Volksbank pur** | 500 Euro | Spende der Volksbank pur an die Gemeinde Kämpfelbach für die Ausrichtung der Adventsfeier Ü60. |
+| **Gemeinderatssitzung Kämpfelbach** | 16. November 2026 | Ankündigung und Terminfestlegung für die öffentliche Sitzung des Gemeinderats Kämpfelbach. |
 
 ## [ENZ_GM_10] Sektor ENZ_GM_10
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
