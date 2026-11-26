@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-25 04:41:17 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-26 04:41:54 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -143,13 +143,10 @@
 ## [19] Sektor 19
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 Justizverwaltungskostengesetz [JVKostG]** | 1,50 Euro je Entscheidung, höchstens 5,00 Euro für in einem Arbeitsgang überlassene Entscheidungen | Gebühren für die Überlassung elektronisch gespeicherter Entscheidungsdateien des Bundesarbeitsgerichts |
-| **Justizverwaltungskostengesetz [JVKostG]** | 0,50 Euro pro Seite für die ersten 50 Seiten, 0,15 Euro für jede weitere Seite | Schreibauslagen für die Versendung von Entscheidungsabdrucken des Bundesarbeitsgerichts |
-| **§ 13 BGB** | zwei Wochen | Widerrufsfrist für Verbraucher bei Anforderung von Entscheidungsabdrucken |
-| **BAG 6 AZR 61/26** | Wohnzulage nach AVR Caritas - besondere Wohnform | Entscheidung des Bundesarbeitsgerichts vom 20.08.2026 zu Wohnzulagen nach AVR Caritas |
-| **BAG 5 AZR 37/25** | Annahmeverzugsvergütung und Auskunftsansprüche | Entscheidung des Bundesarbeitsgerichts vom 26.08.2026 zu Annahmeverzugsvergütung und Auskunftsansprüchen |
-| **BAG 8 AZB 6/26** | Fünfmonatsfrist zur vollständigen Absetzung von Urteilen | Beschluss des Bundesarbeitsgerichts vom 18.09.2026 zur Einhaltung der Fünfmonatsfrist zur Urteilsabsetzung |
-| **BAG 2 AZN 339/26** | Nichtzulassungsbeschwerde - Vertretungszwang - "halluzinierte" Urteile | Entscheidung des Bundesarbeitsgerichts vom 30.09.2026 zu Vertretungszwang und halluzinierten Urteilen |
+| **8 AZB 6/26** | Fünfmonatsfrist zur vollständigen Absetzung von Urteilen | Entscheidung des Bundesarbeitsgerichts vom 18.09.2026 zur Fünfmonatsfrist für Urteilsabsetzungen |
+| **2 AZN 339/26** | Nichtzulassungsbeschwerde - Vertretungszwang - "halluzinierte" Urteile | Entscheidung des Bundesarbeitsgerichts vom 30.09.2026 zu Vertretungszwang und halluzinierten Urteilen bei einer Nichtzulassungsbeschwerde |
+| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG** | 1,50 Euro | Kosten für die Überlassung einer elektronisch gespeicherten Entscheidungsdatei |
+| **§ 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG** | 5,00 Euro | Höchstbetrag für die Überlassung elektronisch gespeicherter Entscheidungsdateien in einem Arbeitsgang |
 
 ## [20] Sektor 20
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -209,10 +206,12 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **13. Änderungsgesetz zum SGB II** | Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt. | Inkrafttreten der SGB II Reform und Ablösung des Bürgergeldes durch das Grundsicherungsgeld |
-| **§ 20 SGB II** | 563 Euro | Monatlicher Bürgergeld-Regelsatz im Jahr 2026 für alleinstehende Erwachsene |
-| **§ 12 SGB II** | Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus. | Neuregelung des Vermögenseinsatzes und Abschaffung der 40.000 Euro Karenzzeit ab Juli 2026 |
-| **Pflegerecht / Verhinderungspflege** | 2.404 Euro | Kostenerstattungsanspruch gegen die Pflegekasse bei fehlerhafter Fristberechnung |
+| **13. Änderungsgesetz zum SGB II** | Das Grundsicherungsgeld löst zum 1. Juli 2026 das Bürgergeld als staatliche Grundsicherung für Arbeitsuchende nach SGB II ab; es gelten strengere Mitwirkungspflichten sowie neue Regelungen zu Vermögen und Wohnkosten. | Ablösung des Bürgergeldes durch das Grundsicherungsgeld und Inkrafttreten neuer Vorgaben für Mitwirkung, Vermögen und Wohnkosten ab Juli 2026. |
+| **§ 20 SGB II** | 563 Euro | Höhe des monatlichen Regelbedarfs (Regelbedarfsstufe 1) für alleinstehende Erwachsene im Jahr 2026. |
+| **§ 20 SGB II** | 506 Euro | Monatlicher Regelbedarf je Partner für Eheleute und Lebenspartner im Jahr 2026. |
+| **§ 22 SGB II** | Übernahme von Miete, Nebenkosten und Heizkosten | Bedarfe für Unterkunft und Heizung (KdU) zur Absicherung des Existenzminimums. |
+| **§ 12 SGB II** | Wegfall der einjährigen Karenzzeit mit 40.000 Euro Freibetrag; Einführung eines altersabhängigen Schonvermögens zwischen 5.000 und 20.000 Euro pro Person bei sofortiger Prüfung. | Neuregelung der Vermögensanrechnung und vollständiger Wegfall der Karenzzeit beim Grundsicherungsgeld ab 1. Juli 2026. |
+| **§ 37 SGB II** | Keine Rückwirkung der Leistungserbringung; Anspruchsbeginn erst ab dem Monat der Antragstellung. | Ausschluss einer rückwirkenden Gewährung von Grundsicherungsleistungen. |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
