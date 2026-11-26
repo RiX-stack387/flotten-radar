@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-26)
+RADAR-DELTA COMPACT (2026-11-26 04:42:12)
 - [19: BAG Entscheidungsdatenbank] 8 AZB 6/26: Fünfmonatsfrist zur vollständigen Absetzung von Urteilen
 - [19: BAG Entscheidungsdatenbank] 2 AZN 339/26: Nichtzulassungsbeschwerde - Vertretungszwang - "halluzinierte" Urteile
 - [19: BAG Entscheidungsdatenbank] § 4 Abs. 1, Kostenverzeichnis Nr. 2000 JVKostG: 1,50 Euro
