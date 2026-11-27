@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-26 04:42:12 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-27 04:45:27 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -206,12 +206,9 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **13. Änderungsgesetz zum SGB II** | Das Grundsicherungsgeld löst zum 1. Juli 2026 das Bürgergeld als staatliche Grundsicherung für Arbeitsuchende nach SGB II ab; es gelten strengere Mitwirkungspflichten sowie neue Regelungen zu Vermögen und Wohnkosten. | Ablösung des Bürgergeldes durch das Grundsicherungsgeld und Inkrafttreten neuer Vorgaben für Mitwirkung, Vermögen und Wohnkosten ab Juli 2026. |
-| **§ 20 SGB II** | 563 Euro | Höhe des monatlichen Regelbedarfs (Regelbedarfsstufe 1) für alleinstehende Erwachsene im Jahr 2026. |
-| **§ 20 SGB II** | 506 Euro | Monatlicher Regelbedarf je Partner für Eheleute und Lebenspartner im Jahr 2026. |
-| **§ 22 SGB II** | Übernahme von Miete, Nebenkosten und Heizkosten | Bedarfe für Unterkunft und Heizung (KdU) zur Absicherung des Existenzminimums. |
-| **§ 12 SGB II** | Wegfall der einjährigen Karenzzeit mit 40.000 Euro Freibetrag; Einführung eines altersabhängigen Schonvermögens zwischen 5.000 und 20.000 Euro pro Person bei sofortiger Prüfung. | Neuregelung der Vermögensanrechnung und vollständiger Wegfall der Karenzzeit beim Grundsicherungsgeld ab 1. Juli 2026. |
-| **§ 37 SGB II** | Keine Rückwirkung der Leistungserbringung; Anspruchsbeginn erst ab dem Monat der Antragstellung. | Ausschluss einer rückwirkenden Gewährung von Grundsicherungsleistungen. |
+| **13. Änderungsgesetz zum SGB II** | Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II. | Einführung des Grundsicherungsgeldes zum 01.07.2026 als Nachfolger des Bürgergeldes mit strengeren Mitwirkungspflichten und Vermögensprüfungen. |
+| **§ 20 SGB II** | 563 Euro | Höhe des monatlichen Bürgergeld-Regelsatzes im Jahr 2026 für alleinstehende Erwachsene. |
+| **§ 12 SGB II** | altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person | Regelung zum Schonvermögen beim Grundsicherungsgeld ab 1. Juli 2026 unter Wegfall der einjährigen Karenzzeit. |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -569,15 +566,15 @@
 ## [CW_ST_04] Sektor CW_ST_04
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ (3. Änderung)** | Öffentliche Bekanntmachung der 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes Zentrum Unterstadt am 18.11.2026 | Festlegung und Änderung des Sanierungsgebietes Zentrum Unterstadt in Wildberg |
-| **Stellplatzsatzung** | Öffentliche Bekanntmachung der Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung) am 18.11.2026 | Kommunale Satzung zur Durchführung von Stellplatzverpflichtungen bei Wohnungen in Wildberg |
-| **§ 13a BauGB / Bebauungsplan „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen“** | Inkrafttreten des Bebauungsplans und der Örtlichen Bauvorschriften „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen“ am 18.11.2026 | Städtebauliches Verfahren im beschleunigten Verfahren nach § 13a BauGB für das Feuerwehrgerätehaus Gültlingen |
+| **Geschwindigkeitsdisplays-Regelung** | Über die Wintermonate bis Ende März werden die Geschwindigkeitsdisplays in den einzelnen Stadtteilen abgebaut. | Abbau der Geschwindigkeitsdisplays in den Stadtteilen von Wildberg während der Wintermonate bis Ende März. |
+| **3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ in Wildberg** | Zentrum Unterstadt - 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ in Wildberg Öffentliche Bekanntmachung | Öffentliche Bekanntmachung vom 18.11.2026 zur 3. Änderung der Sanierungssatzung Zentrum Unterstadt. |
+| **Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung)** | Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung) | Öffentliche Bekanntmachung der Stellplatzsatzung bezüglich der Stellplatzverpflichtungen von Wohnungen am 18.11.2026. |
 
 ## [CW_ST_09] Sektor CW_ST_09
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Landratsamt Calw** | 31. Oktober | Verlängerung der Beschränkung der Wasserentnahme aus oberirdischen Gewässern im Kreis Calw |
-| **Stadtkasse Bad Herrenalb** | 01.01.2027 | Auflösung des Kontos bei der Postbank Karlsruhe durch die Stadtkasse Bad Herrenalb |
+| **§ 2 Abs. 1 i. V. m. § 1 Abs. 8 Baugesetzbuch (BauGB)** | Aufstellungsbeschluss zur Aufhebung des vorhabenbezogenen Bebauungsplans „Neues Wohnen/Kurpromenade“ einschließlich des Vorhaben- und Erschließungsplans | Öffentliche Bekanntmachung der Stadt Bad Herrenalb am 26.11.2026 zur Aufhebung eines Bebauungsplans |
+| **VOB** | Öffentliche Ausschreibung der Ausgleichsmaßnahme, Räumen des Geländes, Erdaushub und Anlegen einer Fettwiese in Bad Herrenalb, Gewann Steinhäusle | Öffentliche Ausschreibung der Stadt Bad Herrenalb im Landkreis Calw nach VOB vom 24.11.2026 |
 
 ## [CW_ST_10] Sektor CW_ST_10
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -627,8 +624,9 @@
 ## [CW_GM_15] Sektor CW_GM_15
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Landesförderung Breitbandausbau (Zuwendungsbescheid vom 13.05.2024)** | 1.552.800 Euro | Zuwendungsbescheid für den weiteren Ausbau des Glasfasernetzes der Gemeinde Simmersfeld. |
-| **Marktrecht Simmersfeld** | 200-jähriges Bestehen des Marktrechts in Simmersfeld | Jubiläum des Marktrechts im Rahmen des Herbstmarktes am 3. Oktober. |
+| **Marktrecht Gemeinde Simmersfeld** | 200-jähriges Bestehen des Marktrechts in Simmersfeld | Feier des 200-jährigen Jubiläums des Marktrechts im Rahmen des Herbstmarktes am 3. Oktober 2026. |
+| **Landessanierungsprogramm 2014** | 2014 | Aufnahme der Gemeinde Simmersfeld in das Landessanierungsprogramm zur städtebaulichen Erneuerung und Ortsmittenplanung. |
+| **Förderbescheid Trennsystem Freudenstädter Straße BA3** | Bewilligung des Förderantrags Trennsystem OT Simmersfeld, Freudenstädter Straße BA3 | Dem Förderantrag der Gemeinde Simmersfeld für das Entwässerungsvorhaben Trennsystem Freudenstädter Straße BA3 wurde entsprochen. |
 
 ## [FDS_Z1] Sektor FDS_Z1
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
@@ -665,6 +663,12 @@
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
 | **Stadt Horb am Neckar Online-Bürgerservice** | Erledigen Sie viele Ihrer Behördengänge von zu Hause aus über unseren Online-Bürgerservice. | Verfügbarkeit des Online-Bürgerservice der Stadt Horb am Neckar |
+
+## [FDS_ST_04] Sektor FDS_ST_04
+| Norm / AZ | Wert / Parameter | Kontext / Detail |
+| :--- | :--- | :--- |
+| **§ 3 Abs. 2 BauGB** | Öffentliche Bekanntmachung des Bebauungsplans „Am Eichwald“, Dornstetten Beteiligung der Öffentlichkeit gem. § 3 Absatz 2 BauGB | Beteiligung der Öffentlichkeit im Rahmen des Bebauungsplanverfahrens „Am Eichwald“ in Dornstetten. |
+| **6. Änderung des Flächennutzungsplans 2030** | Öffentliche Auslegung - "6. Änderung des Flächennutzungsplans 2030 des Gemeindeverwaltungsverbands Dornstetten - Frühzeitige Beteiligung" | Frühzeitige Beteiligung und öffentliche Auslegung zur 6. Änderung des Flächennutzungsplans 2030 des Gemeindeverwaltungsverbands Dornstetten. |
 
 ## [FDS_GM_01] Sektor FDS_GM_01
 | Norm / AZ | Wert / Parameter | Kontext / Detail |

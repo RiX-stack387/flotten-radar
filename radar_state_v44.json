@@ -609,7 +609,7 @@
         "last_updated": "2026-10-18T02:49:48.467768+00:00"
     },
     "slot_13": {
-        "source_hash": "a94358f23551c3263429dd56b8e57d11cb04250c468ff8a7f42e525f196e885f",
+        "source_hash": "0b0b9ccc5dc5ff231ecf2b8d2ec8332041529c4c23b64b0745f70ae977b9ad0d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -651,7 +651,7 @@
         "last_updated": "2026-10-18T02:50:02.298451+00:00"
     },
     "slot_14": {
-        "source_hash": "d542007a266fe2205221327a0215630a90f1f231b2d5cfb9024d0acbafabd414",
+        "source_hash": "72690c30ff52c0c6c30d6132bdc1c06f88742103bae7dd7e474ea41c10f97442",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -805,7 +805,7 @@
         "last_updated": "2026-10-18T02:50:49.992888+00:00"
     },
     "slot_19": {
-        "source_hash": "f9018ffea2443b39416722f6d5c38d96ba937917d44ee7e6b36d5b3fce3bc3ee",
+        "source_hash": "8becf0f04d1eff91ba2cefa01a7f302637e945d3caabc6f884fcb494ddbff957",
         "legal_hash": "d413ec7b9634d9f6da9b67d821fbf437a0852b315a6b99730ecef2ca9fda1469",
         "claims": [
             {
@@ -956,7 +956,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "slot_25": {
-        "source_hash": "163464e18b397004934166c7521a1ae03f8e61e38e643045156123ee663b4b49",
+        "source_hash": "3a15758aa51a5cf4173c4ec42b16bf2d884d614846ae21880cd7c3d95e159c1d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1040,7 +1040,7 @@
         "last_updated": "2026-10-18T02:54:44.679041+00:00"
     },
     "slot_29": {
-        "source_hash": "34f3e98028ebff5f662442e762ee34394e7b79430fd6c4ba1fd2273703533204",
+        "source_hash": "1830f1ebfac3dc1700a67d60a83c18a1c44a420494b6c2bf040302ed1616b290",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1075,7 +1075,7 @@
         "last_updated": "2026-10-18T02:54:57.051132+00:00"
     },
     "slot_30": {
-        "source_hash": "6a2064aa82749468933d8e197aed1ad2b1ca55472bfa473713f437c61443fc78",
+        "source_hash": "36a2d3232e94fed9571086ac2d2a0d69ab10618382f36b252a2ee0afb2e50864",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1103,53 +1103,32 @@
         "last_updated": "2026-10-18T02:55:09.121721+00:00"
     },
     "slot_31": {
-        "source_hash": "468393e21bc626daee718bddb870fcc469ca457ff4cd81307fa42ee0767ea752",
-        "legal_hash": "b92c6bdbbff9f61e4644aee01221b735c8018caff45b2bbf45b432ba0bf7c7f6",
+        "source_hash": "4e9d73407cc57fc13c738d0309a1e67fad54f77beebd2093a1726adc3eed3bea",
+        "legal_hash": "48fae5c098f79f1b34f1b6bd7440ed800c6b8ac6ad73e55fad7697514e74e387",
         "claims": [
             {
                 "norm": "13. Änderungsgesetz zum SGB II",
-                "extracted_value": "Das Grundsicherungsgeld löst zum 1. Juli 2026 das Bürgergeld als staatliche Grundsicherung für Arbeitsuchende nach SGB II ab; es gelten strengere Mitwirkungspflichten sowie neue Regelungen zu Vermögen und Wohnkosten.",
-                "value_type": "DATE",
-                "context": "Ablösung des Bürgergeldes durch das Grundsicherungsgeld und Inkrafttreten neuer Vorgaben für Mitwirkung, Vermögen und Wohnkosten ab Juli 2026.",
-                "evidence_location": "Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II. Es löst das Bürgergeld ab, das seinerseits 2023 das frühere Hartz IV (Arbeitslosengeld II) ersetzt hatte."
+                "extracted_value": "Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II.",
+                "value_type": "TEXT",
+                "context": "Einführung des Grundsicherungsgeldes zum 01.07.2026 als Nachfolger des Bürgergeldes mit strengeren Mitwirkungspflichten und Vermögensprüfungen.",
+                "evidence_location": "Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II."
             },
             {
                 "norm": "§ 20 SGB II",
                 "extracted_value": "563 Euro",
                 "value_type": "EURO",
-                "context": "Höhe des monatlichen Regelbedarfs (Regelbedarfsstufe 1) für alleinstehende Erwachsene im Jahr 2026.",
+                "context": "Höhe des monatlichen Bürgergeld-Regelsatzes im Jahr 2026 für alleinstehende Erwachsene.",
                 "evidence_location": "563 Euro für alleinstehende Erwachsene"
             },
             {
-                "norm": "§ 20 SGB II",
-                "extracted_value": "506 Euro",
-                "value_type": "EURO",
-                "context": "Monatlicher Regelbedarf je Partner für Eheleute und Lebenspartner im Jahr 2026.",
-                "evidence_location": "506 Euro pro Person für Eheleute / Lebenspartner"
-            },
-            {
-                "norm": "§ 22 SGB II",
-                "extracted_value": "Übernahme von Miete, Nebenkosten und Heizkosten",
-                "value_type": "TEXT",
-                "context": "Bedarfe für Unterkunft und Heizung (KdU) zur Absicherung des Existenzminimums.",
-                "evidence_location": "Wohnkosten (KdU) : Übernahme von Miete, Nebenkosten und Heizkosten"
-            },
-            {
                 "norm": "§ 12 SGB II",
-                "extracted_value": "Wegfall der einjährigen Karenzzeit mit 40.000 Euro Freibetrag; Einführung eines altersabhängigen Schonvermögens zwischen 5.000 und 20.000 Euro pro Person bei sofortiger Prüfung.",
-                "value_type": "TEXT",
-                "context": "Neuregelung der Vermögensanrechnung und vollständiger Wegfall der Karenzzeit beim Grundsicherungsgeld ab 1. Juli 2026.",
-                "evidence_location": "Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus. Die frühere Karenzzeit mit einem Freibetrag von bis zu 40.000 Euro im ersten Jahr gibt es nicht mehr, dein Vermögen wird jetzt von Anfang an geprüft."
-            },
-            {
-                "norm": "§ 37 SGB II",
-                "extracted_value": "Keine Rückwirkung der Leistungserbringung; Anspruchsbeginn erst ab dem Monat der Antragstellung.",
-                "value_type": "TEXT",
-                "context": "Ausschluss einer rückwirkenden Gewährung von Grundsicherungsleistungen.",
-                "evidence_location": "Wichtig: Bürgergeld wird nicht rückwirkend gezahlt , dein Anspruch beginnt erst mit dem Monat der Antragstellung."
+                "extracted_value": "altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person",
+                "value_type": "EURO",
+                "context": "Regelung zum Schonvermögen beim Grundsicherungsgeld ab 1. Juli 2026 unter Wegfall der einjährigen Karenzzeit.",
+                "evidence_location": "Als unschädliches Schonvermögen gilt seit der Reform zum 1. Juli 2026 (Grundsicherungsgeld) ein altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person – je jünger du bist, desto niedriger fällt er aus."
             }
         ],
-        "last_updated": "2026-11-26T03:20:37.996951+00:00"
+        "last_updated": "2026-11-27T03:21:52.056551+00:00"
     },
     "slot_18": {
         "source_hash": "61d6d0af2eefa10c8784fedb95fad4fd6fe69064f589c608b5f8a555b7dd6a40",
@@ -1180,7 +1159,7 @@
         "last_updated": "2026-10-24T03:26:12.011115+00:00"
     },
     "slot_32": {
-        "source_hash": "7170773cee8f4e6c68f45e2c834d387905dea09390f50e9444cfd0349185889d",
+        "source_hash": "2cbe57772defa1bc795f3fdf00a59522c0218bb7596685da44e69f0e370532ec",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {

@@ -132,43 +132,43 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_02": {
-        "source_hash": "b21612d9de5a1dc23ed5452bc571f8308e2a4db7d6d8f388ea18fda2bb418b95",
+        "source_hash": "bf1ab4bafdcb217c1f7a20518ff7d882b87862831e7c403aceb6f01b1fec0067",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_03": {
-        "source_hash": "b7a82706cfb81f11d72a9d2ebb9f321ae79ff80ebf6501026e247c213aa45a0b",
+        "source_hash": "186a32a29fd439a1fda523f8b54a30e1cdacd4e1933ae145edee2562c3612e16",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_04": {
-        "source_hash": "c8849a753d93c43534e48183169e2e924e8fd5401eae462d5f87657d2b07757e",
-        "legal_hash": "5a2872c7a1e10552876976efc477ff3043cfdf53bedae0136b19a0cc1c4d44bc",
+        "source_hash": "bd5b5aa40d220f8b93b5b580ab1c898a27ff7a83a5b104ccdcd1dc4092cdc5c1",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
-                "norm": "Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ (3. Änderung)",
-                "extracted_value": "Öffentliche Bekanntmachung der 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes Zentrum Unterstadt am 18.11.2026",
-                "value_type": "DATE",
-                "context": "Festlegung und Änderung des Sanierungsgebietes Zentrum Unterstadt in Wildberg",
-                "evidence_location": "Zentrum Unterstadt - 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ in Wildberg Öffentliche Bekanntmachung 18.11.2026"
+                "norm": "Geschwindigkeitsdisplays-Regelung",
+                "extracted_value": "Über die Wintermonate bis Ende März werden die Geschwindigkeitsdisplays in den einzelnen Stadtteilen abgebaut.",
+                "value_type": "TEXT",
+                "context": "Abbau der Geschwindigkeitsdisplays in den Stadtteilen von Wildberg während der Wintermonate bis Ende März.",
+                "evidence_location": "Über die Wintermonate bis Ende März werden die Geschwindigkeitsdisplays in den einzelnen Stadtteilen abgebaut."
             },
             {
-                "norm": "Stellplatzsatzung",
-                "extracted_value": "Öffentliche Bekanntmachung der Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung) am 18.11.2026",
-                "value_type": "DATE",
-                "context": "Kommunale Satzung zur Durchführung von Stellplatzverpflichtungen bei Wohnungen in Wildberg",
-                "evidence_location": "Öffentliche Bekanntmachung - Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung) Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung) 18.11.2026"
+                "norm": "3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ in Wildberg",
+                "extracted_value": "Zentrum Unterstadt - 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ in Wildberg Öffentliche Bekanntmachung",
+                "value_type": "TEXT",
+                "context": "Öffentliche Bekanntmachung vom 18.11.2026 zur 3. Änderung der Sanierungssatzung Zentrum Unterstadt.",
+                "evidence_location": "Zentrum Unterstadt - 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ in Wildberg Öffentliche Bekanntmachung"
             },
             {
-                "norm": "§ 13a BauGB / Bebauungsplan „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen“",
-                "extracted_value": "Inkrafttreten des Bebauungsplans und der Örtlichen Bauvorschriften „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen“ am 18.11.2026",
-                "value_type": "DATE",
-                "context": "Städtebauliches Verfahren im beschleunigten Verfahren nach § 13a BauGB für das Feuerwehrgerätehaus Gültlingen",
-                "evidence_location": "Bebauungsplan und Örtliche Bauvorschriften „Im Brühl, 1. Änderung - Feuer-wehrgerätehaus Gültlingen“ (Verfahren nach § 13a BauGB) Inkrafttreten des Bebauungsplans und der Örtlichen Bauvorschriften „Im Brühl, 1. Änderung - Feuerwehrgerätehaus Gültlingen 18.11.2026"
+                "norm": "Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung)",
+                "extracted_value": "Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung)",
+                "value_type": "TEXT",
+                "context": "Öffentliche Bekanntmachung der Stellplatzsatzung bezüglich der Stellplatzverpflichtungen von Wohnungen am 18.11.2026.",
+                "evidence_location": "18.11.2026 Öffentliche Bekanntmachung - Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung) Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung)"
             }
         ],
-        "last_updated": "2026-11-21T03:40:23.986137+00:00"
+        "last_updated": "2026-11-27T03:36:34.076461+00:00"
     },
     "cw_fds_slot_CW_ST_05": {
-        "source_hash": "598b4424510ceabe2e14e5653c38a6597cc742755b1a5b8d6d36fcf8f6c7334a",
+        "source_hash": "423756072cd8b26bb71c7c12b99821c2f917aec36910dc02221710dcd524d365",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_06": {
@@ -184,25 +184,25 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_ST_09": {
-        "source_hash": "f57e3ab2a42cbfadd233f9e5048c9dcb4e5f37e9fd7f83f3c434baf82199eb35",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_hash": "d2c680d1ade024e1f8f796a3c4e4c534805c1cb2fbd60a83e86ab58620cf99b6",
+        "legal_hash": "6dc0f4170e8e241bf20f45af48dc2413935d981a781c4decbc121eb67d9f1172",
         "claims": [
             {
-                "norm": "Landratsamt Calw",
-                "extracted_value": "31. Oktober",
-                "value_type": "DATE",
-                "context": "Verlängerung der Beschränkung der Wasserentnahme aus oberirdischen Gewässern im Kreis Calw",
-                "evidence_location": "Landratsamt Calw verlängert die Beschränkung der Wasserentnahme aus oberirdischen Gewässern bis 31. Oktober*"
+                "norm": "§ 2 Abs. 1 i. V. m. § 1 Abs. 8 Baugesetzbuch (BauGB)",
+                "extracted_value": "Aufstellungsbeschluss zur Aufhebung des vorhabenbezogenen Bebauungsplans „Neues Wohnen/Kurpromenade“ einschließlich des Vorhaben- und Erschließungsplans",
+                "value_type": "TEXT",
+                "context": "Öffentliche Bekanntmachung der Stadt Bad Herrenalb am 26.11.2026 zur Aufhebung eines Bebauungsplans",
+                "evidence_location": "Aufstellungsbeschluss zur Aufhebung des vorhabenbezogenen Bebauungsplans „Neues Wohnen/Kurpromenade“ einschließlich des Vorhaben- und Erschließungsplans gemäß § 2 Abs. 1 i. V. m. § 1 Abs. 8 Baugesetzbuch (BauGB)"
             },
             {
-                "norm": "Stadtkasse Bad Herrenalb",
-                "extracted_value": "01.01.2027",
-                "value_type": "DATE",
-                "context": "Auflösung des Kontos bei der Postbank Karlsruhe durch die Stadtkasse Bad Herrenalb",
-                "evidence_location": "Die Stadtkasse Bad Herrenalb wird ihr Konto bei der Postbank Karlsruhe zum 01.01.2027 auflösen."
+                "norm": "VOB",
+                "extracted_value": "Öffentliche Ausschreibung der Ausgleichsmaßnahme, Räumen des Geländes, Erdaushub und Anlegen einer Fettwiese in Bad Herrenalb, Gewann Steinhäusle",
+                "value_type": "TEXT",
+                "context": "Öffentliche Ausschreibung der Stadt Bad Herrenalb im Landkreis Calw nach VOB vom 24.11.2026",
+                "evidence_location": "Die Stadt Bad Herrenalb im Landkreis Calw schreibt die Ausgleichsmaßnahme, Räumen des Geländes, Erdaushub und Anlegen einer Fettwiese in Bad Herrenalb, Gewann Steinhäusle aus."
             }
         ],
-        "last_updated": "2026-10-18T03:18:11.619943+00:00"
+        "last_updated": "2026-11-27T03:37:44.322794+00:00"
     },
     "cw_fds_slot_CW_ST_10": {
         "source_hash": "4919f9fcb932c923eae373f9abbc839546fd4657d06ab0a69fe7bce288642b7c",
@@ -247,7 +247,7 @@
         "last_updated": "2026-10-30T05:45:46.438439+00:00"
     },
     "cw_fds_slot_CW_GM_01": {
-        "source_hash": "6112f38c95339e94ec6caa98444834ec4f794a6ec3601e040fe25643714ce091",
+        "source_hash": "a680fcfd5a607d2f86767756fad9c3669f47db7a5c0953e739f23caddb525b91",
         "legal_hash": "979af3761417f52644fe669048c8cc2dc96ef2518f32a52123e2e0bf6ec33520",
         "claims": [
             {
@@ -275,7 +275,7 @@
         "last_updated": "2026-11-22T03:37:32.817593+00:00"
     },
     "cw_fds_slot_CW_GM_02": {
-        "source_hash": "b612c9a26d42ff37925764a82a99bb4b0b502eb318c7fb5029f921bc1a8c393b",
+        "source_hash": "021e70a47e53076c95616aa88272f9054da4c658ae3e6ac586d148c57d6acc7c",
         "legal_hash": "83a3228c36f3307dac43e4a43f99c6aad8163da41cb7eba575d01f294449628f"
     },
     "cw_fds_slot_CW_GM_03": {
@@ -314,7 +314,7 @@
         "last_updated": "2026-10-30T05:47:50.782690+00:00"
     },
     "cw_fds_slot_CW_GM_04": {
-        "source_hash": "b0ee5f8a0702059f57e170910197c8c3b78b81013515d63b35da21020ee5bcd0",
+        "source_hash": "b4f92339c6a870fccea5502ac6201d3752e8e918a671ab45cb1c8b998da991d8",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_05": {
@@ -353,11 +353,11 @@
         "last_updated": "2026-10-23T01:13:57.664871+00:00"
     },
     "cw_fds_slot_CW_GM_06": {
-        "source_hash": "0900adfcd49af9eff434912a39b9dcbcc6d31941a084f7c3f5f800dd54e4de89",
+        "source_hash": "b40a5f3c947efa7d2388650948598b24df34e344ebc25a7f9d3c73c6fcf66697",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_07": {
-        "source_hash": "34b384d8ee0fb353cb8a2aeb7aa7e04f08b938b0d40d12d613f5a65044b4e108",
+        "source_hash": "fb4a701d293aa4587bb4cde164d17415e9aac4eafe8df2b9c10dd3382279bd9b",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_08": {
@@ -412,7 +412,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_GM_14": {
-        "source_hash": "421caf14f59b5f1c8a1ca1d42f881a525a842d3b8d5cf984cdb3634699a37d40",
+        "source_hash": "3bbaa58835c6cee1ba960723979ce869195f11d8a1f91be41705eee19ddb3037",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -426,28 +426,35 @@
         "last_updated": "2026-10-18T03:20:12.198559+00:00"
     },
     "cw_fds_slot_CW_GM_15": {
-        "source_hash": "ae1c7ec6831acd20bc27b725eb2d7067f65dcb0a41424a043d75c20e958c06cf",
-        "legal_hash": "6d87b29feae8855d76ae946beabd8d7b9d09a3eed1342ae5916e83fb6e26cb72",
+        "source_hash": "2a8da05bb95d5653ab38d49189fa5dafeca2a11473477f1938ca5709daa4f5ce",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
-                "norm": "Landesförderung Breitbandausbau (Zuwendungsbescheid vom 13.05.2024)",
-                "extracted_value": "1.552.800 Euro",
-                "value_type": "EURO",
-                "context": "Zuwendungsbescheid für den weiteren Ausbau des Glasfasernetzes der Gemeinde Simmersfeld.",
-                "evidence_location": "Mit dabei auch die Gemeinde Simmersfeld, für die Bürgermeister Stoll am 13.05.2024 in Stuttgart einen Zuwendungsbescheid über gut 1,5 Mio. Euro in Empfang nehmen konnte..."
-            },
-            {
-                "norm": "Marktrecht Simmersfeld",
+                "norm": "Marktrecht Gemeinde Simmersfeld",
                 "extracted_value": "200-jähriges Bestehen des Marktrechts in Simmersfeld",
                 "value_type": "TEXT",
-                "context": "Jubiläum des Marktrechts im Rahmen des Herbstmarktes am 3. Oktober.",
+                "context": "Feier des 200-jährigen Jubiläums des Marktrechts im Rahmen des Herbstmarktes am 3. Oktober 2026.",
                 "evidence_location": "Mit diesem Markt feierte die Gemeinde das 200-jährige Bestehen des Marktrechts in Simmersfeld."
+            },
+            {
+                "norm": "Landessanierungsprogramm 2014",
+                "extracted_value": "2014",
+                "value_type": "DATE",
+                "context": "Aufnahme der Gemeinde Simmersfeld in das Landessanierungsprogramm zur städtebaulichen Erneuerung und Ortsmittenplanung.",
+                "evidence_location": "Mit der Aufnahme der Gemeinde Simmersfeld ins Landessanierungsprogramm im Jahr 2014 wurde neben städtebaulichen Erneuerungsmaßnahmen von privaten Eigentümern auch die Planung einer neuen Ortsmitte möglich."
+            },
+            {
+                "norm": "Förderbescheid Trennsystem Freudenstädter Straße BA3",
+                "extracted_value": "Bewilligung des Förderantrags Trennsystem OT Simmersfeld, Freudenstädter Straße BA3",
+                "value_type": "TEXT",
+                "context": "Dem Förderantrag der Gemeinde Simmersfeld für das Entwässerungsvorhaben Trennsystem Freudenstädter Straße BA3 wurde entsprochen.",
+                "evidence_location": "Dem Förderantrag der Gemeinde Simmersfeld für das Vorhaben \"Trennsystem OT Simmersfeld, Freudenstädter Straße BA3\" konnte entsprochen werden."
             }
         ],
-        "last_updated": "2026-11-03T05:52:29.053535+00:00"
+        "last_updated": "2026-11-27T03:40:40.819656+00:00"
     },
     "cw_fds_slot_FDS_Z1": {
-        "source_hash": "7e5e9e882968da245ae049f4a191654c5c8777ab08555ba8ddc39be76ac7b5c6",
+        "source_hash": "9b2084a92c3339f5512849c9991d8bcba40edc42d4cfc0793878c698037a4270",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -503,7 +510,7 @@
         "last_updated": "2026-10-18T03:20:46.021633+00:00"
     },
     "cw_fds_slot_FDS_Z4": {
-        "source_hash": "c981fa6a95ccf66838054539c072b76728929ea52ab3ccfe5a5cab255da25d04",
+        "source_hash": "15faa13a1f4289cde48fc3e8a34e4ad64bd3c2261f070545b65362e54efbaa8a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -655,7 +662,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_ST_02": {
-        "source_hash": "f6e5c3c2f5ad692f367ce1359659204e218c48d6e19be0d055b552f430ce0cca",
+        "source_hash": "2b7060c1ebb708d96859bc23177f3cfe0ff10a31b96a1e8867d0d531b0139156",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -669,12 +676,29 @@
         "last_updated": "2026-10-18T03:22:07.516275+00:00"
     },
     "cw_fds_slot_FDS_ST_03": {
-        "source_hash": "783377554c4e9d3e43ad2343b0c267316432a0da6b683e8df411eb90d22a05cc",
+        "source_hash": "e240aac52e63e49c822c4e33406d37436d2b77c7f3d50002b57ae4dc245274de",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_ST_04": {
-        "source_hash": "83d92f927e0fa1d9c578fecae8c0b79929297bae3f8081e1fe79408b53b5e33f",
-        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "source_hash": "ea43ea8ac14e6bc74c2425bdb3c5cade5e9a967b2cedea124e4054b0c27753c6",
+        "legal_hash": "6ced100935b0b1e855c33431f03a97a5810270b350680d1e7ed9162734e1be9d",
+        "claims": [
+            {
+                "norm": "§ 3 Abs. 2 BauGB",
+                "extracted_value": "Öffentliche Bekanntmachung des Bebauungsplans „Am Eichwald“, Dornstetten Beteiligung der Öffentlichkeit gem. § 3 Absatz 2 BauGB",
+                "value_type": "TEXT",
+                "context": "Beteiligung der Öffentlichkeit im Rahmen des Bebauungsplanverfahrens „Am Eichwald“ in Dornstetten.",
+                "evidence_location": "27.11.2026 Öffentliche Bekanntmachung des Bebauungsplans „Am Eichwald“, Dornstetten Beteiligung der Öffentlichkeit gem. § 3 Absatz 2 BauGB"
+            },
+            {
+                "norm": "6. Änderung des Flächennutzungsplans 2030",
+                "extracted_value": "Öffentliche Auslegung - \"6. Änderung des Flächennutzungsplans 2030 des Gemeindeverwaltungsverbands Dornstetten - Frühzeitige Beteiligung\"",
+                "value_type": "TEXT",
+                "context": "Frühzeitige Beteiligung und öffentliche Auslegung zur 6. Änderung des Flächennutzungsplans 2030 des Gemeindeverwaltungsverbands Dornstetten.",
+                "evidence_location": "09.11.2026 Öffentliche Auslegung - \"6. Änderung des Flächennutzungsplans 2030 des Gemeindeverwaltungsverbands Dornstetten - Frühzeitige Beteiligung\""
+            }
+        ],
+        "last_updated": "2026-11-27T03:42:49.361827+00:00"
     },
     "cw_fds_slot_FDS_GM_01": {
         "source_hash": "f41a1bd44b4a922644a11900d85455e841c52c8e9f69a0f408facd161a89b533",
@@ -691,11 +715,11 @@
         "last_updated": "2026-11-12T10:02:06.931356+00:00"
     },
     "cw_fds_slot_FDS_GM_02": {
-        "source_hash": "d58079c2c21098104ce1d511b1682ac099fd5a01c617b9b42f18a6ed30259170",
+        "source_hash": "f605e29b683bde874bfef0df24ecab0e15ff3bf65ab29fbb8d969a763289aafe",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_03": {
-        "source_hash": "08fc022a9d47e119a196d201360c2fe63074b33705abeb5f3052298cb07fb24d",
+        "source_hash": "9ff5c64c2e094e209fa9bb0d4d33594006db9658726534a6e57567c48fc8c6e6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -709,11 +733,11 @@
         "last_updated": "2026-10-18T03:22:48.876772+00:00"
     },
     "cw_fds_slot_FDS_GM_04": {
-        "source_hash": "a28f642a4658621952df87687a6d2bd2579d0321e7e2bf7f2b8bcb3492e9cb31",
+        "source_hash": "55688eb3376676190c5cd6b88e173ab5dccbbe848656276ddd164f6624619b21",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_05": {
-        "source_hash": "0b4e6734ff8413eba8d63528e51ed8c1200447e1d09e0cd6a3a28ffe836a6f59",
+        "source_hash": "f3eda665706ff2dc152d4eeca90b3640fd9a01903ae85531eb69e4036852a546",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -752,7 +776,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_07": {
-        "source_hash": "887bfff32fbcd3583aea6dda731d31e5565a8e1887b1b7c7e24fc7dcc32b4b69",
+        "source_hash": "bb02272187cf23065eb0317ccbc368861b150d4d508b61a05726bd27c2397d06",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_09": {
@@ -764,7 +788,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_12": {
-        "source_hash": "b77df7c7ee1a0c62fa828d2efb04e53007619d611b2ac8d7140a3bb1904a084c",
+        "source_hash": "8e2066dfa11e349b74acbb75dddb092ae00b51378d2545e9e883f5db51d5e2cc",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -798,23 +822,23 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_18": {
-        "source_hash": "f6e5c3c2f5ad692f367ce1359659204e218c48d6e19be0d055b552f430ce0cca",
+        "source_hash": "2b7060c1ebb708d96859bc23177f3cfe0ff10a31b96a1e8867d0d531b0139156",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_19": {
-        "source_hash": "f6e5c3c2f5ad692f367ce1359659204e218c48d6e19be0d055b552f430ce0cca",
+        "source_hash": "2b7060c1ebb708d96859bc23177f3cfe0ff10a31b96a1e8867d0d531b0139156",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_20": {
-        "source_hash": "f6e5c3c2f5ad692f367ce1359659204e218c48d6e19be0d055b552f430ce0cca",
+        "source_hash": "2b7060c1ebb708d96859bc23177f3cfe0ff10a31b96a1e8867d0d531b0139156",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_21": {
-        "source_hash": "f6e5c3c2f5ad692f367ce1359659204e218c48d6e19be0d055b552f430ce0cca",
+        "source_hash": "2b7060c1ebb708d96859bc23177f3cfe0ff10a31b96a1e8867d0d531b0139156",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_FDS_GM_22": {
-        "source_hash": "f6e5c3c2f5ad692f367ce1359659204e218c48d6e19be0d055b552f430ce0cca",
+        "source_hash": "2b7060c1ebb708d96859bc23177f3cfe0ff10a31b96a1e8867d0d531b0139156",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_FDS_K1_STROM": {
@@ -826,7 +850,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "cw_fds_slot_CW_K5_WOHNBAU": {
-        "source_hash": "b539c0267e75df6dd0c6ac4333a4515650c02cd8015252c42520fb96bcd90a7f",
+        "source_hash": "b62d6807b0ed0fa80ade4b9ffbe5c636248ede576709413bff51bdbcec79f8e1",
         "legal_hash": "94b07e03d21caa7229292572a99dbcd1c6360a27008d956cd95e71325a2d35c6",
         "claims": [
             {
@@ -907,7 +931,7 @@
         "last_updated": "2026-10-22T00:37:55.404748+00:00"
     },
     "cw_fds_slot_FDS_GM_08": {
-        "source_hash": "434de2536f0e4c6a95b213b2755909384ed7a2ef1b4ff34aebc34dc7248f737b",
+        "source_hash": "3c99f06555a75000ab2036cfb80b7555caed39ea4c9c3da61f2696b192c1a338",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -942,7 +966,7 @@
         "last_updated": "2026-11-12T08:00:29.966802+00:00"
     },
     "cw_fds_slot_FDS_GM_10": {
-        "source_hash": "93a9ef2f0360caa075c1967c909d423c3895522b39dfc32c38529a8c456bd298",
+        "source_hash": "1ea144ebfa55c31ae923db66156b2590f74461169dfe23966291738e8269daf3",
         "legal_hash": "2d6ab5cdf58dd008b8584c4193a0afaa390d954dc7d199e5ceebb1c792b6b99f",
         "claims": [
             {
