@@ -1,4 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-27)
+RADAR-DELTA COMPACT (2026-11-27 04:45:45)
 - [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II.
 - [31: Bürgergeld.org - Richtwerte & Rechner] § 12 SGB II: altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person
 - [CW_ST_04: Stadt Wildberg - Rathaus & Bürgerservice] Geschwindigkeitsdisplays-Regelung: Über die Wintermonate bis Ende März werden die Geschwindigkeitsdisplays in den einzelnen Stadtteilen abgebaut.
