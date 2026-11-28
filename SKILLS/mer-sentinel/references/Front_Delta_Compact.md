@@ -1,13 +1,4 @@
-RADAR-DELTA COMPACT (2026-11-27 04:45:45)
-- [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II.
-- [31: Bürgergeld.org - Richtwerte & Rechner] § 12 SGB II: altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person
-- [CW_ST_04: Stadt Wildberg - Rathaus & Bürgerservice] Geschwindigkeitsdisplays-Regelung: Über die Wintermonate bis Ende März werden die Geschwindigkeitsdisplays in den einzelnen Stadtteilen abgebaut.
-- [CW_ST_04: Stadt Wildberg - Rathaus & Bürgerservice] 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ in Wildberg: Zentrum Unterstadt - 3. Änderung der Satzung über die förmliche Festlegung des Sanierungsgebietes „Zentrum Unterstadt“ in Wildberg Öffentliche Bekanntmachung
-- [CW_ST_04: Stadt Wildberg - Rathaus & Bürgerservice] Satzung über die Stellplatzverpflichtungen von Wohnungen (Stellplatzsatzung): Satzung über die Stellplatzverpflichtungen von Wohnungen
-- [CW_ST_09: Stadt Bad Herrenalb - Rathaus & Kurbetrieb] § 2 Abs. 1 i. V. m. § 1 Abs. 8 Baugesetzbuch (BauGB): Aufstellungsbeschluss zur Aufhebung des vorhabenbezogenen Bebauungsplans „Neues Wohnen/Kurpromenade“ einschließlich des Vorhaben- und Erschließungsplans
-- [CW_ST_09: Stadt Bad Herrenalb - Rathaus & Kurbetrieb] VOB: Öffentliche Ausschreibung der Ausgleichsmaßnahme, Räumen des Geländes, Erdaushub und Anlegen einer Fettwiese in Bad Herrenalb, Gewann Steinhäusle
-- [CW_GM_15: Gemeinde Simmersfeld - Bürgerservice] Marktrecht Gemeinde Simmersfeld: 200-jähriges Bestehen des Marktrechts in Simmersfeld
-- [CW_GM_15: Gemeinde Simmersfeld - Bürgerservice] Landessanierungsprogramm 2014: 2014
-- [CW_GM_15: Gemeinde Simmersfeld - Bürgerservice] Förderbescheid Trennsystem Freudenstädter Straße BA3: Bewilligung des Förderantrags Trennsystem OT Simmersfeld, Freudenstädter Straße BA3
-- [FDS_ST_04: Stadt Dornstetten - Rathaus & Bürgerservice] § 3 Abs. 2 BauGB: Öffentliche Bekanntmachung des Bebauungsplans „Am Eichwald“, Dornstetten Beteiligung der Öffentlichkeit gem. § 3 Absatz 2 BauGB
-- [FDS_ST_04: Stadt Dornstetten - Rathaus & Bürgerservice] 6. Änderung des Flächennutzungsplans 2030: Öffentliche Auslegung - "6. Änderung des Flächennutzungsplans 2030 des Gemeindeverwaltungsverbands Dornstetten - Frühzeitige Beteiligung"
+RADAR-DELTA COMPACT (2026-11-28)
+- [31: Bürgergeld.org - Richtwerte & Rechner] 13. Änderungsgesetz zum SGB II: Ersetzung des Bürgergeldes durch das Grundsicherungsgeld zum 1. Juli 2026 mit strengeren Mitwirkungspflichten sowie neuen Regelungen zum Vermögen und zu den Wohnkosten
+- [31: Bürgergeld.org - Richtwerte & Rechner] § 12 SGB II: Abschaffung der einjährigen Karenzzeit
+- [ENZ_GM_10: Gemeinde Königsbach-Stein] Kundenselbstablesung Wasserzähler 2026: Selbstablesung des Wasserverbrauchs - Weitergabe der Ablesedaten auch online möglich

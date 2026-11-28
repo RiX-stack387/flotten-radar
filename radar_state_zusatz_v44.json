@@ -4,7 +4,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z2": {
-        "source_hash": "96cfafd5a7e3841aaf186f643a51896adfd64f4ff314247be30b64794c4c90fc",
+        "source_hash": "c8b70975c9c510d5ad6cdb3dc6d6f9a9240642d8109e926aee745c69f3778ff6",
         "legal_hash": "61f31a63fc2ce068969c8467b2eadaf1c275239e2bf821af18260087335517ce",
         "claims": [
             {
@@ -873,7 +873,7 @@
         "last_updated": "2026-10-18T03:10:31.480827+00:00"
     },
     "praxis_slot_ENZ_ST_01": {
-        "source_hash": "6dd496f97a9bc000ac96861f4401cecd7bf1e1782307273c1a7a39f39d31fb78",
+        "source_hash": "e2deab80f857ccd6876c0b600a1c6df2069dc7d5ddfc8e6ab0a434b828f0ab85",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -891,7 +891,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_ST_03": {
-        "source_hash": "5d38004a095eb29b8d87fd1a5515b6586b2d746e25e6185c5f02c0785e44704c",
+        "source_hash": "60ccaf6957074bfed6fd853315c31b1c87279dc65144ece9932601763b50f3e0",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -919,7 +919,7 @@
         "last_updated": "2026-10-18T03:11:06.335858+00:00"
     },
     "praxis_slot_ENZ_ST_05": {
-        "source_hash": "2cc166cb9d822845917126531921ce237b3883df87cfd3245ffb7efa2477240b",
+        "source_hash": "5ac7fdf88fb759e23aa0111d617ccbc38793ac5d542543e9b08df9b1f19616a2",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_01": {
@@ -941,11 +941,11 @@
         "last_updated": "2026-10-18T03:11:32.952177+00:00"
     },
     "praxis_slot_ENZ_GM_03": {
-        "source_hash": "4208ea8c207688b01df74091e1e635ad020e3655affbb988dc93bbdae87d6fde",
+        "source_hash": "11314ad9cc2c6c4e2dbc455e95d2e231db59def3d0a9c7e180219aeb50dce79f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_04": {
-        "source_hash": "a778167748a0d55c34d3273c2ad2ff8b97c0d130e172d01be725e30148953aed",
+        "source_hash": "19b0b1ed9f9afa14e0bf01ecaea64c7b0e3b18e4f4685372bc3fd2faf5e2914d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -973,11 +973,11 @@
         "last_updated": "2026-10-18T03:11:56.691756+00:00"
     },
     "praxis_slot_ENZ_GM_06": {
-        "source_hash": "213dcc4720f9d7465ad31dfa978e7a92a9ea8afc028c5c90f4eac7c447017ac4",
+        "source_hash": "8e9ecc8809244500c424a18e5e008b975e43e4a67cb6d84b0fea57f8fea291a6",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_07": {
-        "source_hash": "f6ffc30bd47f5e541730449376551817018be10f7538e6d37fc37dd13940d01b",
+        "source_hash": "b429e1cc9138a3c2f36734b1df8bc91f26a2838393086330e04844a1fab6b468",
         "legal_hash": "0ccdd0af92d54ed505e34c3d48c63e72c01f41839e7de9da98f4585f4d87f1d4",
         "claims": [
             {
@@ -1005,50 +1005,36 @@
         "last_updated": "2026-11-25T03:29:52.427362+00:00"
     },
     "praxis_slot_ENZ_GM_08": {
-        "source_hash": "d21ddf28001d3db3b28be18d7be9aa8ad792a0349a009c4d19327d5119836013",
+        "source_hash": "28db6c3955eb809be70c1584f2a9e39fb5b7029fdebe6e891cfe2d517d950b9b",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_09": {
-        "source_hash": "213ec078943665401cd18ac575d45ef4b78ab453a679778d7df4cef01eb4aaff",
+        "source_hash": "a70b46658f526012c9451f238dd8a8995e71fc6a4131f8e803c33034a814d81f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_ENZ_GM_10": {
-        "source_hash": "63ccb25845abd56e53644a990e5ee31d295d0aafa4bdb21a47aaf8f4b578f94a",
-        "legal_hash": "3fabe81adce12c039003bf6f45a922f0922362d3123a1b928035c9f3a939bbcb",
+        "source_hash": "627ffb74e474eb6729a93b902f94735d7c1ce848e5578ff0ca2b2d9b9c7059ef",
+        "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
-                "norm": "Gemeinderatsbeschluss Hochwasserschutz 2020",
-                "extracted_value": "5 Mio €",
-                "value_type": "EURO",
-                "context": "Investition der Gemeinde Königsbach-Stein in den Hochwasserschutz",
-                "evidence_location": "2020 hat die Gemeinde Königsbach-Stein beschlossen, 5 Mio € in den Hochwasserschutz zu investieren."
-            },
-            {
-                "norm": "Landesförderung Baden-Württemberg Hochwasserschutz",
-                "extracted_value": "70 %",
-                "value_type": "PERCENT",
-                "context": "Erwartete Förderzuschüsse vom Land Baden-Württemberg für die Sanierung der Hochwasserrückhaltebecken",
-                "evidence_location": "Für die Sanierung der 8 bestehenden Hochwasserrückhaltebecken werden bis zu 70 % Förderzuschüsse vom Land Baden-Württemberg erwartet."
-            },
-            {
-                "norm": "Vollsperrung L571",
-                "extracted_value": "17. November 2026, bis einschließlich Freitag, 27. November 2026",
-                "value_type": "DATE",
-                "context": "Zeitraum der Vollsperrung der L571 zwischen Königsbach und Wössingen",
-                "evidence_location": "Dienstag, 17. November 2026, bis einschließlich Freitag, 27. November 2026"
+                "norm": "Kundenselbstablesung Wasserzähler 2026",
+                "extracted_value": "Selbstablesung des Wasserverbrauchs - Weitergabe der Ablesedaten auch online möglich",
+                "value_type": "TEXT",
+                "context": "Abgabe der Ablesedaten der Wasserzähler für den Verbrauch des Jahres 2026 in der Gemeinde Königsbach-Stein",
+                "evidence_location": "Kundenselbstablesung der Wasserzähler für den Verbrauch 2026 Selbstablesung des Wasserverbrauchs - Weitergabe der Ablesedaten auch online möglich"
             },
             {
                 "norm": "Verkehrsfreigabe L571",
                 "extracted_value": "23.11.2026",
                 "value_type": "DATE",
-                "context": "Vorzeitige Öffnung der L571 zwischen Königsbach und Wössingen",
-                "evidence_location": "L571 ab 23.11.2026 wieder befahrbar"
+                "context": "Vorzeitige Wiederbefahrbarkeit der Landesstraße L571 zwischen Königsbach und Wössingen",
+                "evidence_location": "Vorzeitige Öffnung der L571 zwischen Königsbach und Wössingen L571 ab 23.11.2026 wieder befahrbar"
             }
         ],
-        "last_updated": "2026-11-24T03:30:27.671140+00:00"
+        "last_updated": "2026-11-28T03:31:12.815846+00:00"
     },
     "praxis_slot_ENZ_GM_11": {
-        "source_hash": "fa58a906a94b31793fb04aba6f29107490b25f38fbcb4d70d99584f97329d5b1",
+        "source_hash": "8dc62d4b6d69b5894af33648f1e33732749d788af84ba9261dced01e7d1d091b",
         "legal_hash": "6826fa4e647c63a6f37942bd7ba68b6c9600aa84839f1b388c6fd7ca7d89bfac",
         "claims": [
             {
@@ -1062,7 +1048,7 @@
         "last_updated": "2026-11-17T00:09:19.747347+00:00"
     },
     "praxis_slot_ENZ_GM_12": {
-        "source_hash": "1e0d1f7647dfc7223cb3c4e046de43f9885998cabbb00dba196e441da722e091",
+        "source_hash": "47e2a91bf8f088af9baf663850242b0c76624ff9d5801be683c90a2b20a6eb5d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1076,7 +1062,7 @@
         "last_updated": "2026-10-18T03:12:57.658715+00:00"
     },
     "praxis_slot_ENZ_GM_13": {
-        "source_hash": "51b3ea738be97f46fc136a36aed0ec3c7895038be08fd4ff06153be710e7d132",
+        "source_hash": "e30c142d57a26dd2be7961da67fe3ffefcd2c8337bccbc35a3560d14d7527f83",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1090,7 +1076,7 @@
         "last_updated": "2026-10-18T03:13:06.163032+00:00"
     },
     "praxis_slot_ENZ_GM_14": {
-        "source_hash": "9475ffd43212b5b6a11bcea91cbc7cebc8ec50803dc7dc178bd9051cb4fb8456",
+        "source_hash": "47669416748d050558ae8f6379575f08c8759e5c8dc387ad70e4addb41b0807f",
         "legal_hash": "e7c72b3774300d46f544b175052ea5cdf74035f0a55feb6d708921713eb75e47",
         "claims": [
             {
@@ -1153,7 +1139,7 @@
         "last_updated": "2026-10-30T05:42:04.013512+00:00"
     },
     "praxis_slot_ENZ_GM_17": {
-        "source_hash": "dd892f3f5c82b74d5737577e055e0c930bc745f1bc8945eb3101d2142a02e165",
+        "source_hash": "428ab056ee53a0b0b8e94723f95c31fbb9ec626ecaa5fa55c1a3738a4cfd383a",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1181,7 +1167,7 @@
         "last_updated": "2026-10-18T03:13:48.433816+00:00"
     },
     "praxis_slot_ENZ_GM_19": {
-        "source_hash": "7491a2cab2cff5b395c07a11407d4a580dd7749b69396453359b1bf3e8de76de",
+        "source_hash": "95b642f2a139701ebc5c5cf7b95f8d29622ff4453850bff8d8734b28946d746d",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1195,7 +1181,7 @@
         "last_updated": "2026-10-18T03:13:57.539802+00:00"
     },
     "praxis_slot_ENZ_GM_20": {
-        "source_hash": "94418ea99a6858bee8ab1ee6240ac4a55ee2c6528305119e747c3f757a37f480",
+        "source_hash": "3fb120bf669151c0f0423dbd09d42a0b4350d2e40fc1a4a6ecfda876ec627f74",
         "legal_hash": "bbe708b77ab5d0406fbbcb093e2f767a3dbc2a74913ff00230ce4c99fb74eafb",
         "claims": [
             {
@@ -1209,7 +1195,7 @@
         "last_updated": "2026-10-18T03:14:08.134738+00:00"
     },
     "praxis_slot_ENZ_GM_21": {
-        "source_hash": "a78e170ee5404635124502f5d34d012625ef27144630a413c70c2d33f8bfa1b5",
+        "source_hash": "ce8487c94df9cc7226d784c903ad50b8cf4cd63bc5ee53f48abfcefce61c4681",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1237,7 +1223,7 @@
         "last_updated": "2026-11-09T03:19:50.359834+00:00"
     },
     "praxis_slot_ENZ_GM_22": {
-        "source_hash": "99d3031600c548cdf2cbd052ee72a8d99b34218ae98bc769ee8ed67fb19b932a",
+        "source_hash": "7d31815ea06b8023a8c2097157c1e1ee1b3d0e8c72c05a9edd9ef993fb675a65",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1251,7 +1237,7 @@
         "last_updated": "2026-10-18T03:14:25.465552+00:00"
     },
     "praxis_slot_ENZ_GM_23": {
-        "source_hash": "9ef3fbd840af3a3895949371a0262136a85ad2c600a1c4e75d667234e5b1b376",
+        "source_hash": "6b9ccd39cac712abffa9299f8cd9590f329d63ade97a40ac95e121e265fb0d8f",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "claims": [
             {
@@ -1295,7 +1281,7 @@
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_PF_ENZ_K6_DWD": {
-        "source_hash": "d9fd54062dfc072e15d10c3414186df83306f457e3cb925254af70411e70cd0a",
+        "source_hash": "171c313aecfbcf502b3a8b4e52f53f1ace41203ed59a6337cc1734423eae3320",
         "legal_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "praxis_slot_Z29": {

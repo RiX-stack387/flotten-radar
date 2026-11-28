@@ -1,5 +1,5 @@
 # DEFCON RECHT – Enterprise Edition (Systematische Rechts- & Praxisbasis 2026)
-> Stand: 2026-11-27 04:45:45 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
+> Stand: 2026-11-28 04:43:10 | Multi-Level-Architektur: 8 Ebenen (Bund, Länder, Kommunen, Daseinsvorsorge & IT)
 > Sicherheits-Status: 100 % Air-Gap geschützt (Keine privaten Chroniken / Mandantentrennung aktiv)
 
 # === Ebene 1 – Bund (Das normative Fundament: SGB I-XIV, WoGG, BKGG, Bundesgerichte) ===
@@ -206,9 +206,9 @@
 ## [31] Sektor 31
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **13. Änderungsgesetz zum SGB II** | Das Grundsicherungsgeld ist seit dem 1. Juli 2026 die staatliche Grundsicherung für Arbeitsuchende nach SGB II. | Einführung des Grundsicherungsgeldes zum 01.07.2026 als Nachfolger des Bürgergeldes mit strengeren Mitwirkungspflichten und Vermögensprüfungen. |
-| **§ 20 SGB II** | 563 Euro | Höhe des monatlichen Bürgergeld-Regelsatzes im Jahr 2026 für alleinstehende Erwachsene. |
-| **§ 12 SGB II** | altersabhängiger Freibetrag zwischen 5.000 und 20.000 Euro pro Person | Regelung zum Schonvermögen beim Grundsicherungsgeld ab 1. Juli 2026 unter Wegfall der einjährigen Karenzzeit. |
+| **13. Änderungsgesetz zum SGB II** | Ersetzung des Bürgergeldes durch das Grundsicherungsgeld zum 1. Juli 2026 mit strengeren Mitwirkungspflichten sowie neuen Regelungen zum Vermögen und zu den Wohnkosten | Reform der Grundsicherung für Arbeitsuchende und Ablösung des Bürgergeldes durch das Grundsicherungsgeld |
+| **§ 20 SGB II** | 563 Euro | Monatlicher Regelsatz für alleinstehende Erwachsene im Grundsicherungsgeld 2026 |
+| **§ 12 SGB II** | Abschaffung der einjährigen Karenzzeit (bisher bis zu 40.000 Euro); Festlegung eines altersabhängigen Schonvermögens zwischen 5.000 und 20.000 Euro pro Person mit Prüfung von Anfang an | Neuregelung des Schonvermögens und Streichung der Vermögenskarenzzeit ab dem 1. Juli 2026 |
 
 # === Ebene 2 – Länder (Föderale Transformationsschicht: Landesrecht, Ausführungsgesetze, Landesregeln) ===
 
@@ -451,10 +451,8 @@
 ## [ENZ_GM_10] Sektor ENZ_GM_10
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
 | :--- | :--- | :--- |
-| **Gemeinderatsbeschluss Hochwasserschutz 2020** | 5 Mio € | Investition der Gemeinde Königsbach-Stein in den Hochwasserschutz |
-| **Landesförderung Baden-Württemberg Hochwasserschutz** | 70 % | Erwartete Förderzuschüsse vom Land Baden-Württemberg für die Sanierung der Hochwasserrückhaltebecken |
-| **Vollsperrung L571** | 17. November 2026, bis einschließlich Freitag, 27. November 2026 | Zeitraum der Vollsperrung der L571 zwischen Königsbach und Wössingen |
-| **Verkehrsfreigabe L571** | 23.11.2026 | Vorzeitige Öffnung der L571 zwischen Königsbach und Wössingen |
+| **Kundenselbstablesung Wasserzähler 2026** | Selbstablesung des Wasserverbrauchs - Weitergabe der Ablesedaten auch online möglich | Abgabe der Ablesedaten der Wasserzähler für den Verbrauch des Jahres 2026 in der Gemeinde Königsbach-Stein |
+| **Verkehrsfreigabe L571** | 23.11.2026 | Vorzeitige Wiederbefahrbarkeit der Landesstraße L571 zwischen Königsbach und Wössingen |
 
 ## [ENZ_GM_11] Sektor ENZ_GM_11
 | Norm / AZ | Wert / Parameter | Kontext / Detail |
